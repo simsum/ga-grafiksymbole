@@ -58,6 +58,19 @@ Farben Kälte (oben → unten): `#3A8C4E`, `#6DB07B`, `#A8D2B4`, `#7CA6DE`, `#2E
   - Brenner rechts: Vorlauf x = 110, Rücklauf x = 70.
 - Vorderansicht 140 × 143: Vorlauf x = 42, Rücklauf x = 98, Abgas mittig dahinter.
 
+### Wärmepumpe / Kältemaschine (luftgekühlt, Monoblock)
+
+Neutral gezeichnet, ohne Logos. Jedes Gerät hat immer beide Kreise: Heizen (Kondensatorseite) und Kühlen (Verdampferseite), jeweils mit Vorlauf (VL) und Rücklauf (RL). Die vier Anschlüsse sind nur als angedeutete Flansche an der Unterkante dargestellt, der Schaltschrank sitzt auf der Anschlussseite. „links/rechts“ bezeichnet die Anschlussseite.
+
+| Symbol | Größe | Anschlusspunkte (x; y = Unterkante) |
+|---|---|---|
+| `Waermepumpe_Seite_links` | 260 × 172 | Heizen VL 18, RL 38; Kühlen VL 66, RL 86; y = 172 |
+| `Waermepumpe_Seite_rechts` | 260 × 172 | Heizen VL 242, RL 222; Kühlen VL 194, RL 174; y = 172 |
+| `Waermepumpe_Draufsicht_links` | 260 × 124 | Heizen VL 14, RL 32; Kühlen VL 58, RL 76; y = 124 |
+| `Waermepumpe_Draufsicht_rechts` | 260 × 124 | Heizen VL 246, RL 228; Kühlen VL 202, RL 184; y = 124 |
+
+Flanschfarben: Heizen VL `#D7302B`, RL `#F29A38`; Kühlen VL `#2E6BC2`, RL `#7CA6DE`. Die Bezeichnung der Kreise erfolgt über Labels, z. B. `WP01-H`, `WP01-K` (siehe Anlagenkennzeichnung im Styleguide).
+
 ### Absperrklappe Wasser
 
 - Waagerecht: mit Antrieb 50 × 65, ohne Antrieb 50 × 30, Rohrachse y = 15 (`Absperrklappe_<Stellung>[_ohne_Antrieb]_waagerecht`).

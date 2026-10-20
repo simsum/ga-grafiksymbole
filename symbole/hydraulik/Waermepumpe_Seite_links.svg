@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="172" viewBox="0 0 260 172" role="img" aria-labelledby="title">
+  <title id="title">Wärmepumpe/Kältemaschine luftgekühlt mit Anschlüssen Heizen und Kühlen, Seite, Anschluss links</title>
+  <defs>
+    <linearGradient id="gB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E6E6E6"/><stop offset="0.07" stop-color="#E0E0E0"/><stop offset="1" stop-color="#999999"/></linearGradient>
+    <linearGradient id="gC" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4F7BE6"/><stop offset="0.5" stop-color="#2F5FD0"/><stop offset="1" stop-color="#1B3A99"/></linearGradient>
+    <linearGradient id="gF" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#55606D"/><stop offset="0.5" stop-color="#3B4654"/><stop offset="1" stop-color="#262E38"/></linearGradient>
+    <linearGradient id="gV" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7FAAD8"/><stop offset="1" stop-color="#4A7FB8"/></linearGradient>
+  </defs>
+  <g>
+    <rect x="4" y="150" width="252" height="10" rx="1.5" fill="#4A4F55" stroke="#2E3237" stroke-width="1.2"/>
+    <rect x="64" y="96" width="188" height="50" fill="#D9DCDF" stroke="#999999" stroke-width="2"/>
+    <rect x="82" y="106" width="20" height="40" rx="8" fill="url(#gC)" stroke="#16296E" stroke-width="1.2"/>
+    <rect x="98" y="118" width="9" height="14" rx="2" fill="#2B2F36"/>
+    <rect x="124" y="106" width="20" height="40" rx="8" fill="url(#gC)" stroke="#16296E" stroke-width="1.2"/>
+    <rect x="140" y="118" width="9" height="14" rx="2" fill="#2B2F36"/>
+    <rect x="166" y="106" width="20" height="40" rx="8" fill="url(#gC)" stroke="#16296E" stroke-width="1.2"/>
+    <rect x="182" y="118" width="9" height="14" rx="2" fill="#2B2F36"/>
+    <rect x="208" y="106" width="20" height="40" rx="8" fill="url(#gC)" stroke="#16296E" stroke-width="1.2"/>
+    <rect x="224" y="118" width="9" height="14" rx="2" fill="#2B2F36"/>
+    <rect x="64" y="30" width="188" height="8" fill="url(#gB)" stroke="#999999" stroke-width="2"/>
+    <rect x="64" y="38" width="188" height="58" fill="#EEF0F2" stroke="#999999" stroke-width="2"/>
+    <polygon points="67.0,38 108.0,38 87.5,96" fill="url(#gV)" stroke="#3F6FA8" stroke-width="1.6" stroke-linejoin="round"/>
+    <polygon points="76.0,38 99.0,38 87.5,78" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1"/>
+    <polygon points="114.0,38 155.0,38 134.5,96" fill="url(#gV)" stroke="#3F6FA8" stroke-width="1.6" stroke-linejoin="round"/>
+    <polygon points="123.0,38 146.0,38 134.5,78" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1"/>
+    <polygon points="161.0,38 202.0,38 181.5,96" fill="url(#gV)" stroke="#3F6FA8" stroke-width="1.6" stroke-linejoin="round"/>
+    <polygon points="170.0,38 193.0,38 181.5,78" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1"/>
+    <polygon points="208.0,38 249.0,38 228.5,96" fill="url(#gV)" stroke="#3F6FA8" stroke-width="1.6" stroke-linejoin="round"/>
+    <polygon points="217.0,38 240.0,38 228.5,78" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1"/>
+    <rect x="67.5" y="16" width="40" height="14" fill="url(#gF)"/>
+    <ellipse cx="87.5" cy="16" rx="20" ry="6" fill="#2B3440" stroke="#6B7480" stroke-width="1.6"/>
+    <ellipse cx="87.5" cy="16" rx="12" ry="3.4" fill="none" stroke="#8A94A0" stroke-width="1"/>
+    <ellipse cx="87.5" cy="16" rx="3" ry="1.2" fill="#8A94A0"/>
+    <rect x="114.5" y="16" width="40" height="14" fill="url(#gF)"/>
+    <ellipse cx="134.5" cy="16" rx="20" ry="6" fill="#2B3440" stroke="#6B7480" stroke-width="1.6"/>
+    <ellipse cx="134.5" cy="16" rx="12" ry="3.4" fill="none" stroke="#8A94A0" stroke-width="1"/>
+    <ellipse cx="134.5" cy="16" rx="3" ry="1.2" fill="#8A94A0"/>
+    <rect x="161.5" y="16" width="40" height="14" fill="url(#gF)"/>
+    <ellipse cx="181.5" cy="16" rx="20" ry="6" fill="#2B3440" stroke="#6B7480" stroke-width="1.6"/>
+    <ellipse cx="181.5" cy="16" rx="12" ry="3.4" fill="none" stroke="#8A94A0" stroke-width="1"/>
+    <ellipse cx="181.5" cy="16" rx="3" ry="1.2" fill="#8A94A0"/>
+    <rect x="208.5" y="16" width="40" height="14" fill="url(#gF)"/>
+    <ellipse cx="228.5" cy="16" rx="20" ry="6" fill="#2B3440" stroke="#6B7480" stroke-width="1.6"/>
+    <ellipse cx="228.5" cy="16" rx="12" ry="3.4" fill="none" stroke="#8A94A0" stroke-width="1"/>
+    <ellipse cx="228.5" cy="16" rx="3" ry="1.2" fill="#8A94A0"/>
+    <rect x="4" y="60" width="56" height="90" fill="#F2F2F2" stroke="#999999" stroke-width="2"/><line x1="32.0" y1="62" x2="32.0" y2="148" stroke="#B5B5B5" stroke-width="1.2"/><circle cx="27.0" cy="105.0" r="3.2" fill="#4D4D4D"/>
+    <rect x="15" y="160" width="6" height="4" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="10" y="164" width="16" height="5" rx="1" fill="#D7302B" stroke="#6B6B6B" stroke-width="1"/><rect x="35" y="160" width="6" height="4" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="30" y="164" width="16" height="5" rx="1" fill="#F29A38" stroke="#6B6B6B" stroke-width="1"/><rect x="63" y="160" width="6" height="4" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="58" y="164" width="16" height="5" rx="1" fill="#2E6BC2" stroke="#6B6B6B" stroke-width="1"/><rect x="83" y="160" width="6" height="4" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="78" y="164" width="16" height="5" rx="1" fill="#7CA6DE" stroke="#6B6B6B" stroke-width="1"/>
+  </g>
+</svg>

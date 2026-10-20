@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="260" height="124" viewBox="0 0 260 124" role="img" aria-labelledby="title">
-  <title id="title">Wärmepumpe/Kältemaschine luftgekühlt mit Anschlüssen Heizen und Kühlen, Draufsicht, Anschluss rechts</title>
+  <title id="title">Mehrleitermaschine luftgekühlt mit Anschlüssen Heizen und Kühlen, Draufsicht, Anschluss links</title>
   <defs>
     <linearGradient id="gB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E6E6E6"/><stop offset="0.07" stop-color="#E0E0E0"/><stop offset="1" stop-color="#999999"/></linearGradient>
     <linearGradient id="gC" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4F7BE6"/><stop offset="0.5" stop-color="#2F5FD0"/><stop offset="1" stop-color="#1B3A99"/></linearGradient>
     <linearGradient id="gF" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#55606D"/><stop offset="0.5" stop-color="#3B4654"/><stop offset="1" stop-color="#262E38"/></linearGradient>
     <linearGradient id="gV" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7FAAD8"/><stop offset="1" stop-color="#4A7FB8"/></linearGradient>
   </defs>
-  <g transform="translate(260 0) scale(-1 1)">
+  <g>
     <rect x="5" y="10" width="250" height="104" rx="5" fill="url(#gB)" stroke="#999999" stroke-width="2"/>
     <rect x="5" y="10" width="38" height="98" fill="#F2F2F2" stroke="#999999" stroke-width="2"/><line x1="24.0" y1="12" x2="24.0" y2="106" stroke="#B5B5B5" stroke-width="1.2"/><circle cx="19.0" cy="59.0" r="3.2" fill="#4D4D4D"/>
     <circle cx="76" cy="36" r="18" fill="#2B3440" stroke="#6B7480" stroke-width="2"/>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" viewBox="0 0 30 50">
+  <g transform="translate(0 50) rotate(-90)">
+  <!-- Absperrklappe Wasser, Stellung: auf; Rohrachse x=15, senkrecht -->
+  <defs><linearGradient id="gV" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E6E6E6"/><stop offset="0.07" stop-color="#E0E0E0"/><stop offset="1" stop-color="#999999"/></linearGradient></defs>
+  
+  <!-- Gehaeuse zwischen Flanschen -->
+  <rect x="4" y="9" width="42" height="12" fill="url(#gV)" stroke="#999999" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="1.5" y="3.5" width="4" height="23" rx="1" fill="url(#gV)" stroke="#999999" stroke-width="2"/>
+  <rect x="44.5" y="3.5" width="4" height="23" rx="1" fill="url(#gV)" stroke="#999999" stroke-width="2"/>
+  <circle cx="25" cy="15" r="10" fill="url(#gV)" stroke="#999999" stroke-width="2.4"/>
+  <!-- Klappenscheibe -->
+  <line x1="17" y1="15" x2="33" y2="15" stroke="#2EAA3A" stroke-width="3.2" stroke-linecap="round" transform="rotate(0 25 15)"/>
+  <circle cx="25" cy="15" r="2" fill="#2EAA3A"/>
+</g>
+</svg>

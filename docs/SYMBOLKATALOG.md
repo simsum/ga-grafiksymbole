@@ -60,7 +60,8 @@ Farben Kälte (oben → unten): `#3A8C4E`, `#6DB07B`, `#A8D2B4`, `#7CA6DE`, `#2E
 
 ### Absperrklappe Wasser
 
-- Mit Antrieb 50 × 65, ohne Antrieb 50 × 30, Rohrachse y = 15.
+- Waagerecht: mit Antrieb 50 × 65, ohne Antrieb 50 × 30, Rohrachse y = 15 (`Absperrklappe_<Stellung>[_ohne_Antrieb]_waagerecht`).
+- Senkrecht: mit Antrieb 65 × 50, ohne Antrieb 30 × 50, Rohrachse x = 15, Antrieb rechts (`..._senkrecht`).
 - Stellungen: `neutral` (Scheibe schräg, grau), `auf` (waagerecht, grün `#2EAA3A`), `zu` (senkrecht, rot `#E0302A`).
 - Endlagen-Marker 16 × 16: `Endlage_auf` (grün, waagerechter Strich), `Endlage_zu` (rot, senkrechter Strich).
 

@@ -9,8 +9,8 @@ Beiträge sind willkommen: neue Symbole, Varianten oder Korrekturen.
 - Farben, Verläufe und Strichstärken nach [docs/STYLEGUIDE.md](docs/STYLEGUIDE.md).
 - Richtungssymbole in allen vier Richtungen (`_rechts`, `_links`, `_oben`, `_unten`).
 - Symbole einer Familie mit identischer Größe.
-- Dateiname `<Symbol>_<Richtung/Variante>.svg`, Umlaute ausgeschrieben, keine Leerzeichen.
-- Eine gleichnamige PNG beilegen (Ausweichlösung).
+- Dateiname `<Symbol>_<Richtung/Variante>.svg`, Umlaute ausgeschrieben, keine Leerzeichen, keine Bindestriche (Niagara mag sie nicht).
+- Eine gleichnamige PNG beilegen (Ausweichlösung), im selben Ordner.
 - Größe und Anschlusspunkte in [docs/SYMBOLKATALOG.md](docs/SYMBOLKATALOG.md) eintragen.
 - Nur eigene Zeichnungen einreichen, keine Kopien aus Herstellerbibliotheken.
 
@@ -24,4 +24,4 @@ Das Skript läuft auch automatisch bei jedem Push und Pull Request (GitHub Actio
 
 ## Lizenz
 
-Mit einem Beitrag stimmen Sie zu, dass er unter der [MIT-Lizenz](LICENSE) des Projekts veröffentlicht wird.
+Mit einem Beitrag stimmen Sie zu, dass er unter der Lizenz [CC BY 4.0](LICENSE) des Projekts veröffentlicht wird.

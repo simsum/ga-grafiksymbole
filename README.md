@@ -17,10 +17,49 @@ docs/
   STYLEGUIDE.md          Farben, Strichstärken, Proportionen
   NIAGARA.md             Einbindung in Px, Positionierung, Fallstricke
   SYMBOLKATALOG.md       Abmessungen und Anschlusspunkte je Symbol
-  uebersicht/            Übersichtsgrafiken mit Hinweisen zu den Symbolen
+  uebersicht/            Übersichtsgrafik je Symbolverzeichnis (PNG)
 tools/
   check_symbols.py       Prüft SVGs auf Regeln (kein <text>, Namensschema, PNG vorhanden)
 ```
+
+## Übersicht der Symbole
+
+Jede Grafik zeigt alle Symbole eines Verzeichnisses mit Dateinamen und Größe.
+
+### Lüftung – `symbole/lueftung`
+![Lüftung](docs/uebersicht/Uebersicht_lueftung.png)
+
+### Hydraulik – `symbole/hydraulik`
+![Hydraulik](docs/uebersicht/Uebersicht_hydraulik.png)
+
+### Anzeigen – `symbole/anzeigen`
+![Anzeigen](docs/uebersicht/Uebersicht_anzeigen.png)
+
+### Topologie – `symbole/topologie`
+
+**Controller und I/O-Module** (`controller_io`)
+![Controller und IO](docs/uebersicht/Uebersicht_topologie_controller_io.png)
+
+**Netzwerk** (`netzwerk`)
+![Netzwerk](docs/uebersicht/Uebersicht_topologie_netzwerk.png)
+
+**Infrastruktur** (`infrastruktur`)
+![Infrastruktur](docs/uebersicht/Uebersicht_topologie_infrastruktur.png)
+
+**Allgemeine Geräte** (`geraete`)
+![Geräte](docs/uebersicht/Uebersicht_topologie_geraete.png)
+
+**Ventile** (`ventile`)
+![Ventile](docs/uebersicht/Uebersicht_topologie_ventile.png)
+
+**Energiezähler** (`energiezaehler`)
+![Energiezähler](docs/uebersicht/Uebersicht_topologie_energiezaehler.png)
+
+**Wasserzähler** (`wasserzaehler`)
+![Wasserzähler](docs/uebersicht/Uebersicht_topologie_wasserzaehler.png)
+
+**Schaltschränke** (`schaltschraenke`)
+![Schaltschränke](docs/uebersicht/Uebersicht_topologie_schaltschraenke.png)
 
 ## Verwendung in Niagara
 
@@ -47,4 +86,6 @@ Die Nutzung erfolgt auf eigene Verantwortung, ohne Gewähr.
 
 ## Lizenz
 
-[MIT](LICENSE)
+[Creative Commons Namensnennung 4.0 International (CC BY 4.0)](LICENSE)
+
+Die Symbole dürfen frei genutzt, verändert und weitergegeben werden, auch kommerziell, wenn die Urheberschaft genannt wird, zum Beispiel: „Symbole: Sven Steinmeier, https://github.com/simsum/ga-grafiksymbole, CC BY 4.0“. Änderungen sind kenntlich zu machen.

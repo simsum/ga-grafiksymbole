@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="140" viewBox="0 0 92 140" role="img" aria-labelledby="title desc">
+  <title id="title">Honeywell IOD-4DORE</title>
+  <desc id="desc">Vereinfachtes, frei skalierbares Topologie-Symbol ohne sichtbare Beschriftung.</desc>
+  
+  <g id="device">
+    <rect x="6" y="8" width="80" height="124" rx="5" fill="#0a0e11" opacity="0.35"/>
+    <rect x="6" y="6" width="80" height="124" rx="5" fill="#20262b" stroke="#080b0e" stroke-width="1.5"/>
+    <rect x="6" y="17" width="80" height="10" fill="#11161a"/>
+    <rect x="6" y="106" width="80" height="10" fill="#11161a"/>
+    <rect x="6" y="6" width="5" height="124" rx="2" fill="#d71920"/>
+    
+      <rect x="14.00" y="9" width="11.60" height="8" rx="1.2" fill="#d5a128" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="19.80" cy="13" r="1.2" fill="#11161a"/>
+      <rect x="27.10" y="9" width="11.60" height="8" rx="1.2" fill="#d5a128" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="32.90" cy="13" r="1.2" fill="#11161a"/>
+      <rect x="40.20" y="9" width="11.60" height="8" rx="1.2" fill="#d5a128" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="46.00" cy="13" r="1.2" fill="#11161a"/>
+      <rect x="53.30" y="9" width="11.60" height="8" rx="1.2" fill="#d5a128" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="59.10" cy="13" r="1.2" fill="#11161a"/>
+      <rect x="66.40" y="9" width="11.60" height="8" rx="1.2" fill="#d5a128" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="72.20" cy="13" r="1.2" fill="#11161a"/>
+    
+      <rect x="14.00" y="118" width="11.60" height="8" rx="1.2" fill="#d5a128" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="19.80" cy="122" r="1.2" fill="#11161a"/>
+      <rect x="27.10" y="118" width="11.60" height="8" rx="1.2" fill="#d5a128" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="32.90" cy="122" r="1.2" fill="#11161a"/>
+      <rect x="40.20" y="118" width="11.60" height="8" rx="1.2" fill="#d5a128" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="46.00" cy="122" r="1.2" fill="#11161a"/>
+      <rect x="53.30" y="118" width="11.60" height="8" rx="1.2" fill="#d5a128" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="59.10" cy="122" r="1.2" fill="#11161a"/>
+      <rect x="66.40" y="118" width="11.60" height="8" rx="1.2" fill="#d5a128" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="72.20" cy="122" r="1.2" fill="#11161a"/>
+    
+    <path d="M3 44h5v10H3zM3 86h5v10H3z" fill="#d71920" stroke="#080b0e" stroke-width="0.8"/>
+    <path d="M84 44h5v10h-5zM84 86h5v10h-5z" fill="#d71920" stroke="#080b0e" stroke-width="0.8"/>
+    
+    <rect x="13" y="36" width="8" height="61" rx="3" fill="#11161a"/>
+    <circle cx="17" cy="43" r="2" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="17" cy="52" r="2" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="17" cy="61" r="2" fill="#f0b429" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="17" cy="88" r="3" fill="#353e45" stroke="#080b0e" stroke-width="0.8"/>
+    
+      <rect x="26" y="36" width="56" height="62" rx="4" fill="#20252a" stroke="#080b0e" stroke-width="1"/>
+      <rect x="37" y="42" width="34" height="10" rx="2" fill="#b6e7e9" stroke="#54c7d9" stroke-width="1"/>
+      <circle cx="39.00" cy="55" r="2.4" fill="#d5a128" stroke="#080b0e" stroke-width="0.7"/><circle cx="49.00" cy="55" r="2.4" fill="#d5a128" stroke="#080b0e" stroke-width="0.7"/><circle cx="59.00" cy="55" r="2.4" fill="#d5a128" stroke="#080b0e" stroke-width="0.7"/><circle cx="69.00" cy="55" r="2.4" fill="#d5a128" stroke="#080b0e" stroke-width="0.7"/>
+      <path d="M34 90h40" stroke="#353e45" stroke-width="1.2" stroke-dasharray="2 3"/>
+    <path d="M69 32l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z" fill="#f0b429" stroke="#080b0e" stroke-width="0.6"/>
+    <path d="M15 29h62M15 104h62" stroke="#7c8790" stroke-width="1"/>
+  </g>
+  <g id="connection-anchors" fill="none" stroke="none">
+    <circle id="anchor-left" cx="0" cy="70" r="1"/>
+    <circle id="anchor-right" cx="92" cy="70" r="1"/>
+    <circle id="anchor-top" cx="46" cy="0" r="1"/>
+    <circle id="anchor-bottom" cx="46" cy="140" r="1"/>
+  </g>
+</svg>

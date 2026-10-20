@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="140" viewBox="0 0 50 140" role="img" aria-labelledby="title desc">
+  <title id="title">Honeywell IO-ADPT-S</title>
+  <desc id="desc">Vereinfachtes, frei skalierbares Topologie-Symbol ohne sichtbare Beschriftung.</desc>
+  
+  <g id="device">
+    <rect x="6" y="8" width="38" height="124" rx="5" fill="#0a0e11" opacity="0.35"/>
+    <rect x="6" y="6" width="38" height="124" rx="5" fill="#20262b" stroke="#080b0e" stroke-width="1.5"/>
+    <rect x="6" y="6" width="5" height="124" rx="2" fill="#d71920"/>
+    <rect x="14" y="18" width="22" height="18" rx="2" fill="#11161a"/>
+    
+      <rect x="15.00" y="22" width="5.67" height="8" rx="1.2" fill="#ee6f2d" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="17.83" cy="26" r="1.2" fill="#11161a"/>
+      <rect x="22.17" y="22" width="5.67" height="8" rx="1.2" fill="#ee6f2d" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="25.00" cy="26" r="1.2" fill="#11161a"/>
+      <rect x="29.33" y="22" width="5.67" height="8" rx="1.2" fill="#ee6f2d" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="32.17" cy="26" r="1.2" fill="#11161a"/>
+    <path d="M14 46h22v48H14z" fill="#353e45" stroke="#7c8790" stroke-width="1"/>
+    <circle cx="25" cy="56" r="2.4" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="25" cy="67" r="2.4" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+    <path d="M18 79h14M18 85h14" stroke="#11161a" stroke-width="1.4"/>
+    <rect x="14" y="104" width="22" height="15" rx="2" fill="#11161a"/>
+    
+    <path d="M3 44h5v10H3zM3 86h5v10H3z" fill="#d71920" stroke="#080b0e" stroke-width="0.8"/>
+    <path d="M42 44h5v10h-5zM42 86h5v10h-5z" fill="#d71920" stroke="#080b0e" stroke-width="0.8"/>
+  </g>
+  <g id="connection-anchors" fill="none" stroke="none">
+    <circle id="anchor-left" cx="0" cy="70" r="1"/>
+    <circle id="anchor-right" cx="50" cy="70" r="1"/>
+    <circle id="anchor-top" cx="25" cy="0" r="1"/>
+    <circle id="anchor-bottom" cx="25" cy="140" r="1"/>
+  </g>
+</svg>

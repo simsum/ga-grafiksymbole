@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="140" viewBox="0 0 130 140" role="img" aria-labelledby="title desc">
+  <title id="title">Honeywell IOD-16UIO</title>
+  <desc id="desc">Vereinfachtes, frei skalierbares Topologie-Symbol ohne sichtbare Beschriftung.</desc>
+  
+  <g id="device">
+    <rect x="6" y="8" width="118" height="124" rx="5" fill="#0a0e11" opacity="0.35"/>
+    <rect x="6" y="6" width="118" height="124" rx="5" fill="#20262b" stroke="#080b0e" stroke-width="1.5"/>
+    <rect x="6" y="17" width="118" height="10" fill="#11161a"/>
+    <rect x="6" y="106" width="118" height="10" fill="#11161a"/>
+    <rect x="6" y="6" width="5" height="124" rx="2" fill="#d71920"/>
+    
+      <rect x="14.00" y="9" width="11.44" height="8" rx="1.2" fill="#8c67b3" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="19.72" cy="13" r="1.2" fill="#11161a"/>
+      <rect x="26.94" y="9" width="11.44" height="8" rx="1.2" fill="#8c67b3" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="32.66" cy="13" r="1.2" fill="#11161a"/>
+      <rect x="39.88" y="9" width="11.44" height="8" rx="1.2" fill="#8c67b3" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="45.59" cy="13" r="1.2" fill="#11161a"/>
+      <rect x="52.81" y="9" width="11.44" height="8" rx="1.2" fill="#8c67b3" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="58.53" cy="13" r="1.2" fill="#11161a"/>
+      <rect x="65.75" y="9" width="11.44" height="8" rx="1.2" fill="#8c67b3" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="71.47" cy="13" r="1.2" fill="#11161a"/>
+      <rect x="78.69" y="9" width="11.44" height="8" rx="1.2" fill="#8c67b3" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="84.41" cy="13" r="1.2" fill="#11161a"/>
+      <rect x="91.63" y="9" width="11.44" height="8" rx="1.2" fill="#8c67b3" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="97.34" cy="13" r="1.2" fill="#11161a"/>
+      <rect x="104.56" y="9" width="11.44" height="8" rx="1.2" fill="#8c67b3" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="110.28" cy="13" r="1.2" fill="#11161a"/>
+    
+      <rect x="14.00" y="118" width="11.44" height="8" rx="1.2" fill="#8c67b3" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="19.72" cy="122" r="1.2" fill="#11161a"/>
+      <rect x="26.94" y="118" width="11.44" height="8" rx="1.2" fill="#8c67b3" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="32.66" cy="122" r="1.2" fill="#11161a"/>
+      <rect x="39.88" y="118" width="11.44" height="8" rx="1.2" fill="#8c67b3" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="45.59" cy="122" r="1.2" fill="#11161a"/>
+      <rect x="52.81" y="118" width="11.44" height="8" rx="1.2" fill="#8c67b3" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="58.53" cy="122" r="1.2" fill="#11161a"/>
+      <rect x="65.75" y="118" width="11.44" height="8" rx="1.2" fill="#8c67b3" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="71.47" cy="122" r="1.2" fill="#11161a"/>
+      <rect x="78.69" y="118" width="11.44" height="8" rx="1.2" fill="#8c67b3" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="84.41" cy="122" r="1.2" fill="#11161a"/>
+      <rect x="91.63" y="118" width="11.44" height="8" rx="1.2" fill="#8c67b3" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="97.34" cy="122" r="1.2" fill="#11161a"/>
+      <rect x="104.56" y="118" width="11.44" height="8" rx="1.2" fill="#8c67b3" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="110.28" cy="122" r="1.2" fill="#11161a"/>
+    
+    <path d="M3 44h5v10H3zM3 86h5v10H3z" fill="#d71920" stroke="#080b0e" stroke-width="0.8"/>
+    <path d="M122 44h5v10h-5zM122 86h5v10h-5z" fill="#d71920" stroke="#080b0e" stroke-width="0.8"/>
+    
+    <rect x="13" y="36" width="8" height="61" rx="3" fill="#11161a"/>
+    <circle cx="17" cy="43" r="2" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="17" cy="52" r="2" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="17" cy="61" r="2" fill="#f0b429" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="17" cy="88" r="3" fill="#353e45" stroke="#080b0e" stroke-width="0.8"/>
+    
+      <rect x="26" y="36" width="94" height="62" rx="4" fill="#20252a" stroke="#080b0e" stroke-width="1"/>
+      <rect x="56" y="42" width="34" height="10" rx="2" fill="#b6e7e9" stroke="#54c7d9" stroke-width="1"/>
+      <circle cx="38.00" cy="55" r="2.4" fill="#8c67b3" stroke="#080b0e" stroke-width="0.7"/><circle cx="48.00" cy="55" r="2.4" fill="#8c67b3" stroke="#080b0e" stroke-width="0.7"/><circle cx="58.00" cy="55" r="2.4" fill="#8c67b3" stroke="#080b0e" stroke-width="0.7"/><circle cx="68.00" cy="55" r="2.4" fill="#8c67b3" stroke="#080b0e" stroke-width="0.7"/><circle cx="78.00" cy="55" r="2.4" fill="#8c67b3" stroke="#080b0e" stroke-width="0.7"/><circle cx="88.00" cy="55" r="2.4" fill="#8c67b3" stroke="#080b0e" stroke-width="0.7"/><circle cx="98.00" cy="55" r="2.4" fill="#8c67b3" stroke="#080b0e" stroke-width="0.7"/><circle cx="108.00" cy="55" r="2.4" fill="#8c67b3" stroke="#080b0e" stroke-width="0.7"/><circle cx="38.00" cy="80" r="2.4" fill="#8c67b3" stroke="#080b0e" stroke-width="0.7"/><circle cx="48.00" cy="80" r="2.4" fill="#8c67b3" stroke="#080b0e" stroke-width="0.7"/><circle cx="58.00" cy="80" r="2.4" fill="#8c67b3" stroke="#080b0e" stroke-width="0.7"/><circle cx="68.00" cy="80" r="2.4" fill="#8c67b3" stroke="#080b0e" stroke-width="0.7"/><circle cx="78.00" cy="80" r="2.4" fill="#8c67b3" stroke="#080b0e" stroke-width="0.7"/><circle cx="88.00" cy="80" r="2.4" fill="#8c67b3" stroke="#080b0e" stroke-width="0.7"/><circle cx="98.00" cy="80" r="2.4" fill="#8c67b3" stroke="#080b0e" stroke-width="0.7"/><circle cx="108.00" cy="80" r="2.4" fill="#8c67b3" stroke="#080b0e" stroke-width="0.7"/>
+      <path d="M34 90h78" stroke="#353e45" stroke-width="1.2" stroke-dasharray="2 3"/>
+    
+    <path d="M15 29h100M15 104h100" stroke="#7c8790" stroke-width="1"/>
+  </g>
+  <g id="connection-anchors" fill="none" stroke="none">
+    <circle id="anchor-left" cx="0" cy="70" r="1"/>
+    <circle id="anchor-right" cx="130" cy="70" r="1"/>
+    <circle id="anchor-top" cx="65" cy="0" r="1"/>
+    <circle id="anchor-bottom" cx="65" cy="140" r="1"/>
+  </g>
+</svg>

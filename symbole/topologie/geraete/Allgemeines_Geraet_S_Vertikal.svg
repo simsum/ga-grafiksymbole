@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="108" viewBox="0 0 72 108" role="img" aria-labelledby="title desc">
+  <title id="title">Allgemeines Gerät Allgemeines-Geraet-S-Vertikal</title>
+  <desc id="desc">Vereinfachtes, frei skalierbares Topologie-Symbol ohne sichtbare Beschriftung.</desc>
+  
+  <g id="device">
+    <rect x="9" y="10" width="60" height="96" rx="6" fill="#0a0e11" opacity="0.4"/>
+    <rect x="6" y="6" width="60" height="96" rx="6" fill="#20262b" stroke="#080b0e" stroke-width="1.7"/>
+    <rect x="6" y="6" width="7" height="96" rx="3" fill="#d71920"/>
+    <rect x="22" y="30" width="28" height="48" rx="4" fill="#353e45" stroke="#7c8790" stroke-width="1"/>
+    
+      <rect x="20.00" y="13" width="7.88" height="8" rx="1.2" fill="#69737b" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="23.94" cy="17" r="1.2" fill="#11161a"/>
+      <rect x="29.38" y="13" width="7.88" height="8" rx="1.2" fill="#69737b" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="33.31" cy="17" r="1.2" fill="#11161a"/>
+      <rect x="38.75" y="13" width="7.88" height="8" rx="1.2" fill="#69737b" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="42.69" cy="17" r="1.2" fill="#11161a"/>
+      <rect x="48.13" y="13" width="7.88" height="8" rx="1.2" fill="#69737b" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="52.06" cy="17" r="1.2" fill="#11161a"/>
+    
+      <rect x="20.00" y="87" width="7.88" height="8" rx="1.2" fill="#69737b" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="23.94" cy="91" r="1.2" fill="#11161a"/>
+      <rect x="29.38" y="87" width="7.88" height="8" rx="1.2" fill="#69737b" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="33.31" cy="91" r="1.2" fill="#11161a"/>
+      <rect x="38.75" y="87" width="7.88" height="8" rx="1.2" fill="#69737b" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="42.69" cy="91" r="1.2" fill="#11161a"/>
+      <rect x="48.13" y="87" width="7.88" height="8" rx="1.2" fill="#69737b" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="52.06" cy="91" r="1.2" fill="#11161a"/>
+    <circle cx="31" cy="40" r="2" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="31" cy="49" r="2" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="31" cy="58" r="2" fill="#f0b429" stroke="#080b0e" stroke-width="0.7"/>
+    <path d="M43 42h8M43 52h8" stroke="#7c8790" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <g id="connection-anchors" fill="none" stroke="none">
+    <circle id="anchor-left" cx="0" cy="54" r="1"/>
+    <circle id="anchor-right" cx="72" cy="54" r="1"/>
+    <circle id="anchor-top" cx="36" cy="0" r="1"/>
+    <circle id="anchor-bottom" cx="36" cy="108" r="1"/>
+  </g>
+</svg>

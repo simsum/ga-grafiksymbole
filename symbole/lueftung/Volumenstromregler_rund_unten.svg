@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="140" viewBox="0 0 80 140">
+  <!-- Volumenstromregler (Rohr mit Regelklappe und Kompaktregler), Luftrichtung unten -->
+  <g transform="translate(80,0) rotate(90)">
+    <!-- Kanal / Rohr -->
+    <rect x="10" y="32" width="120" height="34" fill="#FFFFFF" stroke="#4B50E6" stroke-width="3"/>
+    <g stroke="#4B50E6" stroke-width="4" stroke-linecap="round"><line x1="10" y1="28" x2="10" y2="70"/><line x1="130" y1="28" x2="130" y2="70"/></g>
+    <!-- Regelklappe -->
+    <line x1="58" y1="62" x2="78" y2="36" stroke="#4B50E6" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="68" cy="49" r="3.5" fill="#4B50E6"/>
+    <!-- Kompaktregler -->
+    <line x1="68" y1="26" x2="68" y2="32" stroke="#4B50E6" stroke-width="3"/>
+    <rect x="50" y="6" width="36" height="21" rx="3" fill="#4B50E6"/>
+    <rect x="55" y="11" width="13" height="8" rx="1" fill="#FFFFFF"/>
+    <circle cx="77" cy="16.5" r="4" fill="#FFFFFF"/>
+    <!-- Luftrichtung -->
+    <path d="M92,49 L118,49 M111,42 L118,49 L111,56" fill="none" stroke="#4B50E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

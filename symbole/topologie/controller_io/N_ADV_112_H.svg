@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="142" height="140" viewBox="0 0 142 140" role="img" aria-labelledby="title desc">
+  <title id="title">Honeywell N-ADV-112-H</title>
+  <desc id="desc">Vereinfachtes, frei skalierbares Topologie-Symbol ohne sichtbare Beschriftung.</desc>
+  
+  <g id="device">
+    <rect x="6" y="8" width="130" height="124" rx="6" fill="#0a0e11" opacity="0.35"/>
+    <rect x="6" y="6" width="130" height="124" rx="6" fill="#20262b" stroke="#080b0e" stroke-width="1.6"/>
+    <rect x="6" y="6" width="7" height="124" rx="3" fill="#d71920"/>
+    <rect x="18" y="15" width="106" height="15" rx="2" fill="#11161a"/>
+    
+      <rect x="23.00" y="18.5" width="14.75" height="8" rx="1.2" fill="#ee6f2d" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="30.38" cy="22.5" r="1.2" fill="#11161a"/>
+      <rect x="39.25" y="18.5" width="14.75" height="8" rx="1.2" fill="#ee6f2d" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="46.63" cy="22.5" r="1.2" fill="#11161a"/>
+      <rect x="55.50" y="18.5" width="14.75" height="8" rx="1.2" fill="#ee6f2d" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="62.88" cy="22.5" r="1.2" fill="#11161a"/>
+      <rect x="71.75" y="18.5" width="14.75" height="8" rx="1.2" fill="#ee6f2d" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="79.13" cy="22.5" r="1.2" fill="#11161a"/>
+      <rect x="88.00" y="18.5" width="14.75" height="8" rx="1.2" fill="#ee6f2d" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="95.38" cy="22.5" r="1.2" fill="#11161a"/>
+      <rect x="104.25" y="18.5" width="14.75" height="8" rx="1.2" fill="#ee6f2d" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="111.63" cy="22.5" r="1.2" fill="#11161a"/>
+    <rect x="22" y="38" width="98" height="56" rx="5" fill="#353e45" stroke="#7c8790" stroke-width="1"/>
+    <rect x="30" y="46" width="50" height="16" rx="2" fill="#20252a"/>
+    <circle cx="38" cy="54" r="2.4" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="47" cy="54" r="2.4" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="56" cy="54" r="2.4" fill="#f0b429" stroke="#080b0e" stroke-width="0.7"/>
+    <path d="M31 69h80" stroke="#7c8790" stroke-width="1.2"/>
+    <circle cx="31" cy="82" r="2.3" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/><circle cx="44" cy="82" r="2.3" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+    <rect x="95" y="43" width="17" height="44" rx="2.5" fill="#11161a"/>
+    <circle cx="103.5" cy="52" r="2.3" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="103.5" cy="62" r="2.3" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="103.5" cy="77" r="3.3" fill="#353e45" stroke="#080b0e" stroke-width="0.8"/>
+    <rect x="6" y="99" width="130" height="27" fill="#11161a"/>
+    
+    <rect x="53" y="104" width="15" height="12" rx="1.5" fill="#111820" stroke="#080b0e" stroke-width="0.8"/>
+    <path d="M56 107h9M57 112h7" stroke="#54c7d9" stroke-width="1.2"/>
+    <rect x="71" y="104" width="15" height="12" rx="1.5" fill="#111820" stroke="#080b0e" stroke-width="0.8"/>
+    <path d="M74 107h9M75 112h7" stroke="#54c7d9" stroke-width="1.2"/>
+    
+    <path d="M3 44h5v10H3zM3 86h5v10H3z" fill="#d71920" stroke="#080b0e" stroke-width="0.8"/>
+    <path d="M134 44h5v10h-5zM134 86h5v10h-5z" fill="#d71920" stroke="#080b0e" stroke-width="0.8"/>
+  </g>
+  <g id="connection-anchors" fill="none" stroke="none">
+    <circle id="anchor-left" cx="0" cy="70" r="1"/>
+    <circle id="anchor-right" cx="142" cy="70" r="1"/>
+    <circle id="anchor-top" cx="71" cy="0" r="1"/>
+    <circle id="anchor-bottom" cx="71" cy="140" r="1"/>
+  </g>
+</svg>

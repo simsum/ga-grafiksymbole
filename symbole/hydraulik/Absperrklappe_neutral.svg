@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="65" viewBox="0 0 50 65">
+  <!-- Absperrklappe Wasser mit Antrieb, Stellung: neutral; Rohrachse y=15 -->
+  <defs><linearGradient id="gV" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E6E6E6"/><stop offset="0.07" stop-color="#E0E0E0"/><stop offset="1" stop-color="#999999"/></linearGradient></defs>
+  <rect x="24.4" y="25" width="1.2" height="5.5" fill="#808080" stroke="#808080" stroke-width="2.4"/>
+  <circle cx="25" cy="46" r="15.8" fill="#F2F2F2" stroke="#808080" stroke-width="2.4"/>
+  <polygon points="17.5,55.5 17.5,38.2 22.6,38.2 25,48.5 27.4,38.2 32.5,38.2 32.5,55.5 29.3,55.5 29.3,43.5 26.5,53.5 23.5,53.5 20.7,43.5 20.7,55.5" fill="#666666"/>
+  <!-- Gehaeuse zwischen Flanschen -->
+  <rect x="4" y="9" width="42" height="12" fill="url(#gV)" stroke="#999999" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="1.5" y="3.5" width="4" height="23" rx="1" fill="url(#gV)" stroke="#999999" stroke-width="2"/>
+  <rect x="44.5" y="3.5" width="4" height="23" rx="1" fill="url(#gV)" stroke="#999999" stroke-width="2"/>
+  <circle cx="25" cy="15" r="10" fill="url(#gV)" stroke="#999999" stroke-width="2.4"/>
+  <!-- Klappenscheibe -->
+  <line x1="17" y1="15" x2="33" y2="15" stroke="#666666" stroke-width="3.2" stroke-linecap="round" transform="rotate(-45 25 15)"/>
+  <circle cx="25" cy="15" r="2" fill="#666666"/>
+</svg>

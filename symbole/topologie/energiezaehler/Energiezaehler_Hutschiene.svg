@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="154" viewBox="0 0 112 154" role="img" aria-labelledby="title desc">
+  <title id="title">Energiezähler Hutschienenausführung</title>
+  <desc id="desc">Vereinfachtes, frei skalierbares Topologie-Symbol ohne sichtbare Beschriftung.</desc>
+  
+  <g id="device">
+    <rect x="9" y="8" width="94" height="138" rx="6" fill="#0a0e11" opacity="0.4"/>
+    <rect x="6" y="5" width="94" height="138" rx="6" fill="#252c31" stroke="#080b0e" stroke-width="1.7"/>
+    <rect x="6" y="5" width="7" height="138" rx="3" fill="#c92b31"/>
+    
+      <rect x="18.00" y="10" width="10.58" height="8" rx="1.2" fill="#77828a" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="23.29" cy="14" r="1.2" fill="#11161a"/>
+      <rect x="30.08" y="10" width="10.58" height="8" rx="1.2" fill="#77828a" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="35.38" cy="14" r="1.2" fill="#11161a"/>
+      <rect x="42.17" y="10" width="10.58" height="8" rx="1.2" fill="#77828a" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="47.46" cy="14" r="1.2" fill="#11161a"/>
+      <rect x="54.25" y="10" width="10.58" height="8" rx="1.2" fill="#77828a" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="59.54" cy="14" r="1.2" fill="#11161a"/>
+      <rect x="66.33" y="10" width="10.58" height="8" rx="1.2" fill="#77828a" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="71.63" cy="14" r="1.2" fill="#11161a"/>
+      <rect x="78.42" y="10" width="10.58" height="8" rx="1.2" fill="#77828a" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="83.71" cy="14" r="1.2" fill="#11161a"/>
+    
+      <rect x="18.00" y="125" width="10.58" height="8" rx="1.2" fill="#77828a" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="23.29" cy="129" r="1.2" fill="#11161a"/>
+      <rect x="30.08" y="125" width="10.58" height="8" rx="1.2" fill="#77828a" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="35.38" cy="129" r="1.2" fill="#11161a"/>
+      <rect x="42.17" y="125" width="10.58" height="8" rx="1.2" fill="#77828a" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="47.46" cy="129" r="1.2" fill="#11161a"/>
+      <rect x="54.25" y="125" width="10.58" height="8" rx="1.2" fill="#77828a" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="59.54" cy="129" r="1.2" fill="#11161a"/>
+      <rect x="66.33" y="125" width="10.58" height="8" rx="1.2" fill="#77828a" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="71.63" cy="129" r="1.2" fill="#11161a"/>
+      <rect x="78.42" y="125" width="10.58" height="8" rx="1.2" fill="#77828a" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="83.71" cy="129" r="1.2" fill="#11161a"/>
+    <rect x="19" y="29" width="68" height="52" rx="4" fill="#12171b" stroke="#7c8790" stroke-width="1"/>
+    <rect x="27" y="37" width="52" height="25" rx="2" fill="#83d2e3"/>
+    <path d="M33 56v-8h8v8M47 56V43h8v13M61 56v-6h8v6" fill="none" stroke="#225e6b" stroke-width="2.5"/>
+    <circle cx="31" cy="70" r="2" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="40" cy="70" r="2" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="49" cy="70" r="2" fill="#f0b429" stroke="#080b0e" stroke-width="0.7"/>
+    <rect x="25" y="91" width="22" height="16" rx="2" fill="#0b1014" stroke="#7c8790" stroke-width="0.8"/>
+    <path d="M29 96h14M31 102h10" stroke="#54c7d9" stroke-width="1.2"/>
+    <circle cx="71" cy="99" r="8" fill="#353e45" stroke="#7c8790" stroke-width="1"/>
+    <path d="M66 99h10M71 94v10" stroke="#54c7d9" stroke-width="1.2"/>
+  </g>
+  <g id="connection-anchors" fill="none" stroke="none">
+    <circle id="anchor-left" cx="0" cy="77" r="1"/>
+    <circle id="anchor-right" cx="112" cy="77" r="1"/>
+    <circle id="anchor-top" cx="56" cy="0" r="1"/>
+    <circle id="anchor-bottom" cx="56" cy="154" r="1"/>
+  </g>
+</svg>

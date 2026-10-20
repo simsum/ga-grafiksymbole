@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="194" height="124" viewBox="0 0 194 124" role="img" aria-labelledby="title desc">
+  <title id="title">Allgemeiner Wasserzähler Wasserzaehler-Ultraschall</title>
+  <desc id="desc">Vereinfachtes, frei skalierbares Topologie-Symbol ohne sichtbare Beschriftung.</desc>
+  
+  <g id="device">
+    <path d="M20 86.8H174" stroke="#6f7a82" stroke-width="20" stroke-linecap="round"/>
+    
+      <path d="M7 75.8h24v22H7l-5-7v-8z" fill="#879198" stroke="#080b0e" stroke-width="1"/>
+      <path d="M187 75.8h-24v22h24l5-7v-8z" fill="#879198" stroke="#080b0e" stroke-width="1"/>
+    <rect x="61" y="64.8" width="72" height="44" rx="12" fill="#3c86ae" stroke="#080b0e" stroke-width="1.5"/>
+    <path d="M69 86.8h56" stroke="#d6e0e5" stroke-width="3" opacity="0.65"/>
+    
+      <rect x="63" y="22" width="68" height="43" rx="7" fill="#3c86ae" stroke="#174e6c" stroke-width="1.5"/>
+      <rect x="73" y="31" width="48" height="18" rx="3" fill="#9be2e8"/>
+      <path d="M80 44h34" stroke="#246875" stroke-width="2"/>
+      <circle cx="82" cy="57" r="2" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+      <circle cx="91" cy="57" r="2" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+    <rect x="89" y="61" width="16" height="10.799999999999997" fill="#174e6c" stroke="#080b0e" stroke-width="1"/>
+  </g>
+  <g id="connection-anchors" fill="none" stroke="none">
+    <circle id="anchor-left" cx="0" cy="86.8" r="1"/>
+    <circle id="anchor-right" cx="194" cy="86.8" r="1"/>
+    <circle id="anchor-top" cx="97" cy="0" r="1"/>
+    <circle id="anchor-bottom" cx="97" cy="124" r="1"/>
+  </g>
+</svg>

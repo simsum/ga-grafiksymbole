@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="178" height="140" viewBox="0 0 178 140" role="img" aria-labelledby="title desc">
+  <title id="title">GLT-Leitrechner</title>
+  <desc id="desc">Vereinfachtes, frei skalierbares Topologie-Symbol ohne sichtbare Beschriftung.</desc>
+  
+  <g id="device">
+    <rect x="7" y="11" width="119" height="82" rx="6" fill="#0a0e11" opacity="0.4"/>
+    <rect x="7" y="8" width="119" height="82" rx="6" fill="#20262b" stroke="#080b0e" stroke-width="1.7"/>
+    <rect x="7" y="8" width="7" height="82" rx="3" fill="#d71920"/>
+    <rect x="18" y="18" width="97" height="59" rx="3" fill="#20252a" stroke="#7c8790" stroke-width="1"/>
+    <path d="M28 64V50h12v14M46 64V41h12v23M64 64V54h12v10M82 64V34h12v30M100 64V46h7v18" fill="none" stroke="#54c7d9" stroke-width="3" stroke-linecap="round"/>
+    <path d="M27 29h29M27 35h20" stroke="#7c8790" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="103" cy="28" r="2.2" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="103" cy="36" r="2.2" fill="#f0b429" stroke="#080b0e" stroke-width="0.7"/>
+    <path d="M57 90v13M40 105h54" stroke="#11161a" stroke-width="7" stroke-linecap="round"/>
+    <rect x="132" y="18" width="38" height="94" rx="6" fill="#0a0e11" opacity="0.4"/>
+    <rect x="130" y="15" width="38" height="94" rx="6" fill="#20262b" stroke="#080b0e" stroke-width="1.7"/>
+    <rect x="130" y="15" width="6" height="94" rx="3" fill="#d71920"/>
+    <rect x="140" y="26" width="18" height="11" rx="2" fill="#11161a" stroke="#7c8790" stroke-width="0.8"/>
+    <path d="M143 31h12" stroke="#54c7d9" stroke-width="1.4"/>
+    <circle cx="144" cy="48" r="2.2" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="153" cy="48" r="2.2" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+    <path d="M141 61h16M141 68h16M141 75h16" stroke="#7c8790" stroke-width="1.5"/>
+    <circle cx="149" cy="94" r="4" fill="#11161a" stroke="#54c7d9" stroke-width="1"/>
+  </g>
+  <g id="connection-anchors" fill="none" stroke="none">
+    <circle id="anchor-left" cx="0" cy="70" r="1"/>
+    <circle id="anchor-right" cx="178" cy="70" r="1"/>
+    <circle id="anchor-top" cx="89" cy="0" r="1"/>
+    <circle id="anchor-bottom" cx="89" cy="140" r="1"/>
+  </g>
+</svg>

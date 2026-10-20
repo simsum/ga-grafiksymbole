@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="348" viewBox="0 0 120 348" role="img" aria-labelledby="title desc">
+  <title id="title">Generischer Ethernet-Switch 16 Port vertikal</title>
+  <desc id="desc">Vereinfachtes, frei skalierbares Topologie-Symbol ohne sichtbare Beschriftung.</desc>
+  
+  <g id="device" transform="translate(120 0) rotate(90)">
+    
+    <rect x="7" y="33" width="334" height="78" rx="7" fill="#0a0e11" opacity="0.4"/>
+    <rect x="7" y="30" width="334" height="78" rx="7" fill="#20262b" stroke="#080b0e" stroke-width="1.7"/>
+    <rect x="7" y="30" width="7" height="78" rx="3" fill="#d71920"/>
+    <rect x="20" y="43" width="312" height="49" rx="4" fill="#353e45" stroke="#7c8790" stroke-width="1"/>
+    
+      <g>
+        <rect x="27" y="66" width="14" height="14" rx="1.5" fill="#0b1014" stroke="#7c8790" stroke-width="0.8"/>
+        <path d="M30 69h8M31 76h6" stroke="#54c7d9" stroke-width="1.1"/>
+        <circle cx="31" cy="59" r="1.7" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+        <circle cx="37" cy="59" r="1.7" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+      </g>
+      <g>
+        <rect x="45" y="66" width="14" height="14" rx="1.5" fill="#0b1014" stroke="#7c8790" stroke-width="0.8"/>
+        <path d="M48 69h8M49 76h6" stroke="#54c7d9" stroke-width="1.1"/>
+        <circle cx="49" cy="59" r="1.7" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+        <circle cx="55" cy="59" r="1.7" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+      </g>
+      <g>
+        <rect x="63" y="66" width="14" height="14" rx="1.5" fill="#0b1014" stroke="#7c8790" stroke-width="0.8"/>
+        <path d="M66 69h8M67 76h6" stroke="#54c7d9" stroke-width="1.1"/>
+        <circle cx="67" cy="59" r="1.7" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+        <circle cx="73" cy="59" r="1.7" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+      </g>
+      <g>
+        <rect x="81" y="66" width="14" height="14" rx="1.5" fill="#0b1014" stroke="#7c8790" stroke-width="0.8"/>
+        <path d="M84 69h8M85 76h6" stroke="#54c7d9" stroke-width="1.1"/>
+        <circle cx="85" cy="59" r="1.7" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+        <circle cx="91" cy="59" r="1.7" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+      </g>
+      <g>
+        <rect x="99" y="66" width="14" height="14" rx="1.5" fill="#0b1014" stroke="#7c8790" stroke-width="0.8"/>
+        <path d="M102 69h8M103 76h6" stroke="#54c7d9" stroke-width="1.1"/>
+        <circle cx="103" cy="59" r="1.7" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+        <circle cx="109" cy="59" r="1.7" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+      </g>
+      <g>
+        <rect x="117" y="66" width="14" height="14" rx="1.5" fill="#0b1014" stroke="#7c8790" stroke-width="0.8"/>
+        <path d="M120 69h8M121 76h6" stroke="#54c7d9" stroke-width="1.1"/>
+        <circle cx="121" cy="59" r="1.7" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+        <circle cx="127" cy="59" r="1.7" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+      </g>
+      <g>
+        <rect x="135" y="66" width="14" height="14" rx="1.5" fill="#0b1014" stroke="#7c8790" stroke-width="0.8"/>
+        <path d="M138 69h8M139 76h6" stroke="#54c7d9" stroke-width="1.1"/>
+        <circle cx="139" cy="59" r="1.7" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+        <circle cx="145" cy="59" r="1.7" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+      </g>
+      <g>
+        <rect x="153" y="66" width="14" height="14" rx="1.5" fill="#0b1014" stroke="#7c8790" stroke-width="0.8"/>
+        <path d="M156 69h8M157 76h6" stroke="#54c7d9" stroke-width="1.1"/>
+        <circle cx="157" cy="59" r="1.7" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+        <circle cx="163" cy="59" r="1.7" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+      </g>
+      <g>
+        <rect x="171" y="66" width="14" height="14" rx="1.5" fill="#0b1014" stroke="#7c8790" stroke-width="0.8"/>
+        <path d="M174 69h8M175 76h6" stroke="#54c7d9" stroke-width="1.1"/>
+        <circle cx="175" cy="59" r="1.7" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+        <circle cx="181" cy="59" r="1.7" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+      </g>
+      <g>
+        <rect x="189" y="66" width="14" height="14" rx="1.5" fill="#0b1014" stroke="#7c8790" stroke-width="0.8"/>
+        <path d="M192 69h8M193 76h6" stroke="#54c7d9" stroke-width="1.1"/>
+        <circle cx="193" cy="59" r="1.7" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+        <circle cx="199" cy="59" r="1.7" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+      </g>
+      <g>
+        <rect x="207" y="66" width="14" height="14" rx="1.5" fill="#0b1014" stroke="#7c8790" stroke-width="0.8"/>
+        <path d="M210 69h8M211 76h6" stroke="#54c7d9" stroke-width="1.1"/>
+        <circle cx="211" cy="59" r="1.7" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+        <circle cx="217" cy="59" r="1.7" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+      </g>
+      <g>
+        <rect x="225" y="66" width="14" height="14" rx="1.5" fill="#0b1014" stroke="#7c8790" stroke-width="0.8"/>
+        <path d="M228 69h8M229 76h6" stroke="#54c7d9" stroke-width="1.1"/>
+        <circle cx="229" cy="59" r="1.7" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+        <circle cx="235" cy="59" r="1.7" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+      </g>
+      <g>
+        <rect x="243" y="66" width="14" height="14" rx="1.5" fill="#0b1014" stroke="#7c8790" stroke-width="0.8"/>
+        <path d="M246 69h8M247 76h6" stroke="#54c7d9" stroke-width="1.1"/>
+        <circle cx="247" cy="59" r="1.7" fill="#f0b429" stroke="#080b0e" stroke-width="0.7"/>
+        <circle cx="253" cy="59" r="1.7" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+      </g>
+      <g>
+        <rect x="261" y="66" width="14" height="14" rx="1.5" fill="#0b1014" stroke="#7c8790" stroke-width="0.8"/>
+        <path d="M264 69h8M265 76h6" stroke="#54c7d9" stroke-width="1.1"/>
+        <circle cx="265" cy="59" r="1.7" fill="#f0b429" stroke="#080b0e" stroke-width="0.7"/>
+        <circle cx="271" cy="59" r="1.7" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+      </g>
+      <g>
+        <rect x="279" y="66" width="14" height="14" rx="1.5" fill="#0b1014" stroke="#7c8790" stroke-width="0.8"/>
+        <path d="M282 69h8M283 76h6" stroke="#54c7d9" stroke-width="1.1"/>
+        <circle cx="283" cy="59" r="1.7" fill="#f0b429" stroke="#080b0e" stroke-width="0.7"/>
+        <circle cx="289" cy="59" r="1.7" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+      </g>
+      <g>
+        <rect x="297" y="66" width="14" height="14" rx="1.5" fill="#0b1014" stroke="#7c8790" stroke-width="0.8"/>
+        <path d="M300 69h8M301 76h6" stroke="#54c7d9" stroke-width="1.1"/>
+        <circle cx="301" cy="59" r="1.7" fill="#f0b429" stroke="#080b0e" stroke-width="0.7"/>
+        <circle cx="307" cy="59" r="1.7" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+      </g>
+    <path d="M25 96h298" stroke="#7c8790" stroke-width="1.2"/>
+    <circle cx="28" cy="101" r="2.1" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="37" cy="101" r="2.1" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="46" cy="101" r="2.1" fill="#f0b429" stroke="#080b0e" stroke-width="0.7"/>
+    <path d="M318 98h10v5h-10z" fill="#11161a" stroke="#080b0e" stroke-width="0.7"/>
+  </g>
+  <g id="connection-anchors" fill="none" stroke="none">
+    <circle id="anchor-left" cx="0" cy="174" r="1"/>
+    <circle id="anchor-right" cx="120" cy="174" r="1"/>
+    <circle id="anchor-top" cx="60" cy="0" r="1"/>
+    <circle id="anchor-bottom" cx="60" cy="348" r="1"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="150" viewBox="0 0 190 150" role="img" aria-labelledby="title desc">
+  <title id="title">Energieventil DN15 bis DN50</title>
+  <desc id="desc">Vereinfachtes, frei skalierbares Topologie-Symbol ohne sichtbare Beschriftung.</desc>
+  
+  <g id="device">
+    <path d="M20 105H170" stroke="#6f7a82" stroke-width="18" stroke-linecap="round"/>
+    <path d="M20 105H170" stroke="#b5bdc2" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+    
+      <path d="M8 96h20v18H8l-5-7v-4z" fill="#8c969d" stroke="#080b0e" stroke-width="1.1"/>
+      <path d="M182 96h-20v18h20l5-7v-4z" fill="#8c969d" stroke="#080b0e" stroke-width="1.1"/>
+    <path d="M67 105l12.88-17.5h30.240000000000002l12.88 17.5-12.88 17.5h-30.240000000000002z" fill="#59656d" stroke="#080b0e" stroke-width="1.5"/>
+    <circle cx="95" cy="105" r="10" fill="#11161a" stroke="#ee6f2d" stroke-width="3"/>
+    <rect x="89" y="65" width="12" height="25.5" fill="#20262b" stroke="#080b0e" stroke-width="1"/>
+    <rect x="67" y="24" width="62" height="47" rx="7" fill="#0a0e11" opacity="0.4"/>
+    <rect x="64" y="20" width="62" height="47" rx="7" fill="#f28b2e" stroke="#8d3f0a" stroke-width="1.6"/>
+    <rect x="74" y="30" width="42" height="13" rx="3" fill="#22282d"/>
+    <circle cx="82" cy="36.5" r="2.2" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="92" cy="36.5" r="2.2" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="113" cy="55" r="5" fill="#d96518" stroke="#7d3508" stroke-width="1"/>
+    <rect x="138" y="74" width="25" height="24" rx="4" fill="#20262b" stroke="#080b0e" stroke-width="1.2"/>
+    <path d="M143 85h15" stroke="#54c7d9" stroke-width="2"/>
+    <circle cx="150.5" cy="92" r="2" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+  </g>
+  <g id="connection-anchors" fill="none" stroke="none">
+    <circle id="anchor-left" cx="0" cy="105" r="1"/>
+    <circle id="anchor-right" cx="190" cy="105" r="1"/>
+    <circle id="anchor-top" cx="95" cy="0" r="1"/>
+    <circle id="anchor-bottom" cx="95" cy="150" r="1"/>
+  </g>
+</svg>

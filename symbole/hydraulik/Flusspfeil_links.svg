@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14">
+  <!-- Flussrichtungspfeil fuer Rohrleitungen -->
+  <g transform="translate(24,0) scale(-1,1)">
+    <path d="M2,5 L12,5 L12,1 L22,7 L12,13 L12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+</svg>

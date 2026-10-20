@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="170" viewBox="0 0 230 170" role="img" aria-labelledby="title desc">
+  <title id="title">Energieventil DN65 bis DN80</title>
+  <desc id="desc">Vereinfachtes, frei skalierbares Topologie-Symbol ohne sichtbare Beschriftung.</desc>
+  
+  <g id="device">
+    <path d="M23 118.99999999999999H207" stroke="#6f7a82" stroke-width="20.7" stroke-linecap="round"/>
+    <path d="M23 118.99999999999999H207" stroke="#b5bdc2" stroke-width="5.75" stroke-linecap="round" opacity="0.7"/>
+    
+      <rect x="8" y="97.14999999999999" width="11.5" height="43.699999999999996" rx="2" fill="#68747c" stroke="#080b0e" stroke-width="1.2"/>
+      <rect x="209.3" y="97.14999999999999" width="11.5" height="43.699999999999996" rx="2" fill="#68747c" stroke="#080b0e" stroke-width="1.2"/>
+      <circle cx="14.95" cy="118.99999999999999" r="3.4499999999999997" fill="#11161a"/>
+      <circle cx="215.05" cy="118.99999999999999" r="3.4499999999999997" fill="#11161a"/>
+    <path d="M82.80000000000001 118.99999999999999l14.812-20.125h34.775999999999996l14.812 20.125-14.812 20.125h-34.775999999999996z" fill="#59656d" stroke="#080b0e" stroke-width="1.5"/>
+    <circle cx="115" cy="118.99999999999999" r="11.5" fill="#11161a" stroke="#ee6f2d" stroke-width="3.4499999999999997"/>
+    <rect x="108.1" y="73.29999999999998" width="13.799999999999999" height="28.575000000000003" fill="#20262b" stroke="#080b0e" stroke-width="1"/>
+    <rect x="82.35" y="25.249999999999993" width="71.3" height="54.05" rx="8.049999999999999" fill="#0a0e11" opacity="0.4"/>
+    <rect x="79.35" y="21.249999999999993" width="71.3" height="54.05" rx="8.049999999999999" fill="#f28b2e" stroke="#8d3f0a" stroke-width="1.6"/>
+    <rect x="90.85" y="32.74999999999999" width="48.3" height="14.95" rx="3.4499999999999997" fill="#22282d"/>
+    <circle cx="100.05" cy="40.224999999999994" r="2.53" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="111.54999999999998" cy="40.224999999999994" r="2.53" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="135.7" cy="61.499999999999986" r="5.75" fill="#d96518" stroke="#7d3508" stroke-width="1"/>
+    <rect x="170.2" y="83.35" width="28.749999999999996" height="27.599999999999998" rx="4.6" fill="#20262b" stroke="#080b0e" stroke-width="1.2"/>
+    <path d="M175.95 95.99999999999999h17.25" stroke="#54c7d9" stroke-width="2.3"/>
+    <circle cx="184.575" cy="104.04999999999998" r="2.3" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+  </g>
+  <g id="connection-anchors" fill="none" stroke="none">
+    <circle id="anchor-left" cx="0" cy="118.99999999999999" r="1"/>
+    <circle id="anchor-right" cx="230" cy="118.99999999999999" r="1"/>
+    <circle id="anchor-top" cx="115" cy="0" r="1"/>
+    <circle id="anchor-bottom" cx="115" cy="170" r="1"/>
+  </g>
+</svg>

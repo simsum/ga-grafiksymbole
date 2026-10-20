@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <!-- LED rot -->
+  <defs>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0.45" stop-color="#FF3B30" stop-opacity="0.3"/><stop offset="1" stop-color="#FF3B30" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E4E4E4"/><stop offset="1" stop-color="#BDBDBD"/></linearGradient>
+    <radialGradient id="body" cx="0.5" cy="0.45" r="0.6"><stop offset="0" stop-color="#FF3B30"/><stop offset="0.75" stop-color="#FF3B30"/><stop offset="1" stop-color="#A8140C" stop-opacity="0.9"/></radialGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+  </defs>
+  <circle cx="16" cy="16" r="16" fill="url(#glow)"/>
+  <circle cx="16" cy="16" r="10.5" fill="url(#ring)"/>
+  <circle cx="16" cy="16" r="10.5" fill="none" stroke="#8A8A8A" stroke-width="0.8"/>
+  <circle cx="16" cy="16" r="8.2" fill="url(#body)" stroke="#000" stroke-opacity="0.2" stroke-width="0.6"/>
+  <ellipse cx="16" cy="12.2" rx="4.2" ry="2.4" fill="url(#gloss)"/>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="226" height="146" viewBox="0 0 226 146" role="img" aria-labelledby="title desc">
+  <title id="title">Allgemeiner Wasserzähler Wasserzaehler-Flansch</title>
+  <desc id="desc">Vereinfachtes, frei skalierbares Topologie-Symbol ohne sichtbare Beschriftung.</desc>
+  
+  <g id="device">
+    <path d="M20 102.19999999999999H206" stroke="#6f7a82" stroke-width="20" stroke-linecap="round"/>
+    
+      <rect x="7" y="77.19999999999999" width="13" height="50" rx="2" fill="#496d82" stroke="#080b0e" stroke-width="1.2"/>
+      <rect x="206" y="77.19999999999999" width="13" height="50" rx="2" fill="#496d82" stroke="#080b0e" stroke-width="1.2"/>
+    <rect x="69" y="80.19999999999999" width="88" height="44" rx="12" fill="#527f9c" stroke="#080b0e" stroke-width="1.5"/>
+    <path d="M77 102.19999999999999h72" stroke="#d6e0e5" stroke-width="3" opacity="0.65"/>
+    
+      <circle cx="113" cy="39" r="31" fill="#e7ecef" stroke="#2d5e7a" stroke-width="5"/>
+      <circle cx="113" cy="39" r="22" fill="#f9fbfc" stroke="#81909a" stroke-width="1"/>
+      <path d="M113 39l13-9" stroke="#25586f" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="113" cy="39" r="3" fill="#25586f"/>
+      <path d="M102 49h22" stroke="#6f7c84" stroke-width="1.5"/>
+    <rect x="105" y="62" width="16" height="26.19999999999999" fill="#2d5e7a" stroke="#080b0e" stroke-width="1"/>
+  </g>
+  <g id="connection-anchors" fill="none" stroke="none">
+    <circle id="anchor-left" cx="0" cy="102.19999999999999" r="1"/>
+    <circle id="anchor-right" cx="226" cy="102.19999999999999" r="1"/>
+    <circle id="anchor-top" cx="113" cy="0" r="1"/>
+    <circle id="anchor-bottom" cx="113" cy="146" r="1"/>
+  </g>
+</svg>

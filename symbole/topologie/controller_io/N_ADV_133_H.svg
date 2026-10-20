@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="140" viewBox="0 0 170 140" role="img" aria-labelledby="title desc">
+  <title id="title">Honeywell N-ADV-133-H</title>
+  <desc id="desc">Vereinfachtes, frei skalierbares Topologie-Symbol ohne sichtbare Beschriftung.</desc>
+  
+  <g id="device">
+    <rect x="6" y="8" width="158" height="124" rx="6" fill="#0a0e11" opacity="0.35"/>
+    <rect x="6" y="6" width="158" height="124" rx="6" fill="#20262b" stroke="#080b0e" stroke-width="1.6"/>
+    <rect x="6" y="6" width="7" height="124" rx="3" fill="#d71920"/>
+    <rect x="18" y="15" width="134" height="15" rx="2" fill="#11161a"/>
+    
+      <rect x="23.00" y="18.5" width="16.43" height="8" rx="1.2" fill="#ee6f2d" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="31.21" cy="22.5" r="1.2" fill="#11161a"/>
+      <rect x="40.93" y="18.5" width="16.43" height="8" rx="1.2" fill="#ee6f2d" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="49.14" cy="22.5" r="1.2" fill="#11161a"/>
+      <rect x="58.86" y="18.5" width="16.43" height="8" rx="1.2" fill="#ee6f2d" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="67.07" cy="22.5" r="1.2" fill="#11161a"/>
+      <rect x="76.79" y="18.5" width="16.43" height="8" rx="1.2" fill="#ee6f2d" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="85.00" cy="22.5" r="1.2" fill="#11161a"/>
+      <rect x="94.71" y="18.5" width="16.43" height="8" rx="1.2" fill="#ee6f2d" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="102.93" cy="22.5" r="1.2" fill="#11161a"/>
+      <rect x="112.64" y="18.5" width="16.43" height="8" rx="1.2" fill="#ee6f2d" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="120.86" cy="22.5" r="1.2" fill="#11161a"/>
+      <rect x="130.57" y="18.5" width="16.43" height="8" rx="1.2" fill="#ee6f2d" stroke="#080b0e" stroke-width="0.65"/>
+      <circle cx="138.79" cy="22.5" r="1.2" fill="#11161a"/>
+    <rect x="22" y="38" width="126" height="56" rx="5" fill="#353e45" stroke="#7c8790" stroke-width="1"/>
+    <rect x="30" y="46" width="78" height="16" rx="2" fill="#20252a"/>
+    <circle cx="38" cy="54" r="2.4" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="47" cy="54" r="2.4" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="56" cy="54" r="2.4" fill="#f0b429" stroke="#080b0e" stroke-width="0.7"/>
+    <path d="M31 69h108" stroke="#7c8790" stroke-width="1.2"/>
+    <circle cx="31" cy="82" r="2.3" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/><circle cx="44" cy="82" r="2.3" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/><circle cx="57" cy="82" r="2.3" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+    <rect x="123" y="43" width="17" height="44" rx="2.5" fill="#11161a"/>
+    <circle cx="131.5" cy="52" r="2.3" fill="#52b45a" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="131.5" cy="62" r="2.3" fill="#54c7d9" stroke="#080b0e" stroke-width="0.7"/>
+    <circle cx="131.5" cy="77" r="3.3" fill="#353e45" stroke="#080b0e" stroke-width="0.8"/>
+    <rect x="6" y="99" width="158" height="27" fill="#11161a"/>
+    
+    <rect x="49" y="104" width="15" height="12" rx="1.5" fill="#111820" stroke="#080b0e" stroke-width="0.8"/>
+    <path d="M52 107h9M53 112h7" stroke="#54c7d9" stroke-width="1.2"/>
+    <rect x="67" y="104" width="15" height="12" rx="1.5" fill="#111820" stroke="#080b0e" stroke-width="0.8"/>
+    <path d="M70 107h9M71 112h7" stroke="#54c7d9" stroke-width="1.2"/>
+    <rect x="85" y="104" width="15" height="12" rx="1.5" fill="#111820" stroke="#080b0e" stroke-width="0.8"/>
+    <path d="M88 107h9M89 112h7" stroke="#54c7d9" stroke-width="1.2"/>
+    <rect x="103" y="104" width="15" height="12" rx="1.5" fill="#111820" stroke="#080b0e" stroke-width="0.8"/>
+    <path d="M106 107h9M107 112h7" stroke="#54c7d9" stroke-width="1.2"/>
+    
+    <path d="M3 44h5v10H3zM3 86h5v10H3z" fill="#d71920" stroke="#080b0e" stroke-width="0.8"/>
+    <path d="M162 44h5v10h-5zM162 86h5v10h-5z" fill="#d71920" stroke="#080b0e" stroke-width="0.8"/>
+  </g>
+  <g id="connection-anchors" fill="none" stroke="none">
+    <circle id="anchor-left" cx="0" cy="70" r="1"/>
+    <circle id="anchor-right" cx="170" cy="70" r="1"/>
+    <circle id="anchor-top" cx="85" cy="0" r="1"/>
+    <circle id="anchor-bottom" cx="85" cy="140" r="1"/>
+  </g>
+</svg>

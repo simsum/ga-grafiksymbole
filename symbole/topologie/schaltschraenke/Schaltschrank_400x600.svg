@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="320" viewBox="0 0 240 320" role="img" aria-labelledby="title desc">
+  <title id="title">Heller Schaltschrank Schaltschrank-400x600</title>
+  <desc id="desc">Vereinfachtes, frei skalierbares Topologie-Symbol ohne sichtbare Beschriftung.</desc>
+  
+  <g id="cabinet">
+    <rect x="12" y="13" width="224" height="304" rx="8" fill="#aab2b8" opacity="0.35"/>
+    <rect x="8" y="8" width="224" height="304" rx="8" fill="#e1e5e8" stroke="#515b63" stroke-width="2"/>
+    <rect id="mounting-plate" x="26" y="26" width="188" height="268" rx="3" fill="#f8fafb" stroke="#929ca3" stroke-width="1.4"/>
+    <circle cx="35" cy="35" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <circle cx="205" cy="35" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <circle cx="35" cy="285" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <circle cx="205" cy="285" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <path d="M18 21h204M18 299h204" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+    <rect x="221" y="142" width="7" height="36" rx="3" fill="#59636b"/>
+  </g>
+  <g id="placement-area" fill="none" stroke="none">
+    <rect x="40" y="46" width="160" height="228"/>
+  </g>
+  <g id="connection-anchors" fill="none" stroke="none">
+    <circle id="anchor-left" cx="0" cy="160" r="1"/>
+    <circle id="anchor-right" cx="240" cy="160" r="1"/>
+    <circle id="anchor-top" cx="120" cy="0" r="1"/>
+    <circle id="anchor-bottom" cx="120" cy="320" r="1"/>
+  </g>
+</svg>

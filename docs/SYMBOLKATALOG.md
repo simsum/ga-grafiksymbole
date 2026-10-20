@@ -89,6 +89,7 @@ Flanschfarben: Heizen VL `#D7302B`, RL `#F29A38`; Kühlen VL `#2E6BC2`, RL `#7CA
 Mit angedeutetem Rollenzählwerk (fünf Rollen, letzte rot).
 
 - Wärmemengenzähler (rote Flamme), Kältemengenzähler (blaue Schneeflocke), Wasserzähler (blauer Tropfen): 60 × 65 waagerecht, 65 × 60 senkrecht, Rohrachse 15.
+- Kombinierter Wärme-/Kältemengenzähler (`Waerme_Kaeltemengenzaehler_waagerecht` / `_senkrecht`): Flamme und Schneeflocke nebeneinander im Zählwerkkreis, gleiche Größe und Anschlüsse wie die Einzelzähler.
 - Elektrozähler 50 × 60, Rollenzählwerk mit sechs Stellen oben, gelber Blitz unten.
 
 ### Pumpe

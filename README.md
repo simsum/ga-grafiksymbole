@@ -75,6 +75,7 @@ Details: [docs/NIAGARA.md](docs/NIAGARA.md).
 - Symbole mit Richtung gibt es in allen vier Richtungen.
 - Symbole einer Familie haben identische Abmessungen.
 - Dateinamen: `<Symbol>_<Richtung/Variante>.svg`, nur Unterstriche (Niagara mag keine Bindestriche), Umlaute ausgeschrieben, z. B. `Klimakonvektor_rechts.svg`.
+- Bestehende Symbole werden nur nach Rückfrage umbenannt, da Px-Seiten auf die Dateinamen verweisen.
 
 Siehe [docs/STYLEGUIDE.md](docs/STYLEGUIDE.md) und [CONTRIBUTING.md](CONTRIBUTING.md).
 

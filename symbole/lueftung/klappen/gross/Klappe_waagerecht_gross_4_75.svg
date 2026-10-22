@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="40" viewBox="0 0 80 40">
+  <!-- Klappe_waagerecht_gross_4_75: Klappenblatt 22.5 Grad zur Kanalachse (zu = quer, auf = laengs) -->
+  <defs>
+    <linearGradient id="gKlappe" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.3822" stop-color="#FFFFFF"/><stop offset="0.6044" stop-color="#DEDEDE"/><stop offset="0.8588" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <clipPath id="cKanal"><rect x="1.1" y="0.7" width="77.8" height="38.6"/></clipPath>
+  </defs>
+  <rect fill="url(#gKlappe)" x="0.8" y="0.4" width="78.5" height="39.3"/>
+  <path d="M79.6,40H0.4V0h79.2V40L79.6,40z M1.1,39.3h77.7V0.7H1.1V39.3L1.1,39.3z" fill="#979797"/>
+  <g clip-path="url(#cKanal)"><rect x="38.45" y="-2.35" width="3.10" height="44.70" fill="#808080" transform="rotate(-67.5 40 20)"/></g>
+  <circle cx="40" cy="20" r="6.1" fill="#4D4D4D"/>
+</svg>

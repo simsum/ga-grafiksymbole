@@ -20,7 +20,7 @@ docs/
   uebersicht/            Übersichtsgrafik je Symbolverzeichnis (PNG)
 tools/
   check_symbols.py       Prüft SVGs auf Regeln (kein <text>, Namensschema, PNG vorhanden)
-  klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/ (resvg-py)
+  klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/{klein,gross}/ (resvg-py)
   uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ (Pillow, optional resvg-py)
 ```
 
@@ -31,8 +31,11 @@ Jede Grafik zeigt alle Symbole eines Verzeichnisses mit Dateinamen und Größe.
 ### Lüftung – `symbole/lueftung`
 ![Lüftung](docs/uebersicht/Uebersicht_lueftung.png)
 
-### Lüftung, Klappen – `symbole/lueftung/klappen`
-![Lüftung Klappen](docs/uebersicht/Uebersicht_lueftung_klappen.png)
+### Lüftung, Klappen klein – `symbole/lueftung/klappen/klein`
+![Klappen klein](docs/uebersicht/Uebersicht_lueftung_klappen_klein.png)
+
+### Lüftung, Klappen groß – `symbole/lueftung/klappen/gross`
+![Klappen groß](docs/uebersicht/Uebersicht_lueftung_klappen_gross.png)
 
 ### Hydraulik – `symbole/hydraulik`
 ![Hydraulik](docs/uebersicht/Uebersicht_hydraulik.png)

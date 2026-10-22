@@ -14,7 +14,12 @@ Status: Das Repository enthält die Symbole unter `symbole/` (jeweils SVG + PNG)
 | Deckenluftdurchlass rund (Hallen-Lochblech) | quadratisch | Kreis füllt die Bildfläche, ohne Stellhebel |
 | WRG Kreuzstrom-Plattenwärmetauscher | 400 × 480 (im Schema ca. 331 × 399) | Kein Rahmen; Anschlüsse links/rechts bei y = 46,5 und y = 435,5, Kanalhöhe 24; Varianten mit/ohne Bypass |
 | WRG mit Flanschen (`WRG_Platte_mit_Bypass_PlusMinus_Flansch`) | 400 × 480 | Wie oben, zusätzlich Flansch (6 × 34) an allen vier Anschlüssen ganz außen am Symbolrand; Kanäle enden am Flansch. Bestehender Kanal im Schema muss an der Flanschkante enden |
-| Klappe AC0531_M in fünf Stellungen (`lueftung/klappen/Klappe_senkrecht_klein_1_zu`, `_2_25`, `_3_50`, `_4_75`, `_5_auf`) | 30 × 60 | Klappenblatt 90° / 67,5° / 45° / 22,5° / 0° zur Kanalachse (zu = quer, auf = längs); Kanal verläuft entlang der langen Seite; grau, Statusfarbe über Niagara. Ableitung des Symbols AC0531_M aus der SBC-Icon-Galerie (Honeywell) |
+| Klappe senkrecht klein (`lueftung/klappen/Klappe_senkrecht_klein_1_zu` bis `_5_auf`) | 30 × 60 | Ein Klappenblatt; Stellungen 1_zu, 2_25, 3_50, 4_75, 5_auf (Blattwinkel zur Kanalachse 90° / 67,5° / 45° / 22,5° / 0°); Kanal verläuft entlang der langen Seite; grau, Statusfarbe über Niagara. Abgeleitet von AC0531_M |
+| Klappe senkrecht groß (`Klappe_senkrecht_gross_1_zu` bis `_5_auf`) | 40 × 80 | Wie klein, größer. Abgeleitet von AC0531_L |
+| Klappe senkrecht, drei Blätter (`Klappe_senkrecht_3blatt_klein_1_zu` bis `_5_auf`) | 30 × 60 | Drei Klappenblätter übereinander, Blattlänge nimmt Richtung „auf“ ab (22,1 → 16,3). Abgeleitet von AC0511_M (zu) und AC0521_M (auf) |
+| Klappe waagerecht, drei Blätter (`Klappe_waagerecht_3blatt_klein_1_zu` bis `_5_auf`) | 60 × 30 | Drei Klappenblätter nebeneinander, Kanal verläuft entlang der langen Seite. Abgeleitet von AC0512_M (zu) und AC0522_M (auf) |
+
+Klappen: Blattwinkel zur Kanalachse, zu = quer, auf = längs. Die Klappen stammen aus der SBC-Icon-Galerie (Honeywell) und werden von `tools/klappen.py` erzeugt.
 
 WRG-Luftwege: Außenluft oben links (grün) → Zuluft unten rechts (rot); Abluft oben rechts → Fortluft unten links (orange).
 

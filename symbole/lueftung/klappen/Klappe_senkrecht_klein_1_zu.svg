@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="60" viewBox="0 0 30 60">
-  <!-- Klappe AC0531_M in fuenf Stellungen; Klappenblatt 90 Grad zur Kanalachse (zu = quer, auf = laengs) -->
+  <!-- Klappe_senkrecht_klein_1_zu: Klappenblatt 90 Grad zur Kanalachse (zu = quer, auf = laengs) -->
   <defs>
-    <linearGradient gradientUnits="userSpaceOnUse" id="gKlappe" x1="0.7705" x2="29.2295" y1="30.0005" y2="30.0005"><stop offset="0" style="stop-color:#B3B3B3"/><stop offset="0.3822" style="stop-color:#FFFFFF"/><stop offset="0.6044" style="stop-color:#DEDEDE"/><stop offset="0.8588" style="stop-color:#BEBEBE"/><stop offset="1" style="stop-color:#B3B3B3"/></linearGradient>
+    <linearGradient id="gKlappe" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.3822" stop-color="#FFFFFF"/><stop offset="0.6044" stop-color="#DEDEDE"/><stop offset="0.8588" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
     <clipPath id="cKanal"><rect x="1.1" y="0.7" width="27.8" height="58.6"/></clipPath>
   </defs>
   <rect fill="url(#gKlappe)" x="0.8" y="0.4" width="28.5" height="59.3"/>
   <path d="M29.6,60H0.4V0h29.2V60L29.6,60z M1.1,59.3h27.7V0.7H1.1V59.3L1.1,59.3z" fill="#979797"/>
-  <g clip-path="url(#cKanal)"><rect x="-1.75" y="28.85" width="33.5" height="2.3" fill="#808080" transform="rotate(0 15 30)"/></g>
+  <g clip-path="url(#cKanal)"><rect x="-1.75" y="28.85" width="33.50" height="2.30" fill="#808080" transform="rotate(0 15 30)"/></g>
   <circle cx="15" cy="30" r="4.6" fill="#4D4D4D"/>
 </svg>

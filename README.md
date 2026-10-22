@@ -20,6 +20,7 @@ docs/
   uebersicht/            Übersichtsgrafik je Symbolverzeichnis (PNG)
 tools/
   check_symbols.py       Prüft SVGs auf Regeln (kein <text>, Namensschema, PNG vorhanden)
+  klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/ (resvg-py)
   uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ (Pillow, optional resvg-py)
 ```
 

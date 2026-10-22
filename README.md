@@ -30,6 +30,9 @@ Jede Grafik zeigt alle Symbole eines Verzeichnisses mit Dateinamen und Größe.
 ### Lüftung – `symbole/lueftung`
 ![Lüftung](docs/uebersicht/Uebersicht_lueftung.png)
 
+### Lüftung, Klappen – `symbole/lueftung/klappen`
+![Lüftung Klappen](docs/uebersicht/Uebersicht_lueftung_klappen.png)
+
 ### Hydraulik – `symbole/hydraulik`
 ![Hydraulik](docs/uebersicht/Uebersicht_hydraulik.png)
 

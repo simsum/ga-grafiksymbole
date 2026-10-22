@@ -5,7 +5,7 @@
 - Eher flach als plastisch, dezente Verläufe.
 - Keine Nummern oder Beschriftungen im Symbol; die kommen als Niagara-Labels darüber. Beschriftete Varianten nur zusätzlich.
 - Keine Herstellerlogos, neutrale Darstellung.
-- Anschlüsse nur als angedeuteter Flansch, keine farbigen Leitungsstummel (Ausnahme: WRG, deren Kanäle nahtlos an bestehende Kanäle anschließen).
+- Anschlüsse nur als angedeuteter Flansch, keine farbigen Leitungsstummel (Ausnahme: WRG, deren Kanäle nahtlos an bestehende Kanäle anschließen; zusätzlich gibt es die WRG-Variante `_Flansch` mit Flansch an den Anschlüssen).
 - Symbole mit Richtung in allen vier Richtungen.
 - Übergänge zu Rohren und Kanälen passen in Farbe, Breite und Profil.
 - Symbole einer Familie sind gleich groß.

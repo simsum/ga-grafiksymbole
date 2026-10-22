@@ -13,6 +13,7 @@ Status: Das Repository enthält die Symbole unter `symbole/` (jeweils SVG + PNG)
 | Volumenstromregler eckig | 140 × 80 / 80 × 140 | Rechteckkanal, drei gegenläufige Lamellen (zwei unter 40 px) |
 | Deckenluftdurchlass rund (Hallen-Lochblech) | quadratisch | Kreis füllt die Bildfläche, ohne Stellhebel |
 | WRG Kreuzstrom-Plattenwärmetauscher | 400 × 480 (im Schema ca. 331 × 399) | Kein Rahmen; Anschlüsse links/rechts bei y = 46,5 und y = 435,5, Kanalhöhe 24; Varianten mit/ohne Bypass |
+| WRG mit Flanschen (`WRG_Platte_mit_Bypass_PlusMinus_Flansch`) | 400 × 480 | Wie oben, zusätzlich Flansch (6 × 34) an allen vier Anschlüssen ganz außen am Symbolrand; Kanäle enden am Flansch. Bestehender Kanal im Schema muss an der Flanschkante enden |
 
 WRG-Luftwege: Außenluft oben links (grün) → Zuluft unten rechts (rot); Abluft oben rechts → Fortluft unten links (orange).
 

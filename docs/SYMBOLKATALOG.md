@@ -76,6 +76,17 @@ Wärmepumpe/Kältemaschine mit mehreren Hydraulikkreisen, neutral gezeichnet, oh
 
 Flanschfarben: Heizen VL `#D7302B`, RL `#F29A38`; Kühlen VL `#2E6BC2`, RL `#7CA6DE`. Die Bezeichnung der Kreise erfolgt über Labels, z. B. `WP01-H`, `WP01-K` (siehe Anlagenkennzeichnung im Styleguide).
 
+### Luft/Wasser-Wärmepumpe (Außengerät, Monoblock)
+
+Kompaktes Außengerät mit einem Ventilator, Vorderansicht, neutral gezeichnet, ohne Logos. Ein Hydraulikkreis mit Vorlauf und Rücklauf als angedeutete Flansche an der Unterkante; Serviceklappe auf der Anschlussseite. „links/rechts“ bezeichnet die Anschlussseite.
+
+| Symbol | Größe | Anschlusspunkte (x; y = Unterkante) |
+|---|---|---|
+| `Waermepumpe_Luft_Wasser_links` | 180 × 168 | VL 20, RL 40; y = 168 |
+| `Waermepumpe_Luft_Wasser_rechts` | 180 × 168 | VL 160, RL 140; y = 168 |
+
+Flanschfarben: VL `#D7302B`, RL `#F29A38`. Reversibles Gerät mit einem Kreis neutral benennen, z. B. `WP01-SEK` (siehe Anlagenkennzeichnung im Styleguide).
+
 ### Absperrklappe Wasser
 
 - Waagerecht: mit Antrieb 50 × 65, ohne Antrieb 50 × 30, Rohrachse y = 15 (`Absperrklappe_<Stellung>[_ohne_Antrieb]_waagerecht`).

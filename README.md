@@ -9,7 +9,7 @@ Die Symbole sind für den Einsatz in Niagara Px als `Picture` mit `scale = fitRa
 ```
 symbole/                 je Ordner SVG und PNG mit gleichem Namen nebeneinander
   lueftung/              Klimakonvektor, Volumenstromregler, Deckenluftdurchlass, WRG
-  hydraulik/             Absperrklappe, Energieventil, Zähler, Zortström-Speicher, Kessel, Flusspfeile
+  hydraulik/             Absperrklappe, Energieventil, Zähler, Zortström-Speicher, Kessel, Wärmepumpe, Flusspfeile
   anzeigen/              LEDs
   topologie/             Topologiesymbole (Controller/IO, Netzwerk, Infrastruktur, Geräte,
                          Ventile, Energie- und Wasserzähler, Schaltschränke)
@@ -20,6 +20,7 @@ docs/
   uebersicht/            Übersichtsgrafik je Symbolverzeichnis (PNG)
 tools/
   check_symbols.py       Prüft SVGs auf Regeln (kein <text>, Namensschema, PNG vorhanden)
+  waermepumpe.py         Erzeugt die Wärmepumpen-Symbole unter symbole/hydraulik/ (resvg-py)
   klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/{klein,gross}/ (resvg-py)
   uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ (Pillow, optional resvg-py)
 ```

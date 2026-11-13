@@ -2,10 +2,17 @@
 
 Außengerät Luft/Wasser-Wärmepumpe, Monoblock, Vorderansicht. Aufruf: python tools/waermepumpe.py
 
-Zusätzlich die Variante „_an“ mit drehendem Lüfter:
-  _an.svg  animiertes SVG (SMIL) – läuft in 4.15 in Workbench und HTML5, bevorzugt
-  _an.gif  animiertes GIF (12 Bilder, 40 ms) als Ausweichlösung
-  _an.png  Standbild als Ausweichlösung
+Zustände (gleiche Größe und Anschlusspunkte):
+  (ohne)        aus, Lüfter steht
+  _an           Betrieb, Lüfter dreht
+                  _an.svg  animiertes SVG (SMIL) – läuft in 4.15 in Workbench und HTML5, bevorzugt
+                  _an.gif  animiertes GIF (12 Bilder, 40 ms) als Ausweichlösung
+                  _an.png  Standbild als Ausweichlösung
+  _stoerung     Störung: Lüfter steht, rotes Warndreieck und rote Status-LED blinken (1 Hz)
+  _abtau        Abtaubetrieb (Enteisung): Lüfter steht, Reif auf dem Lüfter, Schneeflocke,
+                Schmelzwassertropfen, blaue Status-LED pulsiert
+Bei _stoerung und _abtau zeigt das Standbild (PNG, oder SVG ohne SMIL) den Zustand vollständig,
+nur die Tropfen fehlen dort.
 """
 import io
 import math
@@ -63,11 +70,45 @@ DEFS = '''  <defs>
     <linearGradient id="gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
   </defs>'''
 
-def svg(seite: str, winkel: float = 0.0, animiert: bool = False) -> str:
+TITEL = {"aus": "", "an": ", Lüfter dreht", "stoerung": ", Störung", "abtau": ", Abtaubetrieb (Enteisung)"}
+
+def overlay(seite: str, zustand: str) -> str:
+    """Zustandsanzeige über dem Gerät, ungespiegelt (Dreieck und Schneeflocke sehen links wie rechts gleich aus)."""
+    fx = 68 if seite == "rechts" else W - 68          # Lüftermitte
+    lx = 145 if seite == "rechts" else W - 145 - 12   # Status-LED im Schaltkasten
+    if zustand == "stoerung":
+        return (f'  <g>\n'
+                f'    <animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/>\n'
+                f'    <rect x="{lx}" y="74" width="12" height="5" rx="1.5" fill="#E2231A"/>\n'
+                f'    <path d="M{fx},48 L{fx + 32},104 L{fx - 32},104 Z" fill="#E2231A" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/>\n'
+                f'    <rect x="{fx - 3.5}" y="62" width="7" height="25" rx="3.5" fill="#FFFFFF"/>\n'
+                f'    <circle cx="{fx}" cy="95" r="4" fill="#FFFFFF"/>\n'
+                f'  </g>\n')
+    if zustand == "abtau":
+        s = [f'  <g>\n',
+             f'    <circle cx="{fx}" cy="79" r="49" fill="#CFE8FF" opacity="0.45"><animate attributeName="opacity" values="0.45;0.15;0.45" dur="3s" repeatCount="indefinite"/></circle>\n',
+             f'    <rect x="{lx}" y="74" width="12" height="5" rx="1.5" fill="#2F9BE8"><animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/></rect>\n',
+             f'    <g transform="translate({fx} 79)">\n',
+             f'      <circle r="17" fill="#FFFFFF" fill-opacity="0.9" stroke="#2F7FD0" stroke-width="1.5"/>\n',
+             f'      <g fill="none" stroke="#2F7FD0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">\n']
+        for a in (0, 60, 120):
+            s.append(f'        <path d="M0,-12 L0,12 M-3.5,-11.5 L0,-8 L3.5,-11.5 M-3.5,11.5 L0,8 L3.5,11.5" transform="rotate({a})"/>\n')
+        s.append('      </g>\n    </g>\n')
+        # Schmelzwassertropfen: nur animiert sichtbar
+        for dx, beginn in ((-22, "0s"), (4, "0.7s"), (24, "1.4s")):
+            s.append(f'    <g transform="translate({fx + dx} 0)"><path d="M0,-3 Q2.6,1 0,3.2 Q-2.6,1 0,-3 Z" fill="#5AA9E6" opacity="0">'
+                     f'<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="2.1s" begin="{beginn}" repeatCount="indefinite"/>'
+                     f'<animateTransform attributeName="transform" type="translate" values="0 118;0 140" dur="2.1s" begin="{beginn}" repeatCount="indefinite"/>'
+                     f'</path></g>\n')
+        s.append('  </g>\n')
+        return "".join(s)
+    return ""
+
+def svg(seite: str, zustand: str = "aus", winkel: float = 0.0) -> str:
     # gespiegelte Variante dreht intern andersherum, damit beide sichtbar im Uhrzeigersinn laufen
     richtung = -1 if seite == "links" else 1
     anim = ""
-    if animiert:
+    if zustand == "an":
         anim = (f'<animateTransform attributeName="transform" type="rotate" from="0 68 79" '
                 f'to="{360 * richtung} 68 79" dur="{SVG_DREHDAUER}" repeatCount="indefinite"/>')
     inner = body(winkel * richtung, anim)
@@ -76,8 +117,8 @@ def svg(seite: str, winkel: float = 0.0, animiert: bool = False) -> str:
     else:
         inner = f'<g>\n    {inner}\n  </g>'
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="title">\n'
-            f'  <title id="title">Luft/Wasser-Wärmepumpe Außengerät (Monoblock), Vorderansicht, Anschluss {seite}{", Lüfter dreht" if animiert else ""}</title>\n'
-            f'{DEFS}\n  {inner}\n</svg>\n')
+            f'  <title id="title">Luft/Wasser-Wärmepumpe Außengerät (Monoblock), Vorderansicht, Anschluss {seite}{TITEL[zustand]}</title>\n'
+            f'{DEFS}\n  {inner}\n{overlay(seite, zustand)}</svg>\n')
 
 def gif(seite: str) -> bytes:
     """Animiertes GIF in Originalgröße; Außenkanten gegen GIF_MATTE geglättet, harte Transparenz."""
@@ -108,7 +149,12 @@ if __name__ == "__main__":
         p.with_suffix(".png").write_bytes(bytes(png))
         print(p)
         a = out / f"Waermepumpe_Luft_Wasser_{seite}_an.svg"
-        a.write_text(svg(seite, animiert=True), encoding="utf-8")
+        a.write_text(svg(seite, "an"), encoding="utf-8")
         a.with_suffix(".png").write_bytes(bytes(resvg_py.svg_to_bytes(svg_string=svg(seite, winkel=36))))
         a.with_suffix(".gif").write_bytes(gif(seite))
         print(a, a.with_suffix(".gif"))
+        for zustand in ("stoerung", "abtau"):
+            z = out / f"Waermepumpe_Luft_Wasser_{seite}_{zustand}.svg"
+            z.write_text(svg(seite, zustand), encoding="utf-8")
+            z.with_suffix(".png").write_bytes(bytes(resvg_py.svg_to_bytes(svg_string=svg(seite, zustand))))
+            print(z)

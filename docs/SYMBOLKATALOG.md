@@ -85,7 +85,16 @@ Kompaktes Außengerät mit einem Ventilator, Vorderansicht, neutral gezeichnet, 
 | `Waermepumpe_Luft_Wasser_links` | 180 × 168 | VL 20, RL 40; y = 168 |
 | `Waermepumpe_Luft_Wasser_rechts` | 180 × 168 | VL 160, RL 140; y = 168 |
 
-Variante `_an` (z. B. `Waermepumpe_Luft_Wasser_rechts_an`) mit drehendem Lüfter, gleiche Größe und Anschlusspunkte: `.svg` animiert per SMIL (läuft in 4.15 in Workbench und Browser, bevorzugt), `.gif` animiert als Ausweichlösung (12 Bilder à 40 ms), `.png` als Standbild. Zustandswechsel: `image` per Binding zwischen `Waermepumpe_Luft_Wasser_rechts.svg` (aus) und `…_an.svg` (an) umschalten, nicht über `animate` (siehe NIAGARA.md).
+Zustandsvarianten, jeweils für `links` und `rechts`, gleiche Größe und Anschlusspunkte:
+
+| Zustand | Suffix | Darstellung |
+|---|---|---|
+| aus | – | Lüfter steht |
+| Betrieb | `_an` | Lüfter dreht; `.svg` animiert per SMIL (läuft in 4.15 in Workbench und Browser, bevorzugt), `.gif` als Ausweichlösung (12 Bilder à 40 ms), `.png` als Standbild |
+| Störung | `_stoerung` | Lüfter steht, rotes Warndreieck mit Ausrufezeichen und rote Status-LED blinken (1 Hz) |
+| Abtaubetrieb | `_abtau` | Lüfter steht, Reif auf dem Lüfter, Schneeflocke, Schmelzwassertropfen, blaue Status-LED pulsiert |
+
+Bei `_stoerung` und `_abtau` zeigt auch das Standbild (ohne Animation) den Zustand eindeutig. Zustandswechsel: `image` per Binding auf die passende Datei umschalten, nicht über `animate` (siehe NIAGARA.md).
 
 Flanschfarben: VL `#D7302B`, RL `#F29A38`. Reversibles Gerät mit einem Kreis neutral benennen, z. B. `WP01-SEK` (siehe Anlagenkennzeichnung im Styleguide).
 

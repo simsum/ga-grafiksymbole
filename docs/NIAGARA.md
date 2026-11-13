@@ -53,6 +53,10 @@ Deshalb nicht `animate` binden, sondern `image` zwischen statischer und animiert
 |---|---|
 | aus | `file:^px/GraphicTemplates/symbole/Waermepumpe_Luft_Wasser_rechts.svg` |
 | an | `file:^px/GraphicTemplates/symbole/Waermepumpe_Luft_Wasser_rechts_an.svg` |
+| Störung | `file:^px/GraphicTemplates/symbole/Waermepumpe_Luft_Wasser_rechts_stoerung.svg` |
+| Abtaubetrieb | `file:^px/GraphicTemplates/symbole/Waermepumpe_Luft_Wasser_rechts_abtau.svg` |
+
+Bei mehr als zwei Zuständen die Zustände als Enum (oder Zahl) führen und das Binding über einen Konverter auf das passende Bild abbilden. Störung hat Vorrang vor Abtaubetrieb und Betrieb.
 
 So verhalten sich Workbench und Browser gleich, und es genügt ein `Picture`.
 

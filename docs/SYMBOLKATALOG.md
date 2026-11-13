@@ -4,6 +4,16 @@ Geplante und vorhandene Symbole mit Abmessungen und Anschlusspunkten. Alle Koord
 
 Status: Das Repository enthält die Symbole unter `symbole/` (jeweils SVG + PNG). Übersichtsgrafiken mit Hinweisen: [uebersicht/](uebersicht/). Die Tabellen beschreiben die Vorgaben. Das Volumenstromregler-Rund-Set heißt `Volumenstromregler_rund_*`, liegende Zortström-Speicher `Zortstroem_*_liegend`.
 
+## Allgemein
+
+Fachübergreifende Symbole (Wasser, Luft, Strom) unter `symbole/allgemein/`.
+
+### Flusspfeile
+
+24 × 14 (waagerecht), 14 × 24 (senkrecht), passend zu 12-px-Rohren; auch auf Luftkanälen und Stromleitungen einsetzbar. Position: Leitungsmitte − 7.
+
+Variante `_an` (z. B. `Flusspfeil_rechts_an`), gleiche Größe: drei helle Punkte laufen in Flussrichtung durch den Pfeil (SMIL, 1,2 s). Ohne Animation normaler Pfeil. Für „fließt“ / „steht“ per `image`-Binding zwischen `Flusspfeil_rechts.svg` und `…_an.svg` umschalten, z. B. gekoppelt an den Pumpen- oder Ventilatorbetrieb.
+
 ## Lüftung
 
 | Symbol | Größe | Hinweise |
@@ -29,10 +39,6 @@ WRG-Luftwege: Außenluft oben links (grün) → Zuluft unten rechts (rot); Abluf
 - Richtungen: `links-oben`, `rechts-oben`, `oben-links`, `oben-rechts`.
 - Farben: `rot`, `blau`, `grau`.
 - Vorlaufventil: heizen `links-oben_rot`, kühlen `rechts-oben_blau`. Rücklaufventil: heizen `oben-links_rot`, kühlen `oben-rechts_blau`.
-
-### Flusspfeile
-
-24 × 14 (waagerecht), 14 × 24 (senkrecht) für 12-px-Rohre. Position: Rohrmitte − 7.
 
 ### Zortström-Schichtenspeicher liegend
 

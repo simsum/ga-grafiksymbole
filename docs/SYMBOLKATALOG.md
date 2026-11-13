@@ -85,6 +85,8 @@ Kompaktes Außengerät mit einem Ventilator, Vorderansicht, neutral gezeichnet, 
 | `Waermepumpe_Luft_Wasser_links` | 180 × 168 | VL 20, RL 40; y = 168 |
 | `Waermepumpe_Luft_Wasser_rechts` | 180 × 168 | VL 160, RL 140; y = 168 |
 
+Variante `_an` (z. B. `Waermepumpe_Luft_Wasser_rechts_an`) mit drehendem Lüfter, gleiche Größe und Anschlusspunkte: `.gif` animiert (12 Bilder à 40 ms, für `Picture` mit `animate = true`), `.svg` animiert per SMIL (Wiedergabe in Niagara ungeprüft), `.png` als Standbild. Zustandswechsel: `image` per Binding zwischen `Waermepumpe_Luft_Wasser_rechts.svg` (aus) und `…_an.gif` (an) umschalten.
+
 Flanschfarben: VL `#D7302B`, RL `#F29A38`. Reversibles Gerät mit einem Kreis neutral benennen, z. B. `WP01-SEK` (siehe Anlagenkennzeichnung im Styleguide).
 
 ### Absperrklappe Wasser

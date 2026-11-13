@@ -11,6 +11,7 @@
     <line x1="5" y1="11" x2="175" y2="11" stroke="#B5B5B5" stroke-width="1.2"/>
     <rect x="11" y="18" width="114" height="122" rx="4" fill="#D9DCDF" stroke="#999999" stroke-width="1.6"/>
     <circle cx="68" cy="79" r="50" fill="#2B3440" stroke="#6B7480" stroke-width="2"/>
+    <g transform="rotate(0.00 68 79)"><g>
     <ellipse cx="68" cy="56" rx="11.5" ry="21" fill="#55606D" transform="rotate(0 68 79)"/>
     <ellipse cx="68" cy="56" rx="11.5" ry="21" fill="#55606D" transform="rotate(72 68 79)"/>
     <ellipse cx="68" cy="56" rx="11.5" ry="21" fill="#55606D" transform="rotate(144 68 79)"/>
@@ -18,6 +19,7 @@
     <ellipse cx="68" cy="56" rx="11.5" ry="21" fill="#55606D" transform="rotate(288 68 79)"/>
     <circle cx="68" cy="79" r="8" fill="#8A94A0"/>
     <circle cx="68" cy="79" r="3" fill="#55606D"/>
+    </g></g>
     <circle cx="68" cy="79" r="18" fill="none" stroke="#8A94A0" stroke-opacity="0.6" stroke-width="0.8"/>
     <circle cx="68" cy="79" r="30" fill="none" stroke="#8A94A0" stroke-opacity="0.6" stroke-width="0.8"/>
     <circle cx="68" cy="79" r="42" fill="none" stroke="#8A94A0" stroke-opacity="0.6" stroke-width="0.8"/>

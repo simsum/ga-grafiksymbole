@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="168" viewBox="0 0 180 168" role="img" aria-labelledby="title">
+  <title id="title">Luft/Wasser-Wärmepumpe Außengerät (Monoblock), Vorderansicht, Anschluss links, Lüfter dreht</title>
+  <defs>
+    <linearGradient id="gB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E6E6E6"/><stop offset="0.07" stop-color="#E0E0E0"/><stop offset="1" stop-color="#999999"/></linearGradient>
+    <linearGradient id="gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+  </defs>
+  <g transform="translate(180 0) scale(-1 1)">
+    <rect x="8" y="147" width="164" height="9" rx="1.5" fill="#4A4F55" stroke="#2E3237" stroke-width="1.2"/>
+    <rect x="4" y="4" width="172" height="144" rx="3" fill="url(#gG)" stroke="#999999" stroke-width="2"/>
+    <rect x="5" y="5" width="170" height="6" fill="url(#gB)"/>
+    <line x1="5" y1="11" x2="175" y2="11" stroke="#B5B5B5" stroke-width="1.2"/>
+    <rect x="11" y="18" width="114" height="122" rx="4" fill="#D9DCDF" stroke="#999999" stroke-width="1.6"/>
+    <circle cx="68" cy="79" r="50" fill="#2B3440" stroke="#6B7480" stroke-width="2"/>
+    <g transform="rotate(-0.00 68 79)"><g><animateTransform attributeName="transform" type="rotate" from="0 68 79" to="-360 68 79" dur="2.4s" repeatCount="indefinite"/>
+    <ellipse cx="68" cy="56" rx="11.5" ry="21" fill="#55606D" transform="rotate(0 68 79)"/>
+    <ellipse cx="68" cy="56" rx="11.5" ry="21" fill="#55606D" transform="rotate(72 68 79)"/>
+    <ellipse cx="68" cy="56" rx="11.5" ry="21" fill="#55606D" transform="rotate(144 68 79)"/>
+    <ellipse cx="68" cy="56" rx="11.5" ry="21" fill="#55606D" transform="rotate(216 68 79)"/>
+    <ellipse cx="68" cy="56" rx="11.5" ry="21" fill="#55606D" transform="rotate(288 68 79)"/>
+    <circle cx="68" cy="79" r="8" fill="#8A94A0"/>
+    <circle cx="68" cy="79" r="3" fill="#55606D"/>
+    </g></g>
+    <circle cx="68" cy="79" r="18" fill="none" stroke="#8A94A0" stroke-opacity="0.6" stroke-width="0.8"/>
+    <circle cx="68" cy="79" r="30" fill="none" stroke="#8A94A0" stroke-opacity="0.6" stroke-width="0.8"/>
+    <circle cx="68" cy="79" r="42" fill="none" stroke="#8A94A0" stroke-opacity="0.6" stroke-width="0.8"/>
+    <line x1="76.0" y1="79.0" x2="118.0" y2="79.0" stroke="#8A94A0" stroke-opacity="0.6" stroke-width="0.8"/>
+    <line x1="73.7" y1="84.7" x2="103.4" y2="114.4" stroke="#8A94A0" stroke-opacity="0.6" stroke-width="0.8"/>
+    <line x1="68.0" y1="87.0" x2="68.0" y2="129.0" stroke="#8A94A0" stroke-opacity="0.6" stroke-width="0.8"/>
+    <line x1="62.3" y1="84.7" x2="32.6" y2="114.4" stroke="#8A94A0" stroke-opacity="0.6" stroke-width="0.8"/>
+    <line x1="60.0" y1="79.0" x2="18.0" y2="79.0" stroke="#8A94A0" stroke-opacity="0.6" stroke-width="0.8"/>
+    <line x1="62.3" y1="73.3" x2="32.6" y2="43.6" stroke="#8A94A0" stroke-opacity="0.6" stroke-width="0.8"/>
+    <line x1="68.0" y1="71.0" x2="68.0" y2="29.0" stroke="#8A94A0" stroke-opacity="0.6" stroke-width="0.8"/>
+    <line x1="73.7" y1="73.3" x2="103.4" y2="43.6" stroke="#8A94A0" stroke-opacity="0.6" stroke-width="0.8"/>
+    <circle cx="68" cy="79" r="50" fill="none" stroke="#8A94A0" stroke-width="0.8" stroke-dasharray="2 3"/>
+    <rect x="132" y="18" width="38" height="122" fill="#F2F2F2" stroke="#999999" stroke-width="2"/>
+    <line x1="134" y1="58" x2="168" y2="58" stroke="#B5B5B5" stroke-width="1.2"/>
+    <line x1="134" y1="104" x2="168" y2="104" stroke="#B5B5B5" stroke-width="1.2"/>
+    <rect x="145" y="74" width="12" height="5" rx="1.5" fill="#4D4D4D"/>
+    <rect x="136" y="112" width="30" height="24" rx="2" fill="#E6E6E6" stroke="#999999" stroke-width="1.2"/>
+    <rect x="157" y="156" width="6" height="4" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="152" y="160" width="16" height="5" rx="1" fill="#D7302B" stroke="#6B6B6B" stroke-width="1"/>
+    <rect x="137" y="156" width="6" height="4" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="132" y="160" width="16" height="5" rx="1" fill="#F29A38" stroke="#6B6B6B" stroke-width="1"/>
+  </g>
+</svg>

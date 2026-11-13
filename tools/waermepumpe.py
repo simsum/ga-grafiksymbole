@@ -1,14 +1,24 @@
 """Erzeugt symbole/hydraulik/Waermepumpe_Luft_Wasser_{rechts,links} (SVG + PNG, resvg-py).
 
 Außengerät Luft/Wasser-Wärmepumpe, Monoblock, Vorderansicht. Aufruf: python tools/waermepumpe.py
+
+Zusätzlich die Variante „_an“ mit drehendem Lüfter:
+  _an.gif  animiertes GIF (12 Bilder, 40 ms) für Picture mit animate = true – sicher lauffähig
+  _an.svg  animiertes SVG (SMIL), Wiedergabe in Workbench/HTML5 ungeprüft
+  _an.png  Standbild als Ausweichlösung
 """
+import io
 import math
 from pathlib import Path
 
 W, H = 180, 168
 VL_X, RL_X = 160, 140          # Anschluss rechts; links gespiegelt: 20 / 40
+GIF_BILDER = 12                # Bilder je Flügelteilung (72°) – Schleife ist nahtlos
+GIF_MS = 40                    # Anzeigedauer je Bild
+GIF_MATTE = (166, 166, 166)    # Hintergrund, gegen den die Außenkanten geglättet werden
+SVG_DREHDAUER = "2.4s"         # eine Umdrehung im animierten SVG
 
-def body() -> str:
+def body(winkel: float = 0.0, animation: str = "") -> str:
     s = []
     # Grundrahmen / Füße
     s.append('<rect x="8" y="147" width="164" height="9" rx="1.5" fill="#4A4F55" stroke="#2E3237" stroke-width="1.2"/>')
@@ -20,10 +30,13 @@ def body() -> str:
     s.append('<rect x="11" y="18" width="114" height="122" rx="4" fill="#D9DCDF" stroke="#999999" stroke-width="1.6"/>')
     cx, cy, r = 68, 79, 50
     s.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="#2B3440" stroke="#6B7480" stroke-width="2"/>')
+    # Flügelrad (drehbar); Schutzgitter bleibt stehend darüber
+    s.append(f'<g transform="rotate({winkel:.2f} {cx} {cy})"><g>{animation}')
     for a in range(0, 360, 72):
         s.append(f'<ellipse cx="{cx}" cy="{cy-23}" rx="11.5" ry="21" fill="#55606D" transform="rotate({a} {cx} {cy})"/>')
     s.append(f'<circle cx="{cx}" cy="{cy}" r="8" fill="#8A94A0"/>')
     s.append(f'<circle cx="{cx}" cy="{cy}" r="3" fill="#55606D"/>')
+    s.append('</g></g>')
     # Schutzgitter: Ringe und Speichen, dezent
     for rr in (18, 30, 42):
         s.append(f'<circle cx="{cx}" cy="{cy}" r="{rr}" fill="none" stroke="#8A94A0" stroke-opacity="0.6" stroke-width="0.8"/>')
@@ -50,15 +63,40 @@ DEFS = '''  <defs>
     <linearGradient id="gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
   </defs>'''
 
-def svg(seite: str) -> str:
-    inner = body()
+def svg(seite: str, winkel: float = 0.0, animiert: bool = False) -> str:
+    # gespiegelte Variante dreht intern andersherum, damit beide sichtbar im Uhrzeigersinn laufen
+    richtung = -1 if seite == "links" else 1
+    anim = ""
+    if animiert:
+        anim = (f'<animateTransform attributeName="transform" type="rotate" from="0 68 79" '
+                f'to="{360 * richtung} 68 79" dur="{SVG_DREHDAUER}" repeatCount="indefinite"/>')
+    inner = body(winkel * richtung, anim)
     if seite == "links":
         inner = f'<g transform="translate({W} 0) scale(-1 1)">\n    {inner}\n  </g>'
     else:
         inner = f'<g>\n    {inner}\n  </g>'
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="title">\n'
-            f'  <title id="title">Luft/Wasser-Wärmepumpe Außengerät (Monoblock), Vorderansicht, Anschluss {seite}</title>\n'
+            f'  <title id="title">Luft/Wasser-Wärmepumpe Außengerät (Monoblock), Vorderansicht, Anschluss {seite}{", Lüfter dreht" if animiert else ""}</title>\n'
             f'{DEFS}\n  {inner}\n</svg>\n')
+
+def gif(seite: str) -> bytes:
+    """Animiertes GIF in Originalgröße; Außenkanten gegen GIF_MATTE geglättet, harte Transparenz."""
+    import resvg_py
+    from PIL import Image
+    bilder = []
+    for i in range(GIF_BILDER):
+        png = bytes(resvg_py.svg_to_bytes(svg_string=svg(seite, winkel=72 * i / GIF_BILDER)))
+        rgba = Image.open(io.BytesIO(png)).convert("RGBA")
+        matte = Image.new("RGBA", rgba.size, GIF_MATTE + (255,))
+        flach = Image.alpha_composite(matte, rgba).convert("RGB")
+        maske = rgba.getchannel("A").point(lambda a: 255 if a >= 40 else 0)
+        p = flach.quantize(colors=255, method=Image.Quantize.MEDIANCUT, dither=Image.Dither.NONE)
+        p.paste(255, mask=maske.point(lambda a: 255 - a))      # Index 255 = transparent
+        bilder.append(p)
+    buf = io.BytesIO()
+    bilder[0].save(buf, format="GIF", save_all=True, append_images=bilder[1:], duration=GIF_MS,
+                   loop=0, transparency=255, disposal=2, optimize=False)
+    return buf.getvalue()
 
 if __name__ == "__main__":
     import resvg_py
@@ -69,3 +107,8 @@ if __name__ == "__main__":
         png = resvg_py.svg_to_bytes(svg_string=svg(seite))
         p.with_suffix(".png").write_bytes(bytes(png))
         print(p)
+        a = out / f"Waermepumpe_Luft_Wasser_{seite}_an.svg"
+        a.write_text(svg(seite, animiert=True), encoding="utf-8")
+        a.with_suffix(".png").write_bytes(bytes(resvg_py.svg_to_bytes(svg_string=svg(seite, winkel=36))))
+        a.with_suffix(".gif").write_bytes(gif(seite))
+        print(a, a.with_suffix(".gif"))

@@ -154,3 +154,10 @@ Animation per SMIL. Ohne Animation bleibt die Zustandsfarbe (und bei Störung da
 - Zustände: `aus`, `gruen`, `rot`, `blau`, `gelb`.
 - Ring dezent hellgrau, gleichmäßige Linsenfarbe, kleiner Glanzpunkt.
 - Umschalten über Binding auf `image` eines einzigen Pictures.
+- Variante `_animiert` (z. B. `LED_gruen_animiert`, nicht für `aus`): Glanzpunkt blitzt alle 4 s kurz auf (SMIL). Ohne Animation identisch mit der statischen LED.
+
+### LEDs eckig
+
+- 32 × 32 inkl. Lichtschein, Kachel 24 × 24 mit Eckenradius 6, Verlauf hell → Farbe → dunkel, Glanzstreifen oben, schwacher eckiger Farbschein.
+- `LED_eckig_{gruen,rot,blau,gelb,aus}`, dazu `_animiert` für die farbigen (Glanzstreifen blitzt alle 4 s kurz auf).
+- `aus` ohne Farbschein.

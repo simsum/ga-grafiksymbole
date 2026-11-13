@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <!-- LED eckig gruen, animiert -->
+  <defs><linearGradient id="body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7FE08A"/><stop offset="0.5" stop-color="#2ECC40"/><stop offset="1" stop-color="#1E9E2E"/></linearGradient></defs>
+  <rect x="1" y="1" width="30" height="30" rx="9" fill="#2ECC40" opacity="0.18"/>
+  <rect x="4" y="4" width="24" height="24" rx="6" fill="url(#body)" stroke="#1E9E2E" stroke-width="1"/>
+  <rect x="6.5" y="6" width="19" height="7" rx="3.5" fill="#FFFFFF" opacity="0.28"/>
+  <!-- Glanz blitzt alle 4 s kurz auf (SMIL); ohne Animation unsichtbar -->
+  <rect x="6.5" y="6" width="19" height="7" rx="3.5" fill="#FFFFFF" opacity="0"><animate attributeName="opacity" values="0;0;0.45;0" keyTimes="0;0.8;0.88;1" dur="4s" repeatCount="indefinite"/></rect>
+  <circle cx="9.5" cy="8.5" r="1" fill="#FFFFFF" opacity="0"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.8;0.86;1" dur="4s" repeatCount="indefinite"/></circle>
+</svg>

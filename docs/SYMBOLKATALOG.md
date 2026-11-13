@@ -14,6 +14,13 @@ Fachübergreifende Symbole (Wasser, Luft, Strom) unter `symbole/allgemein/`.
 
 Variante `_an` (z. B. `Flusspfeil_rechts_an`), gleiche Größe: drei helle Punkte laufen in Flussrichtung durch den Pfeil (SMIL, 1,2 s). Ohne Animation normaler Pfeil. Für „fließt“ / „steht“ per `image`-Binding zwischen `Flusspfeil_rechts.svg` und `…_an.svg` umschalten, z. B. gekoppelt an den Pumpen- oder Ventilatorbetrieb.
 
+### Flusspfeile mit Bogen (90°)
+
+- 24 × 24, gleiche Schaft- und Spitzenbreite wie die geraden Flusspfeile, Bogen außen r = 7, innen r = 3.
+- `Flusspfeil_Knick_<vorher>_<nachher>`: erst die Flussrichtung vor dem Bogen, dann danach, z. B. `Flusspfeil_Knick_rechts_unten` (fließt nach rechts, biegt nach unten ab). Acht Richtungen: `rechts_unten`, `rechts_oben`, `links_unten`, `links_oben`, `unten_rechts`, `unten_links`, `oben_rechts`, `oben_links`.
+- Position: Schnittpunkt der Rohrachsen im Bild – (17, 7): `rechts_unten`, `oben_links`; (17, 17): `rechts_oben`, `unten_links`; (7, 7): `links_unten`, `oben_rechts`; (7, 17): `links_oben`, `unten_rechts`.
+- Variante `_an` wie bei den geraden Pfeilen: helle Punkte laufen um den Bogen bis in die Spitze (SMIL, 1,4 s).
+
 ## Lüftung
 
 | Symbol | Größe | Hinweise |

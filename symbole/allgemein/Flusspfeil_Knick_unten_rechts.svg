@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <!-- Flussrichtungspfeil mit 90-Grad-Bogen fuer Rohrleitungen -->
+  <g transform="matrix(0 1 1 0 0 0)">
+    <path d="M2,5 L12,5 A7,7 0 0 1 19,12 L23,12 L17,22 L11,12 L15,12 A3,3 0 0 0 12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+</svg>

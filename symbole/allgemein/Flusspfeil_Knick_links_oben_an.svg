@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <!-- Flussrichtungspfeil mit 90-Grad-Bogen, animiert: helle Punkte laufen in Flussrichtung (SMIL); ohne Animation normaler Pfeil. Rohrachsen schneiden sich im Bogen -->
+  <g transform="translate(24,24) scale(-1,-1)">
+    <path d="M2,5 L12,5 A7,7 0 0 1 19,12 L23,12 L17,22 L11,12 L15,12 A3,3 0 0 0 12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0.8s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>

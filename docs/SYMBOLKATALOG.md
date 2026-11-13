@@ -121,8 +121,17 @@ Mit angedeutetem Rollenzählwerk (fünf Rollen, letzte rot).
 
 ### Pumpe
 
-- 40 × 40. Ein: grün (`#A8DC96` → `#3E9A3A`), aus: grau (`#EDEDED` → `#A6A6A6`), Dreieck `#4D4D4D`.
-- Animationsvarianten (laufender gestrichelter Ring, drehendes Laufrad) als CSS-SVG, SMIL-SVG und GIF in Planung.
+- 40 × 40, Kreis mit Förderpfeil (Dreieck `#4D4D4D`). Erzeugt mit `tools/pumpe.py`.
+- `Pumpe_{richtung}_{zustand}`, Richtungen `oben`, `rechts`, `unten`, `links` (Dreieck fest gedreht, Niagara dreht nicht).
+
+| Zustand | Suffix | Darstellung |
+|---|---|---|
+| aus | `_aus` | grau (`#EDEDED` → `#A6A6A6`) |
+| Freigabe | `_freigabe` | gelb (`#FFEB8F` → `#E3B200`), pulsiert weich (1,4 s) |
+| Betrieb | `_an` | grün (`#A8DC96` → `#3E9A3A`), drei lange Segmente drehen, Fließpfeile laufen im Dreieck Richtung Spitze |
+| Störung | `_stoerung` | rot (`#F5A3A0` → `#D7302B`), pulsiert weich (1,4 s), kleines Warndreieck mit „!“ in der Mitte |
+
+Animation per SMIL. Ohne Animation bleibt die Zustandsfarbe (und bei Störung das Warndreieck) sichtbar. Zustandswechsel über `image`-Binding (siehe NIAGARA.md).
 
 ## Anzeigen
 

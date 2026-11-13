@@ -40,8 +40,21 @@ Die Eigenschaft `image` per Binding an einen Zustand koppeln. So genügt ein `Pi
 | Technik | Bewertung |
 |---|---|
 | Zustandsbilder umschalten (Binding auf `image`) | sicher, überall lauffähig |
-| Animiertes GIF (`animate = true`) | echte Bewegung; Pixelgrafik, harte Transparenz, in Anzeigegröße erzeugen |
-| Animiertes SVG (CSS/SMIL) | ob Workbench/HTML5-Ansicht es abspielt, ist ungeprüft |
+| Animiertes SVG (SMIL) | läuft in 4.15 in Workbench und HTML5-Ansicht; vektoriell, klein, scharf bei jeder Größe – bevorzugt |
+| Animiertes GIF (`animate = true`) | echte Bewegung; Pixelgrafik, harte Transparenz, in Anzeigegröße erzeugen – Ausweichlösung |
+
+### Animation ein- und ausschalten
+
+Die Eigenschaft `animate` wirkt nur dort, wo Niagara das Bild selbst zeichnet (Workbench). In der HTML5-Ansicht zeichnet der Browser das SVG, die SMIL-Animation in der Datei läuft dort unabhängig von `animate` weiter.
+
+Deshalb nicht `animate` binden, sondern `image` zwischen statischer und animierter Datei umschalten, `animate` fest auf `true`:
+
+| Zustand | `image` |
+|---|---|
+| aus | `file:^px/GraphicTemplates/symbole/Waermepumpe_Luft_Wasser_rechts.svg` |
+| an | `file:^px/GraphicTemplates/symbole/Waermepumpe_Luft_Wasser_rechts_an.svg` |
+
+So verhalten sich Workbench und Browser gleich, und es genügt ein `Picture`.
 
 ## Hinweise zu SVG
 

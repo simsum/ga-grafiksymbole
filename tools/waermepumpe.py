@@ -3,8 +3,8 @@
 Außengerät Luft/Wasser-Wärmepumpe, Monoblock, Vorderansicht. Aufruf: python tools/waermepumpe.py
 
 Zusätzlich die Variante „_an“ mit drehendem Lüfter:
-  _an.gif  animiertes GIF (12 Bilder, 40 ms) für Picture mit animate = true – sicher lauffähig
-  _an.svg  animiertes SVG (SMIL), Wiedergabe in Workbench/HTML5 ungeprüft
+  _an.svg  animiertes SVG (SMIL) – läuft in 4.15 in Workbench und HTML5, bevorzugt
+  _an.gif  animiertes GIF (12 Bilder, 40 ms) als Ausweichlösung
   _an.png  Standbild als Ausweichlösung
 """
 import io

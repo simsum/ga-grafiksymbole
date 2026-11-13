@@ -4,7 +4,7 @@ Außengerät Luft/Wasser-Wärmepumpe, Monoblock, Vorderansicht. Aufruf: python t
 
 Zustände (gleiche Größe und Anschlusspunkte):
   (ohne)        aus, Lüfter steht
-  _an           Betrieb, Lüfter dreht
+  _an           Betrieb, Lüfter dreht, Windlinien wandern nach außen (nur im SVG)
                   _an.svg  animiertes SVG (SMIL) – läuft in 4.15 in Workbench und HTML5, bevorzugt
                   _an.gif  animiertes GIF (12 Bilder, 40 ms) als Ausweichlösung
                   _an.png  Standbild als Ausweichlösung
@@ -76,6 +76,17 @@ def overlay(seite: str, zustand: str) -> str:
     """Zustandsanzeige über dem Gerät, ungespiegelt (Dreieck und Schneeflocke sehen links wie rechts gleich aus)."""
     fx = 68 if seite == "rechts" else W - 68          # Lüftermitte
     lx = 145 if seite == "rechts" else W - 145 - 12   # Status-LED im Schaltkasten
+    if zustand == "an":
+        # Windlinien: wandern von der Mitte nach außen und verblassen; nur animiert sichtbar
+        s = ['  <g>\n']
+        for i, a in enumerate((0, 60, 120, 180, 240, 300)):
+            beginn = f"{i * 0.25:.2f}s"
+            s.append(f'    <g transform="rotate({a + 30} {fx} 79)"><path d="M{fx},64 q4,-4 0,-8 q-4,-4 0,-8" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0">'
+                     f'<animate attributeName="opacity" values="0;0.85;0" keyTimes="0;0.3;1" dur="1.5s" begin="{beginn}" repeatCount="indefinite"/>'
+                     f'<animateTransform attributeName="transform" type="translate" values="0 0;0 -26" dur="1.5s" begin="{beginn}" repeatCount="indefinite"/>'
+                     f'</path></g>\n')
+        s.append('  </g>\n')
+        return "".join(s)
     if zustand == "stoerung":
         return (f'  <g>\n'
                 f'    <animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/>\n'

@@ -103,7 +103,7 @@ Zustandsvarianten, jeweils für `links` und `rechts`, gleiche Größe und Anschl
 | Zustand | Suffix | Darstellung |
 |---|---|---|
 | aus | – | Lüfter steht |
-| Betrieb | `_an` | Lüfter dreht; `.svg` animiert per SMIL (läuft in 4.15 in Workbench und Browser, bevorzugt), `.gif` als Ausweichlösung (12 Bilder à 40 ms), `.png` als Standbild |
+| Betrieb | `_an` | Lüfter dreht, Windlinien wandern von der Mitte nach außen; `.svg` animiert per SMIL (läuft in 4.15 in Workbench und Browser, bevorzugt), `.gif` als Ausweichlösung (12 Bilder à 40 ms), `.png` als Standbild |
 | Störung | `_stoerung` | Lüfter steht, rotes Warndreieck mit Ausrufezeichen und rote Status-LED blinken (1 Hz) |
 | Abtaubetrieb | `_abtau` | Lüfter steht, Reif auf dem Lüfter, Schneeflocke, Schmelzwassertropfen, blaue Status-LED pulsiert |
 

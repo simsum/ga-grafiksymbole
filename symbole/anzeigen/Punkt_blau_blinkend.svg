@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+  <!-- Punkt_blau_blinkend -->
+  <circle cx="6" cy="6" r="5" fill="#9A9A9A" stroke="#555555" stroke-opacity="0.45" stroke-width="0.8"><animate attributeName="fill" values="#9A9A9A;#4A86D4;#9A9A9A" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="3.5s" repeatCount="indefinite"/></circle>
+  <ellipse cx="4.6" cy="4.2" rx="1.8" ry="1.1" fill="#FFFFFF" opacity="0.45"/>
+</svg>

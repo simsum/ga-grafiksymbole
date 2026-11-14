@@ -169,6 +169,13 @@ Animation per SMIL. Ohne Animation bleibt die Zustandsfarbe (und bei Störung da
 - `LED_eckig_{gruen,rot,blau,gelb,aus}`, dazu `_animiert` für die farbigen (Glanzstreifen blitzt alle 4 s kurz auf).
 - `aus` ohne Farbschein.
 
+### Punkte (dezent blinkend)
+
+- 12 × 12, kleiner Punkt mit Glanzlicht, z. B. vor Temperaturanzeigen.
+- `Punkt_{gruen,blau,gelb,rot}_blinkend`: Füllung wechselt weich Grau `#9A9A9A` → Farbe → Grau (SMIL, 3,5 s). Ohne Animation grau.
+- `Punkt_grau`: statisch, für „aus“.
+- Farbe per Binding auf `image` umschalten.
+
 ### Betriebsart Normal / Leise (z. B. Wärmepumpe)
 
 - 40 × 40, eigenständiges Symbol zum Danebenlegen (Zustand der Wärmepumpe bleibt davon getrennt).

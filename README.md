@@ -12,7 +12,7 @@ symbole/                 je Ordner SVG und PNG mit gleichem Namen nebeneinander
   lueftung/              Klimakonvektor, Volumenstromregler, Deckenluftdurchlass, WRG
   hydraulik/             Absperrklappe, Energieventil, Zähler, Zortström-Speicher, Kessel, Wärmepumpe, Pumpe
   anzeigen/              LEDs (rund und eckig), blinkende Punkte, Betriebsart Normal/Leise
-  fun/                   Verspielte Cartoon-Symbole (Außentemperatur, -feuchte, CO₂), animiert
+  fun/                   Verspielte Cartoon-Symbole (Außentemperatur, -feuchte, CO₂), animiert; Monatsleiste
     button/              Cartoon-Navigationsbuttons 280 × 72, je normal und aktiv
   topologie/             Topologiesymbole (Controller/IO, Netzwerk, Infrastruktur, Geräte,
                          Ventile, Energie- und Wasserzähler, Schaltschränke)
@@ -25,6 +25,7 @@ tools/
   check_symbols.py       Prüft SVGs auf Regeln (kein <text>, Namensschema, PNG vorhanden)
   waermepumpe.py         Erzeugt die Wärmepumpen-Symbole unter symbole/hydraulik/ (resvg-py)
   klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/{klein,gross}/ (resvg-py)
+  monatsleiste.ps1       Erzeugt symbole/fun/Fun_Monatsleiste.svg (Windows, Schrift als Pfade)
   uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ (Pillow, optional resvg-py)
 ```
 

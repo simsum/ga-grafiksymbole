@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="20" viewBox="0 0 280 20">
+  <!-- Wellenlinie: huepfende Punkte (SMIL) -->
+  <circle cx="24" cy="12" r="5" fill="#ff8a00" stroke="#2b1600" stroke-width="2.5"><animate attributeName="cy" values="12;5;12;12" keyTimes="0;0.2;0.4;1" dur="1.4s" begin="0.00s" repeatCount="indefinite"/></circle>
+  <circle cx="53" cy="12" r="5" fill="#ff8a00" stroke="#2b1600" stroke-width="2.5"><animate attributeName="cy" values="12;5;12;12" keyTimes="0;0.2;0.4;1" dur="1.4s" begin="0.12s" repeatCount="indefinite"/></circle>
+  <circle cx="82" cy="12" r="5" fill="#ff8a00" stroke="#2b1600" stroke-width="2.5"><animate attributeName="cy" values="12;5;12;12" keyTimes="0;0.2;0.4;1" dur="1.4s" begin="0.24s" repeatCount="indefinite"/></circle>
+  <circle cx="111" cy="12" r="5" fill="#ff8a00" stroke="#2b1600" stroke-width="2.5"><animate attributeName="cy" values="12;5;12;12" keyTimes="0;0.2;0.4;1" dur="1.4s" begin="0.36s" repeatCount="indefinite"/></circle>
+  <circle cx="140" cy="12" r="5" fill="#ff8a00" stroke="#2b1600" stroke-width="2.5"><animate attributeName="cy" values="12;5;12;12" keyTimes="0;0.2;0.4;1" dur="1.4s" begin="0.48s" repeatCount="indefinite"/></circle>
+  <circle cx="169" cy="12" r="5" fill="#ff8a00" stroke="#2b1600" stroke-width="2.5"><animate attributeName="cy" values="12;5;12;12" keyTimes="0;0.2;0.4;1" dur="1.4s" begin="0.60s" repeatCount="indefinite"/></circle>
+  <circle cx="198" cy="12" r="5" fill="#ff8a00" stroke="#2b1600" stroke-width="2.5"><animate attributeName="cy" values="12;5;12;12" keyTimes="0;0.2;0.4;1" dur="1.4s" begin="0.72s" repeatCount="indefinite"/></circle>
+  <circle cx="227" cy="12" r="5" fill="#ff8a00" stroke="#2b1600" stroke-width="2.5"><animate attributeName="cy" values="12;5;12;12" keyTimes="0;0.2;0.4;1" dur="1.4s" begin="0.84s" repeatCount="indefinite"/></circle>
+  <circle cx="256" cy="12" r="5" fill="#ff8a00" stroke="#2b1600" stroke-width="2.5"><animate attributeName="cy" values="12;5;12;12" keyTimes="0;0.2;0.4;1" dur="1.4s" begin="0.96s" repeatCount="indefinite"/></circle>
+</svg>

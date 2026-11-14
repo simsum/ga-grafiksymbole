@@ -13,6 +13,7 @@ symbole/                 je Ordner SVG und PNG mit gleichem Namen nebeneinander
   hydraulik/             Absperrklappe, Energieventil, Zähler, Zortström-Speicher, Kessel, Wärmepumpe, Pumpe
   anzeigen/              LEDs (rund und eckig)
   fun/                   Verspielte Cartoon-Symbole (Außentemperatur, -feuchte, CO₂), animiert
+    button/              Cartoon-Navigationsbuttons 280 × 72, je normal und aktiv
   topologie/             Topologiesymbole (Controller/IO, Netzwerk, Infrastruktur, Geräte,
                          Ventile, Energie- und Wasserzähler, Schaltschränke)
 docs/

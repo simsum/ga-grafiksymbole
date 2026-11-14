@@ -173,3 +173,12 @@ Verspielte Cartoon-Symbole unter `symbole/fun/`, 48 × 48, dunkelbraune Kontur `
 | Außen-CO₂ | `Fun_CO2_Blase` (Schrift als Pfad) | – |
 
 Umschalten über `image`-Binding mit Konverter (siehe NIAGARA.md).
+
+### Buttons
+
+Unter `symbole/fun/button/`, 280 × 72, Cartoon-Stil passend zu den Fun-Symbolen. Beschriftung als Pfad (kein `<text>`).
+
+- `btn_{uebersicht,heizung,waermepumpe,puffer,pv,raeume}_{normal,aktiv}`: mit Icon und Beschriftung. „Räume“ ist aus Buchstaben der anderen Buttons zusammengesetzt (R = P mit ergänztem Bein).
+- `btn_leer_{normal,aktiv}`: ohne Icon und Text, für eigene Beschriftung per Niagara-Label.
+- `normal` gelb, `aktiv` orange mit hellem Rand und 3 px nach unten versetzt (gedrückt).
+- `btn_welle_{fliesst,atmet,punkte,funken}`: 280 × 20, animierte Wellenlinie unter einem `normal`-Button als Alternative zu `aktiv`. `fliesst` und `atmet` verformen die Linie (SMIL `animate d`, im Browser geprüft, Workbench ungeprüft), `punkte` und `funken` bewegen nur Punkte.

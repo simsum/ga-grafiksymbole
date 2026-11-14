@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <!-- Tropfen trocken: klein, durstig, Wuestenboden (SMIL) -->
+  <ellipse cx="24" cy="44" rx="13" ry="2" fill="#C9A16B" stroke="#3B2412" stroke-width="1.5"/>
+  <path d="M17,44 l2,-1 l1,1 M28,44 l1.5,-1 l1,1" fill="none" stroke="#3B2412" stroke-width="0.9"/>
+   <g transform="translate(6 8) scale(0.75)"><g><animateTransform attributeName="transform" type="rotate" values="-3 24 44;3 24 44;-3 24 44" dur="1.8s" repeatCount="indefinite"/>
+   <path d="M24,4 C24,4 38,20 38,30 a14,14 0 0 1 -28,0 C10,20 24,4 24,4 Z" fill="#9FD0F5" stroke="#3B2412" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M16,28 q0,-6 5,-12" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+   <path d="M18,28 l4,1.5 M30,28 l-4,1.5" stroke="#3B2412" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M19.5,35 q4.5,-2 9,0" fill="none" stroke="#3B2412" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M24,35 q0,5 2.5,5 q2.5,0 2,-5" fill="#F28B9E" stroke="#3B2412" stroke-width="1.4"/>
+  </g></g>
+   <circle cx="38" cy="10" r="4" fill="#FFC41F" stroke="#3B2412" stroke-width="1.6"/>
+</svg>

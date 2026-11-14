@@ -11,7 +11,8 @@ symbole/                 je Ordner SVG und PNG mit gleichem Namen nebeneinander
   allgemein/             Fachübergreifend: Flusspfeile (Wasser, Luft, Strom)
   lueftung/              Klimakonvektor, Volumenstromregler, Deckenluftdurchlass, WRG
   hydraulik/             Absperrklappe, Energieventil, Zähler, Zortström-Speicher, Kessel, Wärmepumpe, Pumpe
-  anzeigen/              LEDs
+  anzeigen/              LEDs (rund und eckig)
+  fun/                   Verspielte Cartoon-Symbole (Außentemperatur, -feuchte, CO₂), animiert
   topologie/             Topologiesymbole (Controller/IO, Netzwerk, Infrastruktur, Geräte,
                          Ventile, Energie- und Wasserzähler, Schaltschränke)
 docs/

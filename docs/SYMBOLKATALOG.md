@@ -161,3 +161,15 @@ Animation per SMIL. Ohne Animation bleibt die Zustandsfarbe (und bei Störung da
 - 32 × 32 inkl. Lichtschein, Kachel 24 × 24 mit Eckenradius 6, Verlauf hell → Farbe → dunkel, Glanzstreifen oben, schwacher eckiger Farbschein.
 - `LED_eckig_{gruen,rot,blau,gelb,aus}`, dazu `_animiert` für die farbigen (Glanzstreifen blitzt alle 4 s kurz auf).
 - `aus` ohne Farbschein.
+
+## Fun
+
+Verspielte Cartoon-Symbole unter `symbole/fun/`, 48 × 48, dunkelbraune Kontur `#3B2412`, animiert per SMIL. Zum Danebenstellen von Messwerten.
+
+| Symbol | Dateien | Vorschlag Umschaltung |
+|---|---|---|
+| Außentemperatur | `Fun_Thermometer_kalt` (zittert, Schal), `_mild` (lächelt), `_warm` (Sonnenbrille, schwitzt) | kalt < 5 °C, mild 5–25 °C, warm > 25 °C |
+| Außenfeuchte | `Fun_Tropfen_trocken` (durstig), `_normal` (hüpft), `_nass` (Schnorchel) | trocken < 35 %RH, normal 35–70 %RH, nass > 70 %RH |
+| Außen-CO₂ | `Fun_CO2_Blase` (Schrift als Pfad) | – |
+
+Umschalten über `image`-Binding mit Konverter (siehe NIAGARA.md).

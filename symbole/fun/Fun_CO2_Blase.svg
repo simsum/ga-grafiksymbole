@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <!-- CO2-Blubberblase, Schrift als Pfad (SMIL) -->
+  <circle cx="35" cy="40" r="2.5" fill="#BDE7F7" stroke="#3B2412" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;1;0" dur="2.4s" repeatCount="indefinite"/><animate attributeName="cy" values="42;8" dur="2.4s" repeatCount="indefinite"/></circle>
+   <circle cx="10" cy="40" r="2" fill="#BDE7F7" stroke="#3B2412" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;1;0" dur="2s" begin="0.9s" repeatCount="indefinite"/><animate attributeName="cy" values="44;10" dur="2s" begin="0.9s" repeatCount="indefinite"/></circle>
+   <g><animateTransform attributeName="transform" type="translate" values="0 1;0 -1;0 1" dur="2.4s" repeatCount="indefinite"/>
+  <circle cx="23" cy="25" r="15" fill="#BDE7F7" stroke="#3B2412" stroke-width="2.5"/>
+  <path d="M13,19 a11,11 0 0 1 8,-6" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+   <g fill="none" stroke="#3B2412" stroke-linecap="round" stroke-linejoin="round"><path d="M19.2,21.2 A4,5 0 1 0 19.2,28.8" stroke-width="2.6"/><ellipse cx="25" cy="25" rx="4" ry="5" stroke-width="2.6"/><path d="M30.8,28.2 q0.2,-2 2,-2 q2,0 1.8,1.8 q-0.2,1.2 -3.8,4.6 h4" stroke-width="1.8"/></g>
+  </g>
+</svg>

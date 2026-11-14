@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <!-- Thermometer warm: Sonnenbrille, schwitzt, Hitzewellen (SMIL) -->
+  <rect x="18" y="4" width="12" height="32" rx="6" fill="#FFFFFF" stroke="#3B2412" stroke-width="2.5"/>
+  <rect x="21.5" y="8" width="5" height="28" rx="2.5" fill="#E8442E"><animate attributeName="y" values="8;10;8" dur="3s" repeatCount="indefinite"/><animate attributeName="height" values="28;26;28" dur="3s" repeatCount="indefinite"/></rect>
+  <circle cx="24" cy="38" r="7.5" fill="#E8442E" stroke="#3B2412" stroke-width="2.5"/>
+   <path d="M18.5,10 h11 v3.2 q-1.5,1.6 -3.3,0 v-1 h-4.4 v1 q-1.8,1.6 -3.3,0 z" fill="#3B2412"/>
+  <ellipse cx="24" cy="16.8" rx="2" ry="1.6" fill="#3B2412"/><path d="M23,17.6 q1,1.4 2,0" fill="#E8442E"/>
+   <path d="M32,12 q-1.5,3 0,4 q1.5,-1 0,-4 z" fill="#4AA8F0" stroke="#3B2412" stroke-width="1" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.7;1" dur="1.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;1 14" dur="1.4s" repeatCount="indefinite"/></path>
+   <path d="M16,9 q-1.5,3 0,4 q1.5,-1 0,-4 z" fill="#4AA8F0" stroke="#3B2412" stroke-width="1" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.7;1" dur="1.4s" begin="0.7s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;-1 14" dur="1.4s" begin="0.7s" repeatCount="indefinite"/></path>
+   <g fill="none" stroke="#FFC41F" stroke-width="1.6" stroke-linecap="round"><path d="M38,30 q-2,-3 0,-6 q2,-3 0,-6"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.2s" repeatCount="indefinite"/></path><path d="M10,30 q-2,-3 0,-6 q2,-3 0,-6"><animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/></path></g>
+</svg>

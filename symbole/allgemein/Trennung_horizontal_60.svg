@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="16" viewBox="0 0 60 16">
+  <!-- Trennung/Durchfuehrung (Decke, Wand) horizontal, Laenge 60, hell -->
+  <g fill="none">
+    <path d="M0,1.5 L60,1.5 M0,14.5 L60,14.5" stroke="#C8C8D0" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L60,7.5" stroke="#9A9AA6" stroke-width="1.2"/>
+  </g>
+</svg>

@@ -21,6 +21,13 @@ Variante `_an` (z. B. `Flusspfeil_rechts_an`), gleiche Größe: drei helle Punkt
 - Position: Schnittpunkt der Rohrachsen im Bild – (17, 7): `rechts_unten`, `oben_links`; (17, 17): `rechts_oben`, `unten_links`; (7, 7): `links_unten`, `oben_rechts`; (7, 17): `links_oben`, `unten_rechts`.
 - Variante `_an` wie bei den geraden Pfeilen: helle Punkte laufen um den Bogen bis in die Spitze (SMIL, 1,4 s).
 
+### Trennung / Durchführung (Decke, Wand)
+
+- Schraffiertes Band (zwei Randlinien, Schraffur 45°), 16 px stark, Hintergrund transparent – Leitungen werden darübergelegt.
+- `Trennung_{horizontal,vertikal}_<Länge>` mit Länge 60, 120, 180, 240, 300 px (horizontal L × 16, vertikal 16 × L).
+- Ohne Zusatz hell (`#C8C8D0`, für dunkle Hintergründe), `_dunkel` (`#555555`, für helle Hintergründe).
+- Nicht verzerrt skalieren: passende Länge wählen, damit die Schraffur gleichmäßig bleibt.
+
 ## Lüftung
 
 | Symbol | Größe | Hinweise |

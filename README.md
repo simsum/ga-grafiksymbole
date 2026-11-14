@@ -8,7 +8,7 @@ Die Symbole sind für den Einsatz in Niagara Px als `Picture` mit `scale = fitRa
 
 ```
 symbole/                 je Ordner SVG und PNG mit gleichem Namen nebeneinander
-  allgemein/             Fachübergreifend: Flusspfeile (Wasser, Luft, Strom)
+  allgemein/             Fachübergreifend: Flusspfeile (Wasser, Luft, Strom), Trennung/Durchführung
   lueftung/              Klimakonvektor, Volumenstromregler, Deckenluftdurchlass, WRG
   hydraulik/             Absperrklappe, Energieventil, Zähler, Zortström-Speicher, Kessel, Wärmepumpe, Pumpe
   anzeigen/              LEDs (rund und eckig), Betriebsart Normal/Leise

@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <!-- Betriebsart Leise, Mond mit Z -->
+  <path d="M22,7 A13,13 0 1 0 33,25 A10,10 0 1 1 22,7 Z" fill="#4A86D4" stroke="#1F5F9E" stroke-width="1"/><path d="M27,8 L32,8 L27,13 L32,13" fill="none" stroke="#1F5F9E" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"></path>
+</svg>

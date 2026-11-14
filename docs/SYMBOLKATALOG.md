@@ -162,6 +162,21 @@ Animation per SMIL. Ohne Animation bleibt die Zustandsfarbe (und bei Störung da
 - `LED_eckig_{gruen,rot,blau,gelb,aus}`, dazu `_animiert` für die farbigen (Glanzstreifen blitzt alle 4 s kurz auf).
 - `aus` ohne Farbschein.
 
+### Betriebsart Normal / Leise (z. B. Wärmepumpe)
+
+- 40 × 40, eigenständiges Symbol zum Danebenlegen (Zustand der Wärmepumpe bleibt davon getrennt).
+- Vier Motive, je `_normal` und `_leise`, statisch und als `_animiert`:
+
+| Motiv | Normal | Leise |
+| --- | --- | --- |
+| `Betriebsart_Lautsprecher` | drei grüne Schallbögen | ein kleiner blauer Bogen |
+| `Betriebsart_Pegel` | vier grüne Pegelbalken | ein blauer Balken, Rest als Umriss |
+| `Betriebsart_SonneMond` | Sonne (dreht langsam) | Mond mit schwebendem „Z“ (Nachtbetrieb) |
+| `Betriebsart_Luefter` | Lüfter schnell, zwei Schallbögen | Lüfter langsam, ein blasser Bogen |
+
+- Farben: Normal `#2ECC40`, Leise `#4A86D4`.
+- Umschalten über Binding (Boolean oder Enum) auf `image` eines Pictures.
+
 ## Fun
 
 Verspielte Cartoon-Symbole unter `symbole/fun/`, 48 × 48, dunkelbraune Kontur `#3B2412`, animiert per SMIL. Zum Danebenstellen von Messwerten.

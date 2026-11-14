@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <!-- Betriebsart Leise, Pegelbalken -->
+  <rect x="6" y="26" width="5" height="8" rx="1" fill="#4A86D4"><animate attributeName="opacity" values="1;0.5;1" dur="2s" begin="0s" repeatCount="indefinite"/></rect><g fill="none" stroke="#BDBDBD" stroke-width="1"><rect x="13.5" y="20.5" width="4" height="13" rx="1"/><rect x="20.5" y="14.5" width="4" height="19" rx="1"/><rect x="27.5" y="8.5" width="4" height="25" rx="1"/></g>
+</svg>

@@ -1130,8 +1130,8 @@
   </g>
   <g>
     <animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/>
-    <rect x="23" y="74" width="12" height="5" rx="1.5" fill="#E2231A"/>
-    <path d="M112,48 L144,104 L80,104 Z" fill="#E2231A" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="23" y="74" width="12" height="5" rx="1.5" fill="#D7302B"/>
+    <path d="M112,48 L144,104 L80,104 Z" fill="#D7302B" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/>
     <rect x="108.5" y="62" width="7" height="25" rx="3.5" fill="#FFFFFF"/>
     <circle cx="112" cy="95" r="4" fill="#FFFFFF"/>
   </g>
@@ -1360,8 +1360,8 @@
   </g>
   <g>
     <animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/>
-    <rect x="145" y="74" width="12" height="5" rx="1.5" fill="#E2231A"/>
-    <path d="M68,48 L100,104 L36,104 Z" fill="#E2231A" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="145" y="74" width="12" height="5" rx="1.5" fill="#D7302B"/>
+    <path d="M68,48 L100,104 L36,104 Z" fill="#D7302B" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/>
     <rect x="64.5" y="62" width="7" height="25" rx="3.5" fill="#FFFFFF"/>
     <circle cx="68" cy="95" r="4" fill="#FFFFFF"/>
   </g>

@@ -8,7 +8,7 @@
 <rect x="19" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="20" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="184.5" y="160" width="36" height="36" viewBox="0 0 12 12" overflow="hidden">
-<circle cx="6" cy="6" r="5" fill="#9A9A9A" stroke="#555555" stroke-opacity="0.45" stroke-width="0.8"><animate attributeName="fill" values="#9A9A9A;#4A86D4;#9A9A9A" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="3.5s" repeatCount="indefinite"/></circle>
+<circle cx="6" cy="6" r="5" fill="#A6A6A6" stroke="#808080" stroke-opacity="0.45" stroke-width="0.8"><animate attributeName="fill" values="#A6A6A6;#4A86D4;#A6A6A6" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="3.5s" repeatCount="indefinite"/></circle>
   <ellipse cx="4.6" cy="4.2" rx="1.8" ry="1.1" fill="#FFFFFF" opacity="0.45"/>
 </svg>
 <text x="202.5" y="287" class="name">Punkt_blau_blinkend</text>
@@ -18,7 +18,7 @@
 <rect x="399" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="400" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="564.5" y="160" width="36" height="36" viewBox="0 0 12 12" overflow="hidden">
-<circle cx="6" cy="6" r="5" fill="#9A9A9A" stroke="#555555" stroke-opacity="0.45" stroke-width="0.8"><animate attributeName="fill" values="#9A9A9A;#F2C200;#9A9A9A" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="3.5s" repeatCount="indefinite"/></circle>
+<circle cx="6" cy="6" r="5" fill="#A6A6A6" stroke="#808080" stroke-opacity="0.45" stroke-width="0.8"><animate attributeName="fill" values="#A6A6A6;#E3B200;#A6A6A6" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="3.5s" repeatCount="indefinite"/></circle>
   <ellipse cx="4.6" cy="4.2" rx="1.8" ry="1.1" fill="#FFFFFF" opacity="0.45"/>
 </svg>
 <text x="582.5" y="287" class="name">Punkt_gelb_blinkend</text>
@@ -28,7 +28,7 @@
 <rect x="779" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="780" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="944.5" y="160" width="36" height="36" viewBox="0 0 12 12" overflow="hidden">
-<circle cx="6" cy="6" r="5" fill="#9A9A9A" stroke="#555555" stroke-opacity="0.45" stroke-width="0.8"></circle>
+<circle cx="6" cy="6" r="5" fill="#A6A6A6" stroke="#808080" stroke-opacity="0.45" stroke-width="0.8"></circle>
   <ellipse cx="4.6" cy="4.2" rx="1.8" ry="1.1" fill="#FFFFFF" opacity="0.45"/>
 </svg>
 <text x="962.5" y="287" class="name">Punkt_grau</text>
@@ -38,7 +38,7 @@
 <rect x="1159" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="1160" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="1324.5" y="160" width="36" height="36" viewBox="0 0 12 12" overflow="hidden">
-<circle cx="6" cy="6" r="5" fill="#9A9A9A" stroke="#555555" stroke-opacity="0.45" stroke-width="0.8"><animate attributeName="fill" values="#9A9A9A;#2ECC40;#9A9A9A" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="3.5s" repeatCount="indefinite"/></circle>
+<circle cx="6" cy="6" r="5" fill="#A6A6A6" stroke="#808080" stroke-opacity="0.45" stroke-width="0.8"><animate attributeName="fill" values="#A6A6A6;#3E9A3A;#A6A6A6" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="3.5s" repeatCount="indefinite"/></circle>
   <ellipse cx="4.6" cy="4.2" rx="1.8" ry="1.1" fill="#FFFFFF" opacity="0.45"/>
 </svg>
 <text x="1342.5" y="287" class="name">Punkt_gruen_blinkend</text>
@@ -48,7 +48,7 @@
 <rect x="19" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="20" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="184.5" y="448" width="36" height="36" viewBox="0 0 12 12" overflow="hidden">
-<circle cx="6" cy="6" r="5" fill="#9A9A9A" stroke="#555555" stroke-opacity="0.45" stroke-width="0.8"><animate attributeName="fill" values="#9A9A9A;#E0463C;#9A9A9A" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="3.5s" repeatCount="indefinite"/></circle>
+<circle cx="6" cy="6" r="5" fill="#A6A6A6" stroke="#808080" stroke-opacity="0.45" stroke-width="0.8"><animate attributeName="fill" values="#A6A6A6;#D7302B;#A6A6A6" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="3.5s" repeatCount="indefinite"/></circle>
   <ellipse cx="4.6" cy="4.2" rx="1.8" ry="1.1" fill="#FFFFFF" opacity="0.45"/>
 </svg>
 <text x="202.5" y="575" class="name">Punkt_rot_blinkend</text>

@@ -59,7 +59,9 @@ Einheitlich für **alle** Symbole mit Betriebszustand (Pumpen, Fun-Pumpen, Freig
 
 - Bei Freigabe-Anzeigen steht `_an` für „Freigabe“ (gelb) und `_aus` für „keine Freigabe“ (grau).
 - Weiße Elemente (Haken, Schalterknopf, Ein-Symbol) bleiben weiß, dunkle Details nehmen die Kontur des Zustands.
-- Ältere Symbole mit eigenen Zustandstönen, noch nicht angeglichen: LEDs und Punkte (`anzeigen/led`, `anzeigen/punkte`), Absperrklappe auf/zu (`#2EAA3A` / `#E0302A`), Warndreieck der Wärmepumpe (`#E2231A`), Betriebsart (`#2ECC40`).
+- LEDs und Punkte (`anzeigen/led`, `anzeigen/punkte`), Betriebsart „normal“ (`anzeigen/betriebsart`) und das Warndreieck der Wärmepumpe nutzen die Zustandsfarben ebenfalls: Verläufe mit oben, unten und Kontur, volle Flächen mit „Verlauf unten“.
+- Bewusst eigene Töne: Blau (LED und Punkt blau, Betriebsart „leise“, Abtaubetrieb der Wärmepumpe), Sonne/Mond und die Flamme der Wärmemengenzähler (`#E0302A`). Kein Zustand im Schema.
+- Noch eigene Zustandstöne, bisher nicht angeglichen: Absperrklappe und Endlage auf/zu (`#2EAA3A` / `#E0302A`, hier bedeutet Rot „zu“ und nicht Störung), Warndreieck der Pumpen und Fun-Pumpen (`#E2231A`, `tools/pumpe.py`).
 
 ## Detailstufen
 

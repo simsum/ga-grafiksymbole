@@ -16,6 +16,8 @@ symbole/                 je Ordner SVG (und, wo vorhanden, PNG mit gleichem Name
     button/              Cartoon-Navigationsbuttons 280 × 72, je normal und aktiv
   topologie/             Topologiesymbole (Controller/IO, Netzwerk, Infrastruktur, Geräte,
                          Ventile, Energie- und Wasserzähler, Schaltschränke)
+download/
+  ga-grafiksymbole.zip   Alle Symbole mit Verzeichnisstruktur (symbole/…) und LICENSE als ZIP
 docs/
   STYLEGUIDE.md          Farben, Strichstärken, Proportionen
   NIAGARA.md             Einbindung in Px, Positionierung, Fallstricke
@@ -30,8 +32,15 @@ tools/
   waermepumpe.py         Erzeugt die Wärmepumpen-Symbole unter symbole/hydraulik/ (resvg-py)
   klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/{klein,gross}/ (resvg-py)
   monatsleiste.ps1       Erzeugt symbole/fun/Fun_Monatsleiste.svg (Windows, Schrift als Pfade)
+  zip_erstellen.py       Packt symbole/ und LICENSE in download/ga-grafiksymbole.zip (reproduzierbar)
   uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ aus den SVGs (Pillow, resvg-py)
 ```
+
+## Download
+
+Alle Symbole inklusive Verzeichnisstruktur als ein Archiv: [download/ga-grafiksymbole.zip](download/ga-grafiksymbole.zip) (Klick, dann „Download raw file“). Das Archiv enthält den Ordner `symbole/` und die Lizenz.
+
+Nach Änderungen an `symbole/` das Archiv neu erzeugen: `python tools/zip_erstellen.py`.
 
 ## Übersicht der Symbole
 

@@ -7,9 +7,15 @@ Die Symbole sind für den Einsatz in Niagara Px als `Picture` mit `scale = fitRa
 ## Inhalt
 
 ```
-symbole/                 nur SVG-Dateien
-  allgemein/             Fachübergreifend: Flusspfeile (Wasser, Luft, Strom), Trennung/Durchführung
-  lueftung/              Klimakonvektor, Volumenstromregler, Deckenluftdurchlass, WRG
+symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe>/
+  allgemein/             Fachübergreifend (Wasser, Luft, Strom)
+    flusspfeile/         Flusspfeile gerade und mit Bogen
+    trennung/            Trennung/Durchführung (Decke, Wand)
+  lueftung/
+    klimageraete/        Klimakonvektor
+    luftdurchlaesse/     Deckenluftdurchlass
+    volumenstromregler/  Volumenstromregler rund und eckig
+    wrg/                 Wärmerückgewinnung (Plattenwärmetauscher)
     klappen/             Lüftungsklappen (ein und drei Blätter, klein und groß) in fünf Stellungen
   hydraulik/
     armaturen/           Absperrklappe, Energieventil, Endlagen
@@ -17,9 +23,15 @@ symbole/                 nur SVG-Dateien
     erzeuger/            Kessel, Brenner (Flamme, Rauch), Wärmepumpe, Mehrleitermaschine
     speicher/            Pufferspeicher, Schichtspeicher
     zaehler/             Wärme-, Kälte-, Wasser- und Elektrozähler
-  anzeigen/              LEDs (rund und eckig), blinkende Punkte, Betriebsart Normal/Leise
-  fun/                   Verspielte Cartoon-Symbole (Außentemperatur, -feuchte, CO₂), animiert; Monatsleiste
-    button/              Cartoon-Navigationsbuttons 280 × 72, je normal und aktiv
+  anzeigen/
+    led/                 LEDs rund und eckig, statisch und animiert
+    punkte/              Dezent blinkende Punkte
+    betriebsart/         Betriebsart Normal/Leise
+  fun/                   Verspielte Cartoon-Symbole, animiert, Gruppen wie in der Hauptstruktur
+    anzeigen/            Außentemperatur, -feuchte, CO₂
+    hydraulik/pumpen/    Fun-Pumpen
+    hydraulik/speicher/  Fun-Pufferspeicher
+    navigation/          Navigationsbuttons 280 × 72 (normal/aktiv), Monatsleiste
   topologie/
     automation/          Controller, I/O-Module, GLT-Leitrechner
     netzwerk/            Ethernet-Switches
@@ -37,10 +49,10 @@ tools/
   pumpe.py               Erzeugt die Pumpensymbole unter symbole/hydraulik/pumpen/
   rauch.py               Erzeugt den Brennerrauch unter symbole/hydraulik/erzeuger/ (animiert + statisch)
   flamme.py              Erzeugt die Brennerflammen unter symbole/hydraulik/erzeuger/ (animiert + statisch)
-  fun_pumpe.py           Erzeugt die Fun-Pumpen unter symbole/fun/ (baut auf pumpe.py auf)
+  fun_pumpe.py           Erzeugt die Fun-Pumpen unter symbole/fun/hydraulik/pumpen/ (baut auf pumpe.py auf)
   waermepumpe.py         Erzeugt die Wärmepumpen-Symbole unter symbole/hydraulik/erzeuger/
   klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/
-  monatsleiste.ps1       Erzeugt symbole/fun/Fun_Monatsleiste.svg (Windows, Schrift als Pfade)
+  monatsleiste.ps1       Erzeugt symbole/fun/navigation/Fun_Monatsleiste.svg (Windows, Schrift als Pfade)
   zip_erstellen.py       Packt symbole/ und LICENSE in dist/ga-grafiksymbole.zip (von der Action genutzt)
   uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ aus den SVGs (Pillow, resvg-py)
 ```
@@ -58,12 +70,28 @@ Es wird bei jeder Änderung an `symbole/` automatisch von einer GitHub Action ge
 Jede Grafik zeigt alle Symbole eines Verzeichnisses mit Dateinamen und Größe.
 
 ### Allgemein – `symbole/allgemein`
-![Allgemein](docs/uebersicht/Uebersicht_allgemein.png)
+
+**Flusspfeile** (`flusspfeile`)
+![Flusspfeile](docs/uebersicht/Uebersicht_allgemein_flusspfeile.png)
+
+**Trennung** (`trennung`)
+![Trennung](docs/uebersicht/Uebersicht_allgemein_trennung.png)
 
 ### Lüftung – `symbole/lueftung`
-![Lüftung](docs/uebersicht/Uebersicht_lueftung.png)
 
-### Lüftung, Klappen – `symbole/lueftung/klappen`
+**Klimageräte** (`klimageraete`)
+![Klimageräte](docs/uebersicht/Uebersicht_lueftung_klimageraete.png)
+
+**Luftdurchlässe** (`luftdurchlaesse`)
+![Luftdurchlässe](docs/uebersicht/Uebersicht_lueftung_luftdurchlaesse.png)
+
+**Volumenstromregler** (`volumenstromregler`)
+![Volumenstromregler](docs/uebersicht/Uebersicht_lueftung_volumenstromregler.png)
+
+**Wärmerückgewinnung** (`wrg`)
+![WRG](docs/uebersicht/Uebersicht_lueftung_wrg.png)
+
+**Klappen** (`klappen`)
 ![Klappen](docs/uebersicht/Uebersicht_lueftung_klappen.png)
 
 ### Hydraulik – `symbole/hydraulik`
@@ -84,13 +112,29 @@ Jede Grafik zeigt alle Symbole eines Verzeichnisses mit Dateinamen und Größe.
 ![Zähler](docs/uebersicht/Uebersicht_hydraulik_zaehler.png)
 
 ### Anzeigen – `symbole/anzeigen`
-![Anzeigen](docs/uebersicht/Uebersicht_anzeigen.png)
+
+**LEDs** (`led`)
+![LEDs](docs/uebersicht/Uebersicht_anzeigen_led.png)
+
+**Punkte** (`punkte`)
+![Punkte](docs/uebersicht/Uebersicht_anzeigen_punkte.png)
+
+**Betriebsart** (`betriebsart`)
+![Betriebsart](docs/uebersicht/Uebersicht_anzeigen_betriebsart.png)
 
 ### Fun – `symbole/fun`
-![Fun](docs/uebersicht/Uebersicht_fun.png)
 
-### Fun-Buttons – `symbole/fun/button`
-![Fun-Buttons](docs/uebersicht/Uebersicht_fun_button.png)
+**Anzeigen** (`anzeigen`)
+![Fun-Anzeigen](docs/uebersicht/Uebersicht_fun_anzeigen.png)
+
+**Pumpen** (`hydraulik/pumpen`)
+![Fun-Pumpen](docs/uebersicht/Uebersicht_fun_hydraulik_pumpen.png)
+
+**Speicher** (`hydraulik/speicher`)
+![Fun-Speicher](docs/uebersicht/Uebersicht_fun_hydraulik_speicher.png)
+
+**Navigation** (`navigation`)
+![Fun-Navigation](docs/uebersicht/Uebersicht_fun_navigation.png)
 
 ### Topologie – `symbole/topologie`
 

@@ -6,7 +6,7 @@ Status: Das Repository enthält die Symbole unter `symbole/` (nur SVG, Schrift a
 
 ## Allgemein
 
-Fachübergreifende Symbole (Wasser, Luft, Strom) unter `symbole/allgemein/`.
+Fachübergreifende Symbole (Wasser, Luft, Strom) unter `symbole/allgemein/flusspfeile/` und `symbole/allgemein/trennung/`.
 
 ### Flusspfeile
 
@@ -210,14 +210,14 @@ Animation per SMIL. Ohne Animation bleibt die Zustandsfarbe (und bei Störung da
 
 ## Fun
 
-Verspielte Cartoon-Symbole unter `symbole/fun/`, 48 × 48, dunkelbraune Kontur `#3B2412`, animiert per SMIL. Zum Danebenstellen von Messwerten.
+Verspielte Cartoon-Symbole unter `symbole/fun/` (Gruppen wie in der Hauptstruktur: `anzeigen/`, `hydraulik/pumpen/`, `hydraulik/speicher/`, `navigation/`), 48 × 48, dunkelbraune Kontur `#3B2412`, animiert per SMIL. Zum Danebenstellen von Messwerten.
 
 | Symbol | Dateien | Vorschlag Umschaltung |
 |---|---|---|
 | Außentemperatur | `Fun_Thermometer_kalt` (zittert, Schal), `_mild` (lächelt), `_warm` (Sonnenbrille, schwitzt) | kalt < 5 °C, mild 5–25 °C, warm > 25 °C |
 | Außenfeuchte | `Fun_Tropfen_trocken` (durstig), `_normal` (hüpft), `_nass` (Schnorchel) | trocken < 35 %RH, normal 35–70 %RH, nass > 70 %RH |
 | Außen-CO₂ | `Fun_CO2_Blase` (Schrift als Pfad) | – |
-| Pufferspeicher | `Fun_Pufferspeicher_WT_stehend` (Cartoon-Variante von `hydraulik/speicher/Pufferspeicher_WT_stehend`, gleiche Größe) | – |
+| Pufferspeicher | `Fun_Pufferspeicher_WT_stehend` (Cartoon-Variante von `hydraulik/speicher/Pufferspeicher_WT_stehend`, liegt in `fun/hydraulik/speicher/`, gleiche Größe) | – |
 
 Umschalten über `image`-Binding mit Konverter (siehe NIAGARA.md).
 
@@ -238,7 +238,7 @@ Umschalten über `image`-Binding mit Konverter (siehe NIAGARA.md).
 
 ### Buttons
 
-Unter `symbole/fun/button/`, 280 × 72, Cartoon-Stil passend zu den Fun-Symbolen. Beschriftung als Pfad (kein `<text>`).
+Unter `symbole/fun/navigation/`, 280 × 72, Cartoon-Stil passend zu den Fun-Symbolen. Beschriftung als Pfad (kein `<text>`).
 
 - `Fun_Button_{Uebersicht,Heizung,Waermepumpe,Puffer,PV,Raeume}_{normal,aktiv}`: mit Icon und Beschriftung. „Räume“ ist aus Buchstaben der anderen Buttons zusammengesetzt (R = P mit ergänztem Bein).
 - `Fun_Button_Leer_{normal,aktiv}`: ohne Icon und Text, für eigene Beschriftung per Niagara-Label.

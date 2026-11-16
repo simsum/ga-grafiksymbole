@@ -3,6 +3,7 @@
 
 Regeln:
   - unter symbole/ liegen nur SVG-Dateien (keine PNG, GIF o. Ä.)
+  - Symbole liegen in einer Gruppe: symbole/<Fachbereich>/<Gruppe>[/<Untergruppe>]/, nie direkt im Fachbereich
   - gültiges XML mit <svg>-Wurzel
   - kein <text>-Element, Schrift nur als Pfad (auch in beschrifteten und animierten Varianten)
   - Dateiname nach Schema Name_Variante.svg (ASCII, keine Leerzeichen)
@@ -48,8 +49,12 @@ def main() -> int:
         print(f"FEHLER  {rel}: keine SVG-Datei (unter symbole/ sind nur SVGs erlaubt)")
         failed += 1
     for svg in files:
-        errors, warnings = check(svg)
         rel = svg.relative_to(base.parent) if base.parent in svg.parents else svg
+        if len(svg.relative_to(base).parts) < 3:
+            print(f"FEHLER  {rel}: liegt nicht in einer Gruppe (symbole/<Fachbereich>/<Gruppe>/)")
+            failed += 1
+            continue
+        errors, warnings = check(svg)
         for m in errors:
             print(f"FEHLER  {rel}: {m}")
         for m in warnings:

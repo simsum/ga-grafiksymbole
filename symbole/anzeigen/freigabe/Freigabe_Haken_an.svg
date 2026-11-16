@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="title">
+  <title id="title">Freigabe (Haken)</title>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <circle cx="12" cy="12" r="10.2" fill="url(#g)" stroke="#A88400" stroke-width="1.4"/><path d="M7.2,12.4 L10.4,15.4 L16.8,8.8" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.2,12.4 L10.4,15.4 L16.8,8.8" fill="none" stroke="#A88400" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity=".55"/>
+</svg>

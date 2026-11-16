@@ -28,6 +28,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
     led/                 LEDs rund und eckig, statisch und animiert
     punkte/              Dezent blinkende Punkte
     betriebsart/         Betriebsart Normal/Leise
+    freigabe/            Freigabe / keine Freigabe, 24 × 24, fünf Varianten
   fun/                   Verspielte Cartoon-Symbole, animiert, Gruppen wie in der Hauptstruktur
     anzeigen/            Außentemperatur, -feuchte, CO₂
     hydraulik/pumpen/    Fun-Pumpen
@@ -55,6 +56,8 @@ tools/
   klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/
   monatsleiste.py        Erzeugt symbole/fun/navigation/Fun_Monatsleiste.svg (Schrift Chewy als Pfade, fonttools)
   zip_erstellen.py       Packt symbole/ und LICENSE in dist/ga-grafiksymbole.zip (von der Action genutzt)
+  freigabe.py            Erzeugt die Freigabe-Anzeigen unter symbole/anzeigen/freigabe/
+  zustandsfarben.py      Einheitliche Zustandsfarben (aus, Freigabe, Betrieb, Störung) für alle Erzeuger
   aufstellplatten.py     Erzeugt die Aufstellplatten unter symbole/allgemein/aufstellung/
   uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ aus den SVGs (ohne Zusatzpakete)
 ```
@@ -126,6 +129,9 @@ Jede Grafik zeigt alle Symbole einer Gruppe mit Dateinamen und Größe. Die Symb
 
 **Betriebsart** (`betriebsart`)
 ![Betriebsart](docs/uebersicht/Uebersicht_anzeigen_betriebsart.svg)
+
+**Freigabe** (`freigabe`)
+![Freigabe](docs/uebersicht/Uebersicht_anzeigen_freigabe.svg)
 
 ### Fun – `symbole/fun`
 

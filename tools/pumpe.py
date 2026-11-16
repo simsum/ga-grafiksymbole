@@ -15,14 +15,11 @@ nur Fließpfeile und Bewegung fehlen.
 """
 from pathlib import Path
 
+from zustandsfarben import ZUSTAENDE
+
 RICHTUNGEN = {"oben": 0, "rechts": 90, "unten": 180, "links": 270}
 
-FARBEN = {  # Verlauf oben → unten, Kontur
-    "aus": ("#EDEDED", "#A6A6A6", "#808080"),
-    "freigabe": ("#FFEB8F", "#E3B200", "#A88400"),
-    "an": ("#A8DC96", "#3E9A3A", "#2F7A2C"),
-    "stoerung": ("#F5A3A0", "#D7302B", "#9E1F1B"),
-}
+FARBEN = ZUSTAENDE  # Verlauf oben → unten, Kontur; einheitlich für alle Symbole (tools/zustandsfarben.py)
 TITEL = {"aus": "aus", "freigabe": "Freigabe", "an": "Betrieb", "stoerung": "Störung"}
 
 PULS = ('<animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" '

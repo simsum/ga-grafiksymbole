@@ -222,6 +222,22 @@ Animation per SMIL. Ohne Animation bleibt die Zustandsfarbe (und bei Störung da
 - Farben: Normal `#2ECC40`, Leise `#4A86D4`.
 - Umschalten über Binding (Boolean oder Enum) auf `image` eines Pictures.
 
+### Freigabe (`symbole/anzeigen/freigabe/`)
+
+- 24 × 24, klein und unaufdringlich, statisch, zum Danebenlegen an Pumpen, Ventile, Erzeuger.
+- Farben nach Styleguide „Zustandsfarben“: `_an` = Freigabe (gelb), `_aus` = keine Freigabe (grau).
+- Fünf Varianten, je `_an` und `_aus`:
+
+| Variante | Freigabe (`_an`) | keine Freigabe (`_aus`) |
+| --- | --- | --- |
+| `Freigabe_Haken` | runder Knopf mit weißem Haken | weißer Strich |
+| `Freigabe_Schalter` | Kippschalter, Knopf rechts | Knopf links |
+| `Freigabe_Schloss` | Schloss offen | Schloss zu |
+| `Freigabe_Ein` | Ein-Symbol | Ein-Symbol grau |
+| `Freigabe_Punkt` | Punkt mit Ring | Punkt mit Ring grau, am dezentesten |
+
+- Umschalten über Boolean-Binding auf `image`. Erzeugt mit `tools/freigabe.py`.
+
 ## Fun
 
 Verspielte Cartoon-Symbole unter `symbole/fun/` (Gruppen wie in der Hauptstruktur: `anzeigen/`, `hydraulik/pumpen/`, `hydraulik/speicher/`, `navigation/`), 48 × 48, dunkelbraune Kontur `#3B2412`, animiert per SMIL. Zum Danebenstellen von Messwerten.

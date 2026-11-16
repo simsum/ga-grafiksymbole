@@ -46,6 +46,21 @@
 
 Hauptfarbe `#4B50E6`, Hellfläche `#EEF0FF`, Hintergrund weiß.
 
+## Zustandsfarben
+
+Einheitlich für **alle** Symbole mit Betriebszustand (Pumpen, Fun-Pumpen, Freigabe-Anzeigen und alle neuen Symbole). Verlauf senkrecht von oben nach unten, dazu die Kontur. Die Werte stehen auch in `tools/zustandsfarben.py`; Erzeuger-Skripte importieren sie von dort, statt eigene Farben festzulegen.
+
+| Zustand | Datei-Zusatz | Verlauf oben | Verlauf unten | Kontur |
+|---|---|---|---|---|
+| Aus / keine Freigabe (grau) | `_aus` | `#EDEDED` | `#A6A6A6` | `#808080` |
+| Freigabe / bereit (gelb) | `_freigabe` | `#FFEB8F` | `#E3B200` | `#A88400` |
+| Betrieb / an (grün) | `_an` | `#A8DC96` | `#3E9A3A` | `#2F7A2C` |
+| Störung (rot) | `_stoerung` | `#F5A3A0` | `#D7302B` | `#9E1F1B` |
+
+- Bei Freigabe-Anzeigen steht `_an` für „Freigabe“ (gelb) und `_aus` für „keine Freigabe“ (grau).
+- Weiße Elemente (Haken, Schalterknopf, Ein-Symbol) bleiben weiß, dunkle Details nehmen die Kontur des Zustands.
+- Ältere Symbole mit eigenen Zustandstönen, noch nicht angeglichen: LEDs und Punkte (`anzeigen/led`, `anzeigen/punkte`), Absperrklappe auf/zu (`#2EAA3A` / `#E0302A`), Warndreieck der Wärmepumpe (`#E2231A`), Betriebsart (`#2ECC40`).
+
 ## Detailstufen
 
 Falls feste Größen nötig sind (lange Seite): 20, 30, 40, 50, 60, 80, 100, 120 px. Mindest-Strichstärken 1,2 px (Konturen) und 0,8 px (Details). Unter 60 px Detailraster entfernen, unter 40 px weiter vereinfachen. Mit `Picture` + `fitRatio` meist nicht nötig.

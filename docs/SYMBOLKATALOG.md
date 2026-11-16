@@ -28,6 +28,20 @@ Variante `_an` (z. B. `Flusspfeil_rechts_an`), gleiche Größe: drei helle Punkt
 - Ohne Zusatz hell (`#C8C8D0`, für dunkle Hintergründe), `_dunkel` (`#555555`, für helle Hintergründe).
 - Nicht verzerrt skalieren: passende Länge wählen, damit die Schraffur gleichmäßig bleibt.
 
+### Aufstellplatten (`symbole/allgemein/aufstellung/`)
+
+3D-angedeutete Aufstellflächen, die in Px unter stehende Geräte gelegt werden (Pufferspeicher, Schichtspeicher, Kessel …). Alle 180 × 30, transparenter Hintergrund, Kontur `#5A5A5A` wie die Speicher, ohne `clipPath`.
+
+| Symbol | Darstellung |
+|---|---|
+| `Aufstellplatte_Beton` | Rechteckiger Betonsockel: helle Oberseite in Perspektive, dunklere Vorderkante |
+| `Aufstellplatte_rund` | Rundes Podest: ovale Oberseite, zylindrischer Mantel, passt zu runden Speichern |
+| `Aufstellplatte_Stahl` | Flache Stahlplatte mit zwei Schraubenköpfen und weichem Kontaktschatten |
+
+- Aufstellpunkt: Die Füße stehen bei y = 9 (Mitte der Oberseite).
+- Platzierung unter einem 144 px breiten Speicher (z. B. `Pufferspeicher_WT_stehend`): Platte bei x = x<sub>Speicher</sub> − 18, y = y<sub>Speicher</sub> + 336 − 9 (Fußunterkante des Speichers bei y = 336). Die Platte liegt in Px **unter** dem Speicher (zuerst einfügen).
+- Erzeugt mit `tools/aufstellplatten.py`.
+
 ## Lüftung
 
 | Symbol | Größe | Hinweise |

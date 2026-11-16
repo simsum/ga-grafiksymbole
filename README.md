@@ -11,6 +11,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
   allgemein/             Fachübergreifend (Wasser, Luft, Strom)
     flusspfeile/         Flusspfeile gerade und mit Bogen
     trennung/            Trennung/Durchführung (Decke, Wand)
+    aufstellung/         Aufstellplatten unter stehenden Geräten (Beton, rund, Stahl)
   lueftung/
     klimageraete/        Klimakonvektor
     luftdurchlaesse/     Deckenluftdurchlass
@@ -54,6 +55,7 @@ tools/
   klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/
   monatsleiste.py        Erzeugt symbole/fun/navigation/Fun_Monatsleiste.svg (Schrift Chewy als Pfade, fonttools)
   zip_erstellen.py       Packt symbole/ und LICENSE in dist/ga-grafiksymbole.zip (von der Action genutzt)
+  aufstellplatten.py     Erzeugt die Aufstellplatten unter symbole/allgemein/aufstellung/
   uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ aus den SVGs (ohne Zusatzpakete)
 ```
 
@@ -76,6 +78,9 @@ Jede Grafik zeigt alle Symbole einer Gruppe mit Dateinamen und Größe. Die Symb
 
 **Trennung** (`trennung`)
 ![Trennung](docs/uebersicht/Uebersicht_allgemein_trennung.svg)
+
+**Aufstellplatten** (`aufstellung`)
+![Aufstellplatten](docs/uebersicht/Uebersicht_allgemein_aufstellung.svg)
 
 ### Lüftung – `symbole/lueftung`
 

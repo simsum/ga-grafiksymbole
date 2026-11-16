@@ -1,4 +1,7 @@
-name: ZIP aktualisieren
+name: ZIP als Release
+
+# Baut bei Änderungen an den Symbolen ein ZIP mit allen Symbolen und hängt es an das Release "latest".
+# Festes Downloadziel: https://github.com/<owner>/<repo>/releases/latest/download/ga-grafiksymbole.zip
 
 on:
   push:
@@ -7,6 +10,7 @@ on:
       - "symbole/**"
       - "LICENSE"
       - "tools/zip_erstellen.py"
+      - ".github/workflows/zip.yml"
   workflow_dispatch:
 
 permissions:
@@ -25,14 +29,12 @@ jobs:
         with:
           python-version: "3.12"
       - run: python tools/zip_erstellen.py
-      - name: Archiv committen, falls geändert
+      - name: Release "latest" aktualisieren
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          if [ -n "$(git status --porcelain download)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add download/ga-grafiksymbole.zip
-            git commit -m "ZIP aktualisiert"
-            git push
-          else
-            echo "Archiv ist aktuell."
-          fi
+          gh release delete latest --cleanup-tag --yes || true
+          gh release create latest dist/ga-grafiksymbole.zip \
+            --target "$GITHUB_SHA" \
+            --title "Alle Symbole (aktueller Stand)" \
+            --notes "Alle Symbole mit Verzeichnisstruktur (symbole/…) und Lizenz als ZIP, Stand Commit ${GITHUB_SHA::7}. Wird bei jeder Änderung an symbole/ automatisch neu gebaut."

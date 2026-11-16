@@ -16,8 +16,6 @@ symbole/                 je Ordner SVG (und, wo vorhanden, PNG mit gleichem Name
     button/              Cartoon-Navigationsbuttons 280 × 72, je normal und aktiv
   topologie/             Topologiesymbole (Controller/IO, Netzwerk, Infrastruktur, Geräte,
                          Ventile, Energie- und Wasserzähler, Schaltschränke)
-download/
-  ga-grafiksymbole.zip   Alle Symbole mit Verzeichnisstruktur (symbole/…) und LICENSE als ZIP
 docs/
   STYLEGUIDE.md          Farben, Strichstärken, Proportionen
   NIAGARA.md             Einbindung in Px, Positionierung, Fallstricke
@@ -32,15 +30,17 @@ tools/
   waermepumpe.py         Erzeugt die Wärmepumpen-Symbole unter symbole/hydraulik/ (resvg-py)
   klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/{klein,gross}/ (resvg-py)
   monatsleiste.ps1       Erzeugt symbole/fun/Fun_Monatsleiste.svg (Windows, Schrift als Pfade)
-  zip_erstellen.py       Packt symbole/ und LICENSE in download/ga-grafiksymbole.zip (reproduzierbar)
+  zip_erstellen.py       Packt symbole/ und LICENSE in dist/ga-grafiksymbole.zip (von der Action genutzt)
   uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ aus den SVGs (Pillow, resvg-py)
 ```
 
 ## Download
 
-Alle Symbole inklusive Verzeichnisstruktur als ein Archiv: [download/ga-grafiksymbole.zip](download/ga-grafiksymbole.zip) (Klick, dann „Download raw file“). Das Archiv enthält den Ordner `symbole/` und die Lizenz.
+Alle Symbole inklusive Verzeichnisstruktur als ein Archiv:
+[ga-grafiksymbole.zip](https://github.com/simsum/ga-grafiksymbole/releases/latest/download/ga-grafiksymbole.zip)
+(aktueller Stand, siehe auch [Releases](https://github.com/simsum/ga-grafiksymbole/releases)). Das Archiv enthält den Ordner `symbole/` und die Lizenz.
 
-Das Archiv wird bei jedem Push, der `symbole/` ändert, automatisch von einer GitHub Action neu gebaut und eingecheckt (`.github/workflows/zip.yml`). Von Hand geht es mit `python tools/zip_erstellen.py`.
+Es wird bei jeder Änderung an `symbole/` automatisch von einer GitHub Action gebaut (`.github/workflows/zip.yml`) und liegt als Anhang am Release `latest`, nicht im Repository.
 
 ## Übersicht der Symbole
 

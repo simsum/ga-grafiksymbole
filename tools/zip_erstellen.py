@@ -1,11 +1,11 @@
-"""Packt alle Symbole samt Verzeichnisstruktur in download/ga-grafiksymbole.zip.
+"""Packt alle Symbole samt Verzeichnisstruktur in dist/ga-grafiksymbole.zip.
 
 Enthalten sind alle von Git verfolgten Dateien unter symbole/ sowie die LICENSE (CC BY 4.0).
-Das Archiv ist reproduzierbar (sortierte Einträge, fester Zeitstempel, SVG mit LF-Zeilenenden):
-ohne Änderungen an den Symbolen entsteht dieselbe Datei, es gibt also keine unnötigen Git-Änderungen.
+Das Archiv wird nicht eingecheckt (dist/ ist in .gitignore), sondern von der GitHub Action
+.github/workflows/zip.yml bei jeder Änderung an symbole/ gebaut und an das Release "latest" gehängt.
+Es ist reproduzierbar (sortierte Einträge, fester Zeitstempel, SVG mit LF-Zeilenenden).
 
 Aufruf: python tools/zip_erstellen.py [Zieldatei]
-Nach jeder Änderung an symbole/ erneut ausführen und das Archiv mitcommitten.
 """
 import subprocess
 import sys
@@ -24,7 +24,7 @@ def dateien() -> list[Path]:
 
 
 def main() -> int:
-    ziel = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "download" / "ga-grafiksymbole.zip"
+    ziel = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "dist" / "ga-grafiksymbole.zip"
     ziel.parent.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(ziel, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as z:
         for rel in dateien():

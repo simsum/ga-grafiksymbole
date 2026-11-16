@@ -15,6 +15,8 @@ nur die Tropfen fehlen dort.
 import math
 from pathlib import Path
 
+from zustandsfarben import STOERUNG
+
 W, H = 180, 168
 VL_X, RL_X = 160, 140          # Anschluss rechts; links gespiegelt: 20 / 40
 SVG_DREHDAUER = "2.4s"         # eine Umdrehung im animierten SVG
@@ -84,8 +86,8 @@ def overlay(seite: str, zustand: str) -> str:
     if zustand == "stoerung":
         return (f'  <g>\n'
                 f'    <animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/>\n'
-                f'    <rect x="{lx}" y="74" width="12" height="5" rx="1.5" fill="#E2231A"/>\n'
-                f'    <path d="M{fx},48 L{fx + 32},104 L{fx - 32},104 Z" fill="#E2231A" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/>\n'
+                f'    <rect x="{lx}" y="74" width="12" height="5" rx="1.5" fill="{STOERUNG[1]}"/>\n'
+                f'    <path d="M{fx},48 L{fx + 32},104 L{fx - 32},104 Z" fill="{STOERUNG[1]}" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/>\n'
                 f'    <rect x="{fx - 3.5}" y="62" width="7" height="25" rx="3.5" fill="#FFFFFF"/>\n'
                 f'    <circle cx="{fx}" cy="95" r="4" fill="#FFFFFF"/>\n'
                 f'  </g>\n')

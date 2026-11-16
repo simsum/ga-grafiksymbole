@@ -11,7 +11,7 @@
 <defs>
     
     <linearGradient id="k0_ring" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E4E4E4"/><stop offset="1" stop-color="#BDBDBD"/></linearGradient>
-    <radialGradient id="k0_body" cx="0.5" cy="0.45" r="0.6"><stop offset="0" stop-color="#9A9A9A"/><stop offset="0.75" stop-color="#9A9A9A"/><stop offset="1" stop-color="#7A7A7A" stop-opacity="0.9"/></radialGradient>
+    <radialGradient id="k0_body" cx="0.5" cy="0.45" r="0.6"><stop offset="0" stop-color="#A6A6A6"/><stop offset="0.75" stop-color="#A6A6A6"/><stop offset="1" stop-color="#808080" stop-opacity="0.9"/></radialGradient>
     <linearGradient id="k0_gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
   </defs>
   
@@ -68,8 +68,8 @@
 <rect x="1159" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="1160" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="1294.5" y="130" width="96" height="96" viewBox="0 0 32 32" overflow="hidden">
-<defs><linearGradient id="k3_body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D6D6D6"/><stop offset="0.5" stop-color="#B4B4B4"/><stop offset="1" stop-color="#8E8E8E"/></linearGradient></defs>
-  <rect x="4" y="4" width="24" height="24" rx="6" fill="url(#k3_body)" stroke="#8E8E8E" stroke-width="1"/>
+<defs><linearGradient id="k3_body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EDEDED"/><stop offset="0.5" stop-color="#A6A6A6"/><stop offset="1" stop-color="#808080"/></linearGradient></defs>
+  <rect x="4" y="4" width="24" height="24" rx="6" fill="url(#k3_body)" stroke="#808080" stroke-width="1"/>
   <rect x="6.5" y="6" width="19" height="7" rx="3.5" fill="#FFFFFF" opacity="0.28"/>
 </svg>
 <text x="1342.5" y="287" class="name">LED_eckig_aus</text>
@@ -106,9 +106,9 @@
 <rect x="779" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="780" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="914.5" y="418" width="96" height="96" viewBox="0 0 32 32" overflow="hidden">
-<defs><linearGradient id="k6_body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE680"/><stop offset="0.5" stop-color="#FFD21F"/><stop offset="1" stop-color="#D9A800"/></linearGradient></defs>
-  <rect x="1" y="1" width="30" height="30" rx="9" fill="#FFD21F" opacity="0.18"/>
-  <rect x="4" y="4" width="24" height="24" rx="6" fill="url(#k6_body)" stroke="#D9A800" stroke-width="1"/>
+<defs><linearGradient id="k6_body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="0.5" stop-color="#E3B200"/><stop offset="1" stop-color="#A88400"/></linearGradient></defs>
+  <rect x="1" y="1" width="30" height="30" rx="9" fill="#E3B200" opacity="0.18"/>
+  <rect x="4" y="4" width="24" height="24" rx="6" fill="url(#k6_body)" stroke="#A88400" stroke-width="1"/>
   <rect x="6.5" y="6" width="19" height="7" rx="3.5" fill="#FFFFFF" opacity="0.28"/>
 </svg>
 <text x="962.5" y="575" class="name">LED_eckig_gelb</text>
@@ -118,9 +118,9 @@
 <rect x="1159" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="1160" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="1294.5" y="418" width="96" height="96" viewBox="0 0 32 32" overflow="hidden">
-<defs><linearGradient id="k7_body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE680"/><stop offset="0.5" stop-color="#FFD21F"/><stop offset="1" stop-color="#D9A800"/></linearGradient></defs>
-  <rect x="1" y="1" width="30" height="30" rx="9" fill="#FFD21F" opacity="0.18"/>
-  <rect x="4" y="4" width="24" height="24" rx="6" fill="url(#k7_body)" stroke="#D9A800" stroke-width="1"/>
+<defs><linearGradient id="k7_body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="0.5" stop-color="#E3B200"/><stop offset="1" stop-color="#A88400"/></linearGradient></defs>
+  <rect x="1" y="1" width="30" height="30" rx="9" fill="#E3B200" opacity="0.18"/>
+  <rect x="4" y="4" width="24" height="24" rx="6" fill="url(#k7_body)" stroke="#A88400" stroke-width="1"/>
   <rect x="6.5" y="6" width="19" height="7" rx="3.5" fill="#FFFFFF" opacity="0.28"/>
   
   <rect x="6.5" y="6" width="19" height="7" rx="3.5" fill="#FFFFFF" opacity="0"><animate attributeName="opacity" values="0;0;0.45;0" keyTimes="0;0.8;0.88;1" dur="4s" repeatCount="indefinite"/></rect>
@@ -133,9 +133,9 @@
 <rect x="19" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="20" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="154.5" y="706" width="96" height="96" viewBox="0 0 32 32" overflow="hidden">
-<defs><linearGradient id="k8_body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7FE08A"/><stop offset="0.5" stop-color="#2ECC40"/><stop offset="1" stop-color="#1E9E2E"/></linearGradient></defs>
-  <rect x="1" y="1" width="30" height="30" rx="9" fill="#2ECC40" opacity="0.18"/>
-  <rect x="4" y="4" width="24" height="24" rx="6" fill="url(#k8_body)" stroke="#1E9E2E" stroke-width="1"/>
+<defs><linearGradient id="k8_body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#A8DC96"/><stop offset="0.5" stop-color="#3E9A3A"/><stop offset="1" stop-color="#2F7A2C"/></linearGradient></defs>
+  <rect x="1" y="1" width="30" height="30" rx="9" fill="#3E9A3A" opacity="0.18"/>
+  <rect x="4" y="4" width="24" height="24" rx="6" fill="url(#k8_body)" stroke="#2F7A2C" stroke-width="1"/>
   <rect x="6.5" y="6" width="19" height="7" rx="3.5" fill="#FFFFFF" opacity="0.28"/>
 </svg>
 <text x="202.5" y="863" class="name">LED_eckig_gruen</text>
@@ -145,9 +145,9 @@
 <rect x="399" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="400" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="534.5" y="706" width="96" height="96" viewBox="0 0 32 32" overflow="hidden">
-<defs><linearGradient id="k9_body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7FE08A"/><stop offset="0.5" stop-color="#2ECC40"/><stop offset="1" stop-color="#1E9E2E"/></linearGradient></defs>
-  <rect x="1" y="1" width="30" height="30" rx="9" fill="#2ECC40" opacity="0.18"/>
-  <rect x="4" y="4" width="24" height="24" rx="6" fill="url(#k9_body)" stroke="#1E9E2E" stroke-width="1"/>
+<defs><linearGradient id="k9_body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#A8DC96"/><stop offset="0.5" stop-color="#3E9A3A"/><stop offset="1" stop-color="#2F7A2C"/></linearGradient></defs>
+  <rect x="1" y="1" width="30" height="30" rx="9" fill="#3E9A3A" opacity="0.18"/>
+  <rect x="4" y="4" width="24" height="24" rx="6" fill="url(#k9_body)" stroke="#2F7A2C" stroke-width="1"/>
   <rect x="6.5" y="6" width="19" height="7" rx="3.5" fill="#FFFFFF" opacity="0.28"/>
   
   <rect x="6.5" y="6" width="19" height="7" rx="3.5" fill="#FFFFFF" opacity="0"><animate attributeName="opacity" values="0;0;0.45;0" keyTimes="0;0.8;0.88;1" dur="4s" repeatCount="indefinite"/></rect>
@@ -160,9 +160,9 @@
 <rect x="779" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="780" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="914.5" y="706" width="96" height="96" viewBox="0 0 32 32" overflow="hidden">
-<defs><linearGradient id="k10_body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF857E"/><stop offset="0.5" stop-color="#FF3B30"/><stop offset="1" stop-color="#C4221A"/></linearGradient></defs>
-  <rect x="1" y="1" width="30" height="30" rx="9" fill="#FF3B30" opacity="0.18"/>
-  <rect x="4" y="4" width="24" height="24" rx="6" fill="url(#k10_body)" stroke="#C4221A" stroke-width="1"/>
+<defs><linearGradient id="k10_body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F5A3A0"/><stop offset="0.5" stop-color="#D7302B"/><stop offset="1" stop-color="#9E1F1B"/></linearGradient></defs>
+  <rect x="1" y="1" width="30" height="30" rx="9" fill="#D7302B" opacity="0.18"/>
+  <rect x="4" y="4" width="24" height="24" rx="6" fill="url(#k10_body)" stroke="#9E1F1B" stroke-width="1"/>
   <rect x="6.5" y="6" width="19" height="7" rx="3.5" fill="#FFFFFF" opacity="0.28"/>
 </svg>
 <text x="962.5" y="863" class="name">LED_eckig_rot</text>
@@ -172,9 +172,9 @@
 <rect x="1159" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="1160" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="1294.5" y="706" width="96" height="96" viewBox="0 0 32 32" overflow="hidden">
-<defs><linearGradient id="k11_body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF857E"/><stop offset="0.5" stop-color="#FF3B30"/><stop offset="1" stop-color="#C4221A"/></linearGradient></defs>
-  <rect x="1" y="1" width="30" height="30" rx="9" fill="#FF3B30" opacity="0.18"/>
-  <rect x="4" y="4" width="24" height="24" rx="6" fill="url(#k11_body)" stroke="#C4221A" stroke-width="1"/>
+<defs><linearGradient id="k11_body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F5A3A0"/><stop offset="0.5" stop-color="#D7302B"/><stop offset="1" stop-color="#9E1F1B"/></linearGradient></defs>
+  <rect x="1" y="1" width="30" height="30" rx="9" fill="#D7302B" opacity="0.18"/>
+  <rect x="4" y="4" width="24" height="24" rx="6" fill="url(#k11_body)" stroke="#9E1F1B" stroke-width="1"/>
   <rect x="6.5" y="6" width="19" height="7" rx="3.5" fill="#FFFFFF" opacity="0.28"/>
   
   <rect x="6.5" y="6" width="19" height="7" rx="3.5" fill="#FFFFFF" opacity="0"><animate attributeName="opacity" values="0;0;0.45;0" keyTimes="0;0.8;0.88;1" dur="4s" repeatCount="indefinite"/></rect>
@@ -188,9 +188,9 @@
 <rect x="20" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="154.5" y="994" width="96" height="96" viewBox="0 0 32 32" overflow="hidden">
 <defs>
-    <radialGradient id="k12_glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0.45" stop-color="#FFD21F" stop-opacity="0.3"/><stop offset="1" stop-color="#FFD21F" stop-opacity="0"/></radialGradient>
+    <radialGradient id="k12_glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0.45" stop-color="#E3B200" stop-opacity="0.3"/><stop offset="1" stop-color="#E3B200" stop-opacity="0"/></radialGradient>
     <linearGradient id="k12_ring" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E4E4E4"/><stop offset="1" stop-color="#BDBDBD"/></linearGradient>
-    <radialGradient id="k12_body" cx="0.5" cy="0.45" r="0.6"><stop offset="0" stop-color="#FFD21F"/><stop offset="0.75" stop-color="#FFD21F"/><stop offset="1" stop-color="#B88A00" stop-opacity="0.9"/></radialGradient>
+    <radialGradient id="k12_body" cx="0.5" cy="0.45" r="0.6"><stop offset="0" stop-color="#E3B200"/><stop offset="0.75" stop-color="#E3B200"/><stop offset="1" stop-color="#A88400" stop-opacity="0.9"/></radialGradient>
     <linearGradient id="k12_gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
   </defs>
   <circle cx="16" cy="16" r="16" fill="url(#k12_glow)"/>
@@ -207,9 +207,9 @@
 <rect x="400" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="534.5" y="994" width="96" height="96" viewBox="0 0 32 32" overflow="hidden">
 <defs>
-    <radialGradient id="k13_glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0.45" stop-color="#FFD21F" stop-opacity="0.3"/><stop offset="1" stop-color="#FFD21F" stop-opacity="0"/></radialGradient>
+    <radialGradient id="k13_glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0.45" stop-color="#E3B200" stop-opacity="0.3"/><stop offset="1" stop-color="#E3B200" stop-opacity="0"/></radialGradient>
     <linearGradient id="k13_ring" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E4E4E4"/><stop offset="1" stop-color="#BDBDBD"/></linearGradient>
-    <radialGradient id="k13_body" cx="0.5" cy="0.45" r="0.6"><stop offset="0" stop-color="#FFD21F"/><stop offset="0.75" stop-color="#FFD21F"/><stop offset="1" stop-color="#B88A00" stop-opacity="0.9"/></radialGradient>
+    <radialGradient id="k13_body" cx="0.5" cy="0.45" r="0.6"><stop offset="0" stop-color="#E3B200"/><stop offset="0.75" stop-color="#E3B200"/><stop offset="1" stop-color="#A88400" stop-opacity="0.9"/></radialGradient>
     <linearGradient id="k13_gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
   </defs>
   <circle cx="16" cy="16" r="16" fill="url(#k13_glow)"/>
@@ -229,9 +229,9 @@
 <rect x="780" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="914.5" y="994" width="96" height="96" viewBox="0 0 32 32" overflow="hidden">
 <defs>
-    <radialGradient id="k14_glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0.45" stop-color="#2ECC40" stop-opacity="0.3"/><stop offset="1" stop-color="#2ECC40" stop-opacity="0"/></radialGradient>
+    <radialGradient id="k14_glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0.45" stop-color="#3E9A3A" stop-opacity="0.3"/><stop offset="1" stop-color="#3E9A3A" stop-opacity="0"/></radialGradient>
     <linearGradient id="k14_ring" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E4E4E4"/><stop offset="1" stop-color="#BDBDBD"/></linearGradient>
-    <radialGradient id="k14_body" cx="0.5" cy="0.45" r="0.6"><stop offset="0" stop-color="#2ECC40"/><stop offset="0.75" stop-color="#2ECC40"/><stop offset="1" stop-color="#118A22" stop-opacity="0.9"/></radialGradient>
+    <radialGradient id="k14_body" cx="0.5" cy="0.45" r="0.6"><stop offset="0" stop-color="#3E9A3A"/><stop offset="0.75" stop-color="#3E9A3A"/><stop offset="1" stop-color="#2F7A2C" stop-opacity="0.9"/></radialGradient>
     <linearGradient id="k14_gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
   </defs>
   <circle cx="16" cy="16" r="16" fill="url(#k14_glow)"/>
@@ -248,9 +248,9 @@
 <rect x="1160" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="1294.5" y="994" width="96" height="96" viewBox="0 0 32 32" overflow="hidden">
 <defs>
-    <radialGradient id="k15_glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0.45" stop-color="#2ECC40" stop-opacity="0.3"/><stop offset="1" stop-color="#2ECC40" stop-opacity="0"/></radialGradient>
+    <radialGradient id="k15_glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0.45" stop-color="#3E9A3A" stop-opacity="0.3"/><stop offset="1" stop-color="#3E9A3A" stop-opacity="0"/></radialGradient>
     <linearGradient id="k15_ring" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E4E4E4"/><stop offset="1" stop-color="#BDBDBD"/></linearGradient>
-    <radialGradient id="k15_body" cx="0.5" cy="0.45" r="0.6"><stop offset="0" stop-color="#2ECC40"/><stop offset="0.75" stop-color="#2ECC40"/><stop offset="1" stop-color="#118A22" stop-opacity="0.9"/></radialGradient>
+    <radialGradient id="k15_body" cx="0.5" cy="0.45" r="0.6"><stop offset="0" stop-color="#3E9A3A"/><stop offset="0.75" stop-color="#3E9A3A"/><stop offset="1" stop-color="#2F7A2C" stop-opacity="0.9"/></radialGradient>
     <linearGradient id="k15_gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
   </defs>
   <circle cx="16" cy="16" r="16" fill="url(#k15_glow)"/>
@@ -270,9 +270,9 @@
 <rect x="20" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="154.5" y="1282" width="96" height="96" viewBox="0 0 32 32" overflow="hidden">
 <defs>
-    <radialGradient id="k16_glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0.45" stop-color="#FF3B30" stop-opacity="0.3"/><stop offset="1" stop-color="#FF3B30" stop-opacity="0"/></radialGradient>
+    <radialGradient id="k16_glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0.45" stop-color="#D7302B" stop-opacity="0.3"/><stop offset="1" stop-color="#D7302B" stop-opacity="0"/></radialGradient>
     <linearGradient id="k16_ring" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E4E4E4"/><stop offset="1" stop-color="#BDBDBD"/></linearGradient>
-    <radialGradient id="k16_body" cx="0.5" cy="0.45" r="0.6"><stop offset="0" stop-color="#FF3B30"/><stop offset="0.75" stop-color="#FF3B30"/><stop offset="1" stop-color="#A8140C" stop-opacity="0.9"/></radialGradient>
+    <radialGradient id="k16_body" cx="0.5" cy="0.45" r="0.6"><stop offset="0" stop-color="#D7302B"/><stop offset="0.75" stop-color="#D7302B"/><stop offset="1" stop-color="#9E1F1B" stop-opacity="0.9"/></radialGradient>
     <linearGradient id="k16_gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
   </defs>
   <circle cx="16" cy="16" r="16" fill="url(#k16_glow)"/>
@@ -289,9 +289,9 @@
 <rect x="400" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="534.5" y="1282" width="96" height="96" viewBox="0 0 32 32" overflow="hidden">
 <defs>
-    <radialGradient id="k17_glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0.45" stop-color="#FF3B30" stop-opacity="0.3"/><stop offset="1" stop-color="#FF3B30" stop-opacity="0"/></radialGradient>
+    <radialGradient id="k17_glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0.45" stop-color="#D7302B" stop-opacity="0.3"/><stop offset="1" stop-color="#D7302B" stop-opacity="0"/></radialGradient>
     <linearGradient id="k17_ring" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E4E4E4"/><stop offset="1" stop-color="#BDBDBD"/></linearGradient>
-    <radialGradient id="k17_body" cx="0.5" cy="0.45" r="0.6"><stop offset="0" stop-color="#FF3B30"/><stop offset="0.75" stop-color="#FF3B30"/><stop offset="1" stop-color="#A8140C" stop-opacity="0.9"/></radialGradient>
+    <radialGradient id="k17_body" cx="0.5" cy="0.45" r="0.6"><stop offset="0" stop-color="#D7302B"/><stop offset="0.75" stop-color="#D7302B"/><stop offset="1" stop-color="#9E1F1B" stop-opacity="0.9"/></radialGradient>
     <linearGradient id="k17_gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
   </defs>
   <circle cx="16" cy="16" r="16" fill="url(#k17_glow)"/>

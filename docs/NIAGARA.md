@@ -50,7 +50,7 @@ Deshalb nicht `animate` binden, sondern `image` zwischen statischer und animiert
 
 | Zustand | `image` |
 |---|---|
-| aus | `file:^px/GraphicTemplates/symbole/Waermepumpe_Luft_Wasser_rechts.svg` |
+| aus | `file:^px/GraphicTemplates/symbole/Waermepumpe_Luft_Wasser_rechts_aus.svg` |
 | an | `file:^px/GraphicTemplates/symbole/Waermepumpe_Luft_Wasser_rechts_an.svg` |
 | Störung | `file:^px/GraphicTemplates/symbole/Waermepumpe_Luft_Wasser_rechts_stoerung.svg` |
 | Abtaubetrieb | `file:^px/GraphicTemplates/symbole/Waermepumpe_Luft_Wasser_rechts_abtau.svg` |

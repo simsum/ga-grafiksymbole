@@ -1,4 +1,4 @@
-"""Erzeugt symbole/hydraulik/Brenner_Rauch[_animiert].svg: Rauch für den Kamin (Abgasstutzen) des Kessels.
+"""Erzeugt symbole/hydraulik/erzeuger/Brenner_Rauch[_animiert].svg: Rauch für den Kamin (Abgasstutzen) des Kessels.
 
 Ein Symbol für beide Kessel (Brenner links und rechts), transparenter Hintergrund, 64 × 96. Sechs weiche Rauchwolken
 steigen versetzt auf, wachsen, schwanken leicht und blenden aus (SMIL, nur Verläufe und Deckkraft). Ohne Animation
@@ -70,7 +70,7 @@ def svg() -> str:
 
 
 if __name__ == "__main__":
-    ziel = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "symbole" / "hydraulik"
+    ziel = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "symbole" / "hydraulik" / "erzeuger"
     p = ziel / "Brenner_Rauch_animiert.svg"
     p.write_text(svg(), encoding="utf-8")
     print(p)

@@ -52,7 +52,22 @@ Falls feste Größen nötig sind (lange Seite): 20, 30, 40, 50, 60, 80, 100, 120
 
 ## Dateinamen
 
-`<Symbol>_<Richtung/Variante>.svg`, Umlaute ausgeschrieben (ae, oe, ue), z. B. `Klimakonvektor_rechts.svg`, `Absperrklappe_auf_ohne_Antrieb.svg`, `Zortstroem_Heizung_stehend.svg`.
+Schema: `Symbol[_Variante][_Größe]_Ausrichtung[_Zustand][_Zusatz].svg`
+
+| Teil | Werte | Beispiel |
+|---|---|---|
+| Symbol | Gattungsbegriff, keine Produkt- oder Herstellernamen | `Absperrklappe`, `Schichtspeicher` |
+| Variante | Bauart, Medium, Ansicht (mehrere Wörter in CamelCase) | `ohneAntrieb`, `3blatt`, `Heizung`, `Draufsicht` |
+| Größe | `klein`/`gross`, `S`/`M`/`L`, Länge in px, Portzahl | `gross`, `120`, `16_Port` |
+| Ausrichtung | `rechts`, `links`, `oben`, `unten` (Fluss-/Förderrichtung oder Anschlussseite); `waagerecht`, `senkrecht` (Rohr-/Kanalachse); `stehend`, `liegend` (Bauform) | `senkrecht` |
+| Zustand | `aus`, `an`, `freigabe`, `stoerung`, `abtau`, `auf`, `zu`, `neutral`, `normal`, `aktiv`; Stufen als Zahl, Klappenstellungen `1_zu` … `5_auf` | `auf`, `3_50` |
+| Zusatz | `animiert` (wenn es dieselbe Datei auch statisch gibt), `beschriftet`, `dunkel` | `animiert` |
+
+- Umlaute ausgeschrieben (ae, oe, ue, ss), nur ASCII, Teile mit Unterstrich getrennt, keine Bindestriche oder Leerzeichen.
+- Ausrichtung immer `waagerecht`/`senkrecht`, nie `horizontal`/`vertikal`.
+- Gibt es Zustände, wird auch der Grundzustand benannt (`_aus`), nicht weggelassen.
+- Fun-Symbole beginnen mit `Fun_`, Fun-Buttons mit `Fun_Button_`.
+- Beispiele: `Klimakonvektor_rechts.svg`, `Absperrklappe_ohneAntrieb_senkrecht_auf.svg`, `Klappe_3blatt_gross_waagerecht_2_25.svg`, `Trennung_120_waagerecht_dunkel.svg`, `Waermepumpe_Luft_Wasser_links_aus.svg`, `Schichtspeicher_Heizung_liegend_beschriftet.svg`.
 
 ## SVG-Regeln
 

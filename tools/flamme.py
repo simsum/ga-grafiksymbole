@@ -1,4 +1,4 @@
-"""Erzeugt symbole/hydraulik/Brenner_Flamme_{links,rechts}_{1..5}[_animiert].svg: Brennerflamme ohne Kessel.
+"""Erzeugt symbole/hydraulik/erzeuger/Brenner_Flamme_{links,rechts}_{1..5}[_animiert].svg: Brennerflamme ohne Kessel.
 
 Die Flamme wird in Px über Kessel_Brenner_links/rechts gelegt (transparenter Hintergrund). Fünf Längen für
 Leistungsstufen. Alle zehn Symbole haben dieselbe Größe (die der längsten Flamme) und dieselbe Wurzelposition,
@@ -82,7 +82,7 @@ def svg(richtung: str, stufe: int) -> str:
 
 
 if __name__ == "__main__":
-    ziel = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "symbole" / "hydraulik"
+    ziel = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "symbole" / "hydraulik" / "erzeuger"
     for richtung in ("links", "rechts"):
         for stufe in LAENGEN:
             p = ziel / f"Brenner_Flamme_{richtung}_{stufe}_animiert.svg"

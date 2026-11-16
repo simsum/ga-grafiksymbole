@@ -1,9 +1,9 @@
-"""Erzeugt symbole/hydraulik/Waermepumpe_Luft_Wasser_{rechts,links}*.svg.
+"""Erzeugt symbole/hydraulik/erzeuger/Waermepumpe_Luft_Wasser_{rechts,links}*.svg.
 
 Außengerät Luft/Wasser-Wärmepumpe, Monoblock, Vorderansicht. Aufruf: python tools/waermepumpe.py
 
 Zustände (gleiche Größe und Anschlusspunkte):
-  (ohne)        aus, Lüfter steht
+  _aus         aus, Lüfter steht
   _an           Betrieb, Lüfter dreht, Windlinien wandern nach außen
                 (animiertes SVG, SMIL – läuft in 4.15 in Workbench und HTML5)
   _stoerung     Störung: Lüfter steht, rotes Warndreieck und rote Status-LED blinken (1 Hz)
@@ -126,9 +126,9 @@ def svg(seite: str, zustand: str = "aus", winkel: float = 0.0) -> str:
             f'{DEFS}\n  {inner}\n{overlay(seite, zustand)}</svg>\n')
 
 if __name__ == "__main__":
-    out = Path(__file__).resolve().parent.parent / "symbole" / "hydraulik"
+    out = Path(__file__).resolve().parent.parent / "symbole" / "hydraulik" / "erzeuger"
     for seite in ("rechts", "links"):
-        for zustand, endung in (("aus", ""), ("an", "_an"), ("stoerung", "_stoerung"), ("abtau", "_abtau")):
+        for zustand, endung in (("aus", "_aus"), ("an", "_an"), ("stoerung", "_stoerung"), ("abtau", "_abtau")):
             p = out / f"Waermepumpe_Luft_Wasser_{seite}{endung}.svg"
             p.write_text(svg(seite, zustand), encoding="utf-8")
             print(p)

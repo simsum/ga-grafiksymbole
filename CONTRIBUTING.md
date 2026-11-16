@@ -10,8 +10,8 @@ Beiträge sind willkommen: neue Symbole, Varianten oder Korrekturen.
 - Farben, Verläufe und Strichstärken nach [docs/STYLEGUIDE.md](docs/STYLEGUIDE.md).
 - Richtungssymbole in allen vier Richtungen (`_rechts`, `_links`, `_oben`, `_unten`).
 - Symbole einer Familie mit identischer Größe.
-- Dateiname `<Symbol>_<Richtung/Variante>.svg`, Umlaute ausgeschrieben, keine Leerzeichen, keine Bindestriche (Niagara mag sie nicht).
-- Bestehende Symbole dürfen nur nach Rückfrage beim Maintainer umbenannt werden, weil Dateinamen in Px-Seiten und Stationen referenziert sind.
+- Dateiname nach Schema `Symbol[_Variante][_Größe]_Ausrichtung[_Zustand][_Zusatz].svg` (siehe [Styleguide](docs/STYLEGUIDE.md#dateinamen)), Umlaute ausgeschrieben, keine Leerzeichen, keine Bindestriche (Niagara mag sie nicht).
+- Bestehende Symbole dürfen nur nach Rückfrage beim Maintainer umbenannt werden, weil Dateinamen in Px-Seiten und Stationen referenziert sind. Jede Umbenennung wird in [docs/MIGRATION.csv](docs/MIGRATION.csv) nachgetragen.
 - Größe und Anschlusspunkte in [docs/SYMBOLKATALOG.md](docs/SYMBOLKATALOG.md) eintragen.
 - Nur eigene Zeichnungen einreichen, keine Kopien aus Herstellerbibliotheken.
 

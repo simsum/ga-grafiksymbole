@@ -1,4 +1,4 @@
-"""Erzeugt symbole/hydraulik/Pumpe_{richtung}_{zustand}.svg.
+"""Erzeugt symbole/hydraulik/pumpen/Pumpe_{richtung}_{zustand}.svg.
 
 Pumpe 40 × 40, Kreis mit Förderpfeil (Dreieck). Aufruf: python tools/pumpe.py
 
@@ -66,7 +66,7 @@ def svg(richtung: str, zustand: str) -> str:
 
 
 if __name__ == "__main__":
-    out = Path(__file__).resolve().parent.parent / "symbole" / "hydraulik"
+    out = Path(__file__).resolve().parent.parent / "symbole" / "hydraulik" / "pumpen"
     for richtung in RICHTUNGEN:
         for zustand in FARBEN:
             p = out / f"Pumpe_{richtung}_{zustand}.svg"

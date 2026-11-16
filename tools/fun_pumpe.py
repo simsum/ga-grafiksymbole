@@ -1,4 +1,4 @@
-"""Erzeugt symbole/fun/Fun_Pumpe_{richtung}_{zustand}.svg (40 × 40, wie die Pumpen unter symbole/hydraulik).
+"""Erzeugt symbole/fun/Fun_Pumpe_{richtung}_{zustand}.svg (40 × 40, wie die Pumpen unter symbole/hydraulik/pumpen).
 
 Basis ist das Pumpensymbol aus pumpe.py (im Hintergrund, mit brauner Fun-Kontur, ohne Förderdreieck),
 davor je Zustand eine kleine Cartoon-Animation (SMIL). Die Förderrichtung zeigen Luft-/Wasserblasen an:

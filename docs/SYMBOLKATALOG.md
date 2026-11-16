@@ -2,7 +2,7 @@
 
 Geplante und vorhandene Symbole mit Abmessungen und Anschlusspunkten. Alle Koordinaten in px, bezogen auf die linke obere Ecke des Bildes.
 
-Status: Das Repository enthält die Symbole unter `symbole/` (nur SVG, Schrift als Pfad). Übersichtsgrafiken mit Hinweisen: [uebersicht/](uebersicht/). Die Tabellen beschreiben die Vorgaben. Das Volumenstromregler-Rund-Set heißt `Volumenstromregler_rund_*`, liegende Zortström-Speicher `Zortstroem_*_liegend`.
+Status: Das Repository enthält die Symbole unter `symbole/` (nur SVG, Schrift als Pfad). Übersichtsgrafiken mit Hinweisen: [uebersicht/](uebersicht/). Die Tabellen beschreiben die Vorgaben. Das Volumenstromregler-Rund-Set heißt `Volumenstromregler_rund_*`, liegende Schichtspeicher `Schichtspeicher_*_liegend`.
 
 ## Allgemein
 
@@ -24,7 +24,7 @@ Variante `_an` (z. B. `Flusspfeil_rechts_an`), gleiche Größe: drei helle Punkt
 ### Trennung / Durchführung (Decke, Wand)
 
 - Schraffiertes Band (zwei Randlinien, Schraffur 45°), 16 px stark, Hintergrund transparent – Leitungen werden darübergelegt.
-- `Trennung_{horizontal,vertikal}_<Länge>` mit Länge 60, 120, 180, 240, 300 px (horizontal L × 16, vertikal 16 × L).
+- `Trennung_<Länge>_{waagerecht,senkrecht}` mit Länge 60, 120, 180, 240, 300 px (waagerecht L × 16, senkrecht 16 × L).
 - Ohne Zusatz hell (`#C8C8D0`, für dunkle Hintergründe), `_dunkel` (`#555555`, für helle Hintergründe).
 - Nicht verzerrt skalieren: passende Länge wählen, damit die Schraffur gleichmäßig bleibt.
 
@@ -38,8 +38,8 @@ Variante `_an` (z. B. `Flusspfeil_rechts_an`), gleiche Größe: drei helle Punkt
 | Deckenluftdurchlass rund (Hallen-Lochblech) | quadratisch | Kreis füllt die Bildfläche, ohne Stellhebel |
 | WRG Kreuzstrom-Plattenwärmetauscher | 400 × 480 (im Schema ca. 331 × 399) | Kein Rahmen; Anschlüsse links/rechts bei y = 46,5 und y = 435,5, Kanalhöhe 24; Varianten mit/ohne Bypass |
 | WRG mit Flanschen (`WRG_Platte_mit_Bypass_PlusMinus_Flansch`) | 400 × 480 | Wie oben, zusätzlich Flansch (6 × 34) an allen vier Anschlüssen ganz außen am Symbolrand; Kanäle enden am Flansch. Bestehender Kanal im Schema muss an der Flanschkante enden |
-| Klappe, ein Blatt, senkrecht/waagerecht (`lueftung/klappen/klein/Klappe_senkrecht_klein_1_zu` bis `_5_auf`, `Klappe_waagerecht_klein_…`) | klein 30 × 60 / 60 × 30, groß 40 × 80 / 80 × 40 | Fünf Stellungen 1_zu, 2_25, 3_50, 4_75, 5_auf (Blattwinkel zur Kanalachse 90° / 67,5° / 45° / 22,5° / 0°); Kanal verläuft entlang der langen Seite; grau, Statusfarbe über Niagara. Abgeleitet von AC0531 und AC0532 (M, L); große Variante in `klappen/gross/` (`Klappe_senkrecht_gross_…`, `Klappe_waagerecht_gross_…`) |
-| Klappe, drei Blätter, senkrecht/waagerecht (`Klappe_senkrecht_3blatt_klein_…`, `Klappe_waagerecht_3blatt_klein_…`, groß: `…_3blatt_gross_…`) | klein 30 × 60 / 60 × 30, groß 40 × 80 / 80 × 40 | Drei Blätter, Blattlänge nimmt Richtung „auf“ ab. Abgeleitet von AC0511/AC0521 (senkrecht) und AC0512/AC0522 (waagerecht), M und L. Waagerechte Klappen kippen wie das Original AC0532 nach „\“, senkrechte nach „/“ |
+| Klappe, ein Blatt, senkrecht/waagerecht (`lueftung/klappen/Klappe_klein_senkrecht_1_zu` bis `_5_auf`, `Klappe_klein_waagerecht_…`) | klein 30 × 60 / 60 × 30, groß 40 × 80 / 80 × 40 | Fünf Stellungen 1_zu, 2_25, 3_50, 4_75, 5_auf (Blattwinkel zur Kanalachse 90° / 67,5° / 45° / 22,5° / 0°); Kanal verläuft entlang der langen Seite; grau, Statusfarbe über Niagara. Abgeleitet von AC0531 und AC0532 (M, L); große Variante `Klappe_gross_senkrecht_…`, `Klappe_gross_waagerecht_…` |
+| Klappe, drei Blätter, senkrecht/waagerecht (`Klappe_3blatt_klein_senkrecht_…`, `Klappe_3blatt_klein_waagerecht_…`, groß: `Klappe_3blatt_gross_…`) | klein 30 × 60 / 60 × 30, groß 40 × 80 / 80 × 40 | Drei Blätter, Blattlänge nimmt Richtung „auf“ ab. Abgeleitet von AC0511/AC0521 (senkrecht) und AC0512/AC0522 (waagerecht), M und L. Waagerechte Klappen kippen wie das Original AC0532 nach „\“, senkrechte nach „/“ |
 
 Klappen: Blattwinkel zur Kanalachse, zu = quer, auf = längs. Die Klappen stammen aus der SBC-Icon-Galerie (Honeywell) und werden von `tools/klappen.py` erzeugt.
 
@@ -54,13 +54,13 @@ WRG-Luftwege: Außenluft oben links (grün) → Zuluft unten rechts (rot); Abluf
 - Farben: `rot`, `blau`, `grau`.
 - Vorlaufventil: heizen `links-oben_rot`, kühlen `rechts-oben_blau`. Rücklaufventil: heizen `oben-links_rot`, kühlen `oben-rechts_blau`.
 
-### Zortström-Schichtenspeicher liegend
+### Schichtspeicher liegend (`Schichtspeicher_{Heizung,Kaelte}_liegend[_beschriftet]`)
 
 - Heizung 800 × 160 (6 Zonen A–F), Kälte 800 × 136 (5 Zonen A–E), Zonenhöhe 24.
 - Zonenmitte y = Oberkante + 20 + 24 × (Zone − 1).
 - Varianten ohne und mit Beschriftung.
 
-### Zortström-Schichtenspeicher stehend
+### Schichtspeicher stehend (`Schichtspeicher_{Heizung,Kaelte}_stehend`)
 
 Beide 144 × 338, ohne Beschriftung, Tankkörper x = 2 … 142. Heizung 6 Zonen à 44 px, Kälte 5 Zonen à 52,8 px.
 
@@ -119,14 +119,14 @@ Kompaktes Außengerät mit einem Ventilator, Vorderansicht, neutral gezeichnet, 
 
 | Symbol | Größe | Anschlusspunkte (x; y = Unterkante) |
 |---|---|---|
-| `Waermepumpe_Luft_Wasser_links` | 180 × 168 | VL 20, RL 40; y = 168 |
-| `Waermepumpe_Luft_Wasser_rechts` | 180 × 168 | VL 160, RL 140; y = 168 |
+| `Waermepumpe_Luft_Wasser_links_aus` | 180 × 168 | VL 20, RL 40; y = 168 |
+| `Waermepumpe_Luft_Wasser_rechts_aus` | 180 × 168 | VL 160, RL 140; y = 168 |
 
 Zustandsvarianten, jeweils für `links` und `rechts`, gleiche Größe und Anschlusspunkte:
 
 | Zustand | Suffix | Darstellung |
 |---|---|---|
-| aus | – | Lüfter steht |
+| aus | `_aus` | Lüfter steht |
 | Betrieb | `_an` | Lüfter dreht, Windlinien wandern von der Mitte nach außen; animiert per SMIL (läuft in 4.15 in Workbench und Browser) |
 | Störung | `_stoerung` | Lüfter steht, rotes Warndreieck mit Ausrufezeichen und rote Status-LED blinken (1 Hz) |
 | Abtaubetrieb | `_abtau` | Lüfter steht, Reif auf dem Lüfter, Schneeflocke, Schmelzwassertropfen, blaue Status-LED pulsiert |
@@ -137,8 +137,8 @@ Flanschfarben: VL `#D7302B`, RL `#F29A38`. Reversibles Gerät mit einem Kreis ne
 
 ### Absperrklappe Wasser
 
-- Waagerecht: mit Antrieb 50 × 65, ohne Antrieb 50 × 30, Rohrachse y = 15 (`Absperrklappe_<Stellung>[_ohne_Antrieb]_waagerecht`).
-- Senkrecht: mit Antrieb 65 × 50, ohne Antrieb 30 × 50, Rohrachse x = 15, Antrieb rechts (`..._senkrecht`).
+- Waagerecht: mit Antrieb 50 × 65, ohne Antrieb 50 × 30, Rohrachse y = 15 (`Absperrklappe[_ohneAntrieb]_waagerecht_<Stellung>`).
+- Senkrecht: mit Antrieb 65 × 50, ohne Antrieb 30 × 50, Rohrachse x = 15, Antrieb rechts (`Absperrklappe[_ohneAntrieb]_senkrecht_<Stellung>`).
 - Stellungen: `neutral` (Scheibe schräg, grau), `auf` (waagerecht, grün `#2EAA3A`), `zu` (senkrecht, rot `#E0302A`).
 - Endlagen-Marker 16 × 16: `Endlage_auf` (grün, waagerechter Strich), `Endlage_zu` (rot, senkrechter Strich).
 
@@ -217,12 +217,13 @@ Verspielte Cartoon-Symbole unter `symbole/fun/`, 48 × 48, dunkelbraune Kontur `
 | Außentemperatur | `Fun_Thermometer_kalt` (zittert, Schal), `_mild` (lächelt), `_warm` (Sonnenbrille, schwitzt) | kalt < 5 °C, mild 5–25 °C, warm > 25 °C |
 | Außenfeuchte | `Fun_Tropfen_trocken` (durstig), `_normal` (hüpft), `_nass` (Schnorchel) | trocken < 35 %RH, normal 35–70 %RH, nass > 70 %RH |
 | Außen-CO₂ | `Fun_CO2_Blase` (Schrift als Pfad) | – |
+| Pufferspeicher | `Fun_Pufferspeicher_WT_stehend` (Cartoon-Variante von `hydraulik/speicher/Pufferspeicher_WT_stehend`, gleiche Größe) | – |
 
 Umschalten über `image`-Binding mit Konverter (siehe NIAGARA.md).
 
 ### Fun-Pumpen
 
-- `Fun_Pumpe_{oben,rechts,unten,links}_{aus,freigabe,an,stoerung}`: 40 × 40, gleiche Größe, Richtungen und Zustandsfarben wie die Pumpen unter `symbole/hydraulik/`, daher per `image`-Binding austauschbar. Pumpensymbol im Hintergrund mit brauner Fun-Kontur, davor eine kleine Animation (SMIL).
+- `Fun_Pumpe_{oben,rechts,unten,links}_{aus,freigabe,an,stoerung}`: 40 × 40, gleiche Größe, Richtungen und Zustandsfarben wie die Pumpen unter `symbole/hydraulik/pumpen/`, daher per `image`-Binding austauschbar. Pumpensymbol im Hintergrund mit brauner Fun-Kontur, davor eine kleine Animation (SMIL).
 - Kein Förderdreieck: Die Förderrichtung zeigen Luft-/Wasserblasen an, die in Richtung der Förderung wandern.
 - `_aus`: zwei „z“ steigen auf, drei stehende Blasen. `_freigabe`: Funken blinken, Blasen wandern langsam. `_an`: blaue Wasserblasen wandern zügig. `_stoerung`: Pumpe wackelt, Dampfwolken steigen auf, Schweißperlen spritzen ab, keine Blasen (nur das Warndreieck).
 - Erzeugt mit `tools/fun_pumpe.py` (baut auf `tools/pumpe.py` auf). Ohne Animation bleibt das Symbol mit allen Effekten sichtbar.
@@ -239,7 +240,7 @@ Umschalten über `image`-Binding mit Konverter (siehe NIAGARA.md).
 
 Unter `symbole/fun/button/`, 280 × 72, Cartoon-Stil passend zu den Fun-Symbolen. Beschriftung als Pfad (kein `<text>`).
 
-- `btn_{uebersicht,heizung,waermepumpe,puffer,pv,raeume}_{normal,aktiv}`: mit Icon und Beschriftung. „Räume“ ist aus Buchstaben der anderen Buttons zusammengesetzt (R = P mit ergänztem Bein).
-- `btn_leer_{normal,aktiv}`: ohne Icon und Text, für eigene Beschriftung per Niagara-Label.
+- `Fun_Button_{Uebersicht,Heizung,Waermepumpe,Puffer,PV,Raeume}_{normal,aktiv}`: mit Icon und Beschriftung. „Räume“ ist aus Buchstaben der anderen Buttons zusammengesetzt (R = P mit ergänztem Bein).
+- `Fun_Button_Leer_{normal,aktiv}`: ohne Icon und Text, für eigene Beschriftung per Niagara-Label.
 - `normal` gelb, `aktiv` orange mit hellem Rand und 3 px nach unten versetzt (gedrückt).
-- `btn_welle_{fliesst,atmet,punkte,funken}`: 280 × 20, animierte Wellenlinie unter einem `normal`-Button als Alternative zu `aktiv`. `fliesst` und `atmet` verformen die Linie (SMIL `animate d`, im Browser geprüft, Workbench ungeprüft), `punkte` und `funken` bewegen nur Punkte.
+- `Fun_Button_Welle_{fliesst,atmet,punkte,funken}`: 280 × 20, animierte Wellenlinie unter einem `normal`-Button als Alternative zu `aktiv`. `fliesst` und `atmet` verformen die Linie (SMIL `animate d`, im Browser geprüft, Workbench ungeprüft), `punkte` und `funken` bewegen nur Punkte.

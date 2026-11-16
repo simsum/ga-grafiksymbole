@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" role="img" aria-labelledby="title">
+  <title id="title">Fun-Pumpe, Förderrichtung unten, Freigabe</title>
+  <defs><linearGradient id="gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/><circle cx="20" cy="20" r="18" fill="url(#gK)" stroke="#3B2412" stroke-width="1.6"/></g>
+  <g transform="rotate(180 20 20)">
+    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#4D4D4D" stroke="#4D4D4D" stroke-width="1.2" stroke-linejoin="round"/>
+  </g>
+  <path d="M8,4.5 L9.26,7.74 L12.5,9 L9.26,10.26 L8,13.5 L6.74,10.26 L3.5,9 L6.74,7.74 Z" fill="#FFF3A0" stroke="#3B2412" stroke-width="1.1" stroke-linejoin="round">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="1.2s" begin="0s" repeatCount="indefinite"/></path>
+  <path d="M32,3 L33.12,5.88 L36,7 L33.12,8.120000000000001 L32,11 L30.88,8.120000000000001 L28,7 L30.88,5.88 Z" fill="#FFF3A0" stroke="#3B2412" stroke-width="1.1" stroke-linejoin="round">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></path>
+  <path d="M34,27.5 L34.98,30.02 L37.5,31 L34.98,31.98 L34,34.5 L33.02,31.98 L30.5,31 L33.02,30.02 Z" fill="#FFF3A0" stroke="#3B2412" stroke-width="1.1" stroke-linejoin="round">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="1.2s" begin="0.8s" repeatCount="indefinite"/></path>
+  <path d="M7,29 L7.84,31.16 L10,32 L7.84,32.84 L7,35 L6.16,32.84 L4,32 L6.16,31.16 Z" fill="#FFF3A0" stroke="#3B2412" stroke-width="1.1" stroke-linejoin="round">
+    <animate attributeName="opacity" values="0.15;1;0.15" dur="1.2s" begin="0.2s" repeatCount="indefinite"/></path>
+</svg>

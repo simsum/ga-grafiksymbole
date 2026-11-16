@@ -203,6 +203,12 @@ Verspielte Cartoon-Symbole unter `symbole/fun/`, 48 × 48, dunkelbraune Kontur `
 
 Umschalten über `image`-Binding mit Konverter (siehe NIAGARA.md).
 
+### Fun-Pumpen
+
+- `Fun_Pumpe_{oben,rechts,unten,links}_{aus,freigabe,an,stoerung}`: 40 × 40, gleiche Größe, Richtungen und Zustandsfarben wie die Pumpen unter `symbole/hydraulik/`, daher per `image`-Binding austauschbar. Pumpensymbol im Hintergrund mit brauner Fun-Kontur, davor eine kleine Animation (SMIL).
+- `_aus`: zwei „z“ steigen auf. `_freigabe`: Funken blinken. `_an`: blaue Wassertropfen spritzen seitlich ab. `_stoerung`: Pumpe wackelt, Dampfwolken steigen auf, Schweißperlen spritzen ab.
+- Erzeugt mit `tools/fun_pumpe.py` (baut auf `tools/pumpe.py` auf). Ohne Animation bleibt das Symbol mit allen Effekten sichtbar.
+
 ### Monatsleiste
 
 - `Fun_Monatsleiste`: 1200 × 64, statisch, Stil der Fun-Buttons (Kontur `#2b1600`, Glanzstreifen, Schatten, abgerundete Enden).

@@ -3,7 +3,7 @@
 Basis ist das Pumpensymbol aus pumpe.py (im Hintergrund, mit brauner Fun-Kontur, ohne Förderdreieck),
 davor je Zustand eine kleine Cartoon-Animation (SMIL). Die Förderrichtung zeigen Luft-/Wasserblasen an:
   _aus        zwei „z“ steigen auf (schläft), drei stehende Blasen in Förderrichtung
-  _freigabe   Funken blinken (bereit), blaue Blasen wandern langsam in Förderrichtung
+  _freigabe   Funken blinken (bereit), Blasen wandern langsam in Förderrichtung
   _an         blaue Wasserblasen wandern in Förderrichtung
   _stoerung   Pumpe wackelt, Dampfwolken steigen auf, Schweißperlen spritzen ab (keine Blasen)
 Aufruf: python tools/fun_pumpe.py
@@ -45,7 +45,7 @@ def blasen(richtung: str, modus: str) -> str:
     dauer = {"schnell": 2.4, "langsam": 4.8, "still": 0}[modus]
     zeilen = [f'  <g transform="rotate({pumpe.RICHTUNGEN[richtung]} 20 20)">']
     for x, y, r, b in BLASEN:
-        fuell = "#5DB8F0" if modus != "still" else "#D9E2E8"
+        fuell = {"schnell": "#5DB8F0", "langsam": "#E8F6FF", "still": "#D9E2E8"}[modus]
         kreis = (f'<circle cx="{x}" cy="{y}" r="{r}" fill="{fuell}" stroke="{BRAUN}" stroke-width="1.1"/>'
                  f'<circle cx="{x - r * 0.3:.1f}" cy="{y - r * 0.3:.1f}" r="{r * 0.28:.2f}" fill="#FFFFFF"/>')
         if modus == "still":

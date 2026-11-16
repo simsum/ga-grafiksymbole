@@ -10,9 +10,12 @@ und Schwerpunkt per SMIL (animate d) unregelmäßig flackern. Keine Filter, nur 
 
 Position über dem Kessel (Koordinaten der Kessel-SVGs, Brenner links): Flammenwurzel an der Kesseltür bei
 x = 82, Brennermitte y = 113 − 27 = 86 im Bild. Das Symbol hat links einen Rand von RAND px.
+Zusätzlich je Flamme eine statische Variante `…_statisch` (SVG + PNG, ohne Animation, gleiche Größe) als
+Ausweichlösung, z. B. für Darstellungen ohne SMIL.
 Aufruf: python tools/flamme.py [Zielordner]
 """
 import math
+import re
 import sys
 from pathlib import Path
 
@@ -41,6 +44,11 @@ def schicht(L, h, amp, farbe, deckkraft, dauer, zungen, versatz=0.0) -> str:
     werte = ";".join(umriss(L, h, amp, p + versatz, zungen) for p in PHASEN)
     return (f'<path d="{umriss(L, h, amp, versatz, zungen)}" fill="{farbe}" opacity="{deckkraft}">'
             f'<animate attributeName="d" values="{werte}" dur="{dauer}s" repeatCount="indefinite"/></path>')
+
+
+def statisch(text: str) -> str:
+    """Entfernt alle SMIL-Animationen; die Flamme bleibt im Ausgangszustand stehen."""
+    return re.sub(r"<animate(?:Transform)?\b[^>]*/>", "", text)
 
 
 def svg(richtung: str, stufe: int) -> str:
@@ -74,9 +82,14 @@ def svg(richtung: str, stufe: int) -> str:
 
 
 if __name__ == "__main__":
+    import resvg_py
     ziel = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "symbole" / "hydraulik"
     for richtung in ("links", "rechts"):
         for stufe in LAENGEN:
             p = ziel / f"Brenner_Flamme_{richtung}_{stufe}.svg"
             p.write_text(svg(richtung, stufe), encoding="utf-8")
             print(p)
+            s = ziel / f"Brenner_Flamme_{richtung}_{stufe}_statisch.svg"
+            s.write_text(statisch(svg(richtung, stufe)), encoding="utf-8")
+            s.with_suffix(".png").write_bytes(bytes(resvg_py.svg_to_bytes(svg_string=s.read_text(encoding="utf-8"))))
+            print(s)

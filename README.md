@@ -24,7 +24,8 @@ docs/
 tools/
   check_symbols.py       Prüft SVGs auf Regeln (kein <text>, Namensschema, PNG vorhanden)
   pumpe.py               Erzeugt die Pumpensymbole unter symbole/hydraulik/
-  flamme.py              Erzeugt die Brennerflammen unter symbole/hydraulik/ (animiert, zum Überlegen)
+  rauch.py               Erzeugt den Brennerrauch unter symbole/hydraulik/ (animiert + statisch)
+  flamme.py              Erzeugt die Brennerflammen unter symbole/hydraulik/ (animiert + statisch)
   fun_pumpe.py           Erzeugt die Fun-Pumpen unter symbole/fun/ (baut auf pumpe.py auf)
   waermepumpe.py         Erzeugt die Wärmepumpen-Symbole unter symbole/hydraulik/ (resvg-py)
   klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/{klein,gross}/ (resvg-py)

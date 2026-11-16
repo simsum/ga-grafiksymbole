@@ -232,9 +232,9 @@ Umschalten über `image`-Binding mit Konverter (siehe NIAGARA.md).
 
 - `Fun_Monatsleiste`: 1200 × 64, statisch, Stil der Fun-Buttons (Kontur `#2b1600`, Glanzstreifen, Schatten, abgerundete Enden).
 - Zwölf gleich breite Monatsfelder (je 99 px, Leiste x = 4 … 1192), Jahreszeitenfarben: Winter blau-violett, Frühling grün, Sommer braun bis grau, Herbst lila. Dicke Trennstriche zwischen den Quartalen.
-- Monatsnamen in Segoe Print fett, als Pfade (kein `<text>`, unabhängig von installierten Schriften).
+- Monatsnamen in der Schrift der Fun-Buttons (Chewy, Google Fonts, Apache License 2.0), helle Füllung `#fffbe6` mit brauner Kontur wie auf den Buttons, als Pfade (kein `<text>`, unabhängig von installierten Schriften).
 - Für den Jahresfortschritt einen Balken (z. B. kitPx-Bargraph, 0–365) mit gleicher Breite darunterlegen.
-- Erzeugt mit `tools/monatsleiste.ps1` (Windows, PowerShell 5.1).
+- Erzeugt mit `tools/monatsleiste.py` (benötigt fonttools; lädt `Chewy-Regular.ttf` beim ersten Aufruf nach `tools/.schriften/`, alternativ `--schrift <Pfad>`).
 
 ### Buttons
 

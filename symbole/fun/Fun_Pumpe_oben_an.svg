@@ -9,19 +9,19 @@
     <path d="M15.5,26.5 L20,22 L24.5,26.5" fill="none" stroke="#E6E6E6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.7;1" dur="1.2s" begin="0.6s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -8" dur="1.2s" begin="0.6s" repeatCount="indefinite"/></path>
   </g>
   <g opacity="1"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="1.4s" begin="0s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="0 0;-3 5" dur="1.4s" begin="0s" repeatCount="indefinite"/>
-    <path d="M5,17 q2.7,3.3 0,5.4 q-2.7,-2.1 0,-5.4 z" fill="#8FD3F5" stroke="#3B2412" stroke-width="1.1" stroke-linejoin="round"/>
-    <path d="M4.2,20 q0,-1.2 0.8,-1.7" fill="none" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/></g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;-7 -3" dur="1.4s" begin="0s" repeatCount="indefinite"/>
+    <path d="M5,14 q2.7,3.3 0,5.4 q-2.7,-2.1 0,-5.4 z" fill="#8FD3F5" stroke="#3B2412" stroke-width="1.1" stroke-linejoin="round"/>
+    <path d="M4.2,17 q0,-1.2 0.8,-1.7" fill="none" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/></g>
   <g opacity="1"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="1.4s" begin="0.35s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="0 0;3 5" dur="1.4s" begin="0.35s" repeatCount="indefinite"/>
-    <path d="M35,17 q2.7,3.3 0,5.4 q-2.7,-2.1 0,-5.4 z" fill="#8FD3F5" stroke="#3B2412" stroke-width="1.1" stroke-linejoin="round"/>
-    <path d="M34.2,20 q0,-1.2 0.8,-1.7" fill="none" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/></g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;7 -3" dur="1.4s" begin="0.35s" repeatCount="indefinite"/>
+    <path d="M35,14 q2.7,3.3 0,5.4 q-2.7,-2.1 0,-5.4 z" fill="#8FD3F5" stroke="#3B2412" stroke-width="1.1" stroke-linejoin="round"/>
+    <path d="M34.2,17 q0,-1.2 0.8,-1.7" fill="none" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/></g>
   <g opacity="1"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="1.4s" begin="0.7s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="0 0;-3 4" dur="1.4s" begin="0.7s" repeatCount="indefinite"/>
-    <path d="M8,28 q2.7,3.3 0,5.4 q-2.7,-2.1 0,-5.4 z" fill="#8FD3F5" stroke="#3B2412" stroke-width="1.1" stroke-linejoin="round"/>
-    <path d="M7.2,31 q0,-1.2 0.8,-1.7" fill="none" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/></g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;-7 1" dur="1.4s" begin="0.7s" repeatCount="indefinite"/>
+    <path d="M5,22 q2.7,3.3 0,5.4 q-2.7,-2.1 0,-5.4 z" fill="#8FD3F5" stroke="#3B2412" stroke-width="1.1" stroke-linejoin="round"/>
+    <path d="M4.2,25 q0,-1.2 0.8,-1.7" fill="none" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/></g>
   <g opacity="1"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="1.4s" begin="1.0s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="0 0;3 4" dur="1.4s" begin="1.0s" repeatCount="indefinite"/>
-    <path d="M32,29 q2.7,3.3 0,5.4 q-2.7,-2.1 0,-5.4 z" fill="#8FD3F5" stroke="#3B2412" stroke-width="1.1" stroke-linejoin="round"/>
-    <path d="M31.2,32 q0,-1.2 0.8,-1.7" fill="none" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/></g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;7 1" dur="1.4s" begin="1.0s" repeatCount="indefinite"/>
+    <path d="M35,22 q2.7,3.3 0,5.4 q-2.7,-2.1 0,-5.4 z" fill="#8FD3F5" stroke="#3B2412" stroke-width="1.1" stroke-linejoin="round"/>
+    <path d="M34.2,25 q0,-1.2 0.8,-1.7" fill="none" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/></g>
 </svg>

@@ -44,7 +44,7 @@ def funke(x: float, y: float, r: float, beginn: float) -> str:
 EFFEKTE = {
     "aus": [zeta(25, 11, 4, 0), zeta(29, 7, 3, 1.2)],
     "freigabe": [funke(8, 9, 4.5, 0), funke(32, 7, 4, 0.4), funke(34, 31, 3.5, 0.8), funke(7, 32, 3, 0.2)],
-    "an": [perle(5, 20, -3, 5, 0), perle(35, 20, 3, 5, 0.35), perle(8, 31, -3, 4, 0.7), perle(32, 32, 3, 4, 1.0)],
+    "an": [perle(5, 17, -7, -3, 0), perle(35, 17, 7, -3, 0.35), perle(5, 25, -7, 1, 0.7), perle(35, 25, 7, 1, 1.0)],
     "stoerung": [wolke(14, 0, -2), wolke(26, 0.9, 2),
                  perle(6, 21, -3, 6, 0), perle(34, 19, 3, 6, 0.5), perle(33, 30, 3, 5, 1.0), perle(8, 31, -3, 5, 0.25)],
 }

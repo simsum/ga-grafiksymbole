@@ -5,9 +5,8 @@ Je Symbolverzeichnis eine Grafik mit allen Symbolen (Kachel mit Vorschau,
 Dateiname und Größe). Alle Verzeichnisse unterhalb von symbole/ mit SVGs werden
 berücksichtigt. Animierte SVGs erscheinen im Ausgangszustand.
 
-Benötigt Pillow (pip install pillow). Mit resvg-py (pip install resvg-py) werden die
-Vorschauen scharf aus den SVGs gerendert (nötig für Symbole ohne PNG), sonst
-aus den PNGs skaliert.
+Benötigt Pillow und resvg-py (pip install pillow resvg-py); die Vorschauen werden
+direkt aus den SVGs gerendert.
 
 Aufruf: python tools/uebersichten.py [Zielordner]
         python tools/uebersichten.py --nur lueftung [Zielordner]
@@ -17,12 +16,8 @@ import re
 import sys
 from pathlib import Path
 
+import resvg_py as _resvg
 from PIL import Image, ImageDraw, ImageFont
-
-try:
-    import resvg_py as _resvg
-except ImportError:
-    _resvg = None
 
 ROOT = Path(__file__).resolve().parent.parent
 SYMBOLE = ROOT / "symbole"
@@ -79,10 +74,8 @@ def svg_groesse(svg: Path) -> tuple[int, int]:
     return round(float(vb.group(1))), round(float(vb.group(2)))
 
 
-def rendern(svg: Path, groesse: tuple[int, int]) -> Image.Image | None:
-    """Rendert das SVG scharf in Zielgröße, wenn resvg-py installiert ist (pip install resvg-py)."""
-    if _resvg is None:
-        return None
+def rendern(svg: Path, groesse: tuple[int, int]) -> Image.Image:
+    """Rendert das SVG scharf in Zielgröße."""
     daten = _resvg.svg_to_bytes(svg_string=svg.read_text(encoding="utf-8"), width=groesse[0], height=groesse[1])
     return Image.open(io.BytesIO(bytes(daten))).convert("RGBA")
 
@@ -91,12 +84,10 @@ def kachel(bild: Image.Image, draw: ImageDraw.ImageDraw, x: int, y: int, svg: Pa
     draw.rounded_rectangle((x - 1, y - 1, x + KACHEL_B, y + KACHEL_H - 1), radius=11, fill=KACHEL_SCHATTEN)
     draw.rounded_rectangle((x, y, x + KACHEL_B - 1, y + KACHEL_H - 2), radius=10, fill=KACHEL, outline=KACHEL_RAND, width=1)
 
-    png = svg.with_suffix(".png")
-    sym = Image.open(png).convert("RGBA") if png.exists() else None
-    breite, hoehe = sym.size if sym else svg_groesse(svg)
+    breite, hoehe = svg_groesse(svg)
     massstab = min(VORSCHAU_B / breite, VORSCHAU_H / hoehe, MAX_MASSSTAB)
     gr = (max(1, round(breite * massstab)), max(1, round(hoehe * massstab)))
-    vorschau = rendern(svg, gr) or sym.resize(gr, Image.LANCZOS)
+    vorschau = rendern(svg, gr)
     bild.paste(vorschau, (x + (KACHEL_B - gr[0]) // 2, y + VORSCHAU_MITTE_Y - gr[1] // 2), vorschau)
 
     mx = x + KACHEL_B / 2

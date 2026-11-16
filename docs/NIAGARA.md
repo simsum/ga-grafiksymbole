@@ -30,7 +30,7 @@ Die Eigenschaft `image` per Binding an einen Zustand koppeln. So genügt ein `Pi
 
 ## Beschriftung
 
-- Die Symbole enthalten keinen Text. Bezeichnungen und Werte als Label darüberlegen.
+- Die Symbole enthalten keinen `<text>`; feste Beschriftungen (z. B. in `_beschriftet`-Varianten) sind als Pfad gezeichnet. Bezeichnungen und Werte als Label darüberlegen.
 - Zeilenumbruch im Label: im Px-Quelltext `&#10;` einsetzen, z. B. `text="-4-&#10;Nikolaus"`. Über das Property Sheet geht es nicht.
 - `wordWrapEnabled = true` bricht nur an Leerzeichen um.
 - Labels lassen sich nicht drehen. Workaround: Text als Bild oder gestapelte Buchstaben über `&#10;`.
@@ -41,7 +41,6 @@ Die Eigenschaft `image` per Binding an einen Zustand koppeln. So genügt ein `Pi
 |---|---|
 | Zustandsbilder umschalten (Binding auf `image`) | sicher, überall lauffähig |
 | Animiertes SVG (SMIL) | läuft in 4.15 in Workbench und HTML5-Ansicht; vektoriell, klein, scharf bei jeder Größe – bevorzugt |
-| Animiertes GIF (`animate = true`) | echte Bewegung; Pixelgrafik, harte Transparenz, in Anzeigegröße erzeugen – Ausweichlösung |
 
 ### Animation ein- und ausschalten
 

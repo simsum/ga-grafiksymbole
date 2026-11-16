@@ -1,4 +1,4 @@
-"""Erzeugt symbole/hydraulik/Pumpe_{richtung}_{zustand} (SVG + PNG, resvg-py).
+"""Erzeugt symbole/hydraulik/Pumpe_{richtung}_{zustand}.svg.
 
 Pumpe 40 × 40, Kreis mit Förderpfeil (Dreieck). Aufruf: python tools/pumpe.py
 
@@ -10,7 +10,7 @@ Zustände:
   _freigabe   gelb, pulsiert weich (1,4 s)
   _an         grün, drei lange Segmente drehen, Fließpfeile laufen im Dreieck Richtung Spitze
   _stoerung   rot, pulsiert weich (1,4 s), kleines Warndreieck mit „!“ in der Mitte pulsiert mit
-Animation per SMIL. Ohne Animation (PNG, oder SVG ohne SMIL) bleibt die Zustandsfarbe sichtbar,
+Animation per SMIL. Ohne Animation (Darstellung ohne SMIL) bleibt die Zustandsfarbe sichtbar,
 nur Fließpfeile und Bewegung fehlen.
 """
 from pathlib import Path
@@ -66,11 +66,9 @@ def svg(richtung: str, zustand: str) -> str:
 
 
 if __name__ == "__main__":
-    import resvg_py
     out = Path(__file__).resolve().parent.parent / "symbole" / "hydraulik"
     for richtung in RICHTUNGEN:
         for zustand in FARBEN:
             p = out / f"Pumpe_{richtung}_{zustand}.svg"
             p.write_text(svg(richtung, zustand), encoding="utf-8")
-            p.with_suffix(".png").write_bytes(bytes(resvg_py.svg_to_bytes(svg_string=svg(richtung, zustand))))
             print(p)

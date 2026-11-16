@@ -2,12 +2,12 @@
 
 Freie SVG-Symbole für Px-Grafiken der Gebäudeautomation (Niagara 4) – Lüftung, Heizung, Kälte, Hydraulik und Anzeigen.
 
-Die Symbole sind für den Einsatz in Niagara Px als `Picture` mit `scale = fitRatio` gedacht. Pro Symbol genügt ein SVG; bei vielen liegt eine gleichnamige PNG als Ausweichlösung bei (animierte und neuere Symbole nur als SVG).
+Die Symbole sind für den Einsatz in Niagara Px als `Picture` mit `scale = fitRatio` gedacht. Alle Symbole liegen ausschließlich als SVG vor, auch die animierten (SMIL); Schrift ist immer als Pfad gezeichnet.
 
 ## Inhalt
 
 ```
-symbole/                 je Ordner SVG (und, wo vorhanden, PNG mit gleichem Namen) nebeneinander
+symbole/                 nur SVG-Dateien
   allgemein/             Fachübergreifend: Flusspfeile (Wasser, Luft, Strom), Trennung/Durchführung
   lueftung/              Klimakonvektor, Volumenstromregler, Deckenluftdurchlass, WRG
   hydraulik/             Absperrklappe, Energieventil, Zähler, Zortström-Speicher, Kessel, Wärmepumpe, Pumpe
@@ -22,13 +22,14 @@ docs/
   SYMBOLKATALOG.md       Abmessungen und Anschlusspunkte je Symbol
   uebersicht/            Übersichtsgrafik je Symbolverzeichnis (PNG)
 tools/
-  check_symbols.py       Prüft SVGs auf Regeln (kein <text>, Namensschema, PNG vorhanden)
+  check_symbols.py       Prüft symbole/ auf Regeln (nur SVG, kein <text>, Namensschema)
+  text_zu_pfad.ps1       Wandelt <text> in einer SVG in Pfade um (Windows)
   pumpe.py               Erzeugt die Pumpensymbole unter symbole/hydraulik/
   rauch.py               Erzeugt den Brennerrauch unter symbole/hydraulik/ (animiert + statisch)
   flamme.py              Erzeugt die Brennerflammen unter symbole/hydraulik/ (animiert + statisch)
   fun_pumpe.py           Erzeugt die Fun-Pumpen unter symbole/fun/ (baut auf pumpe.py auf)
-  waermepumpe.py         Erzeugt die Wärmepumpen-Symbole unter symbole/hydraulik/ (resvg-py)
-  klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/{klein,gross}/ (resvg-py)
+  waermepumpe.py         Erzeugt die Wärmepumpen-Symbole unter symbole/hydraulik/
+  klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/{klein,gross}/
   monatsleiste.ps1       Erzeugt symbole/fun/Fun_Monatsleiste.svg (Windows, Schrift als Pfade)
   zip_erstellen.py       Packt symbole/ und LICENSE in dist/ga-grafiksymbole.zip (von der Action genutzt)
   uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ aus den SVGs (Pillow, resvg-py)
@@ -98,7 +99,7 @@ Jede Grafik zeigt alle Symbole eines Verzeichnisses mit Dateinamen und Größe.
 
 ## Verwendung in Niagara
 
-1. SVG- und PNG-Dateien nach `file:^px/GraphicTemplates/symbole/` in der Station kopieren.
+1. SVG-Dateien nach `file:^px/GraphicTemplates/symbole/` in der Station kopieren.
 2. In Px ein `Picture` anlegen, `image` auf die Datei setzen, `scale = fitRatio`.
 3. Beschriftungen und Werte als Niagara-Label darüberlegen (die Symbole enthalten bewusst keinen Text).
 

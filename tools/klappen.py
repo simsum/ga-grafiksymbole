@@ -6,14 +6,10 @@ Kanalachse (90°) und bei "auf" längs (0°); dazwischen 67,5° / 45° / 22,5°.
 Die Maße sind aus den Klappen AC0531/AC0532 und AC0511/AC0512/AC0521/AC0522 (M und L)
 der SBC-Icon-Galerie (Honeywell) abgeleitet.
 
-Benötigt resvg-py für die PNGs (pip install resvg-py).
-
 Aufruf: python tools/klappen.py [Zielordner]
 """
 import sys
 from pathlib import Path
-
-import resvg_py
 
 ROOT = Path(__file__).resolve().parent.parent
 STELLUNGEN = [("1_zu", 90), ("2_25", 67.5), ("3_50", 45), ("4_75", 22.5), ("5_auf", 0)]
@@ -100,7 +96,6 @@ def main() -> int:
             name = f"{fam}_{suffix}"
             s = svg(name, f, winkel)
             (ziel / f"{name}.svg").write_text(s, encoding="utf-8")
-            (ziel / f"{name}.png").write_bytes(bytes(resvg_py.svg_to_bytes(svg_string=s, width=f["b"], height=f["h"])))
             print(ziel / f"{name}.svg")
     return 0
 

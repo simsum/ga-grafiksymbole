@@ -5,7 +5,7 @@ steigen versetzt auf, wachsen, schwanken leicht und blenden aus (SMIL, nur Verl�
 sind die Wolken über die Aufstiegshöhe verteilt sichtbar.
 
 Dateinamen wie bei den übrigen Symbolen: `Brenner_Rauch_animiert` ist die animierte Variante, `Brenner_Rauch`
-(SVG + PNG, ohne Animation, gleiche Größe) die statische.
+(ohne Animation, gleiche Größe) die statische.
 
 Position (linke obere Ecke des Rauch-Symbols relativ zur linken oberen Ecke des Kessel-Symbols 240 × 143):
   Kessel_Brenner_links:  x = 180, y = -92   (Abgasstutzen bei x = 204 … 220, Oberkante y = 0)
@@ -71,11 +71,9 @@ def svg() -> str:
 
 if __name__ == "__main__":
     ziel = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "symbole" / "hydraulik"
-    import resvg_py
     p = ziel / "Brenner_Rauch_animiert.svg"
     p.write_text(svg(), encoding="utf-8")
     print(p)
     s = ziel / "Brenner_Rauch.svg"
     s.write_text(re.sub(r"<animate(?:Transform)?\b[^>]*/>", "", svg()), encoding="utf-8")
-    s.with_suffix(".png").write_bytes(bytes(resvg_py.svg_to_bytes(svg_string=s.read_text(encoding="utf-8"))))
     print(s)

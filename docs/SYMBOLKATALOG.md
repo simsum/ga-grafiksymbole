@@ -2,7 +2,7 @@
 
 Geplante und vorhandene Symbole mit Abmessungen und Anschlusspunkten. Alle Koordinaten in px, bezogen auf die linke obere Ecke des Bildes.
 
-Status: Das Repository enthält die Symbole unter `symbole/` (jeweils SVG + PNG). Übersichtsgrafiken mit Hinweisen: [uebersicht/](uebersicht/). Die Tabellen beschreiben die Vorgaben. Das Volumenstromregler-Rund-Set heißt `Volumenstromregler_rund_*`, liegende Zortström-Speicher `Zortstroem_*_liegend`.
+Status: Das Repository enthält die Symbole unter `symbole/` (nur SVG, Schrift als Pfad). Übersichtsgrafiken mit Hinweisen: [uebersicht/](uebersicht/). Die Tabellen beschreiben die Vorgaben. Das Volumenstromregler-Rund-Set heißt `Volumenstromregler_rund_*`, liegende Zortström-Speicher `Zortstroem_*_liegend`.
 
 ## Allgemein
 
@@ -90,13 +90,13 @@ Farben Kälte (oben → unten): `#3A8C4E`, `#6DB07B`, `#A8D2B4`, `#7CA6DE`, `#2E
 - Aufbau aus fünf Schichten (rot, orange, gelb, hell, blauer Ansatz), Umriss flackert per SMIL (`animate d`); nur Verläufe und Deckkraft, keine Filter.
 - `links`: Flamme zeigt nach rechts, über `Kessel_Brenner_links` legen; `rechts`: Flamme zeigt nach links, über `Kessel_Brenner_rechts`.
 - Position relativ zur linken oberen Ecke des Kessel-Symbols (240 × 143): `links` bei x = 78, y = 52; `rechts` bei x = 48, y = 52. Die Flammenwurzel liegt dann an der Kesseltür (x = 82 bzw. 158) auf Brennerhöhe (y = 86).
-- Statische Variante ohne Zusatz, `Brenner_Flamme_{links,rechts}_{1..5}` (SVG + PNG, gleiche Größe, ohne Animation), als Ausweichlösung, wenn SMIL nicht dargestellt wird oder Ruhe gewünscht ist.
+- Statische Variante ohne Zusatz, `Brenner_Flamme_{links,rechts}_{1..5}` (gleiche Größe, ohne Animation), wenn SMIL nicht dargestellt wird oder Ruhe gewünscht ist.
 - Erzeugt mit `tools/flamme.py`.
 
 ### Brennerrauch (animiert, zum Überlegen)
 
 - `Brenner_Rauch_animiert`: 64 × 96, transparent, ein Symbol für beide Kessel. Sechs weiche graue Rauchwolken steigen versetzt vom Abgasstutzen auf, wachsen, schwanken leicht und blenden aus (SMIL, keine Filter). Zusammen mit der Flamme bei „Brenner an“ einblenden.
-- Statische Variante ohne Zusatz, `Brenner_Rauch` (SVG + PNG, gleiche Größe, Wolken über die Aufstiegshöhe verteilt).
+- Statische Variante ohne Zusatz, `Brenner_Rauch` (gleiche Größe, Wolken über die Aufstiegshöhe verteilt).
 - Position relativ zur linken oberen Ecke des Kessel-Symbols (240 × 143): `Kessel_Brenner_links` bei x = 180, y = −92; `Kessel_Brenner_rechts` bei x = −4, y = −92. Die Mündung liegt im Symbol bei (32, 92), der Rauch ragt über die Oberkante des Kessels hinaus.
 - Erzeugt mit `tools/rauch.py`.
 
@@ -127,7 +127,7 @@ Zustandsvarianten, jeweils für `links` und `rechts`, gleiche Größe und Anschl
 | Zustand | Suffix | Darstellung |
 |---|---|---|
 | aus | – | Lüfter steht |
-| Betrieb | `_an` | Lüfter dreht, Windlinien wandern von der Mitte nach außen; `.svg` animiert per SMIL (läuft in 4.15 in Workbench und Browser, bevorzugt), `.gif` als Ausweichlösung (12 Bilder à 40 ms), `.png` als Standbild |
+| Betrieb | `_an` | Lüfter dreht, Windlinien wandern von der Mitte nach außen; animiert per SMIL (läuft in 4.15 in Workbench und Browser) |
 | Störung | `_stoerung` | Lüfter steht, rotes Warndreieck mit Ausrufezeichen und rote Status-LED blinken (1 Hz) |
 | Abtaubetrieb | `_abtau` | Lüfter steht, Reif auf dem Lüfter, Schneeflocke, Schmelzwassertropfen, blaue Status-LED pulsiert |
 

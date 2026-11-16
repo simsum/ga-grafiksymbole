@@ -56,12 +56,11 @@ Falls feste Größen nötig sind (lange Seite): 20, 30, 40, 50, 60, 80, 100, 120
 
 ## SVG-Regeln
 
+- Nur SVG, keine PNG- oder GIF-Dateien. Animationen als SVG (SMIL).
 - Verläufe sind unkritisch.
-- Kein `<text>`; Beschriftung und Werte als Niagara-Label.
+- Kein `<text>`; Schrift immer nur als Pfad (auch in `_beschriftet`-Varianten und animierten SVGs). Werte und veränderliche Beschriftung als Niagara-Label.
 - Einfache Formen bevorzugen, `pattern` vermeiden.
 - `clipPath` wurde in Niagara noch nicht umfassend geprüft; bei Darstellungsfehlern hier zuerst ansetzen.
-- Zu jedem SVG eine gleichnamige PNG als Ausweichlösung.
-
 ## Anlagenkennzeichnung (Heizen/Kälte)
 
 - Kreise mit **H** (Heizen) und **K** (Kälte) kennzeichnen, nicht die Maschine.

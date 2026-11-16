@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="378" viewBox="0 0 1560 378">
+<title>symbole/allgemein/aufstellung: 3 Symbole</title>
+<style>text{font-family:Segoe UI, Arial, Helvetica, sans-serif}.name{font-size:15px;font-weight:700;fill:#20242A;text-anchor:middle}.mass{font-size:12px;fill:#69727A;text-anchor:middle}</style>
+<rect width="1560" height="378" fill="#F4F5F7"/>
+<text x="20" y="42" font-size="26" font-weight="700" fill="#30343A">symbole/allgemein/aufstellung</text>
+<text x="1540" y="42" font-size="16" fill="#69727A" text-anchor="end">3 Symbole</text>
+<g id="Aufstellplatte_Beton">
+<rect x="19" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="154.67" width="280" height="46.67" viewBox="0 0 180 30" overflow="hidden">
+<defs>
+    <linearGradient id="k0_oben" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C9CBCE"/><stop offset="1" stop-color="#E2E4E6"/></linearGradient>
+    <linearGradient id="k0_vorne" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#A9ACB0"/><stop offset="1" stop-color="#8A8D91"/></linearGradient>
+    <linearGradient id="k0_licht" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000000" stop-opacity=".12"/><stop offset=".4" stop-color="#FFFFFF" stop-opacity=".18"/><stop offset="1" stop-color="#000000" stop-opacity=".14"/></linearGradient>
+  </defs>
+  <path d="M14,2 H166 L178,16 H2 Z" fill="url(#k0_oben)" stroke="#5A5A5A" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M2,16 H178 V27 a1.5,1.5 0 0 1 -1.5,1.5 H3.5 a1.5,1.5 0 0 1 -1.5,-1.5 Z" fill="url(#k0_vorne)" stroke="#5A5A5A" stroke-width="1.5" stroke-linejoin="round"/>
+  <rect x="2" y="16" width="176" height="12.5" fill="url(#k0_licht)"/>
+  <path d="M3,16.8 H177" stroke="#FFFFFF" stroke-opacity=".5" stroke-width="1"/>
+</svg>
+<text x="202.5" y="287" class="name">Aufstellplatte_Beton</text>
+<text x="202.5" y="308" class="mass">180 × 30 px</text>
+</g>
+<g id="Aufstellplatte_Stahl">
+<rect x="399" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="442.5" y="154.67" width="280" height="46.67" viewBox="0 0 180 30" overflow="hidden">
+<defs>
+    <radialGradient id="k1_schatten" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#000000" stop-opacity=".35"/><stop offset="1" stop-color="#000000" stop-opacity="0"/></radialGradient>
+    <linearGradient id="k1_platte" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9AA0A6"/><stop offset="1" stop-color="#C9CED3"/></linearGradient>
+    <linearGradient id="k1_kante" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4E5358"/><stop offset=".4" stop-color="#7C8288"/><stop offset="1" stop-color="#4A4F54"/></linearGradient>
+  </defs>
+  <ellipse cx="90" cy="22" rx="88" ry="6" fill="url(#k1_schatten)"/>
+  <path d="M10,4 H170 L176,14 H4 Z" fill="url(#k1_platte)" stroke="#4A4F54" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M4,14 H176 V18 H4 Z" fill="url(#k1_kante)" stroke="#4A4F54" stroke-width="1.2" stroke-linejoin="round"/>
+  <g fill="#6F757B"><circle cx="16" cy="9" r="1.6"/><circle cx="164" cy="9" r="1.6"/></g>
+</svg>
+<text x="582.5" y="287" class="name">Aufstellplatte_Stahl</text>
+<text x="582.5" y="308" class="mass">180 × 30 px</text>
+</g>
+<g id="Aufstellplatte_rund">
+<rect x="779" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="154.67" width="280" height="46.67" viewBox="0 0 180 30" overflow="hidden">
+<defs>
+    <linearGradient id="k2_mantel" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7E8186"/><stop offset=".38" stop-color="#C3C6CA"/><stop offset="1" stop-color="#76797E"/></linearGradient>
+    <radialGradient id="k2_deckel" cx=".42" cy=".4" r=".7"><stop offset="0" stop-color="#EEF0F2"/><stop offset="1" stop-color="#C2C5C9"/></radialGradient>
+  </defs>
+  <path d="M2,9 V20 A88,8 0 0 0 178,20 V9 Z" fill="url(#k2_mantel)" stroke="#5A5A5A" stroke-width="1.5" stroke-linejoin="round"/>
+  <ellipse cx="90" cy="9" rx="88" ry="7.5" fill="url(#k2_deckel)" stroke="#5A5A5A" stroke-width="1.5"/>
+</svg>
+<text x="962.5" y="287" class="name">Aufstellplatte_rund</text>
+<text x="962.5" y="308" class="mass">180 × 30 px</text>
+</g>
+</svg>

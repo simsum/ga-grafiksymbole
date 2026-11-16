@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="30" viewBox="0 0 180 30">
+  <!-- Aufstellplatte_Stahl: Stahlplatte mit Kontaktschatten, 3D angedeutet; Aufstellpunkt y = 9 (Mitte Oberseite), Speicher 144 px breit bei x = 18 -->
+  <defs>
+    <radialGradient id="schatten" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#000000" stop-opacity=".35"/><stop offset="1" stop-color="#000000" stop-opacity="0"/></radialGradient>
+    <linearGradient id="platte" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9AA0A6"/><stop offset="1" stop-color="#C9CED3"/></linearGradient>
+    <linearGradient id="kante" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4E5358"/><stop offset=".4" stop-color="#7C8288"/><stop offset="1" stop-color="#4A4F54"/></linearGradient>
+  </defs>
+  <ellipse cx="90" cy="22" rx="88" ry="6" fill="url(#schatten)"/>
+  <path d="M10,4 H170 L176,14 H4 Z" fill="url(#platte)" stroke="#4A4F54" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M4,14 H176 V18 H4 Z" fill="url(#kante)" stroke="#4A4F54" stroke-width="1.2" stroke-linejoin="round"/>
+  <g fill="#6F757B"><circle cx="16" cy="9" r="1.6"/><circle cx="164" cy="9" r="1.6"/></g>
+</svg>

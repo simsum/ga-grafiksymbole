@@ -83,6 +83,15 @@ Farben Kälte (oben → unten): `#3A8C4E`, `#6DB07B`, `#A8D2B4`, `#7CA6DE`, `#2E
   - Brenner rechts: Vorlauf x = 110, Rücklauf x = 70.
 - Vorderansicht 140 × 143: Vorlauf x = 42, Rücklauf x = 98, Abgas mittig dahinter.
 
+### Brennerflamme (animiert, zum Überlegen)
+
+- `Brenner_Flamme_{links,rechts}_{1..5}`: 114 × 68, transparent, ohne Kessel. Alle zehn Dateien haben dieselbe Größe und dieselbe Wurzelposition, damit Niagara beim Umschalten nichts verschiebt.
+- Fünf Flammenlängen (26, 46, 66, 86, 106 px ab Kesseltür) für Leistungsstufen; mit wachsender Länge wird die Flamme auch breiter. Bei Stufe 0 / Brenner aus Bild ausblenden.
+- Aufbau aus fünf Schichten (rot, orange, gelb, hell, blauer Ansatz), Umriss flackert per SMIL (`animate d`); nur Verläufe und Deckkraft, keine Filter.
+- `links`: Flamme zeigt nach rechts, über `Kessel_Brenner_links` legen; `rechts`: Flamme zeigt nach links, über `Kessel_Brenner_rechts`.
+- Position relativ zur linken oberen Ecke des Kessel-Symbols (240 × 143): `links` bei x = 78, y = 52; `rechts` bei x = 48, y = 52. Die Flammenwurzel liegt dann an der Kesseltür (x = 82 bzw. 158) auf Brennerhöhe (y = 86).
+- Erzeugt mit `tools/flamme.py`.
+
 ### Mehrleitermaschine (luftgekühlt, Monoblock)
 
 Wärmepumpe/Kältemaschine mit mehreren Hydraulikkreisen, neutral gezeichnet, ohne Logos. Jedes Gerät hat immer beide Kreise: Heizen (Kondensatorseite) und Kühlen (Verdampferseite), jeweils mit Vorlauf (VL) und Rücklauf (RL). Die vier Anschlüsse sind nur als angedeutete Flansche an der Unterkante dargestellt, der Schaltschrank sitzt auf der Anschlussseite. „links/rechts“ bezeichnet die Anschlussseite.

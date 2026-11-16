@@ -1,11 +1,11 @@
 """Erzeugt symbole/fun/Fun_Pumpe_{richtung}_{zustand}.svg (40 × 40, wie die Pumpen unter symbole/hydraulik).
 
-Basis ist das Pumpensymbol aus pumpe.py (im Hintergrund, mit brauner Fun-Kontur), davor je Zustand
-eine kleine Cartoon-Animation (SMIL):
-  _aus        zwei „z“ steigen auf (schläft)
-  _freigabe   Funken blinken (bereit)
-  _an         blaue Wassertropfen spritzen seitlich ab
-  _stoerung   Pumpe wackelt, Dampfwolken steigen auf, Schweißperlen spritzen ab
+Basis ist das Pumpensymbol aus pumpe.py (im Hintergrund, mit brauner Fun-Kontur, ohne Förderdreieck),
+davor je Zustand eine kleine Cartoon-Animation (SMIL). Die Förderrichtung zeigen Luft-/Wasserblasen an:
+  _aus        zwei „z“ steigen auf (schläft), drei stehende Blasen in Förderrichtung
+  _freigabe   Funken blinken (bereit), Blasen wandern langsam in Förderrichtung
+  _an         blaue Wassertropfen spritzen seitlich ab, Blasen wandern in Förderrichtung
+  _stoerung   Pumpe wackelt, Dampfwolken steigen auf, Schweißperlen spritzen ab (keine Blasen)
 Aufruf: python tools/fun_pumpe.py
 """
 from pathlib import Path
@@ -36,6 +36,28 @@ def zeta(x: float, y: float, groesse: float, beginn: float) -> str:
     <path d="M{x},{y} h{g} l-{g},{g} h{g}" fill="none" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></g>'''
 
 
+# Blasen für Richtung „oben“ (Förderung von unten nach oben), werden für die anderen Richtungen gedreht.
+BLASEN = [(15.5, 29, 2.6, 0.0), (23.5, 24, 2.0, 0.6), (18, 18, 2.4, 1.2), (24, 12, 1.8, 1.8)]
+
+
+def blasen(richtung: str, modus: str) -> str:
+    """modus: 'schnell' (Betrieb), 'langsam' (Freigabe) oder 'still' (aus)."""
+    dauer = {"schnell": 2.4, "langsam": 4.8, "still": 0}[modus]
+    zeilen = [f'  <g transform="rotate({pumpe.RICHTUNGEN[richtung]} 20 20)">']
+    for x, y, r, b in BLASEN:
+        fuell = "#E8F6FF" if modus != "still" else "#D9E2E8"
+        kreis = (f'<circle cx="{x}" cy="{y}" r="{r}" fill="{fuell}" stroke="{BRAUN}" stroke-width="1.1"/>'
+                 f'<circle cx="{x - r * 0.3:.1f}" cy="{y - r * 0.3:.1f}" r="{r * 0.28:.2f}" fill="#FFFFFF"/>')
+        if modus == "still":
+            zeilen.append("    " + kreis)
+            continue
+        beginn = b * dauer / 2.4
+        zeilen.append(f'    <g opacity="1"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="{dauer}s" begin="{beginn:.2f}s" repeatCount="indefinite"/>'
+                      f'<animateTransform attributeName="transform" type="translate" values="0 8;0 -8" dur="{dauer}s" begin="{beginn:.2f}s" repeatCount="indefinite"/>{kreis}</g>')
+    zeilen.append("  </g>")
+    return "\n".join(zeilen)
+
+
 def funke(x: float, y: float, r: float, beginn: float) -> str:
     return f'''  <path d="M{x},{y - r} L{x + r * 0.28},{y - r * 0.28} L{x + r},{y} L{x + r * 0.28},{y + r * 0.28} L{x},{y + r} L{x - r * 0.28},{y + r * 0.28} L{x - r},{y} L{x - r * 0.28},{y - r * 0.28} Z" fill="#FFF3A0" stroke="{BRAUN}" stroke-width="1.1" stroke-linejoin="round">
     <animate attributeName="opacity" values="0.15;1;0.15" dur="1.2s" begin="{beginn}s" repeatCount="indefinite"/></path>'''
@@ -58,6 +80,12 @@ def svg(richtung: str, zustand: str) -> str:
     zeilen[1] = zeilen[1].replace("<title id=\"title\">Pumpe", "<title id=\"title\">Fun-Pumpe")
     kontur = pumpe.FARBEN[zustand][2]
     kopf, koerper = zeilen[:3], [z.replace(kontur, BRAUN) for z in zeilen[3:-1]]
+    # Förderdreieck samt Fließpfeilen (Gruppe mit rotate) entfernen
+    von = next(i for i, z in enumerate(koerper) if z.startswith('  <g transform="rotate('))
+    bis = next(i for i in range(von, len(koerper)) if koerper[i] == "  </g>")
+    koerper = koerper[:von] + koerper[bis + 1:]
+    if zustand != "stoerung":
+        koerper.append(blasen(richtung, {"an": "schnell", "freigabe": "langsam", "aus": "still"}[zustand]))
     if zustand == "stoerung":
         koerper = [f"  <g>{WACKELN}"] + koerper + ["  </g>"]
     return "\n".join(kopf + koerper + EFFEKTE[zustand] + ["</svg>"]) + "\n"

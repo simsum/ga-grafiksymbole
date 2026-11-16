@@ -180,6 +180,7 @@ Mit angedeutetem Rollenzählwerk (fünf Rollen, letzte rot).
 | aus | `_aus` | grau (`#EDEDED` → `#A6A6A6`) |
 | Freigabe | `_freigabe` | gelb (`#FFEB8F` → `#E3B200`), pulsiert weich (1,4 s) |
 | Betrieb | `_an` | grün (`#A8DC96` → `#3E9A3A`), drei lange Segmente drehen, Fließpfeile laufen im Dreieck Richtung Spitze |
+| Betrieb, Fließpunkte | `_an_punkte` | wie `_an`, statt der Fließpfeile laufen drei helle Punkte in einer Spur zur Spitze (wie bei `Flusspfeil_*_an`) |
 | Störung | `_stoerung` | rot (`#F5A3A0` → `#D7302B`), pulsiert weich (1,4 s), kleines Warndreieck mit „!“ in der Mitte |
 
 Animation per SMIL. Ohne Animation bleibt die Zustandsfarbe (und bei Störung das Warndreieck) sichtbar. Zustandswechsel über `image`-Binding (siehe NIAGARA.md).

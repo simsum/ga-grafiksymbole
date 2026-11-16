@@ -10,6 +10,8 @@ Zustände:
   _freigabe   gelb, pulsiert weich (1,4 s)
   _an         grün, drei lange Segmente drehen, Fließpfeile laufen im Dreieck Richtung Spitze
   _stoerung   rot, pulsiert weich (1,4 s), kleines Warndreieck mit „!“ in der Mitte pulsiert mit
+  _an_punkte  wie _an, statt der Fließpfeile laufen drei helle Punkte in einer Spur zur Spitze
+              (wie bei Flusspfeil_*_an)
 Animation per SMIL. Ohne Animation (Darstellung ohne SMIL) bleibt die Zustandsfarbe sichtbar,
 nur Fließpfeile und Bewegung fehlen.
 """
@@ -34,11 +36,17 @@ def fliesspfeil(beginn: str) -> str:
             f'<animateTransform attributeName="transform" type="translate" values="0 0;0 -8" dur="1.2s" begin="{beginn}" repeatCount="indefinite"/></path>')
 
 
-def svg(richtung: str, zustand: str) -> str:
+def fliesspunkt(beginn: str) -> str:
+    return ('<circle cx="20" cy="26" r="1.5" fill="#E6E6E6" opacity="0">'
+            f'<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="1.2s" begin="{beginn}" repeatCount="indefinite"/>'
+            f'<animate attributeName="cy" values="26;11" dur="1.2s" begin="{beginn}" repeatCount="indefinite"/></circle>')
+
+
+def svg(richtung: str, zustand: str, punkte: bool = False) -> str:
     oben, unten, kontur = FARBEN[zustand]
     kreis = f'<circle cx="20" cy="20" r="18" fill="url(#gK)" stroke="{kontur}" stroke-width="1.6"/>'
     s = ['<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" role="img" aria-labelledby="title">',
-         f'  <title id="title">Pumpe, Förderrichtung {richtung}, {TITEL[zustand]}</title>',
+         f'  <title id="title">Pumpe, Förderrichtung {richtung}, {TITEL[zustand]}{", Fließpunkte" if punkte else ""}</title>',
          f'  <defs><linearGradient id="gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{oben}"/><stop offset="1" stop-color="{unten}"/></linearGradient></defs>']
     if zustand in ("freigabe", "stoerung"):
         s.append(f'  <g>{PULS}{kreis}</g>')
@@ -48,7 +56,9 @@ def svg(richtung: str, zustand: str) -> str:
         s.append(f'  <circle cx="20" cy="20" r="16" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="2" stroke-linecap="round" stroke-dasharray="22 11.5">{DREHUNG}</circle>')
     s.append(f'  <g transform="rotate({RICHTUNGEN[richtung]} 20 20)">')
     s.append(f'    {DREIECK}')
-    if zustand == "an":
+    if zustand == "an" and punkte:
+        s.extend(f'    {fliesspunkt(b)}' for b in ("0s", "0.4s", "0.8s"))
+    elif zustand == "an":
         s.append(f'    {fliesspfeil("0s")}')
         s.append(f'    {fliesspfeil("0.6s")}')
     s.append('  </g>')
@@ -69,3 +79,6 @@ if __name__ == "__main__":
             p = out / f"Pumpe_{richtung}_{zustand}.svg"
             p.write_text(svg(richtung, zustand), encoding="utf-8")
             print(p)
+        p = out / f"Pumpe_{richtung}_an_punkte.svg"
+        p.write_text(svg(richtung, "an", punkte=True), encoding="utf-8")
+        print(p)

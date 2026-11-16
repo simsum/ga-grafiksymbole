@@ -3,8 +3,8 @@
 Basis ist das Pumpensymbol aus pumpe.py (im Hintergrund, mit brauner Fun-Kontur, ohne Förderdreieck),
 davor je Zustand eine kleine Cartoon-Animation (SMIL). Die Förderrichtung zeigen Luft-/Wasserblasen an:
   _aus        zwei „z“ steigen auf (schläft), drei stehende Blasen in Förderrichtung
-  _freigabe   Funken blinken (bereit), Blasen wandern langsam in Förderrichtung
-  _an         blaue Wassertropfen spritzen seitlich ab, Blasen wandern in Förderrichtung
+  _freigabe   Funken blinken (bereit), blaue Blasen wandern langsam in Förderrichtung
+  _an         blaue Wasserblasen wandern in Förderrichtung
   _stoerung   Pumpe wackelt, Dampfwolken steigen auf, Schweißperlen spritzen ab (keine Blasen)
 Aufruf: python tools/fun_pumpe.py
 """
@@ -45,7 +45,7 @@ def blasen(richtung: str, modus: str) -> str:
     dauer = {"schnell": 2.4, "langsam": 4.8, "still": 0}[modus]
     zeilen = [f'  <g transform="rotate({pumpe.RICHTUNGEN[richtung]} 20 20)">']
     for x, y, r, b in BLASEN:
-        fuell = "#E8F6FF" if modus != "still" else "#D9E2E8"
+        fuell = "#5DB8F0" if modus != "still" else "#D9E2E8"
         kreis = (f'<circle cx="{x}" cy="{y}" r="{r}" fill="{fuell}" stroke="{BRAUN}" stroke-width="1.1"/>'
                  f'<circle cx="{x - r * 0.3:.1f}" cy="{y - r * 0.3:.1f}" r="{r * 0.28:.2f}" fill="#FFFFFF"/>')
         if modus == "still":
@@ -66,7 +66,7 @@ def funke(x: float, y: float, r: float, beginn: float) -> str:
 EFFEKTE = {
     "aus": [zeta(25, 11, 4, 0), zeta(29, 7, 3, 1.2)],
     "freigabe": [funke(8, 9, 4.5, 0), funke(32, 7, 4, 0.4), funke(34, 31, 3.5, 0.8), funke(7, 32, 3, 0.2)],
-    "an": [perle(5, 17, -7, -3, 0), perle(35, 17, 7, -3, 0.35), perle(5, 25, -7, 1, 0.7), perle(35, 25, 7, 1, 1.0)],
+    "an": [],
     "stoerung": [wolke(14, 0, -2), wolke(26, 0.9, 2),
                  perle(6, 21, -3, 6, 0), perle(34, 19, 3, 6, 0.5), perle(33, 30, 3, 5, 1.0), perle(8, 31, -3, 5, 0.25)],
 }

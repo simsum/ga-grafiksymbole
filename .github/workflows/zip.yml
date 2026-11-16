@@ -1,0 +1,38 @@
+name: ZIP aktualisieren
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "symbole/**"
+      - "LICENSE"
+      - "tools/zip_erstellen.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: zip
+  cancel-in-progress: false
+
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python tools/zip_erstellen.py
+      - name: Archiv committen, falls geändert
+        run: |
+          if [ -n "$(git status --porcelain download)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add download/ga-grafiksymbole.zip
+            git commit -m "ZIP aktualisiert"
+            git push
+          else
+            echo "Archiv ist aktuell."
+          fi

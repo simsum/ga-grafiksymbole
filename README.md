@@ -40,7 +40,7 @@ tools/
 
 Alle Symbole inklusive Verzeichnisstruktur als ein Archiv: [download/ga-grafiksymbole.zip](download/ga-grafiksymbole.zip) (Klick, dann „Download raw file“). Das Archiv enthält den Ordner `symbole/` und die Lizenz.
 
-Nach Änderungen an `symbole/` das Archiv neu erzeugen: `python tools/zip_erstellen.py`.
+Das Archiv wird bei jedem Push, der `symbole/` ändert, automatisch von einer GitHub Action neu gebaut und eingecheckt (`.github/workflows/zip.yml`). Von Hand geht es mit `python tools/zip_erstellen.py`.
 
 ## Übersicht der Symbole
 

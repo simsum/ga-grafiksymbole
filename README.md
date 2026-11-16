@@ -2,12 +2,12 @@
 
 Freie SVG-Symbole für Px-Grafiken der Gebäudeautomation (Niagara 4) – Lüftung, Heizung, Kälte, Hydraulik und Anzeigen.
 
-Die Symbole sind für den Einsatz in Niagara Px als `Picture` mit `scale = fitRatio` gedacht. Pro Symbol genügt ein SVG, eine gleichnamige PNG liegt als Ausweichlösung bei.
+Die Symbole sind für den Einsatz in Niagara Px als `Picture` mit `scale = fitRatio` gedacht. Pro Symbol genügt ein SVG; bei vielen liegt eine gleichnamige PNG als Ausweichlösung bei (animierte und neuere Symbole nur als SVG).
 
 ## Inhalt
 
 ```
-symbole/                 je Ordner SVG und PNG mit gleichem Namen nebeneinander
+symbole/                 je Ordner SVG (und, wo vorhanden, PNG mit gleichem Namen) nebeneinander
   allgemein/             Fachübergreifend: Flusspfeile (Wasser, Luft, Strom), Trennung/Durchführung
   lueftung/              Klimakonvektor, Volumenstromregler, Deckenluftdurchlass, WRG
   hydraulik/             Absperrklappe, Energieventil, Zähler, Zortström-Speicher, Kessel, Wärmepumpe, Pumpe
@@ -23,15 +23,19 @@ docs/
   uebersicht/            Übersichtsgrafik je Symbolverzeichnis (PNG)
 tools/
   check_symbols.py       Prüft SVGs auf Regeln (kein <text>, Namensschema, PNG vorhanden)
+  pumpe.py               Erzeugt die Pumpensymbole unter symbole/hydraulik/
   waermepumpe.py         Erzeugt die Wärmepumpen-Symbole unter symbole/hydraulik/ (resvg-py)
   klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/{klein,gross}/ (resvg-py)
   monatsleiste.ps1       Erzeugt symbole/fun/Fun_Monatsleiste.svg (Windows, Schrift als Pfade)
-  uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ (Pillow, optional resvg-py)
+  uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ aus den SVGs (Pillow, resvg-py)
 ```
 
 ## Übersicht der Symbole
 
 Jede Grafik zeigt alle Symbole eines Verzeichnisses mit Dateinamen und Größe.
+
+### Allgemein – `symbole/allgemein`
+![Allgemein](docs/uebersicht/Uebersicht_allgemein.png)
 
 ### Lüftung – `symbole/lueftung`
 ![Lüftung](docs/uebersicht/Uebersicht_lueftung.png)
@@ -47,6 +51,12 @@ Jede Grafik zeigt alle Symbole eines Verzeichnisses mit Dateinamen und Größe.
 
 ### Anzeigen – `symbole/anzeigen`
 ![Anzeigen](docs/uebersicht/Uebersicht_anzeigen.png)
+
+### Fun – `symbole/fun`
+![Fun](docs/uebersicht/Uebersicht_fun.png)
+
+### Fun-Buttons – `symbole/fun/button`
+![Fun-Buttons](docs/uebersicht/Uebersicht_fun_button.png)
 
 ### Topologie – `symbole/topologie`
 

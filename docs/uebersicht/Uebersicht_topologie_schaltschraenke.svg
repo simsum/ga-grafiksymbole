@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="666" viewBox="0 0 1560 666">
+<title>symbole/topologie/schaltschraenke: 5 Symbole</title>
+<style>text{font-family:Segoe UI, Arial, Helvetica, sans-serif}.name{font-size:15px;font-weight:700;fill:#20242A;text-anchor:middle}.mass{font-size:12px;fill:#69727A;text-anchor:middle}</style>
+<rect width="1560" height="666" fill="#F4F5F7"/>
+<text x="20" y="42" font-size="26" font-weight="700" fill="#30343A">symbole/topologie/schaltschraenke</text>
+<text x="1540" y="42" font-size="16" fill="#69727A" text-anchor="end">5 Symbole</text>
+<g id="Doppelschrank_1200x1200">
+<rect x="19" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="113.65" y="95.5" width="177.69" height="165" viewBox="0 0 560 520" overflow="hidden">
+<title id="k0_title">Heller Schaltschrank Doppelschrank-1200x1200</title>
+  <desc id="k0_desc">Vereinfachtes, frei skalierbares Topologie-Symbol ohne sichtbare Beschriftung.</desc>
+  
+  <g id="k0_cabinet">
+    <rect x="12" y="13" width="544" height="504" rx="8" fill="#aab2b8" opacity="0.35"/>
+    <rect x="8" y="8" width="544" height="504" rx="8" fill="#e1e5e8" stroke="#515b63" stroke-width="2"/>
+    <rect id="k0_mounting-plate" x="26" y="26" width="508" height="468" rx="3" fill="#f8fafb" stroke="#929ca3" stroke-width="1.4"/>
+    <circle cx="35" cy="35" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <circle cx="525" cy="35" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <circle cx="35" cy="485" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <circle cx="525" cy="485" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <path d="M18 21h524M18 499h524" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+    
+      <path d="M280 14v492" stroke="#8e979e" stroke-width="2"/>
+      <rect x="267" y="242" width="8" height="36" rx="3" fill="#59636b"/>
+      <rect x="285" y="242" width="8" height="36" rx="3" fill="#59636b"/>
+  </g>
+  <g id="k0_placement-area" fill="none" stroke="none">
+    <rect x="40" y="46" width="480" height="428"/>
+  </g>
+  <g id="k0_connection-anchors" fill="none" stroke="none">
+    <circle id="k0_anchor-left" cx="0" cy="260" r="1"/>
+    <circle id="k0_anchor-right" cx="560" cy="260" r="1"/>
+    <circle id="k0_anchor-top" cx="280" cy="0" r="1"/>
+    <circle id="k0_anchor-bottom" cx="280" cy="520" r="1"/>
+  </g>
+</svg>
+<text x="202.5" y="287" class="name">Doppelschrank_1200x1200</text>
+<text x="202.5" y="308" class="mass">560 × 520 px</text>
+</g>
+<g id="Schaltschrank_400x600">
+<rect x="399" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="520.62" y="95.5" width="123.75" height="165" viewBox="0 0 240 320" overflow="hidden">
+<title id="k1_title">Heller Schaltschrank Schaltschrank-400x600</title>
+  <desc id="k1_desc">Vereinfachtes, frei skalierbares Topologie-Symbol ohne sichtbare Beschriftung.</desc>
+  
+  <g id="k1_cabinet">
+    <rect x="12" y="13" width="224" height="304" rx="8" fill="#aab2b8" opacity="0.35"/>
+    <rect x="8" y="8" width="224" height="304" rx="8" fill="#e1e5e8" stroke="#515b63" stroke-width="2"/>
+    <rect id="k1_mounting-plate" x="26" y="26" width="188" height="268" rx="3" fill="#f8fafb" stroke="#929ca3" stroke-width="1.4"/>
+    <circle cx="35" cy="35" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <circle cx="205" cy="35" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <circle cx="35" cy="285" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <circle cx="205" cy="285" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <path d="M18 21h204M18 299h204" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+    <rect x="221" y="142" width="7" height="36" rx="3" fill="#59636b"/>
+  </g>
+  <g id="k1_placement-area" fill="none" stroke="none">
+    <rect x="40" y="46" width="160" height="228"/>
+  </g>
+  <g id="k1_connection-anchors" fill="none" stroke="none">
+    <circle id="k1_anchor-left" cx="0" cy="160" r="1"/>
+    <circle id="k1_anchor-right" cx="240" cy="160" r="1"/>
+    <circle id="k1_anchor-top" cx="120" cy="0" r="1"/>
+    <circle id="k1_anchor-bottom" cx="120" cy="320" r="1"/>
+  </g>
+</svg>
+<text x="582.5" y="287" class="name">Schaltschrank_400x600</text>
+<text x="582.5" y="308" class="mass">240 × 320 px</text>
+</g>
+<g id="Schaltschrank_600x800">
+<rect x="779" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="900.62" y="95.5" width="123.75" height="165" viewBox="0 0 300 400" overflow="hidden">
+<title id="k2_title">Heller Schaltschrank Schaltschrank-600x800</title>
+  <desc id="k2_desc">Vereinfachtes, frei skalierbares Topologie-Symbol ohne sichtbare Beschriftung.</desc>
+  
+  <g id="k2_cabinet">
+    <rect x="12" y="13" width="284" height="384" rx="8" fill="#aab2b8" opacity="0.35"/>
+    <rect x="8" y="8" width="284" height="384" rx="8" fill="#e1e5e8" stroke="#515b63" stroke-width="2"/>
+    <rect id="k2_mounting-plate" x="26" y="26" width="248" height="348" rx="3" fill="#f8fafb" stroke="#929ca3" stroke-width="1.4"/>
+    <circle cx="35" cy="35" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <circle cx="265" cy="35" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <circle cx="35" cy="365" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <circle cx="265" cy="365" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <path d="M18 21h264M18 379h264" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+    <rect x="281" y="182" width="7" height="36" rx="3" fill="#59636b"/>
+  </g>
+  <g id="k2_placement-area" fill="none" stroke="none">
+    <rect x="40" y="46" width="220" height="308"/>
+  </g>
+  <g id="k2_connection-anchors" fill="none" stroke="none">
+    <circle id="k2_anchor-left" cx="0" cy="200" r="1"/>
+    <circle id="k2_anchor-right" cx="300" cy="200" r="1"/>
+    <circle id="k2_anchor-top" cx="150" cy="0" r="1"/>
+    <circle id="k2_anchor-bottom" cx="150" cy="400" r="1"/>
+  </g>
+</svg>
+<text x="962.5" y="287" class="name">Schaltschrank_600x800</text>
+<text x="962.5" y="308" class="mass">300 × 400 px</text>
+</g>
+<g id="Schaltschrank_800x1000">
+<rect x="1159" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1275" y="95.5" width="135" height="165" viewBox="0 0 360 440" overflow="hidden">
+<title id="k3_title">Heller Schaltschrank Schaltschrank-800x1000</title>
+  <desc id="k3_desc">Vereinfachtes, frei skalierbares Topologie-Symbol ohne sichtbare Beschriftung.</desc>
+  
+  <g id="k3_cabinet">
+    <rect x="12" y="13" width="344" height="424" rx="8" fill="#aab2b8" opacity="0.35"/>
+    <rect x="8" y="8" width="344" height="424" rx="8" fill="#e1e5e8" stroke="#515b63" stroke-width="2"/>
+    <rect id="k3_mounting-plate" x="26" y="26" width="308" height="388" rx="3" fill="#f8fafb" stroke="#929ca3" stroke-width="1.4"/>
+    <circle cx="35" cy="35" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <circle cx="325" cy="35" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <circle cx="35" cy="405" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <circle cx="325" cy="405" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <path d="M18 21h324M18 419h324" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+    <rect x="341" y="202" width="7" height="36" rx="3" fill="#59636b"/>
+  </g>
+  <g id="k3_placement-area" fill="none" stroke="none">
+    <rect x="40" y="46" width="280" height="348"/>
+  </g>
+  <g id="k3_connection-anchors" fill="none" stroke="none">
+    <circle id="k3_anchor-left" cx="0" cy="220" r="1"/>
+    <circle id="k3_anchor-right" cx="360" cy="220" r="1"/>
+    <circle id="k3_anchor-top" cx="180" cy="0" r="1"/>
+    <circle id="k3_anchor-bottom" cx="180" cy="440" r="1"/>
+  </g>
+</svg>
+<text x="1342.5" y="287" class="name">Schaltschrank_800x1000</text>
+<text x="1342.5" y="308" class="mass">360 × 440 px</text>
+</g>
+<g id="Schaltschrank_800x1200">
+<rect x="19" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="145.38" y="383.5" width="114.23" height="165" viewBox="0 0 360 520" overflow="hidden">
+<title id="k4_title">Heller Schaltschrank Schaltschrank-800x1200</title>
+  <desc id="k4_desc">Vereinfachtes, frei skalierbares Topologie-Symbol ohne sichtbare Beschriftung.</desc>
+  
+  <g id="k4_cabinet">
+    <rect x="12" y="13" width="344" height="504" rx="8" fill="#aab2b8" opacity="0.35"/>
+    <rect x="8" y="8" width="344" height="504" rx="8" fill="#e1e5e8" stroke="#515b63" stroke-width="2"/>
+    <rect id="k4_mounting-plate" x="26" y="26" width="308" height="468" rx="3" fill="#f8fafb" stroke="#929ca3" stroke-width="1.4"/>
+    <circle cx="35" cy="35" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <circle cx="325" cy="35" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <circle cx="35" cy="485" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <circle cx="325" cy="485" r="3.2" fill="#abb3b9" stroke="#68727a" stroke-width="1"/>
+    <path d="M18 21h324M18 499h324" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+    <rect x="341" y="242" width="7" height="36" rx="3" fill="#59636b"/>
+  </g>
+  <g id="k4_placement-area" fill="none" stroke="none">
+    <rect x="40" y="46" width="280" height="428"/>
+  </g>
+  <g id="k4_connection-anchors" fill="none" stroke="none">
+    <circle id="k4_anchor-left" cx="0" cy="260" r="1"/>
+    <circle id="k4_anchor-right" cx="360" cy="260" r="1"/>
+    <circle id="k4_anchor-top" cx="180" cy="0" r="1"/>
+    <circle id="k4_anchor-bottom" cx="180" cy="520" r="1"/>
+  </g>
+</svg>
+<text x="202.5" y="575" class="name">Schaltschrank_800x1200</text>
+<text x="202.5" y="596" class="mass">360 × 520 px</text>
+</g>
+</svg>

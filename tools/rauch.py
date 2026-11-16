@@ -1,10 +1,11 @@
-"""Erzeugt symbole/hydraulik/Brenner_Rauch.svg: animierter Rauch für den Kamin (Abgasstutzen) des Kessels.
+"""Erzeugt symbole/hydraulik/Brenner_Rauch[_animiert].svg: Rauch für den Kamin (Abgasstutzen) des Kessels.
 
 Ein Symbol für beide Kessel (Brenner links und rechts), transparenter Hintergrund, 64 × 96. Sechs weiche Rauchwolken
 steigen versetzt auf, wachsen, schwanken leicht und blenden aus (SMIL, nur Verläufe und Deckkraft). Ohne Animation
 sind die Wolken über die Aufstiegshöhe verteilt sichtbar.
 
-Zusätzlich `Brenner_Rauch_statisch` (SVG + PNG, ohne Animation, gleiche Größe) als Ausweichlösung.
+Dateinamen wie bei den übrigen Symbolen: `Brenner_Rauch_animiert` ist die animierte Variante, `Brenner_Rauch`
+(SVG + PNG, ohne Animation, gleiche Größe) die statische.
 
 Position (linke obere Ecke des Rauch-Symbols relativ zur linken oberen Ecke des Kessel-Symbols 240 × 143):
   Kessel_Brenner_links:  x = 180, y = -92   (Abgasstutzen bei x = 204 … 220, Oberkante y = 0)
@@ -71,10 +72,10 @@ def svg() -> str:
 if __name__ == "__main__":
     ziel = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "symbole" / "hydraulik"
     import resvg_py
-    p = ziel / "Brenner_Rauch.svg"
+    p = ziel / "Brenner_Rauch_animiert.svg"
     p.write_text(svg(), encoding="utf-8")
     print(p)
-    s = ziel / "Brenner_Rauch_statisch.svg"
+    s = ziel / "Brenner_Rauch.svg"
     s.write_text(re.sub(r"<animate(?:Transform)?\b[^>]*/>", "", svg()), encoding="utf-8")
     s.with_suffix(".png").write_bytes(bytes(resvg_py.svg_to_bytes(svg_string=s.read_text(encoding="utf-8"))))
     print(s)

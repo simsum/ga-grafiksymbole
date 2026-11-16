@@ -212,6 +212,12 @@ Animation per SMIL. Ohne Animation bleibt die Zustandsfarbe (und bei Störung da
 
 Verspielte Cartoon-Symbole unter `symbole/fun/` (Gruppen wie in der Hauptstruktur: `anzeigen/`, `hydraulik/pumpen/`, `hydraulik/speicher/`, `navigation/`), 48 × 48, dunkelbraune Kontur `#3B2412`, animiert per SMIL. Zum Danebenstellen von Messwerten.
 
+**Zeichensatz Fun:** Beschriftungen im Fun-Stil (Buttons, Monatsleiste) verwenden **Chewy** (Google Fonts, Apache License 2.0, [github.com/google/fonts/tree/main/apache/chewy](https://github.com/google/fonts/tree/main/apache/chewy)).
+
+- Darstellung wie auf den Buttons: helle Füllung `#fffbe6`, darunter dieselbe Form als braune Kontur `#2b1600` (Buttons 5 px, Monatsleiste 4 px), `stroke-linejoin="round"`.
+- Immer als Pfad, nie als `<text>`. Umwandeln mit fonttools wie in `tools/monatsleiste.py`; die Schriftdatei wird nicht eingecheckt (Download nach `tools/.schriften/`).
+- Bei den Buttons wurde die Schrift nachträglich durch Vergleich der Buchstabenformen bestimmt; „Räume“ ist dort aus Buchstaben der anderen Buttons zusammengesetzt.
+
 | Symbol | Dateien | Vorschlag Umschaltung |
 |---|---|---|
 | Außentemperatur | `Fun_Thermometer_kalt` (zittert, Schal), `_mild` (lächelt), `_warm` (Sonnenbrille, schwitzt) | kalt < 5 °C, mild 5–25 °C, warm > 25 °C |

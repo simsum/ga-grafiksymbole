@@ -52,7 +52,7 @@ tools/
   fun_pumpe.py           Erzeugt die Fun-Pumpen unter symbole/fun/hydraulik/pumpen/ (baut auf pumpe.py auf)
   waermepumpe.py         Erzeugt die Wärmepumpen-Symbole unter symbole/hydraulik/erzeuger/
   klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/
-  monatsleiste.ps1       Erzeugt symbole/fun/navigation/Fun_Monatsleiste.svg (Windows, Schrift als Pfade)
+  monatsleiste.py        Erzeugt symbole/fun/navigation/Fun_Monatsleiste.svg (Schrift Chewy als Pfade, fonttools)
   zip_erstellen.py       Packt symbole/ und LICENSE in dist/ga-grafiksymbole.zip (von der Action genutzt)
   uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ aus den SVGs (ohne Zusatzpakete)
 ```

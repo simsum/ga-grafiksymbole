@@ -50,18 +50,39 @@ Hauptfarbe `#4B50E6`, Hellfläche `#EEF0FF`, Hintergrund weiß.
 
 Falls feste Größen nötig sind (lange Seite): 20, 30, 40, 50, 60, 80, 100, 120 px. Mindest-Strichstärken 1,2 px (Konturen) und 0,8 px (Details). Unter 60 px Detailraster entfernen, unter 40 px weiter vereinfachen. Mit `Picture` + `fitRatio` meist nicht nötig.
 
+## Verzeichnisse
+
+- Symbole liegen immer in einer Gruppe: `symbole/<Fachbereich>/<Gruppe>/`, bei Bedarf mit Untergruppe (z. B. `fun/hydraulik/pumpen/`). Direkt im Fachbereich liegen keine Dateien.
+- Fachbereiche: `allgemein`, `lueftung`, `hydraulik`, `anzeigen`, `topologie`, `fun`. `fun` spiegelt die Gruppen der Hauptstruktur (`fun/anzeigen`, `fun/hydraulik/…`), dazu `fun/navigation`.
+- Ordnernamen klein geschrieben, Mehrzahl oder Sammelbegriff, Umlaute ausgeschrieben (`klimageraete`, `luftdurchlaesse`, `zaehler`).
+- Neue Gruppe anlegen, sobald eine Symbolfamilie nicht in eine bestehende passt. Eine Gruppe mit nur einem Symbol ist in Ordnung.
+
 ## Dateinamen
 
-`<Symbol>_<Richtung/Variante>.svg`, Umlaute ausgeschrieben (ae, oe, ue), z. B. `Klimakonvektor_rechts.svg`, `Absperrklappe_auf_ohne_Antrieb.svg`, `Zortstroem_Heizung_stehend.svg`.
+Schema: `Symbol[_Variante][_Größe]_Ausrichtung[_Zustand][_Zusatz].svg`
+
+| Teil | Werte | Beispiel |
+|---|---|---|
+| Symbol | Gattungsbegriff, keine Produkt- oder Herstellernamen | `Absperrklappe`, `Schichtspeicher` |
+| Variante | Bauart, Medium, Ansicht (mehrere Wörter in CamelCase) | `ohneAntrieb`, `3blatt`, `Heizung`, `Draufsicht` |
+| Größe | `klein`/`gross`, `S`/`M`/`L`, Länge in px, Portzahl | `gross`, `120`, `16_Port` |
+| Ausrichtung | `rechts`, `links`, `oben`, `unten` (Fluss-/Förderrichtung oder Anschlussseite); `waagerecht`, `senkrecht` (Rohr-/Kanalachse); `stehend`, `liegend` (Bauform) | `senkrecht` |
+| Zustand | `aus`, `an`, `freigabe`, `stoerung`, `abtau`, `auf`, `zu`, `neutral`, `normal`, `aktiv`; Stufen als Zahl, Klappenstellungen `1_zu` … `5_auf` | `auf`, `3_50` |
+| Zusatz | `animiert` (wenn es dieselbe Datei auch statisch gibt), `beschriftet`, `dunkel` | `animiert` |
+
+- Umlaute ausgeschrieben (ae, oe, ue, ss), nur ASCII, Teile mit Unterstrich getrennt, keine Bindestriche oder Leerzeichen.
+- Ausrichtung immer `waagerecht`/`senkrecht`, nie `horizontal`/`vertikal`.
+- Gibt es Zustände, wird auch der Grundzustand benannt (`_aus`), nicht weggelassen.
+- Fun-Symbole beginnen mit `Fun_`, Fun-Buttons mit `Fun_Button_`.
+- Beispiele: `Klimakonvektor_rechts.svg`, `Absperrklappe_ohneAntrieb_senkrecht_auf.svg`, `Klappe_3blatt_gross_waagerecht_2_25.svg`, `Trennung_120_waagerecht_dunkel.svg`, `Waermepumpe_Luft_Wasser_links_aus.svg`, `Schichtspeicher_Heizung_liegend_beschriftet.svg`.
 
 ## SVG-Regeln
 
+- Nur SVG, keine PNG- oder GIF-Dateien. Animationen als SVG (SMIL).
 - Verläufe sind unkritisch.
-- Kein `<text>`; Beschriftung und Werte als Niagara-Label.
+- Kein `<text>`; Schrift immer nur als Pfad (auch in `_beschriftet`-Varianten und animierten SVGs). Werte und veränderliche Beschriftung als Niagara-Label.
 - Einfache Formen bevorzugen, `pattern` vermeiden.
 - `clipPath` wurde in Niagara noch nicht umfassend geprüft; bei Darstellungsfehlern hier zuerst ansetzen.
-- Zu jedem SVG eine gleichnamige PNG als Ausweichlösung.
-
 ## Anlagenkennzeichnung (Heizen/Kälte)
 
 - Kreise mit **H** (Heizen) und **K** (Kälte) kennzeichnen, nicht die Maschine.

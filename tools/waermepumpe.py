@@ -1,28 +1,22 @@
-"""Erzeugt symbole/hydraulik/Waermepumpe_Luft_Wasser_{rechts,links} (SVG + PNG, resvg-py).
+"""Erzeugt symbole/hydraulik/erzeuger/Waermepumpe_Luft_Wasser_{rechts,links}*.svg.
 
 Außengerät Luft/Wasser-Wärmepumpe, Monoblock, Vorderansicht. Aufruf: python tools/waermepumpe.py
 
 Zustände (gleiche Größe und Anschlusspunkte):
-  (ohne)        aus, Lüfter steht
-  _an           Betrieb, Lüfter dreht, Windlinien wandern nach außen (nur im SVG)
-                  _an.svg  animiertes SVG (SMIL) – läuft in 4.15 in Workbench und HTML5, bevorzugt
-                  _an.gif  animiertes GIF (12 Bilder, 40 ms) als Ausweichlösung
-                  _an.png  Standbild als Ausweichlösung
+  _aus         aus, Lüfter steht
+  _an           Betrieb, Lüfter dreht, Windlinien wandern nach außen
+                (animiertes SVG, SMIL – läuft in 4.15 in Workbench und HTML5)
   _stoerung     Störung: Lüfter steht, rotes Warndreieck und rote Status-LED blinken (1 Hz)
   _abtau        Abtaubetrieb (Enteisung): Lüfter steht, Reif auf dem Lüfter, Schneeflocke,
                 Schmelzwassertropfen, blaue Status-LED pulsiert
-Bei _stoerung und _abtau zeigt das Standbild (PNG, oder SVG ohne SMIL) den Zustand vollständig,
+Bei _stoerung und _abtau zeigt auch eine Darstellung ohne SMIL den Zustand vollständig,
 nur die Tropfen fehlen dort.
 """
-import io
 import math
 from pathlib import Path
 
 W, H = 180, 168
 VL_X, RL_X = 160, 140          # Anschluss rechts; links gespiegelt: 20 / 40
-GIF_BILDER = 12                # Bilder je Flügelteilung (72°) – Schleife ist nahtlos
-GIF_MS = 40                    # Anzeigedauer je Bild
-GIF_MATTE = (166, 166, 166)    # Hintergrund, gegen den die Außenkanten geglättet werden
 SVG_DREHDAUER = "2.4s"         # eine Umdrehung im animierten SVG
 
 def body(winkel: float = 0.0, animation: str = "") -> str:
@@ -131,41 +125,10 @@ def svg(seite: str, zustand: str = "aus", winkel: float = 0.0) -> str:
             f'  <title id="title">Luft/Wasser-Wärmepumpe Außengerät (Monoblock), Vorderansicht, Anschluss {seite}{TITEL[zustand]}</title>\n'
             f'{DEFS}\n  {inner}\n{overlay(seite, zustand)}</svg>\n')
 
-def gif(seite: str) -> bytes:
-    """Animiertes GIF in Originalgröße; Außenkanten gegen GIF_MATTE geglättet, harte Transparenz."""
-    import resvg_py
-    from PIL import Image
-    bilder = []
-    for i in range(GIF_BILDER):
-        png = bytes(resvg_py.svg_to_bytes(svg_string=svg(seite, winkel=72 * i / GIF_BILDER)))
-        rgba = Image.open(io.BytesIO(png)).convert("RGBA")
-        matte = Image.new("RGBA", rgba.size, GIF_MATTE + (255,))
-        flach = Image.alpha_composite(matte, rgba).convert("RGB")
-        maske = rgba.getchannel("A").point(lambda a: 255 if a >= 40 else 0)
-        p = flach.quantize(colors=255, method=Image.Quantize.MEDIANCUT, dither=Image.Dither.NONE)
-        p.paste(255, mask=maske.point(lambda a: 255 - a))      # Index 255 = transparent
-        bilder.append(p)
-    buf = io.BytesIO()
-    bilder[0].save(buf, format="GIF", save_all=True, append_images=bilder[1:], duration=GIF_MS,
-                   loop=0, transparency=255, disposal=2, optimize=False)
-    return buf.getvalue()
-
 if __name__ == "__main__":
-    import resvg_py
-    out = Path(__file__).resolve().parent.parent / "symbole" / "hydraulik"
+    out = Path(__file__).resolve().parent.parent / "symbole" / "hydraulik" / "erzeuger"
     for seite in ("rechts", "links"):
-        p = out / f"Waermepumpe_Luft_Wasser_{seite}.svg"
-        p.write_text(svg(seite), encoding="utf-8")
-        png = resvg_py.svg_to_bytes(svg_string=svg(seite))
-        p.with_suffix(".png").write_bytes(bytes(png))
-        print(p)
-        a = out / f"Waermepumpe_Luft_Wasser_{seite}_an.svg"
-        a.write_text(svg(seite, "an"), encoding="utf-8")
-        a.with_suffix(".png").write_bytes(bytes(resvg_py.svg_to_bytes(svg_string=svg(seite, winkel=36))))
-        a.with_suffix(".gif").write_bytes(gif(seite))
-        print(a, a.with_suffix(".gif"))
-        for zustand in ("stoerung", "abtau"):
-            z = out / f"Waermepumpe_Luft_Wasser_{seite}_{zustand}.svg"
-            z.write_text(svg(seite, zustand), encoding="utf-8")
-            z.with_suffix(".png").write_bytes(bytes(resvg_py.svg_to_bytes(svg_string=svg(seite, zustand))))
-            print(z)
+        for zustand, endung in (("aus", "_aus"), ("an", "_an"), ("stoerung", "_stoerung"), ("abtau", "_abtau")):
+            p = out / f"Waermepumpe_Luft_Wasser_{seite}{endung}.svg"
+            p.write_text(svg(seite, zustand), encoding="utf-8")
+            print(p)

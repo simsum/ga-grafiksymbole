@@ -2,34 +2,57 @@
 
 Freie SVG-Symbole für Px-Grafiken der Gebäudeautomation (Niagara 4) – Lüftung, Heizung, Kälte, Hydraulik und Anzeigen.
 
-Die Symbole sind für den Einsatz in Niagara Px als `Picture` mit `scale = fitRatio` gedacht. Pro Symbol genügt ein SVG; bei vielen liegt eine gleichnamige PNG als Ausweichlösung bei (animierte und neuere Symbole nur als SVG).
+Die Symbole sind für den Einsatz in Niagara Px als `Picture` mit `scale = fitRatio` gedacht. Alle Symbole liegen ausschließlich als SVG vor, auch die animierten (SMIL); Schrift ist immer als Pfad gezeichnet.
 
 ## Inhalt
 
 ```
-symbole/                 je Ordner SVG (und, wo vorhanden, PNG mit gleichem Namen) nebeneinander
-  allgemein/             Fachübergreifend: Flusspfeile (Wasser, Luft, Strom), Trennung/Durchführung
-  lueftung/              Klimakonvektor, Volumenstromregler, Deckenluftdurchlass, WRG
-  hydraulik/             Absperrklappe, Energieventil, Zähler, Zortström-Speicher, Kessel, Wärmepumpe, Pumpe
-  anzeigen/              LEDs (rund und eckig), blinkende Punkte, Betriebsart Normal/Leise
-  fun/                   Verspielte Cartoon-Symbole (Außentemperatur, -feuchte, CO₂), animiert; Monatsleiste
-    button/              Cartoon-Navigationsbuttons 280 × 72, je normal und aktiv
-  topologie/             Topologiesymbole (Controller/IO, Netzwerk, Infrastruktur, Geräte,
-                         Ventile, Energie- und Wasserzähler, Schaltschränke)
+symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe>/
+  allgemein/             Fachübergreifend (Wasser, Luft, Strom)
+    flusspfeile/         Flusspfeile gerade und mit Bogen
+    trennung/            Trennung/Durchführung (Decke, Wand)
+  lueftung/
+    klimageraete/        Klimakonvektor
+    luftdurchlaesse/     Deckenluftdurchlass
+    volumenstromregler/  Volumenstromregler rund und eckig
+    wrg/                 Wärmerückgewinnung (Plattenwärmetauscher)
+    klappen/             Lüftungsklappen (ein und drei Blätter, klein und groß) in fünf Stellungen
+  hydraulik/
+    armaturen/           Absperrklappe, Energieventil, Endlagen
+    pumpen/              Pumpen in vier Richtungen und vier Zuständen
+    erzeuger/            Kessel, Brenner (Flamme, Rauch), Wärmepumpe, Mehrleitermaschine
+    speicher/            Pufferspeicher, Schichtspeicher
+    zaehler/             Wärme-, Kälte-, Wasser- und Elektrozähler
+  anzeigen/
+    led/                 LEDs rund und eckig, statisch und animiert
+    punkte/              Dezent blinkende Punkte
+    betriebsart/         Betriebsart Normal/Leise
+  fun/                   Verspielte Cartoon-Symbole, animiert, Gruppen wie in der Hauptstruktur
+    anzeigen/            Außentemperatur, -feuchte, CO₂
+    hydraulik/pumpen/    Fun-Pumpen
+    hydraulik/speicher/  Fun-Pufferspeicher
+    navigation/          Navigationsbuttons 280 × 72 (normal/aktiv), Monatsleiste
+  topologie/
+    automation/          Controller, I/O-Module, GLT-Leitrechner
+    netzwerk/            Ethernet-Switches
+    schaltschraenke/     Schaltschränke
+    feldgeraete/         Energieventile, Energie- und Wasserzähler
+    geraete/             Allgemeine Geräte
 docs/
   STYLEGUIDE.md          Farben, Strichstärken, Proportionen
   NIAGARA.md             Einbindung in Px, Positionierung, Fallstricke
   SYMBOLKATALOG.md       Abmessungen und Anschlusspunkte je Symbol
   uebersicht/            Übersichtsgrafik je Symbolverzeichnis (PNG)
 tools/
-  check_symbols.py       Prüft SVGs auf Regeln (kein <text>, Namensschema, PNG vorhanden)
-  pumpe.py               Erzeugt die Pumpensymbole unter symbole/hydraulik/
-  rauch.py               Erzeugt den Brennerrauch unter symbole/hydraulik/ (animiert + statisch)
-  flamme.py              Erzeugt die Brennerflammen unter symbole/hydraulik/ (animiert + statisch)
-  fun_pumpe.py           Erzeugt die Fun-Pumpen unter symbole/fun/ (baut auf pumpe.py auf)
-  waermepumpe.py         Erzeugt die Wärmepumpen-Symbole unter symbole/hydraulik/ (resvg-py)
-  klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/{klein,gross}/ (resvg-py)
-  monatsleiste.ps1       Erzeugt symbole/fun/Fun_Monatsleiste.svg (Windows, Schrift als Pfade)
+  check_symbols.py       Prüft symbole/ auf Regeln (nur SVG, kein <text>, Namensschema)
+  text_zu_pfad.ps1       Wandelt <text> in einer SVG in Pfade um (Windows)
+  pumpe.py               Erzeugt die Pumpensymbole unter symbole/hydraulik/pumpen/
+  rauch.py               Erzeugt den Brennerrauch unter symbole/hydraulik/erzeuger/ (animiert + statisch)
+  flamme.py              Erzeugt die Brennerflammen unter symbole/hydraulik/erzeuger/ (animiert + statisch)
+  fun_pumpe.py           Erzeugt die Fun-Pumpen unter symbole/fun/hydraulik/pumpen/ (baut auf pumpe.py auf)
+  waermepumpe.py         Erzeugt die Wärmepumpen-Symbole unter symbole/hydraulik/erzeuger/
+  klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/
+  monatsleiste.ps1       Erzeugt symbole/fun/navigation/Fun_Monatsleiste.svg (Windows, Schrift als Pfade)
   zip_erstellen.py       Packt symbole/ und LICENSE in dist/ga-grafiksymbole.zip (von der Action genutzt)
   uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ aus den SVGs (Pillow, resvg-py)
 ```
@@ -47,58 +70,92 @@ Es wird bei jeder Änderung an `symbole/` automatisch von einer GitHub Action ge
 Jede Grafik zeigt alle Symbole eines Verzeichnisses mit Dateinamen und Größe.
 
 ### Allgemein – `symbole/allgemein`
-![Allgemein](docs/uebersicht/Uebersicht_allgemein.png)
+
+**Flusspfeile** (`flusspfeile`)
+![Flusspfeile](docs/uebersicht/Uebersicht_allgemein_flusspfeile.png)
+
+**Trennung** (`trennung`)
+![Trennung](docs/uebersicht/Uebersicht_allgemein_trennung.png)
 
 ### Lüftung – `symbole/lueftung`
-![Lüftung](docs/uebersicht/Uebersicht_lueftung.png)
 
-### Lüftung, Klappen klein – `symbole/lueftung/klappen/klein`
-![Klappen klein](docs/uebersicht/Uebersicht_lueftung_klappen_klein.png)
+**Klimageräte** (`klimageraete`)
+![Klimageräte](docs/uebersicht/Uebersicht_lueftung_klimageraete.png)
 
-### Lüftung, Klappen groß – `symbole/lueftung/klappen/gross`
-![Klappen groß](docs/uebersicht/Uebersicht_lueftung_klappen_gross.png)
+**Luftdurchlässe** (`luftdurchlaesse`)
+![Luftdurchlässe](docs/uebersicht/Uebersicht_lueftung_luftdurchlaesse.png)
+
+**Volumenstromregler** (`volumenstromregler`)
+![Volumenstromregler](docs/uebersicht/Uebersicht_lueftung_volumenstromregler.png)
+
+**Wärmerückgewinnung** (`wrg`)
+![WRG](docs/uebersicht/Uebersicht_lueftung_wrg.png)
+
+**Klappen** (`klappen`)
+![Klappen](docs/uebersicht/Uebersicht_lueftung_klappen.png)
 
 ### Hydraulik – `symbole/hydraulik`
-![Hydraulik](docs/uebersicht/Uebersicht_hydraulik.png)
+
+**Armaturen** (`armaturen`)
+![Armaturen](docs/uebersicht/Uebersicht_hydraulik_armaturen.png)
+
+**Pumpen** (`pumpen`)
+![Pumpen](docs/uebersicht/Uebersicht_hydraulik_pumpen.png)
+
+**Erzeuger** (`erzeuger`)
+![Erzeuger](docs/uebersicht/Uebersicht_hydraulik_erzeuger.png)
+
+**Speicher** (`speicher`)
+![Speicher](docs/uebersicht/Uebersicht_hydraulik_speicher.png)
+
+**Zähler** (`zaehler`)
+![Zähler](docs/uebersicht/Uebersicht_hydraulik_zaehler.png)
 
 ### Anzeigen – `symbole/anzeigen`
-![Anzeigen](docs/uebersicht/Uebersicht_anzeigen.png)
+
+**LEDs** (`led`)
+![LEDs](docs/uebersicht/Uebersicht_anzeigen_led.png)
+
+**Punkte** (`punkte`)
+![Punkte](docs/uebersicht/Uebersicht_anzeigen_punkte.png)
+
+**Betriebsart** (`betriebsart`)
+![Betriebsart](docs/uebersicht/Uebersicht_anzeigen_betriebsart.png)
 
 ### Fun – `symbole/fun`
-![Fun](docs/uebersicht/Uebersicht_fun.png)
 
-### Fun-Buttons – `symbole/fun/button`
-![Fun-Buttons](docs/uebersicht/Uebersicht_fun_button.png)
+**Anzeigen** (`anzeigen`)
+![Fun-Anzeigen](docs/uebersicht/Uebersicht_fun_anzeigen.png)
+
+**Pumpen** (`hydraulik/pumpen`)
+![Fun-Pumpen](docs/uebersicht/Uebersicht_fun_hydraulik_pumpen.png)
+
+**Speicher** (`hydraulik/speicher`)
+![Fun-Speicher](docs/uebersicht/Uebersicht_fun_hydraulik_speicher.png)
+
+**Navigation** (`navigation`)
+![Fun-Navigation](docs/uebersicht/Uebersicht_fun_navigation.png)
 
 ### Topologie – `symbole/topologie`
 
-**Controller und I/O-Module** (`controller_io`)
-![Controller und IO](docs/uebersicht/Uebersicht_topologie_controller_io.png)
+**Automation: Controller, I/O-Module, Leitrechner** (`automation`)
+![Automation](docs/uebersicht/Uebersicht_topologie_automation.png)
 
 **Netzwerk** (`netzwerk`)
 ![Netzwerk](docs/uebersicht/Uebersicht_topologie_netzwerk.png)
 
-**Infrastruktur** (`infrastruktur`)
-![Infrastruktur](docs/uebersicht/Uebersicht_topologie_infrastruktur.png)
-
 **Allgemeine Geräte** (`geraete`)
 ![Geräte](docs/uebersicht/Uebersicht_topologie_geraete.png)
 
-**Ventile** (`ventile`)
-![Ventile](docs/uebersicht/Uebersicht_topologie_ventile.png)
-
-**Energiezähler** (`energiezaehler`)
-![Energiezähler](docs/uebersicht/Uebersicht_topologie_energiezaehler.png)
-
-**Wasserzähler** (`wasserzaehler`)
-![Wasserzähler](docs/uebersicht/Uebersicht_topologie_wasserzaehler.png)
+**Feldgeräte: Energieventile, Energie- und Wasserzähler** (`feldgeraete`)
+![Feldgeräte](docs/uebersicht/Uebersicht_topologie_feldgeraete.png)
 
 **Schaltschränke** (`schaltschraenke`)
 ![Schaltschränke](docs/uebersicht/Uebersicht_topologie_schaltschraenke.png)
 
 ## Verwendung in Niagara
 
-1. SVG- und PNG-Dateien nach `file:^px/GraphicTemplates/symbole/` in der Station kopieren.
+1. SVG-Dateien nach `file:^px/GraphicTemplates/symbole/` in der Station kopieren.
 2. In Px ein `Picture` anlegen, `image` auf die Datei setzen, `scale = fitRatio`.
 3. Beschriftungen und Werte als Niagara-Label darüberlegen (die Symbole enthalten bewusst keinen Text).
 
@@ -109,8 +166,8 @@ Details: [docs/NIAGARA.md](docs/NIAGARA.md).
 - Keine Texte, Nummern oder Herstellerlogos in den Symbolen.
 - Symbole mit Richtung gibt es in allen vier Richtungen.
 - Symbole einer Familie haben identische Abmessungen.
-- Dateinamen: `<Symbol>_<Richtung/Variante>.svg`, nur Unterstriche (Niagara mag keine Bindestriche), Umlaute ausgeschrieben, z. B. `Klimakonvektor_rechts.svg`.
-- Bestehende Symbole werden nur nach Rückfrage umbenannt, da Px-Seiten auf die Dateinamen verweisen.
+- Dateinamen: `Symbol[_Variante][_Größe]_Ausrichtung[_Zustand][_Zusatz].svg`, nur Unterstriche (Niagara mag keine Bindestriche), Umlaute ausgeschrieben, z. B. `Klimakonvektor_rechts.svg`, `Absperrklappe_ohneAntrieb_senkrecht_auf.svg`. Details im [Styleguide](docs/STYLEGUIDE.md#dateinamen).
+- Bestehende Symbole werden nur nach Rückfrage umbenannt, da Px-Seiten auf die Dateinamen verweisen. Frühere Umbenennungen stehen in [docs/MIGRATION.csv](docs/MIGRATION.csv) (alter Pfad;neuer Pfad).
 
 Siehe [docs/STYLEGUIDE.md](docs/STYLEGUIDE.md) und [CONTRIBUTING.md](CONTRIBUTING.md).
 

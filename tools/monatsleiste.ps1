@@ -1,5 +1,5 @@
-# Erzeugt symbole/fun/Fun_Monatsleiste.svg (Windows, PowerShell 5.1, Schrift Segoe Print fett).
-# Aufruf: powershell -ExecutionPolicy Bypass -File tools/monatsleiste.ps1 -OutFile symbole/fun/Fun_Monatsleiste.svg
+# Erzeugt symbole/fun/navigation/Fun_Monatsleiste.svg (Windows, PowerShell 5.1, Schrift Segoe Print fett).
+# Aufruf: powershell -ExecutionPolicy Bypass -File tools/monatsleiste.ps1 -OutFile symbole/fun/navigation/Fun_Monatsleiste.svg
 param([string]$OutFile)
 Add-Type -AssemblyName PresentationCore
 $inv = [Globalization.CultureInfo]::InvariantCulture

@@ -1,4 +1,4 @@
-"""Erzeugt symbole/fun/Fun_Pumpe_{richtung}_{zustand}.svg (40 × 40, wie die Pumpen unter symbole/hydraulik).
+"""Erzeugt symbole/fun/hydraulik/pumpen/Fun_Pumpe_{richtung}_{zustand}.svg (40 × 40, wie die Pumpen unter symbole/hydraulik/pumpen).
 
 Basis ist das Pumpensymbol aus pumpe.py (im Hintergrund, mit brauner Fun-Kontur, ohne Förderdreieck),
 davor je Zustand eine kleine Cartoon-Animation (SMIL). Die Förderrichtung zeigen Luft-/Wasserblasen an:
@@ -92,7 +92,7 @@ def svg(richtung: str, zustand: str) -> str:
 
 
 if __name__ == "__main__":
-    out = Path(__file__).resolve().parent.parent / "symbole" / "fun"
+    out = Path(__file__).resolve().parent.parent / "symbole" / "fun" / "hydraulik" / "pumpen"
     for richtung in pumpe.RICHTUNGEN:
         for zustand in pumpe.FARBEN:
             p = out / f"Fun_Pumpe_{richtung}_{zustand}.svg"

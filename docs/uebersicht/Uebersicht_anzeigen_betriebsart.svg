@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1242" viewBox="0 0 1560 1242">
+<title>symbole/anzeigen/betriebsart: 16 Symbole</title>
+<style>text{font-family:Segoe UI, Arial, Helvetica, sans-serif}.name{font-size:15px;font-weight:700;fill:#20242A;text-anchor:middle}.mass{font-size:12px;fill:#69727A;text-anchor:middle}</style>
+<rect width="1560" height="1242" fill="#F4F5F7"/>
+<text x="20" y="42" font-size="26" font-weight="700" fill="#30343A">symbole/anzeigen/betriebsart</text>
+<text x="1540" y="42" font-size="16" fill="#69727A" text-anchor="end">16 Symbole</text>
+<g id="Betriebsart_Lautsprecher_leise">
+<rect x="19" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="142.5" y="118" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
+<path d="M7,16 L12,16 L18,10 L18,30 L12,24 L7,24 Z" fill="#666666" stroke="#333333" stroke-width="1" stroke-linejoin="round"/><path d="M22,16 A5,5 0 0 1 22,24" fill="none" stroke="#4A86D4" stroke-width="2.2" stroke-linecap="round"></path>
+</svg>
+<text x="202.5" y="287" class="name">Betriebsart</text>
+<text x="202.5" y="305" class="name">Lautsprecher_leise</text>
+<text x="202.5" y="326" class="mass">40 × 40 px</text>
+</g>
+<g id="Betriebsart_Lautsprecher_leise_animiert">
+<rect x="399" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="522.5" y="118" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
+<path d="M7,16 L12,16 L18,10 L18,30 L12,24 L7,24 Z" fill="#666666" stroke="#333333" stroke-width="1" stroke-linejoin="round"/><path d="M22,16 A5,5 0 0 1 22,24" fill="none" stroke="#4A86D4" stroke-width="2.2" stroke-linecap="round"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" begin="0s" repeatCount="indefinite"/></path>
+</svg>
+<text x="582.5" y="287" class="name">Betriebsart_Lautsprecher</text>
+<text x="582.5" y="305" class="name">leise_animiert</text>
+<text x="582.5" y="326" class="mass">40 × 40 px</text>
+</g>
+<g id="Betriebsart_Lautsprecher_normal">
+<rect x="779" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="902.5" y="118" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
+<path d="M7,16 L12,16 L18,10 L18,30 L12,24 L7,24 Z" fill="#666666" stroke="#333333" stroke-width="1" stroke-linejoin="round"/><g fill="none" stroke="#2ECC40" stroke-width="2.2" stroke-linecap="round"><path d="M22,16 A5,5 0 0 1 22,24"></path><path d="M25.5,12.5 A10,10 0 0 1 25.5,27.5"></path><path d="M29,9 A15,15 0 0 1 29,31"></path></g>
+</svg>
+<text x="962.5" y="287" class="name">Betriebsart</text>
+<text x="962.5" y="305" class="name">Lautsprecher_normal</text>
+<text x="962.5" y="326" class="mass">40 × 40 px</text>
+</g>
+<g id="Betriebsart_Lautsprecher_normal_animiert">
+<rect x="1159" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1282.5" y="118" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
+<path d="M7,16 L12,16 L18,10 L18,30 L12,24 L7,24 Z" fill="#666666" stroke="#333333" stroke-width="1" stroke-linejoin="round"/><g fill="none" stroke="#2ECC40" stroke-width="2.2" stroke-linecap="round"><path d="M22,16 A5,5 0 0 1 22,24"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" begin="0s" repeatCount="indefinite"/></path><path d="M25.5,12.5 A10,10 0 0 1 25.5,27.5"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" begin="0.2s" repeatCount="indefinite"/></path><path d="M29,9 A15,15 0 0 1 29,31"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></path></g>
+</svg>
+<text x="1342.5" y="287" class="name">Betriebsart_Lautsprecher</text>
+<text x="1342.5" y="305" class="name">normal_animiert</text>
+<text x="1342.5" y="326" class="mass">40 × 40 px</text>
+</g>
+<g id="Betriebsart_Luefter_leise">
+<rect x="19" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="142.5" y="406" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
+<circle cx="17" cy="20" r="11" fill="#F2F2F2" stroke="#333333" stroke-width="1.2"/><g fill="#666666"><path d="M17,20 C14,15 15,11 17,10 C20,12 19,17 17,20 Z"/><path d="M17,20 C14,15 15,11 17,10 C20,12 19,17 17,20 Z" transform="rotate(120 17 20)"/><path d="M17,20 C14,15 15,11 17,10 C20,12 19,17 17,20 Z" transform="rotate(240 17 20)"/></g><circle cx="17" cy="20" r="1.8" fill="#333333"/><path d="M31,15 A6,6 0 0 1 31,25" fill="none" stroke="#4A86D4" stroke-width="1.8" stroke-linecap="round" opacity="0.6"></path>
+</svg>
+<text x="202.5" y="575" class="name">Betriebsart_Luefter_leise</text>
+<text x="202.5" y="596" class="mass">40 × 40 px</text>
+</g>
+<g id="Betriebsart_Luefter_leise_animiert">
+<rect x="399" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="522.5" y="406" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
+<circle cx="17" cy="20" r="11" fill="#F2F2F2" stroke="#333333" stroke-width="1.2"/><g fill="#666666"><animateTransform attributeName="transform" type="rotate" from="0 17 20" to="360 17 20" dur="3.5s" repeatCount="indefinite"/><path d="M17,20 C14,15 15,11 17,10 C20,12 19,17 17,20 Z"/><path d="M17,20 C14,15 15,11 17,10 C20,12 19,17 17,20 Z" transform="rotate(120 17 20)"/><path d="M17,20 C14,15 15,11 17,10 C20,12 19,17 17,20 Z" transform="rotate(240 17 20)"/></g><circle cx="17" cy="20" r="1.8" fill="#333333"/><path d="M31,15 A6,6 0 0 1 31,25" fill="none" stroke="#4A86D4" stroke-width="1.8" stroke-linecap="round" opacity="0.6"><animate attributeName="opacity" values="0.15;0.6;0.15" dur="3s" begin="0s" repeatCount="indefinite"/></path>
+</svg>
+<text x="582.5" y="575" class="name">Betriebsart_Luefter</text>
+<text x="582.5" y="593" class="name">leise_animiert</text>
+<text x="582.5" y="614" class="mass">40 × 40 px</text>
+</g>
+<g id="Betriebsart_Luefter_normal">
+<rect x="779" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="902.5" y="406" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
+<circle cx="17" cy="20" r="11" fill="#F2F2F2" stroke="#333333" stroke-width="1.2"/><g fill="#666666"><path d="M17,20 C14,15 15,11 17,10 C20,12 19,17 17,20 Z"/><path d="M17,20 C14,15 15,11 17,10 C20,12 19,17 17,20 Z" transform="rotate(120 17 20)"/><path d="M17,20 C14,15 15,11 17,10 C20,12 19,17 17,20 Z" transform="rotate(240 17 20)"/></g><circle cx="17" cy="20" r="1.8" fill="#333333"/><g fill="none" stroke="#2ECC40" stroke-width="1.8" stroke-linecap="round"><path d="M31,15 A6,6 0 0 1 31,25"></path><path d="M35,12 A10,10 0 0 1 35,28"></path></g>
+</svg>
+<text x="962.5" y="575" class="name">Betriebsart_Luefter_normal</text>
+<text x="962.5" y="596" class="mass">40 × 40 px</text>
+</g>
+<g id="Betriebsart_Luefter_normal_animiert">
+<rect x="1159" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1282.5" y="406" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
+<circle cx="17" cy="20" r="11" fill="#F2F2F2" stroke="#333333" stroke-width="1.2"/><g fill="#666666"><animateTransform attributeName="transform" type="rotate" from="0 17 20" to="360 17 20" dur="0.8s" repeatCount="indefinite"/><path d="M17,20 C14,15 15,11 17,10 C20,12 19,17 17,20 Z"/><path d="M17,20 C14,15 15,11 17,10 C20,12 19,17 17,20 Z" transform="rotate(120 17 20)"/><path d="M17,20 C14,15 15,11 17,10 C20,12 19,17 17,20 Z" transform="rotate(240 17 20)"/></g><circle cx="17" cy="20" r="1.8" fill="#333333"/><g fill="none" stroke="#2ECC40" stroke-width="1.8" stroke-linecap="round"><path d="M31,15 A6,6 0 0 1 31,25"><animate attributeName="opacity" values="0.2;1;0.2" dur="0.9s" begin="0s" repeatCount="indefinite"/></path><path d="M35,12 A10,10 0 0 1 35,28"><animate attributeName="opacity" values="0.2;1;0.2" dur="0.9s" begin="0.2s" repeatCount="indefinite"/></path></g>
+</svg>
+<text x="1342.5" y="575" class="name">Betriebsart_Luefter</text>
+<text x="1342.5" y="593" class="name">normal_animiert</text>
+<text x="1342.5" y="614" class="mass">40 × 40 px</text>
+</g>
+<g id="Betriebsart_Pegel_leise">
+<rect x="19" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="142.5" y="694" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
+<rect x="6" y="26" width="5" height="8" rx="1" fill="#4A86D4"></rect><g fill="none" stroke="#BDBDBD" stroke-width="1"><rect x="13.5" y="20.5" width="4" height="13" rx="1"/><rect x="20.5" y="14.5" width="4" height="19" rx="1"/><rect x="27.5" y="8.5" width="4" height="25" rx="1"/></g>
+</svg>
+<text x="202.5" y="863" class="name">Betriebsart_Pegel_leise</text>
+<text x="202.5" y="884" class="mass">40 × 40 px</text>
+</g>
+<g id="Betriebsart_Pegel_leise_animiert">
+<rect x="399" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="522.5" y="694" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
+<rect x="6" y="26" width="5" height="8" rx="1" fill="#4A86D4"><animate attributeName="opacity" values="1;0.5;1" dur="2s" begin="0s" repeatCount="indefinite"/></rect><g fill="none" stroke="#BDBDBD" stroke-width="1"><rect x="13.5" y="20.5" width="4" height="13" rx="1"/><rect x="20.5" y="14.5" width="4" height="19" rx="1"/><rect x="27.5" y="8.5" width="4" height="25" rx="1"/></g>
+</svg>
+<text x="582.5" y="863" class="name">Betriebsart_Pegel</text>
+<text x="582.5" y="881" class="name">leise_animiert</text>
+<text x="582.5" y="902" class="mass">40 × 40 px</text>
+</g>
+<g id="Betriebsart_Pegel_normal">
+<rect x="779" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="902.5" y="694" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
+<g fill="#2ECC40"><rect x="6" y="26" width="5" height="8" rx="1"/><rect x="13" y="20" width="5" height="14" rx="1"/><rect x="20" y="14" width="5" height="20" rx="1"></rect><rect x="27" y="8" width="5" height="26" rx="1"></rect></g>
+</svg>
+<text x="962.5" y="863" class="name">Betriebsart_Pegel_normal</text>
+<text x="962.5" y="884" class="mass">40 × 40 px</text>
+</g>
+<g id="Betriebsart_Pegel_normal_animiert">
+<rect x="1159" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1282.5" y="694" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
+<g fill="#2ECC40"><rect x="6" y="26" width="5" height="8" rx="1"/><rect x="13" y="20" width="5" height="14" rx="1"/><rect x="20" y="14" width="5" height="20" rx="1"><animate attributeName="opacity" values="1;0.5;1" dur="1s" begin="0s" repeatCount="indefinite"/></rect><rect x="27" y="8" width="5" height="26" rx="1"><animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0s" repeatCount="indefinite"/></rect></g>
+</svg>
+<text x="1342.5" y="863" class="name">Betriebsart_Pegel</text>
+<text x="1342.5" y="881" class="name">normal_animiert</text>
+<text x="1342.5" y="902" class="mass">40 × 40 px</text>
+</g>
+<g id="Betriebsart_SonneMond_leise">
+<rect x="19" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="142.5" y="982" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
+<path d="M22,7 A13,13 0 1 0 33,25 A10,10 0 1 1 22,7 Z" fill="#4A86D4" stroke="#1F5F9E" stroke-width="1"/><path d="M27,8 L32,8 L27,13 L32,13" fill="none" stroke="#1F5F9E" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"></path>
+</svg>
+<text x="202.5" y="1151" class="name">Betriebsart_SonneMond_leise</text>
+<text x="202.5" y="1172" class="mass">40 × 40 px</text>
+</g>
+<g id="Betriebsart_SonneMond_leise_animiert">
+<rect x="399" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="522.5" y="982" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
+<path d="M22,7 A13,13 0 1 0 33,25 A10,10 0 1 1 22,7 Z" fill="#4A86D4" stroke="#1F5F9E" stroke-width="1"/><path d="M27,8 L32,8 L27,13 L32,13" fill="none" stroke="#1F5F9E" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"><animateTransform attributeName="transform" type="translate" values="0,2;0,-2;0,2" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" begin="0s" repeatCount="indefinite"/></path>
+</svg>
+<text x="582.5" y="1151" class="name">Betriebsart_SonneMond</text>
+<text x="582.5" y="1169" class="name">leise_animiert</text>
+<text x="582.5" y="1190" class="mass">40 × 40 px</text>
+</g>
+<g id="Betriebsart_SonneMond_normal">
+<rect x="779" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="902.5" y="982" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
+<g><path d="M20,4 L20,8 M20,32 L20,36 M4,20 L8,20 M32,20 L36,20 M8.7,8.7 L11.5,11.5 M28.5,28.5 L31.3,31.3 M8.7,31.3 L11.5,28.5 M28.5,11.5 L31.3,8.7" stroke="#F2B600" stroke-width="2.2" stroke-linecap="round"/></g><circle cx="20" cy="20" r="8" fill="#FFD23F" stroke="#C99700" stroke-width="1"/>
+</svg>
+<text x="962.5" y="1151" class="name">Betriebsart</text>
+<text x="962.5" y="1169" class="name">SonneMond_normal</text>
+<text x="962.5" y="1190" class="mass">40 × 40 px</text>
+</g>
+<g id="Betriebsart_SonneMond_normal_animiert">
+<rect x="1159" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1282.5" y="982" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
+<g><animateTransform attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="12s" repeatCount="indefinite"/><path d="M20,4 L20,8 M20,32 L20,36 M4,20 L8,20 M32,20 L36,20 M8.7,8.7 L11.5,11.5 M28.5,28.5 L31.3,31.3 M8.7,31.3 L11.5,28.5 M28.5,11.5 L31.3,8.7" stroke="#F2B600" stroke-width="2.2" stroke-linecap="round"/></g><circle cx="20" cy="20" r="8" fill="#FFD23F" stroke="#C99700" stroke-width="1"/>
+</svg>
+<text x="1342.5" y="1151" class="name">Betriebsart_SonneMond</text>
+<text x="1342.5" y="1169" class="name">normal_animiert</text>
+<text x="1342.5" y="1190" class="mass">40 × 40 px</text>
+</g>
+</svg>

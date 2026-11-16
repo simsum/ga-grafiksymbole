@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="666" viewBox="0 0 1560 666">
+<title>symbole/anzeigen/punkte: 5 Symbole</title>
+<style>text{font-family:Segoe UI, Arial, Helvetica, sans-serif}.name{font-size:15px;font-weight:700;fill:#20242A;text-anchor:middle}.mass{font-size:12px;fill:#69727A;text-anchor:middle}</style>
+<rect width="1560" height="666" fill="#F4F5F7"/>
+<text x="20" y="42" font-size="26" font-weight="700" fill="#30343A">symbole/anzeigen/punkte</text>
+<text x="1540" y="42" font-size="16" fill="#69727A" text-anchor="end">5 Symbole</text>
+<g id="Punkt_blau_blinkend">
+<rect x="19" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="184.5" y="160" width="36" height="36" viewBox="0 0 12 12" overflow="hidden">
+<circle cx="6" cy="6" r="5" fill="#9A9A9A" stroke="#555555" stroke-opacity="0.45" stroke-width="0.8"><animate attributeName="fill" values="#9A9A9A;#4A86D4;#9A9A9A" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="3.5s" repeatCount="indefinite"/></circle>
+  <ellipse cx="4.6" cy="4.2" rx="1.8" ry="1.1" fill="#FFFFFF" opacity="0.45"/>
+</svg>
+<text x="202.5" y="287" class="name">Punkt_blau_blinkend</text>
+<text x="202.5" y="308" class="mass">12 × 12 px</text>
+</g>
+<g id="Punkt_gelb_blinkend">
+<rect x="399" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="564.5" y="160" width="36" height="36" viewBox="0 0 12 12" overflow="hidden">
+<circle cx="6" cy="6" r="5" fill="#9A9A9A" stroke="#555555" stroke-opacity="0.45" stroke-width="0.8"><animate attributeName="fill" values="#9A9A9A;#F2C200;#9A9A9A" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="3.5s" repeatCount="indefinite"/></circle>
+  <ellipse cx="4.6" cy="4.2" rx="1.8" ry="1.1" fill="#FFFFFF" opacity="0.45"/>
+</svg>
+<text x="582.5" y="287" class="name">Punkt_gelb_blinkend</text>
+<text x="582.5" y="308" class="mass">12 × 12 px</text>
+</g>
+<g id="Punkt_grau">
+<rect x="779" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="944.5" y="160" width="36" height="36" viewBox="0 0 12 12" overflow="hidden">
+<circle cx="6" cy="6" r="5" fill="#9A9A9A" stroke="#555555" stroke-opacity="0.45" stroke-width="0.8"></circle>
+  <ellipse cx="4.6" cy="4.2" rx="1.8" ry="1.1" fill="#FFFFFF" opacity="0.45"/>
+</svg>
+<text x="962.5" y="287" class="name">Punkt_grau</text>
+<text x="962.5" y="308" class="mass">12 × 12 px</text>
+</g>
+<g id="Punkt_gruen_blinkend">
+<rect x="1159" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1324.5" y="160" width="36" height="36" viewBox="0 0 12 12" overflow="hidden">
+<circle cx="6" cy="6" r="5" fill="#9A9A9A" stroke="#555555" stroke-opacity="0.45" stroke-width="0.8"><animate attributeName="fill" values="#9A9A9A;#2ECC40;#9A9A9A" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="3.5s" repeatCount="indefinite"/></circle>
+  <ellipse cx="4.6" cy="4.2" rx="1.8" ry="1.1" fill="#FFFFFF" opacity="0.45"/>
+</svg>
+<text x="1342.5" y="287" class="name">Punkt_gruen_blinkend</text>
+<text x="1342.5" y="308" class="mass">12 × 12 px</text>
+</g>
+<g id="Punkt_rot_blinkend">
+<rect x="19" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="184.5" y="448" width="36" height="36" viewBox="0 0 12 12" overflow="hidden">
+<circle cx="6" cy="6" r="5" fill="#9A9A9A" stroke="#555555" stroke-opacity="0.45" stroke-width="0.8"><animate attributeName="fill" values="#9A9A9A;#E0463C;#9A9A9A" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="3.5s" repeatCount="indefinite"/></circle>
+  <ellipse cx="4.6" cy="4.2" rx="1.8" ry="1.1" fill="#FFFFFF" opacity="0.45"/>
+</svg>
+<text x="202.5" y="575" class="name">Punkt_rot_blinkend</text>
+<text x="202.5" y="596" class="mass">12 × 12 px</text>
+</g>
+</svg>

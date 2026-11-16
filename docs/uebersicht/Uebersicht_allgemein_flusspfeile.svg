@@ -1,0 +1,321 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1818" viewBox="0 0 1560 1818">
+<title>symbole/allgemein/flusspfeile: 24 Symbole</title>
+<style>text{font-family:Segoe UI, Arial, Helvetica, sans-serif}.name{font-size:15px;font-weight:700;fill:#20242A;text-anchor:middle}.mass{font-size:12px;fill:#69727A;text-anchor:middle}</style>
+<rect width="1560" height="1818" fill="#F4F5F7"/>
+<text x="20" y="42" font-size="26" font-weight="700" fill="#30343A">symbole/allgemein/flusspfeile</text>
+<text x="1540" y="42" font-size="16" fill="#69727A" text-anchor="end">24 Symbole</text>
+<g id="Flusspfeil_Knick_links_oben">
+<rect x="19" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="166.5" y="142" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
+<g transform="translate(24,24) scale(-1,-1)">
+    <path d="M2,5 L12,5 A7,7 0 0 1 19,12 L23,12 L17,22 L11,12 L15,12 A3,3 0 0 0 12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="202.5" y="287" class="name">Flusspfeil_Knick_links_oben</text>
+<text x="202.5" y="308" class="mass">24 × 24 px</text>
+</g>
+<g id="Flusspfeil_Knick_links_oben_an">
+<rect x="399" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="546.5" y="142" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
+<g transform="translate(24,24) scale(-1,-1)">
+    <path d="M2,5 L12,5 A7,7 0 0 1 19,12 L23,12 L17,22 L11,12 L15,12 A3,3 0 0 0 12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0.8s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
+<text x="582.5" y="287" class="name">Flusspfeil_Knick</text>
+<text x="582.5" y="305" class="name">links_oben_an</text>
+<text x="582.5" y="326" class="mass">24 × 24 px</text>
+</g>
+<g id="Flusspfeil_Knick_links_unten">
+<rect x="779" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="926.5" y="142" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
+<g transform="translate(24,0) scale(-1,1)">
+    <path d="M2,5 L12,5 A7,7 0 0 1 19,12 L23,12 L17,22 L11,12 L15,12 A3,3 0 0 0 12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="962.5" y="287" class="name">Flusspfeil_Knick</text>
+<text x="962.5" y="305" class="name">links_unten</text>
+<text x="962.5" y="326" class="mass">24 × 24 px</text>
+</g>
+<g id="Flusspfeil_Knick_links_unten_an">
+<rect x="1159" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1306.5" y="142" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
+<g transform="translate(24,0) scale(-1,1)">
+    <path d="M2,5 L12,5 A7,7 0 0 1 19,12 L23,12 L17,22 L11,12 L15,12 A3,3 0 0 0 12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0.8s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
+<text x="1342.5" y="287" class="name">Flusspfeil_Knick</text>
+<text x="1342.5" y="305" class="name">links_unten_an</text>
+<text x="1342.5" y="326" class="mass">24 × 24 px</text>
+</g>
+<g id="Flusspfeil_Knick_oben_links">
+<rect x="19" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="166.5" y="430" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
+<g transform="translate(24,24) scale(-1,-1) matrix(0 1 1 0 0 0)">
+    <path d="M2,5 L12,5 A7,7 0 0 1 19,12 L23,12 L17,22 L11,12 L15,12 A3,3 0 0 0 12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="202.5" y="575" class="name">Flusspfeil_Knick_oben_links</text>
+<text x="202.5" y="596" class="mass">24 × 24 px</text>
+</g>
+<g id="Flusspfeil_Knick_oben_links_an">
+<rect x="399" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="546.5" y="430" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
+<g transform="translate(24,24) scale(-1,-1) matrix(0 1 1 0 0 0)">
+    <path d="M2,5 L12,5 A7,7 0 0 1 19,12 L23,12 L17,22 L11,12 L15,12 A3,3 0 0 0 12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0.8s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
+<text x="582.5" y="575" class="name">Flusspfeil_Knick</text>
+<text x="582.5" y="593" class="name">oben_links_an</text>
+<text x="582.5" y="614" class="mass">24 × 24 px</text>
+</g>
+<g id="Flusspfeil_Knick_oben_rechts">
+<rect x="779" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="926.5" y="430" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
+<g transform="translate(0,24) scale(1,-1) matrix(0 1 1 0 0 0)">
+    <path d="M2,5 L12,5 A7,7 0 0 1 19,12 L23,12 L17,22 L11,12 L15,12 A3,3 0 0 0 12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="962.5" y="575" class="name">Flusspfeil_Knick</text>
+<text x="962.5" y="593" class="name">oben_rechts</text>
+<text x="962.5" y="614" class="mass">24 × 24 px</text>
+</g>
+<g id="Flusspfeil_Knick_oben_rechts_an">
+<rect x="1159" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1306.5" y="430" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
+<g transform="translate(0,24) scale(1,-1) matrix(0 1 1 0 0 0)">
+    <path d="M2,5 L12,5 A7,7 0 0 1 19,12 L23,12 L17,22 L11,12 L15,12 A3,3 0 0 0 12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0.8s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
+<text x="1342.5" y="575" class="name">Flusspfeil_Knick</text>
+<text x="1342.5" y="593" class="name">oben_rechts_an</text>
+<text x="1342.5" y="614" class="mass">24 × 24 px</text>
+</g>
+<g id="Flusspfeil_Knick_rechts_oben">
+<rect x="19" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="166.5" y="718" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
+<g transform="translate(0,24) scale(1,-1)">
+    <path d="M2,5 L12,5 A7,7 0 0 1 19,12 L23,12 L17,22 L11,12 L15,12 A3,3 0 0 0 12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="202.5" y="863" class="name">Flusspfeil_Knick</text>
+<text x="202.5" y="881" class="name">rechts_oben</text>
+<text x="202.5" y="902" class="mass">24 × 24 px</text>
+</g>
+<g id="Flusspfeil_Knick_rechts_oben_an">
+<rect x="399" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="546.5" y="718" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
+<g transform="translate(0,24) scale(1,-1)">
+    <path d="M2,5 L12,5 A7,7 0 0 1 19,12 L23,12 L17,22 L11,12 L15,12 A3,3 0 0 0 12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0.8s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
+<text x="582.5" y="863" class="name">Flusspfeil_Knick</text>
+<text x="582.5" y="881" class="name">rechts_oben_an</text>
+<text x="582.5" y="902" class="mass">24 × 24 px</text>
+</g>
+<g id="Flusspfeil_Knick_rechts_unten">
+<rect x="779" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="926.5" y="718" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
+<g>
+    <path d="M2,5 L12,5 A7,7 0 0 1 19,12 L23,12 L17,22 L11,12 L15,12 A3,3 0 0 0 12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="962.5" y="863" class="name">Flusspfeil_Knick</text>
+<text x="962.5" y="881" class="name">rechts_unten</text>
+<text x="962.5" y="902" class="mass">24 × 24 px</text>
+</g>
+<g id="Flusspfeil_Knick_rechts_unten_an">
+<rect x="1159" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1306.5" y="718" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
+<g>
+    <path d="M2,5 L12,5 A7,7 0 0 1 19,12 L23,12 L17,22 L11,12 L15,12 A3,3 0 0 0 12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0.8s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
+<text x="1342.5" y="863" class="name">Flusspfeil_Knick</text>
+<text x="1342.5" y="881" class="name">rechts_unten_an</text>
+<text x="1342.5" y="902" class="mass">24 × 24 px</text>
+</g>
+<g id="Flusspfeil_Knick_unten_links">
+<rect x="19" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="166.5" y="1006" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
+<g transform="translate(24,0) scale(-1,1) matrix(0 1 1 0 0 0)">
+    <path d="M2,5 L12,5 A7,7 0 0 1 19,12 L23,12 L17,22 L11,12 L15,12 A3,3 0 0 0 12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="202.5" y="1151" class="name">Flusspfeil_Knick</text>
+<text x="202.5" y="1169" class="name">unten_links</text>
+<text x="202.5" y="1190" class="mass">24 × 24 px</text>
+</g>
+<g id="Flusspfeil_Knick_unten_links_an">
+<rect x="399" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="546.5" y="1006" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
+<g transform="translate(24,0) scale(-1,1) matrix(0 1 1 0 0 0)">
+    <path d="M2,5 L12,5 A7,7 0 0 1 19,12 L23,12 L17,22 L11,12 L15,12 A3,3 0 0 0 12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0.8s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
+<text x="582.5" y="1151" class="name">Flusspfeil_Knick</text>
+<text x="582.5" y="1169" class="name">unten_links_an</text>
+<text x="582.5" y="1190" class="mass">24 × 24 px</text>
+</g>
+<g id="Flusspfeil_Knick_unten_rechts">
+<rect x="779" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="926.5" y="1006" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)">
+    <path d="M2,5 L12,5 A7,7 0 0 1 19,12 L23,12 L17,22 L11,12 L15,12 A3,3 0 0 0 12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="962.5" y="1151" class="name">Flusspfeil_Knick</text>
+<text x="962.5" y="1169" class="name">unten_rechts</text>
+<text x="962.5" y="1190" class="mass">24 × 24 px</text>
+</g>
+<g id="Flusspfeil_Knick_unten_rechts_an">
+<rect x="1159" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1306.5" y="1006" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)">
+    <path d="M2,5 L12,5 A7,7 0 0 1 19,12 L23,12 L17,22 L11,12 L15,12 A3,3 0 0 0 12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="0" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="1.4s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="3.5 7;12 7;14.5 7.67;16.33 9.5;17 12;17 19" keyTimes="0;0.364;0.476;0.588;0.7;1" dur="1.4s" begin="0.8s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
+<text x="1342.5" y="1151" class="name">Flusspfeil_Knick</text>
+<text x="1342.5" y="1169" class="name">unten_rechts_an</text>
+<text x="1342.5" y="1190" class="mass">24 × 24 px</text>
+</g>
+<g id="Flusspfeil_links">
+<rect x="19" y="1221" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="166.5" y="1309" width="72" height="42" viewBox="0 0 24 14" overflow="hidden">
+<g transform="translate(24,0) scale(-1,1)">
+    <path d="M2,5 L12,5 L12,1 L22,7 L12,13 L12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="202.5" y="1439" class="name">Flusspfeil_links</text>
+<text x="202.5" y="1460" class="mass">24 × 14 px</text>
+</g>
+<g id="Flusspfeil_links_an">
+<rect x="399" y="1221" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="546.5" y="1309" width="72" height="42" viewBox="0 0 24 14" overflow="hidden">
+<g transform="translate(24,0) scale(-1,1)">
+    <path d="M2,5 L12,5 L12,1 L22,7 L12,13 L12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+    <circle cx="3.5" cy="7" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="1.2s" begin="0s" repeatCount="indefinite"/><animate attributeName="cx" values="3.5;19" dur="1.2s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="3.5" cy="7" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="1.2s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="cx" values="3.5;19" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="3.5" cy="7" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="1.2s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="cx" values="3.5;19" dur="1.2s" begin="0.8s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
+<text x="582.5" y="1439" class="name">Flusspfeil_links_an</text>
+<text x="582.5" y="1460" class="mass">24 × 14 px</text>
+</g>
+<g id="Flusspfeil_oben">
+<rect x="779" y="1221" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="941.5" y="1294" width="42" height="72" viewBox="0 0 14 24" overflow="hidden">
+<g transform="translate(0,24) rotate(-90)">
+    <path d="M2,5 L12,5 L12,1 L22,7 L12,13 L12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="962.5" y="1439" class="name">Flusspfeil_oben</text>
+<text x="962.5" y="1460" class="mass">14 × 24 px</text>
+</g>
+<g id="Flusspfeil_oben_an">
+<rect x="1159" y="1221" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1321.5" y="1294" width="42" height="72" viewBox="0 0 14 24" overflow="hidden">
+<g transform="translate(0,24) rotate(-90)">
+    <path d="M2,5 L12,5 L12,1 L22,7 L12,13 L12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+    <circle cx="3.5" cy="7" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="1.2s" begin="0s" repeatCount="indefinite"/><animate attributeName="cx" values="3.5;19" dur="1.2s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="3.5" cy="7" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="1.2s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="cx" values="3.5;19" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="3.5" cy="7" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="1.2s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="cx" values="3.5;19" dur="1.2s" begin="0.8s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
+<text x="1342.5" y="1439" class="name">Flusspfeil_oben_an</text>
+<text x="1342.5" y="1460" class="mass">14 × 24 px</text>
+</g>
+<g id="Flusspfeil_rechts">
+<rect x="19" y="1509" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="1510" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="166.5" y="1597" width="72" height="42" viewBox="0 0 24 14" overflow="hidden">
+<g transform="">
+    <path d="M2,5 L12,5 L12,1 L22,7 L12,13 L12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="202.5" y="1727" class="name">Flusspfeil_rechts</text>
+<text x="202.5" y="1748" class="mass">24 × 14 px</text>
+</g>
+<g id="Flusspfeil_rechts_an">
+<rect x="399" y="1509" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="1510" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="546.5" y="1597" width="72" height="42" viewBox="0 0 24 14" overflow="hidden">
+<g transform="">
+    <path d="M2,5 L12,5 L12,1 L22,7 L12,13 L12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+    <circle cx="3.5" cy="7" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="1.2s" begin="0s" repeatCount="indefinite"/><animate attributeName="cx" values="3.5;19" dur="1.2s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="3.5" cy="7" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="1.2s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="cx" values="3.5;19" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="3.5" cy="7" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="1.2s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="cx" values="3.5;19" dur="1.2s" begin="0.8s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
+<text x="582.5" y="1727" class="name">Flusspfeil_rechts_an</text>
+<text x="582.5" y="1748" class="mass">24 × 14 px</text>
+</g>
+<g id="Flusspfeil_unten">
+<rect x="779" y="1509" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="1510" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="941.5" y="1582" width="42" height="72" viewBox="0 0 14 24" overflow="hidden">
+<g transform="translate(14,0) rotate(90)">
+    <path d="M2,5 L12,5 L12,1 L22,7 L12,13 L12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="962.5" y="1727" class="name">Flusspfeil_unten</text>
+<text x="962.5" y="1748" class="mass">14 × 24 px</text>
+</g>
+<g id="Flusspfeil_unten_an">
+<rect x="1159" y="1509" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="1510" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1321.5" y="1582" width="42" height="72" viewBox="0 0 14 24" overflow="hidden">
+<g transform="translate(14,0) rotate(90)">
+    <path d="M2,5 L12,5 L12,1 L22,7 L12,13 L12,9 L2,9 Z" fill="#2A2A2A" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1" stroke-linejoin="round"/>
+    <circle cx="3.5" cy="7" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="1.2s" begin="0s" repeatCount="indefinite"/><animate attributeName="cx" values="3.5;19" dur="1.2s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="3.5" cy="7" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="1.2s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="cx" values="3.5;19" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="3.5" cy="7" r="1.1" fill="#F2F2F2" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="1.2s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="cx" values="3.5;19" dur="1.2s" begin="0.8s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
+<text x="1342.5" y="1727" class="name">Flusspfeil_unten_an</text>
+<text x="1342.5" y="1748" class="mass">14 × 24 px</text>
+</g>
+</svg>

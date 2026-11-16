@@ -42,7 +42,7 @@ docs/
   STYLEGUIDE.md          Farben, Strichstärken, Proportionen
   NIAGARA.md             Einbindung in Px, Positionierung, Fallstricke
   SYMBOLKATALOG.md       Abmessungen und Anschlusspunkte je Symbol
-  uebersicht/            Übersichtsgrafik je Symbolverzeichnis (PNG)
+  uebersicht/            Übersichtsgrafik je Symbolgruppe (SVG, animierte Symbole laufen mit)
 tools/
   check_symbols.py       Prüft symbole/ auf Regeln (nur SVG, kein <text>, Namensschema)
   text_zu_pfad.ps1       Wandelt <text> in einer SVG in Pfade um (Windows)
@@ -54,7 +54,7 @@ tools/
   klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/
   monatsleiste.ps1       Erzeugt symbole/fun/navigation/Fun_Monatsleiste.svg (Windows, Schrift als Pfade)
   zip_erstellen.py       Packt symbole/ und LICENSE in dist/ga-grafiksymbole.zip (von der Action genutzt)
-  uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ aus den SVGs (Pillow, resvg-py)
+  uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ aus den SVGs (ohne Zusatzpakete)
 ```
 
 ## Download
@@ -67,91 +67,91 @@ Es wird bei jeder Änderung an `symbole/` automatisch von einer GitHub Action ge
 
 ## Übersicht der Symbole
 
-Jede Grafik zeigt alle Symbole eines Verzeichnisses mit Dateinamen und Größe.
+Jede Grafik zeigt alle Symbole einer Gruppe mit Dateinamen und Größe. Die Symbole sind direkt eingebettet, animierte Symbole bewegen sich daher auch hier (im Browser; die GitHub-App zeigt je nach Version nur ein Standbild).
 
 ### Allgemein – `symbole/allgemein`
 
 **Flusspfeile** (`flusspfeile`)
-![Flusspfeile](docs/uebersicht/Uebersicht_allgemein_flusspfeile.png)
+![Flusspfeile](docs/uebersicht/Uebersicht_allgemein_flusspfeile.svg)
 
 **Trennung** (`trennung`)
-![Trennung](docs/uebersicht/Uebersicht_allgemein_trennung.png)
+![Trennung](docs/uebersicht/Uebersicht_allgemein_trennung.svg)
 
 ### Lüftung – `symbole/lueftung`
 
 **Klimageräte** (`klimageraete`)
-![Klimageräte](docs/uebersicht/Uebersicht_lueftung_klimageraete.png)
+![Klimageräte](docs/uebersicht/Uebersicht_lueftung_klimageraete.svg)
 
 **Luftdurchlässe** (`luftdurchlaesse`)
-![Luftdurchlässe](docs/uebersicht/Uebersicht_lueftung_luftdurchlaesse.png)
+![Luftdurchlässe](docs/uebersicht/Uebersicht_lueftung_luftdurchlaesse.svg)
 
 **Volumenstromregler** (`volumenstromregler`)
-![Volumenstromregler](docs/uebersicht/Uebersicht_lueftung_volumenstromregler.png)
+![Volumenstromregler](docs/uebersicht/Uebersicht_lueftung_volumenstromregler.svg)
 
 **Wärmerückgewinnung** (`wrg`)
-![WRG](docs/uebersicht/Uebersicht_lueftung_wrg.png)
+![WRG](docs/uebersicht/Uebersicht_lueftung_wrg.svg)
 
 **Klappen** (`klappen`)
-![Klappen](docs/uebersicht/Uebersicht_lueftung_klappen.png)
+![Klappen](docs/uebersicht/Uebersicht_lueftung_klappen.svg)
 
 ### Hydraulik – `symbole/hydraulik`
 
 **Armaturen** (`armaturen`)
-![Armaturen](docs/uebersicht/Uebersicht_hydraulik_armaturen.png)
+![Armaturen](docs/uebersicht/Uebersicht_hydraulik_armaturen.svg)
 
 **Pumpen** (`pumpen`)
-![Pumpen](docs/uebersicht/Uebersicht_hydraulik_pumpen.png)
+![Pumpen](docs/uebersicht/Uebersicht_hydraulik_pumpen.svg)
 
 **Erzeuger** (`erzeuger`)
-![Erzeuger](docs/uebersicht/Uebersicht_hydraulik_erzeuger.png)
+![Erzeuger](docs/uebersicht/Uebersicht_hydraulik_erzeuger.svg)
 
 **Speicher** (`speicher`)
-![Speicher](docs/uebersicht/Uebersicht_hydraulik_speicher.png)
+![Speicher](docs/uebersicht/Uebersicht_hydraulik_speicher.svg)
 
 **Zähler** (`zaehler`)
-![Zähler](docs/uebersicht/Uebersicht_hydraulik_zaehler.png)
+![Zähler](docs/uebersicht/Uebersicht_hydraulik_zaehler.svg)
 
 ### Anzeigen – `symbole/anzeigen`
 
 **LEDs** (`led`)
-![LEDs](docs/uebersicht/Uebersicht_anzeigen_led.png)
+![LEDs](docs/uebersicht/Uebersicht_anzeigen_led.svg)
 
 **Punkte** (`punkte`)
-![Punkte](docs/uebersicht/Uebersicht_anzeigen_punkte.png)
+![Punkte](docs/uebersicht/Uebersicht_anzeigen_punkte.svg)
 
 **Betriebsart** (`betriebsart`)
-![Betriebsart](docs/uebersicht/Uebersicht_anzeigen_betriebsart.png)
+![Betriebsart](docs/uebersicht/Uebersicht_anzeigen_betriebsart.svg)
 
 ### Fun – `symbole/fun`
 
 **Anzeigen** (`anzeigen`)
-![Fun-Anzeigen](docs/uebersicht/Uebersicht_fun_anzeigen.png)
+![Fun-Anzeigen](docs/uebersicht/Uebersicht_fun_anzeigen.svg)
 
 **Pumpen** (`hydraulik/pumpen`)
-![Fun-Pumpen](docs/uebersicht/Uebersicht_fun_hydraulik_pumpen.png)
+![Fun-Pumpen](docs/uebersicht/Uebersicht_fun_hydraulik_pumpen.svg)
 
 **Speicher** (`hydraulik/speicher`)
-![Fun-Speicher](docs/uebersicht/Uebersicht_fun_hydraulik_speicher.png)
+![Fun-Speicher](docs/uebersicht/Uebersicht_fun_hydraulik_speicher.svg)
 
 **Navigation** (`navigation`)
-![Fun-Navigation](docs/uebersicht/Uebersicht_fun_navigation.png)
+![Fun-Navigation](docs/uebersicht/Uebersicht_fun_navigation.svg)
 
 ### Topologie – `symbole/topologie`
 
 **Automation: Controller, I/O-Module, Leitrechner** (`automation`)
-![Automation](docs/uebersicht/Uebersicht_topologie_automation.png)
+![Automation](docs/uebersicht/Uebersicht_topologie_automation.svg)
 
 **Netzwerk** (`netzwerk`)
-![Netzwerk](docs/uebersicht/Uebersicht_topologie_netzwerk.png)
+![Netzwerk](docs/uebersicht/Uebersicht_topologie_netzwerk.svg)
 
 **Allgemeine Geräte** (`geraete`)
-![Geräte](docs/uebersicht/Uebersicht_topologie_geraete.png)
+![Geräte](docs/uebersicht/Uebersicht_topologie_geraete.svg)
 
 **Feldgeräte: Energieventile, Energie- und Wasserzähler** (`feldgeraete`)
-![Feldgeräte](docs/uebersicht/Uebersicht_topologie_feldgeraete.png)
+![Feldgeräte](docs/uebersicht/Uebersicht_topologie_feldgeraete.svg)
 
 **Schaltschränke** (`schaltschraenke`)
-![Schaltschränke](docs/uebersicht/Uebersicht_topologie_schaltschraenke.png)
+![Schaltschränke](docs/uebersicht/Uebersicht_topologie_schaltschraenke.svg)
 
 ## Verwendung in Niagara
 

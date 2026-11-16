@@ -1,0 +1,257 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1530" viewBox="0 0 1560 1530">
+<title>symbole/allgemein/trennung: 20 Symbole</title>
+<style>text{font-family:Segoe UI, Arial, Helvetica, sans-serif}.name{font-size:15px;font-weight:700;fill:#20242A;text-anchor:middle}.mass{font-size:12px;fill:#69727A;text-anchor:middle}</style>
+<rect width="1560" height="1530" fill="#F4F5F7"/>
+<text x="20" y="42" font-size="26" font-weight="700" fill="#30343A">symbole/allgemein/trennung</text>
+<text x="1540" y="42" font-size="16" fill="#69727A" text-anchor="end">20 Symbole</text>
+<g id="Trennung_120_senkrecht">
+<rect x="19" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="191.5" y="95.5" width="22" height="165" viewBox="0 0 16 120" overflow="hidden">
+<g fill="none" transform="matrix(0 1 1 0 0 0)">
+    <path d="M0,1.5 L120,1.5 M0,14.5 L120,14.5" stroke="#C8C8D0" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L64,3.5 M63,12.5 L72,3.5 M71,12.5 L80,3.5 M79,12.5 L88,3.5 M87,12.5 L96,3.5 M95,12.5 L104,3.5 M103,12.5 L112,3.5 M111,12.5 L120,3.5 M119,12.5 L120,11.5" stroke="#9A9AA6" stroke-width="1.2"/>
+  </g>
+</svg>
+<text x="202.5" y="287" class="name">Trennung_120_senkrecht</text>
+<text x="202.5" y="308" class="mass">16 × 120 px</text>
+</g>
+<g id="Trennung_120_senkrecht_dunkel">
+<rect x="399" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="571.5" y="95.5" width="22" height="165" viewBox="0 0 16 120" overflow="hidden">
+<g fill="none" transform="matrix(0 1 1 0 0 0)">
+    <path d="M0,1.5 L120,1.5 M0,14.5 L120,14.5" stroke="#555555" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L64,3.5 M63,12.5 L72,3.5 M71,12.5 L80,3.5 M79,12.5 L88,3.5 M87,12.5 L96,3.5 M95,12.5 L104,3.5 M103,12.5 L112,3.5 M111,12.5 L120,3.5 M119,12.5 L120,11.5" stroke="#888888" stroke-width="1.2"/>
+  </g>
+</svg>
+<text x="582.5" y="287" class="name">Trennung_120</text>
+<text x="582.5" y="305" class="name">senkrecht_dunkel</text>
+<text x="582.5" y="326" class="mass">16 × 120 px</text>
+</g>
+<g id="Trennung_120_waagerecht">
+<rect x="779" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="159.33" width="280" height="37.33" viewBox="0 0 120 16" overflow="hidden">
+<g fill="none">
+    <path d="M0,1.5 L120,1.5 M0,14.5 L120,14.5" stroke="#C8C8D0" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L64,3.5 M63,12.5 L72,3.5 M71,12.5 L80,3.5 M79,12.5 L88,3.5 M87,12.5 L96,3.5 M95,12.5 L104,3.5 M103,12.5 L112,3.5 M111,12.5 L120,3.5 M119,12.5 L120,11.5" stroke="#9A9AA6" stroke-width="1.2"/>
+  </g>
+</svg>
+<text x="962.5" y="287" class="name">Trennung_120_waagerecht</text>
+<text x="962.5" y="308" class="mass">120 × 16 px</text>
+</g>
+<g id="Trennung_120_waagerecht_dunkel">
+<rect x="1159" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1202.5" y="159.33" width="280" height="37.33" viewBox="0 0 120 16" overflow="hidden">
+<g fill="none">
+    <path d="M0,1.5 L120,1.5 M0,14.5 L120,14.5" stroke="#555555" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L64,3.5 M63,12.5 L72,3.5 M71,12.5 L80,3.5 M79,12.5 L88,3.5 M87,12.5 L96,3.5 M95,12.5 L104,3.5 M103,12.5 L112,3.5 M111,12.5 L120,3.5 M119,12.5 L120,11.5" stroke="#888888" stroke-width="1.2"/>
+  </g>
+</svg>
+<text x="1342.5" y="287" class="name">Trennung_120</text>
+<text x="1342.5" y="305" class="name">waagerecht_dunkel</text>
+<text x="1342.5" y="326" class="mass">120 × 16 px</text>
+</g>
+<g id="Trennung_180_senkrecht">
+<rect x="19" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="195.17" y="383.5" width="14.67" height="165" viewBox="0 0 16 180" overflow="hidden">
+<g fill="none" transform="matrix(0 1 1 0 0 0)">
+    <path d="M0,1.5 L180,1.5 M0,14.5 L180,14.5" stroke="#C8C8D0" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L64,3.5 M63,12.5 L72,3.5 M71,12.5 L80,3.5 M79,12.5 L88,3.5 M87,12.5 L96,3.5 M95,12.5 L104,3.5 M103,12.5 L112,3.5 M111,12.5 L120,3.5 M119,12.5 L128,3.5 M127,12.5 L136,3.5 M135,12.5 L144,3.5 M143,12.5 L152,3.5 M151,12.5 L160,3.5 M159,12.5 L168,3.5 M167,12.5 L176,3.5 M175,12.5 L180,7.5" stroke="#9A9AA6" stroke-width="1.2"/>
+  </g>
+</svg>
+<text x="202.5" y="575" class="name">Trennung_180_senkrecht</text>
+<text x="202.5" y="596" class="mass">16 × 180 px</text>
+</g>
+<g id="Trennung_180_senkrecht_dunkel">
+<rect x="399" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="575.17" y="383.5" width="14.67" height="165" viewBox="0 0 16 180" overflow="hidden">
+<g fill="none" transform="matrix(0 1 1 0 0 0)">
+    <path d="M0,1.5 L180,1.5 M0,14.5 L180,14.5" stroke="#555555" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L64,3.5 M63,12.5 L72,3.5 M71,12.5 L80,3.5 M79,12.5 L88,3.5 M87,12.5 L96,3.5 M95,12.5 L104,3.5 M103,12.5 L112,3.5 M111,12.5 L120,3.5 M119,12.5 L128,3.5 M127,12.5 L136,3.5 M135,12.5 L144,3.5 M143,12.5 L152,3.5 M151,12.5 L160,3.5 M159,12.5 L168,3.5 M167,12.5 L176,3.5 M175,12.5 L180,7.5" stroke="#888888" stroke-width="1.2"/>
+  </g>
+</svg>
+<text x="582.5" y="575" class="name">Trennung_180</text>
+<text x="582.5" y="593" class="name">senkrecht_dunkel</text>
+<text x="582.5" y="614" class="mass">16 × 180 px</text>
+</g>
+<g id="Trennung_180_waagerecht">
+<rect x="779" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="453.56" width="280" height="24.89" viewBox="0 0 180 16" overflow="hidden">
+<g fill="none">
+    <path d="M0,1.5 L180,1.5 M0,14.5 L180,14.5" stroke="#C8C8D0" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L64,3.5 M63,12.5 L72,3.5 M71,12.5 L80,3.5 M79,12.5 L88,3.5 M87,12.5 L96,3.5 M95,12.5 L104,3.5 M103,12.5 L112,3.5 M111,12.5 L120,3.5 M119,12.5 L128,3.5 M127,12.5 L136,3.5 M135,12.5 L144,3.5 M143,12.5 L152,3.5 M151,12.5 L160,3.5 M159,12.5 L168,3.5 M167,12.5 L176,3.5 M175,12.5 L180,7.5" stroke="#9A9AA6" stroke-width="1.2"/>
+  </g>
+</svg>
+<text x="962.5" y="575" class="name">Trennung_180_waagerecht</text>
+<text x="962.5" y="596" class="mass">180 × 16 px</text>
+</g>
+<g id="Trennung_180_waagerecht_dunkel">
+<rect x="1159" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1202.5" y="453.56" width="280" height="24.89" viewBox="0 0 180 16" overflow="hidden">
+<g fill="none">
+    <path d="M0,1.5 L180,1.5 M0,14.5 L180,14.5" stroke="#555555" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L64,3.5 M63,12.5 L72,3.5 M71,12.5 L80,3.5 M79,12.5 L88,3.5 M87,12.5 L96,3.5 M95,12.5 L104,3.5 M103,12.5 L112,3.5 M111,12.5 L120,3.5 M119,12.5 L128,3.5 M127,12.5 L136,3.5 M135,12.5 L144,3.5 M143,12.5 L152,3.5 M151,12.5 L160,3.5 M159,12.5 L168,3.5 M167,12.5 L176,3.5 M175,12.5 L180,7.5" stroke="#888888" stroke-width="1.2"/>
+  </g>
+</svg>
+<text x="1342.5" y="575" class="name">Trennung_180</text>
+<text x="1342.5" y="593" class="name">waagerecht_dunkel</text>
+<text x="1342.5" y="614" class="mass">180 × 16 px</text>
+</g>
+<g id="Trennung_240_senkrecht">
+<rect x="19" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="197" y="671.5" width="11" height="165" viewBox="0 0 16 240" overflow="hidden">
+<g fill="none" transform="matrix(0 1 1 0 0 0)">
+    <path d="M0,1.5 L240,1.5 M0,14.5 L240,14.5" stroke="#C8C8D0" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L64,3.5 M63,12.5 L72,3.5 M71,12.5 L80,3.5 M79,12.5 L88,3.5 M87,12.5 L96,3.5 M95,12.5 L104,3.5 M103,12.5 L112,3.5 M111,12.5 L120,3.5 M119,12.5 L128,3.5 M127,12.5 L136,3.5 M135,12.5 L144,3.5 M143,12.5 L152,3.5 M151,12.5 L160,3.5 M159,12.5 L168,3.5 M167,12.5 L176,3.5 M175,12.5 L184,3.5 M183,12.5 L192,3.5 M191,12.5 L200,3.5 M199,12.5 L208,3.5 M207,12.5 L216,3.5 M215,12.5 L224,3.5 M223,12.5 L232,3.5 M231,12.5 L240,3.5 M239,12.5 L240,11.5" stroke="#9A9AA6" stroke-width="1.2"/>
+  </g>
+</svg>
+<text x="202.5" y="863" class="name">Trennung_240_senkrecht</text>
+<text x="202.5" y="884" class="mass">16 × 240 px</text>
+</g>
+<g id="Trennung_240_senkrecht_dunkel">
+<rect x="399" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="577" y="671.5" width="11" height="165" viewBox="0 0 16 240" overflow="hidden">
+<g fill="none" transform="matrix(0 1 1 0 0 0)">
+    <path d="M0,1.5 L240,1.5 M0,14.5 L240,14.5" stroke="#555555" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L64,3.5 M63,12.5 L72,3.5 M71,12.5 L80,3.5 M79,12.5 L88,3.5 M87,12.5 L96,3.5 M95,12.5 L104,3.5 M103,12.5 L112,3.5 M111,12.5 L120,3.5 M119,12.5 L128,3.5 M127,12.5 L136,3.5 M135,12.5 L144,3.5 M143,12.5 L152,3.5 M151,12.5 L160,3.5 M159,12.5 L168,3.5 M167,12.5 L176,3.5 M175,12.5 L184,3.5 M183,12.5 L192,3.5 M191,12.5 L200,3.5 M199,12.5 L208,3.5 M207,12.5 L216,3.5 M215,12.5 L224,3.5 M223,12.5 L232,3.5 M231,12.5 L240,3.5 M239,12.5 L240,11.5" stroke="#888888" stroke-width="1.2"/>
+  </g>
+</svg>
+<text x="582.5" y="863" class="name">Trennung_240</text>
+<text x="582.5" y="881" class="name">senkrecht_dunkel</text>
+<text x="582.5" y="902" class="mass">16 × 240 px</text>
+</g>
+<g id="Trennung_240_waagerecht">
+<rect x="779" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="744.67" width="280" height="18.67" viewBox="0 0 240 16" overflow="hidden">
+<g fill="none">
+    <path d="M0,1.5 L240,1.5 M0,14.5 L240,14.5" stroke="#C8C8D0" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L64,3.5 M63,12.5 L72,3.5 M71,12.5 L80,3.5 M79,12.5 L88,3.5 M87,12.5 L96,3.5 M95,12.5 L104,3.5 M103,12.5 L112,3.5 M111,12.5 L120,3.5 M119,12.5 L128,3.5 M127,12.5 L136,3.5 M135,12.5 L144,3.5 M143,12.5 L152,3.5 M151,12.5 L160,3.5 M159,12.5 L168,3.5 M167,12.5 L176,3.5 M175,12.5 L184,3.5 M183,12.5 L192,3.5 M191,12.5 L200,3.5 M199,12.5 L208,3.5 M207,12.5 L216,3.5 M215,12.5 L224,3.5 M223,12.5 L232,3.5 M231,12.5 L240,3.5 M239,12.5 L240,11.5" stroke="#9A9AA6" stroke-width="1.2"/>
+  </g>
+</svg>
+<text x="962.5" y="863" class="name">Trennung_240_waagerecht</text>
+<text x="962.5" y="884" class="mass">240 × 16 px</text>
+</g>
+<g id="Trennung_240_waagerecht_dunkel">
+<rect x="1159" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1202.5" y="744.67" width="280" height="18.67" viewBox="0 0 240 16" overflow="hidden">
+<g fill="none">
+    <path d="M0,1.5 L240,1.5 M0,14.5 L240,14.5" stroke="#555555" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L64,3.5 M63,12.5 L72,3.5 M71,12.5 L80,3.5 M79,12.5 L88,3.5 M87,12.5 L96,3.5 M95,12.5 L104,3.5 M103,12.5 L112,3.5 M111,12.5 L120,3.5 M119,12.5 L128,3.5 M127,12.5 L136,3.5 M135,12.5 L144,3.5 M143,12.5 L152,3.5 M151,12.5 L160,3.5 M159,12.5 L168,3.5 M167,12.5 L176,3.5 M175,12.5 L184,3.5 M183,12.5 L192,3.5 M191,12.5 L200,3.5 M199,12.5 L208,3.5 M207,12.5 L216,3.5 M215,12.5 L224,3.5 M223,12.5 L232,3.5 M231,12.5 L240,3.5 M239,12.5 L240,11.5" stroke="#888888" stroke-width="1.2"/>
+  </g>
+</svg>
+<text x="1342.5" y="863" class="name">Trennung_240</text>
+<text x="1342.5" y="881" class="name">waagerecht_dunkel</text>
+<text x="1342.5" y="902" class="mass">240 × 16 px</text>
+</g>
+<g id="Trennung_300_senkrecht">
+<rect x="19" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="198.1" y="959.5" width="8.8" height="165" viewBox="0 0 16 300" overflow="hidden">
+<g fill="none" transform="matrix(0 1 1 0 0 0)">
+    <path d="M0,1.5 L300,1.5 M0,14.5 L300,14.5" stroke="#C8C8D0" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L64,3.5 M63,12.5 L72,3.5 M71,12.5 L80,3.5 M79,12.5 L88,3.5 M87,12.5 L96,3.5 M95,12.5 L104,3.5 M103,12.5 L112,3.5 M111,12.5 L120,3.5 M119,12.5 L128,3.5 M127,12.5 L136,3.5 M135,12.5 L144,3.5 M143,12.5 L152,3.5 M151,12.5 L160,3.5 M159,12.5 L168,3.5 M167,12.5 L176,3.5 M175,12.5 L184,3.5 M183,12.5 L192,3.5 M191,12.5 L200,3.5 M199,12.5 L208,3.5 M207,12.5 L216,3.5 M215,12.5 L224,3.5 M223,12.5 L232,3.5 M231,12.5 L240,3.5 M239,12.5 L248,3.5 M247,12.5 L256,3.5 M255,12.5 L264,3.5 M263,12.5 L272,3.5 M271,12.5 L280,3.5 M279,12.5 L288,3.5 M287,12.5 L296,3.5 M295,12.5 L300,7.5" stroke="#9A9AA6" stroke-width="1.2"/>
+  </g>
+</svg>
+<text x="202.5" y="1151" class="name">Trennung_300_senkrecht</text>
+<text x="202.5" y="1172" class="mass">16 × 300 px</text>
+</g>
+<g id="Trennung_300_senkrecht_dunkel">
+<rect x="399" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="578.1" y="959.5" width="8.8" height="165" viewBox="0 0 16 300" overflow="hidden">
+<g fill="none" transform="matrix(0 1 1 0 0 0)">
+    <path d="M0,1.5 L300,1.5 M0,14.5 L300,14.5" stroke="#555555" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L64,3.5 M63,12.5 L72,3.5 M71,12.5 L80,3.5 M79,12.5 L88,3.5 M87,12.5 L96,3.5 M95,12.5 L104,3.5 M103,12.5 L112,3.5 M111,12.5 L120,3.5 M119,12.5 L128,3.5 M127,12.5 L136,3.5 M135,12.5 L144,3.5 M143,12.5 L152,3.5 M151,12.5 L160,3.5 M159,12.5 L168,3.5 M167,12.5 L176,3.5 M175,12.5 L184,3.5 M183,12.5 L192,3.5 M191,12.5 L200,3.5 M199,12.5 L208,3.5 M207,12.5 L216,3.5 M215,12.5 L224,3.5 M223,12.5 L232,3.5 M231,12.5 L240,3.5 M239,12.5 L248,3.5 M247,12.5 L256,3.5 M255,12.5 L264,3.5 M263,12.5 L272,3.5 M271,12.5 L280,3.5 M279,12.5 L288,3.5 M287,12.5 L296,3.5 M295,12.5 L300,7.5" stroke="#888888" stroke-width="1.2"/>
+  </g>
+</svg>
+<text x="582.5" y="1151" class="name">Trennung_300</text>
+<text x="582.5" y="1169" class="name">senkrecht_dunkel</text>
+<text x="582.5" y="1190" class="mass">16 × 300 px</text>
+</g>
+<g id="Trennung_300_waagerecht">
+<rect x="779" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="1034.53" width="280" height="14.93" viewBox="0 0 300 16" overflow="hidden">
+<g fill="none">
+    <path d="M0,1.5 L300,1.5 M0,14.5 L300,14.5" stroke="#C8C8D0" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L64,3.5 M63,12.5 L72,3.5 M71,12.5 L80,3.5 M79,12.5 L88,3.5 M87,12.5 L96,3.5 M95,12.5 L104,3.5 M103,12.5 L112,3.5 M111,12.5 L120,3.5 M119,12.5 L128,3.5 M127,12.5 L136,3.5 M135,12.5 L144,3.5 M143,12.5 L152,3.5 M151,12.5 L160,3.5 M159,12.5 L168,3.5 M167,12.5 L176,3.5 M175,12.5 L184,3.5 M183,12.5 L192,3.5 M191,12.5 L200,3.5 M199,12.5 L208,3.5 M207,12.5 L216,3.5 M215,12.5 L224,3.5 M223,12.5 L232,3.5 M231,12.5 L240,3.5 M239,12.5 L248,3.5 M247,12.5 L256,3.5 M255,12.5 L264,3.5 M263,12.5 L272,3.5 M271,12.5 L280,3.5 M279,12.5 L288,3.5 M287,12.5 L296,3.5 M295,12.5 L300,7.5" stroke="#9A9AA6" stroke-width="1.2"/>
+  </g>
+</svg>
+<text x="962.5" y="1151" class="name">Trennung_300_waagerecht</text>
+<text x="962.5" y="1172" class="mass">300 × 16 px</text>
+</g>
+<g id="Trennung_300_waagerecht_dunkel">
+<rect x="1159" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1202.5" y="1034.53" width="280" height="14.93" viewBox="0 0 300 16" overflow="hidden">
+<g fill="none">
+    <path d="M0,1.5 L300,1.5 M0,14.5 L300,14.5" stroke="#555555" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L64,3.5 M63,12.5 L72,3.5 M71,12.5 L80,3.5 M79,12.5 L88,3.5 M87,12.5 L96,3.5 M95,12.5 L104,3.5 M103,12.5 L112,3.5 M111,12.5 L120,3.5 M119,12.5 L128,3.5 M127,12.5 L136,3.5 M135,12.5 L144,3.5 M143,12.5 L152,3.5 M151,12.5 L160,3.5 M159,12.5 L168,3.5 M167,12.5 L176,3.5 M175,12.5 L184,3.5 M183,12.5 L192,3.5 M191,12.5 L200,3.5 M199,12.5 L208,3.5 M207,12.5 L216,3.5 M215,12.5 L224,3.5 M223,12.5 L232,3.5 M231,12.5 L240,3.5 M239,12.5 L248,3.5 M247,12.5 L256,3.5 M255,12.5 L264,3.5 M263,12.5 L272,3.5 M271,12.5 L280,3.5 M279,12.5 L288,3.5 M287,12.5 L296,3.5 M295,12.5 L300,7.5" stroke="#888888" stroke-width="1.2"/>
+  </g>
+</svg>
+<text x="1342.5" y="1151" class="name">Trennung_300</text>
+<text x="1342.5" y="1169" class="name">waagerecht_dunkel</text>
+<text x="1342.5" y="1190" class="mass">300 × 16 px</text>
+</g>
+<g id="Trennung_60_senkrecht">
+<rect x="19" y="1221" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="180.5" y="1247.5" width="44" height="165" viewBox="0 0 16 60" overflow="hidden">
+<g fill="none" transform="matrix(0 1 1 0 0 0)">
+    <path d="M0,1.5 L60,1.5 M0,14.5 L60,14.5" stroke="#C8C8D0" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L60,7.5" stroke="#9A9AA6" stroke-width="1.2"/>
+  </g>
+</svg>
+<text x="202.5" y="1439" class="name">Trennung_60_senkrecht</text>
+<text x="202.5" y="1460" class="mass">16 × 60 px</text>
+</g>
+<g id="Trennung_60_senkrecht_dunkel">
+<rect x="399" y="1221" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="560.5" y="1247.5" width="44" height="165" viewBox="0 0 16 60" overflow="hidden">
+<g fill="none" transform="matrix(0 1 1 0 0 0)">
+    <path d="M0,1.5 L60,1.5 M0,14.5 L60,14.5" stroke="#555555" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L60,7.5" stroke="#888888" stroke-width="1.2"/>
+  </g>
+</svg>
+<text x="582.5" y="1439" class="name">Trennung_60</text>
+<text x="582.5" y="1457" class="name">senkrecht_dunkel</text>
+<text x="582.5" y="1478" class="mass">16 × 60 px</text>
+</g>
+<g id="Trennung_60_waagerecht">
+<rect x="779" y="1221" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="872.5" y="1306" width="180" height="48" viewBox="0 0 60 16" overflow="hidden">
+<g fill="none">
+    <path d="M0,1.5 L60,1.5 M0,14.5 L60,14.5" stroke="#C8C8D0" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L60,7.5" stroke="#9A9AA6" stroke-width="1.2"/>
+  </g>
+</svg>
+<text x="962.5" y="1439" class="name">Trennung_60_waagerecht</text>
+<text x="962.5" y="1460" class="mass">60 × 16 px</text>
+</g>
+<g id="Trennung_60_waagerecht_dunkel">
+<rect x="1159" y="1221" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1252.5" y="1306" width="180" height="48" viewBox="0 0 60 16" overflow="hidden">
+<g fill="none">
+    <path d="M0,1.5 L60,1.5 M0,14.5 L60,14.5" stroke="#555555" stroke-width="1.5"/>
+    <path d="M0,11.5 L8,3.5 M7,12.5 L16,3.5 M15,12.5 L24,3.5 M23,12.5 L32,3.5 M31,12.5 L40,3.5 M39,12.5 L48,3.5 M47,12.5 L56,3.5 M55,12.5 L60,7.5" stroke="#888888" stroke-width="1.2"/>
+  </g>
+</svg>
+<text x="1342.5" y="1439" class="name">Trennung_60</text>
+<text x="1342.5" y="1457" class="name">waagerecht_dunkel</text>
+<text x="1342.5" y="1478" class="mass">60 × 16 px</text>
+</g>
+</svg>

@@ -1,23 +1,21 @@
 #!/usr/bin/env python3
 """Erzeugt die Übersichtsgrafiken unter docs/uebersicht/ aus den Symbolen unter symbole/.
 
-Je Symbolverzeichnis eine Grafik mit allen Symbolen (Kachel mit Vorschau,
-Dateiname und Größe). Alle Verzeichnisse unterhalb von symbole/ mit SVGs werden
-berücksichtigt. Animierte SVGs erscheinen im Ausgangszustand.
+Je Symbolgruppe eine SVG-Grafik mit allen Symbolen (Kachel mit Vorschau, Dateiname und
+Größe). Die Symbole werden als verschachtelte <svg> direkt eingebettet, animierte Symbole
+laufen daher auch in der Übersicht (z. B. in der README auf GitHub). Damit sich die
+Symbole nicht gegenseitig stören, erhalten alle IDs und url(#…)-Verweise je Kachel
+ein eigenes Präfix.
 
-Benötigt Pillow und resvg-py (pip install pillow resvg-py); die Vorschauen werden
-direkt aus den SVGs gerendert.
+Keine zusätzlichen Pakete nötig.
 
 Aufruf: python tools/uebersichten.py [Zielordner]
         python tools/uebersichten.py --nur lueftung [Zielordner]
 """
-import io
 import re
 import sys
 from pathlib import Path
-
-import resvg_py as _resvg
-from PIL import Image, ImageDraw, ImageFont
+from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parent.parent
 SYMBOLE = ROOT / "symbole"
@@ -33,25 +31,18 @@ VORSCHAU_MITTE_Y = 108              # Mitte der Box in der Kachel
 MAX_MASSSTAB = 3                    # kleine Symbole nicht stärker vergrößern
 MAX_ZEICHEN = 27                    # längere Namen werden zweizeilig
 
-HINTERGRUND = (244, 245, 247)
-KACHEL = (200, 200, 200)
-KACHEL_RAND = (187, 189, 192)
-KACHEL_SCHATTEN = (209, 211, 215)
-TITEL = (48, 52, 58)
-NAME = (32, 36, 42)
-GRAU = (105, 114, 122)
+HINTERGRUND = "#F4F5F7"
+KACHEL = "#C8C8C8"
+KACHEL_RAND = "#BBBDC0"
+KACHEL_SCHATTEN = "#D1D3D7"
+TITEL = "#30343A"
+NAME = "#20242A"
+GRAU = "#69727A"
+SCHRIFT = "Segoe UI, Arial, Helvetica, sans-serif"
 
-SCHRIFTEN_FETT = ["arialbd.ttf", "LiberationSans-Bold.ttf", "DejaVuSans-Bold.ttf", "Helvetica-Bold.ttf"]
-SCHRIFTEN_NORMAL = ["arial.ttf", "LiberationSans-Regular.ttf", "DejaVuSans.ttf", "Helvetica.ttf"]
-
-
-def schrift(namen: list[str], groesse: int) -> ImageFont.FreeTypeFont:
-    for n in namen:
-        try:
-            return ImageFont.truetype(n, groesse)
-        except OSError:
-            continue
-    raise SystemExit("Keine passende Schrift gefunden (Arial, Liberation Sans oder DejaVu Sans installieren).")
+ID_RE = re.compile(r'\bid="([^"]+)"')
+URL_RE = re.compile(r"url\(\s*#([^)\s]+)\s*\)")
+HREF_RE = re.compile(r'\b((?:xlink:)?href)="#([^"]+)"')
 
 
 def namenszeilen(name: str) -> list[str]:
@@ -63,57 +54,90 @@ def namenszeilen(name: str) -> list[str]:
     return [name[:i], name[i + 1:]]
 
 
-def svg_groesse(svg: Path) -> tuple[int, int]:
-    """Liest die Größe aus width/height, ersatzweise aus der viewBox des Wurzelelements."""
-    kopf = re.search(r"<svg\b[^>]*>", svg.read_text(encoding="utf-8"), re.S).group(0)
+def zerlegen(text: str) -> tuple[str, str]:
+    """Liefert (Kopf des <svg>-Wurzelelements, Inhalt) ohne XML-Deklaration, DOCTYPE, Kommentare und <metadata>."""
+    text = re.sub(r"<\?xml[^>]*\?>|<!DOCTYPE[^>]*>|<!--.*?-->|<metadata\b.*?</metadata>", "", text, flags=re.S)
+    kopf = re.search(r"<svg\b[^>]*>", text, re.S)
+    ende = text.rfind("</svg>")
+    return kopf.group(0), text[kopf.end():ende].strip()
+
+
+def svg_groesse(kopf: str) -> tuple[float, float, str]:
+    """Breite, Höhe und viewBox aus dem Wurzelelement; fehlende Werte aus dem jeweils anderen."""
     w = re.search(r'\swidth="([\d.]+)', kopf)
     h = re.search(r'\sheight="([\d.]+)', kopf)
-    if w and h:
-        return round(float(w.group(1))), round(float(h.group(1)))
-    vb = re.search(r'viewBox="[\d.\-]+[ ,]+[\d.\-]+[ ,]+([\d.]+)[ ,]+([\d.]+)"', kopf)
-    return round(float(vb.group(1))), round(float(vb.group(2)))
+    vb = re.search(r'viewBox="([^"]+)"', kopf)
+    if vb:
+        werte = [float(x) for x in re.split(r"[\s,]+", vb.group(1).strip())]
+        viewbox = vb.group(1).strip()
+    else:
+        werte = [0, 0, float(w.group(1)), float(h.group(1))]
+        viewbox = f"0 0 {w.group(1)} {h.group(1)}"
+    breite = float(w.group(1)) if w else werte[2]
+    hoehe = float(h.group(1)) if h else werte[3]
+    return breite, hoehe, viewbox
 
 
-def rendern(svg: Path, groesse: tuple[int, int]) -> Image.Image:
-    """Rendert das SVG scharf in Zielgröße."""
-    daten = _resvg.svg_to_bytes(svg_string=svg.read_text(encoding="utf-8"), width=groesse[0], height=groesse[1])
-    return Image.open(io.BytesIO(bytes(daten))).convert("RGBA")
+def ids_praefixen(inhalt: str, praefix: str) -> str:
+    """Macht IDs eindeutig, damit gleichnamige Verläufe verschiedener Symbole nicht kollidieren."""
+    ids = set(ID_RE.findall(inhalt))
+    if not ids:
+        return inhalt
+    inhalt = ID_RE.sub(lambda m: f'id="{praefix}{m.group(1)}"', inhalt)
+    inhalt = URL_RE.sub(lambda m: f"url(#{praefix}{m.group(1)})" if m.group(1) in ids else m.group(0), inhalt)
+    return HREF_RE.sub(lambda m: f'{m.group(1)}="#{praefix}{m.group(2)}"' if m.group(2) in ids else m.group(0), inhalt)
 
 
-def kachel(bild: Image.Image, draw: ImageDraw.ImageDraw, x: int, y: int, svg: Path, f_name, f_klein) -> None:
-    draw.rounded_rectangle((x - 1, y - 1, x + KACHEL_B, y + KACHEL_H - 1), radius=11, fill=KACHEL_SCHATTEN)
-    draw.rounded_rectangle((x, y, x + KACHEL_B - 1, y + KACHEL_H - 2), radius=10, fill=KACHEL, outline=KACHEL_RAND, width=1)
+def zahl(x: float) -> str:
+    return f"{x:.2f}".rstrip("0").rstrip(".")
 
-    breite, hoehe = svg_groesse(svg)
+
+def kachel(nr: int, x: int, y: int, svg: Path) -> str:
+    kopf, inhalt = zerlegen(svg.read_text(encoding="utf-8"))
+    breite, hoehe, viewbox = svg_groesse(kopf)
     massstab = min(VORSCHAU_B / breite, VORSCHAU_H / hoehe, MAX_MASSSTAB)
-    gr = (max(1, round(breite * massstab)), max(1, round(hoehe * massstab)))
-    vorschau = rendern(svg, gr)
-    bild.paste(vorschau, (x + (KACHEL_B - gr[0]) // 2, y + VORSCHAU_MITTE_Y - gr[1] // 2), vorschau)
+    gb, gh = breite * massstab, hoehe * massstab
+    sx, sy = x + (KACHEL_B - gb) / 2, y + VORSCHAU_MITTE_Y - gh / 2
 
-    mx = x + KACHEL_B / 2
-    ty = y + 217
-    zeilen = namenszeilen(svg.stem)
-    for z in zeilen:
-        draw.text((mx, ty), z, font=f_name, fill=NAME, anchor="mm")
+    teile = [
+        f'<g id="{escape(svg.stem)}">',
+        f'<rect x="{x - 1}" y="{y - 1}" width="{KACHEL_B + 1}" height="{KACHEL_H}" rx="11" fill="{KACHEL_SCHATTEN}"/>',
+        f'<rect x="{x}" y="{y}" width="{KACHEL_B - 1}" height="{KACHEL_H - 2}" rx="10" fill="{KACHEL}" stroke="{KACHEL_RAND}"/>',
+        f'<svg x="{zahl(sx)}" y="{zahl(sy)}" width="{zahl(gb)}" height="{zahl(gh)}" viewBox="{viewbox}" overflow="hidden"'
+        + "".join(" " + ns for ns in re.findall(r'xmlns:[\w-]+="[^"]*"', kopf)) + ">",
+        ids_praefixen(inhalt, f"k{nr}_"),
+        "</svg>",
+    ]
+    mx, ty = x + KACHEL_B / 2, y + 217
+    for zeile in namenszeilen(svg.stem):
+        teile.append(f'<text x="{zahl(mx)}" y="{ty}" class="name">{escape(zeile)}</text>')
         ty += 18
-    draw.text((mx, ty + 3), f"{breite} × {hoehe} px", font=f_klein, fill=GRAU, anchor="mm")
+    teile.append(f'<text x="{zahl(mx)}" y="{ty + 3}" class="mass">{zahl(breite)} × {zahl(hoehe)} px</text>')
+    teile.append("</g>")
+    return "\n".join(teile)
 
 
 def uebersicht(ordner: Path, ziel: Path) -> Path:
     svgs = sorted(ordner.glob("*.svg"), key=lambda p: p.stem)
     rel = ordner.relative_to(ROOT)
-    name = "Uebersicht_" + "_".join(rel.parts[1:]) + ".png"
+    name = "Uebersicht_" + "_".join(rel.parts[1:]) + ".svg"
     zeilen = max(1, -(-len(svgs) // SPALTEN))
     hoehe = KOPF + zeilen * SCHRITT_Y + RAND - (SCHRITT_Y - KACHEL_H) + 13
-    bild = Image.new("RGB", (BREITE, hoehe), HINTERGRUND)
-    draw = ImageDraw.Draw(bild)
-    draw.text((RAND, 33), rel.as_posix(), font=schrift(SCHRIFTEN_FETT, 26), fill=TITEL, anchor="lm")
-    draw.text((BREITE - RAND, 36), f"{len(svgs)} Symbole", font=schrift(SCHRIFTEN_NORMAL, 16), fill=GRAU, anchor="rm")
-    f_name, f_klein = schrift(SCHRIFTEN_FETT, 15), schrift(SCHRIFTEN_NORMAL, 12)
+    teile = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{BREITE}" height="{hoehe}" viewBox="0 0 {BREITE} {hoehe}">',
+        f"<title>{escape(rel.as_posix())}: {len(svgs)} Symbole</title>",
+        f"<style>text{{font-family:{SCHRIFT}}}"
+        f".name{{font-size:15px;font-weight:700;fill:{NAME};text-anchor:middle}}"
+        f".mass{{font-size:12px;fill:{GRAU};text-anchor:middle}}</style>",
+        f'<rect width="{BREITE}" height="{hoehe}" fill="{HINTERGRUND}"/>',
+        f'<text x="{RAND}" y="42" font-size="26" font-weight="700" fill="{TITEL}">{escape(rel.as_posix())}</text>',
+        f'<text x="{BREITE - RAND}" y="42" font-size="16" fill="{GRAU}" text-anchor="end">{len(svgs)} Symbole</text>',
+    ]
     for i, svg in enumerate(svgs):
-        kachel(bild, draw, RAND + (i % SPALTEN) * SCHRITT_X, KOPF + (i // SPALTEN) * SCHRITT_Y, svg, f_name, f_klein)
+        teile.append(kachel(i, RAND + (i % SPALTEN) * SCHRITT_X, KOPF + (i // SPALTEN) * SCHRITT_Y, svg))
+    teile.append("</svg>\n")
     ziel.mkdir(parents=True, exist_ok=True)
-    bild.save(ziel / name)
+    (ziel / name).write_text("\n".join(teile), encoding="utf-8", newline="\n")
     return ziel / name
 
 

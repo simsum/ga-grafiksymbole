@@ -208,7 +208,7 @@ Einzelne Flanschanschlüsse zum Anlegen an Geräte oder Leitungen, alle 24 × 24
 | `gruen` | `#6BB33A` | Kaltwasser |
 | `grau` | `#9A9A9A` | neutral |
 
-- Grauteile `#8C8C8C`, Kontur `#6B6B6B`. Erzeugt mit `tools/flansche.py`.
+- Grauteile `#8C8C8C`, dunkle Kontur `#3B2412` (1,3 px) wie bei den Fun-Flanschen. Erzeugt mit `tools/flansche.py`.
 
 ## Anzeigen
 

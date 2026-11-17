@@ -24,6 +24,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
     erzeuger/            Kessel, Brenner (Flamme, Rauch), Wärmepumpe, Mehrleitermaschine
     speicher/            Pufferspeicher, Schichtspeicher
     zaehler/             Wärme-, Kälte-, Wasser- und Elektrozähler
+    anschluesse/         Einzelne Flanschanschlüsse: Geräteflansch (6 Farben, 4 Richtungen), Flanschplatte, Flanschpaar
   anzeigen/
     led/                 LEDs rund und eckig, statisch und animiert
     punkte/              Dezent blinkende Punkte
@@ -33,6 +34,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
     anzeigen/            Außentemperatur, -feuchte, CO₂
     hydraulik/pumpen/    Fun-Pumpen
     hydraulik/speicher/  Fun-Pufferspeicher
+    hydraulik/anschluesse/  Fun-Flansche, undicht (tropfen)
     navigation/          Navigationsbuttons 280 × 72 (normal/aktiv), Monatsleiste
   topologie/
     automation/          Controller, I/O-Module, GLT-Leitrechner
@@ -58,6 +60,7 @@ tools/
   zip_erstellen.py       Packt symbole/ und LICENSE in dist/ga-grafiksymbole.zip (von der Action genutzt)
   freigabe.py            Erzeugt die Freigabe-Anzeigen unter symbole/anzeigen/freigabe/
   zustandsfarben.py      Einheitliche Zustandsfarben (aus, Freigabe, Betrieb, Störung) für alle Erzeuger
+  flansche.py            Erzeugt die Flanschanschlüsse unter symbole/hydraulik/anschluesse/ und die Fun-Varianten
   aufstellplatten.py     Erzeugt die Aufstellplatten unter symbole/allgemein/aufstellung/
   uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ aus den SVGs (ohne Zusatzpakete)
 ```
@@ -119,6 +122,9 @@ Jede Grafik zeigt alle Symbole einer Gruppe mit Dateinamen und Größe. Die Symb
 **Zähler** (`zaehler`)
 ![Zähler](docs/uebersicht/Uebersicht_hydraulik_zaehler.svg)
 
+**Anschlüsse** (`anschluesse`)
+![Anschlüsse](docs/uebersicht/Uebersicht_hydraulik_anschluesse.svg)
+
 ### Anzeigen – `symbole/anzeigen`
 
 **LEDs** (`led`)
@@ -143,6 +149,9 @@ Jede Grafik zeigt alle Symbole einer Gruppe mit Dateinamen und Größe. Die Symb
 
 **Speicher** (`hydraulik/speicher`)
 ![Fun-Speicher](docs/uebersicht/Uebersicht_fun_hydraulik_speicher.svg)
+
+**Anschlüsse** (`hydraulik/anschluesse`)
+![Fun-Anschlüsse](docs/uebersicht/Uebersicht_fun_hydraulik_anschluesse.svg)
 
 **Navigation** (`navigation`)
 ![Fun-Navigation](docs/uebersicht/Uebersicht_fun_navigation.svg)

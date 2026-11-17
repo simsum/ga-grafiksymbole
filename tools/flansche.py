@@ -23,7 +23,8 @@ ROOT = Path(__file__).resolve().parent.parent
 ZIEL = ROOT / "symbole" / "hydraulik" / "anschluesse"
 ZIEL_FUN = ROOT / "symbole" / "fun" / "hydraulik" / "anschluesse"
 
-GRAU, GRAU_K = "#8C8C8C", "#6B6B6B"
+GRAU = "#8C8C8C"
+KONTUR, KONTUR_B = "#3B2412", 1.3   # dunkle Kontur für alle Flansche (normal und Fun gleich)
 BRAUN = "#3B2412"
 FARBEN = {  # Flanschfarben wie an Wärmepumpe und Mehrleitermaschine
     "rot": "#D7302B",        # Heizung Vorlauf
@@ -95,27 +96,27 @@ def main() -> int:
         for richtung, w in DREHUNG.items():
             schreiben(ZIEL, f"Flansch_Geraet_{farbe}_{richtung}",
                       datei(24, 24, f"Geräteflansch {farbe}, Rohr nach {richtung}",
-                            f'<g transform="rotate({w} 12 12)">{geraet(c, GRAU_K)}</g>'))
+                            f'<g transform="rotate({w} 12 12)">{geraet(c, KONTUR, KONTUR_B)}</g>'))
             n += 1
     for achse, w in ACHSE.items():
         schreiben(ZIEL, f"Flansch_Platte_{achse}",
-                  datei(24, 24, f"Flanschplatte, Rohrachse {achse}", f'<g transform="rotate({w} 12 12)">{platte(GRAU_K)}</g>'))
+                  datei(24, 24, f"Flanschplatte, Rohrachse {achse}", f'<g transform="rotate({w} 12 12)">{platte(KONTUR, KONTUR_B)}</g>'))
         schreiben(ZIEL, f"Flansch_Paar_{achse}",
-                  datei(24, 24, f"Flanschpaar, Rohrachse {achse}", f'<g transform="rotate({w} 12 12)">{paar(GRAU_K)}</g>'))
+                  datei(24, 24, f"Flanschpaar, Rohrachse {achse}", f'<g transform="rotate({w} 12 12)">{paar(KONTUR, KONTUR_B)}</g>'))
         n += 2
     # Fun: undichte Flansche mit Tropfen
     for richtung, w in DREHUNG.items():
         schreiben(ZIEL_FUN, f"Fun_Flansch_Geraet_{richtung}_undicht_animiert",
                   datei(24, 36, f"Fun-Geräteflansch undicht, Rohr nach {richtung}",
-                        f'<g transform="rotate({w} 12 12)">{geraet(FARBEN["grau"], BRAUN, 1.3)}</g>{tropfen(*TROPF_GERAET[richtung])}'))
+                        f'<g transform="rotate({w} 12 12)">{geraet(FARBEN["grau"], KONTUR, KONTUR_B)}</g>{tropfen(*TROPF_GERAET[richtung])}'))
         n += 1
     for achse, w in ACHSE.items():
         schreiben(ZIEL_FUN, f"Fun_Flansch_Platte_{achse}_undicht_animiert",
                   datei(24, 36, f"Fun-Flanschplatte undicht, Rohrachse {achse}",
-                        f'<g transform="rotate({w} 12 12)">{platte(BRAUN, 1.3)}</g>{tropfen(*TROPF_PLATTE[achse])}'))
+                        f'<g transform="rotate({w} 12 12)">{platte(KONTUR, KONTUR_B)}</g>{tropfen(*TROPF_PLATTE[achse])}'))
         schreiben(ZIEL_FUN, f"Fun_Flansch_Paar_{achse}_undicht_animiert",
                   datei(24, 36, f"Fun-Flanschpaar undicht, Rohrachse {achse}",
-                        f'<g transform="rotate({w} 12 12)">{paar(BRAUN, 1.3)}</g>{tropfen(*TROPF_PAAR[achse])}'))
+                        f'<g transform="rotate({w} 12 12)">{paar(KONTUR, KONTUR_B)}</g>{tropfen(*TROPF_PAAR[achse])}'))
         n += 2
     print(f"{n} Symbole erzeugt")
     return 0

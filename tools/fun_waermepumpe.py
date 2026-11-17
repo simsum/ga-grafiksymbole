@@ -2,7 +2,7 @@
 """Erzeugt symbole/fun/hydraulik/erzeuger/Fun_Waermepumpe_Luft_Wasser_{rechts,links}_<zustand>_animiert.svg.
 
 Fun-Variante der Luft/Wasser-Wärmepumpe (tools/waermepumpe.py): gleiche Größe (180 × 168) und Anschlusspunkte,
-Gehäusekontur in Fun-Braun, der Lüfter wird zum Gesicht (Nabe = Nase). Gesichtszüge weiß mit brauner
+Gehäuse unverändert wie die normale Wärmepumpe (graue Konturen), der Lüfter wird zum Gesicht (Nabe = Nase). Gesichtszüge weiß mit brauner
 Außenkontur, damit sie auf dem dunklen Lüfter lesbar sind. Animation per SMIL.
 
   _aus       Augen zu, schläft; „Zzz“ steigt auf
@@ -24,16 +24,6 @@ BRAUN = "#3B2412"
 W = wp.W
 FY = 79                    # Lüftermitte y
 ZIEL = Path(__file__).resolve().parent.parent / "symbole" / "fun" / "hydraulik" / "erzeuger"
-
-
-def fun_kontur(svg: str) -> str:
-    """Gehäusekonturen in Fun-Braun, etwas kräftiger."""
-    for alt, neu in (('stroke="#999999" stroke-width="2"', f'stroke="{BRAUN}" stroke-width="2.6"'),
-                     ('stroke="#999999" stroke-width="1.6"', f'stroke="{BRAUN}" stroke-width="2"'),
-                     ('stroke="#999999" stroke-width="1.2"', f'stroke="{BRAUN}" stroke-width="1.6"'),
-                     ('stroke="#2E3237"', f'stroke="{BRAUN}"'), ('stroke="#6B6B6B"', f'stroke="{BRAUN}"')):
-        svg = svg.replace(alt, neu)
-    return svg
 
 
 def einsetzen(svg: str, danach: str, huelle: str = "") -> str:
@@ -106,7 +96,7 @@ def rauch(x: float, y: float) -> str:
         teile.append(f'<g transform="translate({x + i * 8 - 8} {y - i * 6})" opacity="{0.9 - i * 0.25:.2f}">'
                      f'<animateTransform attributeName="transform" type="translate" values="{x - 4} {y};{x + 6} {y - 26}" dur="2.4s" begin="{b}s" repeatCount="indefinite"/>'
                      f'<animate attributeName="opacity" values="0;.95;0" dur="2.4s" begin="{b}s" repeatCount="indefinite"/>'
-                     f'<path d="M-6,0 a4,4 0 0 1 3,-6 a5,5 0 0 1 8,1 a4,4 0 0 1 1,7 h-10 a3,3 0 0 1 -2,-2 z" fill="#7A7A7A" stroke="{BRAUN}" stroke-width="1.4" stroke-linejoin="round"/></g>')
+                     f'<path d="M-6,0 a4,4 0 0 1 3,-6 a5,5 0 0 1 8,1 a4,4 0 0 1 1,7 h-10 a3,3 0 0 1 -2,-2 z" fill="#7A7A7A" stroke="#5A5A5A" stroke-width="1.4" stroke-linejoin="round"/></g>')
     return "".join(teile)
 
 
@@ -138,7 +128,7 @@ def svg(seite: str, zustand: str) -> str:
     lx = 145 if rechts else W - 145 - 12     # Status-LED
     sx = 1 if rechts else -1                 # Richtung der Effekte (vom Lüfter weg Richtung Schaltkasten)
 
-    basis = fun_kontur(wp.svg(seite, "an" if zustand == "an" else "aus"))
+    basis = wp.svg(seite, "an" if zustand == "an" else "aus")   # Gehäuse wie die normale Wärmepumpe
     basis = basis.replace("<title id=\"title\">Luft/Wasser", "<title id=\"title\">Fun: Luft/Wasser")
     gesicht = {"aus": augen(fx, FY - 14, 30, "zu") + mund(fx, FY + 18, "schlaf"),
                "an": augen(fx, FY - 14, 30, "auf") + mund(fx, FY + 16, "laecheln"),

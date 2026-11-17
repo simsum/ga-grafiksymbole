@@ -208,7 +208,7 @@ Einzelne Flanschanschlüsse zum Anlegen an Geräte oder Leitungen, alle 24 × 24
 | `gruen` | `#6BB33A` | Kaltwasser |
 | `grau` | `#9A9A9A` | neutral |
 
-- Grauteile `#8C8C8C`, dunkle Kontur `#3B2412` (1,3 px) wie bei den Fun-Flanschen. Erzeugt mit `tools/flansche.py`.
+- Grauteile `#8C8C8C`, Kontur `#6B6B6B` (1 px), bei den Fun-Flanschen gleich. Erzeugt mit `tools/flansche.py`.
 
 ## Anzeigen
 
@@ -292,7 +292,7 @@ Umschalten über `image`-Binding mit Konverter (siehe NIAGARA.md).
 
 ### Fun-Flansche, undicht (`symbole/fun/hydraulik/anschluesse/`)
 
-- `Fun_Flansch_Geraet_<richtung>_undicht_animiert`, `Fun_Flansch_Platte_<achse>_undicht_animiert`, `Fun_Flansch_Paar_<achse>_undicht_animiert`: dieselben Formen wie die normalen Flansche (grau, braune Fun-Kontur `#3B2412`).
+- `Fun_Flansch_Geraet_<richtung>_undicht_animiert`, `Fun_Flansch_Platte_<achse>_undicht_animiert`, `Fun_Flansch_Paar_<achse>_undicht_animiert`: dieselben Formen wie die normalen Flansche (grau, Kontur `#6B6B6B` wie die normalen).
 - An der tiefsten Kante bildet sich ein Wassertropfen, fällt nach unten und zerplatzt (SMIL, 2,4 s, Tropfen immer senkrecht nach unten, unabhängig von der Richtung).
 - 24 × 36: oben deckungsgleich mit den normalen 24 × 24-Symbolen, darunter 12 px Platz für den Tropfen. Damit lassen sie sich an derselben Position gegen die normalen Flansche tauschen (z. B. bei Leckage-Meldung).
 - Ohne Animation hängt ein kleiner Tropfen an der Kante. Erzeugt mit `tools/flansche.py`.
@@ -300,7 +300,7 @@ Umschalten über `image`-Binding mit Konverter (siehe NIAGARA.md).
 ### Fun-Wärmepumpe (`symbole/fun/hydraulik/erzeuger/`)
 
 - `Fun_Waermepumpe_Luft_Wasser_{rechts,links}_{aus,an,stoerung,abtau}_animiert`: 180 × 168, gleiche Größe und Anschlusspunkte wie `Waermepumpe_Luft_Wasser_*`, daher per `image`-Binding austauschbar.
-- Gehäusekontur in Fun-Braun `#3B2412`; der Lüfter wird zum Gesicht (Nabe = Nase), Gesichtszüge weiß mit brauner Außenkontur.
+- Gehäuse wie die normale Wärmepumpe (graue Konturen); der Lüfter wird zum Gesicht (Nabe = Nase), Gesichtszüge weiß mit brauner Außenkontur.
 
 | Zustand | Gesicht | Animation |
 | --- | --- | --- |

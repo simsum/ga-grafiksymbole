@@ -9,7 +9,7 @@
 <rect x="20" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="166.5" y="142" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k0_title">Geräteflansch blau, Rohr nach links</title>
-  <g transform="rotate(90 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#2E6BC2" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(90 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#2E6BC2" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="202.5" y="287" class="name">Flansch_Geraet_blau_links</text>
 <text x="202.5" y="308" class="mass">24 × 24 px</text>
@@ -19,7 +19,7 @@
 <rect x="400" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="546.5" y="142" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k1_title">Geräteflansch blau, Rohr nach oben</title>
-  <g transform="rotate(180 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#2E6BC2" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(180 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#2E6BC2" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="582.5" y="287" class="name">Flansch_Geraet_blau_oben</text>
 <text x="582.5" y="308" class="mass">24 × 24 px</text>
@@ -29,7 +29,7 @@
 <rect x="780" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="926.5" y="142" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k2_title">Geräteflansch blau, Rohr nach rechts</title>
-  <g transform="rotate(270 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#2E6BC2" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(270 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#2E6BC2" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="962.5" y="287" class="name">Flansch_Geraet_blau_rechts</text>
 <text x="962.5" y="308" class="mass">24 × 24 px</text>
@@ -39,7 +39,7 @@
 <rect x="1160" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="1306.5" y="142" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k3_title">Geräteflansch blau, Rohr nach unten</title>
-  <g transform="rotate(0 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#2E6BC2" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(0 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#2E6BC2" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="1342.5" y="287" class="name">Flansch_Geraet_blau_unten</text>
 <text x="1342.5" y="308" class="mass">24 × 24 px</text>
@@ -49,7 +49,7 @@
 <rect x="20" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="166.5" y="430" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k4_title">Geräteflansch grau, Rohr nach links</title>
-  <g transform="rotate(90 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#9A9A9A" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(90 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#9A9A9A" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="202.5" y="575" class="name">Flansch_Geraet_grau_links</text>
 <text x="202.5" y="596" class="mass">24 × 24 px</text>
@@ -59,7 +59,7 @@
 <rect x="400" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="546.5" y="430" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k5_title">Geräteflansch grau, Rohr nach oben</title>
-  <g transform="rotate(180 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#9A9A9A" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(180 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#9A9A9A" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="582.5" y="575" class="name">Flansch_Geraet_grau_oben</text>
 <text x="582.5" y="596" class="mass">24 × 24 px</text>
@@ -69,7 +69,7 @@
 <rect x="780" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="926.5" y="430" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k6_title">Geräteflansch grau, Rohr nach rechts</title>
-  <g transform="rotate(270 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#9A9A9A" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(270 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#9A9A9A" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="962.5" y="575" class="name">Flansch_Geraet_grau_rechts</text>
 <text x="962.5" y="596" class="mass">24 × 24 px</text>
@@ -79,7 +79,7 @@
 <rect x="1160" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="1306.5" y="430" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k7_title">Geräteflansch grau, Rohr nach unten</title>
-  <g transform="rotate(0 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#9A9A9A" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(0 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#9A9A9A" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="1342.5" y="575" class="name">Flansch_Geraet_grau_unten</text>
 <text x="1342.5" y="596" class="mass">24 × 24 px</text>
@@ -89,7 +89,7 @@
 <rect x="20" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="166.5" y="718" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k8_title">Geräteflansch gruen, Rohr nach links</title>
-  <g transform="rotate(90 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#6BB33A" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(90 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#6BB33A" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="202.5" y="863" class="name">Flansch_Geraet_gruen_links</text>
 <text x="202.5" y="884" class="mass">24 × 24 px</text>
@@ -99,7 +99,7 @@
 <rect x="400" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="546.5" y="718" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k9_title">Geräteflansch gruen, Rohr nach oben</title>
-  <g transform="rotate(180 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#6BB33A" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(180 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#6BB33A" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="582.5" y="863" class="name">Flansch_Geraet_gruen_oben</text>
 <text x="582.5" y="884" class="mass">24 × 24 px</text>
@@ -109,7 +109,7 @@
 <rect x="780" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="926.5" y="718" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k10_title">Geräteflansch gruen, Rohr nach rechts</title>
-  <g transform="rotate(270 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#6BB33A" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(270 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#6BB33A" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="962.5" y="863" class="name">Flansch_Geraet_gruen_rechts</text>
 <text x="962.5" y="884" class="mass">24 × 24 px</text>
@@ -119,7 +119,7 @@
 <rect x="1160" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="1306.5" y="718" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k11_title">Geräteflansch gruen, Rohr nach unten</title>
-  <g transform="rotate(0 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#6BB33A" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(0 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#6BB33A" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="1342.5" y="863" class="name">Flansch_Geraet_gruen_unten</text>
 <text x="1342.5" y="884" class="mass">24 × 24 px</text>
@@ -129,7 +129,7 @@
 <rect x="20" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="166.5" y="1006" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k12_title">Geräteflansch hellblau, Rohr nach links</title>
-  <g transform="rotate(90 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#7CA6DE" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(90 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#7CA6DE" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="202.5" y="1151" class="name">Flansch_Geraet</text>
 <text x="202.5" y="1169" class="name">hellblau_links</text>
@@ -140,7 +140,7 @@
 <rect x="400" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="546.5" y="1006" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k13_title">Geräteflansch hellblau, Rohr nach oben</title>
-  <g transform="rotate(180 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#7CA6DE" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(180 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#7CA6DE" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="582.5" y="1151" class="name">Flansch_Geraet</text>
 <text x="582.5" y="1169" class="name">hellblau_oben</text>
@@ -151,7 +151,7 @@
 <rect x="780" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="926.5" y="1006" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k14_title">Geräteflansch hellblau, Rohr nach rechts</title>
-  <g transform="rotate(270 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#7CA6DE" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(270 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#7CA6DE" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="962.5" y="1151" class="name">Flansch_Geraet</text>
 <text x="962.5" y="1169" class="name">hellblau_rechts</text>
@@ -162,7 +162,7 @@
 <rect x="1160" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="1306.5" y="1006" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k15_title">Geräteflansch hellblau, Rohr nach unten</title>
-  <g transform="rotate(0 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#7CA6DE" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(0 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#7CA6DE" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="1342.5" y="1151" class="name">Flansch_Geraet</text>
 <text x="1342.5" y="1169" class="name">hellblau_unten</text>
@@ -173,7 +173,7 @@
 <rect x="20" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="166.5" y="1294" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k16_title">Geräteflansch orange, Rohr nach links</title>
-  <g transform="rotate(90 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#F29A38" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(90 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#F29A38" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="202.5" y="1439" class="name">Flansch_Geraet_orange_links</text>
 <text x="202.5" y="1460" class="mass">24 × 24 px</text>
@@ -183,7 +183,7 @@
 <rect x="400" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="546.5" y="1294" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k17_title">Geräteflansch orange, Rohr nach oben</title>
-  <g transform="rotate(180 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#F29A38" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(180 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#F29A38" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="582.5" y="1439" class="name">Flansch_Geraet_orange_oben</text>
 <text x="582.5" y="1460" class="mass">24 × 24 px</text>
@@ -193,7 +193,7 @@
 <rect x="780" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="926.5" y="1294" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k18_title">Geräteflansch orange, Rohr nach rechts</title>
-  <g transform="rotate(270 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#F29A38" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(270 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#F29A38" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="962.5" y="1439" class="name">Flansch_Geraet</text>
 <text x="962.5" y="1457" class="name">orange_rechts</text>
@@ -204,7 +204,7 @@
 <rect x="1160" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="1306.5" y="1294" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k19_title">Geräteflansch orange, Rohr nach unten</title>
-  <g transform="rotate(0 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#F29A38" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(0 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#F29A38" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="1342.5" y="1439" class="name">Flansch_Geraet_orange_unten</text>
 <text x="1342.5" y="1460" class="mass">24 × 24 px</text>
@@ -214,7 +214,7 @@
 <rect x="20" y="1510" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="166.5" y="1582" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k20_title">Geräteflansch rot, Rohr nach links</title>
-  <g transform="rotate(90 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#D7302B" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(90 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#D7302B" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="202.5" y="1727" class="name">Flansch_Geraet_rot_links</text>
 <text x="202.5" y="1748" class="mass">24 × 24 px</text>
@@ -224,7 +224,7 @@
 <rect x="400" y="1510" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="546.5" y="1582" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k21_title">Geräteflansch rot, Rohr nach oben</title>
-  <g transform="rotate(180 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#D7302B" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(180 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#D7302B" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="582.5" y="1727" class="name">Flansch_Geraet_rot_oben</text>
 <text x="582.5" y="1748" class="mass">24 × 24 px</text>
@@ -234,7 +234,7 @@
 <rect x="780" y="1510" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="926.5" y="1582" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k22_title">Geräteflansch rot, Rohr nach rechts</title>
-  <g transform="rotate(270 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#D7302B" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(270 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#D7302B" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="962.5" y="1727" class="name">Flansch_Geraet_rot_rechts</text>
 <text x="962.5" y="1748" class="mass">24 × 24 px</text>
@@ -244,7 +244,7 @@
 <rect x="1160" y="1510" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="1306.5" y="1582" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k23_title">Geräteflansch rot, Rohr nach unten</title>
-  <g transform="rotate(0 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#D7302B" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(0 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#D7302B" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="1342.5" y="1727" class="name">Flansch_Geraet_rot_unten</text>
 <text x="1342.5" y="1748" class="mass">24 × 24 px</text>
@@ -254,7 +254,7 @@
 <rect x="20" y="1798" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="166.5" y="1870" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k24_title">Flanschpaar, Rohrachse senkrecht</title>
-  <g transform="rotate(0 12 12)"><g fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"><rect x="3" y="8" width="18" height="3.5" rx=".8"/><rect x="3" y="12.5" width="18" height="3.5" rx=".8"/></g><g fill="#3B2412"><circle cx="5.5" cy="12" r=".9"/><circle cx="18.5" cy="12" r=".9"/></g></g>
+  <g transform="rotate(0 12 12)"><g fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"><rect x="3" y="8" width="18" height="3.5" rx=".8"/><rect x="3" y="12.5" width="18" height="3.5" rx=".8"/></g><g fill="#6B6B6B"><circle cx="5.5" cy="12" r=".9"/><circle cx="18.5" cy="12" r=".9"/></g></g>
 </svg>
 <text x="202.5" y="2015" class="name">Flansch_Paar_senkrecht</text>
 <text x="202.5" y="2036" class="mass">24 × 24 px</text>
@@ -264,7 +264,7 @@
 <rect x="400" y="1798" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="546.5" y="1870" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k25_title">Flanschpaar, Rohrachse waagerecht</title>
-  <g transform="rotate(90 12 12)"><g fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"><rect x="3" y="8" width="18" height="3.5" rx=".8"/><rect x="3" y="12.5" width="18" height="3.5" rx=".8"/></g><g fill="#3B2412"><circle cx="5.5" cy="12" r=".9"/><circle cx="18.5" cy="12" r=".9"/></g></g>
+  <g transform="rotate(90 12 12)"><g fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"><rect x="3" y="8" width="18" height="3.5" rx=".8"/><rect x="3" y="12.5" width="18" height="3.5" rx=".8"/></g><g fill="#6B6B6B"><circle cx="5.5" cy="12" r=".9"/><circle cx="18.5" cy="12" r=".9"/></g></g>
 </svg>
 <text x="582.5" y="2015" class="name">Flansch_Paar_waagerecht</text>
 <text x="582.5" y="2036" class="mass">24 × 24 px</text>
@@ -274,7 +274,7 @@
 <rect x="780" y="1798" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="926.5" y="1870" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k26_title">Flanschplatte, Rohrachse senkrecht</title>
-  <g transform="rotate(0 12 12)"><rect x="3" y="9.5" width="18" height="5" rx="1" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(0 12 12)"><rect x="3" y="9.5" width="18" height="5" rx="1" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="962.5" y="2015" class="name">Flansch_Platte_senkrecht</text>
 <text x="962.5" y="2036" class="mass">24 × 24 px</text>
@@ -284,7 +284,7 @@
 <rect x="1160" y="1798" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="1306.5" y="1870" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
 <title id="k27_title">Flanschplatte, Rohrachse waagerecht</title>
-  <g transform="rotate(90 12 12)"><rect x="3" y="9.5" width="18" height="5" rx="1" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/></g>
+  <g transform="rotate(90 12 12)"><rect x="3" y="9.5" width="18" height="5" rx="1" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/></g>
 </svg>
 <text x="1342.5" y="2015" class="name">Flansch_Platte_waagerecht</text>
 <text x="1342.5" y="2036" class="mass">24 × 24 px</text>

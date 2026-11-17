@@ -11,7 +11,7 @@ Alle Symbole 24 × 24 (Fun: 24 × 36, gleiche Lage oben, unten 12 px Platz für 
   Flansch_Paar_<achse>               zwei graue Flanschplatten mit Schrauben (Rohrverbindung)
                                      <achse> = Richtung der Rohrachse (waagerecht, senkrecht); Rohrachse durch die Mitte
 
-  Fun_Flansch_*_undicht              dieselben Formen mit brauner Fun-Kontur; an der tiefsten Kante bildet sich
+  Fun_Flansch_*_undicht_animiert     dieselben Formen mit brauner Fun-Kontur; an der tiefsten Kante bildet sich
                                      ein Wassertropfen, fällt und zerplatzt (SMIL, 2,4 s)
 
 Aufruf: python tools/flansche.py
@@ -105,15 +105,15 @@ def main() -> int:
         n += 2
     # Fun: undichte Flansche mit Tropfen
     for richtung, w in DREHUNG.items():
-        schreiben(ZIEL_FUN, f"Fun_Flansch_Geraet_{richtung}_undicht",
+        schreiben(ZIEL_FUN, f"Fun_Flansch_Geraet_{richtung}_undicht_animiert",
                   datei(24, 36, f"Fun-Geräteflansch undicht, Rohr nach {richtung}",
                         f'<g transform="rotate({w} 12 12)">{geraet(FARBEN["grau"], BRAUN, 1.3)}</g>{tropfen(*TROPF_GERAET[richtung])}'))
         n += 1
     for achse, w in ACHSE.items():
-        schreiben(ZIEL_FUN, f"Fun_Flansch_Platte_{achse}_undicht",
+        schreiben(ZIEL_FUN, f"Fun_Flansch_Platte_{achse}_undicht_animiert",
                   datei(24, 36, f"Fun-Flanschplatte undicht, Rohrachse {achse}",
                         f'<g transform="rotate({w} 12 12)">{platte(BRAUN, 1.3)}</g>{tropfen(*TROPF_PLATTE[achse])}'))
-        schreiben(ZIEL_FUN, f"Fun_Flansch_Paar_{achse}_undicht",
+        schreiben(ZIEL_FUN, f"Fun_Flansch_Paar_{achse}_undicht_animiert",
                   datei(24, 36, f"Fun-Flanschpaar undicht, Rohrachse {achse}",
                         f'<g transform="rotate({w} 12 12)">{paar(BRAUN, 1.3)}</g>{tropfen(*TROPF_PAAR[achse])}'))
         n += 2

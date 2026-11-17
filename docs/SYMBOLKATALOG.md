@@ -292,7 +292,7 @@ Umschalten über `image`-Binding mit Konverter (siehe NIAGARA.md).
 
 ### Fun-Flansche, undicht (`symbole/fun/hydraulik/anschluesse/`)
 
-- `Fun_Flansch_Geraet_<richtung>_undicht`, `Fun_Flansch_Platte_<achse>_undicht`, `Fun_Flansch_Paar_<achse>_undicht`: dieselben Formen wie die normalen Flansche (grau, braune Fun-Kontur `#3B2412`).
+- `Fun_Flansch_Geraet_<richtung>_undicht_animiert`, `Fun_Flansch_Platte_<achse>_undicht_animiert`, `Fun_Flansch_Paar_<achse>_undicht_animiert`: dieselben Formen wie die normalen Flansche (grau, braune Fun-Kontur `#3B2412`).
 - An der tiefsten Kante bildet sich ein Wassertropfen, fällt nach unten und zerplatzt (SMIL, 2,4 s, Tropfen immer senkrecht nach unten, unabhängig von der Richtung).
 - 24 × 36: oben deckungsgleich mit den normalen 24 × 24-Symbolen, darunter 12 px Platz für den Tropfen. Damit lassen sie sich an derselben Position gegen die normalen Flansche tauschen (z. B. bei Leckage-Meldung).
 - Ohne Animation hängt ein kleiner Tropfen an der Kante. Erzeugt mit `tools/flansche.py`.

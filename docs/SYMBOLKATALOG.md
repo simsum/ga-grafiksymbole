@@ -285,7 +285,7 @@ Umschalten über `image`-Binding mit Konverter (siehe NIAGARA.md).
 
 ### Fun-Pumpen
 
-- `Fun_Pumpe_{oben,rechts,unten,links}_{aus,freigabe,an,stoerung}`: 40 × 40, gleiche Größe, Richtungen und Zustandsfarben wie die Pumpen unter `symbole/hydraulik/pumpen/`, daher per `image`-Binding austauschbar. Pumpensymbol mit derselben Zustandskontur und demselben grauen Förderdreieck wie die normale Pumpe (Effekte grau umrandet `#5A5A5A`), dazu eine kleine Animation (SMIL).
+- `Fun_Pumpe_{oben,rechts,unten,links}_{aus,freigabe,an,stoerung}`: 40 × 40, gleiche Größe, Richtungen und Zustandsfarben wie die Pumpen unter `symbole/hydraulik/pumpen/`, daher per `image`-Binding austauschbar. Pumpensymbol mit derselben Zustandskontur und demselben grauen Förderdreieck wie die normale Pumpe (Effekte kräftig dunkel umrandet `#3B2412`), dazu eine kleine Animation (SMIL).
 - Das Förderdreieck zeigt in allen Zuständen die Förderrichtung, wie bei den Standard-Pumpen.
 - `_aus`: zwei „z“ steigen auf. `_freigabe`: Funken blinken. `_an`: blaue Wasserblasen wandern über das Dreieck in Förderrichtung (Blasen nur im Betrieb). `_stoerung`: Pumpe wackelt, Dampfwolken steigen auf, Schweißperlen spritzen ab, Warndreieck in der Mitte.
 - Erzeugt mit `tools/fun_pumpe.py` (baut auf `tools/pumpe.py` auf). Ohne Animation bleibt das Symbol mit allen Effekten sichtbar.

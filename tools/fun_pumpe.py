@@ -12,7 +12,7 @@ from pathlib import Path
 
 import pumpe
 
-BRAUN = "#5A5A5A"   # Umrandung der Effekte (Blasen, „z“, Funken, Dampf); grau statt Fun-Braun, passend zur Pumpe
+BRAUN = "#3B2412"   # kräftige Umrandung der Effekte (Blasen, „z“, Funken, Dampf); Pumpe selbst wie die normale
 
 
 def wolke(cx: float, beginn: float, drift: float) -> str:

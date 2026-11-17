@@ -1,7 +1,7 @@
 """Erzeugt symbole/fun/hydraulik/pumpen/Fun_Pumpe_{richtung}_{zustand}.svg (40 × 40, wie die Pumpen unter symbole/hydraulik/pumpen).
 
-Basis ist das Pumpensymbol aus pumpe.py mit brauner Fun-Kontur und braunem Förderdreieck (zeigt die
-Förderrichtung in allen Zuständen), dazu je Zustand eine kleine Cartoon-Animation (SMIL):
+Basis ist das Pumpensymbol aus pumpe.py mit derselben Zustandskontur und demselben grauen Förderdreieck wie die
+normale Pumpe (zeigt die Förderrichtung in allen Zuständen), dazu je Zustand eine kleine Cartoon-Animation (SMIL):
   _aus        zwei „z“ steigen auf (schläft)
   _freigabe   Funken blinken (bereit)
   _an         blaue Wasserblasen wandern über das Dreieck in Förderrichtung
@@ -12,7 +12,7 @@ from pathlib import Path
 
 import pumpe
 
-BRAUN = "#3B2412"
+BRAUN = "#3B2412"   # kräftige Umrandung der Effekte (Blasen, „z“, Funken, Dampf); Pumpe selbst wie die normale
 
 
 def wolke(cx: float, beginn: float, drift: float) -> str:
@@ -74,13 +74,12 @@ def svg(richtung: str, zustand: str) -> str:
     zeilen = pumpe.svg(richtung, zustand).rstrip("\n").split("\n")
     zeilen[0] = zeilen[0].replace('role="img" aria-labelledby="title"', 'role="img" aria-labelledby="title"')
     zeilen[1] = zeilen[1].replace("<title id=\"title\">Pumpe", "<title id=\"title\">Fun-Pumpe")
-    kontur = pumpe.FARBEN[zustand][2]
-    kopf, koerper = zeilen[:3], [z.replace(kontur, BRAUN) for z in zeilen[3:-1]]
-    # Förderdreieck (Gruppe mit rotate) behalten, aber braun und ohne die Fließpfeile aus pumpe.py;
+    kopf, koerper = zeilen[:3], zeilen[3:-1]   # Zustandskontur unverändert wie bei der normalen Pumpe
+    # Förderdreieck (Gruppe mit rotate) unverändert grau behalten, aber ohne die Fließanimation aus pumpe.py;
     # im Betrieb wandern die Blasen davor in Förderrichtung
     von = next(i for i, z in enumerate(koerper) if z.startswith('  <g transform="rotate('))
     bis = next(i for i in range(von, len(koerper)) if koerper[i] == "  </g>")
-    dreieck = [z.replace("#4D4D4D", BRAUN) for z in koerper[von + 1:bis] if z.strip() == pumpe.DREIECK]
+    dreieck = [z for z in koerper[von + 1:bis] if z.strip() == pumpe.DREIECK]
     if len(dreieck) != 1:
         raise RuntimeError("Förderdreieck in pumpe.svg() nicht gefunden")
     gruppe = [koerper[von]] + dreieck + ["  </g>"]

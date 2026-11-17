@@ -10,10 +10,10 @@
 <svg x="142.5" y="118" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
 <title id="k0_title">Fun-Pumpe, Förderrichtung links, Betrieb</title>
   <defs><linearGradient id="k0_gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#A8DC96"/><stop offset="1" stop-color="#3E9A3A"/></linearGradient></defs>
-  <circle cx="20" cy="20" r="18" fill="url(#k0_gK)" stroke="#3B2412" stroke-width="1.6"/>
+  <circle cx="20" cy="20" r="18" fill="url(#k0_gK)" stroke="#2F7A2C" stroke-width="1.6"/>
   <circle cx="20" cy="20" r="16" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="2" stroke-linecap="round" stroke-dasharray="22 11.5"><animateTransform attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="1.6s" repeatCount="indefinite"/></circle>
   <g transform="rotate(270 20 20)">
-    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#3B2412" stroke="#3B2412" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#4D4D4D" stroke="#4D4D4D" stroke-width="1.2" stroke-linejoin="round"/>
   </g>
   <g transform="rotate(270 20 20)">
     <g opacity="1"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="2.4s" begin="0.00s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 -8" dur="2.4s" begin="0.00s" repeatCount="indefinite"/><circle cx="15.5" cy="29" r="2.6" fill="#5DB8F0" stroke="#3B2412" stroke-width="1.1"/><circle cx="14.7" cy="28.2" r="0.73" fill="#FFFFFF"/></g>
@@ -31,9 +31,9 @@
 <svg x="522.5" y="118" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
 <title id="k1_title">Fun-Pumpe, Förderrichtung links, aus</title>
   <defs><linearGradient id="k1_gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></linearGradient></defs>
-  <circle cx="20" cy="20" r="18" fill="url(#k1_gK)" stroke="#3B2412" stroke-width="1.6"/>
+  <circle cx="20" cy="20" r="18" fill="url(#k1_gK)" stroke="#808080" stroke-width="1.6"/>
   <g transform="rotate(270 20 20)">
-    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#3B2412" stroke="#3B2412" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#4D4D4D" stroke="#4D4D4D" stroke-width="1.2" stroke-linejoin="round"/>
   </g>
   <g opacity="1"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.7;1" dur="2.4s" begin="0s" repeatCount="indefinite"/>
     <animateTransform attributeName="transform" type="translate" values="0 0;4 -9" dur="2.4s" begin="0s" repeatCount="indefinite"/>
@@ -53,9 +53,9 @@
 <svg x="902.5" y="118" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
 <title id="k2_title">Fun-Pumpe, Förderrichtung links, Freigabe</title>
   <defs><linearGradient id="k2_gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
-  <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/><circle cx="20" cy="20" r="18" fill="url(#k2_gK)" stroke="#3B2412" stroke-width="1.6"/></g>
+  <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/><circle cx="20" cy="20" r="18" fill="url(#k2_gK)" stroke="#A88400" stroke-width="1.6"/></g>
   <g transform="rotate(270 20 20)">
-    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#3B2412" stroke="#3B2412" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#4D4D4D" stroke="#4D4D4D" stroke-width="1.2" stroke-linejoin="round"/>
   </g>
   <path d="M8,4.5 L9.26,7.74 L12.5,9 L9.26,10.26 L8,13.5 L6.74,10.26 L3.5,9 L6.74,7.74 Z" fill="#FFF3A0" stroke="#3B2412" stroke-width="1.1" stroke-linejoin="round">
     <animate attributeName="opacity" values="0.15;1;0.15" dur="1.2s" begin="0s" repeatCount="indefinite"/></path>
@@ -76,9 +76,9 @@
 <title id="k3_title">Fun-Pumpe, Förderrichtung links, Störung</title>
   <defs><linearGradient id="k3_gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F5A3A0"/><stop offset="1" stop-color="#D7302B"/></linearGradient></defs>
   <g><animateTransform attributeName="transform" type="translate" values="0 0;-0.7 0;0.7 0;-0.7 0;0.7 0;0 0;0 0" dur="0.8s" repeatCount="indefinite"/>
-  <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/><circle cx="20" cy="20" r="18" fill="url(#k3_gK)" stroke="#3B2412" stroke-width="1.6"/></g>
+  <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/><circle cx="20" cy="20" r="18" fill="url(#k3_gK)" stroke="#9E1F1B" stroke-width="1.6"/></g>
   <g transform="rotate(270 20 20)">
-    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#3B2412" stroke="#3B2412" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#4D4D4D" stroke="#4D4D4D" stroke-width="1.2" stroke-linejoin="round"/>
   </g>
   <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/>
     <path d="M20,13 L27,25.5 L13,25.5 Z" fill="#E2231A" stroke="#FFFFFF" stroke-width="1.4" stroke-linejoin="round"/>
@@ -118,10 +118,10 @@
 <svg x="142.5" y="406" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
 <title id="k4_title">Fun-Pumpe, Förderrichtung oben, Betrieb</title>
   <defs><linearGradient id="k4_gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#A8DC96"/><stop offset="1" stop-color="#3E9A3A"/></linearGradient></defs>
-  <circle cx="20" cy="20" r="18" fill="url(#k4_gK)" stroke="#3B2412" stroke-width="1.6"/>
+  <circle cx="20" cy="20" r="18" fill="url(#k4_gK)" stroke="#2F7A2C" stroke-width="1.6"/>
   <circle cx="20" cy="20" r="16" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="2" stroke-linecap="round" stroke-dasharray="22 11.5"><animateTransform attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="1.6s" repeatCount="indefinite"/></circle>
   <g transform="rotate(0 20 20)">
-    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#3B2412" stroke="#3B2412" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#4D4D4D" stroke="#4D4D4D" stroke-width="1.2" stroke-linejoin="round"/>
   </g>
   <g transform="rotate(0 20 20)">
     <g opacity="1"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="2.4s" begin="0.00s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 -8" dur="2.4s" begin="0.00s" repeatCount="indefinite"/><circle cx="15.5" cy="29" r="2.6" fill="#5DB8F0" stroke="#3B2412" stroke-width="1.1"/><circle cx="14.7" cy="28.2" r="0.73" fill="#FFFFFF"/></g>
@@ -139,9 +139,9 @@
 <svg x="522.5" y="406" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
 <title id="k5_title">Fun-Pumpe, Förderrichtung oben, aus</title>
   <defs><linearGradient id="k5_gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></linearGradient></defs>
-  <circle cx="20" cy="20" r="18" fill="url(#k5_gK)" stroke="#3B2412" stroke-width="1.6"/>
+  <circle cx="20" cy="20" r="18" fill="url(#k5_gK)" stroke="#808080" stroke-width="1.6"/>
   <g transform="rotate(0 20 20)">
-    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#3B2412" stroke="#3B2412" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#4D4D4D" stroke="#4D4D4D" stroke-width="1.2" stroke-linejoin="round"/>
   </g>
   <g opacity="1"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.7;1" dur="2.4s" begin="0s" repeatCount="indefinite"/>
     <animateTransform attributeName="transform" type="translate" values="0 0;4 -9" dur="2.4s" begin="0s" repeatCount="indefinite"/>
@@ -161,9 +161,9 @@
 <svg x="902.5" y="406" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
 <title id="k6_title">Fun-Pumpe, Förderrichtung oben, Freigabe</title>
   <defs><linearGradient id="k6_gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
-  <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/><circle cx="20" cy="20" r="18" fill="url(#k6_gK)" stroke="#3B2412" stroke-width="1.6"/></g>
+  <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/><circle cx="20" cy="20" r="18" fill="url(#k6_gK)" stroke="#A88400" stroke-width="1.6"/></g>
   <g transform="rotate(0 20 20)">
-    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#3B2412" stroke="#3B2412" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#4D4D4D" stroke="#4D4D4D" stroke-width="1.2" stroke-linejoin="round"/>
   </g>
   <path d="M8,4.5 L9.26,7.74 L12.5,9 L9.26,10.26 L8,13.5 L6.74,10.26 L3.5,9 L6.74,7.74 Z" fill="#FFF3A0" stroke="#3B2412" stroke-width="1.1" stroke-linejoin="round">
     <animate attributeName="opacity" values="0.15;1;0.15" dur="1.2s" begin="0s" repeatCount="indefinite"/></path>
@@ -184,9 +184,9 @@
 <title id="k7_title">Fun-Pumpe, Förderrichtung oben, Störung</title>
   <defs><linearGradient id="k7_gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F5A3A0"/><stop offset="1" stop-color="#D7302B"/></linearGradient></defs>
   <g><animateTransform attributeName="transform" type="translate" values="0 0;-0.7 0;0.7 0;-0.7 0;0.7 0;0 0;0 0" dur="0.8s" repeatCount="indefinite"/>
-  <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/><circle cx="20" cy="20" r="18" fill="url(#k7_gK)" stroke="#3B2412" stroke-width="1.6"/></g>
+  <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/><circle cx="20" cy="20" r="18" fill="url(#k7_gK)" stroke="#9E1F1B" stroke-width="1.6"/></g>
   <g transform="rotate(0 20 20)">
-    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#3B2412" stroke="#3B2412" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#4D4D4D" stroke="#4D4D4D" stroke-width="1.2" stroke-linejoin="round"/>
   </g>
   <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/>
     <path d="M20,13 L27,25.5 L13,25.5 Z" fill="#E2231A" stroke="#FFFFFF" stroke-width="1.4" stroke-linejoin="round"/>
@@ -226,10 +226,10 @@
 <svg x="142.5" y="694" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
 <title id="k8_title">Fun-Pumpe, Förderrichtung rechts, Betrieb</title>
   <defs><linearGradient id="k8_gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#A8DC96"/><stop offset="1" stop-color="#3E9A3A"/></linearGradient></defs>
-  <circle cx="20" cy="20" r="18" fill="url(#k8_gK)" stroke="#3B2412" stroke-width="1.6"/>
+  <circle cx="20" cy="20" r="18" fill="url(#k8_gK)" stroke="#2F7A2C" stroke-width="1.6"/>
   <circle cx="20" cy="20" r="16" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="2" stroke-linecap="round" stroke-dasharray="22 11.5"><animateTransform attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="1.6s" repeatCount="indefinite"/></circle>
   <g transform="rotate(90 20 20)">
-    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#3B2412" stroke="#3B2412" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#4D4D4D" stroke="#4D4D4D" stroke-width="1.2" stroke-linejoin="round"/>
   </g>
   <g transform="rotate(90 20 20)">
     <g opacity="1"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="2.4s" begin="0.00s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 -8" dur="2.4s" begin="0.00s" repeatCount="indefinite"/><circle cx="15.5" cy="29" r="2.6" fill="#5DB8F0" stroke="#3B2412" stroke-width="1.1"/><circle cx="14.7" cy="28.2" r="0.73" fill="#FFFFFF"/></g>
@@ -247,9 +247,9 @@
 <svg x="522.5" y="694" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
 <title id="k9_title">Fun-Pumpe, Förderrichtung rechts, aus</title>
   <defs><linearGradient id="k9_gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></linearGradient></defs>
-  <circle cx="20" cy="20" r="18" fill="url(#k9_gK)" stroke="#3B2412" stroke-width="1.6"/>
+  <circle cx="20" cy="20" r="18" fill="url(#k9_gK)" stroke="#808080" stroke-width="1.6"/>
   <g transform="rotate(90 20 20)">
-    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#3B2412" stroke="#3B2412" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#4D4D4D" stroke="#4D4D4D" stroke-width="1.2" stroke-linejoin="round"/>
   </g>
   <g opacity="1"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.7;1" dur="2.4s" begin="0s" repeatCount="indefinite"/>
     <animateTransform attributeName="transform" type="translate" values="0 0;4 -9" dur="2.4s" begin="0s" repeatCount="indefinite"/>
@@ -269,9 +269,9 @@
 <svg x="902.5" y="694" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
 <title id="k10_title">Fun-Pumpe, Förderrichtung rechts, Freigabe</title>
   <defs><linearGradient id="k10_gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
-  <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/><circle cx="20" cy="20" r="18" fill="url(#k10_gK)" stroke="#3B2412" stroke-width="1.6"/></g>
+  <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/><circle cx="20" cy="20" r="18" fill="url(#k10_gK)" stroke="#A88400" stroke-width="1.6"/></g>
   <g transform="rotate(90 20 20)">
-    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#3B2412" stroke="#3B2412" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#4D4D4D" stroke="#4D4D4D" stroke-width="1.2" stroke-linejoin="round"/>
   </g>
   <path d="M8,4.5 L9.26,7.74 L12.5,9 L9.26,10.26 L8,13.5 L6.74,10.26 L3.5,9 L6.74,7.74 Z" fill="#FFF3A0" stroke="#3B2412" stroke-width="1.1" stroke-linejoin="round">
     <animate attributeName="opacity" values="0.15;1;0.15" dur="1.2s" begin="0s" repeatCount="indefinite"/></path>
@@ -292,9 +292,9 @@
 <title id="k11_title">Fun-Pumpe, Förderrichtung rechts, Störung</title>
   <defs><linearGradient id="k11_gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F5A3A0"/><stop offset="1" stop-color="#D7302B"/></linearGradient></defs>
   <g><animateTransform attributeName="transform" type="translate" values="0 0;-0.7 0;0.7 0;-0.7 0;0.7 0;0 0;0 0" dur="0.8s" repeatCount="indefinite"/>
-  <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/><circle cx="20" cy="20" r="18" fill="url(#k11_gK)" stroke="#3B2412" stroke-width="1.6"/></g>
+  <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/><circle cx="20" cy="20" r="18" fill="url(#k11_gK)" stroke="#9E1F1B" stroke-width="1.6"/></g>
   <g transform="rotate(90 20 20)">
-    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#3B2412" stroke="#3B2412" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#4D4D4D" stroke="#4D4D4D" stroke-width="1.2" stroke-linejoin="round"/>
   </g>
   <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/>
     <path d="M20,13 L27,25.5 L13,25.5 Z" fill="#E2231A" stroke="#FFFFFF" stroke-width="1.4" stroke-linejoin="round"/>
@@ -334,10 +334,10 @@
 <svg x="142.5" y="982" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
 <title id="k12_title">Fun-Pumpe, Förderrichtung unten, Betrieb</title>
   <defs><linearGradient id="k12_gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#A8DC96"/><stop offset="1" stop-color="#3E9A3A"/></linearGradient></defs>
-  <circle cx="20" cy="20" r="18" fill="url(#k12_gK)" stroke="#3B2412" stroke-width="1.6"/>
+  <circle cx="20" cy="20" r="18" fill="url(#k12_gK)" stroke="#2F7A2C" stroke-width="1.6"/>
   <circle cx="20" cy="20" r="16" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="2" stroke-linecap="round" stroke-dasharray="22 11.5"><animateTransform attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="1.6s" repeatCount="indefinite"/></circle>
   <g transform="rotate(180 20 20)">
-    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#3B2412" stroke="#3B2412" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#4D4D4D" stroke="#4D4D4D" stroke-width="1.2" stroke-linejoin="round"/>
   </g>
   <g transform="rotate(180 20 20)">
     <g opacity="1"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.75;1" dur="2.4s" begin="0.00s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 -8" dur="2.4s" begin="0.00s" repeatCount="indefinite"/><circle cx="15.5" cy="29" r="2.6" fill="#5DB8F0" stroke="#3B2412" stroke-width="1.1"/><circle cx="14.7" cy="28.2" r="0.73" fill="#FFFFFF"/></g>
@@ -355,9 +355,9 @@
 <svg x="522.5" y="982" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
 <title id="k13_title">Fun-Pumpe, Förderrichtung unten, aus</title>
   <defs><linearGradient id="k13_gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></linearGradient></defs>
-  <circle cx="20" cy="20" r="18" fill="url(#k13_gK)" stroke="#3B2412" stroke-width="1.6"/>
+  <circle cx="20" cy="20" r="18" fill="url(#k13_gK)" stroke="#808080" stroke-width="1.6"/>
   <g transform="rotate(180 20 20)">
-    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#3B2412" stroke="#3B2412" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#4D4D4D" stroke="#4D4D4D" stroke-width="1.2" stroke-linejoin="round"/>
   </g>
   <g opacity="1"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.7;1" dur="2.4s" begin="0s" repeatCount="indefinite"/>
     <animateTransform attributeName="transform" type="translate" values="0 0;4 -9" dur="2.4s" begin="0s" repeatCount="indefinite"/>
@@ -377,9 +377,9 @@
 <svg x="902.5" y="982" width="120" height="120" viewBox="0 0 40 40" overflow="hidden">
 <title id="k14_title">Fun-Pumpe, Förderrichtung unten, Freigabe</title>
   <defs><linearGradient id="k14_gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
-  <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/><circle cx="20" cy="20" r="18" fill="url(#k14_gK)" stroke="#3B2412" stroke-width="1.6"/></g>
+  <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/><circle cx="20" cy="20" r="18" fill="url(#k14_gK)" stroke="#A88400" stroke-width="1.6"/></g>
   <g transform="rotate(180 20 20)">
-    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#3B2412" stroke="#3B2412" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#4D4D4D" stroke="#4D4D4D" stroke-width="1.2" stroke-linejoin="round"/>
   </g>
   <path d="M8,4.5 L9.26,7.74 L12.5,9 L9.26,10.26 L8,13.5 L6.74,10.26 L3.5,9 L6.74,7.74 Z" fill="#FFF3A0" stroke="#3B2412" stroke-width="1.1" stroke-linejoin="round">
     <animate attributeName="opacity" values="0.15;1;0.15" dur="1.2s" begin="0s" repeatCount="indefinite"/></path>
@@ -400,9 +400,9 @@
 <title id="k15_title">Fun-Pumpe, Förderrichtung unten, Störung</title>
   <defs><linearGradient id="k15_gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F5A3A0"/><stop offset="1" stop-color="#D7302B"/></linearGradient></defs>
   <g><animateTransform attributeName="transform" type="translate" values="0 0;-0.7 0;0.7 0;-0.7 0;0.7 0;0 0;0 0" dur="0.8s" repeatCount="indefinite"/>
-  <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/><circle cx="20" cy="20" r="18" fill="url(#k15_gK)" stroke="#3B2412" stroke-width="1.6"/></g>
+  <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/><circle cx="20" cy="20" r="18" fill="url(#k15_gK)" stroke="#9E1F1B" stroke-width="1.6"/></g>
   <g transform="rotate(180 20 20)">
-    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#3B2412" stroke="#3B2412" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#4D4D4D" stroke="#4D4D4D" stroke-width="1.2" stroke-linejoin="round"/>
   </g>
   <g><animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/>
     <path d="M20,13 L27,25.5 L13,25.5 Z" fill="#E2231A" stroke="#FFFFFF" stroke-width="1.4" stroke-linejoin="round"/>

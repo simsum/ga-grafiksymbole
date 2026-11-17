@@ -11,7 +11,7 @@ Alle Symbole 24 × 24 (Fun: 24 × 36, gleiche Lage oben, unten 12 px Platz für 
   Flansch_Paar_<achse>               zwei graue Flanschplatten mit Schrauben (Rohrverbindung)
                                      <achse> = Richtung der Rohrachse (waagerecht, senkrecht); Rohrachse durch die Mitte
 
-  Fun_Flansch_*_undicht_animiert     dieselben Formen mit brauner Fun-Kontur; an der tiefsten Kante bildet sich
+  Fun_Flansch_*_undicht_animiert     dieselben Formen mit grauer Kontur wie die normalen; an der tiefsten Kante bildet sich
                                      ein Wassertropfen, fällt und zerplatzt (SMIL, 2,4 s)
 
 Aufruf: python tools/flansche.py
@@ -24,8 +24,8 @@ ZIEL = ROOT / "symbole" / "hydraulik" / "anschluesse"
 ZIEL_FUN = ROOT / "symbole" / "fun" / "hydraulik" / "anschluesse"
 
 GRAU = "#8C8C8C"
-KONTUR, KONTUR_B = "#3B2412", 1.3   # dunkle Kontur für alle Flansche (normal und Fun gleich)
-BRAUN = "#3B2412"
+KONTUR, KONTUR_B = "#6B6B6B", 1     # graue Kontur für alle Flansche (normal und Fun gleich)
+TROPFEN_K = "#2E6BC2"   # Kontur von Tropfen und Spritzer (Wasserblau statt Fun-Braun)
 FARBEN = {  # Flanschfarben wie an Wärmepumpe und Mehrleitermaschine
     "rot": "#D7302B",        # Heizung Vorlauf
     "orange": "#F29A38",     # Heizung Rücklauf
@@ -64,7 +64,7 @@ def paar(kontur: str, sw: float = 1) -> str:
 def tropfen(x: float, y: float) -> str:
     """Tropfen wächst an (x, y), fällt bis y = 33 und zerplatzt; Ruhebild ohne SMIL: hängender Tropfen."""
     tropf = (f'<path d="M0,0 C1.6,2.2 2.4,3.4 2.4,4.4 a2.4,2.4 0 0 1 -4.8,0 C-2.4,3.4 -1.6,2.2 0,0 Z" '
-             f'fill="#5DB8F0" stroke="{BRAUN}" stroke-width="1" stroke-linejoin="round"/>'
+             f'fill="#5DB8F0" stroke="{TROPFEN_K}" stroke-width="1" stroke-linejoin="round"/>'
              f'<circle cx="-0.8" cy="3.9" r=".7" fill="#FFFFFF"/>')
     fall = 33 - 7 - y
     return (f'<g transform="translate({x} {y})">'
@@ -77,7 +77,7 @@ def tropfen(x: float, y: float) -> str:
             # Spritzer am Boden
             f'<g transform="translate({x} 33)" fill="none" stroke="#5DB8F0" stroke-width="1.2" stroke-linecap="round" opacity="0">'
             f'<animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.8;0.86;1" dur="2.4s" repeatCount="indefinite"/>'
-            f'<path d="M-4,-1 l-1.5,-2 M0,-2 v-2.5 M4,-1 l1.5,-2"/><path d="M-3.5,0.5 h7" stroke="{BRAUN}" stroke-width="1"/></g>')
+            f'<path d="M-4,-1 l-1.5,-2 M0,-2 v-2.5 M4,-1 l1.5,-2"/><path d="M-3.5,0.5 h7" stroke="{TROPFEN_K}" stroke-width="1"/></g>')
 
 
 def datei(breite: int, hoehe: int, titel: str, inhalt: str) -> str:

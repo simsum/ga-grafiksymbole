@@ -297,6 +297,20 @@ Umschalten über `image`-Binding mit Konverter (siehe NIAGARA.md).
 - 24 × 36: oben deckungsgleich mit den normalen 24 × 24-Symbolen, darunter 12 px Platz für den Tropfen. Damit lassen sie sich an derselben Position gegen die normalen Flansche tauschen (z. B. bei Leckage-Meldung).
 - Ohne Animation hängt ein kleiner Tropfen an der Kante. Erzeugt mit `tools/flansche.py`.
 
+### Fun-Wärmepumpe (`symbole/fun/hydraulik/erzeuger/`)
+
+- `Fun_Waermepumpe_Luft_Wasser_{rechts,links}_{aus,an,stoerung,abtau}_animiert`: 180 × 168, gleiche Größe und Anschlusspunkte wie `Waermepumpe_Luft_Wasser_*`, daher per `image`-Binding austauschbar.
+- Gehäusekontur in Fun-Braun `#3B2412`; der Lüfter wird zum Gesicht (Nabe = Nase), Gesichtszüge weiß mit brauner Außenkontur.
+
+| Zustand | Gesicht | Animation |
+| --- | --- | --- |
+| `_aus` | Augen zu, schläft | „Zzz“ steigt auf |
+| `_an` | große Augen (blinzeln), Lächeln, Bäckchen | Lüfter dreht, Windlinien |
+| `_stoerung` | X-Augen, Zickzack-Mund | Gerät wackelt, Rauch steigt aus dem Lüfter, Warndreieck im Schaltkasten, rote LED blinkt |
+| `_abtau` | besorgte Augen, Zähneklappern | Gerät zittert, Eiszapfen, Reif auf dem Lüfter, Schneeflocke im Schaltkasten, blaue LED |
+
+- Ohne Animation bleiben Gesicht und Zustandsanzeigen sichtbar. Erzeugt mit `tools/fun_waermepumpe.py` (baut auf `tools/waermepumpe.py` auf).
+
 ### Monatsleiste
 
 - `Fun_Monatsleiste`: 1200 × 64, statisch, Stil der Fun-Buttons (Kontur `#2b1600`, Glanzstreifen, Schatten, abgerundete Enden).

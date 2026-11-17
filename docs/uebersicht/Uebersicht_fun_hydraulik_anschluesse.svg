@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="666" viewBox="0 0 1560 666">
+<title>symbole/fun/hydraulik/anschluesse: 8 Symbole</title>
+<style>text{font-family:Segoe UI, Arial, Helvetica, sans-serif}.name{font-size:15px;font-weight:700;fill:#20242A;text-anchor:middle}.mass{font-size:12px;fill:#69727A;text-anchor:middle}</style>
+<rect width="1560" height="666" fill="#F4F5F7"/>
+<text x="20" y="42" font-size="26" font-weight="700" fill="#30343A">symbole/fun/hydraulik/anschluesse</text>
+<text x="1540" y="42" font-size="16" fill="#69727A" text-anchor="end">8 Symbole</text>
+<g id="Fun_Flansch_Geraet_links_undicht">
+<rect x="19" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="166.5" y="124" width="72" height="108" viewBox="0 0 24 36" overflow="hidden">
+<title id="k0_title">Fun-Geräteflansch undicht, Rohr nach links</title>
+  <g transform="rotate(90 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#9A9A9A" stroke="#3B2412" stroke-width="1.3"/></g><g transform="translate(11 20)"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 6.0;0 6.0" keyTimes="0;0.55;0.8;1" dur="2.4s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="scale" values="0.2;1;1;1" keyTimes="0;0.55;0.8;1" dur="2.4s" repeatCount="indefinite"/><g><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.55;0.79;0.8;1" dur="2.4s" repeatCount="indefinite"/><path d="M0,0 C1.6,2.2 2.4,3.4 2.4,4.4 a2.4,2.4 0 0 1 -4.8,0 C-2.4,3.4 -1.6,2.2 0,0 Z" fill="#5DB8F0" stroke="#3B2412" stroke-width="1" stroke-linejoin="round"/><circle cx="-0.8" cy="3.9" r=".7" fill="#FFFFFF"/></g></g></g></g><g transform="translate(11 33)" fill="none" stroke="#5DB8F0" stroke-width="1.2" stroke-linecap="round" opacity="0"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.8;0.86;1" dur="2.4s" repeatCount="indefinite"/><path d="M-4,-1 l-1.5,-2 M0,-2 v-2.5 M4,-1 l1.5,-2"/><path d="M-3.5,0.5 h7" stroke="#3B2412" stroke-width="1"/></g>
+</svg>
+<text x="202.5" y="287" class="name">Fun_Flansch_Geraet</text>
+<text x="202.5" y="305" class="name">links_undicht</text>
+<text x="202.5" y="326" class="mass">24 × 36 px</text>
+</g>
+<g id="Fun_Flansch_Geraet_oben_undicht">
+<rect x="399" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="546.5" y="124" width="72" height="108" viewBox="0 0 24 36" overflow="hidden">
+<title id="k1_title">Fun-Geräteflansch undicht, Rohr nach oben</title>
+  <g transform="rotate(180 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#9A9A9A" stroke="#3B2412" stroke-width="1.3"/></g><g transform="translate(18.5 14)"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 12.0;0 12.0" keyTimes="0;0.55;0.8;1" dur="2.4s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="scale" values="0.2;1;1;1" keyTimes="0;0.55;0.8;1" dur="2.4s" repeatCount="indefinite"/><g><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.55;0.79;0.8;1" dur="2.4s" repeatCount="indefinite"/><path d="M0,0 C1.6,2.2 2.4,3.4 2.4,4.4 a2.4,2.4 0 0 1 -4.8,0 C-2.4,3.4 -1.6,2.2 0,0 Z" fill="#5DB8F0" stroke="#3B2412" stroke-width="1" stroke-linejoin="round"/><circle cx="-0.8" cy="3.9" r=".7" fill="#FFFFFF"/></g></g></g></g><g transform="translate(18.5 33)" fill="none" stroke="#5DB8F0" stroke-width="1.2" stroke-linecap="round" opacity="0"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.8;0.86;1" dur="2.4s" repeatCount="indefinite"/><path d="M-4,-1 l-1.5,-2 M0,-2 v-2.5 M4,-1 l1.5,-2"/><path d="M-3.5,0.5 h7" stroke="#3B2412" stroke-width="1"/></g>
+</svg>
+<text x="582.5" y="287" class="name">Fun_Flansch_Geraet</text>
+<text x="582.5" y="305" class="name">oben_undicht</text>
+<text x="582.5" y="326" class="mass">24 × 36 px</text>
+</g>
+<g id="Fun_Flansch_Geraet_rechts_undicht">
+<rect x="779" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="926.5" y="124" width="72" height="108" viewBox="0 0 24 36" overflow="hidden">
+<title id="k2_title">Fun-Geräteflansch undicht, Rohr nach rechts</title>
+  <g transform="rotate(270 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#9A9A9A" stroke="#3B2412" stroke-width="1.3"/></g><g transform="translate(13 20)"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 6.0;0 6.0" keyTimes="0;0.55;0.8;1" dur="2.4s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="scale" values="0.2;1;1;1" keyTimes="0;0.55;0.8;1" dur="2.4s" repeatCount="indefinite"/><g><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.55;0.79;0.8;1" dur="2.4s" repeatCount="indefinite"/><path d="M0,0 C1.6,2.2 2.4,3.4 2.4,4.4 a2.4,2.4 0 0 1 -4.8,0 C-2.4,3.4 -1.6,2.2 0,0 Z" fill="#5DB8F0" stroke="#3B2412" stroke-width="1" stroke-linejoin="round"/><circle cx="-0.8" cy="3.9" r=".7" fill="#FFFFFF"/></g></g></g></g><g transform="translate(13 33)" fill="none" stroke="#5DB8F0" stroke-width="1.2" stroke-linecap="round" opacity="0"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.8;0.86;1" dur="2.4s" repeatCount="indefinite"/><path d="M-4,-1 l-1.5,-2 M0,-2 v-2.5 M4,-1 l1.5,-2"/><path d="M-3.5,0.5 h7" stroke="#3B2412" stroke-width="1"/></g>
+</svg>
+<text x="962.5" y="287" class="name">Fun_Flansch_Geraet</text>
+<text x="962.5" y="305" class="name">rechts_undicht</text>
+<text x="962.5" y="326" class="mass">24 × 36 px</text>
+</g>
+<g id="Fun_Flansch_Geraet_unten_undicht">
+<rect x="1159" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1306.5" y="124" width="72" height="108" viewBox="0 0 24 36" overflow="hidden">
+<title id="k3_title">Fun-Geräteflansch undicht, Rohr nach unten</title>
+  <g transform="rotate(0 12 12)"><rect x="9" y="5" width="6" height="5" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/><rect x="4" y="10" width="16" height="6" rx="1" fill="#9A9A9A" stroke="#3B2412" stroke-width="1.3"/></g><g transform="translate(17 16)"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 10.0;0 10.0" keyTimes="0;0.55;0.8;1" dur="2.4s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="scale" values="0.2;1;1;1" keyTimes="0;0.55;0.8;1" dur="2.4s" repeatCount="indefinite"/><g><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.55;0.79;0.8;1" dur="2.4s" repeatCount="indefinite"/><path d="M0,0 C1.6,2.2 2.4,3.4 2.4,4.4 a2.4,2.4 0 0 1 -4.8,0 C-2.4,3.4 -1.6,2.2 0,0 Z" fill="#5DB8F0" stroke="#3B2412" stroke-width="1" stroke-linejoin="round"/><circle cx="-0.8" cy="3.9" r=".7" fill="#FFFFFF"/></g></g></g></g><g transform="translate(17 33)" fill="none" stroke="#5DB8F0" stroke-width="1.2" stroke-linecap="round" opacity="0"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.8;0.86;1" dur="2.4s" repeatCount="indefinite"/><path d="M-4,-1 l-1.5,-2 M0,-2 v-2.5 M4,-1 l1.5,-2"/><path d="M-3.5,0.5 h7" stroke="#3B2412" stroke-width="1"/></g>
+</svg>
+<text x="1342.5" y="287" class="name">Fun_Flansch_Geraet</text>
+<text x="1342.5" y="305" class="name">unten_undicht</text>
+<text x="1342.5" y="326" class="mass">24 × 36 px</text>
+</g>
+<g id="Fun_Flansch_Paar_senkrecht_undicht">
+<rect x="19" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="166.5" y="412" width="72" height="108" viewBox="0 0 24 36" overflow="hidden">
+<title id="k4_title">Fun-Flanschpaar undicht, Rohrachse senkrecht</title>
+  <g transform="rotate(0 12 12)"><g fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"><rect x="3" y="8" width="18" height="3.5" rx=".8"/><rect x="3" y="12.5" width="18" height="3.5" rx=".8"/></g><g fill="#3B2412"><circle cx="5.5" cy="12" r=".9"/><circle cx="18.5" cy="12" r=".9"/></g></g><g transform="translate(18.5 16)"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 10.0;0 10.0" keyTimes="0;0.55;0.8;1" dur="2.4s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="scale" values="0.2;1;1;1" keyTimes="0;0.55;0.8;1" dur="2.4s" repeatCount="indefinite"/><g><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.55;0.79;0.8;1" dur="2.4s" repeatCount="indefinite"/><path d="M0,0 C1.6,2.2 2.4,3.4 2.4,4.4 a2.4,2.4 0 0 1 -4.8,0 C-2.4,3.4 -1.6,2.2 0,0 Z" fill="#5DB8F0" stroke="#3B2412" stroke-width="1" stroke-linejoin="round"/><circle cx="-0.8" cy="3.9" r=".7" fill="#FFFFFF"/></g></g></g></g><g transform="translate(18.5 33)" fill="none" stroke="#5DB8F0" stroke-width="1.2" stroke-linecap="round" opacity="0"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.8;0.86;1" dur="2.4s" repeatCount="indefinite"/><path d="M-4,-1 l-1.5,-2 M0,-2 v-2.5 M4,-1 l1.5,-2"/><path d="M-3.5,0.5 h7" stroke="#3B2412" stroke-width="1"/></g>
+</svg>
+<text x="202.5" y="575" class="name">Fun_Flansch_Paar</text>
+<text x="202.5" y="593" class="name">senkrecht_undicht</text>
+<text x="202.5" y="614" class="mass">24 × 36 px</text>
+</g>
+<g id="Fun_Flansch_Paar_waagerecht_undicht">
+<rect x="399" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="546.5" y="412" width="72" height="108" viewBox="0 0 24 36" overflow="hidden">
+<title id="k5_title">Fun-Flanschpaar undicht, Rohrachse waagerecht</title>
+  <g transform="rotate(90 12 12)"><g fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"><rect x="3" y="8" width="18" height="3.5" rx=".8"/><rect x="3" y="12.5" width="18" height="3.5" rx=".8"/></g><g fill="#3B2412"><circle cx="5.5" cy="12" r=".9"/><circle cx="18.5" cy="12" r=".9"/></g></g><g transform="translate(12 21)"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 5.0;0 5.0" keyTimes="0;0.55;0.8;1" dur="2.4s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="scale" values="0.2;1;1;1" keyTimes="0;0.55;0.8;1" dur="2.4s" repeatCount="indefinite"/><g><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.55;0.79;0.8;1" dur="2.4s" repeatCount="indefinite"/><path d="M0,0 C1.6,2.2 2.4,3.4 2.4,4.4 a2.4,2.4 0 0 1 -4.8,0 C-2.4,3.4 -1.6,2.2 0,0 Z" fill="#5DB8F0" stroke="#3B2412" stroke-width="1" stroke-linejoin="round"/><circle cx="-0.8" cy="3.9" r=".7" fill="#FFFFFF"/></g></g></g></g><g transform="translate(12 33)" fill="none" stroke="#5DB8F0" stroke-width="1.2" stroke-linecap="round" opacity="0"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.8;0.86;1" dur="2.4s" repeatCount="indefinite"/><path d="M-4,-1 l-1.5,-2 M0,-2 v-2.5 M4,-1 l1.5,-2"/><path d="M-3.5,0.5 h7" stroke="#3B2412" stroke-width="1"/></g>
+</svg>
+<text x="582.5" y="575" class="name">Fun_Flansch_Paar</text>
+<text x="582.5" y="593" class="name">waagerecht_undicht</text>
+<text x="582.5" y="614" class="mass">24 × 36 px</text>
+</g>
+<g id="Fun_Flansch_Platte_senkrecht_undicht">
+<rect x="779" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="926.5" y="412" width="72" height="108" viewBox="0 0 24 36" overflow="hidden">
+<title id="k6_title">Fun-Flanschplatte undicht, Rohrachse senkrecht</title>
+  <g transform="rotate(0 12 12)"><rect x="3" y="9.5" width="18" height="5" rx="1" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/></g><g transform="translate(18.5 14.5)"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 11.5;0 11.5" keyTimes="0;0.55;0.8;1" dur="2.4s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="scale" values="0.2;1;1;1" keyTimes="0;0.55;0.8;1" dur="2.4s" repeatCount="indefinite"/><g><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.55;0.79;0.8;1" dur="2.4s" repeatCount="indefinite"/><path d="M0,0 C1.6,2.2 2.4,3.4 2.4,4.4 a2.4,2.4 0 0 1 -4.8,0 C-2.4,3.4 -1.6,2.2 0,0 Z" fill="#5DB8F0" stroke="#3B2412" stroke-width="1" stroke-linejoin="round"/><circle cx="-0.8" cy="3.9" r=".7" fill="#FFFFFF"/></g></g></g></g><g transform="translate(18.5 33)" fill="none" stroke="#5DB8F0" stroke-width="1.2" stroke-linecap="round" opacity="0"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.8;0.86;1" dur="2.4s" repeatCount="indefinite"/><path d="M-4,-1 l-1.5,-2 M0,-2 v-2.5 M4,-1 l1.5,-2"/><path d="M-3.5,0.5 h7" stroke="#3B2412" stroke-width="1"/></g>
+</svg>
+<text x="962.5" y="575" class="name">Fun_Flansch_Platte</text>
+<text x="962.5" y="593" class="name">senkrecht_undicht</text>
+<text x="962.5" y="614" class="mass">24 × 36 px</text>
+</g>
+<g id="Fun_Flansch_Platte_waagerecht_undicht">
+<rect x="1159" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1306.5" y="412" width="72" height="108" viewBox="0 0 24 36" overflow="hidden">
+<title id="k7_title">Fun-Flanschplatte undicht, Rohrachse waagerecht</title>
+  <g transform="rotate(90 12 12)"><rect x="3" y="9.5" width="18" height="5" rx="1" fill="#8C8C8C" stroke="#3B2412" stroke-width="1.3"/></g><g transform="translate(12 21)"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 5.0;0 5.0" keyTimes="0;0.55;0.8;1" dur="2.4s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="scale" values="0.2;1;1;1" keyTimes="0;0.55;0.8;1" dur="2.4s" repeatCount="indefinite"/><g><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.55;0.79;0.8;1" dur="2.4s" repeatCount="indefinite"/><path d="M0,0 C1.6,2.2 2.4,3.4 2.4,4.4 a2.4,2.4 0 0 1 -4.8,0 C-2.4,3.4 -1.6,2.2 0,0 Z" fill="#5DB8F0" stroke="#3B2412" stroke-width="1" stroke-linejoin="round"/><circle cx="-0.8" cy="3.9" r=".7" fill="#FFFFFF"/></g></g></g></g><g transform="translate(12 33)" fill="none" stroke="#5DB8F0" stroke-width="1.2" stroke-linecap="round" opacity="0"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.8;0.86;1" dur="2.4s" repeatCount="indefinite"/><path d="M-4,-1 l-1.5,-2 M0,-2 v-2.5 M4,-1 l1.5,-2"/><path d="M-3.5,0.5 h7" stroke="#3B2412" stroke-width="1"/></g>
+</svg>
+<text x="1342.5" y="575" class="name">Fun_Flansch_Platte</text>
+<text x="1342.5" y="593" class="name">waagerecht_undicht</text>
+<text x="1342.5" y="614" class="mass">24 × 36 px</text>
+</g>
+</svg>

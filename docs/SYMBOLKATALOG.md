@@ -185,6 +185,31 @@ Mit angedeutetem Rollenzählwerk (fünf Rollen, letzte rot).
 
 Animation per SMIL. Ohne Animation bleibt die Zustandsfarbe (und bei Störung das Warndreieck) sichtbar. Zustandswechsel über `image`-Binding (siehe NIAGARA.md).
 
+### Anschlüsse (`symbole/hydraulik/anschluesse/`)
+
+Einzelne Flanschanschlüsse zum Anlegen an Geräte oder Leitungen, alle 24 × 24, Rohrbreite 12 px.
+
+| Symbol | Darstellung |
+|---|---|
+| `Flansch_Geraet_<farbe>_<richtung>` | Geräteflansch wie an der Wärmepumpe: grauer Hals (6 × 5) an der Gerätekante, farbige Flanschplatte (16 × 6) |
+| `Flansch_Platte_<achse>` | einzelne graue Flanschplatte (18 × 5) quer zur Rohrachse |
+| `Flansch_Paar_<achse>` | zwei graue Flanschplatten mit Schrauben, Rohrverbindung in der Leitung |
+
+- `<richtung>` = Seite, zu der das Rohr abgeht: `unten`, `oben`, `links`, `rechts`. Bei `unten` liegt die Gerätekante bei y = 5, das Rohr setzt mittig bei y = 16 an (x = 12); die anderen Richtungen sind um die Mitte (12, 12) gedreht.
+- `<achse>` = Richtung der Rohrachse: `senkrecht` oder `waagerecht`. Die Rohrachse läuft durch die Mitte (12, 12); die Platten werden über das Rohr gelegt.
+- Farben (`<farbe>`) wie die Flansche an Wärmepumpe und Mehrleitermaschine:
+
+| Farbe | Wert | Verwendung |
+|---|---|---|
+| `rot` | `#D7302B` | Heizung Vorlauf |
+| `orange` | `#F29A38` | Heizung Rücklauf |
+| `blau` | `#2E6BC2` | Kälte Vorlauf |
+| `hellblau` | `#7CA6DE` | Kälte Rücklauf |
+| `gruen` | `#6BB33A` | Kaltwasser |
+| `grau` | `#9A9A9A` | neutral |
+
+- Grauteile `#8C8C8C`, Kontur `#6B6B6B`. Erzeugt mit `tools/flansche.py`.
+
 ## Anzeigen
 
 ### LEDs (flache Version)
@@ -264,6 +289,13 @@ Umschalten über `image`-Binding mit Konverter (siehe NIAGARA.md).
 - Das Förderdreieck zeigt in allen Zuständen die Förderrichtung, wie bei den Standard-Pumpen.
 - `_aus`: zwei „z“ steigen auf. `_freigabe`: Funken blinken. `_an`: blaue Wasserblasen wandern über das Dreieck in Förderrichtung (Blasen nur im Betrieb). `_stoerung`: Pumpe wackelt, Dampfwolken steigen auf, Schweißperlen spritzen ab, Warndreieck in der Mitte.
 - Erzeugt mit `tools/fun_pumpe.py` (baut auf `tools/pumpe.py` auf). Ohne Animation bleibt das Symbol mit allen Effekten sichtbar.
+
+### Fun-Flansche, undicht (`symbole/fun/hydraulik/anschluesse/`)
+
+- `Fun_Flansch_Geraet_<richtung>_undicht`, `Fun_Flansch_Platte_<achse>_undicht`, `Fun_Flansch_Paar_<achse>_undicht`: dieselben Formen wie die normalen Flansche (grau, braune Fun-Kontur `#3B2412`).
+- An der tiefsten Kante bildet sich ein Wassertropfen, fällt nach unten und zerplatzt (SMIL, 2,4 s, Tropfen immer senkrecht nach unten, unabhängig von der Richtung).
+- 24 × 36: oben deckungsgleich mit den normalen 24 × 24-Symbolen, darunter 12 px Platz für den Tropfen. Damit lassen sie sich an derselben Position gegen die normalen Flansche tauschen (z. B. bei Leckage-Meldung).
+- Ohne Animation hängt ein kleiner Tropfen an der Kante. Erzeugt mit `tools/flansche.py`.
 
 ### Monatsleiste
 

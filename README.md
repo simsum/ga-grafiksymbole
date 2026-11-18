@@ -35,7 +35,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
     hydraulik/pumpen/    Fun-Pumpen
     hydraulik/speicher/  Fun-Pufferspeicher
     hydraulik/anschluesse/  Fun-Flansche, undicht (tropfen)
-    hydraulik/erzeuger/  Fun-Wärmepumpe mit Gesicht im Lüfter (aus, Betrieb, Störung, Abtauen)
+    hydraulik/erzeuger/  Fun-Wärmepumpe mit Gesicht im Lüfter (aus, Betrieb, Störung, Abtauen), Fun-Gastherme
     navigation/          Navigationsbuttons 280 × 72 (normal/aktiv), Monatsleiste
   topologie/
     automation/          Controller, I/O-Module, GLT-Leitrechner
@@ -63,6 +63,7 @@ tools/
   freigabe.py            Erzeugt die Freigabe-Anzeigen unter symbole/anzeigen/freigabe/
   zustandsfarben.py      Einheitliche Zustandsfarben (aus, Freigabe, Betrieb, Störung) für alle Erzeuger
   fun_waermepumpe.py     Erzeugt die Fun-Wärmepumpe unter symbole/fun/hydraulik/erzeuger/ (baut auf waermepumpe.py auf)
+  fun_gastherme.py       Erzeugt die Fun-Gastherme unter symbole/fun/hydraulik/erzeuger/ (baut auf gastherme.py auf)
   flansche.py            Erzeugt die Flanschanschlüsse unter symbole/hydraulik/anschluesse/ und die Fun-Varianten
   aufstellplatten.py     Erzeugt die Aufstellplatten unter symbole/allgemein/aufstellung/
   uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ aus den SVGs (ohne Zusatzpakete)

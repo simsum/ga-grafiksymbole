@@ -303,6 +303,13 @@ Verspielte Cartoon-Symbole unter `symbole/fun/` (Gruppen wie in der Hauptstruktu
 
 Umschalten über `image`-Binding mit Konverter (siehe NIAGARA.md).
 
+### Fun-Gastherme (`symbole/fun/hydraulik/erzeuger/`)
+
+- `Fun_Gastherme_vorne_{aus,an,stoerung}_animiert`: 120 × 166, gleiche Größe und Anschlusspunkte wie `Gastherme_vorne_*` (VL 30, Gas 60, RL 90; y = 166), daher per `image`-Binding austauschbar.
+- Gehäuse, Bedienfeld und Flansche wie die normale Gastherme; die Frontplatte bekommt ein Gesicht, das Schauglas sitzt darunter.
+- `_aus`: Augen zu, „Zzz“ steigt auf, Schauglas dunkel. `_an`: große Augen (blinzeln), Lächeln, Bäckchen, Flammen flackern, LED grün. `_stoerung`: X-Augen, Zickzack-Mund, Therme wackelt, Rauch steigt auf, Warndreieck im Schauglas, rote LED blinkt.
+- Ohne Animation bleiben Gesicht und Zustandsanzeigen sichtbar. Erzeugt mit `tools/fun_gastherme.py` (baut auf `tools/gastherme.py` und `tools/fun_waermepumpe.py` auf).
+
 ### Fun-Pumpen
 
 - `Fun_Pumpe_{oben,rechts,unten,links}_{aus,freigabe,an,stoerung}`: 40 × 40, gleiche Größe, Richtungen und Zustandsfarben wie die Pumpen unter `symbole/hydraulik/pumpen/`, daher per `image`-Binding austauschbar. Pumpensymbol mit derselben Zustandskontur und demselben grauen Förderdreieck wie die normale Pumpe (Effekte kräftig dunkel umrandet `#3B2412`), dazu eine kleine Animation (SMIL).

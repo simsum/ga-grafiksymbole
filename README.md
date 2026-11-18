@@ -21,7 +21,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
   hydraulik/
     armaturen/           Absperrklappe, Energieventil, Endlagen
     pumpen/              Pumpen in vier Richtungen und vier Zuständen
-    erzeuger/            Kessel, Brenner (Flamme, Rauch), Wärmepumpe, Mehrleitermaschine
+    erzeuger/            Kessel, Gastherme, Brenner (Flamme, Rauch), Wärmepumpe, Mehrleitermaschine
     speicher/            Pufferspeicher, Schichtspeicher
     zaehler/             Wärme-, Kälte-, Wasser- und Elektrozähler
     anschluesse/         Einzelne Flanschanschlüsse: Geräteflansch (6 Farben, 4 Richtungen), Flanschplatte, Flanschpaar
@@ -56,6 +56,7 @@ tools/
   flamme.py              Erzeugt die Brennerflammen unter symbole/hydraulik/erzeuger/ (animiert + statisch)
   fun_pumpe.py           Erzeugt die Fun-Pumpen unter symbole/fun/hydraulik/pumpen/ (baut auf pumpe.py auf)
   waermepumpe.py         Erzeugt die Wärmepumpen-Symbole unter symbole/hydraulik/erzeuger/
+  gastherme.py           Erzeugt die Gastherme (Vorderansicht und Schnitt) unter symbole/hydraulik/erzeuger/
   klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/
   monatsleiste.py        Erzeugt symbole/fun/navigation/Fun_Monatsleiste.svg (Schrift Chewy als Pfade, fonttools)
   zip_erstellen.py       Packt symbole/ und LICENSE in dist/ga-grafiksymbole.zip (von der Action genutzt)

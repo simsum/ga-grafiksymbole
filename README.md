@@ -12,6 +12,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
     flusspfeile/         Flusspfeile gerade und mit Bogen
     trennung/            Trennung/Durchführung (Decke, Wand)
     aufstellung/         Aufstellplatten unter stehenden Geräten (Beton, rund, Stahl)
+    bereiche/            Dezente Trennlinien (8 Designs), Bereichsflächen, heller Seitenhintergrund
   lueftung/
     klimageraete/        Klimakonvektor
     luftdurchlaesse/     Deckenluftdurchlass
@@ -66,6 +67,7 @@ tools/
   fun_gastherme.py       Erzeugt die Fun-Gastherme unter symbole/fun/hydraulik/erzeuger/ (baut auf gastherme.py auf)
   flansche.py            Erzeugt die Flanschanschlüsse unter symbole/hydraulik/anschluesse/ und die Fun-Varianten
   aufstellplatten.py     Erzeugt die Aufstellplatten unter symbole/allgemein/aufstellung/
+  bereiche.py            Erzeugt Trennlinien, Bereichsflächen und Seitenhintergrund unter symbole/allgemein/bereiche/
   uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ aus den SVGs (ohne Zusatzpakete)
 ```
 
@@ -91,6 +93,9 @@ Jede Grafik zeigt alle Symbole einer Gruppe mit Dateinamen und Größe. Die Symb
 
 **Aufstellplatten** (`aufstellung`)
 ![Aufstellplatten](docs/uebersicht/Uebersicht_allgemein_aufstellung.svg)
+
+**Bereiche** (`bereiche`)
+![Bereiche](docs/uebersicht/Uebersicht_allgemein_bereiche.svg)
 
 ### Lüftung – `symbole/lueftung`
 

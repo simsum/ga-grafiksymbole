@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="400" viewBox="0 0 300 400">
+  <!-- Bereichsfläche hell, 300 × 400 -->
+  <rect x="1" y="1" width="298" height="398" rx="10" fill="#FFFFFF" fill-opacity="0.22" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1.2"/>
+</svg>

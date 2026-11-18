@@ -1,0 +1,979 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="7290" viewBox="0 0 1560 7290">
+<title>symbole/allgemein/bereiche: 99 Symbole</title>
+<style>text{font-family:Segoe UI, Arial, Helvetica, sans-serif}.name{font-size:15px;font-weight:700;fill:#20242A;text-anchor:middle}.mass{font-size:12px;fill:#69727A;text-anchor:middle}</style>
+<rect width="1560" height="7290" fill="#F4F5F7"/>
+<text x="20" y="42" font-size="26" font-weight="700" fill="#30343A">symbole/allgemein/bereiche</text>
+<text x="1540" y="42" font-size="16" fill="#69727A" text-anchor="end">99 Symbole</text>
+<g id="Bereich_Kopfzeile_240x240">
+<rect x="19" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="120" y="95.5" width="165" height="165" viewBox="0 0 240 240" overflow="hidden">
+<rect x="1" y="1" width="238" height="238" rx="10" fill="#FFFFFF" fill-opacity="0.55" stroke="#B9BFC6" stroke-width="1.2"/><path d="M1,30 V11 a10,10 0 0 1 10,-10 H229 a10,10 0 0 1 10,10 V30 Z" fill="#5E6873" fill-opacity="0.12"/><line x1="1" y1="30" x2="239" y2="30" stroke="#B9BFC6" stroke-width="1"/>
+</svg>
+<text x="202.5" y="287" class="name">Bereich_Kopfzeile_240x240</text>
+<text x="202.5" y="308" class="mass">240 × 240 px</text>
+</g>
+<g id="Bereich_Kopfzeile_300x400">
+<rect x="399" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="520.62" y="95.5" width="123.75" height="165" viewBox="0 0 300 400" overflow="hidden">
+<rect x="1" y="1" width="298" height="398" rx="10" fill="#FFFFFF" fill-opacity="0.55" stroke="#B9BFC6" stroke-width="1.2"/><path d="M1,30 V11 a10,10 0 0 1 10,-10 H289 a10,10 0 0 1 10,10 V30 Z" fill="#5E6873" fill-opacity="0.12"/><line x1="1" y1="30" x2="299" y2="30" stroke="#B9BFC6" stroke-width="1"/>
+</svg>
+<text x="582.5" y="287" class="name">Bereich_Kopfzeile_300x400</text>
+<text x="582.5" y="308" class="mass">300 × 400 px</text>
+</g>
+<g id="Bereich_Kopfzeile_400x300">
+<rect x="779" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="852.5" y="95.5" width="220" height="165" viewBox="0 0 400 300" overflow="hidden">
+<rect x="1" y="1" width="398" height="298" rx="10" fill="#FFFFFF" fill-opacity="0.55" stroke="#B9BFC6" stroke-width="1.2"/><path d="M1,30 V11 a10,10 0 0 1 10,-10 H389 a10,10 0 0 1 10,10 V30 Z" fill="#5E6873" fill-opacity="0.12"/><line x1="1" y1="30" x2="399" y2="30" stroke="#B9BFC6" stroke-width="1"/>
+</svg>
+<text x="962.5" y="287" class="name">Bereich_Kopfzeile_400x300</text>
+<text x="962.5" y="308" class="mass">400 × 300 px</text>
+</g>
+<g id="Bereich_Kopfzeile_400x600">
+<rect x="1159" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1287.5" y="95.5" width="110" height="165" viewBox="0 0 400 600" overflow="hidden">
+<rect x="1" y="1" width="398" height="598" rx="10" fill="#FFFFFF" fill-opacity="0.55" stroke="#B9BFC6" stroke-width="1.2"/><path d="M1,30 V11 a10,10 0 0 1 10,-10 H389 a10,10 0 0 1 10,10 V30 Z" fill="#5E6873" fill-opacity="0.12"/><line x1="1" y1="30" x2="399" y2="30" stroke="#B9BFC6" stroke-width="1"/>
+</svg>
+<text x="1342.5" y="287" class="name">Bereich_Kopfzeile_400x600</text>
+<text x="1342.5" y="308" class="mass">400 × 600 px</text>
+</g>
+<g id="Bereich_Kopfzeile_600x400">
+<rect x="19" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="78.75" y="383.5" width="247.5" height="165" viewBox="0 0 600 400" overflow="hidden">
+<rect x="1" y="1" width="598" height="398" rx="10" fill="#FFFFFF" fill-opacity="0.55" stroke="#B9BFC6" stroke-width="1.2"/><path d="M1,30 V11 a10,10 0 0 1 10,-10 H589 a10,10 0 0 1 10,10 V30 Z" fill="#5E6873" fill-opacity="0.12"/><line x1="1" y1="30" x2="599" y2="30" stroke="#B9BFC6" stroke-width="1"/>
+</svg>
+<text x="202.5" y="575" class="name">Bereich_Kopfzeile_600x400</text>
+<text x="202.5" y="596" class="mass">600 × 400 px</text>
+</g>
+<g id="Bereich_Kopfzeile_800x500">
+<rect x="399" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="450.5" y="383.5" width="264" height="165" viewBox="0 0 800 500" overflow="hidden">
+<rect x="1" y="1" width="798" height="498" rx="10" fill="#FFFFFF" fill-opacity="0.55" stroke="#B9BFC6" stroke-width="1.2"/><path d="M1,30 V11 a10,10 0 0 1 10,-10 H789 a10,10 0 0 1 10,10 V30 Z" fill="#5E6873" fill-opacity="0.12"/><line x1="1" y1="30" x2="799" y2="30" stroke="#B9BFC6" stroke-width="1"/>
+</svg>
+<text x="582.5" y="575" class="name">Bereich_Kopfzeile_800x500</text>
+<text x="582.5" y="596" class="mass">800 × 500 px</text>
+</g>
+<g id="Bereich_dunkel_240x240">
+<rect x="779" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="880" y="383.5" width="165" height="165" viewBox="0 0 240 240" overflow="hidden">
+<rect x="1" y="1" width="238" height="238" rx="10" fill="#000000" fill-opacity="0.07" stroke="#000000" stroke-opacity="0.15" stroke-width="1.2"/><rect x="2.2" y="2.2" width="235.6" height="235.6" rx="9" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1"/>
+</svg>
+<text x="962.5" y="575" class="name">Bereich_dunkel_240x240</text>
+<text x="962.5" y="596" class="mass">240 × 240 px</text>
+</g>
+<g id="Bereich_dunkel_300x400">
+<rect x="1159" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1280.62" y="383.5" width="123.75" height="165" viewBox="0 0 300 400" overflow="hidden">
+<rect x="1" y="1" width="298" height="398" rx="10" fill="#000000" fill-opacity="0.07" stroke="#000000" stroke-opacity="0.15" stroke-width="1.2"/><rect x="2.2" y="2.2" width="295.6" height="395.6" rx="9" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1"/>
+</svg>
+<text x="1342.5" y="575" class="name">Bereich_dunkel_300x400</text>
+<text x="1342.5" y="596" class="mass">300 × 400 px</text>
+</g>
+<g id="Bereich_dunkel_400x300">
+<rect x="19" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="92.5" y="671.5" width="220" height="165" viewBox="0 0 400 300" overflow="hidden">
+<rect x="1" y="1" width="398" height="298" rx="10" fill="#000000" fill-opacity="0.07" stroke="#000000" stroke-opacity="0.15" stroke-width="1.2"/><rect x="2.2" y="2.2" width="395.6" height="295.6" rx="9" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1"/>
+</svg>
+<text x="202.5" y="863" class="name">Bereich_dunkel_400x300</text>
+<text x="202.5" y="884" class="mass">400 × 300 px</text>
+</g>
+<g id="Bereich_dunkel_400x600">
+<rect x="399" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="527.5" y="671.5" width="110" height="165" viewBox="0 0 400 600" overflow="hidden">
+<rect x="1" y="1" width="398" height="598" rx="10" fill="#000000" fill-opacity="0.07" stroke="#000000" stroke-opacity="0.15" stroke-width="1.2"/><rect x="2.2" y="2.2" width="395.6" height="595.6" rx="9" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1"/>
+</svg>
+<text x="582.5" y="863" class="name">Bereich_dunkel_400x600</text>
+<text x="582.5" y="884" class="mass">400 × 600 px</text>
+</g>
+<g id="Bereich_dunkel_600x400">
+<rect x="779" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="838.75" y="671.5" width="247.5" height="165" viewBox="0 0 600 400" overflow="hidden">
+<rect x="1" y="1" width="598" height="398" rx="10" fill="#000000" fill-opacity="0.07" stroke="#000000" stroke-opacity="0.15" stroke-width="1.2"/><rect x="2.2" y="2.2" width="595.6" height="395.6" rx="9" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1"/>
+</svg>
+<text x="962.5" y="863" class="name">Bereich_dunkel_600x400</text>
+<text x="962.5" y="884" class="mass">600 × 400 px</text>
+</g>
+<g id="Bereich_dunkel_800x500">
+<rect x="1159" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1210.5" y="671.5" width="264" height="165" viewBox="0 0 800 500" overflow="hidden">
+<rect x="1" y="1" width="798" height="498" rx="10" fill="#000000" fill-opacity="0.07" stroke="#000000" stroke-opacity="0.15" stroke-width="1.2"/><rect x="2.2" y="2.2" width="795.6" height="495.6" rx="9" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1"/>
+</svg>
+<text x="1342.5" y="863" class="name">Bereich_dunkel_800x500</text>
+<text x="1342.5" y="884" class="mass">800 × 500 px</text>
+</g>
+<g id="Bereich_hell_240x240">
+<rect x="19" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="120" y="959.5" width="165" height="165" viewBox="0 0 240 240" overflow="hidden">
+<rect x="1" y="1" width="238" height="238" rx="10" fill="#FFFFFF" fill-opacity="0.22" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1.2"/>
+</svg>
+<text x="202.5" y="1151" class="name">Bereich_hell_240x240</text>
+<text x="202.5" y="1172" class="mass">240 × 240 px</text>
+</g>
+<g id="Bereich_hell_300x400">
+<rect x="399" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="520.62" y="959.5" width="123.75" height="165" viewBox="0 0 300 400" overflow="hidden">
+<rect x="1" y="1" width="298" height="398" rx="10" fill="#FFFFFF" fill-opacity="0.22" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1.2"/>
+</svg>
+<text x="582.5" y="1151" class="name">Bereich_hell_300x400</text>
+<text x="582.5" y="1172" class="mass">300 × 400 px</text>
+</g>
+<g id="Bereich_hell_400x300">
+<rect x="779" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="852.5" y="959.5" width="220" height="165" viewBox="0 0 400 300" overflow="hidden">
+<rect x="1" y="1" width="398" height="298" rx="10" fill="#FFFFFF" fill-opacity="0.22" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1.2"/>
+</svg>
+<text x="962.5" y="1151" class="name">Bereich_hell_400x300</text>
+<text x="962.5" y="1172" class="mass">400 × 300 px</text>
+</g>
+<g id="Bereich_hell_400x600">
+<rect x="1159" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1287.5" y="959.5" width="110" height="165" viewBox="0 0 400 600" overflow="hidden">
+<rect x="1" y="1" width="398" height="598" rx="10" fill="#FFFFFF" fill-opacity="0.22" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1.2"/>
+</svg>
+<text x="1342.5" y="1151" class="name">Bereich_hell_400x600</text>
+<text x="1342.5" y="1172" class="mass">400 × 600 px</text>
+</g>
+<g id="Bereich_hell_600x400">
+<rect x="19" y="1221" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="78.75" y="1247.5" width="247.5" height="165" viewBox="0 0 600 400" overflow="hidden">
+<rect x="1" y="1" width="598" height="398" rx="10" fill="#FFFFFF" fill-opacity="0.22" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1.2"/>
+</svg>
+<text x="202.5" y="1439" class="name">Bereich_hell_600x400</text>
+<text x="202.5" y="1460" class="mass">600 × 400 px</text>
+</g>
+<g id="Bereich_hell_800x500">
+<rect x="399" y="1221" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="450.5" y="1247.5" width="264" height="165" viewBox="0 0 800 500" overflow="hidden">
+<rect x="1" y="1" width="798" height="498" rx="10" fill="#FFFFFF" fill-opacity="0.22" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1.2"/>
+</svg>
+<text x="582.5" y="1439" class="name">Bereich_hell_800x500</text>
+<text x="582.5" y="1460" class="mass">800 × 500 px</text>
+</g>
+<g id="Hintergrund_hell_1920x1080">
+<rect x="779" y="1221" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="1251.25" width="280" height="157.5" viewBox="0 0 1920 1080" overflow="hidden">
+<defs><linearGradient id="k18_g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EEF0F2"/><stop offset="1" stop-color="#DDE1E5"/></linearGradient></defs>
+  <rect width="1920" height="1080" fill="url(#k18_g)"/>
+</svg>
+<text x="962.5" y="1439" class="name">Hintergrund_hell_1920x1080</text>
+<text x="962.5" y="1460" class="mass">1920 × 1080 px</text>
+</g>
+<g id="Trennlinie_Band_120_senkrecht">
+<rect x="1159" y="1221" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1337" y="1247.5" width="11" height="165" viewBox="0 0 8 120" overflow="hidden">
+<defs><linearGradient id="k19_vb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient><linearGradient id="k19_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient></defs><g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="0" width="120" height="8" rx="4" fill="url(#k19_vb)"/><rect x="0" y="3.5" width="120" height="1" fill="url(#k19_vd)"/></g>
+</svg>
+<text x="1342.5" y="1439" class="name">Trennlinie_Band</text>
+<text x="1342.5" y="1457" class="name">120_senkrecht</text>
+<text x="1342.5" y="1478" class="mass">8 × 120 px</text>
+</g>
+<g id="Trennlinie_Band_120_waagerecht">
+<rect x="19" y="1509" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="1510" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="1608.67" width="280" height="18.67" viewBox="0 0 120 8" overflow="hidden">
+<defs><linearGradient id="k20_vb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient><linearGradient id="k20_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient></defs><rect x="0" y="0" width="120" height="8" rx="4" fill="url(#k20_vb)"/><rect x="0" y="3.5" width="120" height="1" fill="url(#k20_vd)"/>
+</svg>
+<text x="202.5" y="1727" class="name">Trennlinie_Band</text>
+<text x="202.5" y="1745" class="name">120_waagerecht</text>
+<text x="202.5" y="1766" class="mass">120 × 8 px</text>
+</g>
+<g id="Trennlinie_Band_240_senkrecht">
+<rect x="399" y="1509" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="1510" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="579.75" y="1535.5" width="5.5" height="165" viewBox="0 0 8 240" overflow="hidden">
+<defs><linearGradient id="k21_vb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient><linearGradient id="k21_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient></defs><g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="0" width="240" height="8" rx="4" fill="url(#k21_vb)"/><rect x="0" y="3.5" width="240" height="1" fill="url(#k21_vd)"/></g>
+</svg>
+<text x="582.5" y="1727" class="name">Trennlinie_Band</text>
+<text x="582.5" y="1745" class="name">240_senkrecht</text>
+<text x="582.5" y="1766" class="mass">8 × 240 px</text>
+</g>
+<g id="Trennlinie_Band_240_waagerecht">
+<rect x="779" y="1509" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="1510" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="1613.33" width="280" height="9.33" viewBox="0 0 240 8" overflow="hidden">
+<defs><linearGradient id="k22_vb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient><linearGradient id="k22_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient></defs><rect x="0" y="0" width="240" height="8" rx="4" fill="url(#k22_vb)"/><rect x="0" y="3.5" width="240" height="1" fill="url(#k22_vd)"/>
+</svg>
+<text x="962.5" y="1727" class="name">Trennlinie_Band</text>
+<text x="962.5" y="1745" class="name">240_waagerecht</text>
+<text x="962.5" y="1766" class="mass">240 × 8 px</text>
+</g>
+<g id="Trennlinie_Band_360_senkrecht">
+<rect x="1159" y="1509" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="1510" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1340.67" y="1535.5" width="3.67" height="165" viewBox="0 0 8 360" overflow="hidden">
+<defs><linearGradient id="k23_vb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient><linearGradient id="k23_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient></defs><g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="0" width="360" height="8" rx="4" fill="url(#k23_vb)"/><rect x="0" y="3.5" width="360" height="1" fill="url(#k23_vd)"/></g>
+</svg>
+<text x="1342.5" y="1727" class="name">Trennlinie_Band</text>
+<text x="1342.5" y="1745" class="name">360_senkrecht</text>
+<text x="1342.5" y="1766" class="mass">8 × 360 px</text>
+</g>
+<g id="Trennlinie_Band_360_waagerecht">
+<rect x="19" y="1797" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="1798" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="1902.89" width="280" height="6.22" viewBox="0 0 360 8" overflow="hidden">
+<defs><linearGradient id="k24_vb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient><linearGradient id="k24_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient></defs><rect x="0" y="0" width="360" height="8" rx="4" fill="url(#k24_vb)"/><rect x="0" y="3.5" width="360" height="1" fill="url(#k24_vd)"/>
+</svg>
+<text x="202.5" y="2015" class="name">Trennlinie_Band</text>
+<text x="202.5" y="2033" class="name">360_waagerecht</text>
+<text x="202.5" y="2054" class="mass">360 × 8 px</text>
+</g>
+<g id="Trennlinie_Band_480_senkrecht">
+<rect x="399" y="1797" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="1798" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="581.12" y="1823.5" width="2.75" height="165" viewBox="0 0 8 480" overflow="hidden">
+<defs><linearGradient id="k25_vb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient><linearGradient id="k25_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient></defs><g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="0" width="480" height="8" rx="4" fill="url(#k25_vb)"/><rect x="0" y="3.5" width="480" height="1" fill="url(#k25_vd)"/></g>
+</svg>
+<text x="582.5" y="2015" class="name">Trennlinie_Band</text>
+<text x="582.5" y="2033" class="name">480_senkrecht</text>
+<text x="582.5" y="2054" class="mass">8 × 480 px</text>
+</g>
+<g id="Trennlinie_Band_480_waagerecht">
+<rect x="779" y="1797" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="1798" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="1903.67" width="280" height="4.67" viewBox="0 0 480 8" overflow="hidden">
+<defs><linearGradient id="k26_vb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient><linearGradient id="k26_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient></defs><rect x="0" y="0" width="480" height="8" rx="4" fill="url(#k26_vb)"/><rect x="0" y="3.5" width="480" height="1" fill="url(#k26_vd)"/>
+</svg>
+<text x="962.5" y="2015" class="name">Trennlinie_Band</text>
+<text x="962.5" y="2033" class="name">480_waagerecht</text>
+<text x="962.5" y="2054" class="mass">480 × 8 px</text>
+</g>
+<g id="Trennlinie_Band_600_senkrecht">
+<rect x="1159" y="1797" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="1798" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1341.4" y="1823.5" width="2.2" height="165" viewBox="0 0 8 600" overflow="hidden">
+<defs><linearGradient id="k27_vb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient><linearGradient id="k27_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient></defs><g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="0" width="600" height="8" rx="4" fill="url(#k27_vb)"/><rect x="0" y="3.5" width="600" height="1" fill="url(#k27_vd)"/></g>
+</svg>
+<text x="1342.5" y="2015" class="name">Trennlinie_Band</text>
+<text x="1342.5" y="2033" class="name">600_senkrecht</text>
+<text x="1342.5" y="2054" class="mass">8 × 600 px</text>
+</g>
+<g id="Trennlinie_Band_600_waagerecht">
+<rect x="19" y="2085" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="2086" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="2192.13" width="280" height="3.73" viewBox="0 0 600 8" overflow="hidden">
+<defs><linearGradient id="k28_vb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient><linearGradient id="k28_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient></defs><rect x="0" y="0" width="600" height="8" rx="4" fill="url(#k28_vb)"/><rect x="0" y="3.5" width="600" height="1" fill="url(#k28_vd)"/>
+</svg>
+<text x="202.5" y="2303" class="name">Trennlinie_Band</text>
+<text x="202.5" y="2321" class="name">600_waagerecht</text>
+<text x="202.5" y="2342" class="mass">600 × 8 px</text>
+</g>
+<g id="Trennlinie_Doppel_120_senkrecht">
+<rect x="399" y="2085" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="2086" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="577" y="2111.5" width="11" height="165" viewBox="0 0 8 120" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="2" width="120" height="1" fill="#5A5A5A" fill-opacity="0.4"/><rect x="0" y="5" width="120" height="1" fill="#5A5A5A" fill-opacity="0.4"/></g>
+</svg>
+<text x="582.5" y="2303" class="name">Trennlinie_Doppel</text>
+<text x="582.5" y="2321" class="name">120_senkrecht</text>
+<text x="582.5" y="2342" class="mass">8 × 120 px</text>
+</g>
+<g id="Trennlinie_Doppel_120_waagerecht">
+<rect x="779" y="2085" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="2086" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="2184.67" width="280" height="18.67" viewBox="0 0 120 8" overflow="hidden">
+<rect x="0" y="2" width="120" height="1" fill="#5A5A5A" fill-opacity="0.4"/><rect x="0" y="5" width="120" height="1" fill="#5A5A5A" fill-opacity="0.4"/>
+</svg>
+<text x="962.5" y="2303" class="name">Trennlinie_Doppel</text>
+<text x="962.5" y="2321" class="name">120_waagerecht</text>
+<text x="962.5" y="2342" class="mass">120 × 8 px</text>
+</g>
+<g id="Trennlinie_Doppel_240_senkrecht">
+<rect x="1159" y="2085" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="2086" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1339.75" y="2111.5" width="5.5" height="165" viewBox="0 0 8 240" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="2" width="240" height="1" fill="#5A5A5A" fill-opacity="0.4"/><rect x="0" y="5" width="240" height="1" fill="#5A5A5A" fill-opacity="0.4"/></g>
+</svg>
+<text x="1342.5" y="2303" class="name">Trennlinie_Doppel</text>
+<text x="1342.5" y="2321" class="name">240_senkrecht</text>
+<text x="1342.5" y="2342" class="mass">8 × 240 px</text>
+</g>
+<g id="Trennlinie_Doppel_240_waagerecht">
+<rect x="19" y="2373" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="2374" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="2477.33" width="280" height="9.33" viewBox="0 0 240 8" overflow="hidden">
+<rect x="0" y="2" width="240" height="1" fill="#5A5A5A" fill-opacity="0.4"/><rect x="0" y="5" width="240" height="1" fill="#5A5A5A" fill-opacity="0.4"/>
+</svg>
+<text x="202.5" y="2591" class="name">Trennlinie_Doppel</text>
+<text x="202.5" y="2609" class="name">240_waagerecht</text>
+<text x="202.5" y="2630" class="mass">240 × 8 px</text>
+</g>
+<g id="Trennlinie_Doppel_360_senkrecht">
+<rect x="399" y="2373" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="2374" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="580.67" y="2399.5" width="3.67" height="165" viewBox="0 0 8 360" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="2" width="360" height="1" fill="#5A5A5A" fill-opacity="0.4"/><rect x="0" y="5" width="360" height="1" fill="#5A5A5A" fill-opacity="0.4"/></g>
+</svg>
+<text x="582.5" y="2591" class="name">Trennlinie_Doppel</text>
+<text x="582.5" y="2609" class="name">360_senkrecht</text>
+<text x="582.5" y="2630" class="mass">8 × 360 px</text>
+</g>
+<g id="Trennlinie_Doppel_360_waagerecht">
+<rect x="779" y="2373" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="2374" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="2478.89" width="280" height="6.22" viewBox="0 0 360 8" overflow="hidden">
+<rect x="0" y="2" width="360" height="1" fill="#5A5A5A" fill-opacity="0.4"/><rect x="0" y="5" width="360" height="1" fill="#5A5A5A" fill-opacity="0.4"/>
+</svg>
+<text x="962.5" y="2591" class="name">Trennlinie_Doppel</text>
+<text x="962.5" y="2609" class="name">360_waagerecht</text>
+<text x="962.5" y="2630" class="mass">360 × 8 px</text>
+</g>
+<g id="Trennlinie_Doppel_480_senkrecht">
+<rect x="1159" y="2373" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="2374" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1341.12" y="2399.5" width="2.75" height="165" viewBox="0 0 8 480" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="2" width="480" height="1" fill="#5A5A5A" fill-opacity="0.4"/><rect x="0" y="5" width="480" height="1" fill="#5A5A5A" fill-opacity="0.4"/></g>
+</svg>
+<text x="1342.5" y="2591" class="name">Trennlinie_Doppel</text>
+<text x="1342.5" y="2609" class="name">480_senkrecht</text>
+<text x="1342.5" y="2630" class="mass">8 × 480 px</text>
+</g>
+<g id="Trennlinie_Doppel_480_waagerecht">
+<rect x="19" y="2661" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="2662" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="2767.67" width="280" height="4.67" viewBox="0 0 480 8" overflow="hidden">
+<rect x="0" y="2" width="480" height="1" fill="#5A5A5A" fill-opacity="0.4"/><rect x="0" y="5" width="480" height="1" fill="#5A5A5A" fill-opacity="0.4"/>
+</svg>
+<text x="202.5" y="2879" class="name">Trennlinie_Doppel</text>
+<text x="202.5" y="2897" class="name">480_waagerecht</text>
+<text x="202.5" y="2918" class="mass">480 × 8 px</text>
+</g>
+<g id="Trennlinie_Doppel_600_senkrecht">
+<rect x="399" y="2661" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="2662" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="581.4" y="2687.5" width="2.2" height="165" viewBox="0 0 8 600" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="2" width="600" height="1" fill="#5A5A5A" fill-opacity="0.4"/><rect x="0" y="5" width="600" height="1" fill="#5A5A5A" fill-opacity="0.4"/></g>
+</svg>
+<text x="582.5" y="2879" class="name">Trennlinie_Doppel</text>
+<text x="582.5" y="2897" class="name">600_senkrecht</text>
+<text x="582.5" y="2918" class="mass">8 × 600 px</text>
+</g>
+<g id="Trennlinie_Doppel_600_waagerecht">
+<rect x="779" y="2661" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="2662" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="2768.13" width="280" height="3.73" viewBox="0 0 600 8" overflow="hidden">
+<rect x="0" y="2" width="600" height="1" fill="#5A5A5A" fill-opacity="0.4"/><rect x="0" y="5" width="600" height="1" fill="#5A5A5A" fill-opacity="0.4"/>
+</svg>
+<text x="962.5" y="2879" class="name">Trennlinie_Doppel</text>
+<text x="962.5" y="2897" class="name">600_waagerecht</text>
+<text x="962.5" y="2918" class="mass">600 × 8 px</text>
+</g>
+<g id="Trennlinie_RilleVerlauf_120_senkrecht">
+<rect x="1159" y="2661" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="2662" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1337" y="2687.5" width="11" height="165" viewBox="0 0 8 120" overflow="hidden">
+<defs><linearGradient id="k39_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.5"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.5"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient><linearGradient id="k39_vh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="3" width="120" height="1" fill="url(#k39_vd)"/><rect x="0" y="4" width="120" height="1" fill="url(#k39_vh)"/></g>
+</svg>
+<text x="1342.5" y="2879" class="name">Trennlinie_RilleVerlauf</text>
+<text x="1342.5" y="2897" class="name">120_senkrecht</text>
+<text x="1342.5" y="2918" class="mass">8 × 120 px</text>
+</g>
+<g id="Trennlinie_RilleVerlauf_120_waagerecht">
+<rect x="19" y="2949" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="2950" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="3048.67" width="280" height="18.67" viewBox="0 0 120 8" overflow="hidden">
+<defs><linearGradient id="k40_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.5"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.5"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient><linearGradient id="k40_vh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><rect x="0" y="3" width="120" height="1" fill="url(#k40_vd)"/><rect x="0" y="4" width="120" height="1" fill="url(#k40_vh)"/>
+</svg>
+<text x="202.5" y="3167" class="name">Trennlinie_RilleVerlauf</text>
+<text x="202.5" y="3185" class="name">120_waagerecht</text>
+<text x="202.5" y="3206" class="mass">120 × 8 px</text>
+</g>
+<g id="Trennlinie_RilleVerlauf_240_senkrecht">
+<rect x="399" y="2949" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="2950" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="579.75" y="2975.5" width="5.5" height="165" viewBox="0 0 8 240" overflow="hidden">
+<defs><linearGradient id="k41_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.5"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.5"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient><linearGradient id="k41_vh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="3" width="240" height="1" fill="url(#k41_vd)"/><rect x="0" y="4" width="240" height="1" fill="url(#k41_vh)"/></g>
+</svg>
+<text x="582.5" y="3167" class="name">Trennlinie_RilleVerlauf</text>
+<text x="582.5" y="3185" class="name">240_senkrecht</text>
+<text x="582.5" y="3206" class="mass">8 × 240 px</text>
+</g>
+<g id="Trennlinie_RilleVerlauf_240_waagerecht">
+<rect x="779" y="2949" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="2950" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="3053.33" width="280" height="9.33" viewBox="0 0 240 8" overflow="hidden">
+<defs><linearGradient id="k42_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.5"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.5"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient><linearGradient id="k42_vh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><rect x="0" y="3" width="240" height="1" fill="url(#k42_vd)"/><rect x="0" y="4" width="240" height="1" fill="url(#k42_vh)"/>
+</svg>
+<text x="962.5" y="3167" class="name">Trennlinie_RilleVerlauf</text>
+<text x="962.5" y="3185" class="name">240_waagerecht</text>
+<text x="962.5" y="3206" class="mass">240 × 8 px</text>
+</g>
+<g id="Trennlinie_RilleVerlauf_360_senkrecht">
+<rect x="1159" y="2949" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="2950" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1340.67" y="2975.5" width="3.67" height="165" viewBox="0 0 8 360" overflow="hidden">
+<defs><linearGradient id="k43_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.5"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.5"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient><linearGradient id="k43_vh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="3" width="360" height="1" fill="url(#k43_vd)"/><rect x="0" y="4" width="360" height="1" fill="url(#k43_vh)"/></g>
+</svg>
+<text x="1342.5" y="3167" class="name">Trennlinie_RilleVerlauf</text>
+<text x="1342.5" y="3185" class="name">360_senkrecht</text>
+<text x="1342.5" y="3206" class="mass">8 × 360 px</text>
+</g>
+<g id="Trennlinie_RilleVerlauf_360_waagerecht">
+<rect x="19" y="3237" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="3238" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="3342.89" width="280" height="6.22" viewBox="0 0 360 8" overflow="hidden">
+<defs><linearGradient id="k44_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.5"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.5"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient><linearGradient id="k44_vh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><rect x="0" y="3" width="360" height="1" fill="url(#k44_vd)"/><rect x="0" y="4" width="360" height="1" fill="url(#k44_vh)"/>
+</svg>
+<text x="202.5" y="3455" class="name">Trennlinie_RilleVerlauf</text>
+<text x="202.5" y="3473" class="name">360_waagerecht</text>
+<text x="202.5" y="3494" class="mass">360 × 8 px</text>
+</g>
+<g id="Trennlinie_RilleVerlauf_480_senkrecht">
+<rect x="399" y="3237" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="3238" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="581.12" y="3263.5" width="2.75" height="165" viewBox="0 0 8 480" overflow="hidden">
+<defs><linearGradient id="k45_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.5"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.5"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient><linearGradient id="k45_vh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="3" width="480" height="1" fill="url(#k45_vd)"/><rect x="0" y="4" width="480" height="1" fill="url(#k45_vh)"/></g>
+</svg>
+<text x="582.5" y="3455" class="name">Trennlinie_RilleVerlauf</text>
+<text x="582.5" y="3473" class="name">480_senkrecht</text>
+<text x="582.5" y="3494" class="mass">8 × 480 px</text>
+</g>
+<g id="Trennlinie_RilleVerlauf_480_waagerecht">
+<rect x="779" y="3237" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="3238" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="3343.67" width="280" height="4.67" viewBox="0 0 480 8" overflow="hidden">
+<defs><linearGradient id="k46_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.5"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.5"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient><linearGradient id="k46_vh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><rect x="0" y="3" width="480" height="1" fill="url(#k46_vd)"/><rect x="0" y="4" width="480" height="1" fill="url(#k46_vh)"/>
+</svg>
+<text x="962.5" y="3455" class="name">Trennlinie_RilleVerlauf</text>
+<text x="962.5" y="3473" class="name">480_waagerecht</text>
+<text x="962.5" y="3494" class="mass">480 × 8 px</text>
+</g>
+<g id="Trennlinie_RilleVerlauf_600_senkrecht">
+<rect x="1159" y="3237" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="3238" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1341.4" y="3263.5" width="2.2" height="165" viewBox="0 0 8 600" overflow="hidden">
+<defs><linearGradient id="k47_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.5"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.5"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient><linearGradient id="k47_vh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="3" width="600" height="1" fill="url(#k47_vd)"/><rect x="0" y="4" width="600" height="1" fill="url(#k47_vh)"/></g>
+</svg>
+<text x="1342.5" y="3455" class="name">Trennlinie_RilleVerlauf</text>
+<text x="1342.5" y="3473" class="name">600_senkrecht</text>
+<text x="1342.5" y="3494" class="mass">8 × 600 px</text>
+</g>
+<g id="Trennlinie_RilleVerlauf_600_waagerecht">
+<rect x="19" y="3525" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="3526" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="3632.13" width="280" height="3.73" viewBox="0 0 600 8" overflow="hidden">
+<defs><linearGradient id="k48_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.5"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.5"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient><linearGradient id="k48_vh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.65"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><rect x="0" y="3" width="600" height="1" fill="url(#k48_vd)"/><rect x="0" y="4" width="600" height="1" fill="url(#k48_vh)"/>
+</svg>
+<text x="202.5" y="3743" class="name">Trennlinie_RilleVerlauf</text>
+<text x="202.5" y="3761" class="name">600_waagerecht</text>
+<text x="202.5" y="3782" class="mass">600 × 8 px</text>
+</g>
+<g id="Trennlinie_Rille_120_senkrecht">
+<rect x="399" y="3525" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="3526" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="577" y="3551.5" width="11" height="165" viewBox="0 0 8 120" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="3" width="120" height="1" fill="#5A5A5A" fill-opacity="0.45"/><rect x="0" y="4" width="120" height="1" fill="#FFFFFF" fill-opacity="0.6"/></g>
+</svg>
+<text x="582.5" y="3743" class="name">Trennlinie_Rille</text>
+<text x="582.5" y="3761" class="name">120_senkrecht</text>
+<text x="582.5" y="3782" class="mass">8 × 120 px</text>
+</g>
+<g id="Trennlinie_Rille_120_waagerecht">
+<rect x="779" y="3525" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="3526" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="3624.67" width="280" height="18.67" viewBox="0 0 120 8" overflow="hidden">
+<rect x="0" y="3" width="120" height="1" fill="#5A5A5A" fill-opacity="0.45"/><rect x="0" y="4" width="120" height="1" fill="#FFFFFF" fill-opacity="0.6"/>
+</svg>
+<text x="962.5" y="3743" class="name">Trennlinie_Rille</text>
+<text x="962.5" y="3761" class="name">120_waagerecht</text>
+<text x="962.5" y="3782" class="mass">120 × 8 px</text>
+</g>
+<g id="Trennlinie_Rille_240_senkrecht">
+<rect x="1159" y="3525" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="3526" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1339.75" y="3551.5" width="5.5" height="165" viewBox="0 0 8 240" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="3" width="240" height="1" fill="#5A5A5A" fill-opacity="0.45"/><rect x="0" y="4" width="240" height="1" fill="#FFFFFF" fill-opacity="0.6"/></g>
+</svg>
+<text x="1342.5" y="3743" class="name">Trennlinie_Rille</text>
+<text x="1342.5" y="3761" class="name">240_senkrecht</text>
+<text x="1342.5" y="3782" class="mass">8 × 240 px</text>
+</g>
+<g id="Trennlinie_Rille_240_waagerecht">
+<rect x="19" y="3813" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="3814" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="3917.33" width="280" height="9.33" viewBox="0 0 240 8" overflow="hidden">
+<rect x="0" y="3" width="240" height="1" fill="#5A5A5A" fill-opacity="0.45"/><rect x="0" y="4" width="240" height="1" fill="#FFFFFF" fill-opacity="0.6"/>
+</svg>
+<text x="202.5" y="4031" class="name">Trennlinie_Rille</text>
+<text x="202.5" y="4049" class="name">240_waagerecht</text>
+<text x="202.5" y="4070" class="mass">240 × 8 px</text>
+</g>
+<g id="Trennlinie_Rille_360_senkrecht">
+<rect x="399" y="3813" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="3814" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="580.67" y="3839.5" width="3.67" height="165" viewBox="0 0 8 360" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="3" width="360" height="1" fill="#5A5A5A" fill-opacity="0.45"/><rect x="0" y="4" width="360" height="1" fill="#FFFFFF" fill-opacity="0.6"/></g>
+</svg>
+<text x="582.5" y="4031" class="name">Trennlinie_Rille</text>
+<text x="582.5" y="4049" class="name">360_senkrecht</text>
+<text x="582.5" y="4070" class="mass">8 × 360 px</text>
+</g>
+<g id="Trennlinie_Rille_360_waagerecht">
+<rect x="779" y="3813" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="3814" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="3918.89" width="280" height="6.22" viewBox="0 0 360 8" overflow="hidden">
+<rect x="0" y="3" width="360" height="1" fill="#5A5A5A" fill-opacity="0.45"/><rect x="0" y="4" width="360" height="1" fill="#FFFFFF" fill-opacity="0.6"/>
+</svg>
+<text x="962.5" y="4031" class="name">Trennlinie_Rille</text>
+<text x="962.5" y="4049" class="name">360_waagerecht</text>
+<text x="962.5" y="4070" class="mass">360 × 8 px</text>
+</g>
+<g id="Trennlinie_Rille_480_senkrecht">
+<rect x="1159" y="3813" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="3814" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1341.12" y="3839.5" width="2.75" height="165" viewBox="0 0 8 480" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="3" width="480" height="1" fill="#5A5A5A" fill-opacity="0.45"/><rect x="0" y="4" width="480" height="1" fill="#FFFFFF" fill-opacity="0.6"/></g>
+</svg>
+<text x="1342.5" y="4031" class="name">Trennlinie_Rille</text>
+<text x="1342.5" y="4049" class="name">480_senkrecht</text>
+<text x="1342.5" y="4070" class="mass">8 × 480 px</text>
+</g>
+<g id="Trennlinie_Rille_480_waagerecht">
+<rect x="19" y="4101" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="4102" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="4207.67" width="280" height="4.67" viewBox="0 0 480 8" overflow="hidden">
+<rect x="0" y="3" width="480" height="1" fill="#5A5A5A" fill-opacity="0.45"/><rect x="0" y="4" width="480" height="1" fill="#FFFFFF" fill-opacity="0.6"/>
+</svg>
+<text x="202.5" y="4319" class="name">Trennlinie_Rille</text>
+<text x="202.5" y="4337" class="name">480_waagerecht</text>
+<text x="202.5" y="4358" class="mass">480 × 8 px</text>
+</g>
+<g id="Trennlinie_Rille_600_senkrecht">
+<rect x="399" y="4101" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="4102" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="581.4" y="4127.5" width="2.2" height="165" viewBox="0 0 8 600" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="3" width="600" height="1" fill="#5A5A5A" fill-opacity="0.45"/><rect x="0" y="4" width="600" height="1" fill="#FFFFFF" fill-opacity="0.6"/></g>
+</svg>
+<text x="582.5" y="4319" class="name">Trennlinie_Rille</text>
+<text x="582.5" y="4337" class="name">600_senkrecht</text>
+<text x="582.5" y="4358" class="mass">8 × 600 px</text>
+</g>
+<g id="Trennlinie_Rille_600_waagerecht">
+<rect x="779" y="4101" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="4102" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="4208.13" width="280" height="3.73" viewBox="0 0 600 8" overflow="hidden">
+<rect x="0" y="3" width="600" height="1" fill="#5A5A5A" fill-opacity="0.45"/><rect x="0" y="4" width="600" height="1" fill="#FFFFFF" fill-opacity="0.6"/>
+</svg>
+<text x="962.5" y="4319" class="name">Trennlinie_Rille</text>
+<text x="962.5" y="4337" class="name">600_waagerecht</text>
+<text x="962.5" y="4358" class="mass">600 × 8 px</text>
+</g>
+<g id="Trennlinie_VerlaufDunkel_120_senkrecht">
+<rect x="1159" y="4101" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="4102" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1337" y="4127.5" width="11" height="165" viewBox="0 0 8 120" overflow="hidden">
+<defs><linearGradient id="k59_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4D4D4D" stop-opacity="0"/><stop offset="0.12" stop-color="#4D4D4D" stop-opacity="0.5"/><stop offset="0.88" stop-color="#4D4D4D" stop-opacity="0.5"/><stop offset="1" stop-color="#4D4D4D" stop-opacity="0"/></linearGradient></defs><g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="3.25" width="120" height="1.5" fill="url(#k59_vd)"/></g>
+</svg>
+<text x="1342.5" y="4319" class="name">Trennlinie_VerlaufDunkel</text>
+<text x="1342.5" y="4337" class="name">120_senkrecht</text>
+<text x="1342.5" y="4358" class="mass">8 × 120 px</text>
+</g>
+<g id="Trennlinie_VerlaufDunkel_120_waagerecht">
+<rect x="19" y="4389" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="4390" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="4488.67" width="280" height="18.67" viewBox="0 0 120 8" overflow="hidden">
+<defs><linearGradient id="k60_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4D4D4D" stop-opacity="0"/><stop offset="0.12" stop-color="#4D4D4D" stop-opacity="0.5"/><stop offset="0.88" stop-color="#4D4D4D" stop-opacity="0.5"/><stop offset="1" stop-color="#4D4D4D" stop-opacity="0"/></linearGradient></defs><rect x="0" y="3.25" width="120" height="1.5" fill="url(#k60_vd)"/>
+</svg>
+<text x="202.5" y="4607" class="name">Trennlinie_VerlaufDunkel</text>
+<text x="202.5" y="4625" class="name">120_waagerecht</text>
+<text x="202.5" y="4646" class="mass">120 × 8 px</text>
+</g>
+<g id="Trennlinie_VerlaufDunkel_240_senkrecht">
+<rect x="399" y="4389" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="4390" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="579.75" y="4415.5" width="5.5" height="165" viewBox="0 0 8 240" overflow="hidden">
+<defs><linearGradient id="k61_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4D4D4D" stop-opacity="0"/><stop offset="0.12" stop-color="#4D4D4D" stop-opacity="0.5"/><stop offset="0.88" stop-color="#4D4D4D" stop-opacity="0.5"/><stop offset="1" stop-color="#4D4D4D" stop-opacity="0"/></linearGradient></defs><g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="3.25" width="240" height="1.5" fill="url(#k61_vd)"/></g>
+</svg>
+<text x="582.5" y="4607" class="name">Trennlinie_VerlaufDunkel</text>
+<text x="582.5" y="4625" class="name">240_senkrecht</text>
+<text x="582.5" y="4646" class="mass">8 × 240 px</text>
+</g>
+<g id="Trennlinie_VerlaufDunkel_240_waagerecht">
+<rect x="779" y="4389" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="4390" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="4493.33" width="280" height="9.33" viewBox="0 0 240 8" overflow="hidden">
+<defs><linearGradient id="k62_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4D4D4D" stop-opacity="0"/><stop offset="0.12" stop-color="#4D4D4D" stop-opacity="0.5"/><stop offset="0.88" stop-color="#4D4D4D" stop-opacity="0.5"/><stop offset="1" stop-color="#4D4D4D" stop-opacity="0"/></linearGradient></defs><rect x="0" y="3.25" width="240" height="1.5" fill="url(#k62_vd)"/>
+</svg>
+<text x="962.5" y="4607" class="name">Trennlinie_VerlaufDunkel</text>
+<text x="962.5" y="4625" class="name">240_waagerecht</text>
+<text x="962.5" y="4646" class="mass">240 × 8 px</text>
+</g>
+<g id="Trennlinie_VerlaufDunkel_360_senkrecht">
+<rect x="1159" y="4389" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="4390" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1340.67" y="4415.5" width="3.67" height="165" viewBox="0 0 8 360" overflow="hidden">
+<defs><linearGradient id="k63_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4D4D4D" stop-opacity="0"/><stop offset="0.12" stop-color="#4D4D4D" stop-opacity="0.5"/><stop offset="0.88" stop-color="#4D4D4D" stop-opacity="0.5"/><stop offset="1" stop-color="#4D4D4D" stop-opacity="0"/></linearGradient></defs><g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="3.25" width="360" height="1.5" fill="url(#k63_vd)"/></g>
+</svg>
+<text x="1342.5" y="4607" class="name">Trennlinie_VerlaufDunkel</text>
+<text x="1342.5" y="4625" class="name">360_senkrecht</text>
+<text x="1342.5" y="4646" class="mass">8 × 360 px</text>
+</g>
+<g id="Trennlinie_VerlaufDunkel_360_waagerecht">
+<rect x="19" y="4677" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="4678" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="4782.89" width="280" height="6.22" viewBox="0 0 360 8" overflow="hidden">
+<defs><linearGradient id="k64_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4D4D4D" stop-opacity="0"/><stop offset="0.12" stop-color="#4D4D4D" stop-opacity="0.5"/><stop offset="0.88" stop-color="#4D4D4D" stop-opacity="0.5"/><stop offset="1" stop-color="#4D4D4D" stop-opacity="0"/></linearGradient></defs><rect x="0" y="3.25" width="360" height="1.5" fill="url(#k64_vd)"/>
+</svg>
+<text x="202.5" y="4895" class="name">Trennlinie_VerlaufDunkel</text>
+<text x="202.5" y="4913" class="name">360_waagerecht</text>
+<text x="202.5" y="4934" class="mass">360 × 8 px</text>
+</g>
+<g id="Trennlinie_VerlaufDunkel_480_senkrecht">
+<rect x="399" y="4677" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="4678" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="581.12" y="4703.5" width="2.75" height="165" viewBox="0 0 8 480" overflow="hidden">
+<defs><linearGradient id="k65_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4D4D4D" stop-opacity="0"/><stop offset="0.12" stop-color="#4D4D4D" stop-opacity="0.5"/><stop offset="0.88" stop-color="#4D4D4D" stop-opacity="0.5"/><stop offset="1" stop-color="#4D4D4D" stop-opacity="0"/></linearGradient></defs><g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="3.25" width="480" height="1.5" fill="url(#k65_vd)"/></g>
+</svg>
+<text x="582.5" y="4895" class="name">Trennlinie_VerlaufDunkel</text>
+<text x="582.5" y="4913" class="name">480_senkrecht</text>
+<text x="582.5" y="4934" class="mass">8 × 480 px</text>
+</g>
+<g id="Trennlinie_VerlaufDunkel_480_waagerecht">
+<rect x="779" y="4677" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="4678" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="4783.67" width="280" height="4.67" viewBox="0 0 480 8" overflow="hidden">
+<defs><linearGradient id="k66_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4D4D4D" stop-opacity="0"/><stop offset="0.12" stop-color="#4D4D4D" stop-opacity="0.5"/><stop offset="0.88" stop-color="#4D4D4D" stop-opacity="0.5"/><stop offset="1" stop-color="#4D4D4D" stop-opacity="0"/></linearGradient></defs><rect x="0" y="3.25" width="480" height="1.5" fill="url(#k66_vd)"/>
+</svg>
+<text x="962.5" y="4895" class="name">Trennlinie_VerlaufDunkel</text>
+<text x="962.5" y="4913" class="name">480_waagerecht</text>
+<text x="962.5" y="4934" class="mass">480 × 8 px</text>
+</g>
+<g id="Trennlinie_VerlaufDunkel_600_senkrecht">
+<rect x="1159" y="4677" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="4678" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1341.4" y="4703.5" width="2.2" height="165" viewBox="0 0 8 600" overflow="hidden">
+<defs><linearGradient id="k67_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4D4D4D" stop-opacity="0"/><stop offset="0.12" stop-color="#4D4D4D" stop-opacity="0.5"/><stop offset="0.88" stop-color="#4D4D4D" stop-opacity="0.5"/><stop offset="1" stop-color="#4D4D4D" stop-opacity="0"/></linearGradient></defs><g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="3.25" width="600" height="1.5" fill="url(#k67_vd)"/></g>
+</svg>
+<text x="1342.5" y="4895" class="name">Trennlinie_VerlaufDunkel</text>
+<text x="1342.5" y="4913" class="name">600_senkrecht</text>
+<text x="1342.5" y="4934" class="mass">8 × 600 px</text>
+</g>
+<g id="Trennlinie_VerlaufDunkel_600_waagerecht">
+<rect x="19" y="4965" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="4966" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="5072.13" width="280" height="3.73" viewBox="0 0 600 8" overflow="hidden">
+<defs><linearGradient id="k68_vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4D4D4D" stop-opacity="0"/><stop offset="0.12" stop-color="#4D4D4D" stop-opacity="0.5"/><stop offset="0.88" stop-color="#4D4D4D" stop-opacity="0.5"/><stop offset="1" stop-color="#4D4D4D" stop-opacity="0"/></linearGradient></defs><rect x="0" y="3.25" width="600" height="1.5" fill="url(#k68_vd)"/>
+</svg>
+<text x="202.5" y="5183" class="name">Trennlinie_VerlaufDunkel</text>
+<text x="202.5" y="5201" class="name">600_waagerecht</text>
+<text x="202.5" y="5222" class="mass">600 × 8 px</text>
+</g>
+<g id="Trennlinie_VerlaufHell_120_senkrecht">
+<rect x="399" y="4965" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="4966" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="577" y="4991.5" width="11" height="165" viewBox="0 0 8 120" overflow="hidden">
+<defs><linearGradient id="k69_vh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="3.25" width="120" height="1.5" fill="url(#k69_vh)"/></g>
+</svg>
+<text x="582.5" y="5183" class="name">Trennlinie_VerlaufHell</text>
+<text x="582.5" y="5201" class="name">120_senkrecht</text>
+<text x="582.5" y="5222" class="mass">8 × 120 px</text>
+</g>
+<g id="Trennlinie_VerlaufHell_120_waagerecht">
+<rect x="779" y="4965" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="4966" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="5064.67" width="280" height="18.67" viewBox="0 0 120 8" overflow="hidden">
+<defs><linearGradient id="k70_vh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><rect x="0" y="3.25" width="120" height="1.5" fill="url(#k70_vh)"/>
+</svg>
+<text x="962.5" y="5183" class="name">Trennlinie_VerlaufHell</text>
+<text x="962.5" y="5201" class="name">120_waagerecht</text>
+<text x="962.5" y="5222" class="mass">120 × 8 px</text>
+</g>
+<g id="Trennlinie_VerlaufHell_240_senkrecht">
+<rect x="1159" y="4965" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="4966" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1339.75" y="4991.5" width="5.5" height="165" viewBox="0 0 8 240" overflow="hidden">
+<defs><linearGradient id="k71_vh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="3.25" width="240" height="1.5" fill="url(#k71_vh)"/></g>
+</svg>
+<text x="1342.5" y="5183" class="name">Trennlinie_VerlaufHell</text>
+<text x="1342.5" y="5201" class="name">240_senkrecht</text>
+<text x="1342.5" y="5222" class="mass">8 × 240 px</text>
+</g>
+<g id="Trennlinie_VerlaufHell_240_waagerecht">
+<rect x="19" y="5253" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="5254" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="5357.33" width="280" height="9.33" viewBox="0 0 240 8" overflow="hidden">
+<defs><linearGradient id="k72_vh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><rect x="0" y="3.25" width="240" height="1.5" fill="url(#k72_vh)"/>
+</svg>
+<text x="202.5" y="5471" class="name">Trennlinie_VerlaufHell</text>
+<text x="202.5" y="5489" class="name">240_waagerecht</text>
+<text x="202.5" y="5510" class="mass">240 × 8 px</text>
+</g>
+<g id="Trennlinie_VerlaufHell_360_senkrecht">
+<rect x="399" y="5253" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="5254" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="580.67" y="5279.5" width="3.67" height="165" viewBox="0 0 8 360" overflow="hidden">
+<defs><linearGradient id="k73_vh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="3.25" width="360" height="1.5" fill="url(#k73_vh)"/></g>
+</svg>
+<text x="582.5" y="5471" class="name">Trennlinie_VerlaufHell</text>
+<text x="582.5" y="5489" class="name">360_senkrecht</text>
+<text x="582.5" y="5510" class="mass">8 × 360 px</text>
+</g>
+<g id="Trennlinie_VerlaufHell_360_waagerecht">
+<rect x="779" y="5253" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="5254" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="5358.89" width="280" height="6.22" viewBox="0 0 360 8" overflow="hidden">
+<defs><linearGradient id="k74_vh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><rect x="0" y="3.25" width="360" height="1.5" fill="url(#k74_vh)"/>
+</svg>
+<text x="962.5" y="5471" class="name">Trennlinie_VerlaufHell</text>
+<text x="962.5" y="5489" class="name">360_waagerecht</text>
+<text x="962.5" y="5510" class="mass">360 × 8 px</text>
+</g>
+<g id="Trennlinie_VerlaufHell_480_senkrecht">
+<rect x="1159" y="5253" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="5254" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1341.12" y="5279.5" width="2.75" height="165" viewBox="0 0 8 480" overflow="hidden">
+<defs><linearGradient id="k75_vh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="3.25" width="480" height="1.5" fill="url(#k75_vh)"/></g>
+</svg>
+<text x="1342.5" y="5471" class="name">Trennlinie_VerlaufHell</text>
+<text x="1342.5" y="5489" class="name">480_senkrecht</text>
+<text x="1342.5" y="5510" class="mass">8 × 480 px</text>
+</g>
+<g id="Trennlinie_VerlaufHell_480_waagerecht">
+<rect x="19" y="5541" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="5542" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="5647.67" width="280" height="4.67" viewBox="0 0 480 8" overflow="hidden">
+<defs><linearGradient id="k76_vh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><rect x="0" y="3.25" width="480" height="1.5" fill="url(#k76_vh)"/>
+</svg>
+<text x="202.5" y="5759" class="name">Trennlinie_VerlaufHell</text>
+<text x="202.5" y="5777" class="name">480_waagerecht</text>
+<text x="202.5" y="5798" class="mass">480 × 8 px</text>
+</g>
+<g id="Trennlinie_VerlaufHell_600_senkrecht">
+<rect x="399" y="5541" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="5542" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="581.4" y="5567.5" width="2.2" height="165" viewBox="0 0 8 600" overflow="hidden">
+<defs><linearGradient id="k77_vh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><g transform="matrix(0 1 1 0 0 0)"><rect x="0" y="3.25" width="600" height="1.5" fill="url(#k77_vh)"/></g>
+</svg>
+<text x="582.5" y="5759" class="name">Trennlinie_VerlaufHell</text>
+<text x="582.5" y="5777" class="name">600_senkrecht</text>
+<text x="582.5" y="5798" class="mass">8 × 600 px</text>
+</g>
+<g id="Trennlinie_VerlaufHell_600_waagerecht">
+<rect x="779" y="5541" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="5542" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="5648.13" width="280" height="3.73" viewBox="0 0 600 8" overflow="hidden">
+<defs><linearGradient id="k78_vh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.75"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs><rect x="0" y="3.25" width="600" height="1.5" fill="url(#k78_vh)"/>
+</svg>
+<text x="962.5" y="5759" class="name">Trennlinie_VerlaufHell</text>
+<text x="962.5" y="5777" class="name">600_waagerecht</text>
+<text x="962.5" y="5798" class="mass">600 × 8 px</text>
+</g>
+<g id="Trennlinie_gestrichelt_120_senkrecht">
+<rect x="1159" y="5541" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="5542" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1337" y="5567.5" width="11" height="165" viewBox="0 0 8 120" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)"><line x1="1" y1="4" x2="120" y2="4" stroke="#5A5A5A" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="8 5"/></g>
+</svg>
+<text x="1342.5" y="5759" class="name">Trennlinie_gestrichelt</text>
+<text x="1342.5" y="5777" class="name">120_senkrecht</text>
+<text x="1342.5" y="5798" class="mass">8 × 120 px</text>
+</g>
+<g id="Trennlinie_gestrichelt_120_waagerecht">
+<rect x="19" y="5829" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="5830" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="5928.67" width="280" height="18.67" viewBox="0 0 120 8" overflow="hidden">
+<line x1="1" y1="4" x2="120" y2="4" stroke="#5A5A5A" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="8 5"/>
+</svg>
+<text x="202.5" y="6047" class="name">Trennlinie_gestrichelt</text>
+<text x="202.5" y="6065" class="name">120_waagerecht</text>
+<text x="202.5" y="6086" class="mass">120 × 8 px</text>
+</g>
+<g id="Trennlinie_gestrichelt_240_senkrecht">
+<rect x="399" y="5829" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="5830" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="579.75" y="5855.5" width="5.5" height="165" viewBox="0 0 8 240" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)"><line x1="1" y1="4" x2="240" y2="4" stroke="#5A5A5A" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="8 5"/></g>
+</svg>
+<text x="582.5" y="6047" class="name">Trennlinie_gestrichelt</text>
+<text x="582.5" y="6065" class="name">240_senkrecht</text>
+<text x="582.5" y="6086" class="mass">8 × 240 px</text>
+</g>
+<g id="Trennlinie_gestrichelt_240_waagerecht">
+<rect x="779" y="5829" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="5830" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="5933.33" width="280" height="9.33" viewBox="0 0 240 8" overflow="hidden">
+<line x1="1" y1="4" x2="240" y2="4" stroke="#5A5A5A" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="8 5"/>
+</svg>
+<text x="962.5" y="6047" class="name">Trennlinie_gestrichelt</text>
+<text x="962.5" y="6065" class="name">240_waagerecht</text>
+<text x="962.5" y="6086" class="mass">240 × 8 px</text>
+</g>
+<g id="Trennlinie_gestrichelt_360_senkrecht">
+<rect x="1159" y="5829" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="5830" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1340.67" y="5855.5" width="3.67" height="165" viewBox="0 0 8 360" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)"><line x1="1" y1="4" x2="360" y2="4" stroke="#5A5A5A" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="8 5"/></g>
+</svg>
+<text x="1342.5" y="6047" class="name">Trennlinie_gestrichelt</text>
+<text x="1342.5" y="6065" class="name">360_senkrecht</text>
+<text x="1342.5" y="6086" class="mass">8 × 360 px</text>
+</g>
+<g id="Trennlinie_gestrichelt_360_waagerecht">
+<rect x="19" y="6117" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="6118" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="6222.89" width="280" height="6.22" viewBox="0 0 360 8" overflow="hidden">
+<line x1="1" y1="4" x2="360" y2="4" stroke="#5A5A5A" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="8 5"/>
+</svg>
+<text x="202.5" y="6335" class="name">Trennlinie_gestrichelt</text>
+<text x="202.5" y="6353" class="name">360_waagerecht</text>
+<text x="202.5" y="6374" class="mass">360 × 8 px</text>
+</g>
+<g id="Trennlinie_gestrichelt_480_senkrecht">
+<rect x="399" y="6117" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="6118" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="581.12" y="6143.5" width="2.75" height="165" viewBox="0 0 8 480" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)"><line x1="1" y1="4" x2="480" y2="4" stroke="#5A5A5A" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="8 5"/></g>
+</svg>
+<text x="582.5" y="6335" class="name">Trennlinie_gestrichelt</text>
+<text x="582.5" y="6353" class="name">480_senkrecht</text>
+<text x="582.5" y="6374" class="mass">8 × 480 px</text>
+</g>
+<g id="Trennlinie_gestrichelt_480_waagerecht">
+<rect x="779" y="6117" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="6118" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="6223.67" width="280" height="4.67" viewBox="0 0 480 8" overflow="hidden">
+<line x1="1" y1="4" x2="480" y2="4" stroke="#5A5A5A" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="8 5"/>
+</svg>
+<text x="962.5" y="6335" class="name">Trennlinie_gestrichelt</text>
+<text x="962.5" y="6353" class="name">480_waagerecht</text>
+<text x="962.5" y="6374" class="mass">480 × 8 px</text>
+</g>
+<g id="Trennlinie_gestrichelt_600_senkrecht">
+<rect x="1159" y="6117" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="6118" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1341.4" y="6143.5" width="2.2" height="165" viewBox="0 0 8 600" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)"><line x1="1" y1="4" x2="600" y2="4" stroke="#5A5A5A" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="8 5"/></g>
+</svg>
+<text x="1342.5" y="6335" class="name">Trennlinie_gestrichelt</text>
+<text x="1342.5" y="6353" class="name">600_senkrecht</text>
+<text x="1342.5" y="6374" class="mass">8 × 600 px</text>
+</g>
+<g id="Trennlinie_gestrichelt_600_waagerecht">
+<rect x="19" y="6405" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="6406" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="6512.13" width="280" height="3.73" viewBox="0 0 600 8" overflow="hidden">
+<line x1="1" y1="4" x2="600" y2="4" stroke="#5A5A5A" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="8 5"/>
+</svg>
+<text x="202.5" y="6623" class="name">Trennlinie_gestrichelt</text>
+<text x="202.5" y="6641" class="name">600_waagerecht</text>
+<text x="202.5" y="6662" class="mass">600 × 8 px</text>
+</g>
+<g id="Trennlinie_punktiert_120_senkrecht">
+<rect x="399" y="6405" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="6406" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="577" y="6431.5" width="11" height="165" viewBox="0 0 8 120" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)"><line x1="2" y1="4" x2="119" y2="4" stroke="#5A5A5A" stroke-opacity="0.5" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="0 7"/></g>
+</svg>
+<text x="582.5" y="6623" class="name">Trennlinie_punktiert</text>
+<text x="582.5" y="6641" class="name">120_senkrecht</text>
+<text x="582.5" y="6662" class="mass">8 × 120 px</text>
+</g>
+<g id="Trennlinie_punktiert_120_waagerecht">
+<rect x="779" y="6405" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="6406" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="6504.67" width="280" height="18.67" viewBox="0 0 120 8" overflow="hidden">
+<line x1="2" y1="4" x2="119" y2="4" stroke="#5A5A5A" stroke-opacity="0.5" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="0 7"/>
+</svg>
+<text x="962.5" y="6623" class="name">Trennlinie_punktiert</text>
+<text x="962.5" y="6641" class="name">120_waagerecht</text>
+<text x="962.5" y="6662" class="mass">120 × 8 px</text>
+</g>
+<g id="Trennlinie_punktiert_240_senkrecht">
+<rect x="1159" y="6405" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="6406" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1339.75" y="6431.5" width="5.5" height="165" viewBox="0 0 8 240" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)"><line x1="2" y1="4" x2="239" y2="4" stroke="#5A5A5A" stroke-opacity="0.5" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="0 7"/></g>
+</svg>
+<text x="1342.5" y="6623" class="name">Trennlinie_punktiert</text>
+<text x="1342.5" y="6641" class="name">240_senkrecht</text>
+<text x="1342.5" y="6662" class="mass">8 × 240 px</text>
+</g>
+<g id="Trennlinie_punktiert_240_waagerecht">
+<rect x="19" y="6693" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="6694" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="6797.33" width="280" height="9.33" viewBox="0 0 240 8" overflow="hidden">
+<line x1="2" y1="4" x2="239" y2="4" stroke="#5A5A5A" stroke-opacity="0.5" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="0 7"/>
+</svg>
+<text x="202.5" y="6911" class="name">Trennlinie_punktiert</text>
+<text x="202.5" y="6929" class="name">240_waagerecht</text>
+<text x="202.5" y="6950" class="mass">240 × 8 px</text>
+</g>
+<g id="Trennlinie_punktiert_360_senkrecht">
+<rect x="399" y="6693" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="6694" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="580.67" y="6719.5" width="3.67" height="165" viewBox="0 0 8 360" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)"><line x1="2" y1="4" x2="359" y2="4" stroke="#5A5A5A" stroke-opacity="0.5" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="0 7"/></g>
+</svg>
+<text x="582.5" y="6911" class="name">Trennlinie_punktiert</text>
+<text x="582.5" y="6929" class="name">360_senkrecht</text>
+<text x="582.5" y="6950" class="mass">8 × 360 px</text>
+</g>
+<g id="Trennlinie_punktiert_360_waagerecht">
+<rect x="779" y="6693" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="6694" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="6798.89" width="280" height="6.22" viewBox="0 0 360 8" overflow="hidden">
+<line x1="2" y1="4" x2="359" y2="4" stroke="#5A5A5A" stroke-opacity="0.5" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="0 7"/>
+</svg>
+<text x="962.5" y="6911" class="name">Trennlinie_punktiert</text>
+<text x="962.5" y="6929" class="name">360_waagerecht</text>
+<text x="962.5" y="6950" class="mass">360 × 8 px</text>
+</g>
+<g id="Trennlinie_punktiert_480_senkrecht">
+<rect x="1159" y="6693" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="6694" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1341.12" y="6719.5" width="2.75" height="165" viewBox="0 0 8 480" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)"><line x1="2" y1="4" x2="479" y2="4" stroke="#5A5A5A" stroke-opacity="0.5" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="0 7"/></g>
+</svg>
+<text x="1342.5" y="6911" class="name">Trennlinie_punktiert</text>
+<text x="1342.5" y="6929" class="name">480_senkrecht</text>
+<text x="1342.5" y="6950" class="mass">8 × 480 px</text>
+</g>
+<g id="Trennlinie_punktiert_480_waagerecht">
+<rect x="19" y="6981" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="6982" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="7087.67" width="280" height="4.67" viewBox="0 0 480 8" overflow="hidden">
+<line x1="2" y1="4" x2="479" y2="4" stroke="#5A5A5A" stroke-opacity="0.5" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="0 7"/>
+</svg>
+<text x="202.5" y="7199" class="name">Trennlinie_punktiert</text>
+<text x="202.5" y="7217" class="name">480_waagerecht</text>
+<text x="202.5" y="7238" class="mass">480 × 8 px</text>
+</g>
+<g id="Trennlinie_punktiert_600_senkrecht">
+<rect x="399" y="6981" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="6982" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="581.4" y="7007.5" width="2.2" height="165" viewBox="0 0 8 600" overflow="hidden">
+<g transform="matrix(0 1 1 0 0 0)"><line x1="2" y1="4" x2="599" y2="4" stroke="#5A5A5A" stroke-opacity="0.5" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="0 7"/></g>
+</svg>
+<text x="582.5" y="7199" class="name">Trennlinie_punktiert</text>
+<text x="582.5" y="7217" class="name">600_senkrecht</text>
+<text x="582.5" y="7238" class="mass">8 × 600 px</text>
+</g>
+<g id="Trennlinie_punktiert_600_waagerecht">
+<rect x="779" y="6981" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="6982" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="7088.13" width="280" height="3.73" viewBox="0 0 600 8" overflow="hidden">
+<line x1="2" y1="4" x2="599" y2="4" stroke="#5A5A5A" stroke-opacity="0.5" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="0 7"/>
+</svg>
+<text x="962.5" y="7199" class="name">Trennlinie_punktiert</text>
+<text x="962.5" y="7217" class="name">600_waagerecht</text>
+<text x="962.5" y="7238" class="mass">600 × 8 px</text>
+</g>
+</svg>

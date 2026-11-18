@@ -42,6 +42,35 @@ Variante `_an` (z. B. `Flusspfeil_rechts_an`), gleiche Größe: drei helle Punkt
 - Platzierung unter einem 144 px breiten Speicher (z. B. `Pufferspeicher_WT_stehend`): Platte bei x = x<sub>Speicher</sub> − 18, y = y<sub>Speicher</sub> + 336 − 9 (Fußunterkante des Speichers bei y = 336). Die Platte liegt in Px **unter** dem Speicher (zuerst einfügen).
 - Erzeugt mit `tools/aufstellplatten.py`.
 
+### Bereiche (`symbole/allgemein/bereiche/`)
+
+Zum optischen Gliedern einer Px-Seite, z. B. Bereich Wärmepumpe | Bereich Puffer. Halbtransparent, damit sie auf dem bisherigen grauen und auf hellen Hintergründen funktionieren. Nicht zu verwechseln mit `Trennung_*` (Wand-/Deckendurchführung).
+
+**Trennlinien** `Trennlinie_<Design>_<Länge>_{waagerecht,senkrecht}`: Längen 120, 240, 360, 480, 600; 8 px stark (waagerecht L × 8, senkrecht 8 × L), Linie mittig. Hinter die Symbole legen. Wegen der Strich- und Punktmuster passende Länge wählen statt verzerrt zu skalieren.
+
+| Design | Darstellung |
+|---|---|
+| `Rille` | dunkle und helle 1-px-Linie übereinander, wirkt eingeprägt |
+| `RilleVerlauf` | wie `Rille`, an den Enden weich auslaufend |
+| `VerlaufHell` | weiße Linie (75 %), Enden weich |
+| `VerlaufDunkel` | graue Linie (50 %), Enden weich |
+| `gestrichelt` | grau (50 %), Strich 8 / Lücke 5 |
+| `punktiert` | runde Punkte im Abstand 7 |
+| `Doppel` | zwei feine graue Linien |
+| `Band` | heller, weicher Streifen mit feiner Mittellinie |
+
+**Bereichsflächen** `Bereich_{hell,dunkel,Kopfzeile}_<B>x<H>`: 240x240, 300x400, 400x300, 400x600, 600x400, 800x500; Ecken r = 10. Als unterste Ebene hinter ein Anlagenteil legen.
+
+| Art | Darstellung |
+|---|---|
+| `hell` | Weiß 22 %, heller Rand; hebt den Bereich auf dem grauen Hintergrund leicht an |
+| `dunkel` | Schwarz 7 % mit heller Innenkante; wirkt eingelassen |
+| `Kopfzeile` | Weiß 55 %, Rand `#B9BFC6`, oben 30 px abgesetzter Streifen für ein Titel-Label (z. B. „Wärmepumpe“); gedacht für den hellen Seitenhintergrund |
+
+**Seitenhintergrund** `Hintergrund_hell_1920x1080`: ruhiger Verlauf `#EEF0F2` → `#DDE1E5` (senkrecht), frei skalierbar (`preserveAspectRatio="none"`). Alternativ dieselben Farben direkt als Hintergrund der Px-Seite setzen.
+
+- Erzeugt mit `tools/bereiche.py`.
+
 ## Lüftung
 
 | Symbol | Größe | Hinweise |

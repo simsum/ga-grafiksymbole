@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <!-- Bereichsfläche Kopfzeile, 240 × 240 -->
+  <rect x="1" y="1" width="238" height="238" rx="10" fill="#FFFFFF" fill-opacity="0.55" stroke="#B9BFC6" stroke-width="1.2"/><path d="M1,30 V11 a10,10 0 0 1 10,-10 H229 a10,10 0 0 1 10,10 V30 Z" fill="#5E6873" fill-opacity="0.12"/><line x1="1" y1="30" x2="239" y2="30" stroke="#B9BFC6" stroke-width="1"/>
+</svg>

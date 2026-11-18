@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="8" viewBox="0 0 480 8">
+  <!-- Trennlinie Band, Länge 480, waagerecht, Linie mittig -->
+  <defs><linearGradient id="vb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.12" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.88" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient><linearGradient id="vd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5A5A5A" stop-opacity="0"/><stop offset="0.12" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="0.88" stop-color="#5A5A5A" stop-opacity="0.4"/><stop offset="1" stop-color="#5A5A5A" stop-opacity="0"/></linearGradient></defs><rect x="0" y="0" width="480" height="8" rx="4" fill="url(#vb)"/><rect x="0" y="3.5" width="480" height="1" fill="url(#vd)"/>
+</svg>

@@ -97,6 +97,26 @@ Farben Kälte (oben → unten): `#3A8C4E`, `#6DB07B`, `#A8D2B4`, `#7CA6DE`, `#2E
   - Brenner rechts: Vorlauf x = 110, Rücklauf x = 70.
 - Vorderansicht 140 × 143: Vorlauf x = 42, Rücklauf x = 98, Abgas mittig dahinter.
 
+### Gastherme (Wandgerät)
+
+Wandhängende Gastherme, Vorderansicht, neutral gezeichnet, ohne Logos. Abgasstutzen oben mittig, drei Anschlüsse als angedeutete Flansche an der Unterkante. Zwei Darstellungen mit gleicher Größe und gleichen Anschlusspunkten:
+
+- `Gastherme_vorne_*`: geschlossenes Gehäuse mit Schauglas (Brenner) und Bedienfeld.
+- `Gastherme_Schnitt_vorne_*`: offenes Gehäuse mit Ausdehnungsgefäß, Wärmetauscher (Rohrwendel, Brennkammer), Gebläse, Gasventil und Leitungen innen.
+
+| Symbol | Größe | Anschlusspunkte (x; y = Unterkante) |
+|---|---|---|
+| `Gastherme_vorne_aus` | 120 × 166 | VL 30, Gas 60, RL 90; y = 166 |
+| `Gastherme_Schnitt_vorne_aus` | 120 × 166 | VL 30, Gas 60, RL 90; y = 166 |
+
+| Zustand | Suffix | Darstellung |
+|---|---|---|
+| aus | `_aus` | Brenner aus, Status-LED grau |
+| Betrieb | `_an` | Flammen flackern, Brennkammer glüht, im Schnitt dreht das Gebläse; Status-LED grün (SMIL) |
+| Störung | `_stoerung` | rotes Warndreieck und rote Status-LED blinken (1 Hz) |
+
+Flanschfarben: VL `#D7302B`, Gas `#F2C230`, RL `#2E6BC2`. Erzeugt mit `tools/gastherme.py`.
+
 ### Brennerflamme (animiert, zum Überlegen)
 
 - `Brenner_Flamme_{links,rechts}_{1..5}_animiert`: 114 × 68, transparent, ohne Kessel. Alle zehn Dateien haben dieselbe Größe und dieselbe Wurzelposition, damit Niagara beim Umschalten nichts verschiebt.

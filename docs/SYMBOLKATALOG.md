@@ -120,6 +120,12 @@ Rotationswärmetauscher: `_aus` Rad steht; `_an` Rad dreht (SMIL), Lamellen lauf
 | Alarm | `_alarm` | rot, Kammer pulsiert schnell (0,6 s), Rauch quillt auf, Alarmwellen blinken (2 Hz) |
 | Störung | `_stoerung` | rot wie alle Störungen, Kammer pulsiert weich (1,4 s) mit rotem Warndreieck |
 
+### Frostschutzwächter (`symbole/lueftung/frostschutz/`)
+
+- `Frostschutzwaechter_{normal,frostgefahr}`: 68 × 80 zum Überlegen auf ein Heizregister (40 × 80). Die linken 40 px decken das Register ab; im Px mit derselben linken oberen Ecke wie das Register einsetzen. Hintergrund transparent. Erzeugt mit `tools/frostschutz.py`.
+- Rechts oben außerhalb des Registers eine eckige Plakette (24 × 24, Zustandsfarbe, fester grauer Rand, weiße Schneeflocke), aus der das Kupfer-Kapillarrohr in runden Bögen über das Register läuft.
+- `_normal`: grün, statisch. `_frostgefahr`: rot, Plakette pulsiert schnell (0,6 s), Schneeflocke dreht sich, Kapillarrohr vereist und pulsiert, Eiskristalle blitzen auf.
+
 ## Hydraulik
 
 ### Umschaltventil-Pfeile

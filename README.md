@@ -17,7 +17,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
     klimageraete/        Klimakonvektor
     ventilatoren/        Ventilatoren in vier Richtungen und fünf Zuständen, auch mit Lüfterflügel
     filter/              Luftfilter und Taschenfilter, sauber und verschmutzt
-    rauchmelder/         Kanalrauchmelder (normal, Luftstrom, Alarm, Störung)
+    rauchmelder/         Kanalrauchmelder (normal, Luftstrom, Wartung, Alarm, Störung)
     luftdurchlaesse/     Deckenluftdurchlass
     volumenstromregler/  Volumenstromregler rund und eckig
     wrg/                 Wärmerückgewinnung (Plattenwärmetauscher, Rotationswärmetauscher)

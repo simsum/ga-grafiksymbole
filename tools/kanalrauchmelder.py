@@ -1,43 +1,45 @@
 #!/usr/bin/env python3
 """Erzeugt symbole/lueftung/rauchmelder/Kanalrauchmelder_{lage}_{zustand}.svg.
 
-Kanalrauchmelder: hellgraues Gehäuse mit runder Messkammer in Zustandsfarbe (grauer, fester Ring wie bei
-Pumpe und Ventilator), Status-LED, Messrohr mit Ansauglöchern ragt in den Kanal. Aufruf: python tools/kanalrauchmelder.py
+Kanalrauchmelder: hellgraues, quadratisches Gehäuse (30 × 30) mit runder Messkammer in Zustandsfarbe (grauer, fester Ring wie bei
+Pumpe und Ventilator), Messrohr mit Ansauglöchern ragt in den Kanal. Aufruf: python tools/kanalrauchmelder.py
 
 Lage = Seite des Kanals, auf der das Gerät sitzt:
-  oben, unten    48 × 56 für waagerechte Kanäle; Rohrende (Kanalmitte) unten bei y = 56 bzw. oben bei y = 0, x = 24
-  links, rechts  56 × 48 für senkrechte Kanäle; Rohrende rechts bei x = 56 bzw. links bei x = 0, y = 24
+  oben, unten    48 × 50 für waagerechte Kanäle; Rohrende (Kanalmitte) unten bei y = 50 bzw. oben bei y = 0, x = 24
+  links, rechts  52 × 48 für senkrechte Kanäle; Rohrende rechts bei x = 52 bzw. links bei x = 0, y = 24
 
 Zustände (Farben aus zustandsfarben.py):
   _normal      grün, alles in Ordnung, statisch
   _luftstrom   grün, Luftstrom in Ordnung: weißer Ring dreht (wie Pumpe im Betrieb), helle Punkte steigen im Messrohr
                zum Gehäuse (Luft wird angesaugt)
-  _alarm       rot, Messkammer pulsiert schnell (0,6 s), Rauch quillt in der Kammer auf, Alarmwellen und LED blinken (2 Hz)
-  _stoerung    rot wie alle Störungen, Messkammer pulsiert weich (1,4 s) mit Warndreieck, LED blinkt (1 Hz)
+  _wartung     gelb, Messkammer pulsiert weich (1,4 s) mit dunklem Warndreieck
+  _alarm       rot, Messkammer pulsiert schnell (0,6 s), Rauch quillt in der Kammer auf, Alarmwellen blinken (2 Hz)
+  _stoerung    rot wie alle Störungen, Messkammer pulsiert weich (1,4 s) mit rotem Warndreieck
 Ohne Animation bleiben Zustandsfarbe, Warndreieck bzw. Rauch und Alarmwellen sichtbar.
 """
 from pathlib import Path
 
-from zustandsfarben import AUS, BETRIEB, STOERUNG
+from zustandsfarben import AUS, BETRIEB, FREIGABE, STOERUNG
 
 ZIEL = Path(__file__).resolve().parent.parent / "symbole" / "lueftung" / "rauchmelder"
 GRAU = AUS[2]
-FARBEN = {"normal": BETRIEB, "luftstrom": BETRIEB, "alarm": STOERUNG, "stoerung": STOERUNG}
-TITEL = {"normal": "Normal", "luftstrom": "Luftstrom in Ordnung", "alarm": "Alarm", "stoerung": "Störung"}
+FARBEN = {"normal": BETRIEB, "luftstrom": BETRIEB, "wartung": FREIGABE, "alarm": STOERUNG, "stoerung": STOERUNG}
+TITEL = {"normal": "Normal", "luftstrom": "Luftstrom in Ordnung", "wartung": "Wartung", "alarm": "Alarm", "stoerung": "Störung"}
 
-# Geometrie je Lage: Größe, Gehäuse (x, y), Kammermitte, Messrohr (x, y, b, h), Kragen (x, y, b, h), LED,
+# Geometrie je Lage: Größe, Gehäuse (x, y), Kammermitte, Messrohr (x, y, b, h), Kragen (x, y, b, h),
 # Ansauglöcher, Luftweg der Punkte (Start, Ende) als (x, y)
 LAGEN = {
-    "oben":   dict(w=48, h=56, geh=(5, 2), k=(24, 17), rohr=(21, 30, 6, 26), kragen=(10, 30, 28, 3), led=(38, 7),
-                   loecher=((24, 46), (24, 51)), weg=((24, 54), (24, 32))),
-    "unten":  dict(w=48, h=56, geh=(5, 24), k=(24, 39), rohr=(21, 0, 6, 26), kragen=(10, 23, 28, 3), led=(38, 29),
-                   loecher=((24, 5), (24, 10)), weg=((24, 2), (24, 24))),
-    "links":  dict(w=56, h=48, geh=(2, 9), k=(21, 24), rohr=(38, 21, 18, 6), kragen=(39, 14, 3, 20), led=(35, 14),
-                   loecher=((47, 24), (52, 24)), weg=((54, 24), (40, 24))),
-    "rechts": dict(w=56, h=48, geh=(16, 9), k=(35, 24), rohr=(0, 21, 18, 6), kragen=(14, 14, 3, 20), led=(49, 14),
-                   loecher=((4, 24), (9, 24)), weg=((2, 24), (16, 24))),
+    "oben":   dict(w=48, h=50, geh=(9, 2), k=(24, 17), rohr=(21, 30, 6, 20), kragen=(12, 30, 24, 3),
+                   loecher=((24, 41), (24, 46)), weg=((24, 48), (24, 32))),
+    "unten":  dict(w=48, h=50, geh=(9, 18), k=(24, 33), rohr=(21, 0, 6, 20), kragen=(12, 17, 24, 3),
+                   loecher=((24, 4), (24, 9)), weg=((24, 2), (24, 18))),
+    "links":  dict(w=52, h=48, geh=(5, 9), k=(20, 24), rohr=(33, 21, 19, 6), kragen=(33, 12, 3, 24),
+                   loecher=((43, 24), (48, 24)), weg=((50, 24), (35, 24))),
+    "rechts": dict(w=52, h=48, geh=(17, 9), k=(32, 24), rohr=(0, 21, 19, 6), kragen=(16, 12, 3, 24),
+                   loecher=((4, 24), (9, 24)), weg=((2, 24), (17, 24))),
 }
-GB, GH, R = 38, 30, 11   # Gehäusebreite, -höhe, Kammerradius
+GB = GH = 30   # quadratisches Gehäuse
+R = 11         # Kammerradius
 
 
 def puls(dur: str, tief: float = 0.35) -> str:
@@ -80,7 +82,7 @@ def svg(lage: str, zustand: str) -> str:
     kammer = f'<circle cx="{cx}" cy="{cy}" r="{R}" fill="url(#gK)"/>'
     if zustand == "alarm":
         s.append(f'<g>{puls("0.6s", 0.45)}{kammer}</g>')
-    elif zustand == "stoerung":
+    elif zustand in ("stoerung", "wartung"):
         s.append(f'<g>{puls("1.4s")}{kammer}</g>')
     else:
         s.append(kammer)
@@ -91,11 +93,6 @@ def svg(lage: str, zustand: str) -> str:
         s.append(f'<circle cx="{cx}" cy="{cy}" r="9.2" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="1.6" '
                  f'stroke-linecap="round" stroke-dasharray="12 7.3"><animateTransform attributeName="transform" type="rotate" '
                  f'from="0 {cx} {cy}" to="360 {cx} {cy}" dur="1.6s" repeatCount="indefinite"/></circle>')
-    # Status-LED
-    lx, ly = g["led"]
-    led_farbe = STOERUNG[1] if zustand in ("alarm", "stoerung") else BETRIEB[1]
-    led_anim = blink("0.5s") if zustand == "alarm" else (blink() if zustand == "stoerung" else "")
-    s.append(f'<circle cx="{lx}" cy="{ly}" r="2" fill="{led_farbe}" stroke="#4D4D4D" stroke-width="0.6">{led_anim}</circle>')
     if zustand == "alarm":
         for i, b in enumerate(("0s", "0.5s", "1s")):   # Rauch quillt in der Kammer auf
             s.append(f'<g opacity="0"><animate attributeName="opacity" values="0;0.95;0" dur="1.5s" begin="{b}" repeatCount="indefinite"/>'
@@ -107,8 +104,9 @@ def svg(lage: str, zustand: str) -> str:
         s.append(f'<g fill="none" stroke="{STOERUNG[1]}" stroke-width="1.6" stroke-linecap="round">{blink("0.5s")}'
                  f'<path d="M{l},{m - 7} q-2.5,7 0,14"/><path d="M{l - 2.5},{m - 10} q-3,10 0,20" stroke-opacity="0.6"/>'
                  f'<path d="M{r_},{m - 7} q2.5,7 0,14"/><path d="M{r_ + 2.5},{m - 10} q3,10 0,20" stroke-opacity="0.6"/></g>')
-    if zustand == "stoerung":
-        s.append(f'<g>{puls("1.4s")}<path d="M{cx},{cy - 7} L{cx + 7.5},{cy + 6} L{cx - 7.5},{cy + 6} Z" fill="#E2231A" '
+    if zustand in ("stoerung", "wartung"):
+        dreieck = "#E2231A" if zustand == "stoerung" else "#4D4D4D"
+        s.append(f'<g>{puls("1.4s")}<path d="M{cx},{cy - 7} L{cx + 7.5},{cy + 6} L{cx - 7.5},{cy + 6} Z" fill="{dreieck}" '
                  'stroke="#FFFFFF" stroke-width="1.4" stroke-linejoin="round"/>'
                  f'<rect x="{cx - 0.8}" y="{cy - 3.5}" width="1.6" height="5.5" rx="0.8" fill="#FFFFFF"/>'
                  f'<circle cx="{cx}" cy="{cy + 3.6}" r="0.9" fill="#FFFFFF"/></g>')

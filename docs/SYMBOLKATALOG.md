@@ -109,15 +109,16 @@ Rotationswärmetauscher: `_aus` Rad steht; `_an` Rad dreht (SMIL), Lamellen lauf
 
 ### Kanalrauchmelder (`symbole/lueftung/rauchmelder/`)
 
-- `Kanalrauchmelder_<lage>_<zustand>`: hellgraues Gehäuse mit runder Messkammer in Zustandsfarbe (grauer fester Ring wie bei Pumpe und Ventilator), Status-LED, Messrohr mit Ansauglöchern ragt in den Kanal. Erzeugt mit `tools/kanalrauchmelder.py`.
-- Lage = Seite des Kanals, auf der das Gerät sitzt. `oben`/`unten`: 48 × 56 für waagerechte Kanäle, Rohrende auf der Kanalmitte bei x = 24, y = 56 bzw. y = 0. `links`/`rechts`: 56 × 48 für senkrechte Kanäle, Rohrende bei x = 56 bzw. x = 0, y = 24.
+- `Kanalrauchmelder_<lage>_<zustand>`: hellgraues, quadratisches Gehäuse (30 × 30) mit runder Messkammer in Zustandsfarbe (grauer fester Ring wie bei Pumpe und Ventilator), Messrohr mit Ansauglöchern ragt in den Kanal. Erzeugt mit `tools/kanalrauchmelder.py`.
+- Lage = Seite des Kanals, auf der das Gerät sitzt. `oben`/`unten`: 48 × 50 für waagerechte Kanäle, Rohrende auf der Kanalmitte bei x = 24, y = 50 bzw. y = 0. `links`/`rechts`: 52 × 48 für senkrechte Kanäle, Rohrende bei x = 52 bzw. x = 0, y = 24.
 
 | Zustand | Suffix | Darstellung |
 |---|---|---|
 | Normal | `_normal` | grün, statisch |
 | Luftstrom in Ordnung | `_luftstrom` | grün, weißer Ring dreht, helle Punkte steigen im Messrohr zum Gehäuse |
-| Alarm | `_alarm` | rot, Kammer pulsiert schnell (0,6 s), Rauch quillt auf, Alarmwellen und LED blinken (2 Hz) |
-| Störung | `_stoerung` | rot wie alle Störungen, Kammer pulsiert weich (1,4 s) mit Warndreieck, LED blinkt (1 Hz) |
+| Wartung | `_wartung` | gelb, Kammer pulsiert weich (1,4 s) mit dunklem Warndreieck |
+| Alarm | `_alarm` | rot, Kammer pulsiert schnell (0,6 s), Rauch quillt auf, Alarmwellen blinken (2 Hz) |
+| Störung | `_stoerung` | rot wie alle Störungen, Kammer pulsiert weich (1,4 s) mit rotem Warndreieck |
 
 ## Hydraulik
 

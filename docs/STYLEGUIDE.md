@@ -62,6 +62,37 @@ Einheitlich für **alle** Symbole mit Betriebszustand (Pumpen, Fun-Pumpen, Freig
 - LEDs und Punkte (`anzeigen/led`, `anzeigen/punkte`), Betriebsart „normal“ (`anzeigen/betriebsart`) und das Warndreieck der Wärmepumpe nutzen die Zustandsfarben ebenfalls: Verläufe mit oben, unten und Kontur, volle Flächen mit „Verlauf unten“.
 - Bewusst eigene Töne: Blau (LED und Punkt blau, Betriebsart „leise“, Abtaubetrieb der Wärmepumpe), Sonne/Mond und die Flamme der Wärmemengenzähler (`#E0302A`). Kein Zustand im Schema.
 - Noch eigene Zustandstöne, bisher nicht angeglichen: Absperrklappe und Endlage auf/zu (`#2EAA3A` / `#E0302A`, hier bedeutet Rot „zu“ und nicht Störung), Warndreieck der Pumpen und Fun-Pumpen (`#E2231A`, `tools/pumpe.py`).
+- Ausnahme Pumpen, Fun-Pumpen und Ventilatoren: Außenring und Förderzeichen (Dreieck bzw. Linien) bleiben in allen Zuständen grau (`#808080`), nur die Füllung trägt die Zustandsfarbe und pulsiert bei Freigabe und Störung; der Ring pulsiert nicht mit (siehe „Pumpen und Ventilatoren“).
+
+## Pumpen und Ventilatoren
+
+Gleich aufgebaut, gleiche Zustände und Animationen. Pumpen 40 × 40, Ventilatoren 60 × 60 (beide im 40er-Raster gezeichnet, viewBox `0 0 40 40`).
+
+| Element | Wert |
+|---|---|
+| Förderdreieck (Pumpe) | immer grau `#808080` |
+| Ventilatorzeichen | zwei Linien von Kreisrand zu Kreisrand, laufen in Förderrichtung zusammen (DIN EN 12792) |
+| Linien (Ventilator) | immer grau `#808080`, 1,4 px |
+| Außenring | immer grau `#808080`, 1,6 px; pulsiert nicht mit |
+| Füllung | Zustandsverlauf; bei Freigabe und Störung pulsiert nur die Füllung |
+| Betrieb (`_an`) | weißer Ring mit drei Segmenten dreht wie bei der Pumpe |
+| Fließ-/Luftpfeile (`_an`) | hell `#E6E6E6`; Pumpe: im Dreieck zur Spitze, Ventilator: zur engen Seite |
+| Variante `Fluegel` (Ventilator) | statt des drehenden Rings drei angedeutete Lüfterflügel (Weiß 50 %, Rand Weiß 75 %) mit Nabe hinter den Linien; drehen nur bei `_an`. Luftpfeile und Punkte hier dunkel `#4D4D4D` |
+
+## Flanschfarben
+
+Angedeutete Geräteflansche (`tools/flansche.py`, Wärmepumpe, Gastherme, Mehrleitermaschine):
+
+| Anschluss | Farbe |
+|---|---|
+| Heizung Vorlauf | `#D7302B` (rot) |
+| Heizung Rücklauf | `#F29A38` (orange); bei der Gastherme `#2E6BC2` (blau) |
+| Kälte Vorlauf / Rücklauf | `#2E6BC2` / `#7CA6DE` |
+| Gas | `#F2C230` (gelb) |
+| Kaltwasser | `#6BB33A` (grün) |
+| neutral | `#9A9A9A` |
+
+Reihenfolge an der Gastherme von links: Vorlauf, Gas, Rücklauf.
 
 ## Detailstufen
 

@@ -1,6 +1,6 @@
 """Erzeugt symbole/fun/hydraulik/pumpen/Fun_Pumpe_{richtung}_{zustand}.svg (40 × 40, wie die Pumpen unter symbole/hydraulik/pumpen).
 
-Basis ist das Pumpensymbol aus pumpe.py mit derselben Zustandskontur und demselben grauen Förderdreieck wie die
+Basis ist das Pumpensymbol aus pumpe.py mit demselben grauen Außenring und grauen Förderdreieck wie die
 normale Pumpe (zeigt die Förderrichtung in allen Zuständen), dazu je Zustand eine kleine Cartoon-Animation (SMIL):
   _aus        zwei „z“ steigen auf (schläft)
   _freigabe   Funken blinken (bereit)
@@ -74,7 +74,7 @@ def svg(richtung: str, zustand: str) -> str:
     zeilen = pumpe.svg(richtung, zustand).rstrip("\n").split("\n")
     zeilen[0] = zeilen[0].replace('role="img" aria-labelledby="title"', 'role="img" aria-labelledby="title"')
     zeilen[1] = zeilen[1].replace("<title id=\"title\">Pumpe", "<title id=\"title\">Fun-Pumpe")
-    kopf, koerper = zeilen[:3], zeilen[3:-1]   # Zustandskontur unverändert wie bei der normalen Pumpe
+    kopf, koerper = zeilen[:3], zeilen[3:-1]   # Füllung und grauer Ring unverändert wie bei der normalen Pumpe
     # Förderdreieck (Gruppe mit rotate) unverändert grau behalten, aber ohne die Fließanimation aus pumpe.py;
     # im Betrieb wandern die Blasen davor in Förderrichtung
     von = next(i for i, z in enumerate(koerper) if z.startswith('  <g transform="rotate('))
@@ -95,5 +95,5 @@ if __name__ == "__main__":
     for richtung in pumpe.RICHTUNGEN:
         for zustand in pumpe.FARBEN:
             p = out / f"Fun_Pumpe_{richtung}_{zustand}.svg"
-            p.write_text(svg(richtung, zustand), encoding="utf-8")
+            p.write_text(svg(richtung, zustand), encoding="utf-8", newline="\n")
             print(p)

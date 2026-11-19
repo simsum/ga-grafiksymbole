@@ -30,6 +30,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
     erzeuger/            Kessel, Gastherme, Brenner (Flamme, Rauch), Wärmepumpe, Mehrleitermaschine
     speicher/            Pufferspeicher, Schichtspeicher
     zaehler/             Wärme-, Kälte-, Wasser-, Gas- und Elektrozähler, auch mit Messrad oder Ultraschall
+    kreise/              Heiz- und Kältekreis (Ring), plastisch und flach, statisch und animiert
     anschluesse/         Einzelne Flanschanschlüsse: Geräteflansch (6 Farben, 4 Richtungen), Flanschplatte, Flanschpaar
   anzeigen/
     led/                 LEDs rund und eckig, statisch und animiert
@@ -62,6 +63,7 @@ tools/
   pumpe.py               Erzeugt die Pumpensymbole unter symbole/hydraulik/pumpen/
   reparaturschalter.py   Erzeugt den Reparaturschalter unter symbole/anzeigen/schalter/
   zaehler_messrad_ultraschall.py  Erzeugt die Zähler mit Messrad und Ultraschall unter symbole/hydraulik/zaehler/
+  heiz_kaeltekreis.py    Erzeugt Heiz- und Kältekreis unter symbole/hydraulik/kreise/
   rauch.py               Erzeugt den Brennerrauch unter symbole/hydraulik/erzeuger/ (animiert + statisch)
   flamme.py              Erzeugt die Brennerflammen unter symbole/hydraulik/erzeuger/ (animiert + statisch)
   fun_pumpe.py           Erzeugt die Fun-Pumpen unter symbole/fun/hydraulik/pumpen/ (baut auf pumpe.py auf)
@@ -159,6 +161,9 @@ Jede Grafik zeigt alle Symbole einer Gruppe mit Dateinamen und Größe. Die Symb
 
 **Speicher** (`speicher`)
 ![Speicher](docs/uebersicht/Uebersicht_hydraulik_speicher.svg)
+
+**Heiz- und Kältekreis** (`kreise`)
+![Kreise](docs/uebersicht/Uebersicht_hydraulik_kreise.svg)
 
 **Zähler** (`zaehler`)
 ![Zähler](docs/uebersicht/Uebersicht_hydraulik_zaehler.svg)

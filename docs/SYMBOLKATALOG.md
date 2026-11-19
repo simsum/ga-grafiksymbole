@@ -77,6 +77,30 @@ Zum optischen Gliedern einer Px-Seite, z. B. Bereich Wärmepumpe | Bereich Puffe
 
 - Erzeugt mit `tools/bereiche.py`.
 
+### Kopfzeilen (`symbole/allgemein/kopfzeilen/`)
+
+Hintergründe für die Kopfzeile einer Px-Seite, 1920 × 100, ohne Schrift. Texte, Werte und die Beschriftung der Legende-Taste kommen als Niagara-Labels darüber, die (transparenten) Logos auf die Logo-Felder. Die Außenwerte sind eigene Felder (`Kopfzeilenwert_…`), damit nur die vorhandenen Werte angelegt werden. Erzeugt mit `tools/kopfzeilen.py`.
+
+| Kopfzeile | Logo-Felder (x, y, B, H) | Label-Bereiche (Vorschlag) | Legende-Taste |
+|---|---|---|---|
+| `Kopfzeile_hell` | Kunde 24, 18, 180, 64; Firma 1696, 10, 200, 52 | Kunde/Standort 224, 16, 660 × 34; Wertfelder ab x = 224, y = 60, Abstand 132; Trennstrich x = 900; Anlage 920, 18, 740 × 34; Unterzeile 920, 56, 740 × 24 | 1806, 68, 90 × 22 |
+| `Kopfzeile_dunkel` | Kunde 24, 18, 180, 64; Firma 1590, 18, 200, 64 | Kunde klein 224, 14, 760 × 16; Anlage 224, 32, 760 × 32; Unterzeile 224, 64, 760 × 22; Wertfelder y = 21, rechtsbündig bis x = 1570, Abstand 108 | 1806, 38, 90 × 24 |
+| `Kopfzeile_zweizeilig` | Kunde 24, 33, 180, 58; Firma 1590, 33, 200, 58 | Statuszeile y = 0 … 26 (Wertfelder y = 3, rechtsbündig bis x = 1896, Abstand 170); Kunde › Anlage 224, 36, 1340 × 30; Unterzeile 224, 66, 1340 × 22 | 1806, 50, 90 × 24 |
+
+| Wertfeld | Größe | Label |
+|---|---|---|
+| `Kopfzeilenwert_{Temperatur,Feuchte,Luftdruck,CO2}_hell` | 124 × 22, weißer Chip mit Symbol links | Wert x = 24 … 120 |
+| `Kopfzeilenwert_…_dunkel` | 100 × 58, dunkle Kachel, Symbol oben links | Bezeichnung y = 5 … 21 (ab x = 22), Wert y = 25 … 51 |
+| `Kopfzeilenwert_…_zweizeilig` | 130 × 20, transparent, Symbol links | Bezeichnung und Wert ab x = 14 |
+
+Symbole: Thermometer (Temperatur), blauer Tropfen (Feuchte), Druckanzeige (Luftdruck), zwei Blasen (CO₂).
+
+Vollständige Beispiele mit erfundener Firma und Anlage (nur zur Veranschaulichung, PNG unter `docs/beispiele/`), jeweils auch mit nummerierter Erklärung (`…_erklaert.png`):
+
+![Kopfzeile hell, erklärt](beispiele/Kopfzeile_hell_Beispiel_erklaert.png)
+![Kopfzeile dunkel, erklärt](beispiele/Kopfzeile_dunkel_Beispiel_erklaert.png)
+![Kopfzeile zweizeilig, erklärt](beispiele/Kopfzeile_zweizeilig_Beispiel_erklaert.png)
+
 ## Lüftung
 
 | Symbol | Größe | Hinweise |

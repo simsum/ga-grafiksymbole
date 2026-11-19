@@ -12,6 +12,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
     flusspfeile/         Flusspfeile gerade, diagonal (45°) und mit Bogen
     trennung/            Trennung/Durchführung (Decke, Wand)
     aufstellung/         Aufstellplatten unter stehenden Geräten (Beton, rund, Stahl)
+    kopfzeilen/          Kopfzeilen-Hintergründe (hell, dunkel, zweizeilig) und Felder für Außenwerte
     bereiche/            Dezente Trennlinien (8 Designs), Bereichsflächen, heller Seitenhintergrund
   lueftung/
     klimageraete/        Klimakonvektor
@@ -89,6 +90,7 @@ tools/
   aufstellplatten.py     Erzeugt die Aufstellplatten unter symbole/allgemein/aufstellung/
   flusspfeile_diagonal.py  Erzeugt die diagonalen Flusspfeile (45°) unter symbole/allgemein/flusspfeile/
   bereiche.py            Erzeugt Trennlinien, Bereichsflächen und Seitenhintergrund unter symbole/allgemein/bereiche/
+  kopfzeilen.py          Erzeugt Kopfzeilen und Außenwert-Felder unter symbole/allgemein/kopfzeilen/
   uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ aus den SVGs (ohne Zusatzpakete)
 ```
 
@@ -114,6 +116,9 @@ Jede Grafik zeigt alle Symbole einer Gruppe mit Dateinamen und Größe. Die Symb
 
 **Aufstellplatten** (`aufstellung`)
 ![Aufstellplatten](docs/uebersicht/Uebersicht_allgemein_aufstellung.svg)
+
+**Kopfzeilen** (`kopfzeilen`)
+![Kopfzeilen](docs/uebersicht/Uebersicht_allgemein_kopfzeilen.svg)
 
 **Bereiche** (`bereiche`)
 ![Bereiche](docs/uebersicht/Uebersicht_allgemein_bereiche.svg)

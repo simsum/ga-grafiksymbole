@@ -81,12 +81,17 @@ Zum optischen Gliedern einer Px-Seite, z. B. Bereich Wärmepumpe | Bereich Puffe
 | Deckenluftdurchlass rund (Hallen-Lochblech) | quadratisch | Kreis füllt die Bildfläche, ohne Stellhebel |
 | WRG Kreuzstrom-Plattenwärmetauscher | 400 × 480 (im Schema ca. 331 × 399) | Kein Rahmen; Anschlüsse links/rechts bei y = 46,5 und y = 435,5, Kanalhöhe 24; Varianten mit/ohne Bypass |
 | WRG mit Flanschen (`WRG_Platte_mit_Bypass_PlusMinus_Flansch`) | 400 × 480 | Wie oben, zusätzlich Flansch (6 × 34) an allen vier Anschlüssen ganz außen am Symbolrand; Kanäle enden am Flansch. Bestehender Kanal im Schema muss an der Flanschkante enden |
+| Rotationswärmetauscher, Kanäle links/rechts (`WRG_Rotation_senkrecht_{aus,an,stoerung}`) | 80 × 400 | Rad von außen gesehen (Lauffläche), links leicht schräg die Stirnseite mit Speichen; Kanalachsen y = 60 (oben, Abluft/Fortluft) und y = 340 (unten, Außenluft/Zuluft), Kanäle 20 px setzen an der Gehäusekante x = 10 bzw. 70 an. Mittelsteg mit Nabe bei y = 200 |
+| Rotationswärmetauscher, Kanäle oben/unten (`WRG_Rotation_waagerecht_{aus,an,stoerung}`) | 400 × 80 | Wie oben um 90° gedreht: Kanalachsen x = 60 und x = 340, Kanäle setzen an der Gehäusekante y = 10 bzw. 70 an |
+| Rotationswärmetauscher, Vorderansicht (`WRG_Rotation_vorne_{aus,an,stoerung}`) | 180 × 180 | Rahmen, Rad mit acht Speichen, Kreuzsteg und Nabe; Gerätebild ohne Kanalanschluss |
 | Klappe, ein Blatt, senkrecht/waagerecht (`lueftung/klappen/Klappe_klein_senkrecht_1_zu` bis `_5_auf`, `Klappe_klein_waagerecht_…`) | klein 30 × 60 / 60 × 30, groß 40 × 80 / 80 × 40 | Fünf Stellungen 1_zu, 2_25, 3_50, 4_75, 5_auf (Blattwinkel zur Kanalachse 90° / 67,5° / 45° / 22,5° / 0°); Kanal verläuft entlang der langen Seite; grau, Statusfarbe über Niagara. Abgeleitet von AC0531 und AC0532 (M, L); große Variante `Klappe_gross_senkrecht_…`, `Klappe_gross_waagerecht_…` |
 | Klappe, drei Blätter, senkrecht/waagerecht (`Klappe_3blatt_klein_senkrecht_…`, `Klappe_3blatt_klein_waagerecht_…`, groß: `Klappe_3blatt_gross_…`) | klein 30 × 60 / 60 × 30, groß 40 × 80 / 80 × 40 | Drei Blätter, Blattlänge nimmt Richtung „auf“ ab. Abgeleitet von AC0511/AC0521 (senkrecht) und AC0512/AC0522 (waagerecht), M und L. Waagerechte Klappen kippen wie das Original AC0532 nach „\“, senkrechte nach „/“ |
 
 Klappen: Blattwinkel zur Kanalachse, zu = quer, auf = längs. Die Klappen stammen aus der SBC-Icon-Galerie (Honeywell) und werden von `tools/klappen.py` erzeugt.
 
 WRG-Luftwege: Außenluft oben links (grün) → Zuluft unten rechts (rot); Abluft oben rechts → Fortluft unten links (orange).
+
+Rotationswärmetauscher: `_aus` Rad steht; `_an` Rad dreht (SMIL), Lamellen laufen perspektivisch über die Rundung, die Speichen der Stirnseite drehen mit, Pfeile zeigen die Drehrichtung; `_stoerung` Rad steht, rotes Warndreieck blinkt (1 Hz). Motor nicht eingezeichnet, dafür das M-Symbol daneben setzen. Erzeugt mit `tools/wrg_rotation.py`.
 
 ### Ventilatoren (`symbole/lueftung/ventilatoren/`)
 

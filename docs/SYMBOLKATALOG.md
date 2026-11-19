@@ -107,6 +107,19 @@ Rotationswärmetauscher: `_aus` Rad steht; `_an` Rad dreht (SMIL), Lamellen lauf
 - `Filter_Taschen_<richtung>`: Taschenfilter von vorn, Rahmen mit zwei Zellen übereinander, Stege zwischen den Taschen. Graue Staubteilchen fliegen von der Anströmseite heran und werden aufgefangen (SMIL).
 - `_verschmutzt` (beide): Filterfläche bräunlich mit Schmutzflecken, Staub bleibt hängen, Filterfläche blinkt leicht gelb (`#E3B200`, 1 Hz wie Störung). Ohne Animation bleibt der verschmutzte Filter erkennbar.
 
+### Kanalrauchmelder (`symbole/lueftung/rauchmelder/`)
+
+- `Kanalrauchmelder_<lage>_<zustand>`: hellgraues, quadratisches Gehäuse (30 × 30) mit runder Messkammer in Zustandsfarbe (grauer fester Ring wie bei Pumpe und Ventilator), Messrohr mit Ansauglöchern ragt in den Kanal. Erzeugt mit `tools/kanalrauchmelder.py`.
+- Lage = Seite des Kanals, auf der das Gerät sitzt. Alle Dateien 52 × 52, in jedem Zustand und jeder Lage gleich groß; Gehäuse und Rohr liegen je Lage immer an derselben Stelle. `oben`/`unten` für waagerechte Kanäle, Rohrende auf der Kanalmitte bei x = 26, y = 52 bzw. y = 0. `links`/`rechts` für senkrechte Kanäle, Rohrende bei x = 52 bzw. x = 0, y = 26.
+
+| Zustand | Suffix | Darstellung |
+|---|---|---|
+| Normal | `_normal` | grün, statisch |
+| Luftstrom in Ordnung | `_luftstrom` | grün, weißer Ring dreht, helle Punkte steigen im Messrohr zum Gehäuse |
+| Wartung | `_wartung` | gelb, Kammer pulsiert weich (1,4 s) mit dunklem Warndreieck |
+| Alarm | `_alarm` | rot, Kammer pulsiert schnell (0,6 s), Rauch quillt auf, Alarmwellen blinken (2 Hz) |
+| Störung | `_stoerung` | rot wie alle Störungen, Kammer pulsiert weich (1,4 s) mit rotem Warndreieck |
+
 ## Hydraulik
 
 ### Umschaltventil-Pfeile

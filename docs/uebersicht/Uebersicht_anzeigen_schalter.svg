@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="378" viewBox="0 0 1560 378">
+<title>symbole/anzeigen/schalter: 2 Symbole</title>
+<style>text{font-family:Segoe UI, Arial, Helvetica, sans-serif}.name{font-size:15px;font-weight:700;fill:#20242A;text-anchor:middle}.mass{font-size:12px;fill:#69727A;text-anchor:middle}</style>
+<rect width="1560" height="378" fill="#F4F5F7"/>
+<text x="20" y="42" font-size="26" font-weight="700" fill="#30343A">symbole/anzeigen/schalter</text>
+<text x="1540" y="42" font-size="16" fill="#69727A" text-anchor="end">2 Symbole</text>
+<g id="Reparaturschalter_aus">
+<rect x="19" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="166.5" y="142" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
+<title>Reparaturschalter, Aus (Reparatur, gesichert)</title>
+  <defs><linearGradient id="k0_gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs><g><animate attributeName="opacity" values="1;0.4;1" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/><rect x="1.5" y="1.5" width="21" height="21" rx="4" fill="url(#k0_gK)"/></g><rect x="1.5" y="1.5" width="21" height="21" rx="4" fill="none" stroke="#808080" stroke-width="1.2"/><circle cx="12" cy="12" r="8" fill="#F2C230" stroke="#4D4D4D" stroke-width="1"/><path d="M12,4.6 v1.8" stroke="#4D4D4D" stroke-width="0.9"/><circle cx="18.6" cy="12" r="0.9" fill="none" stroke="#4D4D4D" stroke-width="0.7"/><g transform="rotate(90 12 12)"><rect x="10.3" y="5.6" width="3.4" height="12.8" rx="1.7" fill="#D7302B" stroke="#8E1C14" stroke-width="0.8"/><circle cx="12" cy="12" r="1.2" fill="#FFFFFF" fill-opacity="0.8"/></g><g transform="translate(3.2 13.6)"><path d="M1.6,3 V1.9 a1.6,1.6 0 0 1 3.2,0 V3" fill="none" stroke="#2A2A2A" stroke-width="0.9"/><rect x="0.8" y="3" width="4.8" height="3.8" rx="0.7" fill="#2A2A2A"/></g>
+</svg>
+<text x="202.5" y="287" class="name">Reparaturschalter_aus</text>
+<text x="202.5" y="308" class="mass">24 × 24 px</text>
+</g>
+<g id="Reparaturschalter_ein">
+<rect x="399" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="546.5" y="142" width="72" height="72" viewBox="0 0 24 24" overflow="hidden">
+<title>Reparaturschalter, Ein</title>
+  <defs><linearGradient id="k1_gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></linearGradient></defs><rect x="1.5" y="1.5" width="21" height="21" rx="4" fill="url(#k1_gK)"/><rect x="1.5" y="1.5" width="21" height="21" rx="4" fill="none" stroke="#808080" stroke-width="1.2"/><circle cx="12" cy="12" r="8" fill="#F2C230" stroke="#4D4D4D" stroke-width="1"/><path d="M12,4.6 v1.8" stroke="#4D4D4D" stroke-width="0.9"/><circle cx="18.6" cy="12" r="0.9" fill="none" stroke="#4D4D4D" stroke-width="0.7"/><g transform="rotate(0 12 12)"><rect x="10.3" y="5.6" width="3.4" height="12.8" rx="1.7" fill="#D7302B" stroke="#8E1C14" stroke-width="0.8"/><circle cx="12" cy="12" r="1.2" fill="#FFFFFF" fill-opacity="0.8"/></g>
+</svg>
+<text x="582.5" y="287" class="name">Reparaturschalter_ein</text>
+<text x="582.5" y="308" class="mass">24 × 24 px</text>
+</g>
+</svg>

@@ -126,6 +126,12 @@ Rotationswärmetauscher: `_aus` Rad steht; `_an` Rad dreht (SMIL), Lamellen lauf
 | Alarm | `_alarm` | rot, Füllung pulsiert schnell (0,6 s), statt „RM“ quellen graue Rauchballen auf, Alarmwellen blinken (2 Hz) |
 | Störung | `_stoerung` | rot wie alle Störungen, Füllung pulsiert weich (1,4 s), rotes Warndreieck |
 
+### Volumenstrommesser (`symbole/lueftung/volumenstrommesser/`)
+
+- `Volumenstrommesser_<lage>_<zustand>`: aufgebaut wie der Kanalrauchmelder, aber mit rundem Kopf (d = 24): Füllung in Zustandsfarbe, fester grauer Rand, darin ein Zeigerinstrument; schlankes Messrohr mit Messöffnungen zur Kanalmitte. Erzeugt mit `tools/volumenstrommesser.py`.
+- Alle Dateien 40 × 40, Kopf und Rohr je Lage immer an derselben Stelle. Lagen wie beim Kanalrauchmelder: `oben` (Rohrende x = 20, y = 40), `unten` (x = 20, y = 0), `links` (x = 40, y = 20), `rechts` (x = 0, y = 20).
+- `_normal`: hellgrau, Zeiger steht. `_messung`: grün, Zeiger pendelt ruhig (weich, 6 s). `_stoerung`: rot, Füllung pulsiert weich (1,4 s), Warndreieck.
+
 ### Frostschutzwächter (`symbole/lueftung/frostschutz/`)
 
 - `Frostschutzwaechter_{normal,frostgefahr}`: 68 × 80 zum Überlegen auf ein Heizregister (40 × 80). Die linken 40 px decken das Register ab; im Px mit derselben linken oberen Ecke wie das Register einsetzen. Hintergrund transparent. Erzeugt mit `tools/frostschutz.py`.

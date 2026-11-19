@@ -9,7 +9,7 @@ Die Symbole sind für den Einsatz in Niagara Px als `Picture` mit `scale = fitRa
 ```
 symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe>/
   allgemein/             Fachübergreifend (Wasser, Luft, Strom)
-    flusspfeile/         Flusspfeile gerade und mit Bogen
+    flusspfeile/         Flusspfeile gerade, diagonal (45°) und mit Bogen
     trennung/            Trennung/Durchführung (Decke, Wand)
     aufstellung/         Aufstellplatten unter stehenden Geräten (Beton, rund, Stahl)
     bereiche/            Dezente Trennlinien (8 Designs), Bereichsflächen, heller Seitenhintergrund
@@ -76,6 +76,7 @@ tools/
   fun_gastherme.py       Erzeugt die Fun-Gastherme unter symbole/fun/hydraulik/erzeuger/ (baut auf gastherme.py auf)
   flansche.py            Erzeugt die Flanschanschlüsse unter symbole/hydraulik/anschluesse/ und die Fun-Varianten
   aufstellplatten.py     Erzeugt die Aufstellplatten unter symbole/allgemein/aufstellung/
+  flusspfeile_diagonal.py  Erzeugt die diagonalen Flusspfeile (45°) unter symbole/allgemein/flusspfeile/
   bereiche.py            Erzeugt Trennlinien, Bereichsflächen und Seitenhintergrund unter symbole/allgemein/bereiche/
   uebersichten.py        Erzeugt die Übersichtsgrafiken in docs/uebersicht/ aus den SVGs (ohne Zusatzpakete)
 ```

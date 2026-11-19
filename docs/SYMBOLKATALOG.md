@@ -357,6 +357,12 @@ Einzelne Flanschanschlüsse zum Anlegen an Geräte oder Leitungen, alle 24 × 24
 
 - Umschalten über Boolean-Binding auf `image`. Erzeugt mit `tools/freigabe.py`.
 
+### Brandalarm (`symbole/anzeigen/alarm/`)
+
+- `Brandalarm_{normal,alarm}`: 40 × 24, eckige Plakette 24 × 24 (wie Kanalrauchmelder und Frostschutzwächter) mittig bei x = 8, links und rechts Platz für Alarmwellen. Beide Dateien gleich groß, Plakette immer an derselben Stelle.
+- `_normal`: hellgrau, dunkelgraue Flamme als Umriss, statisch. `_alarm`: rot, Füllung pulsiert schnell (0,6 s), gefüllte Flamme flackert, Alarmwellen blinken (2 Hz).
+- Umschalten über Boolean-Binding auf `image`. Erzeugt mit `tools/brandalarm.py`.
+
 ## Fun
 
 Verspielte Cartoon-Symbole unter `symbole/fun/` (Gruppen wie in der Hauptstruktur: `anzeigen/`, `hydraulik/pumpen/`, `hydraulik/speicher/`, `navigation/`), 48 × 48, dunkelbraune Kontur `#3B2412`, animiert per SMIL. Zum Danebenstellen von Messwerten.

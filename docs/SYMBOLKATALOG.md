@@ -88,6 +88,13 @@ Klappen: Blattwinkel zur Kanalachse, zu = quer, auf = längs. Die Klappen stamme
 
 WRG-Luftwege: Außenluft oben links (grün) → Zuluft unten rechts (rot); Abluft oben rechts → Fortluft unten links (orange).
 
+### Ventilatoren (`symbole/lueftung/ventilatoren/`)
+
+- 60 × 60, aufgebaut wie die Pumpe: Kreis in Zustandsfarbe, statt des Dreiecks das Ventilatorzeichen (zwei Linien, die in Förderrichtung zusammenlaufen). Außenring und Linien immer grau `#808080`. Erzeugt mit `tools/ventilator.py`.
+- `Ventilator_{richtung}_{zustand}`: Zustände und Animation wie bei der Pumpe (`_aus`, `_freigabe`, `_an`, `_an_punkte`, `_stoerung`); bei `_an` dreht der weiße Ring, helle Luftpfeile wandern zur engen Seite.
+- `Ventilator_Fluegel_{richtung}_{zustand}`: statt des drehenden Rings ein angedeutetes Lüfterrad (drei helle Flügel), dreht bei `_an`; Luftpfeile und Punkte dunkel.
+- Richtungen `oben`, `rechts`, `unten`, `links` (Förderrichtung, fest gedreht). Mittig auf die Kanalachse setzen.
+
 ## Hydraulik
 
 ### Umschaltventil-Pfeile
@@ -221,16 +228,16 @@ Mit angedeutetem Rollenzählwerk (fünf Rollen, letzte rot).
 
 ### Pumpe
 
-- 40 × 40, Kreis mit Förderpfeil (Dreieck `#4D4D4D`). Erzeugt mit `tools/pumpe.py`.
+- 40 × 40, Kreis mit Förderpfeil (Dreieck). Außenring und Dreieck immer grau `#808080`, nur die Füllung zeigt den Zustand. Erzeugt mit `tools/pumpe.py`.
 - `Pumpe_{richtung}_{zustand}`, Richtungen `oben`, `rechts`, `unten`, `links` (Dreieck fest gedreht, Niagara dreht nicht).
 
 | Zustand | Suffix | Darstellung |
 |---|---|---|
 | aus | `_aus` | grau (`#EDEDED` → `#A6A6A6`) |
-| Freigabe | `_freigabe` | gelb (`#FFEB8F` → `#E3B200`), pulsiert weich (1,4 s) |
+| Freigabe | `_freigabe` | gelb (`#FFEB8F` → `#E3B200`), Füllung pulsiert weich (1,4 s), Ring bleibt fest |
 | Betrieb | `_an` | grün (`#A8DC96` → `#3E9A3A`), drei lange Segmente drehen, Fließpfeile laufen im Dreieck Richtung Spitze |
 | Betrieb, Fließpunkte | `_an_punkte` | wie `_an`, statt der Fließpfeile laufen drei helle Punkte in einer Spur zur Spitze (wie bei `Flusspfeil_*_an`) |
-| Störung | `_stoerung` | rot (`#F5A3A0` → `#D7302B`), pulsiert weich (1,4 s), kleines Warndreieck mit „!“ in der Mitte |
+| Störung | `_stoerung` | rot (`#F5A3A0` → `#D7302B`), Füllung pulsiert weich (1,4 s), kleines Warndreieck mit „!“ in der Mitte |
 
 Animation per SMIL. Ohne Animation bleibt die Zustandsfarbe (und bei Störung das Warndreieck) sichtbar. Zustandswechsel über `image`-Binding (siehe NIAGARA.md).
 
@@ -341,7 +348,7 @@ Umschalten über `image`-Binding mit Konverter (siehe NIAGARA.md).
 
 ### Fun-Pumpen
 
-- `Fun_Pumpe_{oben,rechts,unten,links}_{aus,freigabe,an,stoerung}`: 40 × 40, gleiche Größe, Richtungen und Zustandsfarben wie die Pumpen unter `symbole/hydraulik/pumpen/`, daher per `image`-Binding austauschbar. Pumpensymbol mit derselben Zustandskontur und demselben grauen Förderdreieck wie die normale Pumpe (Effekte kräftig dunkel umrandet `#3B2412`), dazu eine kleine Animation (SMIL).
+- `Fun_Pumpe_{oben,rechts,unten,links}_{aus,freigabe,an,stoerung}`: 40 × 40, gleiche Größe, Richtungen und Zustandsfarben wie die Pumpen unter `symbole/hydraulik/pumpen/`, daher per `image`-Binding austauschbar. Pumpensymbol mit demselben grauen Außenring und grauen Förderdreieck wie die normale Pumpe (Effekte kräftig dunkel umrandet `#3B2412`), dazu eine kleine Animation (SMIL).
 - Das Förderdreieck zeigt in allen Zuständen die Förderrichtung, wie bei den Standard-Pumpen.
 - `_aus`: zwei „z“ steigen auf. `_freigabe`: Funken blinken. `_an`: blaue Wasserblasen wandern über das Dreieck in Förderrichtung (Blasen nur im Betrieb). `_stoerung`: Pumpe wackelt, Dampfwolken steigen auf, Schweißperlen spritzen ab, Warndreieck in der Mitte.
 - Erzeugt mit `tools/fun_pumpe.py` (baut auf `tools/pumpe.py` auf). Ohne Animation bleibt das Symbol mit allen Effekten sichtbar.

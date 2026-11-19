@@ -15,6 +15,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
     bereiche/            Dezente Trennlinien (8 Designs), Bereichsflächen, heller Seitenhintergrund
   lueftung/
     klimageraete/        Klimakonvektor
+    ventilatoren/        Ventilatoren in vier Richtungen und fünf Zuständen, auch mit Lüfterflügel
     luftdurchlaesse/     Deckenluftdurchlass
     volumenstromregler/  Volumenstromregler rund und eckig
     wrg/                 Wärmerückgewinnung (Plattenwärmetauscher)
@@ -59,6 +60,7 @@ tools/
   waermepumpe.py         Erzeugt die Wärmepumpen-Symbole unter symbole/hydraulik/erzeuger/
   gastherme.py           Erzeugt die Gastherme (Vorderansicht und Schnitt) unter symbole/hydraulik/erzeuger/
   klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/
+  ventilator.py          Erzeugt die Ventilatoren unter symbole/lueftung/ventilatoren/ (baut auf pumpe.py auf)
   monatsleiste.py        Erzeugt symbole/fun/navigation/Fun_Monatsleiste.svg (Schrift Chewy als Pfade, fonttools)
   zip_erstellen.py       Packt symbole/ und LICENSE in dist/ga-grafiksymbole.zip (von der Action genutzt)
   freigabe.py            Erzeugt die Freigabe-Anzeigen unter symbole/anzeigen/freigabe/
@@ -98,6 +100,9 @@ Jede Grafik zeigt alle Symbole einer Gruppe mit Dateinamen und Größe. Die Symb
 ![Bereiche](docs/uebersicht/Uebersicht_allgemein_bereiche.svg)
 
 ### Lüftung – `symbole/lueftung`
+
+**Ventilatoren** (`ventilatoren`)
+![Ventilatoren](docs/uebersicht/Uebersicht_lueftung_ventilatoren.svg)
 
 **Klimageräte** (`klimageraete`)
 ![Klimageräte](docs/uebersicht/Uebersicht_lueftung_klimageraete.svg)

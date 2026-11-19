@@ -9,6 +9,7 @@
 - Symbole mit Richtung in allen vier Richtungen.
 - Übergänge zu Rohren und Kanälen passen in Farbe, Breite und Profil.
 - Symbole einer Familie sind gleich groß.
+- Zustandsvarianten (und Lagen bzw. Richtungen, wo möglich) haben exakt dieselben SVG-Abmessungen (`width`, `height`, `viewBox`), und alle festen Teile (Gehäuse, Rohr, Anschlüsse) liegen in jeder Variante an derselben Stelle. Animierte Effekte bleiben innerhalb dieses Rahmens. Sonst springt das Symbol, wenn Niagara per `image`-Binding zwischen den Dateien umschaltet.
 
 ## Ventilstil (Hydraulik)
 

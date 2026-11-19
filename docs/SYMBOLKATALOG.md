@@ -110,7 +110,7 @@ Rotationswärmetauscher: `_aus` Rad steht; `_an` Rad dreht (SMIL), Lamellen lauf
 ### Kanalrauchmelder (`symbole/lueftung/rauchmelder/`)
 
 - `Kanalrauchmelder_<lage>_<zustand>`: hellgraues, quadratisches Gehäuse (30 × 30) mit runder Messkammer in Zustandsfarbe (grauer fester Ring wie bei Pumpe und Ventilator), Messrohr mit Ansauglöchern ragt in den Kanal. Erzeugt mit `tools/kanalrauchmelder.py`.
-- Lage = Seite des Kanals, auf der das Gerät sitzt. `oben`/`unten`: 48 × 50 für waagerechte Kanäle, Rohrende auf der Kanalmitte bei x = 24, y = 50 bzw. y = 0. `links`/`rechts`: 52 × 48 für senkrechte Kanäle, Rohrende bei x = 52 bzw. x = 0, y = 24.
+- Lage = Seite des Kanals, auf der das Gerät sitzt. Alle Dateien 52 × 52, in jedem Zustand und jeder Lage gleich groß; Gehäuse und Rohr liegen je Lage immer an derselben Stelle. `oben`/`unten` für waagerechte Kanäle, Rohrende auf der Kanalmitte bei x = 26, y = 52 bzw. y = 0. `links`/`rechts` für senkrechte Kanäle, Rohrende bei x = 52 bzw. x = 0, y = 26.
 
 | Zustand | Suffix | Darstellung |
 |---|---|---|

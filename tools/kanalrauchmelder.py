@@ -5,8 +5,9 @@ Kanalrauchmelder: hellgraues, quadratisches Gehäuse (30 × 30) mit runder Messk
 Pumpe und Ventilator), Messrohr mit Ansauglöchern ragt in den Kanal. Aufruf: python tools/kanalrauchmelder.py
 
 Lage = Seite des Kanals, auf der das Gerät sitzt:
-  oben, unten    48 × 50 für waagerechte Kanäle; Rohrende (Kanalmitte) unten bei y = 50 bzw. oben bei y = 0, x = 24
-  links, rechts  52 × 48 für senkrechte Kanäle; Rohrende rechts bei x = 52 bzw. links bei x = 0, y = 24
+  alle Dateien 52 × 52 (gleiche Größe für alle Lagen und Zustände)
+  oben, unten    für waagerechte Kanäle; Rohrende (Kanalmitte) unten bei y = 52 bzw. oben bei y = 0, x = 26
+  links, rechts  für senkrechte Kanäle; Rohrende rechts bei x = 52 bzw. links bei x = 0, y = 26
 
 Zustände (Farben aus zustandsfarben.py):
   _normal      grün, alles in Ordnung, statisch
@@ -26,17 +27,20 @@ GRAU = AUS[2]
 FARBEN = {"normal": BETRIEB, "luftstrom": BETRIEB, "wartung": FREIGABE, "alarm": STOERUNG, "stoerung": STOERUNG}
 TITEL = {"normal": "Normal", "luftstrom": "Luftstrom in Ordnung", "wartung": "Wartung", "alarm": "Alarm", "stoerung": "Störung"}
 
-# Geometrie je Lage: Größe, Gehäuse (x, y), Kammermitte, Messrohr (x, y, b, h), Kragen (x, y, b, h),
+# Geometrie je Lage: Gehäuse (x, y), Kammermitte, Messrohr (x, y, b, h), Kragen (x, y, b, h),
 # Ansauglöcher, Luftweg der Punkte (Start, Ende) als (x, y)
+# Alle Lagen und Zustände 52 × 52: Gehäuse, Kammer und Rohr liegen je Lage in jedem Zustand an derselben Stelle,
+# damit beim Umschalten per image-Binding nichts springt.
+W = H = 52
 LAGEN = {
-    "oben":   dict(w=48, h=50, geh=(9, 2), k=(24, 17), rohr=(21, 30, 6, 20), kragen=(12, 30, 24, 3),
-                   loecher=((24, 41), (24, 46)), weg=((24, 48), (24, 32))),
-    "unten":  dict(w=48, h=50, geh=(9, 18), k=(24, 33), rohr=(21, 0, 6, 20), kragen=(12, 17, 24, 3),
-                   loecher=((24, 4), (24, 9)), weg=((24, 2), (24, 18))),
-    "links":  dict(w=52, h=48, geh=(5, 9), k=(20, 24), rohr=(33, 21, 19, 6), kragen=(33, 12, 3, 24),
-                   loecher=((43, 24), (48, 24)), weg=((50, 24), (35, 24))),
-    "rechts": dict(w=52, h=48, geh=(17, 9), k=(32, 24), rohr=(0, 21, 19, 6), kragen=(16, 12, 3, 24),
-                   loecher=((4, 24), (9, 24)), weg=((2, 24), (17, 24))),
+    "oben":   dict(geh=(11, 2), k=(26, 17), rohr=(23, 30, 6, 22), kragen=(14, 30, 24, 3),
+                   loecher=((26, 43), (26, 48)), weg=((26, 50), (26, 32))),
+    "unten":  dict(geh=(11, 20), k=(26, 35), rohr=(23, 0, 6, 22), kragen=(14, 19, 24, 3),
+                   loecher=((26, 4), (26, 9)), weg=((26, 2), (26, 20))),
+    "links":  dict(geh=(5, 11), k=(20, 26), rohr=(33, 23, 19, 6), kragen=(33, 14, 3, 24),
+                   loecher=((43, 26), (48, 26)), weg=((50, 26), (35, 26))),
+    "rechts": dict(geh=(17, 11), k=(32, 26), rohr=(0, 23, 19, 6), kragen=(16, 14, 3, 24),
+                   loecher=((4, 26), (9, 26)), weg=((2, 26), (17, 26))),
 }
 GB = GH = 30   # quadratisches Gehäuse
 R = 11         # Kammerradius
@@ -110,7 +114,7 @@ def svg(lage: str, zustand: str) -> str:
                  'stroke="#FFFFFF" stroke-width="1.4" stroke-linejoin="round"/>'
                  f'<rect x="{cx - 0.8}" y="{cy - 3.5}" width="1.6" height="5.5" rx="0.8" fill="#FFFFFF"/>'
                  f'<circle cx="{cx}" cy="{cy + 3.6}" r="0.9" fill="#FFFFFF"/></g>')
-    w, h = g["w"], g["h"]
+    w, h = W, H
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img">\n'
             f'  <title>Kanalrauchmelder, Gerät {lage} am Kanal, {TITEL[zustand]}</title>\n  ' + "".join(s) + '\n</svg>\n')
 

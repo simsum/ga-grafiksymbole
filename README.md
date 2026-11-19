@@ -17,7 +17,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
     klimageraete/        Klimakonvektor
     luftdurchlaesse/     Deckenluftdurchlass
     volumenstromregler/  Volumenstromregler rund und eckig
-    wrg/                 Wärmerückgewinnung (Plattenwärmetauscher)
+    wrg/                 Wärmerückgewinnung (Plattenwärmetauscher, Rotationswärmetauscher)
     klappen/             Lüftungsklappen (ein und drei Blätter, klein und groß) in fünf Stellungen
   hydraulik/
     armaturen/           Absperrklappe, Energieventil, Endlagen
@@ -59,6 +59,7 @@ tools/
   waermepumpe.py         Erzeugt die Wärmepumpen-Symbole unter symbole/hydraulik/erzeuger/
   gastherme.py           Erzeugt die Gastherme (Vorderansicht und Schnitt) unter symbole/hydraulik/erzeuger/
   klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/
+  wrg_rotation.py        Erzeugt die Rotationswärmetauscher unter symbole/lueftung/wrg/
   monatsleiste.py        Erzeugt symbole/fun/navigation/Fun_Monatsleiste.svg (Schrift Chewy als Pfade, fonttools)
   zip_erstellen.py       Packt symbole/ und LICENSE in dist/ga-grafiksymbole.zip (von der Action genutzt)
   freigabe.py            Erzeugt die Freigabe-Anzeigen unter symbole/anzeigen/freigabe/

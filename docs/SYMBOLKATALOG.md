@@ -21,6 +21,12 @@ Variante `_an` (z. B. `Flusspfeil_rechts_an`), gleiche Größe: drei helle Punkt
 - Position: Schnittpunkt der Rohrachsen im Bild – (17, 7): `rechts_unten`, `oben_links`; (17, 17): `rechts_oben`, `unten_links`; (7, 7): `links_unten`, `oben_rechts`; (7, 17): `links_oben`, `unten_rechts`.
 - Variante `_an` wie bei den geraden Pfeilen: helle Punkte laufen um den Bogen bis in die Spitze (SMIL, 1,4 s).
 
+### Flusspfeile diagonal (45°)
+
+- `Flusspfeil_diagonal_{rechts_oben,rechts_unten,links_unten,links_oben}`: gerader Flusspfeil für diagonale Leitungen, derselbe Pfeil wie `Flusspfeil_rechts`, um 45° gedreht. Richtung = Flussrichtung.
+- 24 × 24, Pfeilmitte im Bildmittelpunkt (12, 12): mit der Mitte auf die Rohrachse setzen (Position: Achspunkt − 12).
+- Variante `_an` wie bei den geraden Pfeilen: helle Punkte laufen in Flussrichtung durch den Pfeil (SMIL, 1,2 s). Erzeugt mit `tools/flusspfeile_diagonal.py`.
+
 ### Trennung / Durchführung (Decke, Wand)
 
 - Schraffiertes Band (zwei Randlinien, Schraffur 45°), 16 px stark, Hintergrund transparent – Leitungen werden darübergelegt.

@@ -18,6 +18,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
     ventilatoren/        Ventilatoren in vier Richtungen und fünf Zuständen, auch mit Lüfterflügel
     filter/              Luftfilter und Taschenfilter, sauber und verschmutzt
     rauchmelder/         Kanalrauchmelder (normal, Luftstrom, Wartung, Alarm, Störung)
+    frostschutz/         Frostschutzwächter mit Kapillarrohr zum Überlegen auf das Heizregister
     luftdurchlaesse/     Deckenluftdurchlass
     volumenstromregler/  Volumenstromregler rund und eckig
     wrg/                 Wärmerückgewinnung (Plattenwärmetauscher, Rotationswärmetauscher)
@@ -66,6 +67,7 @@ tools/
   ventilator.py          Erzeugt die Ventilatoren unter symbole/lueftung/ventilatoren/ (baut auf pumpe.py auf)
   filter.py              Erzeugt die Luftfilter unter symbole/lueftung/filter/
   kanalrauchmelder.py    Erzeugt die Kanalrauchmelder unter symbole/lueftung/rauchmelder/
+  frostschutz.py         Erzeugt die Frostschutzwächter unter symbole/lueftung/frostschutz/
   monatsleiste.py        Erzeugt symbole/fun/navigation/Fun_Monatsleiste.svg (Schrift Chewy als Pfade, fonttools)
   zip_erstellen.py       Packt symbole/ und LICENSE in dist/ga-grafiksymbole.zip (von der Action genutzt)
   freigabe.py            Erzeugt die Freigabe-Anzeigen unter symbole/anzeigen/freigabe/
@@ -114,6 +116,9 @@ Jede Grafik zeigt alle Symbole einer Gruppe mit Dateinamen und Größe. Die Symb
 
 **Kanalrauchmelder** (`rauchmelder`)
 ![Kanalrauchmelder](docs/uebersicht/Uebersicht_lueftung_rauchmelder.svg)
+
+**Frostschutz** (`frostschutz`)
+![Frostschutz](docs/uebersicht/Uebersicht_lueftung_frostschutz.svg)
 
 **Klimageräte** (`klimageraete`)
 ![Klimageräte](docs/uebersicht/Uebersicht_lueftung_klimageraete.svg)

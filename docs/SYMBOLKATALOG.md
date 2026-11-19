@@ -281,7 +281,7 @@ Mit angedeutetem Rollenzählwerk (fünf Rollen, letzte rot).
 - `{Heizkreis,Kaeltekreis}_{plastisch,flach}_{aus,an_punkte,an_verlauf,an_beides}`: Ring 70 × 70, Mitte transparent, graue Konturen innen und außen. Rohre setzen links und rechts auf halber Höhe (y = 35) an und gehören nicht zum Symbol. Alle Varianten gleich groß. Erzeugt mit `tools/heiz_kaeltekreis.py`.
 - Ringfarben aus den Rohr- und Flanschfarben: Heizkreis Rot `#F04F46` (links, Vorlauf) → Blau `#4A86D4` (rechts, Rücklauf); Kältekreis Kälte-Vorlauf `#2E6BC2` → Kälte-Rücklauf `#7CA6DE`.
 - Stil `plastisch` mit hellem Rohrprofil-Streifen und Lichtschimmer, `flach` nur Farbverlauf und Konturen.
-- `_aus`: nicht aktiv, statisch. `_an_punkte`: drei helle Punkte kreisen ruhig (9 s). `_an_verlauf`: der Farbverlauf dreht sich langsam um den Ring (12 s). `_an_beides`: beides zusammen.
+- `_aus`: nicht aktiv, statisch. `_an_punkte`: drei helle Punkte kreisen ruhig (18 s). `_an_verlauf`: der Farbverlauf dreht sich langsam um den Ring (24 s). `_an_beides`: beides zusammen.
 - Hinweis: `_an_verlauf` und `_an_beides` animieren `gradientTransform`; in Niagara noch nicht geprüft.
 
 ### Pumpe

@@ -35,6 +35,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
     punkte/              Dezent blinkende Punkte
     betriebsart/         Betriebsart Normal/Leise
     freigabe/            Freigabe / keine Freigabe, 24 × 24, fünf Varianten
+    alarm/               Brandalarm (normal, Alarm)
   fun/                   Verspielte Cartoon-Symbole, animiert, Gruppen wie in der Hauptstruktur
     anzeigen/            Außentemperatur, -feuchte, CO₂
     hydraulik/pumpen/    Fun-Pumpen
@@ -71,6 +72,7 @@ tools/
   monatsleiste.py        Erzeugt symbole/fun/navigation/Fun_Monatsleiste.svg (Schrift Chewy als Pfade, fonttools)
   zip_erstellen.py       Packt symbole/ und LICENSE in dist/ga-grafiksymbole.zip (von der Action genutzt)
   freigabe.py            Erzeugt die Freigabe-Anzeigen unter symbole/anzeigen/freigabe/
+  brandalarm.py          Erzeugt die Brandalarm-Anzeige unter symbole/anzeigen/alarm/
   zustandsfarben.py      Einheitliche Zustandsfarben (aus, Freigabe, Betrieb, Störung) für alle Erzeuger
   fun_waermepumpe.py     Erzeugt die Fun-Wärmepumpe unter symbole/fun/hydraulik/erzeuger/ (baut auf waermepumpe.py auf)
   fun_gastherme.py       Erzeugt die Fun-Gastherme unter symbole/fun/hydraulik/erzeuger/ (baut auf gastherme.py auf)
@@ -169,6 +171,9 @@ Jede Grafik zeigt alle Symbole einer Gruppe mit Dateinamen und Größe. Die Symb
 
 **Freigabe** (`freigabe`)
 ![Freigabe](docs/uebersicht/Uebersicht_anzeigen_freigabe.svg)
+
+**Alarm** (`alarm`)
+![Alarm](docs/uebersicht/Uebersicht_anzeigen_alarm.svg)
 
 ### Fun – `symbole/fun`
 

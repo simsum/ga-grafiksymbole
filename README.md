@@ -46,6 +46,8 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
     hydraulik/anschluesse/  Fun-Flansche, undicht (tropfen)
     hydraulik/erzeuger/  Fun-Wärmepumpe mit Gesicht im Lüfter (aus, Betrieb, Störung, Abtauen), Fun-Gastherme
     navigation/          Navigationsbuttons 280 × 72 (normal/aktiv), Monatsleiste
+  bedienung/
+    tableau/             Tasten (Dimmen, Jalousie, Licht, Multimedia, leer) und Wertfeld für Bedientableaus
   topologie/
     automation/          Controller, I/O-Module, GLT-Leitrechner
     netzwerk/            Ethernet-Switches
@@ -210,6 +212,11 @@ Jede Grafik zeigt alle Symbole einer Gruppe mit Dateinamen und Größe. Die Symb
 
 **Navigation** (`navigation`)
 ![Fun-Navigation](docs/uebersicht/Uebersicht_fun_navigation.svg)
+
+### Bedienung – `symbole/bedienung`
+
+**Tableau** (`tableau`)
+![Tableau](docs/uebersicht/Uebersicht_bedienung_tableau.svg)
 
 ### Topologie – `symbole/topologie`
 

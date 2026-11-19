@@ -11,7 +11,7 @@ Unter (bzw. neben) dem Rohr eine runde Plakette mit dem Medium. Aufruf: python t
   _aus         steht, statisch
 
 Medien: Waermemengenzaehler (rote Flamme), Kaeltemengenzaehler (blaue Schneeflocke), Wasserzaehler (blauer Tropfen),
-Gaszaehler (blaue Gasflamme).
+Gaszaehler (gelbe Flamme, wie der Gasflansch).
 """
 from pathlib import Path
 
@@ -38,7 +38,8 @@ MEDIEN = {  # Dateiname, Titel, Piktogramm um (0, 0), Maßstab
     "wasser": ("Wasserzaehler", "Wasserzähler",
                '<path d="M0,-9 C3.6,-3.6 6,-0.6 6,2.4 a6,6 0 0 1 -12,0 C-6,-0.6 -3.6,-3.6 0,-9 Z" fill="#4A86D4" '
                'stroke="#2E6BC2" stroke-width="1"/>', 0.9),
-    "gas": ("Gaszaehler", "Gaszähler", FLAMME.format(a="#2F7FD8", i="#9AD8FF"), 0.55),
+    "gas": ("Gaszaehler", "Gaszähler", FLAMME.format(a="#F2C230", i="#FFF1A8").replace(
+        'fill="#F2C230"/>', 'fill="#F2C230" stroke="#A88400" stroke-width="1.2" stroke-linejoin="round"/>'), 0.55),
 }
 
 

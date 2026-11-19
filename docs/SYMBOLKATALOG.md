@@ -77,6 +77,24 @@ Zum optischen Gliedern einer Px-Seite, z. B. Bereich Wärmepumpe | Bereich Puffe
 
 - Erzeugt mit `tools/bereiche.py`.
 
+### Kopfzeilen (`symbole/allgemein/kopfzeilen/`)
+
+Hintergründe für die Kopfzeile einer Px-Seite, 1600 × 90, ohne Schrift. Texte, Werte und die Beschriftung der Legende-Taste kommen als Niagara-Labels darüber, die (transparenten) Logos auf die Logo-Felder. Die Außenwerte sind eigene Felder (`Kopfzeilenwert_…`), damit nur die vorhandenen Werte angelegt werden. Erzeugt mit `tools/kopfzeilen.py`.
+
+| Kopfzeile | Logo-Felder (x, y, B, H) | Label-Bereiche (Vorschlag) | Legende-Taste |
+|---|---|---|---|
+| `Kopfzeile_hell` | Kunde 20, 15, 160, 58; Firma 1405, 9, 175, 46 | Kunde/Standort 200, 14, 540 × 30; Wertfelder ab x = 200, y = 52, Abstand 132; Trennstrich x = 750; Anlage 770, 16, 620 × 30; Unterzeile 770, 48, 620 × 22 | 1500, 61, 80 × 20 |
+| `Kopfzeile_dunkel` | Kunde 20, 15, 160, 58; Firma 1320, 15, 175, 58 | Kunde klein 200, 12, 660 × 16; Anlage 200, 28, 660 × 30; Unterzeile 200, 58, 660 × 20; Wertfelder y = 15, rechtsbündig bis x = 1310, Abstand 104 | 1505, 32, 75 × 24 |
+| `Kopfzeile_zweizeilig` | Kunde 20, 31, 160, 50; Firma 1320, 31, 175, 50 | Statuszeile y = 0 … 24 (Wertfelder y = 2, rechtsbündig bis x = 1580, Abstand 140); Kunde › Anlage 200, 32, 1100 × 28; Unterzeile 200, 60, 1100 × 20 | 1505, 44, 75 × 24 |
+
+| Wertfeld | Größe | Label |
+|---|---|---|
+| `Kopfzeilenwert_{Temperatur,Feuchte,Luftdruck,CO2}_hell` | 124 × 22, weißer Chip mit Symbol links | Wert x = 24 … 120 |
+| `Kopfzeilenwert_…_dunkel` | 100 × 58, dunkle Kachel, Symbol oben links | Bezeichnung y = 5 … 21 (ab x = 22), Wert y = 25 … 51 |
+| `Kopfzeilenwert_…_zweizeilig` | 130 × 20, transparent, Symbol links | Bezeichnung und Wert ab x = 14 |
+
+Symbole: Thermometer (Temperatur), blauer Tropfen (Feuchte), Druckanzeige (Luftdruck), zwei Blasen (CO₂).
+
 ## Lüftung
 
 | Symbol | Größe | Hinweise |

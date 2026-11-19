@@ -1,0 +1,680 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="4410" viewBox="0 0 1560 4410">
+<title>symbole/bedienung/tableau: 57 Symbole</title>
+<style>text{font-family:Segoe UI, Arial, Helvetica, sans-serif}.name{font-size:15px;font-weight:700;fill:#20242A;text-anchor:middle}.mass{font-size:12px;fill:#69727A;text-anchor:middle}</style>
+<rect width="1560" height="4410" fill="#F4F5F7"/>
+<text x="20" y="42" font-size="26" font-weight="700" fill="#30343A">symbole/bedienung/tableau</text>
+<text x="1540" y="42" font-size="16" fill="#69727A" text-anchor="end">57 Symbole</text>
+<g id="Taste_Dimmen100_klein_gedrueckt">
+<rect x="19" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="108" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k0_title">Taste Dimmen 100 % (gedrückt)</title>
+  <defs><linearGradient id="k0_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k0_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="70.4" rx="10" fill="url(#k0_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="88" y="10" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,16) scale(0.44)"><rect x="13" y="64" width="11" height="22" rx="2.5" fill="#2E2E2E"/><rect x="29" y="50" width="11" height="36" rx="2.5" fill="#2E2E2E"/><rect x="45" y="36" width="11" height="50" rx="2.5" fill="#2E2E2E"/><rect x="61" y="22" width="11" height="64" rx="2.5" fill="#2E2E2E"/><rect x="77" y="8" width="11" height="78" rx="2.5" fill="#2E2E2E"/></g>
+</svg>
+<text x="202.5" y="287" class="name">Taste_Dimmen100</text>
+<text x="202.5" y="305" class="name">klein_gedrueckt</text>
+<text x="202.5" y="326" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Dimmen100_klein_gedrueckt_beschriftet">
+<rect x="399" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="442.5" y="108" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k1_title">Taste Dimmen 100 % (gedrückt, beschriftet)</title>
+  <defs><linearGradient id="k1_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k1_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="70.4" rx="10" fill="url(#k1_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="88" y="10" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,16) scale(0.44)"><rect x="13" y="64" width="11" height="22" rx="2.5" fill="#2E2E2E"/><rect x="29" y="50" width="11" height="36" rx="2.5" fill="#2E2E2E"/><rect x="45" y="36" width="11" height="50" rx="2.5" fill="#2E2E2E"/><rect x="61" y="22" width="11" height="64" rx="2.5" fill="#2E2E2E"/><rect x="77" y="8" width="11" height="78" rx="2.5" fill="#2E2E2E"/></g><path d="M13.26 44.88V42.84H16.67V33.45L13.37 35.51V33.36L16.81 31.12H19.41V42.84H22.57V44.88ZM33.43 38Q33.43 41.48 32.23 43.28Q31.03 45.08 28.64 45.08Q23.91 45.08 23.91 38Q23.91 35.52 24.43 33.96Q24.95 32.4 25.98 31.66Q27.02 30.92 28.72 30.92Q31.16 30.92 32.29 32.68Q33.43 34.45 33.43 38ZM30.67 38Q30.67 36.09 30.49 35.04Q30.3 33.98 29.89 33.52Q29.48 33.06 28.7 33.06Q27.87 33.06 27.44 33.53Q27.02 33.99 26.84 35.04Q26.66 36.09 26.66 38Q26.66 39.88 26.85 40.94Q27.04 42 27.45 42.46Q27.87 42.92 28.66 42.92Q29.44 42.92 29.87 42.43Q30.29 41.95 30.48 40.89Q30.67 39.82 30.67 38ZM44.55 38Q44.55 41.48 43.35 43.28Q42.16 45.08 39.76 45.08Q35.04 45.08 35.04 38Q35.04 35.52 35.55 33.96Q36.07 32.4 37.11 31.66Q38.14 30.92 39.84 30.92Q42.28 30.92 43.42 32.68Q44.55 34.45 44.55 38ZM41.79 38Q41.79 36.09 41.61 35.04Q41.42 33.98 41.01 33.52Q40.6 33.06 39.82 33.06Q38.99 33.06 38.57 33.53Q38.14 33.99 37.96 35.04Q37.78 36.09 37.78 38Q37.78 39.88 37.97 40.94Q38.16 42 38.58 42.46Q38.99 42.92 39.78 42.92Q40.56 42.92 40.99 42.43Q41.41 41.95 41.6 40.89Q41.79 39.82 41.79 38ZM68.18 40.66Q68.18 42.79 67.3 43.91Q66.42 45.04 64.72 45.04Q63.01 45.04 62.14 43.92Q61.27 42.81 61.27 40.66Q61.27 38.47 62.11 37.38Q62.95 36.28 64.76 36.28Q66.52 36.28 67.35 37.38Q68.18 38.49 68.18 40.66ZM56.32 44.88H54.3L63.29 31.12H65.33ZM54.91 30.96Q56.66 30.96 57.5 32.07Q58.35 33.17 58.35 35.34Q58.35 37.47 57.46 38.6Q56.58 39.72 54.86 39.72Q53.16 39.72 52.29 38.61Q51.42 37.49 51.42 35.34Q51.42 33.12 52.26 32.04Q53.1 30.96 54.91 30.96ZM66.08 40.66Q66.08 39.11 65.78 38.44Q65.49 37.78 64.76 37.78Q63.98 37.78 63.68 38.45Q63.39 39.13 63.39 40.66Q63.39 42.22 63.7 42.86Q64.01 43.5 64.74 43.5Q65.46 43.5 65.77 42.84Q66.08 42.17 66.08 40.66ZM56.23 35.34Q56.23 33.81 55.93 33.14Q55.63 32.48 54.91 32.48Q54.13 32.48 53.83 33.14Q53.52 33.8 53.52 35.34Q53.52 36.88 53.84 37.54Q54.16 38.2 54.89 38.2Q55.61 38.2 55.92 37.54Q56.23 36.87 56.23 35.34Z" fill="#1A1A1A"/>
+</svg>
+<text x="582.5" y="287" class="name">Taste_Dimmen100_klein</text>
+<text x="582.5" y="305" class="name">gedrueckt_beschriftet</text>
+<text x="582.5" y="326" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Dimmen100_klein_normal">
+<rect x="779" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="108" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k2_title">Taste Dimmen 100 % (normal)</title>
+  <defs><linearGradient id="k2_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k2_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="70.4" rx="10" fill="url(#k2_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="88" y="8" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,14) scale(0.44)"><rect x="13" y="64" width="11" height="22" rx="2.5" fill="#4D4D4D"/><rect x="29" y="50" width="11" height="36" rx="2.5" fill="#4D4D4D"/><rect x="45" y="36" width="11" height="50" rx="2.5" fill="#4D4D4D"/><rect x="61" y="22" width="11" height="64" rx="2.5" fill="#4D4D4D"/><rect x="77" y="8" width="11" height="78" rx="2.5" fill="#4D4D4D"/></g>
+</svg>
+<text x="962.5" y="287" class="name">Taste_Dimmen100</text>
+<text x="962.5" y="305" class="name">klein_normal</text>
+<text x="962.5" y="326" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Dimmen100_klein_normal_beschriftet">
+<rect x="1159" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1202.5" y="108" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k3_title">Taste Dimmen 100 % (normal, beschriftet)</title>
+  <defs><linearGradient id="k3_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k3_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="70.4" rx="10" fill="url(#k3_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="88" y="8" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,14) scale(0.44)"><rect x="13" y="64" width="11" height="22" rx="2.5" fill="#4D4D4D"/><rect x="29" y="50" width="11" height="36" rx="2.5" fill="#4D4D4D"/><rect x="45" y="36" width="11" height="50" rx="2.5" fill="#4D4D4D"/><rect x="61" y="22" width="11" height="64" rx="2.5" fill="#4D4D4D"/><rect x="77" y="8" width="11" height="78" rx="2.5" fill="#4D4D4D"/></g><path d="M13.26 42.88V40.84H16.67V31.45L13.37 33.51V31.36L16.81 29.12H19.41V40.84H22.57V42.88ZM33.43 36Q33.43 39.48 32.23 41.28Q31.03 43.08 28.64 43.08Q23.91 43.08 23.91 36Q23.91 33.52 24.43 31.96Q24.95 30.4 25.98 29.66Q27.02 28.92 28.72 28.92Q31.16 28.92 32.29 30.68Q33.43 32.45 33.43 36ZM30.67 36Q30.67 34.09 30.49 33.04Q30.3 31.98 29.89 31.52Q29.48 31.06 28.7 31.06Q27.87 31.06 27.44 31.53Q27.02 31.99 26.84 33.04Q26.66 34.09 26.66 36Q26.66 37.88 26.85 38.94Q27.04 40 27.45 40.46Q27.87 40.92 28.66 40.92Q29.44 40.92 29.87 40.43Q30.29 39.95 30.48 38.89Q30.67 37.82 30.67 36ZM44.55 36Q44.55 39.48 43.35 41.28Q42.16 43.08 39.76 43.08Q35.04 43.08 35.04 36Q35.04 33.52 35.55 31.96Q36.07 30.4 37.11 29.66Q38.14 28.92 39.84 28.92Q42.28 28.92 43.42 30.68Q44.55 32.45 44.55 36ZM41.79 36Q41.79 34.09 41.61 33.04Q41.42 31.98 41.01 31.52Q40.6 31.06 39.82 31.06Q38.99 31.06 38.57 31.53Q38.14 31.99 37.96 33.04Q37.78 34.09 37.78 36Q37.78 37.88 37.97 38.94Q38.16 40 38.58 40.46Q38.99 40.92 39.78 40.92Q40.56 40.92 40.99 40.43Q41.41 39.95 41.6 38.89Q41.79 37.82 41.79 36ZM68.18 38.66Q68.18 40.79 67.3 41.91Q66.42 43.04 64.72 43.04Q63.01 43.04 62.14 41.92Q61.27 40.81 61.27 38.66Q61.27 36.47 62.11 35.38Q62.95 34.28 64.76 34.28Q66.52 34.28 67.35 35.38Q68.18 36.49 68.18 38.66ZM56.32 42.88H54.3L63.29 29.12H65.33ZM54.91 28.96Q56.66 28.96 57.5 30.07Q58.35 31.17 58.35 33.34Q58.35 35.47 57.46 36.6Q56.58 37.72 54.86 37.72Q53.16 37.72 52.29 36.61Q51.42 35.49 51.42 33.34Q51.42 31.12 52.26 30.04Q53.1 28.96 54.91 28.96ZM66.08 38.66Q66.08 37.11 65.78 36.44Q65.49 35.78 64.76 35.78Q63.98 35.78 63.68 36.45Q63.39 37.13 63.39 38.66Q63.39 40.22 63.7 40.86Q64.01 41.5 64.74 41.5Q65.46 41.5 65.77 40.84Q66.08 40.17 66.08 38.66ZM56.23 33.34Q56.23 31.81 55.93 31.14Q55.63 30.48 54.91 30.48Q54.13 30.48 53.83 31.14Q53.52 31.8 53.52 33.34Q53.52 34.88 53.84 35.54Q54.16 36.2 54.89 36.2Q55.61 36.2 55.92 35.54Q56.23 34.87 56.23 33.34Z" fill="#2E2E2E"/>
+</svg>
+<text x="1342.5" y="287" class="name">Taste_Dimmen100_klein</text>
+<text x="1342.5" y="305" class="name">normal_beschriftet</text>
+<text x="1342.5" y="326" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Dimmen20_klein_gedrueckt">
+<rect x="19" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="396" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k4_title">Taste Dimmen 20 % (gedrückt)</title>
+  <defs><linearGradient id="k4_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k4_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="70.4" rx="10" fill="url(#k4_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="88" y="10" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,16) scale(0.44)"><rect x="13" y="64" width="11" height="22" rx="2.5" fill="#2E2E2E"/><rect x="29" y="50" width="11" height="36" rx="2.5" fill="#E0E0E0"/><rect x="45" y="36" width="11" height="50" rx="2.5" fill="#E0E0E0"/><rect x="61" y="22" width="11" height="64" rx="2.5" fill="#E0E0E0"/><rect x="77" y="8" width="11" height="78" rx="2.5" fill="#E0E0E0"/></g>
+</svg>
+<text x="202.5" y="575" class="name">Taste_Dimmen20</text>
+<text x="202.5" y="593" class="name">klein_gedrueckt</text>
+<text x="202.5" y="614" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Dimmen20_klein_gedrueckt_beschriftet">
+<rect x="399" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="442.5" y="396" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k5_title">Taste Dimmen 20 % (gedrückt, beschriftet)</title>
+  <defs><linearGradient id="k5_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k5_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="70.4" rx="10" fill="url(#k5_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="88" y="10" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,16) scale(0.44)"><rect x="13" y="64" width="11" height="22" rx="2.5" fill="#2E2E2E"/><rect x="29" y="50" width="11" height="36" rx="2.5" fill="#E0E0E0"/><rect x="45" y="36" width="11" height="50" rx="2.5" fill="#E0E0E0"/><rect x="61" y="22" width="11" height="64" rx="2.5" fill="#E0E0E0"/><rect x="77" y="8" width="11" height="78" rx="2.5" fill="#E0E0E0"/></g><path d="M12.69 44.88V42.98Q13.23 41.79 14.22 40.67Q15.21 39.55 16.72 38.33Q18.16 37.16 18.74 36.39Q19.32 35.63 19.32 34.9Q19.32 33.1 17.52 33.1Q16.64 33.1 16.17 33.58Q15.71 34.05 15.57 35L12.81 34.84Q13.04 32.93 14.24 31.92Q15.44 30.92 17.5 30.92Q19.72 30.92 20.92 31.93Q22.11 32.95 22.11 34.78Q22.11 35.75 21.73 36.53Q21.35 37.31 20.75 37.97Q20.15 38.63 19.43 39.21Q18.7 39.78 18.02 40.33Q17.33 40.88 16.77 41.43Q16.21 41.99 15.94 42.62H22.32V44.88ZM33.43 38Q33.43 41.48 32.23 43.28Q31.03 45.08 28.64 45.08Q23.91 45.08 23.91 38Q23.91 35.52 24.43 33.96Q24.95 32.4 25.98 31.66Q27.02 30.92 28.72 30.92Q31.16 30.92 32.29 32.68Q33.43 34.45 33.43 38ZM30.67 38Q30.67 36.09 30.49 35.04Q30.3 33.98 29.89 33.52Q29.48 33.06 28.7 33.06Q27.87 33.06 27.44 33.53Q27.02 33.99 26.84 35.04Q26.66 36.09 26.66 38Q26.66 39.88 26.85 40.94Q27.04 42 27.45 42.46Q27.87 42.92 28.66 42.92Q29.44 42.92 29.87 42.43Q30.29 41.95 30.48 40.89Q30.67 39.82 30.67 38ZM57.06 40.66Q57.06 42.79 56.18 43.91Q55.3 45.04 53.6 45.04Q51.88 45.04 51.01 43.92Q50.14 42.81 50.14 40.66Q50.14 38.47 50.98 37.38Q51.82 36.28 53.64 36.28Q55.4 36.28 56.23 37.38Q57.06 38.49 57.06 40.66ZM45.19 44.88H43.18L52.17 31.12H54.21ZM43.79 30.96Q45.54 30.96 46.38 32.07Q47.22 33.17 47.22 35.34Q47.22 37.47 46.34 38.6Q45.46 39.72 43.74 39.72Q42.04 39.72 41.17 38.61Q40.3 37.49 40.3 35.34Q40.3 33.12 41.14 32.04Q41.98 30.96 43.79 30.96ZM54.96 40.66Q54.96 39.11 54.66 38.44Q54.36 37.78 53.64 37.78Q52.86 37.78 52.56 38.45Q52.26 39.13 52.26 40.66Q52.26 42.22 52.58 42.86Q52.89 43.5 53.62 43.5Q54.33 43.5 54.65 42.84Q54.96 42.17 54.96 40.66ZM45.11 35.34Q45.11 33.81 44.81 33.14Q44.51 32.48 43.79 32.48Q43.01 32.48 42.7 33.14Q42.4 33.8 42.4 35.34Q42.4 36.88 42.72 37.54Q43.04 38.2 43.77 38.2Q44.49 38.2 44.8 37.54Q45.11 36.87 45.11 35.34Z" fill="#1A1A1A"/>
+</svg>
+<text x="582.5" y="575" class="name">Taste_Dimmen20_klein</text>
+<text x="582.5" y="593" class="name">gedrueckt_beschriftet</text>
+<text x="582.5" y="614" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Dimmen20_klein_normal">
+<rect x="779" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="396" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k6_title">Taste Dimmen 20 % (normal)</title>
+  <defs><linearGradient id="k6_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k6_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="70.4" rx="10" fill="url(#k6_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="88" y="8" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,14) scale(0.44)"><rect x="13" y="64" width="11" height="22" rx="2.5" fill="#4D4D4D"/><rect x="29" y="50" width="11" height="36" rx="2.5" fill="#C4C4C4"/><rect x="45" y="36" width="11" height="50" rx="2.5" fill="#C4C4C4"/><rect x="61" y="22" width="11" height="64" rx="2.5" fill="#C4C4C4"/><rect x="77" y="8" width="11" height="78" rx="2.5" fill="#C4C4C4"/></g>
+</svg>
+<text x="962.5" y="575" class="name">Taste_Dimmen20_klein_normal</text>
+<text x="962.5" y="596" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Dimmen20_klein_normal_beschriftet">
+<rect x="1159" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1202.5" y="396" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k7_title">Taste Dimmen 20 % (normal, beschriftet)</title>
+  <defs><linearGradient id="k7_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k7_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="70.4" rx="10" fill="url(#k7_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="88" y="8" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,14) scale(0.44)"><rect x="13" y="64" width="11" height="22" rx="2.5" fill="#4D4D4D"/><rect x="29" y="50" width="11" height="36" rx="2.5" fill="#C4C4C4"/><rect x="45" y="36" width="11" height="50" rx="2.5" fill="#C4C4C4"/><rect x="61" y="22" width="11" height="64" rx="2.5" fill="#C4C4C4"/><rect x="77" y="8" width="11" height="78" rx="2.5" fill="#C4C4C4"/></g><path d="M12.69 42.88V40.98Q13.23 39.79 14.22 38.67Q15.21 37.55 16.72 36.33Q18.16 35.16 18.74 34.39Q19.32 33.63 19.32 32.9Q19.32 31.1 17.52 31.1Q16.64 31.1 16.17 31.58Q15.71 32.05 15.57 33L12.81 32.84Q13.04 30.93 14.24 29.92Q15.44 28.92 17.5 28.92Q19.72 28.92 20.92 29.93Q22.11 30.95 22.11 32.78Q22.11 33.75 21.73 34.53Q21.35 35.31 20.75 35.97Q20.15 36.63 19.43 37.21Q18.7 37.78 18.02 38.33Q17.33 38.88 16.77 39.43Q16.21 39.99 15.94 40.62H22.32V42.88ZM33.43 36Q33.43 39.48 32.23 41.28Q31.03 43.08 28.64 43.08Q23.91 43.08 23.91 36Q23.91 33.52 24.43 31.96Q24.95 30.4 25.98 29.66Q27.02 28.92 28.72 28.92Q31.16 28.92 32.29 30.68Q33.43 32.45 33.43 36ZM30.67 36Q30.67 34.09 30.49 33.04Q30.3 31.98 29.89 31.52Q29.48 31.06 28.7 31.06Q27.87 31.06 27.44 31.53Q27.02 31.99 26.84 33.04Q26.66 34.09 26.66 36Q26.66 37.88 26.85 38.94Q27.04 40 27.45 40.46Q27.87 40.92 28.66 40.92Q29.44 40.92 29.87 40.43Q30.29 39.95 30.48 38.89Q30.67 37.82 30.67 36ZM57.06 38.66Q57.06 40.79 56.18 41.91Q55.3 43.04 53.6 43.04Q51.88 43.04 51.01 41.92Q50.14 40.81 50.14 38.66Q50.14 36.47 50.98 35.38Q51.82 34.28 53.64 34.28Q55.4 34.28 56.23 35.38Q57.06 36.49 57.06 38.66ZM45.19 42.88H43.18L52.17 29.12H54.21ZM43.79 28.96Q45.54 28.96 46.38 30.07Q47.22 31.17 47.22 33.34Q47.22 35.47 46.34 36.6Q45.46 37.72 43.74 37.72Q42.04 37.72 41.17 36.61Q40.3 35.49 40.3 33.34Q40.3 31.12 41.14 30.04Q41.98 28.96 43.79 28.96ZM54.96 38.66Q54.96 37.11 54.66 36.44Q54.36 35.78 53.64 35.78Q52.86 35.78 52.56 36.45Q52.26 37.13 52.26 38.66Q52.26 40.22 52.58 40.86Q52.89 41.5 53.62 41.5Q54.33 41.5 54.65 40.84Q54.96 40.17 54.96 38.66ZM45.11 33.34Q45.11 31.81 44.81 31.14Q44.51 30.48 43.79 30.48Q43.01 30.48 42.7 31.14Q42.4 31.8 42.4 33.34Q42.4 34.88 42.72 35.54Q43.04 36.2 43.77 36.2Q44.49 36.2 44.8 35.54Q45.11 34.87 45.11 33.34Z" fill="#2E2E2E"/>
+</svg>
+<text x="1342.5" y="575" class="name">Taste_Dimmen20_klein</text>
+<text x="1342.5" y="593" class="name">normal_beschriftet</text>
+<text x="1342.5" y="614" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Dimmen40_klein_gedrueckt">
+<rect x="19" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="684" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k8_title">Taste Dimmen 40 % (gedrückt)</title>
+  <defs><linearGradient id="k8_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k8_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="70.4" rx="10" fill="url(#k8_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="88" y="10" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,16) scale(0.44)"><rect x="13" y="64" width="11" height="22" rx="2.5" fill="#2E2E2E"/><rect x="29" y="50" width="11" height="36" rx="2.5" fill="#2E2E2E"/><rect x="45" y="36" width="11" height="50" rx="2.5" fill="#E0E0E0"/><rect x="61" y="22" width="11" height="64" rx="2.5" fill="#E0E0E0"/><rect x="77" y="8" width="11" height="78" rx="2.5" fill="#E0E0E0"/></g>
+</svg>
+<text x="202.5" y="863" class="name">Taste_Dimmen40</text>
+<text x="202.5" y="881" class="name">klein_gedrueckt</text>
+<text x="202.5" y="902" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Dimmen40_klein_gedrueckt_beschriftet">
+<rect x="399" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="442.5" y="684" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k9_title">Taste Dimmen 40 % (gedrückt, beschriftet)</title>
+  <defs><linearGradient id="k9_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k9_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="70.4" rx="10" fill="url(#k9_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="88" y="10" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,16) scale(0.44)"><rect x="13" y="64" width="11" height="22" rx="2.5" fill="#2E2E2E"/><rect x="29" y="50" width="11" height="36" rx="2.5" fill="#2E2E2E"/><rect x="45" y="36" width="11" height="50" rx="2.5" fill="#E0E0E0"/><rect x="61" y="22" width="11" height="64" rx="2.5" fill="#E0E0E0"/><rect x="77" y="8" width="11" height="78" rx="2.5" fill="#E0E0E0"/></g><path d="M21.18 42.08V44.88H18.56V42.08H12.3V40.02L18.11 31.12H21.18V40.04H23.02V42.08ZM18.56 35.53Q18.56 35.01 18.6 34.39Q18.63 33.78 18.65 33.6Q18.4 34.15 17.73 35.18L14.54 40.04H18.56ZM33.43 38Q33.43 41.48 32.23 43.28Q31.03 45.08 28.64 45.08Q23.91 45.08 23.91 38Q23.91 35.52 24.43 33.96Q24.95 32.4 25.98 31.66Q27.02 30.92 28.72 30.92Q31.16 30.92 32.29 32.68Q33.43 34.45 33.43 38ZM30.67 38Q30.67 36.09 30.49 35.04Q30.3 33.98 29.89 33.52Q29.48 33.06 28.7 33.06Q27.87 33.06 27.44 33.53Q27.02 33.99 26.84 35.04Q26.66 36.09 26.66 38Q26.66 39.88 26.85 40.94Q27.04 42 27.45 42.46Q27.87 42.92 28.66 42.92Q29.44 42.92 29.87 42.43Q30.29 41.95 30.48 40.89Q30.67 39.82 30.67 38ZM57.06 40.66Q57.06 42.79 56.18 43.91Q55.3 45.04 53.6 45.04Q51.88 45.04 51.01 43.92Q50.14 42.81 50.14 40.66Q50.14 38.47 50.98 37.38Q51.82 36.28 53.64 36.28Q55.4 36.28 56.23 37.38Q57.06 38.49 57.06 40.66ZM45.19 44.88H43.18L52.17 31.12H54.21ZM43.79 30.96Q45.54 30.96 46.38 32.07Q47.22 33.17 47.22 35.34Q47.22 37.47 46.34 38.6Q45.46 39.72 43.74 39.72Q42.04 39.72 41.17 38.61Q40.3 37.49 40.3 35.34Q40.3 33.12 41.14 32.04Q41.98 30.96 43.79 30.96ZM54.96 40.66Q54.96 39.11 54.66 38.44Q54.36 37.78 53.64 37.78Q52.86 37.78 52.56 38.45Q52.26 39.13 52.26 40.66Q52.26 42.22 52.58 42.86Q52.89 43.5 53.62 43.5Q54.33 43.5 54.65 42.84Q54.96 42.17 54.96 40.66ZM45.11 35.34Q45.11 33.81 44.81 33.14Q44.51 32.48 43.79 32.48Q43.01 32.48 42.7 33.14Q42.4 33.8 42.4 35.34Q42.4 36.88 42.72 37.54Q43.04 38.2 43.77 38.2Q44.49 38.2 44.8 37.54Q45.11 36.87 45.11 35.34Z" fill="#1A1A1A"/>
+</svg>
+<text x="582.5" y="863" class="name">Taste_Dimmen40_klein</text>
+<text x="582.5" y="881" class="name">gedrueckt_beschriftet</text>
+<text x="582.5" y="902" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Dimmen40_klein_normal">
+<rect x="779" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="684" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k10_title">Taste Dimmen 40 % (normal)</title>
+  <defs><linearGradient id="k10_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k10_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="70.4" rx="10" fill="url(#k10_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="88" y="8" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,14) scale(0.44)"><rect x="13" y="64" width="11" height="22" rx="2.5" fill="#4D4D4D"/><rect x="29" y="50" width="11" height="36" rx="2.5" fill="#4D4D4D"/><rect x="45" y="36" width="11" height="50" rx="2.5" fill="#C4C4C4"/><rect x="61" y="22" width="11" height="64" rx="2.5" fill="#C4C4C4"/><rect x="77" y="8" width="11" height="78" rx="2.5" fill="#C4C4C4"/></g>
+</svg>
+<text x="962.5" y="863" class="name">Taste_Dimmen40_klein_normal</text>
+<text x="962.5" y="884" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Dimmen40_klein_normal_beschriftet">
+<rect x="1159" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1202.5" y="684" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k11_title">Taste Dimmen 40 % (normal, beschriftet)</title>
+  <defs><linearGradient id="k11_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k11_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="70.4" rx="10" fill="url(#k11_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="88" y="8" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,14) scale(0.44)"><rect x="13" y="64" width="11" height="22" rx="2.5" fill="#4D4D4D"/><rect x="29" y="50" width="11" height="36" rx="2.5" fill="#4D4D4D"/><rect x="45" y="36" width="11" height="50" rx="2.5" fill="#C4C4C4"/><rect x="61" y="22" width="11" height="64" rx="2.5" fill="#C4C4C4"/><rect x="77" y="8" width="11" height="78" rx="2.5" fill="#C4C4C4"/></g><path d="M21.18 40.08V42.88H18.56V40.08H12.3V38.02L18.11 29.12H21.18V38.04H23.02V40.08ZM18.56 33.53Q18.56 33.01 18.6 32.39Q18.63 31.78 18.65 31.6Q18.4 32.15 17.73 33.18L14.54 38.04H18.56ZM33.43 36Q33.43 39.48 32.23 41.28Q31.03 43.08 28.64 43.08Q23.91 43.08 23.91 36Q23.91 33.52 24.43 31.96Q24.95 30.4 25.98 29.66Q27.02 28.92 28.72 28.92Q31.16 28.92 32.29 30.68Q33.43 32.45 33.43 36ZM30.67 36Q30.67 34.09 30.49 33.04Q30.3 31.98 29.89 31.52Q29.48 31.06 28.7 31.06Q27.87 31.06 27.44 31.53Q27.02 31.99 26.84 33.04Q26.66 34.09 26.66 36Q26.66 37.88 26.85 38.94Q27.04 40 27.45 40.46Q27.87 40.92 28.66 40.92Q29.44 40.92 29.87 40.43Q30.29 39.95 30.48 38.89Q30.67 37.82 30.67 36ZM57.06 38.66Q57.06 40.79 56.18 41.91Q55.3 43.04 53.6 43.04Q51.88 43.04 51.01 41.92Q50.14 40.81 50.14 38.66Q50.14 36.47 50.98 35.38Q51.82 34.28 53.64 34.28Q55.4 34.28 56.23 35.38Q57.06 36.49 57.06 38.66ZM45.19 42.88H43.18L52.17 29.12H54.21ZM43.79 28.96Q45.54 28.96 46.38 30.07Q47.22 31.17 47.22 33.34Q47.22 35.47 46.34 36.6Q45.46 37.72 43.74 37.72Q42.04 37.72 41.17 36.61Q40.3 35.49 40.3 33.34Q40.3 31.12 41.14 30.04Q41.98 28.96 43.79 28.96ZM54.96 38.66Q54.96 37.11 54.66 36.44Q54.36 35.78 53.64 35.78Q52.86 35.78 52.56 36.45Q52.26 37.13 52.26 38.66Q52.26 40.22 52.58 40.86Q52.89 41.5 53.62 41.5Q54.33 41.5 54.65 40.84Q54.96 40.17 54.96 38.66ZM45.11 33.34Q45.11 31.81 44.81 31.14Q44.51 30.48 43.79 30.48Q43.01 30.48 42.7 31.14Q42.4 31.8 42.4 33.34Q42.4 34.88 42.72 35.54Q43.04 36.2 43.77 36.2Q44.49 36.2 44.8 35.54Q45.11 34.87 45.11 33.34Z" fill="#2E2E2E"/>
+</svg>
+<text x="1342.5" y="863" class="name">Taste_Dimmen40_klein</text>
+<text x="1342.5" y="881" class="name">normal_beschriftet</text>
+<text x="1342.5" y="902" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Dimmen60_klein_gedrueckt">
+<rect x="19" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="972" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k12_title">Taste Dimmen 60 % (gedrückt)</title>
+  <defs><linearGradient id="k12_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k12_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="70.4" rx="10" fill="url(#k12_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="88" y="10" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,16) scale(0.44)"><rect x="13" y="64" width="11" height="22" rx="2.5" fill="#2E2E2E"/><rect x="29" y="50" width="11" height="36" rx="2.5" fill="#2E2E2E"/><rect x="45" y="36" width="11" height="50" rx="2.5" fill="#2E2E2E"/><rect x="61" y="22" width="11" height="64" rx="2.5" fill="#E0E0E0"/><rect x="77" y="8" width="11" height="78" rx="2.5" fill="#E0E0E0"/></g>
+</svg>
+<text x="202.5" y="1151" class="name">Taste_Dimmen60</text>
+<text x="202.5" y="1169" class="name">klein_gedrueckt</text>
+<text x="202.5" y="1190" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Dimmen60_klein_gedrueckt_beschriftet">
+<rect x="399" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="442.5" y="972" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k13_title">Taste Dimmen 60 % (gedrückt, beschriftet)</title>
+  <defs><linearGradient id="k13_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k13_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="70.4" rx="10" fill="url(#k13_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="88" y="10" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,16) scale(0.44)"><rect x="13" y="64" width="11" height="22" rx="2.5" fill="#2E2E2E"/><rect x="29" y="50" width="11" height="36" rx="2.5" fill="#2E2E2E"/><rect x="45" y="36" width="11" height="50" rx="2.5" fill="#2E2E2E"/><rect x="61" y="22" width="11" height="64" rx="2.5" fill="#E0E0E0"/><rect x="77" y="8" width="11" height="78" rx="2.5" fill="#E0E0E0"/></g><path d="M22.4 40.38Q22.4 42.58 21.17 43.83Q19.94 45.08 17.77 45.08Q15.34 45.08 14.04 43.37Q12.73 41.67 12.73 38.32Q12.73 34.64 14.06 32.78Q15.38 30.92 17.84 30.92Q19.59 30.92 20.6 31.69Q21.61 32.46 22.03 34.08L19.44 34.44Q19.07 33.08 17.78 33.08Q16.68 33.08 16.05 34.19Q15.42 35.29 15.42 37.54Q15.86 36.8 16.64 36.41Q17.42 36.02 18.41 36.02Q20.25 36.02 21.33 37.19Q22.4 38.37 22.4 40.38ZM19.65 40.46Q19.65 39.28 19.1 38.66Q18.56 38.04 17.62 38.04Q16.71 38.04 16.16 38.62Q15.61 39.21 15.61 40.16Q15.61 41.36 16.18 42.15Q16.76 42.94 17.68 42.94Q18.61 42.94 19.13 42.28Q19.65 41.62 19.65 40.46ZM33.43 38Q33.43 41.48 32.23 43.28Q31.03 45.08 28.64 45.08Q23.91 45.08 23.91 38Q23.91 35.52 24.43 33.96Q24.95 32.4 25.98 31.66Q27.02 30.92 28.72 30.92Q31.16 30.92 32.29 32.68Q33.43 34.45 33.43 38ZM30.67 38Q30.67 36.09 30.49 35.04Q30.3 33.98 29.89 33.52Q29.48 33.06 28.7 33.06Q27.87 33.06 27.44 33.53Q27.02 33.99 26.84 35.04Q26.66 36.09 26.66 38Q26.66 39.88 26.85 40.94Q27.04 42 27.45 42.46Q27.87 42.92 28.66 42.92Q29.44 42.92 29.87 42.43Q30.29 41.95 30.48 40.89Q30.67 39.82 30.67 38ZM57.06 40.66Q57.06 42.79 56.18 43.91Q55.3 45.04 53.6 45.04Q51.88 45.04 51.01 43.92Q50.14 42.81 50.14 40.66Q50.14 38.47 50.98 37.38Q51.82 36.28 53.64 36.28Q55.4 36.28 56.23 37.38Q57.06 38.49 57.06 40.66ZM45.19 44.88H43.18L52.17 31.12H54.21ZM43.79 30.96Q45.54 30.96 46.38 32.07Q47.22 33.17 47.22 35.34Q47.22 37.47 46.34 38.6Q45.46 39.72 43.74 39.72Q42.04 39.72 41.17 38.61Q40.3 37.49 40.3 35.34Q40.3 33.12 41.14 32.04Q41.98 30.96 43.79 30.96ZM54.96 40.66Q54.96 39.11 54.66 38.44Q54.36 37.78 53.64 37.78Q52.86 37.78 52.56 38.45Q52.26 39.13 52.26 40.66Q52.26 42.22 52.58 42.86Q52.89 43.5 53.62 43.5Q54.33 43.5 54.65 42.84Q54.96 42.17 54.96 40.66ZM45.11 35.34Q45.11 33.81 44.81 33.14Q44.51 32.48 43.79 32.48Q43.01 32.48 42.7 33.14Q42.4 33.8 42.4 35.34Q42.4 36.88 42.72 37.54Q43.04 38.2 43.77 38.2Q44.49 38.2 44.8 37.54Q45.11 36.87 45.11 35.34Z" fill="#1A1A1A"/>
+</svg>
+<text x="582.5" y="1151" class="name">Taste_Dimmen60_klein</text>
+<text x="582.5" y="1169" class="name">gedrueckt_beschriftet</text>
+<text x="582.5" y="1190" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Dimmen60_klein_normal">
+<rect x="779" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="972" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k14_title">Taste Dimmen 60 % (normal)</title>
+  <defs><linearGradient id="k14_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k14_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="70.4" rx="10" fill="url(#k14_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="88" y="8" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,14) scale(0.44)"><rect x="13" y="64" width="11" height="22" rx="2.5" fill="#4D4D4D"/><rect x="29" y="50" width="11" height="36" rx="2.5" fill="#4D4D4D"/><rect x="45" y="36" width="11" height="50" rx="2.5" fill="#4D4D4D"/><rect x="61" y="22" width="11" height="64" rx="2.5" fill="#C4C4C4"/><rect x="77" y="8" width="11" height="78" rx="2.5" fill="#C4C4C4"/></g>
+</svg>
+<text x="962.5" y="1151" class="name">Taste_Dimmen60_klein_normal</text>
+<text x="962.5" y="1172" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Dimmen60_klein_normal_beschriftet">
+<rect x="1159" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1202.5" y="972" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k15_title">Taste Dimmen 60 % (normal, beschriftet)</title>
+  <defs><linearGradient id="k15_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k15_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="70.4" rx="10" fill="url(#k15_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="88" y="8" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,14) scale(0.44)"><rect x="13" y="64" width="11" height="22" rx="2.5" fill="#4D4D4D"/><rect x="29" y="50" width="11" height="36" rx="2.5" fill="#4D4D4D"/><rect x="45" y="36" width="11" height="50" rx="2.5" fill="#4D4D4D"/><rect x="61" y="22" width="11" height="64" rx="2.5" fill="#C4C4C4"/><rect x="77" y="8" width="11" height="78" rx="2.5" fill="#C4C4C4"/></g><path d="M22.4 38.38Q22.4 40.58 21.17 41.83Q19.94 43.08 17.77 43.08Q15.34 43.08 14.04 41.37Q12.73 39.67 12.73 36.32Q12.73 32.64 14.06 30.78Q15.38 28.92 17.84 28.92Q19.59 28.92 20.6 29.69Q21.61 30.46 22.03 32.08L19.44 32.44Q19.07 31.08 17.78 31.08Q16.68 31.08 16.05 32.19Q15.42 33.29 15.42 35.54Q15.86 34.8 16.64 34.41Q17.42 34.02 18.41 34.02Q20.25 34.02 21.33 35.19Q22.4 36.37 22.4 38.38ZM19.65 38.46Q19.65 37.28 19.1 36.66Q18.56 36.04 17.62 36.04Q16.71 36.04 16.16 36.62Q15.61 37.21 15.61 38.16Q15.61 39.36 16.18 40.15Q16.76 40.94 17.68 40.94Q18.61 40.94 19.13 40.28Q19.65 39.62 19.65 38.46ZM33.43 36Q33.43 39.48 32.23 41.28Q31.03 43.08 28.64 43.08Q23.91 43.08 23.91 36Q23.91 33.52 24.43 31.96Q24.95 30.4 25.98 29.66Q27.02 28.92 28.72 28.92Q31.16 28.92 32.29 30.68Q33.43 32.45 33.43 36ZM30.67 36Q30.67 34.09 30.49 33.04Q30.3 31.98 29.89 31.52Q29.48 31.06 28.7 31.06Q27.87 31.06 27.44 31.53Q27.02 31.99 26.84 33.04Q26.66 34.09 26.66 36Q26.66 37.88 26.85 38.94Q27.04 40 27.45 40.46Q27.87 40.92 28.66 40.92Q29.44 40.92 29.87 40.43Q30.29 39.95 30.48 38.89Q30.67 37.82 30.67 36ZM57.06 38.66Q57.06 40.79 56.18 41.91Q55.3 43.04 53.6 43.04Q51.88 43.04 51.01 41.92Q50.14 40.81 50.14 38.66Q50.14 36.47 50.98 35.38Q51.82 34.28 53.64 34.28Q55.4 34.28 56.23 35.38Q57.06 36.49 57.06 38.66ZM45.19 42.88H43.18L52.17 29.12H54.21ZM43.79 28.96Q45.54 28.96 46.38 30.07Q47.22 31.17 47.22 33.34Q47.22 35.47 46.34 36.6Q45.46 37.72 43.74 37.72Q42.04 37.72 41.17 36.61Q40.3 35.49 40.3 33.34Q40.3 31.12 41.14 30.04Q41.98 28.96 43.79 28.96ZM54.96 38.66Q54.96 37.11 54.66 36.44Q54.36 35.78 53.64 35.78Q52.86 35.78 52.56 36.45Q52.26 37.13 52.26 38.66Q52.26 40.22 52.58 40.86Q52.89 41.5 53.62 41.5Q54.33 41.5 54.65 40.84Q54.96 40.17 54.96 38.66ZM45.11 33.34Q45.11 31.81 44.81 31.14Q44.51 30.48 43.79 30.48Q43.01 30.48 42.7 31.14Q42.4 31.8 42.4 33.34Q42.4 34.88 42.72 35.54Q43.04 36.2 43.77 36.2Q44.49 36.2 44.8 35.54Q45.11 34.87 45.11 33.34Z" fill="#2E2E2E"/>
+</svg>
+<text x="1342.5" y="1151" class="name">Taste_Dimmen60_klein</text>
+<text x="1342.5" y="1169" class="name">normal_beschriftet</text>
+<text x="1342.5" y="1190" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Dimmen80_klein_gedrueckt">
+<rect x="19" y="1221" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="1260" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k16_title">Taste Dimmen 80 % (gedrückt)</title>
+  <defs><linearGradient id="k16_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k16_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="70.4" rx="10" fill="url(#k16_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="88" y="10" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,16) scale(0.44)"><rect x="13" y="64" width="11" height="22" rx="2.5" fill="#2E2E2E"/><rect x="29" y="50" width="11" height="36" rx="2.5" fill="#2E2E2E"/><rect x="45" y="36" width="11" height="50" rx="2.5" fill="#2E2E2E"/><rect x="61" y="22" width="11" height="64" rx="2.5" fill="#2E2E2E"/><rect x="77" y="8" width="11" height="78" rx="2.5" fill="#E0E0E0"/></g>
+</svg>
+<text x="202.5" y="1439" class="name">Taste_Dimmen80</text>
+<text x="202.5" y="1457" class="name">klein_gedrueckt</text>
+<text x="202.5" y="1478" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Dimmen80_klein_gedrueckt_beschriftet">
+<rect x="399" y="1221" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="442.5" y="1260" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k17_title">Taste Dimmen 80 % (gedrückt, beschriftet)</title>
+  <defs><linearGradient id="k17_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k17_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="70.4" rx="10" fill="url(#k17_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="88" y="10" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,16) scale(0.44)"><rect x="13" y="64" width="11" height="22" rx="2.5" fill="#2E2E2E"/><rect x="29" y="50" width="11" height="36" rx="2.5" fill="#2E2E2E"/><rect x="45" y="36" width="11" height="50" rx="2.5" fill="#2E2E2E"/><rect x="61" y="22" width="11" height="64" rx="2.5" fill="#2E2E2E"/><rect x="77" y="8" width="11" height="78" rx="2.5" fill="#E0E0E0"/></g><path d="M22.51 41Q22.51 42.94 21.23 44.01Q19.95 45.08 17.58 45.08Q15.22 45.08 13.93 44.01Q12.63 42.95 12.63 41.02Q12.63 39.7 13.4 38.8Q14.16 37.9 15.44 37.68V37.64Q14.32 37.4 13.64 36.54Q12.96 35.68 12.96 34.56Q12.96 32.87 14.15 31.89Q15.35 30.92 17.54 30.92Q19.77 30.92 20.97 31.87Q22.17 32.82 22.17 34.58Q22.17 35.7 21.49 36.55Q20.81 37.4 19.67 37.62V37.66Q20.99 37.88 21.75 38.75Q22.51 39.63 22.51 41ZM19.34 34.72Q19.34 33.75 18.89 33.29Q18.45 32.84 17.54 32.84Q15.76 32.84 15.76 34.72Q15.76 36.7 17.56 36.7Q18.46 36.7 18.9 36.24Q19.34 35.78 19.34 34.72ZM19.67 40.78Q19.67 38.62 17.52 38.62Q16.52 38.62 15.99 39.19Q15.46 39.75 15.46 40.82Q15.46 42.03 15.98 42.58Q16.51 43.14 17.6 43.14Q18.66 43.14 19.16 42.58Q19.67 42.03 19.67 40.78ZM33.43 38Q33.43 41.48 32.23 43.28Q31.03 45.08 28.64 45.08Q23.91 45.08 23.91 38Q23.91 35.52 24.43 33.96Q24.95 32.4 25.98 31.66Q27.02 30.92 28.72 30.92Q31.16 30.92 32.29 32.68Q33.43 34.45 33.43 38ZM30.67 38Q30.67 36.09 30.49 35.04Q30.3 33.98 29.89 33.52Q29.48 33.06 28.7 33.06Q27.87 33.06 27.44 33.53Q27.02 33.99 26.84 35.04Q26.66 36.09 26.66 38Q26.66 39.88 26.85 40.94Q27.04 42 27.45 42.46Q27.87 42.92 28.66 42.92Q29.44 42.92 29.87 42.43Q30.29 41.95 30.48 40.89Q30.67 39.82 30.67 38ZM57.06 40.66Q57.06 42.79 56.18 43.91Q55.3 45.04 53.6 45.04Q51.88 45.04 51.01 43.92Q50.14 42.81 50.14 40.66Q50.14 38.47 50.98 37.38Q51.82 36.28 53.64 36.28Q55.4 36.28 56.23 37.38Q57.06 38.49 57.06 40.66ZM45.19 44.88H43.18L52.17 31.12H54.21ZM43.79 30.96Q45.54 30.96 46.38 32.07Q47.22 33.17 47.22 35.34Q47.22 37.47 46.34 38.6Q45.46 39.72 43.74 39.72Q42.04 39.72 41.17 38.61Q40.3 37.49 40.3 35.34Q40.3 33.12 41.14 32.04Q41.98 30.96 43.79 30.96ZM54.96 40.66Q54.96 39.11 54.66 38.44Q54.36 37.78 53.64 37.78Q52.86 37.78 52.56 38.45Q52.26 39.13 52.26 40.66Q52.26 42.22 52.58 42.86Q52.89 43.5 53.62 43.5Q54.33 43.5 54.65 42.84Q54.96 42.17 54.96 40.66ZM45.11 35.34Q45.11 33.81 44.81 33.14Q44.51 32.48 43.79 32.48Q43.01 32.48 42.7 33.14Q42.4 33.8 42.4 35.34Q42.4 36.88 42.72 37.54Q43.04 38.2 43.77 38.2Q44.49 38.2 44.8 37.54Q45.11 36.87 45.11 35.34Z" fill="#1A1A1A"/>
+</svg>
+<text x="582.5" y="1439" class="name">Taste_Dimmen80_klein</text>
+<text x="582.5" y="1457" class="name">gedrueckt_beschriftet</text>
+<text x="582.5" y="1478" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Dimmen80_klein_normal">
+<rect x="779" y="1221" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="1260" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k18_title">Taste Dimmen 80 % (normal)</title>
+  <defs><linearGradient id="k18_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k18_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="70.4" rx="10" fill="url(#k18_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="88" y="8" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,14) scale(0.44)"><rect x="13" y="64" width="11" height="22" rx="2.5" fill="#4D4D4D"/><rect x="29" y="50" width="11" height="36" rx="2.5" fill="#4D4D4D"/><rect x="45" y="36" width="11" height="50" rx="2.5" fill="#4D4D4D"/><rect x="61" y="22" width="11" height="64" rx="2.5" fill="#4D4D4D"/><rect x="77" y="8" width="11" height="78" rx="2.5" fill="#C4C4C4"/></g>
+</svg>
+<text x="962.5" y="1439" class="name">Taste_Dimmen80_klein_normal</text>
+<text x="962.5" y="1460" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Dimmen80_klein_normal_beschriftet">
+<rect x="1159" y="1221" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1202.5" y="1260" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k19_title">Taste Dimmen 80 % (normal, beschriftet)</title>
+  <defs><linearGradient id="k19_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k19_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="70.4" rx="10" fill="url(#k19_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="88" y="8" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,14) scale(0.44)"><rect x="13" y="64" width="11" height="22" rx="2.5" fill="#4D4D4D"/><rect x="29" y="50" width="11" height="36" rx="2.5" fill="#4D4D4D"/><rect x="45" y="36" width="11" height="50" rx="2.5" fill="#4D4D4D"/><rect x="61" y="22" width="11" height="64" rx="2.5" fill="#4D4D4D"/><rect x="77" y="8" width="11" height="78" rx="2.5" fill="#C4C4C4"/></g><path d="M22.51 39Q22.51 40.94 21.23 42.01Q19.95 43.08 17.58 43.08Q15.22 43.08 13.93 42.01Q12.63 40.95 12.63 39.02Q12.63 37.7 13.4 36.8Q14.16 35.9 15.44 35.68V35.64Q14.32 35.4 13.64 34.54Q12.96 33.68 12.96 32.56Q12.96 30.87 14.15 29.89Q15.35 28.92 17.54 28.92Q19.77 28.92 20.97 29.87Q22.17 30.82 22.17 32.58Q22.17 33.7 21.49 34.55Q20.81 35.4 19.67 35.62V35.66Q20.99 35.88 21.75 36.75Q22.51 37.63 22.51 39ZM19.34 32.72Q19.34 31.75 18.89 31.29Q18.45 30.84 17.54 30.84Q15.76 30.84 15.76 32.72Q15.76 34.7 17.56 34.7Q18.46 34.7 18.9 34.24Q19.34 33.78 19.34 32.72ZM19.67 38.78Q19.67 36.62 17.52 36.62Q16.52 36.62 15.99 37.19Q15.46 37.75 15.46 38.82Q15.46 40.03 15.98 40.58Q16.51 41.14 17.6 41.14Q18.66 41.14 19.16 40.58Q19.67 40.03 19.67 38.78ZM33.43 36Q33.43 39.48 32.23 41.28Q31.03 43.08 28.64 43.08Q23.91 43.08 23.91 36Q23.91 33.52 24.43 31.96Q24.95 30.4 25.98 29.66Q27.02 28.92 28.72 28.92Q31.16 28.92 32.29 30.68Q33.43 32.45 33.43 36ZM30.67 36Q30.67 34.09 30.49 33.04Q30.3 31.98 29.89 31.52Q29.48 31.06 28.7 31.06Q27.87 31.06 27.44 31.53Q27.02 31.99 26.84 33.04Q26.66 34.09 26.66 36Q26.66 37.88 26.85 38.94Q27.04 40 27.45 40.46Q27.87 40.92 28.66 40.92Q29.44 40.92 29.87 40.43Q30.29 39.95 30.48 38.89Q30.67 37.82 30.67 36ZM57.06 38.66Q57.06 40.79 56.18 41.91Q55.3 43.04 53.6 43.04Q51.88 43.04 51.01 41.92Q50.14 40.81 50.14 38.66Q50.14 36.47 50.98 35.38Q51.82 34.28 53.64 34.28Q55.4 34.28 56.23 35.38Q57.06 36.49 57.06 38.66ZM45.19 42.88H43.18L52.17 29.12H54.21ZM43.79 28.96Q45.54 28.96 46.38 30.07Q47.22 31.17 47.22 33.34Q47.22 35.47 46.34 36.6Q45.46 37.72 43.74 37.72Q42.04 37.72 41.17 36.61Q40.3 35.49 40.3 33.34Q40.3 31.12 41.14 30.04Q41.98 28.96 43.79 28.96ZM54.96 38.66Q54.96 37.11 54.66 36.44Q54.36 35.78 53.64 35.78Q52.86 35.78 52.56 36.45Q52.26 37.13 52.26 38.66Q52.26 40.22 52.58 40.86Q52.89 41.5 53.62 41.5Q54.33 41.5 54.65 40.84Q54.96 40.17 54.96 38.66ZM45.11 33.34Q45.11 31.81 44.81 31.14Q44.51 30.48 43.79 30.48Q43.01 30.48 42.7 31.14Q42.4 31.8 42.4 33.34Q42.4 34.88 42.72 35.54Q43.04 36.2 43.77 36.2Q44.49 36.2 44.8 35.54Q45.11 34.87 45.11 33.34Z" fill="#2E2E2E"/>
+</svg>
+<text x="1342.5" y="1439" class="name">Taste_Dimmen80_klein</text>
+<text x="1342.5" y="1457" class="name">normal_beschriftet</text>
+<text x="1342.5" y="1478" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_JalousieAb_gross_gedrueckt">
+<rect x="19" y="1509" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="1510" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="124.12" y="1535.5" width="156.75" height="165" viewBox="0 0 152 160" overflow="hidden">
+<title id="k20_title">Taste Jalousie ab (gedrückt)</title>
+  <defs><linearGradient id="k20_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k20_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="156" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="154.4" rx="10" fill="url(#k20_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="34" y="14" width="84" height="84" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(40,20) scale(0.72)"><path d="M8,14 H66" stroke="#2E2E2E" stroke-width="6" stroke-linecap="round"/><rect x="12" y="25" width="50" height="7" rx="2" fill="#2E2E2E"/><rect x="12" y="38" width="50" height="7" rx="2" fill="#2E2E2E"/><rect x="12" y="51" width="50" height="7" rx="2" fill="#2E2E2E"/><rect x="12" y="64" width="50" height="7" rx="2" fill="#2E2E2E"/><rect x="12" y="77" width="50" height="7" rx="2" fill="#2E2E2E"/><path d="M84,24 V80 M72,68 L84,82 L96,68" fill="none" stroke="#2E2E2E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>
+<text x="202.5" y="1727" class="name">Taste_JalousieAb</text>
+<text x="202.5" y="1745" class="name">gross_gedrueckt</text>
+<text x="202.5" y="1766" class="mass">152 × 160 px</text>
+</g>
+<g id="Taste_JalousieAb_gross_gedrueckt_beschriftet">
+<rect x="399" y="1509" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="1510" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="504.12" y="1535.5" width="156.75" height="165" viewBox="0 0 152 160" overflow="hidden">
+<title id="k21_title">Taste Jalousie ab (gedrückt, beschriftet)</title>
+  <defs><linearGradient id="k21_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k21_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="156" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="154.4" rx="10" fill="url(#k21_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="34" y="14" width="84" height="84" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(40,20) scale(0.72)"><path d="M8,14 H66" stroke="#2E2E2E" stroke-width="6" stroke-linecap="round"/><rect x="12" y="25" width="50" height="7" rx="2" fill="#2E2E2E"/><rect x="12" y="38" width="50" height="7" rx="2" fill="#2E2E2E"/><rect x="12" y="51" width="50" height="7" rx="2" fill="#2E2E2E"/><rect x="12" y="64" width="50" height="7" rx="2" fill="#2E2E2E"/><rect x="12" y="77" width="50" height="7" rx="2" fill="#2E2E2E"/><path d="M84,24 V80 M72,68 L84,82 L96,68" fill="none" stroke="#2E2E2E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g><path d="M72.28 134.57 70.94 130.7H65.17L63.83 134.57H60.66L66.18 119.43H69.92L75.42 134.57ZM68.05 121.76 67.99 122Q67.88 122.39 67.73 122.88Q67.58 123.37 65.88 128.32H70.23L68.74 123.97L68.28 122.5ZM90.89 130.25Q90.89 132.31 89.34 133.44Q87.79 134.57 85.04 134.57H77.47V119.43H84.4Q87.17 119.43 88.6 120.39Q90.02 121.35 90.02 123.23Q90.02 124.52 89.3 125.41Q88.59 126.3 87.13 126.61Q88.97 126.82 89.93 127.76Q90.89 128.7 90.89 130.25ZM86.83 123.66Q86.83 122.64 86.18 122.21Q85.53 121.78 84.25 121.78H80.64V125.53H84.27Q85.61 125.53 86.22 125.07Q86.83 124.6 86.83 123.66ZM87.71 130Q87.71 127.88 84.66 127.88H80.64V132.22H84.78Q86.3 132.22 87.01 131.66Q87.71 131.11 87.71 130Z" fill="#1A1A1A"/>
+</svg>
+<text x="582.5" y="1727" class="name">Taste_JalousieAb_gross</text>
+<text x="582.5" y="1745" class="name">gedrueckt_beschriftet</text>
+<text x="582.5" y="1766" class="mass">152 × 160 px</text>
+</g>
+<g id="Taste_JalousieAb_gross_normal">
+<rect x="779" y="1509" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="1510" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="884.12" y="1535.5" width="156.75" height="165" viewBox="0 0 152 160" overflow="hidden">
+<title id="k22_title">Taste Jalousie ab (normal)</title>
+  <defs><linearGradient id="k22_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k22_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="156" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="154.4" rx="10" fill="url(#k22_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="34" y="12" width="84" height="84" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(40,18) scale(0.72)"><path d="M8,14 H66" stroke="#4D4D4D" stroke-width="6" stroke-linecap="round"/><rect x="12" y="25" width="50" height="7" rx="2" fill="#4D4D4D"/><rect x="12" y="38" width="50" height="7" rx="2" fill="#4D4D4D"/><rect x="12" y="51" width="50" height="7" rx="2" fill="#4D4D4D"/><rect x="12" y="64" width="50" height="7" rx="2" fill="#4D4D4D"/><rect x="12" y="77" width="50" height="7" rx="2" fill="#4D4D4D"/><path d="M84,24 V80 M72,68 L84,82 L96,68" fill="none" stroke="#4D4D4D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>
+<text x="962.5" y="1727" class="name">Taste_JalousieAb</text>
+<text x="962.5" y="1745" class="name">gross_normal</text>
+<text x="962.5" y="1766" class="mass">152 × 160 px</text>
+</g>
+<g id="Taste_JalousieAb_gross_normal_beschriftet">
+<rect x="1159" y="1509" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="1510" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1264.12" y="1535.5" width="156.75" height="165" viewBox="0 0 152 160" overflow="hidden">
+<title id="k23_title">Taste Jalousie ab (normal, beschriftet)</title>
+  <defs><linearGradient id="k23_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k23_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="156" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="154.4" rx="10" fill="url(#k23_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="34" y="12" width="84" height="84" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(40,18) scale(0.72)"><path d="M8,14 H66" stroke="#4D4D4D" stroke-width="6" stroke-linecap="round"/><rect x="12" y="25" width="50" height="7" rx="2" fill="#4D4D4D"/><rect x="12" y="38" width="50" height="7" rx="2" fill="#4D4D4D"/><rect x="12" y="51" width="50" height="7" rx="2" fill="#4D4D4D"/><rect x="12" y="64" width="50" height="7" rx="2" fill="#4D4D4D"/><rect x="12" y="77" width="50" height="7" rx="2" fill="#4D4D4D"/><path d="M84,24 V80 M72,68 L84,82 L96,68" fill="none" stroke="#4D4D4D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g><path d="M72.28 132.57 70.94 128.7H65.17L63.83 132.57H60.66L66.18 117.43H69.92L75.42 132.57ZM68.05 119.76 67.99 120Q67.88 120.39 67.73 120.88Q67.58 121.37 65.88 126.32H70.23L68.74 121.97L68.28 120.5ZM90.89 128.25Q90.89 130.31 89.34 131.44Q87.79 132.57 85.04 132.57H77.47V117.43H84.4Q87.17 117.43 88.6 118.39Q90.02 119.35 90.02 121.23Q90.02 122.52 89.3 123.41Q88.59 124.3 87.13 124.61Q88.97 124.82 89.93 125.76Q90.89 126.7 90.89 128.25ZM86.83 121.66Q86.83 120.64 86.18 120.21Q85.53 119.78 84.25 119.78H80.64V123.53H84.27Q85.61 123.53 86.22 123.07Q86.83 122.6 86.83 121.66ZM87.71 128Q87.71 125.88 84.66 125.88H80.64V130.22H84.78Q86.3 130.22 87.01 129.66Q87.71 129.11 87.71 128Z" fill="#2E2E2E"/>
+</svg>
+<text x="1342.5" y="1727" class="name">Taste_JalousieAb_gross</text>
+<text x="1342.5" y="1745" class="name">normal_beschriftet</text>
+<text x="1342.5" y="1766" class="mass">152 × 160 px</text>
+</g>
+<g id="Taste_JalousieAb_klein_gedrueckt">
+<rect x="19" y="1797" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="1798" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="1836" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k24_title">Taste Jalousie ab (gedrückt)</title>
+  <defs><linearGradient id="k24_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k24_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="70.4" rx="10" fill="url(#k24_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="88" y="10" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,16) scale(0.44)"><path d="M8,14 H66" stroke="#2E2E2E" stroke-width="6" stroke-linecap="round"/><rect x="12" y="25" width="50" height="7" rx="2" fill="#2E2E2E"/><rect x="12" y="38" width="50" height="7" rx="2" fill="#2E2E2E"/><rect x="12" y="51" width="50" height="7" rx="2" fill="#2E2E2E"/><rect x="12" y="64" width="50" height="7" rx="2" fill="#2E2E2E"/><rect x="12" y="77" width="50" height="7" rx="2" fill="#2E2E2E"/><path d="M84,24 V80 M72,68 L84,82 L96,68" fill="none" stroke="#2E2E2E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>
+<text x="202.5" y="2015" class="name">Taste_JalousieAb</text>
+<text x="202.5" y="2033" class="name">klein_gedrueckt</text>
+<text x="202.5" y="2054" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_JalousieAb_klein_gedrueckt_beschriftet">
+<rect x="399" y="1797" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="1798" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="442.5" y="1836" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k25_title">Taste Jalousie ab (gedrückt, beschriftet)</title>
+  <defs><linearGradient id="k25_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k25_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="70.4" rx="10" fill="url(#k25_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="88" y="10" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,16) scale(0.44)"><path d="M8,14 H66" stroke="#2E2E2E" stroke-width="6" stroke-linecap="round"/><rect x="12" y="25" width="50" height="7" rx="2" fill="#2E2E2E"/><rect x="12" y="38" width="50" height="7" rx="2" fill="#2E2E2E"/><rect x="12" y="51" width="50" height="7" rx="2" fill="#2E2E2E"/><rect x="12" y="64" width="50" height="7" rx="2" fill="#2E2E2E"/><rect x="12" y="77" width="50" height="7" rx="2" fill="#2E2E2E"/><path d="M84,24 V80 M72,68 L84,82 L96,68" fill="none" stroke="#2E2E2E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g><path d="M23.06 44.88 21.84 41.36H16.6L15.38 44.88H12.5L17.52 31.12H20.92L25.92 44.88ZM19.22 33.24 19.16 33.45Q19.06 33.81 18.92 34.25Q18.79 34.7 17.24 39.2H21.2L19.84 35.24L19.42 33.91ZM39.98 40.95Q39.98 42.83 38.57 43.85Q37.17 44.88 34.67 44.88H27.78V31.12H34.08Q36.6 31.12 37.89 31.99Q39.19 32.87 39.19 34.58Q39.19 35.75 38.54 36.55Q37.89 37.36 36.56 37.64Q38.23 37.84 39.1 38.69Q39.98 39.55 39.98 40.95ZM36.29 34.97Q36.29 34.04 35.7 33.65Q35.11 33.26 33.94 33.26H30.66V36.67H33.96Q35.18 36.67 35.74 36.24Q36.29 35.82 36.29 34.97ZM37.09 40.73Q37.09 38.8 34.31 38.8H30.66V42.74H34.42Q35.81 42.74 36.45 42.24Q37.09 41.74 37.09 40.73Z" fill="#1A1A1A"/>
+</svg>
+<text x="582.5" y="2015" class="name">Taste_JalousieAb_klein</text>
+<text x="582.5" y="2033" class="name">gedrueckt_beschriftet</text>
+<text x="582.5" y="2054" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_JalousieAb_klein_normal">
+<rect x="779" y="1797" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="1798" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="1836" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k26_title">Taste Jalousie ab (normal)</title>
+  <defs><linearGradient id="k26_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k26_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="70.4" rx="10" fill="url(#k26_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="88" y="8" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,14) scale(0.44)"><path d="M8,14 H66" stroke="#4D4D4D" stroke-width="6" stroke-linecap="round"/><rect x="12" y="25" width="50" height="7" rx="2" fill="#4D4D4D"/><rect x="12" y="38" width="50" height="7" rx="2" fill="#4D4D4D"/><rect x="12" y="51" width="50" height="7" rx="2" fill="#4D4D4D"/><rect x="12" y="64" width="50" height="7" rx="2" fill="#4D4D4D"/><rect x="12" y="77" width="50" height="7" rx="2" fill="#4D4D4D"/><path d="M84,24 V80 M72,68 L84,82 L96,68" fill="none" stroke="#4D4D4D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>
+<text x="962.5" y="2015" class="name">Taste_JalousieAb</text>
+<text x="962.5" y="2033" class="name">klein_normal</text>
+<text x="962.5" y="2054" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_JalousieAb_klein_normal_beschriftet">
+<rect x="1159" y="1797" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="1798" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1202.5" y="1836" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k27_title">Taste Jalousie ab (normal, beschriftet)</title>
+  <defs><linearGradient id="k27_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k27_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="70.4" rx="10" fill="url(#k27_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="88" y="8" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,14) scale(0.44)"><path d="M8,14 H66" stroke="#4D4D4D" stroke-width="6" stroke-linecap="round"/><rect x="12" y="25" width="50" height="7" rx="2" fill="#4D4D4D"/><rect x="12" y="38" width="50" height="7" rx="2" fill="#4D4D4D"/><rect x="12" y="51" width="50" height="7" rx="2" fill="#4D4D4D"/><rect x="12" y="64" width="50" height="7" rx="2" fill="#4D4D4D"/><rect x="12" y="77" width="50" height="7" rx="2" fill="#4D4D4D"/><path d="M84,24 V80 M72,68 L84,82 L96,68" fill="none" stroke="#4D4D4D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g><path d="M23.06 42.88 21.84 39.36H16.6L15.38 42.88H12.5L17.52 29.12H20.92L25.92 42.88ZM19.22 31.24 19.16 31.45Q19.06 31.81 18.92 32.25Q18.79 32.7 17.24 37.2H21.2L19.84 33.24L19.42 31.91ZM39.98 38.95Q39.98 40.83 38.57 41.85Q37.17 42.88 34.67 42.88H27.78V29.12H34.08Q36.6 29.12 37.89 29.99Q39.19 30.87 39.19 32.58Q39.19 33.75 38.54 34.55Q37.89 35.36 36.56 35.64Q38.23 35.84 39.1 36.69Q39.98 37.55 39.98 38.95ZM36.29 32.97Q36.29 32.04 35.7 31.65Q35.11 31.26 33.94 31.26H30.66V34.67H33.96Q35.18 34.67 35.74 34.24Q36.29 33.82 36.29 32.97ZM37.09 38.73Q37.09 36.8 34.31 36.8H30.66V40.74H34.42Q35.81 40.74 36.45 40.24Q37.09 39.74 37.09 38.73Z" fill="#2E2E2E"/>
+</svg>
+<text x="1342.5" y="2015" class="name">Taste_JalousieAb_klein</text>
+<text x="1342.5" y="2033" class="name">normal_beschriftet</text>
+<text x="1342.5" y="2054" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_JalousieAuf_gross_gedrueckt">
+<rect x="19" y="2085" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="2086" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="124.12" y="2111.5" width="156.75" height="165" viewBox="0 0 152 160" overflow="hidden">
+<title id="k28_title">Taste Jalousie auf (gedrückt)</title>
+  <defs><linearGradient id="k28_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k28_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="156" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="154.4" rx="10" fill="url(#k28_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="34" y="14" width="84" height="84" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(40,20) scale(0.72)"><path d="M8,14 H66" stroke="#2E2E2E" stroke-width="6" stroke-linecap="round"/><rect x="12" y="25" width="50" height="7" rx="2" fill="#2E2E2E"/><rect x="12" y="38" width="50" height="7" rx="2" fill="#2E2E2E"/><path d="M14,58 H60 M14,71 H60 M14,84 H60" stroke="#E0E0E0" stroke-width="3" stroke-dasharray="5 5" stroke-linecap="round"/><path d="M84,86 V30 M72,42 L84,28 L96,42" fill="none" stroke="#2E2E2E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>
+<text x="202.5" y="2303" class="name">Taste_JalousieAuf</text>
+<text x="202.5" y="2321" class="name">gross_gedrueckt</text>
+<text x="202.5" y="2342" class="mass">152 × 160 px</text>
+</g>
+<g id="Taste_JalousieAuf_gross_gedrueckt_beschriftet">
+<rect x="399" y="2085" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="2086" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="504.12" y="2111.5" width="156.75" height="165" viewBox="0 0 152 160" overflow="hidden">
+<title id="k29_title">Taste Jalousie auf (gedrückt, beschriftet)</title>
+  <defs><linearGradient id="k29_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k29_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="156" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="154.4" rx="10" fill="url(#k29_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="34" y="14" width="84" height="84" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(40,20) scale(0.72)"><path d="M8,14 H66" stroke="#2E2E2E" stroke-width="6" stroke-linecap="round"/><rect x="12" y="25" width="50" height="7" rx="2" fill="#2E2E2E"/><rect x="12" y="38" width="50" height="7" rx="2" fill="#2E2E2E"/><path d="M14,58 H60 M14,71 H60 M14,84 H60" stroke="#E0E0E0" stroke-width="3" stroke-dasharray="5 5" stroke-linecap="round"/><path d="M84,86 V30 M72,42 L84,28 L96,42" fill="none" stroke="#2E2E2E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g><path d="M65.56 134.57 64.22 130.7H58.45L57.11 134.57H53.94L59.46 119.43H63.2L68.7 134.57ZM61.33 121.76 61.27 122Q61.16 122.39 61.01 122.88Q60.86 123.37 59.16 128.32H63.51L62.02 123.97L61.56 122.5ZM77.05 134.78Q73.92 134.78 72.26 133.26Q70.6 131.73 70.6 128.9V119.43H73.77V128.65Q73.77 130.44 74.62 131.37Q75.48 132.3 77.13 132.3Q78.83 132.3 79.74 131.33Q80.66 130.36 80.66 128.54V119.43H83.83V128.73Q83.83 131.61 82.05 133.2Q80.27 134.78 77.05 134.78ZM89.81 121.88V126.56H97.55V129.01H89.81V134.57H86.64V119.43H97.8V121.88Z" fill="#1A1A1A"/>
+</svg>
+<text x="582.5" y="2303" class="name">Taste_JalousieAuf_gross</text>
+<text x="582.5" y="2321" class="name">gedrueckt_beschriftet</text>
+<text x="582.5" y="2342" class="mass">152 × 160 px</text>
+</g>
+<g id="Taste_JalousieAuf_gross_normal">
+<rect x="779" y="2085" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="2086" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="884.12" y="2111.5" width="156.75" height="165" viewBox="0 0 152 160" overflow="hidden">
+<title id="k30_title">Taste Jalousie auf (normal)</title>
+  <defs><linearGradient id="k30_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k30_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="156" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="154.4" rx="10" fill="url(#k30_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="34" y="12" width="84" height="84" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(40,18) scale(0.72)"><path d="M8,14 H66" stroke="#4D4D4D" stroke-width="6" stroke-linecap="round"/><rect x="12" y="25" width="50" height="7" rx="2" fill="#4D4D4D"/><rect x="12" y="38" width="50" height="7" rx="2" fill="#4D4D4D"/><path d="M14,58 H60 M14,71 H60 M14,84 H60" stroke="#C4C4C4" stroke-width="3" stroke-dasharray="5 5" stroke-linecap="round"/><path d="M84,86 V30 M72,42 L84,28 L96,42" fill="none" stroke="#4D4D4D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>
+<text x="962.5" y="2303" class="name">Taste_JalousieAuf</text>
+<text x="962.5" y="2321" class="name">gross_normal</text>
+<text x="962.5" y="2342" class="mass">152 × 160 px</text>
+</g>
+<g id="Taste_JalousieAuf_gross_normal_beschriftet">
+<rect x="1159" y="2085" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="2086" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1264.12" y="2111.5" width="156.75" height="165" viewBox="0 0 152 160" overflow="hidden">
+<title id="k31_title">Taste Jalousie auf (normal, beschriftet)</title>
+  <defs><linearGradient id="k31_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k31_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="156" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="154.4" rx="10" fill="url(#k31_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="34" y="12" width="84" height="84" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(40,18) scale(0.72)"><path d="M8,14 H66" stroke="#4D4D4D" stroke-width="6" stroke-linecap="round"/><rect x="12" y="25" width="50" height="7" rx="2" fill="#4D4D4D"/><rect x="12" y="38" width="50" height="7" rx="2" fill="#4D4D4D"/><path d="M14,58 H60 M14,71 H60 M14,84 H60" stroke="#C4C4C4" stroke-width="3" stroke-dasharray="5 5" stroke-linecap="round"/><path d="M84,86 V30 M72,42 L84,28 L96,42" fill="none" stroke="#4D4D4D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g><path d="M65.56 132.57 64.22 128.7H58.45L57.11 132.57H53.94L59.46 117.43H63.2L68.7 132.57ZM61.33 119.76 61.27 120Q61.16 120.39 61.01 120.88Q60.86 121.37 59.16 126.32H63.51L62.02 121.97L61.56 120.5ZM77.05 132.78Q73.92 132.78 72.26 131.26Q70.6 129.73 70.6 126.9V117.43H73.77V126.65Q73.77 128.44 74.62 129.37Q75.48 130.3 77.13 130.3Q78.83 130.3 79.74 129.33Q80.66 128.36 80.66 126.54V117.43H83.83V126.73Q83.83 129.61 82.05 131.2Q80.27 132.78 77.05 132.78ZM89.81 119.88V124.56H97.55V127.01H89.81V132.57H86.64V117.43H97.8V119.88Z" fill="#2E2E2E"/>
+</svg>
+<text x="1342.5" y="2303" class="name">Taste_JalousieAuf_gross</text>
+<text x="1342.5" y="2321" class="name">normal_beschriftet</text>
+<text x="1342.5" y="2342" class="mass">152 × 160 px</text>
+</g>
+<g id="Taste_JalousieAuf_klein_gedrueckt">
+<rect x="19" y="2373" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="2374" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="2412" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k32_title">Taste Jalousie auf (gedrückt)</title>
+  <defs><linearGradient id="k32_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k32_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="70.4" rx="10" fill="url(#k32_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="88" y="10" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,16) scale(0.44)"><path d="M8,14 H66" stroke="#2E2E2E" stroke-width="6" stroke-linecap="round"/><rect x="12" y="25" width="50" height="7" rx="2" fill="#2E2E2E"/><rect x="12" y="38" width="50" height="7" rx="2" fill="#2E2E2E"/><path d="M14,58 H60 M14,71 H60 M14,84 H60" stroke="#E0E0E0" stroke-width="3" stroke-dasharray="5 5" stroke-linecap="round"/><path d="M84,86 V30 M72,42 L84,28 L96,42" fill="none" stroke="#2E2E2E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>
+<text x="202.5" y="2591" class="name">Taste_JalousieAuf</text>
+<text x="202.5" y="2609" class="name">klein_gedrueckt</text>
+<text x="202.5" y="2630" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_JalousieAuf_klein_gedrueckt_beschriftet">
+<rect x="399" y="2373" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="2374" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="442.5" y="2412" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k33_title">Taste Jalousie auf (gedrückt, beschriftet)</title>
+  <defs><linearGradient id="k33_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k33_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="70.4" rx="10" fill="url(#k33_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="88" y="10" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,16) scale(0.44)"><path d="M8,14 H66" stroke="#2E2E2E" stroke-width="6" stroke-linecap="round"/><rect x="12" y="25" width="50" height="7" rx="2" fill="#2E2E2E"/><rect x="12" y="38" width="50" height="7" rx="2" fill="#2E2E2E"/><path d="M14,58 H60 M14,71 H60 M14,84 H60" stroke="#E0E0E0" stroke-width="3" stroke-dasharray="5 5" stroke-linecap="round"/><path d="M84,86 V30 M72,42 L84,28 L96,42" fill="none" stroke="#2E2E2E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g><path d="M23.06 44.88 21.84 41.36H16.6L15.38 44.88H12.5L17.52 31.12H20.92L25.92 44.88ZM19.22 33.24 19.16 33.45Q19.06 33.81 18.92 34.25Q18.79 34.7 17.24 39.2H21.2L19.84 35.24L19.42 33.91ZM33.5 45.08Q30.66 45.08 29.15 43.69Q27.64 42.3 27.64 39.72V31.12H30.53V39.5Q30.53 41.13 31.3 41.97Q32.08 42.82 33.58 42.82Q35.12 42.82 35.96 41.94Q36.79 41.05 36.79 39.4V31.12H39.67V39.58Q39.67 42.19 38.05 43.63Q36.43 45.08 33.5 45.08ZM45.11 33.35V37.6H52.15V39.83H45.11V44.88H42.22V31.12H52.37V33.35Z" fill="#1A1A1A"/>
+</svg>
+<text x="582.5" y="2591" class="name">Taste_JalousieAuf_klein</text>
+<text x="582.5" y="2609" class="name">gedrueckt_beschriftet</text>
+<text x="582.5" y="2630" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_JalousieAuf_klein_normal">
+<rect x="779" y="2373" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="2374" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="2412" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k34_title">Taste Jalousie auf (normal)</title>
+  <defs><linearGradient id="k34_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k34_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="70.4" rx="10" fill="url(#k34_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="88" y="8" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,14) scale(0.44)"><path d="M8,14 H66" stroke="#4D4D4D" stroke-width="6" stroke-linecap="round"/><rect x="12" y="25" width="50" height="7" rx="2" fill="#4D4D4D"/><rect x="12" y="38" width="50" height="7" rx="2" fill="#4D4D4D"/><path d="M14,58 H60 M14,71 H60 M14,84 H60" stroke="#C4C4C4" stroke-width="3" stroke-dasharray="5 5" stroke-linecap="round"/><path d="M84,86 V30 M72,42 L84,28 L96,42" fill="none" stroke="#4D4D4D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>
+<text x="962.5" y="2591" class="name">Taste_JalousieAuf</text>
+<text x="962.5" y="2609" class="name">klein_normal</text>
+<text x="962.5" y="2630" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_JalousieAuf_klein_normal_beschriftet">
+<rect x="1159" y="2373" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="2374" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1202.5" y="2412" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k35_title">Taste Jalousie auf (normal, beschriftet)</title>
+  <defs><linearGradient id="k35_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k35_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="70.4" rx="10" fill="url(#k35_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="88" y="8" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,14) scale(0.44)"><path d="M8,14 H66" stroke="#4D4D4D" stroke-width="6" stroke-linecap="round"/><rect x="12" y="25" width="50" height="7" rx="2" fill="#4D4D4D"/><rect x="12" y="38" width="50" height="7" rx="2" fill="#4D4D4D"/><path d="M14,58 H60 M14,71 H60 M14,84 H60" stroke="#C4C4C4" stroke-width="3" stroke-dasharray="5 5" stroke-linecap="round"/><path d="M84,86 V30 M72,42 L84,28 L96,42" fill="none" stroke="#4D4D4D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g><path d="M23.06 42.88 21.84 39.36H16.6L15.38 42.88H12.5L17.52 29.12H20.92L25.92 42.88ZM19.22 31.24 19.16 31.45Q19.06 31.81 18.92 32.25Q18.79 32.7 17.24 37.2H21.2L19.84 33.24L19.42 31.91ZM33.5 43.08Q30.66 43.08 29.15 41.69Q27.64 40.3 27.64 37.72V29.12H30.53V37.5Q30.53 39.13 31.3 39.97Q32.08 40.82 33.58 40.82Q35.12 40.82 35.96 39.94Q36.79 39.05 36.79 37.4V29.12H39.67V37.58Q39.67 40.19 38.05 41.63Q36.43 43.08 33.5 43.08ZM45.11 31.35V35.6H52.15V37.83H45.11V42.88H42.22V29.12H52.37V31.35Z" fill="#2E2E2E"/>
+</svg>
+<text x="1342.5" y="2591" class="name">Taste_JalousieAuf_klein</text>
+<text x="1342.5" y="2609" class="name">normal_beschriftet</text>
+<text x="1342.5" y="2630" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Leer_gross_gedrueckt">
+<rect x="19" y="2661" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="2662" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="124.12" y="2687.5" width="156.75" height="165" viewBox="0 0 152 160" overflow="hidden">
+<title id="k36_title">Taste Leer (gedrückt)</title>
+  <defs><linearGradient id="k36_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k36_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="156" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="154.4" rx="10" fill="url(#k36_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/>
+</svg>
+<text x="202.5" y="2879" class="name">Taste_Leer_gross_gedrueckt</text>
+<text x="202.5" y="2900" class="mass">152 × 160 px</text>
+</g>
+<g id="Taste_Leer_gross_normal">
+<rect x="399" y="2661" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="2662" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="504.12" y="2687.5" width="156.75" height="165" viewBox="0 0 152 160" overflow="hidden">
+<title id="k37_title">Taste Leer (normal)</title>
+  <defs><linearGradient id="k37_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k37_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="156" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="154.4" rx="10" fill="url(#k37_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+</svg>
+<text x="582.5" y="2879" class="name">Taste_Leer_gross_normal</text>
+<text x="582.5" y="2900" class="mass">152 × 160 px</text>
+</g>
+<g id="Taste_Leer_klein_gedrueckt">
+<rect x="779" y="2661" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="2662" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="2700" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k38_title">Taste Leer (gedrückt)</title>
+  <defs><linearGradient id="k38_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k38_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="70.4" rx="10" fill="url(#k38_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/>
+</svg>
+<text x="962.5" y="2879" class="name">Taste_Leer_klein_gedrueckt</text>
+<text x="962.5" y="2900" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_Leer_klein_normal">
+<rect x="1159" y="2661" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="2662" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1202.5" y="2700" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k39_title">Taste Leer (normal)</title>
+  <defs><linearGradient id="k39_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k39_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="70.4" rx="10" fill="url(#k39_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+</svg>
+<text x="1342.5" y="2879" class="name">Taste_Leer_klein_normal</text>
+<text x="1342.5" y="2900" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_LichtAus_gross_gedrueckt">
+<rect x="19" y="2949" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="2950" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="124.12" y="2975.5" width="156.75" height="165" viewBox="0 0 152 160" overflow="hidden">
+<title id="k40_title">Taste Licht aus (gedrückt)</title>
+  <defs><linearGradient id="k40_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k40_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="156" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="154.4" rx="10" fill="url(#k40_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="34" y="14" width="84" height="84" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(40,20) scale(0.72)"><path d="M50,16 a24,24 0 0 1 14,43.5 c-2.4,1.8 -3.5,4 -3.5,6.8 V70 H39.5 V66.3 c0,-2.8 -1.1,-5 -3.5,-6.8 A24,24 0 0 1 50,16 Z" fill="#E6E6E6" stroke="#2E2E2E" stroke-width="4.5" stroke-linejoin="round"/><path d="M40,77 H60 M42.5,84.5 H57.5" stroke="#2E2E2E" stroke-width="4.5" stroke-linecap="round"/></g>
+</svg>
+<text x="202.5" y="3167" class="name">Taste_LichtAus</text>
+<text x="202.5" y="3185" class="name">gross_gedrueckt</text>
+<text x="202.5" y="3206" class="mass">152 × 160 px</text>
+</g>
+<g id="Taste_LichtAus_gross_gedrueckt_beschriftet">
+<rect x="399" y="2949" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="2950" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="504.12" y="2975.5" width="156.75" height="165" viewBox="0 0 152 160" overflow="hidden">
+<title id="k41_title">Taste Licht aus (gedrückt, beschriftet)</title>
+  <defs><linearGradient id="k41_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k41_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="156" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="154.4" rx="10" fill="url(#k41_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="34" y="14" width="84" height="84" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(40,20) scale(0.72)"><path d="M50,16 a24,24 0 0 1 14,43.5 c-2.4,1.8 -3.5,4 -3.5,6.8 V70 H39.5 V66.3 c0,-2.8 -1.1,-5 -3.5,-6.8 A24,24 0 0 1 50,16 Z" fill="#E6E6E6" stroke="#2E2E2E" stroke-width="4.5" stroke-linejoin="round"/><path d="M40,77 H60 M42.5,84.5 H57.5" stroke="#2E2E2E" stroke-width="4.5" stroke-linecap="round"/></g><path d="M64.95 134.57 63.6 130.7H57.83L56.49 134.57H53.32L58.84 119.43H62.58L68.08 134.57ZM60.71 121.76 60.65 122Q60.54 122.39 60.39 122.88Q60.24 123.37 58.54 128.32H62.89L61.4 123.97L60.94 122.5ZM76.43 134.78Q73.3 134.78 71.64 133.26Q69.98 131.73 69.98 128.9V119.43H73.15V128.65Q73.15 130.44 74.01 131.37Q74.86 132.3 76.52 132.3Q78.21 132.3 79.13 131.33Q80.04 130.36 80.04 128.54V119.43H83.21V128.73Q83.21 131.61 81.43 133.2Q79.65 134.78 76.43 134.78ZM98.37 130.21Q98.37 132.43 96.72 133.61Q95.07 134.78 91.88 134.78Q88.97 134.78 87.31 133.75Q85.66 132.72 85.18 130.63L88.25 130.12Q88.56 131.32 89.46 131.87Q90.36 132.41 91.96 132.41Q95.28 132.41 95.28 130.39Q95.28 129.74 94.9 129.33Q94.52 128.91 93.83 128.63Q93.13 128.35 91.17 127.95Q89.47 127.55 88.8 127.31Q88.14 127.07 87.6 126.74Q87.06 126.41 86.69 125.95Q86.31 125.49 86.1 124.87Q85.89 124.24 85.89 123.44Q85.89 121.39 87.44 120.3Q88.98 119.21 91.92 119.21Q94.73 119.21 96.15 120.09Q97.56 120.97 97.97 123L94.9 123.42Q94.66 122.44 93.93 121.95Q93.21 121.45 91.86 121.45Q88.98 121.45 88.98 123.26Q88.98 123.85 89.28 124.22Q89.59 124.6 90.19 124.86Q90.79 125.13 92.63 125.52Q94.81 125.98 95.75 126.38Q96.69 126.77 97.24 127.29Q97.79 127.81 98.08 128.54Q98.37 129.26 98.37 130.21Z" fill="#1A1A1A"/>
+</svg>
+<text x="582.5" y="3167" class="name">Taste_LichtAus_gross</text>
+<text x="582.5" y="3185" class="name">gedrueckt_beschriftet</text>
+<text x="582.5" y="3206" class="mass">152 × 160 px</text>
+</g>
+<g id="Taste_LichtAus_gross_normal">
+<rect x="779" y="2949" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="2950" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="884.12" y="2975.5" width="156.75" height="165" viewBox="0 0 152 160" overflow="hidden">
+<title id="k42_title">Taste Licht aus (normal)</title>
+  <defs><linearGradient id="k42_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k42_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="156" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="154.4" rx="10" fill="url(#k42_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="34" y="12" width="84" height="84" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(40,18) scale(0.72)"><path d="M50,16 a24,24 0 0 1 14,43.5 c-2.4,1.8 -3.5,4 -3.5,6.8 V70 H39.5 V66.3 c0,-2.8 -1.1,-5 -3.5,-6.8 A24,24 0 0 1 50,16 Z" fill="#E6E6E6" stroke="#4D4D4D" stroke-width="4.5" stroke-linejoin="round"/><path d="M40,77 H60 M42.5,84.5 H57.5" stroke="#4D4D4D" stroke-width="4.5" stroke-linecap="round"/></g>
+</svg>
+<text x="962.5" y="3167" class="name">Taste_LichtAus_gross_normal</text>
+<text x="962.5" y="3188" class="mass">152 × 160 px</text>
+</g>
+<g id="Taste_LichtAus_gross_normal_beschriftet">
+<rect x="1159" y="2949" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="2950" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1264.12" y="2975.5" width="156.75" height="165" viewBox="0 0 152 160" overflow="hidden">
+<title id="k43_title">Taste Licht aus (normal, beschriftet)</title>
+  <defs><linearGradient id="k43_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k43_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="156" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="154.4" rx="10" fill="url(#k43_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="34" y="12" width="84" height="84" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(40,18) scale(0.72)"><path d="M50,16 a24,24 0 0 1 14,43.5 c-2.4,1.8 -3.5,4 -3.5,6.8 V70 H39.5 V66.3 c0,-2.8 -1.1,-5 -3.5,-6.8 A24,24 0 0 1 50,16 Z" fill="#E6E6E6" stroke="#4D4D4D" stroke-width="4.5" stroke-linejoin="round"/><path d="M40,77 H60 M42.5,84.5 H57.5" stroke="#4D4D4D" stroke-width="4.5" stroke-linecap="round"/></g><path d="M64.95 132.57 63.6 128.7H57.83L56.49 132.57H53.32L58.84 117.43H62.58L68.08 132.57ZM60.71 119.76 60.65 120Q60.54 120.39 60.39 120.88Q60.24 121.37 58.54 126.32H62.89L61.4 121.97L60.94 120.5ZM76.43 132.78Q73.3 132.78 71.64 131.26Q69.98 129.73 69.98 126.9V117.43H73.15V126.65Q73.15 128.44 74.01 129.37Q74.86 130.3 76.52 130.3Q78.21 130.3 79.13 129.33Q80.04 128.36 80.04 126.54V117.43H83.21V126.73Q83.21 129.61 81.43 131.2Q79.65 132.78 76.43 132.78ZM98.37 128.21Q98.37 130.43 96.72 131.61Q95.07 132.78 91.88 132.78Q88.97 132.78 87.31 131.75Q85.66 130.72 85.18 128.63L88.25 128.12Q88.56 129.32 89.46 129.87Q90.36 130.41 91.96 130.41Q95.28 130.41 95.28 128.39Q95.28 127.74 94.9 127.33Q94.52 126.91 93.83 126.63Q93.13 126.35 91.17 125.95Q89.47 125.55 88.8 125.31Q88.14 125.07 87.6 124.74Q87.06 124.41 86.69 123.95Q86.31 123.49 86.1 122.87Q85.89 122.24 85.89 121.44Q85.89 119.39 87.44 118.3Q88.98 117.21 91.92 117.21Q94.73 117.21 96.15 118.09Q97.56 118.97 97.97 121L94.9 121.42Q94.66 120.44 93.93 119.95Q93.21 119.45 91.86 119.45Q88.98 119.45 88.98 121.26Q88.98 121.85 89.28 122.22Q89.59 122.6 90.19 122.86Q90.79 123.13 92.63 123.52Q94.81 123.98 95.75 124.38Q96.69 124.77 97.24 125.29Q97.79 125.81 98.08 126.54Q98.37 127.26 98.37 128.21Z" fill="#2E2E2E"/>
+</svg>
+<text x="1342.5" y="3167" class="name">Taste_LichtAus_gross</text>
+<text x="1342.5" y="3185" class="name">normal_beschriftet</text>
+<text x="1342.5" y="3206" class="mass">152 × 160 px</text>
+</g>
+<g id="Taste_LichtEin_gross_gedrueckt">
+<rect x="19" y="3237" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="3238" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="124.12" y="3263.5" width="156.75" height="165" viewBox="0 0 152 160" overflow="hidden">
+<title id="k44_title">Taste Licht ein (gedrückt)</title>
+  <defs><linearGradient id="k44_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k44_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="156" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="154.4" rx="10" fill="url(#k44_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="34" y="14" width="84" height="84" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(40,20) scale(0.72)"><path d="M50,16 a24,24 0 0 1 14,43.5 c-2.4,1.8 -3.5,4 -3.5,6.8 V70 H39.5 V66.3 c0,-2.8 -1.1,-5 -3.5,-6.8 A24,24 0 0 1 50,16 Z" fill="url(#k44_licht)" stroke="#2E2E2E" stroke-width="4.5" stroke-linejoin="round"/><path d="M40,77 H60 M42.5,84.5 H57.5" stroke="#2E2E2E" stroke-width="4.5" stroke-linecap="round"/><path d="M50,3 V8 M16,13 L20,17 M84,13 L80,17 M5,40 H10 M90,40 H95" stroke="#2E2E2E" stroke-width="4.5" stroke-linecap="round"/></g>
+</svg>
+<text x="202.5" y="3455" class="name">Taste_LichtEin</text>
+<text x="202.5" y="3473" class="name">gross_gedrueckt</text>
+<text x="202.5" y="3494" class="mass">152 × 160 px</text>
+</g>
+<g id="Taste_LichtEin_gross_gedrueckt_beschriftet">
+<rect x="399" y="3237" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="3238" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="504.12" y="3263.5" width="156.75" height="165" viewBox="0 0 152 160" overflow="hidden">
+<title id="k45_title">Taste Licht ein (gedrückt, beschriftet)</title>
+  <defs><linearGradient id="k45_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k45_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="156" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="154.4" rx="10" fill="url(#k45_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="34" y="14" width="84" height="84" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(40,20) scale(0.72)"><path d="M50,16 a24,24 0 0 1 14,43.5 c-2.4,1.8 -3.5,4 -3.5,6.8 V70 H39.5 V66.3 c0,-2.8 -1.1,-5 -3.5,-6.8 A24,24 0 0 1 50,16 Z" fill="url(#k45_licht)" stroke="#2E2E2E" stroke-width="4.5" stroke-linejoin="round"/><path d="M40,77 H60 M42.5,84.5 H57.5" stroke="#2E2E2E" stroke-width="4.5" stroke-linecap="round"/><path d="M50,3 V8 M16,13 L20,17 M84,13 L80,17 M5,40 H10 M90,40 H95" stroke="#2E2E2E" stroke-width="4.5" stroke-linecap="round"/></g><path d="M59.13 134.57V119.43H71.04V121.88H62.3V125.68H70.38V128.13H62.3V132.12H71.48V134.57ZM73.81 134.57V119.43H76.98V134.57ZM89.14 134.57 82.54 122.91Q82.74 124.61 82.74 125.64V134.57H79.92V119.43H83.54L90.23 131.18Q90.04 129.56 90.04 128.23V119.43H92.85V134.57Z" fill="#1A1A1A"/>
+</svg>
+<text x="582.5" y="3455" class="name">Taste_LichtEin_gross</text>
+<text x="582.5" y="3473" class="name">gedrueckt_beschriftet</text>
+<text x="582.5" y="3494" class="mass">152 × 160 px</text>
+</g>
+<g id="Taste_LichtEin_gross_normal">
+<rect x="779" y="3237" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="3238" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="884.12" y="3263.5" width="156.75" height="165" viewBox="0 0 152 160" overflow="hidden">
+<title id="k46_title">Taste Licht ein (normal)</title>
+  <defs><linearGradient id="k46_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k46_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="156" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="154.4" rx="10" fill="url(#k46_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="34" y="12" width="84" height="84" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(40,18) scale(0.72)"><path d="M50,16 a24,24 0 0 1 14,43.5 c-2.4,1.8 -3.5,4 -3.5,6.8 V70 H39.5 V66.3 c0,-2.8 -1.1,-5 -3.5,-6.8 A24,24 0 0 1 50,16 Z" fill="url(#k46_licht)" stroke="#4D4D4D" stroke-width="4.5" stroke-linejoin="round"/><path d="M40,77 H60 M42.5,84.5 H57.5" stroke="#4D4D4D" stroke-width="4.5" stroke-linecap="round"/><path d="M50,3 V8 M16,13 L20,17 M84,13 L80,17 M5,40 H10 M90,40 H95" stroke="#4D4D4D" stroke-width="4.5" stroke-linecap="round"/></g>
+</svg>
+<text x="962.5" y="3455" class="name">Taste_LichtEin_gross_normal</text>
+<text x="962.5" y="3476" class="mass">152 × 160 px</text>
+</g>
+<g id="Taste_LichtEin_gross_normal_beschriftet">
+<rect x="1159" y="3237" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="3238" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1264.12" y="3263.5" width="156.75" height="165" viewBox="0 0 152 160" overflow="hidden">
+<title id="k47_title">Taste Licht ein (normal, beschriftet)</title>
+  <defs><linearGradient id="k47_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k47_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="156" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="154.4" rx="10" fill="url(#k47_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="34" y="12" width="84" height="84" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(40,18) scale(0.72)"><path d="M50,16 a24,24 0 0 1 14,43.5 c-2.4,1.8 -3.5,4 -3.5,6.8 V70 H39.5 V66.3 c0,-2.8 -1.1,-5 -3.5,-6.8 A24,24 0 0 1 50,16 Z" fill="url(#k47_licht)" stroke="#4D4D4D" stroke-width="4.5" stroke-linejoin="round"/><path d="M40,77 H60 M42.5,84.5 H57.5" stroke="#4D4D4D" stroke-width="4.5" stroke-linecap="round"/><path d="M50,3 V8 M16,13 L20,17 M84,13 L80,17 M5,40 H10 M90,40 H95" stroke="#4D4D4D" stroke-width="4.5" stroke-linecap="round"/></g><path d="M59.13 132.57V117.43H71.04V119.88H62.3V123.68H70.38V126.13H62.3V130.12H71.48V132.57ZM73.81 132.57V117.43H76.98V132.57ZM89.14 132.57 82.54 120.91Q82.74 122.61 82.74 123.64V132.57H79.92V117.43H83.54L90.23 129.18Q90.04 127.56 90.04 126.23V117.43H92.85V132.57Z" fill="#2E2E2E"/>
+</svg>
+<text x="1342.5" y="3455" class="name">Taste_LichtEin_gross</text>
+<text x="1342.5" y="3473" class="name">normal_beschriftet</text>
+<text x="1342.5" y="3494" class="mass">152 × 160 px</text>
+</g>
+<g id="Taste_MultimediaAus_klein_gedrueckt">
+<rect x="19" y="3525" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="3526" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="3564" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k48_title">Taste Multimedia aus (gedrückt)</title>
+  <defs><linearGradient id="k48_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k48_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="70.4" rx="10" fill="url(#k48_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="88" y="10" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,16) scale(0.44)"><rect x="8" y="14" width="84" height="56" rx="6" fill="#5A5A5A" stroke="#2E2E2E" stroke-width="5"/><path d="M50,72 V84 M32,86 H68" stroke="#2E2E2E" stroke-width="5" stroke-linecap="round"/><path d="M41.5,33.5 a12,12 0 1 0 17,0" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/><path d="M50,29 V42" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/></g>
+</svg>
+<text x="202.5" y="3743" class="name">Taste_MultimediaAus</text>
+<text x="202.5" y="3761" class="name">klein_gedrueckt</text>
+<text x="202.5" y="3782" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_MultimediaAus_klein_gedrueckt_beschriftet">
+<rect x="399" y="3525" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="3526" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="442.5" y="3564" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k49_title">Taste Multimedia aus (gedrückt, beschriftet)</title>
+  <defs><linearGradient id="k49_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k49_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="70.4" rx="10" fill="url(#k49_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="88" y="10" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,16) scale(0.44)"><rect x="8" y="14" width="84" height="56" rx="6" fill="#5A5A5A" stroke="#2E2E2E" stroke-width="5"/><path d="M50,72 V84 M32,86 H68" stroke="#2E2E2E" stroke-width="5" stroke-linecap="round"/><path d="M41.5,33.5 a12,12 0 1 0 17,0" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/><path d="M50,29 V42" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/></g><path d="M23.06 44.88 21.84 41.36H16.6L15.38 44.88H12.5L17.52 31.12H20.92L25.92 44.88ZM19.22 33.24 19.16 33.45Q19.06 33.81 18.92 34.25Q18.79 34.7 17.24 39.2H21.2L19.84 35.24L19.42 33.91ZM33.5 45.08Q30.66 45.08 29.15 43.69Q27.64 42.3 27.64 39.72V31.12H30.53V39.5Q30.53 41.13 31.3 41.97Q32.08 42.82 33.58 42.82Q35.12 42.82 35.96 41.94Q36.79 41.05 36.79 39.4V31.12H39.67V39.58Q39.67 42.19 38.05 43.63Q36.43 45.08 33.5 45.08ZM53.45 40.92Q53.45 42.94 51.95 44.01Q50.45 45.08 47.55 45.08Q44.9 45.08 43.4 44.14Q41.89 43.2 41.46 41.3L44.25 40.84Q44.53 41.93 45.35 42.42Q46.17 42.92 47.62 42.92Q50.64 42.92 50.64 41.08Q50.64 40.5 50.3 40.11Q49.95 39.73 49.32 39.48Q48.69 39.23 46.9 38.86Q45.36 38.5 44.75 38.28Q44.15 38.06 43.66 37.77Q43.17 37.47 42.83 37.05Q42.49 36.63 42.3 36.06Q42.11 35.5 42.11 34.76Q42.11 32.9 43.51 31.91Q44.91 30.92 47.59 30.92Q50.14 30.92 51.43 31.72Q52.71 32.52 53.08 34.36L50.29 34.74Q50.08 33.85 49.42 33.41Q48.76 32.96 47.53 32.96Q44.91 32.96 44.91 34.6Q44.91 35.13 45.19 35.48Q45.47 35.82 46.01 36.06Q46.56 36.3 48.23 36.66Q50.21 37.08 51.07 37.43Q51.92 37.79 52.42 38.26Q52.92 38.74 53.18 39.4Q53.45 40.06 53.45 40.92Z" fill="#1A1A1A"/>
+</svg>
+<text x="582.5" y="3743" class="name">Taste_MultimediaAus_klein</text>
+<text x="582.5" y="3761" class="name">gedrueckt_beschriftet</text>
+<text x="582.5" y="3782" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_MultimediaAus_klein_normal">
+<rect x="779" y="3525" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="3526" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="3564" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k50_title">Taste Multimedia aus (normal)</title>
+  <defs><linearGradient id="k50_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k50_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="70.4" rx="10" fill="url(#k50_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="88" y="8" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,14) scale(0.44)"><rect x="8" y="14" width="84" height="56" rx="6" fill="#5A5A5A" stroke="#4D4D4D" stroke-width="5"/><path d="M50,72 V84 M32,86 H68" stroke="#4D4D4D" stroke-width="5" stroke-linecap="round"/><path d="M41.5,33.5 a12,12 0 1 0 17,0" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/><path d="M50,29 V42" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/></g>
+</svg>
+<text x="962.5" y="3743" class="name">Taste_MultimediaAus</text>
+<text x="962.5" y="3761" class="name">klein_normal</text>
+<text x="962.5" y="3782" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_MultimediaAus_klein_normal_beschriftet">
+<rect x="1159" y="3525" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="3526" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1202.5" y="3564" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k51_title">Taste Multimedia aus (normal, beschriftet)</title>
+  <defs><linearGradient id="k51_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k51_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="70.4" rx="10" fill="url(#k51_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="88" y="8" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,14) scale(0.44)"><rect x="8" y="14" width="84" height="56" rx="6" fill="#5A5A5A" stroke="#4D4D4D" stroke-width="5"/><path d="M50,72 V84 M32,86 H68" stroke="#4D4D4D" stroke-width="5" stroke-linecap="round"/><path d="M41.5,33.5 a12,12 0 1 0 17,0" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/><path d="M50,29 V42" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/></g><path d="M23.06 42.88 21.84 39.36H16.6L15.38 42.88H12.5L17.52 29.12H20.92L25.92 42.88ZM19.22 31.24 19.16 31.45Q19.06 31.81 18.92 32.25Q18.79 32.7 17.24 37.2H21.2L19.84 33.24L19.42 31.91ZM33.5 43.08Q30.66 43.08 29.15 41.69Q27.64 40.3 27.64 37.72V29.12H30.53V37.5Q30.53 39.13 31.3 39.97Q32.08 40.82 33.58 40.82Q35.12 40.82 35.96 39.94Q36.79 39.05 36.79 37.4V29.12H39.67V37.58Q39.67 40.19 38.05 41.63Q36.43 43.08 33.5 43.08ZM53.45 38.92Q53.45 40.94 51.95 42.01Q50.45 43.08 47.55 43.08Q44.9 43.08 43.4 42.14Q41.89 41.2 41.46 39.3L44.25 38.84Q44.53 39.93 45.35 40.42Q46.17 40.92 47.62 40.92Q50.64 40.92 50.64 39.08Q50.64 38.5 50.3 38.11Q49.95 37.73 49.32 37.48Q48.69 37.23 46.9 36.86Q45.36 36.5 44.75 36.28Q44.15 36.06 43.66 35.77Q43.17 35.47 42.83 35.05Q42.49 34.63 42.3 34.06Q42.11 33.5 42.11 32.76Q42.11 30.9 43.51 29.91Q44.91 28.92 47.59 28.92Q50.14 28.92 51.43 29.72Q52.71 30.52 53.08 32.36L50.29 32.74Q50.08 31.85 49.42 31.41Q48.76 30.96 47.53 30.96Q44.91 30.96 44.91 32.6Q44.91 33.13 45.19 33.48Q45.47 33.82 46.01 34.06Q46.56 34.3 48.23 34.66Q50.21 35.08 51.07 35.43Q51.92 35.79 52.42 36.26Q52.92 36.74 53.18 37.4Q53.45 38.06 53.45 38.92Z" fill="#2E2E2E"/>
+</svg>
+<text x="1342.5" y="3743" class="name">Taste_MultimediaAus</text>
+<text x="1342.5" y="3761" class="name">klein_normal_beschriftet</text>
+<text x="1342.5" y="3782" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_MultimediaEin_klein_gedrueckt">
+<rect x="19" y="3813" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="3814" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="3852" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k52_title">Taste Multimedia ein (gedrückt)</title>
+  <defs><linearGradient id="k52_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k52_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="70.4" rx="10" fill="url(#k52_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="88" y="10" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,16) scale(0.44)"><rect x="8" y="14" width="84" height="56" rx="6" fill="#FFFFFF" stroke="#2E2E2E" stroke-width="5"/><path d="M50,72 V84 M32,86 H68" stroke="#2E2E2E" stroke-width="5" stroke-linecap="round"/><path d="M42,29 L62,42 L42,55 Z" fill="#2E2E2E" stroke="#2E2E2E" stroke-width="3" stroke-linejoin="round"/></g>
+</svg>
+<text x="202.5" y="4031" class="name">Taste_MultimediaEin</text>
+<text x="202.5" y="4049" class="name">klein_gedrueckt</text>
+<text x="202.5" y="4070" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_MultimediaEin_klein_gedrueckt_beschriftet">
+<rect x="399" y="3813" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="3814" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="442.5" y="3852" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k53_title">Taste Multimedia ein (gedrückt, beschriftet)</title>
+  <defs><linearGradient id="k53_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C2C2C2"/><stop offset="1" stop-color="#9E9E9E"/></linearGradient><linearGradient id="k53_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="2.8" width="150.4" height="70.4" rx="10" fill="url(#k53_k)" stroke="#6E6E6E" stroke-width="1.6"/><path d="M10,7.4 H142" stroke="#000000" stroke-width="2.4" stroke-linecap="round" opacity=".18"/><rect x="88" y="10" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.25" stroke="#6E6E6E" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,16) scale(0.44)"><rect x="8" y="14" width="84" height="56" rx="6" fill="#FFFFFF" stroke="#2E2E2E" stroke-width="5"/><path d="M50,72 V84 M32,86 H68" stroke="#2E2E2E" stroke-width="5" stroke-linecap="round"/><path d="M42,29 L62,42 L42,55 Z" fill="#2E2E2E" stroke="#2E2E2E" stroke-width="3" stroke-linejoin="round"/></g><path d="M13.34 44.88V31.12H24.16V33.35H16.22V36.8H23.56V39.03H16.22V42.65H24.56V44.88ZM26.68 44.88V31.12H29.56V44.88ZM40.61 44.88 34.62 34.28Q34.79 35.83 34.79 36.76V44.88H32.23V31.12H35.53L41.61 41.8Q41.43 40.33 41.43 39.12V31.12H43.99V44.88Z" fill="#1A1A1A"/>
+</svg>
+<text x="582.5" y="4031" class="name">Taste_MultimediaEin_klein</text>
+<text x="582.5" y="4049" class="name">gedrueckt_beschriftet</text>
+<text x="582.5" y="4070" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_MultimediaEin_klein_normal">
+<rect x="779" y="3813" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="3814" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="3852" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k54_title">Taste Multimedia ein (normal)</title>
+  <defs><linearGradient id="k54_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k54_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="70.4" rx="10" fill="url(#k54_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="88" y="8" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,14) scale(0.44)"><rect x="8" y="14" width="84" height="56" rx="6" fill="#FFFFFF" stroke="#4D4D4D" stroke-width="5"/><path d="M50,72 V84 M32,86 H68" stroke="#4D4D4D" stroke-width="5" stroke-linecap="round"/><path d="M42,29 L62,42 L42,55 Z" fill="#4D4D4D" stroke="#4D4D4D" stroke-width="3" stroke-linejoin="round"/></g>
+</svg>
+<text x="962.5" y="4031" class="name">Taste_MultimediaEin</text>
+<text x="962.5" y="4049" class="name">klein_normal</text>
+<text x="962.5" y="4070" class="mass">152 × 76 px</text>
+</g>
+<g id="Taste_MultimediaEin_klein_normal_beschriftet">
+<rect x="1159" y="3813" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="3814" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1202.5" y="3852" width="280" height="140" viewBox="0 0 152 76" overflow="hidden">
+<title id="k55_title">Taste Multimedia ein (normal, beschriftet)</title>
+  <defs><linearGradient id="k55_k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFAFA"/><stop offset="1" stop-color="#D6D6D6"/></linearGradient><linearGradient id="k55_licht" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFEB8F"/><stop offset="1" stop-color="#E3B200"/></linearGradient></defs>
+  <rect x="1" y="4" width="150" height="72" rx="10" fill="#000000" opacity=".35"/><rect x=".8" y="0.8" width="150.4" height="70.4" rx="10" fill="url(#k55_k)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M10,3.4 H142" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity=".9"/><rect x="88" y="8" width="56" height="56" rx="8" fill="#FFFFFF" fill-opacity="0.6" stroke="#8C8C8C" stroke-opacity=".45" stroke-width="1.2"/><g transform="translate(94,14) scale(0.44)"><rect x="8" y="14" width="84" height="56" rx="6" fill="#FFFFFF" stroke="#4D4D4D" stroke-width="5"/><path d="M50,72 V84 M32,86 H68" stroke="#4D4D4D" stroke-width="5" stroke-linecap="round"/><path d="M42,29 L62,42 L42,55 Z" fill="#4D4D4D" stroke="#4D4D4D" stroke-width="3" stroke-linejoin="round"/></g><path d="M13.34 42.88V29.12H24.16V31.35H16.22V34.8H23.56V37.03H16.22V40.65H24.56V42.88ZM26.68 42.88V29.12H29.56V42.88ZM40.61 42.88 34.62 32.28Q34.79 33.83 34.79 34.76V42.88H32.23V29.12H35.53L41.61 39.8Q41.43 38.33 41.43 37.12V29.12H43.99V42.88Z" fill="#2E2E2E"/>
+</svg>
+<text x="1342.5" y="4031" class="name">Taste_MultimediaEin</text>
+<text x="1342.5" y="4049" class="name">klein_normal_beschriftet</text>
+<text x="1342.5" y="4070" class="mass">152 × 76 px</text>
+</g>
+<g id="Wertfeld_klein">
+<rect x="19" y="4101" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="4102" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="4169.47" width="280" height="81.05" viewBox="0 0 152 44" overflow="hidden">
+<title id="k56_title">Wertfeld</title>
+  <defs><linearGradient id="k56_w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#DCDCDC"/><stop offset=".25" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F7F7F7"/></linearGradient></defs>
+  <rect x=".8" y=".8" width="150.4" height="42.4" rx="8" fill="url(#k56_w)" stroke="#8C8C8C" stroke-width="1.6"/><path d="M9,3.4 H143" stroke="#000000" stroke-width="2" stroke-linecap="round" opacity=".1"/>
+</svg>
+<text x="202.5" y="4319" class="name">Wertfeld_klein</text>
+<text x="202.5" y="4340" class="mass">152 × 44 px</text>
+</g>
+</svg>

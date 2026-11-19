@@ -389,6 +389,22 @@ Einzelne Flanschanschlüsse zum Anlegen an Geräte oder Leitungen, alle 24 × 24
 - `_normal`: hellgrau, dunkelgraue Flamme als Umriss, statisch. `_alarm`: rot, Füllung pulsiert schnell (0,6 s), gefüllte Flamme flackert, Alarmwellen blinken (2 Hz).
 - Umschalten über Boolean-Binding auf `image`. Erzeugt mit `tools/brandalarm.py`.
 
+## Bedienung
+
+### Tableau (`symbole/bedienung/tableau/`)
+
+Tasten und Wertfeld für Bedientableaus (Raumbedienung), hellgrau mit Schatten, Piktogramm in einem hellen Feld; Beschriftung als Pfad.
+
+| Symbol | Größe | Darstellung |
+|---|---|---|
+| `Taste_<Funktion>_klein_{normal,gedrueckt}[_beschriftet]` | 152 × 76 | Piktogramm rechts, Beschriftung links |
+| `Taste_<Funktion>_gross_{normal,gedrueckt}[_beschriftet]` | 152 × 160 | Piktogramm oben, Beschriftung unten |
+| `Wertfeld_klein` | 152 × 44 | leeres Feld für einen Wert (Niagara-Label darüber) |
+
+- Funktionen klein: `Dimmen20`, `Dimmen40`, `Dimmen60`, `Dimmen80`, `Dimmen100` (Balken), `JalousieAb`, `JalousieAuf`, `MultimediaEin`, `MultimediaAus`, `Leer`. Groß: `JalousieAb`, `JalousieAuf`, `LichtEin`, `LichtAus`, `Leer`.
+- `_normal`: Taste oben, hell. `_gedrueckt`: Taste dunkler und um 2 px nach unten versetzt (Schatten bleibt), Piktogramm dunkler. Beide Zustände gleich groß; Umschalten per `image`-Binding beim Drücken.
+- `_beschriftet`: zusätzlich mit Text (als Pfad), z. B. „20 %“, „AB“, „AUF“, „EIN“, „AUS“. `Leer` ohne Piktogramm und ohne beschriftete Variante.
+
 ## Fun
 
 Verspielte Cartoon-Symbole unter `symbole/fun/` (Gruppen wie in der Hauptstruktur: `anzeigen/`, `hydraulik/pumpen/`, `hydraulik/speicher/`, `navigation/`), 48 × 48, dunkelbraune Kontur `#3B2412`, animiert per SMIL. Zum Danebenstellen von Messwerten.

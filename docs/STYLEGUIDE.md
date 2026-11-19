@@ -102,7 +102,7 @@ Falls feste Größen nötig sind (lange Seite): 20, 30, 40, 50, 60, 80, 100, 120
 ## Verzeichnisse
 
 - Symbole liegen immer in einer Gruppe: `symbole/<Fachbereich>/<Gruppe>/`, bei Bedarf mit Untergruppe (z. B. `fun/hydraulik/pumpen/`). Direkt im Fachbereich liegen keine Dateien.
-- Fachbereiche: `allgemein`, `lueftung`, `hydraulik`, `anzeigen`, `topologie`, `fun`. `fun` spiegelt die Gruppen der Hauptstruktur (`fun/anzeigen`, `fun/hydraulik/…`), dazu `fun/navigation`.
+- Fachbereiche: `allgemein`, `lueftung`, `hydraulik`, `anzeigen`, `bedienung`, `topologie`, `fun`. `fun` spiegelt die Gruppen der Hauptstruktur (`fun/anzeigen`, `fun/hydraulik/…`), dazu `fun/navigation`.
 - Ordnernamen klein geschrieben, Mehrzahl oder Sammelbegriff, Umlaute ausgeschrieben (`klimageraete`, `luftdurchlaesse`, `zaehler`).
 - Neue Gruppe anlegen, sobald eine Symbolfamilie nicht in eine bestehende passt. Eine Gruppe mit nur einem Symbol ist in Ordnung.
 

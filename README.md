@@ -32,6 +32,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
     anschluesse/         Einzelne Flanschanschlüsse: Geräteflansch (6 Farben, 4 Richtungen), Flanschplatte, Flanschpaar
   anzeigen/
     led/                 LEDs rund und eckig, statisch und animiert
+    schalter/            Reparaturschalter (Ein, Aus)
     punkte/              Dezent blinkende Punkte
     betriebsart/         Betriebsart Normal/Leise
     freigabe/            Freigabe / keine Freigabe, 24 × 24, fünf Varianten
@@ -57,6 +58,7 @@ tools/
   check_symbols.py       Prüft symbole/ auf Regeln (nur SVG, kein <text>, Namensschema)
   text_zu_pfad.ps1       Wandelt <text> in einer SVG in Pfade um (Windows)
   pumpe.py               Erzeugt die Pumpensymbole unter symbole/hydraulik/pumpen/
+  reparaturschalter.py   Erzeugt den Reparaturschalter unter symbole/anzeigen/schalter/
   rauch.py               Erzeugt den Brennerrauch unter symbole/hydraulik/erzeuger/ (animiert + statisch)
   flamme.py              Erzeugt die Brennerflammen unter symbole/hydraulik/erzeuger/ (animiert + statisch)
   fun_pumpe.py           Erzeugt die Fun-Pumpen unter symbole/fun/hydraulik/pumpen/ (baut auf pumpe.py auf)
@@ -157,6 +159,9 @@ Jede Grafik zeigt alle Symbole einer Gruppe mit Dateinamen und Größe. Die Symb
 ![Anschlüsse](docs/uebersicht/Uebersicht_hydraulik_anschluesse.svg)
 
 ### Anzeigen – `symbole/anzeigen`
+
+**Schalter** (`schalter`)
+![Schalter](docs/uebersicht/Uebersicht_anzeigen_schalter.svg)
 
 **LEDs** (`led`)
 ![LEDs](docs/uebersicht/Uebersicht_anzeigen_led.svg)

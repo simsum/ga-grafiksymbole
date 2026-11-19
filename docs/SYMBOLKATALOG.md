@@ -305,6 +305,11 @@ Einzelne Flanschanschlüsse zum Anlegen an Geräte oder Leitungen, alle 24 × 24
 
 ## Anzeigen
 
+### Reparaturschalter (`symbole/anzeigen/schalter/`)
+
+- `Reparaturschalter_{ein,aus}`: eckige Plakette 24 × 24 (wie Kanalrauchmelder und Brandalarm), darin ein klassischer Hauptschalter mit gelbem Grund, rotem Drehgriff und den Markierungen „I“ und „0“. Beide Dateien gleich groß. Erzeugt mit `tools/reparaturschalter.py`.
+- `_ein`: Griff senkrecht auf „I“, Plakette hellgrau, statisch. `_aus`: Griff waagerecht auf „0“, Plakette gelb und pulsiert weich (1,4 s), Vorhängeschloss unten links.
+
 ### LEDs (flache Version)
 
 - 32 × 32 inkl. Lichtschein, LED selbst ca. 21 px.

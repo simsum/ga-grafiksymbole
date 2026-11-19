@@ -29,7 +29,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
     pumpen/              Pumpen in vier Richtungen und vier Zuständen
     erzeuger/            Kessel, Gastherme, Brenner (Flamme, Rauch), Wärmepumpe, Mehrleitermaschine
     speicher/            Pufferspeicher, Schichtspeicher
-    zaehler/             Wärme-, Kälte-, Wasser- und Elektrozähler
+    zaehler/             Wärme-, Kälte-, Wasser-, Gas- und Elektrozähler, auch mit Messrad oder Ultraschall
     anschluesse/         Einzelne Flanschanschlüsse: Geräteflansch (6 Farben, 4 Richtungen), Flanschplatte, Flanschpaar
   anzeigen/
     led/                 LEDs rund und eckig, statisch und animiert
@@ -61,6 +61,7 @@ tools/
   text_zu_pfad.ps1       Wandelt <text> in einer SVG in Pfade um (Windows)
   pumpe.py               Erzeugt die Pumpensymbole unter symbole/hydraulik/pumpen/
   reparaturschalter.py   Erzeugt den Reparaturschalter unter symbole/anzeigen/schalter/
+  zaehler_messrad_ultraschall.py  Erzeugt die Zähler mit Messrad und Ultraschall unter symbole/hydraulik/zaehler/
   rauch.py               Erzeugt den Brennerrauch unter symbole/hydraulik/erzeuger/ (animiert + statisch)
   flamme.py              Erzeugt die Brennerflammen unter symbole/hydraulik/erzeuger/ (animiert + statisch)
   fun_pumpe.py           Erzeugt die Fun-Pumpen unter symbole/fun/hydraulik/pumpen/ (baut auf pumpe.py auf)

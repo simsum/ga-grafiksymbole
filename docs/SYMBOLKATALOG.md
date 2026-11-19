@@ -109,16 +109,16 @@ Rotationswärmetauscher: `_aus` Rad steht; `_an` Rad dreht (SMIL), Lamellen lauf
 
 ### Kanalrauchmelder (`symbole/lueftung/rauchmelder/`)
 
-- `Kanalrauchmelder_<lage>_<zustand>`: hellgraues, quadratisches Gehäuse (30 × 30) mit runder Messkammer in Zustandsfarbe (grauer fester Ring wie bei Pumpe und Ventilator), Messrohr mit Ansauglöchern ragt in den Kanal. Erzeugt mit `tools/kanalrauchmelder.py`.
-- Lage = Seite des Kanals, auf der das Gerät sitzt. Alle Dateien 52 × 52, in jedem Zustand und jeder Lage gleich groß; Gehäuse und Rohr liegen je Lage immer an derselben Stelle. `oben`/`unten` für waagerechte Kanäle, Rohrende auf der Kanalmitte bei x = 26, y = 52 bzw. y = 0. `links`/`rechts` für senkrechte Kanäle, Rohrende bei x = 52 bzw. x = 0, y = 26.
+- `Kanalrauchmelder_<lage>_<zustand>`: kompakt wie der Frostschutzwächter, eckige Plakette 24 × 24 in Zustandsfarbe mit festem grauem Rand, darin „RM“ (Pfad, dunkelgrau `#4D4D4D`); ein schlankes Messrohr führt zur Kanalmitte. Erzeugt mit `tools/kanalrauchmelder.py`.
+- Alle Dateien 40 × 40, in jedem Zustand und jeder Lage gleich groß; Plakette und Rohr liegen je Lage immer an derselben Stelle. Lage = Seite des Kanals, auf der das Gerät sitzt: `oben` (Rohrende x = 20, y = 40), `unten` (x = 20, y = 0), `links` (x = 40, y = 20), `rechts` (x = 0, y = 20).
 
 | Zustand | Suffix | Darstellung |
 |---|---|---|
-| Normal | `_normal` | grün, statisch |
-| Luftstrom in Ordnung | `_luftstrom` | grün, weißer Ring dreht, helle Punkte steigen im Messrohr zum Gehäuse |
-| Wartung | `_wartung` | gelb, Kammer pulsiert weich (1,4 s) mit dunklem Warndreieck |
-| Alarm | `_alarm` | rot, Kammer pulsiert schnell (0,6 s), Rauch quillt auf, Alarmwellen blinken (2 Hz) |
-| Störung | `_stoerung` | rot wie alle Störungen, Kammer pulsiert weich (1,4 s) mit rotem Warndreieck |
+| Normal | `_normal` | hellgrau, „RM“, statisch |
+| Luftstrom in Ordnung | `_luftstrom` | grün, „RM“, helle Punkte steigen im Messrohr zur Plakette |
+| Wartung | `_wartung` | gelb, Füllung pulsiert weich (1,4 s), dunkles Warndreieck |
+| Alarm | `_alarm` | rot, Füllung pulsiert schnell (0,6 s), statt „RM“ quellen graue Rauchballen auf, Alarmwellen blinken (2 Hz) |
+| Störung | `_stoerung` | rot wie alle Störungen, Füllung pulsiert weich (1,4 s), rotes Warndreieck |
 
 ### Frostschutzwächter (`symbole/lueftung/frostschutz/`)
 

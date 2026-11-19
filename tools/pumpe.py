@@ -12,12 +12,14 @@ Zustände:
   _stoerung   rot, pulsiert weich (1,4 s), kleines Warndreieck mit „!“ in der Mitte pulsiert mit
   _an_punkte  wie _an, statt der Fließpfeile laufen drei helle Punkte in einer Spur zur Spitze
               (wie bei Flusspfeil_*_an)
+Außenring (1,6 px) und Förderdreieck immer grau (#808080, Kontur „aus“); nur die Füllung zeigt den Zustand,
+bei Freigabe und Störung pulsiert nur die Füllung, der Ring bleibt fest.
 Animation per SMIL. Ohne Animation (Darstellung ohne SMIL) bleibt die Zustandsfarbe sichtbar,
 nur Fließpfeile und Bewegung fehlen.
 """
 from pathlib import Path
 
-from zustandsfarben import ZUSTAENDE
+from zustandsfarben import AUS, ZUSTAENDE
 
 RICHTUNGEN = {"oben": 0, "rechts": 90, "unten": 180, "links": 270}
 
@@ -27,7 +29,8 @@ TITEL = {"aus": "aus", "freigabe": "Freigabe", "an": "Betrieb", "stoerung": "St�
 PULS = ('<animate attributeName="opacity" values="1;0.35;1" keyTimes="0;0.5;1" calcMode="spline" '
         'keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="1.4s" repeatCount="indefinite"/>')
 DREHUNG = '<animateTransform attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="1.6s" repeatCount="indefinite"/>'
-DREIECK = '<path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="#4D4D4D" stroke="#4D4D4D" stroke-width="1.2" stroke-linejoin="round"/>'
+GRAU = AUS[2]   # Außenring und Förderdreieck in allen Zuständen grau (wie beim Ventilator)
+DREIECK = f'<path d="M20,5 L32.5,28.5 L7.5,28.5 Z" fill="{GRAU}" stroke="{GRAU}" stroke-width="1.2" stroke-linejoin="round"/>'
 
 
 def fliesspfeil(beginn: str) -> str:
@@ -43,8 +46,10 @@ def fliesspunkt(beginn: str) -> str:
 
 
 def svg(richtung: str, zustand: str, punkte: bool = False) -> str:
-    oben, unten, kontur = FARBEN[zustand]
-    kreis = f'<circle cx="20" cy="20" r="18" fill="url(#gK)" stroke="{kontur}" stroke-width="1.6"/>'
+    oben, unten, _ = FARBEN[zustand]
+    # Nur die Füllung trägt den Zustand und pulsiert; der graue Außenring liegt fest darüber
+    kreis = '<circle cx="20" cy="20" r="18" fill="url(#gK)"/>'
+    ring = f'<circle cx="20" cy="20" r="18" fill="none" stroke="{GRAU}" stroke-width="1.6"/>'
     s = ['<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" role="img" aria-labelledby="title">',
          f'  <title id="title">Pumpe, Förderrichtung {richtung}, {TITEL[zustand]}{", Fließpunkte" if punkte else ""}</title>',
          f'  <defs><linearGradient id="gK" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{oben}"/><stop offset="1" stop-color="{unten}"/></linearGradient></defs>']
@@ -52,6 +57,7 @@ def svg(richtung: str, zustand: str, punkte: bool = False) -> str:
         s.append(f'  <g>{PULS}{kreis}</g>')
     else:
         s.append(f'  {kreis}')
+    s.append(f'  {ring}')
     if zustand == "an":
         s.append(f'  <circle cx="20" cy="20" r="16" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="2" stroke-linecap="round" stroke-dasharray="22 11.5">{DREHUNG}</circle>')
     s.append(f'  <g transform="rotate({RICHTUNGEN[richtung]} 20 20)">')
@@ -77,8 +83,8 @@ if __name__ == "__main__":
     for richtung in RICHTUNGEN:
         for zustand in FARBEN:
             p = out / f"Pumpe_{richtung}_{zustand}.svg"
-            p.write_text(svg(richtung, zustand), encoding="utf-8")
+            p.write_text(svg(richtung, zustand), encoding="utf-8", newline="\n")
             print(p)
         p = out / f"Pumpe_{richtung}_an_punkte.svg"
-        p.write_text(svg(richtung, "an", punkte=True), encoding="utf-8")
+        p.write_text(svg(richtung, "an", punkte=True), encoding="utf-8", newline="\n")
         print(p)

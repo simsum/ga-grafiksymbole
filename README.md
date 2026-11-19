@@ -16,6 +16,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
   lueftung/
     klimageraete/        Klimakonvektor
     ventilatoren/        Ventilatoren in vier Richtungen und fünf Zuständen, auch mit Lüfterflügel
+    filter/              Luftfilter und Taschenfilter, sauber und verschmutzt
     luftdurchlaesse/     Deckenluftdurchlass
     volumenstromregler/  Volumenstromregler rund und eckig
     wrg/                 Wärmerückgewinnung (Plattenwärmetauscher, Rotationswärmetauscher)
@@ -62,6 +63,7 @@ tools/
   klappen.py             Erzeugt die Klappensymbole unter symbole/lueftung/klappen/
   wrg_rotation.py        Erzeugt die Rotationswärmetauscher unter symbole/lueftung/wrg/
   ventilator.py          Erzeugt die Ventilatoren unter symbole/lueftung/ventilatoren/ (baut auf pumpe.py auf)
+  filter.py              Erzeugt die Luftfilter unter symbole/lueftung/filter/
   monatsleiste.py        Erzeugt symbole/fun/navigation/Fun_Monatsleiste.svg (Schrift Chewy als Pfade, fonttools)
   zip_erstellen.py       Packt symbole/ und LICENSE in dist/ga-grafiksymbole.zip (von der Action genutzt)
   freigabe.py            Erzeugt die Freigabe-Anzeigen unter symbole/anzeigen/freigabe/
@@ -104,6 +106,9 @@ Jede Grafik zeigt alle Symbole einer Gruppe mit Dateinamen und Größe. Die Symb
 
 **Ventilatoren** (`ventilatoren`)
 ![Ventilatoren](docs/uebersicht/Uebersicht_lueftung_ventilatoren.svg)
+
+**Filter** (`filter`)
+![Filter](docs/uebersicht/Uebersicht_lueftung_filter.svg)
 
 **Klimageräte** (`klimageraete`)
 ![Klimageräte](docs/uebersicht/Uebersicht_lueftung_klimageraete.svg)

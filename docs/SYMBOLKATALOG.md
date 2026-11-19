@@ -100,6 +100,13 @@ Rotationswärmetauscher: `_aus` Rad steht; `_an` Rad dreht (SMIL), Lamellen lauf
 - `Ventilator_Fluegel_{richtung}_{zustand}`: statt des drehenden Rings ein angedeutetes Lüfterrad (drei helle Flügel), dreht bei `_an`; Luftpfeile und Punkte dunkel.
 - Richtungen `oben`, `rechts`, `unten`, `links` (Förderrichtung, fest gedreht). Mittig auf die Kanalachse setzen.
 
+### Filter (`symbole/lueftung/filter/`)
+
+- `rechts`, `links`: 40 × 80 für waagerechte Kanäle, Kanalachse y = 40. `oben`, `unten`: 80 × 40 für senkrechte Kanäle, Kanalachse x = 40. Richtung = Strömungsrichtung. Erzeugt mit `tools/filter.py`.
+- `Filter_<richtung>`: Luftfilter wie im bestehenden Anlagenbild, graues Gehäuse mit hellem Keil (Spitze in Strömungsrichtung); statisch.
+- `Filter_Taschen_<richtung>`: Taschenfilter von vorn, Rahmen mit zwei Zellen übereinander, Stege zwischen den Taschen. Graue Staubteilchen fliegen von der Anströmseite heran und werden aufgefangen (SMIL).
+- `_verschmutzt` (beide): Filterfläche bräunlich mit Schmutzflecken, Staub bleibt hängen, Filterfläche blinkt leicht gelb (`#E3B200`, 1 Hz wie Störung). Ohne Animation bleibt der verschmutzte Filter erkennbar.
+
 ## Hydraulik
 
 ### Umschaltventil-Pfeile

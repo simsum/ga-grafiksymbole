@@ -269,6 +269,13 @@ Mit angedeutetem Rollenzählwerk (fünf Rollen, letzte rot).
 - Kombinierter Wärme-/Kältemengenzähler (`Waerme_Kaeltemengenzaehler_waagerecht` / `_senkrecht`): Flamme und Schneeflocke nebeneinander im Zählwerkkreis, gleiche Größe und Anschlüsse wie die Einzelzähler.
 - Elektrozähler 50 × 60, Rollenzählwerk mit sechs Stellen oben, gelber Blitz unten.
 
+#### Zähler mit Messrad oder Ultraschall (zusätzlich)
+
+- `<Zaehler>_{Messrad,Ultraschall}_{waagerecht,senkrecht}_{aus,an}` für `Waermemengenzaehler` (rote Flamme), `Kaeltemengenzaehler` (blaue Schneeflocke), `Wasserzaehler` (blauer Tropfen) und `Gaszaehler` (blaue Gasflamme). Gleiche Größe und Rohrachse wie die Zähler mit Rollenzählwerk: 60 × 65 waagerecht, 65 × 60 senkrecht, Rohrachse 15; runde Plakette mit dem Medium unter bzw. neben dem Rohr (bleibt aufrecht).
+- `Messrad`: Gehäuse mit rundem Sichtfenster, darin ein Turbinenrad; `_an` Rad dreht ruhig (3 s).
+- `Ultraschall`: zwei schräge Schallköpfe, V-förmiger Schallweg über den Rohrboden; `_an` Köpfe leuchten abwechselnd auf, Schallimpulse laufen den Weg entlang (1,6 s).
+- `_aus`: steht. Umschalten bei Durchfluss per `image`-Binding. Erzeugt mit `tools/zaehler_messrad_ultraschall.py`.
+
 ### Pumpe
 
 - 40 × 40, Kreis mit Förderpfeil (Dreieck). Außenring und Dreieck immer grau `#808080`, nur die Füllung zeigt den Zustand. Erzeugt mit `tools/pumpe.py`.

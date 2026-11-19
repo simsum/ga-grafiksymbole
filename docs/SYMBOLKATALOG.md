@@ -79,13 +79,13 @@ Zum optischen Gliedern einer Px-Seite, z. B. Bereich Wärmepumpe | Bereich Puffe
 
 ### Kopfzeilen (`symbole/allgemein/kopfzeilen/`)
 
-Hintergründe für die Kopfzeile einer Px-Seite, 1600 × 90, ohne Schrift. Texte, Werte und die Beschriftung der Legende-Taste kommen als Niagara-Labels darüber, die (transparenten) Logos auf die Logo-Felder. Die Außenwerte sind eigene Felder (`Kopfzeilenwert_…`), damit nur die vorhandenen Werte angelegt werden. Erzeugt mit `tools/kopfzeilen.py`.
+Hintergründe für die Kopfzeile einer Px-Seite, 1920 × 100, ohne Schrift. Texte, Werte und die Beschriftung der Legende-Taste kommen als Niagara-Labels darüber, die (transparenten) Logos auf die Logo-Felder. Die Außenwerte sind eigene Felder (`Kopfzeilenwert_…`), damit nur die vorhandenen Werte angelegt werden. Erzeugt mit `tools/kopfzeilen.py`.
 
 | Kopfzeile | Logo-Felder (x, y, B, H) | Label-Bereiche (Vorschlag) | Legende-Taste |
 |---|---|---|---|
-| `Kopfzeile_hell` | Kunde 20, 15, 160, 58; Firma 1405, 9, 175, 46 | Kunde/Standort 200, 14, 540 × 30; Wertfelder ab x = 200, y = 52, Abstand 132; Trennstrich x = 750; Anlage 770, 16, 620 × 30; Unterzeile 770, 48, 620 × 22 | 1500, 61, 80 × 20 |
-| `Kopfzeile_dunkel` | Kunde 20, 15, 160, 58; Firma 1320, 15, 175, 58 | Kunde klein 200, 12, 660 × 16; Anlage 200, 28, 660 × 30; Unterzeile 200, 58, 660 × 20; Wertfelder y = 15, rechtsbündig bis x = 1310, Abstand 104 | 1505, 32, 75 × 24 |
-| `Kopfzeile_zweizeilig` | Kunde 20, 31, 160, 50; Firma 1320, 31, 175, 50 | Statuszeile y = 0 … 24 (Wertfelder y = 2, rechtsbündig bis x = 1580, Abstand 140); Kunde › Anlage 200, 32, 1100 × 28; Unterzeile 200, 60, 1100 × 20 | 1505, 44, 75 × 24 |
+| `Kopfzeile_hell` | Kunde 24, 18, 180, 64; Firma 1696, 10, 200, 52 | Kunde/Standort 224, 16, 660 × 34; Wertfelder ab x = 224, y = 60, Abstand 132; Trennstrich x = 900; Anlage 920, 18, 740 × 34; Unterzeile 920, 56, 740 × 24 | 1806, 68, 90 × 22 |
+| `Kopfzeile_dunkel` | Kunde 24, 18, 180, 64; Firma 1590, 18, 200, 64 | Kunde klein 224, 14, 760 × 16; Anlage 224, 32, 760 × 32; Unterzeile 224, 64, 760 × 22; Wertfelder y = 21, rechtsbündig bis x = 1570, Abstand 108 | 1806, 38, 90 × 24 |
+| `Kopfzeile_zweizeilig` | Kunde 24, 33, 180, 58; Firma 1590, 33, 200, 58 | Statuszeile y = 0 … 26 (Wertfelder y = 3, rechtsbündig bis x = 1896, Abstand 150); Kunde › Anlage 224, 36, 1340 × 30; Unterzeile 224, 66, 1340 × 22 | 1806, 50, 90 × 24 |
 
 | Wertfeld | Größe | Label |
 |---|---|---|

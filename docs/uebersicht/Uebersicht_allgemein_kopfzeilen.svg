@@ -7,32 +7,32 @@
 <g id="Kopfzeile_dunkel">
 <rect x="19" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="20" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
-<svg x="62.5" y="170.12" width="280" height="15.75" viewBox="0 0 1600 90" overflow="hidden">
+<svg x="62.5" y="170.71" width="280" height="14.58" viewBox="0 0 1920 100" overflow="hidden">
 <title>Kopfzeile dunkel</title>
-  <rect width="1600" height="90" fill="#2B3138"/><rect y="87" width="1600" height="3" fill="#4A86D4"/><rect x="20" y="15" width="160" height="58" rx="6" fill="#FFFFFF"/><rect x="1320" y="15" width="175" height="58" rx="6" fill="#FFFFFF"/><rect x="1505" y="32" width="75" height="24" rx="4" fill="#3F4750" stroke="#59636E" stroke-width="1"/>
+  <rect width="1920" height="100" fill="#2B3138"/><rect y="97" width="1920" height="3" fill="#4A86D4"/><rect x="24" y="18" width="180" height="64" rx="6" fill="#FFFFFF"/><rect x="1590" y="18" width="200" height="64" rx="6" fill="#FFFFFF"/><rect x="1806" y="38" width="90" height="24" rx="4" fill="#3F4750" stroke="#59636E" stroke-width="1"/>
 </svg>
 <text x="202.5" y="287" class="name">Kopfzeile_dunkel</text>
-<text x="202.5" y="308" class="mass">1600 × 90 px</text>
+<text x="202.5" y="308" class="mass">1920 × 100 px</text>
 </g>
 <g id="Kopfzeile_hell">
 <rect x="399" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="400" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
-<svg x="442.5" y="170.12" width="280" height="15.75" viewBox="0 0 1600 90" overflow="hidden">
+<svg x="442.5" y="170.71" width="280" height="14.58" viewBox="0 0 1920 100" overflow="hidden">
 <title>Kopfzeile hell</title>
-  <defs><linearGradient id="k1_bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F4F5F7"/><stop offset="1" stop-color="#E3E6EA"/></linearGradient></defs><rect width="1600" height="90" fill="url(#k1_bg)"/><rect y="87" width="1600" height="3" fill="#8A94A0"/><rect x="20" y="15" width="160" height="58" rx="6" fill="#FFFFFF" fill-opacity="0.75" stroke="#CDD2D8" stroke-width="1"/><rect x="1405" y="9" width="175" height="46" rx="6" fill="#FFFFFF" fill-opacity="0.75" stroke="#CDD2D8" stroke-width="1"/><rect x="749.5" y="16" width="1" height="58" fill="#B9BFC6"/><rect x="1500" y="61" width="80" height="20" rx="4" fill="#EFEFEF" stroke="#9A9A9A" stroke-width="1"/>
+  <defs><linearGradient id="k1_bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F4F5F7"/><stop offset="1" stop-color="#E3E6EA"/></linearGradient></defs><rect width="1920" height="100" fill="url(#k1_bg)"/><rect y="97" width="1920" height="3" fill="#8A94A0"/><rect x="24" y="18" width="180" height="64" rx="6" fill="#FFFFFF" fill-opacity="0.75" stroke="#CDD2D8" stroke-width="1"/><rect x="1696" y="10" width="200" height="52" rx="6" fill="#FFFFFF" fill-opacity="0.75" stroke="#CDD2D8" stroke-width="1"/><rect x="899.5" y="18" width="1" height="64" fill="#B9BFC6"/><rect x="1806" y="68" width="90" height="22" rx="4" fill="#EFEFEF" stroke="#9A9A9A" stroke-width="1"/>
 </svg>
 <text x="582.5" y="287" class="name">Kopfzeile_hell</text>
-<text x="582.5" y="308" class="mass">1600 × 90 px</text>
+<text x="582.5" y="308" class="mass">1920 × 100 px</text>
 </g>
 <g id="Kopfzeile_zweizeilig">
 <rect x="779" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="780" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
-<svg x="822.5" y="170.12" width="280" height="15.75" viewBox="0 0 1600 90" overflow="hidden">
+<svg x="822.5" y="170.71" width="280" height="14.58" viewBox="0 0 1920 100" overflow="hidden">
 <title>Kopfzeile zweizeilig</title>
-  <defs><linearGradient id="k2_ak" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F04F46"/><stop offset="0.3" stop-color="#F29A38"/><stop offset="0.6" stop-color="#94C652"/><stop offset="1" stop-color="#4A86D4"/></linearGradient></defs><rect width="1600" height="90" fill="#FFFFFF"/><rect width="1600" height="24" fill="#E9ECEF"/><rect y="23.5" width="1600" height="1" fill="#D2D6DB"/><rect y="87" width="1600" height="3" fill="url(#k2_ak)"/><rect x="20" y="31" width="160" height="50" rx="6" fill="#FFFFFF"/><rect x="1320" y="31" width="175" height="50" rx="6" fill="#FFFFFF"/><rect x="1505" y="44" width="75" height="24" rx="4" fill="#EFEFEF" stroke="#9A9A9A" stroke-width="1"/>
+  <defs><linearGradient id="k2_ak" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F04F46"/><stop offset="0.3" stop-color="#F29A38"/><stop offset="0.6" stop-color="#94C652"/><stop offset="1" stop-color="#4A86D4"/></linearGradient></defs><rect width="1920" height="100" fill="#FFFFFF"/><rect width="1920" height="26" fill="#E9ECEF"/><rect y="25.5" width="1920" height="1" fill="#D2D6DB"/><rect y="97" width="1920" height="3" fill="url(#k2_ak)"/><rect x="24" y="33" width="180" height="58" rx="6" fill="#FFFFFF"/><rect x="1590" y="33" width="200" height="58" rx="6" fill="#FFFFFF"/><rect x="1806" y="50" width="90" height="24" rx="4" fill="#EFEFEF" stroke="#9A9A9A" stroke-width="1"/>
 </svg>
 <text x="962.5" y="287" class="name">Kopfzeile_zweizeilig</text>
-<text x="962.5" y="308" class="mass">1600 × 90 px</text>
+<text x="962.5" y="308" class="mass">1920 × 100 px</text>
 </g>
 <g id="Kopfzeilenwert_CO2_dunkel">
 <rect x="1159" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>

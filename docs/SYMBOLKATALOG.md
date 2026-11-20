@@ -306,7 +306,7 @@ Mit angedeutetem Rollenzählwerk (fünf Rollen, letzte rot).
 - Ringfarben aus den Rohr- und Flanschfarben: Heizkreis Rot `#F04F46` (links, Vorlauf) → Blau `#4A86D4` (rechts, Rücklauf); Kältekreis Kälte-Vorlauf `#2E6BC2` → Kälte-Rücklauf `#7CA6DE`.
 - Stil `plastisch` mit hellem Rohrprofil-Streifen und Lichtschimmer, `flach` nur Farbverlauf und Konturen.
 - `_aus`: nicht aktiv, statisch. `_an_punkte`: drei helle Punkte kreisen ruhig (18 s). `_an_verlauf`: der Farbverlauf dreht sich langsam um den Ring (24 s). `_an_beides`: beides zusammen.
-- Hinweis: `_an_verlauf` und `_an_beides` animieren `gradientTransform`; in Niagara noch nicht geprüft.
+- Hinweis: `_an_verlauf` und `_an_beides` drehen den Ring als Gruppe (`transform`), nicht per animiertem `gradientTransform` – das zeigt Niagara nicht an. Kältekreis `_an_beides` in Niagara geprüft.
 
 ### Pumpe
 

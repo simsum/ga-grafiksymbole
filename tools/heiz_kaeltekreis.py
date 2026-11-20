@@ -10,7 +10,7 @@ Stil:   plastisch  heller Rohrprofil-Streifen in der Ringmitte und Lichtschimmer
         flach      nur Farbverlauf und Konturen
 Zustand: _aus         nicht aktiv, statisch
          _an_punkte   drei helle Punkte kreisen ruhig im Ring (18 s)
-         _an_verlauf  der Farbverlauf dreht sich langsam um den Ring (24 s; animiert gradientTransform)
+         _an_verlauf  der Farbverlauf dreht sich langsam um den Ring (24 s; Ring dreht als Gruppe, kein animiertes gradientTransform)
          _an_beides   Punkte und Farbverlauf zusammen
 Alle Varianten gleich groß, alles an derselben Stelle.
 """
@@ -31,13 +31,17 @@ TITEL = {"aus": "nicht aktiv", "an_punkte": "aktiv (Punkte kreisen)", "an_verlau
 def svg(name: str, stil: str, zustand: str) -> str:
     anim = ZUSTAENDE[zustand]
     stops = "".join(f'<stop offset="{o}" stop-color="{c}"/>' for o, c in KREISE[name])
-    dreh = (f'<animateTransform attributeName="gradientTransform" type="rotate" from="0 {C} {C}" to="360 {C} {C}" '
-            'dur="24s" repeatCount="indefinite"/>') if "V" in anim else ""
+    ring = f'<circle cx="{C}" cy="{C}" r="{R}" fill="none" stroke="url(#gR)" stroke-width="{B}"/>'
+    if "V" in anim:
+        # Der Ring dreht sich als Gruppe (transform), der Verlauf dreht mit. Kein animiertes gradientTransform,
+        # das kann Niagara nicht darstellen.
+        ring = (f'<g><animateTransform attributeName="transform" type="rotate" from="0 {C} {C}" to="360 {C} {C}" '
+                f'dur="24s" repeatCount="indefinite"/>{ring}</g>')
     s = [f'<defs><linearGradient id="gR" gradientUnits="userSpaceOnUse" x1="{C - R - B}" y1="{C}" x2="{C + R + B}" y2="{C}">'
-         f'{stops}{dreh}</linearGradient>'
+         f'{stops}</linearGradient>'
          '<radialGradient id="gI" cx="0.5" cy="0.5" r="0.5"><stop offset="0.75" stop-color="#FFFFFF" stop-opacity="0"/>'
          '<stop offset="1" stop-color="#FFFFFF" stop-opacity="0.45"/></radialGradient></defs>',
-         f'<circle cx="{C}" cy="{C}" r="{R}" fill="none" stroke="url(#gR)" stroke-width="{B}"/>']
+         ring]
     if stil == "plastisch":
         s.append(f'<circle cx="{C}" cy="{C}" r="{R}" fill="none" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="{B * 0.55:.1f}"/>')
         s.append(f'<circle cx="{C}" cy="{C}" r="{R}" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="{B * 0.22:.1f}"/>')

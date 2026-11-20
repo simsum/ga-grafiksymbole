@@ -413,6 +413,20 @@ Einzelne Flanschanschlüsse zum Anlegen an Geräte oder Leitungen, alle 24 × 24
 - `_normal`: hellgrau, dunkelgraue Flamme als Umriss, statisch. `_alarm`: rot, Füllung pulsiert schnell (0,6 s), gefüllte Flamme flackert, Alarmwellen blinken (2 Hz).
 - Umschalten über Boolean-Binding auf `image`. Erzeugt mit `tools/brandalarm.py`.
 
+### Außenwerte (`symbole/anzeigen/aussenwerte/`)
+
+- Kleine Symbole links vor den Wertfeldern für Außentemperatur (Thermometer) und Außenfeuchte (Tropfen). Statisch, ohne `clipPath`.
+- 16 × 16 (passt in die Zeilenhöhe der Wertfelder), dieselbe Zeichnung zusätzlich als 20 × 20 mit Zusatz `_20`. Alle Varianten einer Größe gleich groß, Grafik an derselben Stelle.
+
+| Stil | Dateien | Aussehen |
+| --- | --- | --- |
+| grau | `Aussentemperatur_grau`, `Aussenfeuchte_grau` | nur graue Konturen `#808080`, am unauffälligsten |
+| flach | `Aussentemperatur_flach`, `Aussenfeuchte_flach` | Thermometer rot `#F04F46`, Tropfen blau `#4A86D4` |
+| plastisch | `Aussentemperatur_plastisch`, `Aussenfeuchte_plastisch` | wie flach, mit Verlauf und Glanzlicht |
+| zustandsabhängig | `Aussentemperatur_{frost,kalt,mild,warm,heiss}`, `Aussenfeuchte_{trocken,normal,feucht}` | Füllstand und Farbe nach Messwert |
+
+- Vorschlag Grenzwerte: Frost < 0 °C, kalt 0–10 °C, mild 10–20 °C, warm 20–28 °C, heiß > 28 °C; trocken < 35 %rF, normal 35–70 %rF, feucht > 70 %rF. Umschalten über `image`-Binding mit Konverter (siehe NIAGARA.md). Erzeugt mit `tools/aussenwerte.py`.
+
 ## Bedienung
 
 ### Tableau (`symbole/bedienung/tableau/`)

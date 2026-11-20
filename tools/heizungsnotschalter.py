@@ -6,9 +6,9 @@ Plakette 24 × 24 mittig in einem 40 × 24-Bild, links und rechts Platz für Ala
 Plakette immer bei (8, 0). Darauf ein Not-Aus-Pilztaster von vorn mit Schaltzeichen (Schalter) im Knopf.
 Aufruf: python tools/heizungsnotschalter.py
 
-  _normal      hellgrau, Taster und Schaltzeichen als dunkelgrauer Umriss, statisch
+  _normal      hellgrau, Taster und Schaltzeichen als dunkelgrauer Umriss, Kontakt geschlossen, statisch
   _ausgeloest  rot (Zustandsfarbe Störung), Füllung pulsiert (0,6 s), Taster farbig (gelber Ring, roter Knopf,
-               weißes Schaltzeichen), Alarmwellen links und rechts blinken (2 Hz)
+               weißes Schaltzeichen, Kontakt offen), Alarmwellen links und rechts blinken (2 Hz)
 Ohne Animation bleiben Farbe, Taster und Alarmwellen sichtbar.
 """
 from pathlib import Path
@@ -22,11 +22,16 @@ W, H, PX = 40, 24, 8
 CX, CY = PX + 12, 12
 
 
-def schalter(farbe: str) -> str:
-    """Schaltzeichen (Schalter) im Knopf: Zuleitung links, schräge Schaltwippe, Zuleitung rechts."""
-    y = CY + 1.6
-    return (f'<path d="M{CX - 4.4},{y} H{CX - 2} L{CX + 2.4},{CY - 2.4} M{CX + 1.6},{y} H{CX + 4.4}" fill="none" '
-            f'stroke="{farbe}" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>')
+def schalter(farbe: str, geschlossen: bool) -> str:
+    """Schaltzeichen im Knopf: Zuleitung links mit Drehpunkt, Schaltwippe, fester Gegenkontakt (kurzer senkrechter
+    Strich) mit Zuleitung rechts. Geschlossen liegt die Wippe auf dem Gegenkontakt, geöffnet steht sie schräg ab."""
+    y = CY + 1.2
+    dreh, kontakt = CX - 2.2, CX + 2.2
+    spitze = f"{kontakt + 0.6},{y - 1.3}" if geschlossen else f"{CX + 2},{CY - 3.2}"
+    return (f'<g stroke="{farbe}" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" fill="none">'
+            f'<path d="M{CX - 4.6},{y} H{dreh} L{spitze}"/>'
+            f'<path d="M{kontakt},{y - 1.9} V{y} H{CX + 4.6}"/>'
+            f'<circle cx="{dreh}" cy="{y}" r=".9" fill="{farbe}" stroke="none"/></g>')
 
 
 def svg(zustand: str) -> str:
@@ -47,7 +52,7 @@ def svg(zustand: str) -> str:
         # gelber Ring, roter Pilzknopf, weißes Schaltzeichen
         s.append(f'<circle cx="{CX}" cy="{CY}" r="8.4" fill="#FFD34D" stroke="#FFFFFF" stroke-width="1.2"/>')
         s.append(f'<circle cx="{CX}" cy="{CY}" r="5.6" fill="url(#gP)" stroke="#9E1F1B" stroke-width="1"/>')
-        s.append(schalter("#FFFFFF"))
+        s.append(schalter("#FFFFFF", geschlossen=False))
         l, r = PX - 1.5, PX + 25.5
         s.append(f'<g fill="none" stroke="{STOERUNG[1]}" stroke-width="1.4" stroke-linecap="round">'
                  '<animate attributeName="opacity" values="1;0.15" dur="0.5s" calcMode="discrete" repeatCount="indefinite"/>'
@@ -56,7 +61,7 @@ def svg(zustand: str) -> str:
     else:
         s.append(f'<circle cx="{CX}" cy="{CY}" r="8.4" fill="none" stroke="{DUNKEL}" stroke-width="1.3"/>')
         s.append(f'<circle cx="{CX}" cy="{CY}" r="5.6" fill="none" stroke="{DUNKEL}" stroke-width="1.3"/>')
-        s.append(schalter(DUNKEL))
+        s.append(schalter(DUNKEL, geschlossen=True))
     titel = "ausgelöst" if alarm else "normal"
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img">\n'
             f'  <title>Heizungs-Notschalter, {titel}</title>\n  ' + "".join(s) + '\n</svg>\n')

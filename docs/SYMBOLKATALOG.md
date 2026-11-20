@@ -413,6 +413,13 @@ Einzelne Flanschanschlüsse zum Anlegen an Geräte oder Leitungen, alle 24 × 24
 - `_normal`: hellgrau, dunkelgraue Flamme als Umriss, statisch. `_alarm`: rot, Füllung pulsiert schnell (0,6 s), gefüllte Flamme flackert, Alarmwellen blinken (2 Hz).
 - Umschalten über Boolean-Binding auf `image`. Erzeugt mit `tools/brandalarm.py`.
 
+### Heizungs-Notschalter (`symbole/anzeigen/alarm/`)
+
+- `Heizungsnotschalter_{normal,ausgeloest}`: aufgebaut wie der Brandalarm, 40 × 24, Plakette 24 × 24 mittig bei x = 8, links und rechts Platz für Alarmwellen. Beide Dateien gleich groß, Plakette immer an derselben Stelle.
+- Motiv: Not-Aus-Pilztaster von vorn mit Schaltzeichen im Knopf (Zuleitung mit Drehpunkt, Schaltwippe, fester Gegenkontakt mit Zuleitung).
+- `_normal`: hellgrau, Taster und Schaltzeichen als dunkelgrauer Umriss, Kontakt geschlossen, statisch. `_ausgeloest`: rot, Füllung pulsiert (0,6 s), Taster farbig (gelber Ring, roter Knopf, weißes Schaltzeichen, Kontakt offen), Alarmwellen blinken (2 Hz).
+- Umschalten über Boolean-Binding auf `image`. Erzeugt mit `tools/heizungsnotschalter.py`.
+
 ### Außenwerte (`symbole/anzeigen/aussenwerte/`)
 
 - Kleine Symbole links vor den Wertfeldern für Außentemperatur (Thermometer) und Außenfeuchte (Tropfen). Statisch, ohne `clipPath`.

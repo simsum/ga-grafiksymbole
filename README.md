@@ -39,7 +39,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
     punkte/              Dezent blinkende Punkte
     betriebsart/         Betriebsart Normal/Leise
     freigabe/            Freigabe / keine Freigabe, 24 × 24, fünf Varianten
-    alarm/               Brandalarm (normal, Alarm)
+    alarm/               Brandalarm (normal, Alarm), Heizungs-Notschalter (normal, ausgelöst)
     aussenwerte/         Thermometer und Tropfen vor Außentemperatur und -feuchte (grau, flach, plastisch, zustandsabhängig)
   fun/                   Verspielte Cartoon-Symbole, animiert, Gruppen wie in der Hauptstruktur
     anzeigen/            Außentemperatur, -feuchte, CO₂
@@ -84,6 +84,7 @@ tools/
   zip_erstellen.py       Packt symbole/ und LICENSE in dist/ga-grafiksymbole.zip (von der Action genutzt)
   freigabe.py            Erzeugt die Freigabe-Anzeigen unter symbole/anzeigen/freigabe/
   brandalarm.py          Erzeugt die Brandalarm-Anzeige unter symbole/anzeigen/alarm/
+  heizungsnotschalter.py Erzeugt die Heizungs-Notschalter-Anzeige unter symbole/anzeigen/alarm/
   aussenwerte.py         Erzeugt die Außenwert-Symbole unter symbole/anzeigen/aussenwerte/
   zustandsfarben.py      Einheitliche Zustandsfarben (aus, Freigabe, Betrieb, Störung) für alle Erzeuger
   fun_waermepumpe.py     Erzeugt die Fun-Wärmepumpe unter symbole/fun/hydraulik/erzeuger/ (baut auf waermepumpe.py auf)

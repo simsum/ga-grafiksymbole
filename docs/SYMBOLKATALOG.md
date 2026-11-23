@@ -517,6 +517,7 @@ Umschalten über `image`-Binding mit Konverter (siehe NIAGARA.md).
 Unter `symbole/fun/navigation/`, 280 × 72, Cartoon-Stil passend zu den Fun-Symbolen. Beschriftung als Pfad (kein `<text>`).
 
 - `Fun_Button_{Uebersicht,Heizung,Waermepumpe,Puffer,PV,Raeume}_{normal,aktiv}`: mit Icon und Beschriftung. „Räume“ ist aus Buchstaben der anderen Buttons zusammengesetzt (R = P mit ergänztem Bein).
+- `Fun_Button_{Waerme,Strom,Ereignisse}_{normal,aktiv}`: Icons Thermometer mit Wärmewellen, Blitz mit Gesicht, Logbuch (Klemmbrett mit grünem, rotem und orangem Eintrag). Beschriftung in Chewy mit derselben Größe und Lage wie bei den vorhandenen Buttons (38 px, Textmitte x = 164, Grundlinie y = 43,3, `aktiv` + 3 px). Erzeugt mit `tools/fun_buttons.py` (benötigt fonttools, Schrift wie bei `tools/monatsleiste.py`).
 - `Fun_Button_Leer_{normal,aktiv}`: ohne Icon und Text, für eigene Beschriftung per Niagara-Label.
 - `normal` gelb, `aktiv` orange mit hellem Rand und 3 px nach unten versetzt (gedrückt).
 - `Fun_Button_Welle_{fliesst,atmet,punkte,funken}`: 280 × 20, animierte Wellenlinie unter einem `normal`-Button als Alternative zu `aktiv`. `fliesst` und `atmet` verformen die Linie (SMIL `animate d`, im Browser geprüft, Workbench ungeprüft), `punkte` und `funken` bewegen nur Punkte.

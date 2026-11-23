@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <!-- Mond Nacht: Mondsichel schlaeft und schaukelt, Z steigen auf, Sterne funkeln (SMIL) -->
+  <g><animateTransform attributeName="transform" type="rotate" values="-4 21 26;4 21 26;-4 21 26" dur="4s" repeatCount="indefinite"/>
+   <path d="M20.38,11.01 A15,15 0 1 0 35.37,30.29 A12.5,12.5 0 0 1 20.38,11.01 Z" fill="#FFE08A" stroke="#3B2412" stroke-width="2.5" stroke-linejoin="round"/>
+   <path d="M10,22 q1,-6 6,-9" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+   <path d="M11.5,27 q1.8,1.8 3.6,0" fill="none" stroke="#3B2412" stroke-width="1.4" stroke-linecap="round"/>
+   <path d="M13.5,33 q2.2,1.8 4.4,-0.5" fill="none" stroke="#3B2412" stroke-width="1.5" stroke-linecap="round"/>
+   <ellipse cx="10.5" cy="31" rx="1.6" ry="1" fill="#F28B6E" opacity="0.8"/>
+  </g>
+  <path d="M33,26 h4 l-4,4 h4" fill="none" stroke="#3B2412" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animateTransform attributeName="transform" type="translate" values="0 0;3 -9" dur="3s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="3s" begin="0.0s" repeatCount="indefinite"/></path><path d="M37,19 h5 l-5,5 h5" fill="none" stroke="#3B2412" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animateTransform attributeName="transform" type="translate" values="0 0;3 -9" dur="3s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.7;1" dur="3s" begin="1.5s" repeatCount="indefinite"/></path>
+  <path d="M40,34.4 L40.91,36.09 L42.6,37 L40.91,37.91 L40,39.6 L39.09,37.91 L37.4,37 L39.09,36.09 Z" fill="#FFE08A" stroke="#3B2412" stroke-width="1" stroke-linejoin="round"><animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/></path>
+  <path d="M29,5 L29.7,6.3 L31,7 L29.7,7.7 L29,9 L28.3,7.7 L27,7 L28.3,6.3 Z" fill="#FFE08A" stroke="#3B2412" stroke-width="1" stroke-linejoin="round"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.6s" repeatCount="indefinite"/></path>
+  <path d="M43,7.4 L43.56,8.44 L44.6,9 L43.56,9.56 L43,10.6 L42.44,9.56 L41.4,9 L42.44,8.44 Z" fill="#FFE08A" stroke="#3B2412" stroke-width="1" stroke-linejoin="round"><animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/></path>
+</svg>

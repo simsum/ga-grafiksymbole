@@ -469,6 +469,28 @@ Verspielte Cartoon-Symbole unter `symbole/fun/` (Gruppen wie in der Hauptstruktu
 
 Umschalten über `image`-Binding mit Konverter (siehe NIAGARA.md).
 
+### Fun-Datum und Uhrzeit (`symbole/fun/anzeigen/`)
+
+Passend zu den Ausgängen des Niagara-Bausteins `date-time-info` (Modul `niagara-modules`, `utils/date-time-info`). 48 × 48 wie die übrigen Fun-Anzeigen, alle Varianten einer Familie deckungsgleich. Erzeugt mit `tools/fun_datum_zeit.py`.
+
+| Symbol | Dateien | Umschaltung (Ausgang von `date-time-info`) |
+|---|---|---|
+| Tageszeit | `Fun_Sonne_tag` (lacht, Strahlen drehen), `Fun_Sonne_daemmerung` (guckt über den Horizont, Sterne), `Fun_Mond_nacht` (schläft, Z steigen auf) | `isDay` → tag; sonst `isCivilTwilight` → daemmerung; sonst nacht |
+| Sonnenaufgang | `Fun_Sonnenaufgang` (halbe Sonne wach, Pfeil steigt) | fest vor `sunrise` |
+| Sonnenuntergang | `Fun_Sonnenuntergang` (halbe Sonne müde, Pfeil sinkt) | fest vor `sunset` |
+| Wochentag | `Fun_Kalender_werktag` (liest, Stift tippt), `Fun_Kalender_wochenende` (Sonnenbrille, Konfetti) | `isWeekend` |
+| Zeitumstellung | `Fun_Wecker_sommerzeit` (Sonnen-Plakette, klingelt), `Fun_Wecker_winterzeit` (Schneeflocken-Plakette, bibbert) | `isDaylightSaving` |
+| Jahreszeit | `Fun_Jahreszeit_{fruehling,sommer,herbst,winter}` (Baum mit Blüten, Äpfeln, fallenden Blättern, Schnee) | `month` meteorologisch: 3–5 Frühling, 6–8 Sommer, 9–11 Herbst, 12–2 Winter |
+| Kalenderwoche + Wochentag | `Fun_Wochenraupe_{1..7}` (140 × 56; Raupe mit sieben Segmenten Mo–So, heutiger Tag gelb und hüpft, Wochenende heller; hält ein leeres Schild für die KW) | `weekday`; KW-Zahl als Label auf dem Schild |
+| Gerade/ungerade KW | `Fun_Kalenderwoche_gerade` (zwei Figuren Hand in Hand), `_ungerade` (eine Figur winkt) | `calendarWeek` mod 2 = 0 → gerade |
+| Erdbahn | `Fun_Erdbahn_{1..12}` (72 × 48; Erde mit Gesicht auf der Bahn um die Sonne, Januar vorne unten, Lauf gegen den Uhrzeigersinn) | `month` |
+| Silvester-Countdown | `Fun_Rakete_ruhe` (schläft), `_bald` (zappelt, Lunte funkt), `_start` (fliegt, Flamme, Feuerwerk) | `daysRemainingInYear` = 0 → start; ≤ 30 → bald; sonst ruhe |
+
+- Label-Flächen: Schild der Wochenraupe x = 22 … 86, y = 4 … 24.
+- Feste Teile: Tageszeit-Sonne Mitte (24, 24); Horizont y = 34 bei Dämmerung, Aufgang und Untergang; Kalenderblatt (auch gerade/ungerade KW) x = 8 … 40, y = 9 … 42; Weckergehäuse Mitte (24, 27), r = 14, Plakette Mitte (36, 36,5); Baum mit Krone y ≈ 5 … 33, Stamm bis y = 44.
+- Ohne Animation bleiben Gesicht, Pfeile und Plaketten sichtbar; Z, Konfetti, Blätter, Schneeflocken und das Feuerwerk erscheinen nur animiert.
+- Für die Tageszeit eignet sich ein Enum oder eine Zahl (z. B. 0 = Nacht, 1 = Dämmerung, 2 = Tag), die im Wiresheet aus `isDay` und `isCivilTwilight` gebildet und per Konverter auf `image` gebunden wird (siehe NIAGARA.md).
+
 ### Fun-Gastherme (`symbole/fun/hydraulik/erzeuger/`)
 
 - `Fun_Gastherme_vorne_{aus,an,stoerung}_animiert`: 120 × 166, gleiche Größe und Anschlusspunkte wie `Gastherme_vorne_*` (VL 30, Gas 60, RL 90; y = 166), daher per `image`-Binding austauschbar.

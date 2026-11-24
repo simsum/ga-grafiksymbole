@@ -106,8 +106,8 @@ Vollständige Beispiele mit erfundener Firma und Anlage (nur zur Veranschaulichu
 | Symbol | Größe | Hinweise |
 |---|---|---|
 | Klimakonvektor (Kanalgerät, Draufsicht) (`Klimakonvektor_{richtung}_{aus,an,stoerung}`) | 160 × 90 (rechts/links), 90 × 160 (oben/unten) | Pfeil = Ausblasrichtung; Wärmetauscher, zwei Radialventilatoren, Ausblasgitter, Status-LED; ohne Anschlüsse. `_an`: Laufräder drehen, Luftpfeile laufen; `_stoerung`: Warndreieck und LED blinken. `Klimakonvektor_{richtung}` (ohne Zustand) bleibt aus Kompatibilität und entspricht `_aus`. Erzeugt mit `tools/klimakonvektor.py` |
-| Volumenstromregler rund | 140 × 80 / 80 × 140 | Rohr mit Flanschen, Klappe, Kompaktregler; links/oben gespiegelt, damit der Regler oben bzw. rechts sitzt |
-| Volumenstromregler eckig | 140 × 80 / 80 × 140 | Rechteckkanal, drei gegenläufige Lamellen (zwei unter 40 px) |
+| Volumenstromregler rund (`Volumenstromregler_rund_{richtung}_{aus,an,stoerung}`) | 140 × 80 / 80 × 140 | Rohr mit Rundungsverlauf und grauen Flanschplatten, Klappe, Kompaktregler mit Status-LED; links/oben gespiegelt, damit der Regler oben bzw. rechts sitzt. `_an`: Klappe pendelt (regelt), Luftpfeile laufen; `_stoerung`: Warndreieck und LED blinken. Name ohne Zustand bleibt aus Kompatibilität und entspricht `_aus`. Erzeugt mit `tools/volumenstromregler.py` |
+| Volumenstromregler eckig (`Volumenstromregler_eckig_{richtung}_{aus,an,stoerung}`) | 140 × 80 / 80 × 140 | Rechteckkanal mit grauen Flanschplatten, drei gegenläufige Lamellen, Kompaktregler mit Status-LED; Zustände wie rund |
 | Deckenluftdurchlass rund (Hallen-Lochblech) | quadratisch | Kreis füllt die Bildfläche, ohne Stellhebel |
 | WRG Kreuzstrom-Plattenwärmetauscher | 400 × 480 (im Schema ca. 331 × 399) | Kein Rahmen; Anschlüsse links/rechts bei y = 46,5 und y = 435,5, Kanalhöhe 24; Varianten mit/ohne Bypass |
 | WRG mit Flanschen (`WRG_Platte_mit_Bypass_PlusMinus_Flansch`) | 400 × 480 | Wie oben, zusätzlich Flansch (6 × 34) an allen vier Anschlüssen ganz außen am Symbolrand; Kanäle enden am Flansch. Bestehender Kanal im Schema muss an der Flanschkante enden |

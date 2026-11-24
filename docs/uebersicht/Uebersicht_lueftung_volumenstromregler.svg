@@ -1,187 +1,687 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="666" viewBox="0 0 1560 666">
-<title>symbole/lueftung/volumenstromregler: 8 Symbole</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="2394" viewBox="0 0 1560 2394">
+<title>symbole/lueftung/volumenstromregler: 32 Symbole</title>
 <style>text{font-family:Segoe UI, Arial, Helvetica, sans-serif}.name{font-size:15px;font-weight:700;fill:#20242A;text-anchor:middle}.mass{font-size:12px;fill:#69727A;text-anchor:middle}</style>
-<rect width="1560" height="666" fill="#F4F5F7"/>
+<rect width="1560" height="2394" fill="#F4F5F7"/>
 <text x="20" y="42" font-size="26" font-weight="700" fill="#30343A">symbole/lueftung/volumenstromregler</text>
-<text x="1540" y="42" font-size="16" fill="#69727A" text-anchor="end">8 Symbole</text>
+<text x="1540" y="42" font-size="16" fill="#69727A" text-anchor="end">32 Symbole</text>
 <g id="Volumenstromregler_eckig_links">
 <rect x="19" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="20" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="62.5" y="98" width="280" height="160" viewBox="0 0 140 80" overflow="hidden">
-<g transform="translate(140,0) scale(-1,1)">
-    
-    <rect x="10" y="27" width="120" height="46" fill="#FFFFFF" stroke="#4B50E6" stroke-width="3"/>
-    <g stroke="#4B50E6" stroke-width="4" stroke-linecap="round"><line x1="10" y1="22" x2="10" y2="78"/><line x1="130" y1="22" x2="130" y2="78"/></g>
-    
-    <g stroke="#4B50E6" stroke-width="3" stroke-linecap="round" fill="#4B50E6"><line x1="58" y1="39.5" x2="74" y2="32.5"/><circle cx="66" cy="36" r="2.5" stroke="none"/><line x1="58" y1="46.5" x2="74" y2="53.5"/><circle cx="66" cy="50" r="2.5" stroke="none"/><line x1="58" y1="67.5" x2="74" y2="60.5"/><circle cx="66" cy="64" r="2.5" stroke="none"/></g>
-    
-    <line x1="66" y1="21" x2="66" y2="27" stroke="#4B50E6" stroke-width="3"/>
-    <rect x="48" y="1" width="36" height="21" rx="3" fill="#4B50E6"/>
-    <rect x="53" y="6" width="13" height="8" rx="1" fill="#FFFFFF"/>
-    <circle cx="75" cy="11.5" r="4" fill="#FFFFFF"/>
-    
-    <path d="M90,50 L118,50 M111,43 L118,50 L111,57" fill="none" stroke="#4B50E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<title id="k0_title">Volumenstromregler eckig, Luftrichtung links, aus</title>
+  <defs>
+    <linearGradient id="k0_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k0_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k0_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <g transform="translate(140,0) scale(-1,1)">
+    <rect x="10" y="27" width="120" height="46" fill="url(#k0_gG)" stroke="#999999" stroke-width="2"/><path d="M12,31 H128 M12,69 H128" stroke="#B5BCC4" stroke-width="1"/><rect x="6" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(66 66 36)"><rect x="64.4" y="27.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="36" r="2.6" fill="#4D4D4D"/><g transform="rotate(-66 66 50)"><rect x="64.4" y="41.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="50" r="2.6" fill="#4D4D4D"/><g transform="rotate(66 66 64)"><rect x="64.4" y="55.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="64" r="2.6" fill="#4D4D4D"/>
+    <rect x="63" y="21" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="48" y="1" width="36" height="21" rx="3" fill="url(#k0_gG)" stroke="#999999" stroke-width="1.6"/><rect x="53" y="7" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="75" cy="11.5" r="3.6" fill="url(#k0_gL)" stroke="#808080" stroke-width="1"/>
+    <path d="M92,50.0 H116 M109,43.0 L116,50.0 L109,57.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
 </svg>
 <text x="202.5" y="287" class="name">Volumenstromregler</text>
 <text x="202.5" y="305" class="name">eckig_links</text>
 <text x="202.5" y="326" class="mass">140 × 80 px</text>
 </g>
-<g id="Volumenstromregler_eckig_oben">
+<g id="Volumenstromregler_eckig_links_an">
 <rect x="399" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="400" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
-<svg x="535.36" y="95.5" width="94.29" height="165" viewBox="0 0 80 140" overflow="hidden">
-<g transform="translate(0,140) scale(1,-1) translate(80,0) rotate(90)">
-    
-    <rect x="10" y="27" width="120" height="46" fill="#FFFFFF" stroke="#4B50E6" stroke-width="3"/>
-    <g stroke="#4B50E6" stroke-width="4" stroke-linecap="round"><line x1="10" y1="22" x2="10" y2="78"/><line x1="130" y1="22" x2="130" y2="78"/></g>
-    
-    <g stroke="#4B50E6" stroke-width="3" stroke-linecap="round" fill="#4B50E6"><line x1="58" y1="39.5" x2="74" y2="32.5"/><circle cx="66" cy="36" r="2.5" stroke="none"/><line x1="58" y1="46.5" x2="74" y2="53.5"/><circle cx="66" cy="50" r="2.5" stroke="none"/><line x1="58" y1="67.5" x2="74" y2="60.5"/><circle cx="66" cy="64" r="2.5" stroke="none"/></g>
-    
-    <line x1="66" y1="21" x2="66" y2="27" stroke="#4B50E6" stroke-width="3"/>
-    <rect x="48" y="1" width="36" height="21" rx="3" fill="#4B50E6"/>
-    <rect x="53" y="6" width="13" height="8" rx="1" fill="#FFFFFF"/>
-    <circle cx="75" cy="11.5" r="4" fill="#FFFFFF"/>
-    
-    <path d="M90,50 L118,50 M111,43 L118,50 L111,57" fill="none" stroke="#4B50E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<svg x="442.5" y="98" width="280" height="160" viewBox="0 0 140 80" overflow="hidden">
+<title id="k1_title">Volumenstromregler eckig, Luftrichtung links, Betrieb</title>
+  <defs>
+    <linearGradient id="k1_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k1_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k1_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#A8DC96"/><stop offset="1" stop-color="#3E9A3A"/></radialGradient>
+  </defs>
+  <g transform="translate(140,0) scale(-1,1)">
+    <rect x="10" y="27" width="120" height="46" fill="url(#k1_gG)" stroke="#999999" stroke-width="2"/><path d="M12,31 H128 M12,69 H128" stroke="#B5BCC4" stroke-width="1"/><rect x="6" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(66 66 36)"><animateTransform attributeName="transform" type="rotate" values="66 66 36;58 66 36;66 66 36" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="4s" repeatCount="indefinite"/><rect x="64.4" y="27.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="36" r="2.6" fill="#4D4D4D"/><g transform="rotate(-66 66 50)"><animateTransform attributeName="transform" type="rotate" values="-66 66 50;-58 66 50;-66 66 50" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="4s" repeatCount="indefinite"/><rect x="64.4" y="41.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="50" r="2.6" fill="#4D4D4D"/><g transform="rotate(66 66 64)"><animateTransform attributeName="transform" type="rotate" values="66 66 64;58 66 64;66 66 64" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="4s" repeatCount="indefinite"/><rect x="64.4" y="55.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="64" r="2.6" fill="#4D4D4D"/>
+    <rect x="63" y="21" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="48" y="1" width="36" height="21" rx="3" fill="url(#k1_gG)" stroke="#999999" stroke-width="1.6"/><rect x="53" y="7" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="75" cy="11.5" r="3.6" fill="url(#k1_gL)" stroke="#2F7A2C" stroke-width="1"/>
+    <path d="M92,50.0 H116 M109,43.0 L116,50.0 L109,57.0" fill="none" stroke="#4D4D4D" stroke-opacity="0.25" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 50.0;118 50.0" dur="1.2s" begin="0s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 50.0;118 50.0" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 50.0;118 50.0" dur="1.2s" begin="0.8s" repeatCount="indefinite"/></path>
+  </g>
 </svg>
 <text x="582.5" y="287" class="name">Volumenstromregler</text>
-<text x="582.5" y="305" class="name">eckig_oben</text>
-<text x="582.5" y="326" class="mass">80 × 140 px</text>
+<text x="582.5" y="305" class="name">eckig_links_an</text>
+<text x="582.5" y="326" class="mass">140 × 80 px</text>
 </g>
-<g id="Volumenstromregler_eckig_rechts">
+<g id="Volumenstromregler_eckig_links_aus">
 <rect x="779" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="780" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="822.5" y="98" width="280" height="160" viewBox="0 0 140 80" overflow="hidden">
-<g transform="">
-    
-    <rect x="10" y="27" width="120" height="46" fill="#FFFFFF" stroke="#4B50E6" stroke-width="3"/>
-    <g stroke="#4B50E6" stroke-width="4" stroke-linecap="round"><line x1="10" y1="22" x2="10" y2="78"/><line x1="130" y1="22" x2="130" y2="78"/></g>
-    
-    <g stroke="#4B50E6" stroke-width="3" stroke-linecap="round" fill="#4B50E6"><line x1="58" y1="39.5" x2="74" y2="32.5"/><circle cx="66" cy="36" r="2.5" stroke="none"/><line x1="58" y1="46.5" x2="74" y2="53.5"/><circle cx="66" cy="50" r="2.5" stroke="none"/><line x1="58" y1="67.5" x2="74" y2="60.5"/><circle cx="66" cy="64" r="2.5" stroke="none"/></g>
-    
-    <line x1="66" y1="21" x2="66" y2="27" stroke="#4B50E6" stroke-width="3"/>
-    <rect x="48" y="1" width="36" height="21" rx="3" fill="#4B50E6"/>
-    <rect x="53" y="6" width="13" height="8" rx="1" fill="#FFFFFF"/>
-    <circle cx="75" cy="11.5" r="4" fill="#FFFFFF"/>
-    
-    <path d="M90,50 L118,50 M111,43 L118,50 L111,57" fill="none" stroke="#4B50E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<title id="k2_title">Volumenstromregler eckig, Luftrichtung links, aus</title>
+  <defs>
+    <linearGradient id="k2_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k2_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k2_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <g transform="translate(140,0) scale(-1,1)">
+    <rect x="10" y="27" width="120" height="46" fill="url(#k2_gG)" stroke="#999999" stroke-width="2"/><path d="M12,31 H128 M12,69 H128" stroke="#B5BCC4" stroke-width="1"/><rect x="6" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(66 66 36)"><rect x="64.4" y="27.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="36" r="2.6" fill="#4D4D4D"/><g transform="rotate(-66 66 50)"><rect x="64.4" y="41.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="50" r="2.6" fill="#4D4D4D"/><g transform="rotate(66 66 64)"><rect x="64.4" y="55.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="64" r="2.6" fill="#4D4D4D"/>
+    <rect x="63" y="21" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="48" y="1" width="36" height="21" rx="3" fill="url(#k2_gG)" stroke="#999999" stroke-width="1.6"/><rect x="53" y="7" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="75" cy="11.5" r="3.6" fill="url(#k2_gL)" stroke="#808080" stroke-width="1"/>
+    <path d="M92,50.0 H116 M109,43.0 L116,50.0 L109,57.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
 </svg>
 <text x="962.5" y="287" class="name">Volumenstromregler</text>
-<text x="962.5" y="305" class="name">eckig_rechts</text>
+<text x="962.5" y="305" class="name">eckig_links_aus</text>
 <text x="962.5" y="326" class="mass">140 × 80 px</text>
 </g>
-<g id="Volumenstromregler_eckig_unten">
+<g id="Volumenstromregler_eckig_links_stoerung">
 <rect x="1159" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="1160" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
-<svg x="1295.36" y="95.5" width="94.29" height="165" viewBox="0 0 80 140" overflow="hidden">
-<g transform="translate(80,0) rotate(90)">
-    
-    <rect x="10" y="27" width="120" height="46" fill="#FFFFFF" stroke="#4B50E6" stroke-width="3"/>
-    <g stroke="#4B50E6" stroke-width="4" stroke-linecap="round"><line x1="10" y1="22" x2="10" y2="78"/><line x1="130" y1="22" x2="130" y2="78"/></g>
-    
-    <g stroke="#4B50E6" stroke-width="3" stroke-linecap="round" fill="#4B50E6"><line x1="58" y1="39.5" x2="74" y2="32.5"/><circle cx="66" cy="36" r="2.5" stroke="none"/><line x1="58" y1="46.5" x2="74" y2="53.5"/><circle cx="66" cy="50" r="2.5" stroke="none"/><line x1="58" y1="67.5" x2="74" y2="60.5"/><circle cx="66" cy="64" r="2.5" stroke="none"/></g>
-    
-    <line x1="66" y1="21" x2="66" y2="27" stroke="#4B50E6" stroke-width="3"/>
-    <rect x="48" y="1" width="36" height="21" rx="3" fill="#4B50E6"/>
-    <rect x="53" y="6" width="13" height="8" rx="1" fill="#FFFFFF"/>
-    <circle cx="75" cy="11.5" r="4" fill="#FFFFFF"/>
-    
-    <path d="M90,50 L118,50 M111,43 L118,50 L111,57" fill="none" stroke="#4B50E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<svg x="1202.5" y="98" width="280" height="160" viewBox="0 0 140 80" overflow="hidden">
+<title id="k3_title">Volumenstromregler eckig, Luftrichtung links, Störung</title>
+  <defs>
+    <linearGradient id="k3_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k3_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k3_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#F5A3A0"/><stop offset="1" stop-color="#D7302B"/></radialGradient>
+  </defs>
+  <g transform="translate(140,0) scale(-1,1)">
+    <rect x="10" y="27" width="120" height="46" fill="url(#k3_gG)" stroke="#999999" stroke-width="2"/><path d="M12,31 H128 M12,69 H128" stroke="#B5BCC4" stroke-width="1"/><rect x="6" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(66 66 36)"><rect x="64.4" y="27.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="36" r="2.6" fill="#4D4D4D"/><g transform="rotate(-66 66 50)"><rect x="64.4" y="41.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="50" r="2.6" fill="#4D4D4D"/><g transform="rotate(66 66 64)"><rect x="64.4" y="55.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="64" r="2.6" fill="#4D4D4D"/>
+    <rect x="63" y="21" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="48" y="1" width="36" height="21" rx="3" fill="url(#k3_gG)" stroke="#999999" stroke-width="1.6"/><rect x="53" y="7" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><circle cx="75" cy="11.5" r="3.6" fill="url(#k3_gL)" stroke="#9E1F1B" stroke-width="1"/></g>
+    <path d="M92,50.0 H116 M109,43.0 L116,50.0 L109,57.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><g transform="translate(74 50.0)"><path d="M0,-17 L19,15 L-19,15 Z" fill="#D7302B" stroke="#FFFFFF" stroke-width="2.6" stroke-linejoin="round"/><rect x="-2.5" y="-8" width="5" height="15" rx="2.5" fill="#FFFFFF"/><circle cx="0" cy="10.5" r="2.7" fill="#FFFFFF"/></g></g>
 </svg>
 <text x="1342.5" y="287" class="name">Volumenstromregler</text>
-<text x="1342.5" y="305" class="name">eckig_unten</text>
-<text x="1342.5" y="326" class="mass">80 × 140 px</text>
+<text x="1342.5" y="305" class="name">eckig_links_stoerung</text>
+<text x="1342.5" y="326" class="mass">140 × 80 px</text>
 </g>
-<g id="Volumenstromregler_rund_links">
+<g id="Volumenstromregler_eckig_oben">
 <rect x="19" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="20" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
-<svg x="62.5" y="386" width="280" height="160" viewBox="0 0 140 80" overflow="hidden">
-<g transform="translate(140,0) scale(-1,1)">
-    
-    <rect x="10" y="32" width="120" height="34" fill="#FFFFFF" stroke="#4B50E6" stroke-width="3"/>
-    <g stroke="#4B50E6" stroke-width="4" stroke-linecap="round"><line x1="10" y1="28" x2="10" y2="70"/><line x1="130" y1="28" x2="130" y2="70"/></g>
-    
-    <line x1="58" y1="62" x2="78" y2="36" stroke="#4B50E6" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="68" cy="49" r="3.5" fill="#4B50E6"/>
-    
-    <line x1="68" y1="26" x2="68" y2="32" stroke="#4B50E6" stroke-width="3"/>
-    <rect x="50" y="6" width="36" height="21" rx="3" fill="#4B50E6"/>
-    <rect x="55" y="11" width="13" height="8" rx="1" fill="#FFFFFF"/>
-    <circle cx="77" cy="16.5" r="4" fill="#FFFFFF"/>
-    
-    <path d="M92,49 L118,49 M111,42 L118,49 L111,56" fill="none" stroke="#4B50E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<svg x="155.36" y="383.5" width="94.29" height="165" viewBox="0 0 80 140" overflow="hidden">
+<title id="k4_title">Volumenstromregler eckig, Luftrichtung oben, aus</title>
+  <defs>
+    <linearGradient id="k4_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k4_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k4_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <g transform="translate(0,140) scale(1,-1) translate(80,0) rotate(90)">
+    <rect x="10" y="27" width="120" height="46" fill="url(#k4_gG)" stroke="#999999" stroke-width="2"/><path d="M12,31 H128 M12,69 H128" stroke="#B5BCC4" stroke-width="1"/><rect x="6" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(66 66 36)"><rect x="64.4" y="27.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="36" r="2.6" fill="#4D4D4D"/><g transform="rotate(-66 66 50)"><rect x="64.4" y="41.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="50" r="2.6" fill="#4D4D4D"/><g transform="rotate(66 66 64)"><rect x="64.4" y="55.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="64" r="2.6" fill="#4D4D4D"/>
+    <rect x="63" y="21" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="48" y="1" width="36" height="21" rx="3" fill="url(#k4_gG)" stroke="#999999" stroke-width="1.6"/><rect x="53" y="7" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="75" cy="11.5" r="3.6" fill="url(#k4_gL)" stroke="#808080" stroke-width="1"/>
+    <path d="M92,50.0 H116 M109,43.0 L116,50.0 L109,57.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
 </svg>
 <text x="202.5" y="575" class="name">Volumenstromregler</text>
-<text x="202.5" y="593" class="name">rund_links</text>
-<text x="202.5" y="614" class="mass">140 × 80 px</text>
+<text x="202.5" y="593" class="name">eckig_oben</text>
+<text x="202.5" y="614" class="mass">80 × 140 px</text>
 </g>
-<g id="Volumenstromregler_rund_oben">
+<g id="Volumenstromregler_eckig_oben_an">
 <rect x="399" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="400" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="535.36" y="383.5" width="94.29" height="165" viewBox="0 0 80 140" overflow="hidden">
-<g transform="translate(0,140) scale(1,-1) translate(80,0) rotate(90)">
-    
-    <rect x="10" y="32" width="120" height="34" fill="#FFFFFF" stroke="#4B50E6" stroke-width="3"/>
-    <g stroke="#4B50E6" stroke-width="4" stroke-linecap="round"><line x1="10" y1="28" x2="10" y2="70"/><line x1="130" y1="28" x2="130" y2="70"/></g>
-    
-    <line x1="58" y1="62" x2="78" y2="36" stroke="#4B50E6" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="68" cy="49" r="3.5" fill="#4B50E6"/>
-    
-    <line x1="68" y1="26" x2="68" y2="32" stroke="#4B50E6" stroke-width="3"/>
-    <rect x="50" y="6" width="36" height="21" rx="3" fill="#4B50E6"/>
-    <rect x="55" y="11" width="13" height="8" rx="1" fill="#FFFFFF"/>
-    <circle cx="77" cy="16.5" r="4" fill="#FFFFFF"/>
-    
-    <path d="M92,49 L118,49 M111,42 L118,49 L111,56" fill="none" stroke="#4B50E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<title id="k5_title">Volumenstromregler eckig, Luftrichtung oben, Betrieb</title>
+  <defs>
+    <linearGradient id="k5_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k5_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k5_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#A8DC96"/><stop offset="1" stop-color="#3E9A3A"/></radialGradient>
+  </defs>
+  <g transform="translate(0,140) scale(1,-1) translate(80,0) rotate(90)">
+    <rect x="10" y="27" width="120" height="46" fill="url(#k5_gG)" stroke="#999999" stroke-width="2"/><path d="M12,31 H128 M12,69 H128" stroke="#B5BCC4" stroke-width="1"/><rect x="6" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(66 66 36)"><animateTransform attributeName="transform" type="rotate" values="66 66 36;58 66 36;66 66 36" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="4s" repeatCount="indefinite"/><rect x="64.4" y="27.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="36" r="2.6" fill="#4D4D4D"/><g transform="rotate(-66 66 50)"><animateTransform attributeName="transform" type="rotate" values="-66 66 50;-58 66 50;-66 66 50" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="4s" repeatCount="indefinite"/><rect x="64.4" y="41.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="50" r="2.6" fill="#4D4D4D"/><g transform="rotate(66 66 64)"><animateTransform attributeName="transform" type="rotate" values="66 66 64;58 66 64;66 66 64" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="4s" repeatCount="indefinite"/><rect x="64.4" y="55.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="64" r="2.6" fill="#4D4D4D"/>
+    <rect x="63" y="21" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="48" y="1" width="36" height="21" rx="3" fill="url(#k5_gG)" stroke="#999999" stroke-width="1.6"/><rect x="53" y="7" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="75" cy="11.5" r="3.6" fill="url(#k5_gL)" stroke="#2F7A2C" stroke-width="1"/>
+    <path d="M92,50.0 H116 M109,43.0 L116,50.0 L109,57.0" fill="none" stroke="#4D4D4D" stroke-opacity="0.25" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 50.0;118 50.0" dur="1.2s" begin="0s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 50.0;118 50.0" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 50.0;118 50.0" dur="1.2s" begin="0.8s" repeatCount="indefinite"/></path>
+  </g>
 </svg>
 <text x="582.5" y="575" class="name">Volumenstromregler</text>
-<text x="582.5" y="593" class="name">rund_oben</text>
+<text x="582.5" y="593" class="name">eckig_oben_an</text>
 <text x="582.5" y="614" class="mass">80 × 140 px</text>
 </g>
-<g id="Volumenstromregler_rund_rechts">
+<g id="Volumenstromregler_eckig_oben_aus">
 <rect x="779" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="780" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
-<svg x="822.5" y="386" width="280" height="160" viewBox="0 0 140 80" overflow="hidden">
-<g transform="">
-    
-    <rect x="10" y="32" width="120" height="34" fill="#FFFFFF" stroke="#4B50E6" stroke-width="3"/>
-    <g stroke="#4B50E6" stroke-width="4" stroke-linecap="round"><line x1="10" y1="28" x2="10" y2="70"/><line x1="130" y1="28" x2="130" y2="70"/></g>
-    
-    <line x1="58" y1="62" x2="78" y2="36" stroke="#4B50E6" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="68" cy="49" r="3.5" fill="#4B50E6"/>
-    
-    <line x1="68" y1="26" x2="68" y2="32" stroke="#4B50E6" stroke-width="3"/>
-    <rect x="50" y="6" width="36" height="21" rx="3" fill="#4B50E6"/>
-    <rect x="55" y="11" width="13" height="8" rx="1" fill="#FFFFFF"/>
-    <circle cx="77" cy="16.5" r="4" fill="#FFFFFF"/>
-    
-    <path d="M92,49 L118,49 M111,42 L118,49 L111,56" fill="none" stroke="#4B50E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<svg x="915.36" y="383.5" width="94.29" height="165" viewBox="0 0 80 140" overflow="hidden">
+<title id="k6_title">Volumenstromregler eckig, Luftrichtung oben, aus</title>
+  <defs>
+    <linearGradient id="k6_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k6_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k6_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <g transform="translate(0,140) scale(1,-1) translate(80,0) rotate(90)">
+    <rect x="10" y="27" width="120" height="46" fill="url(#k6_gG)" stroke="#999999" stroke-width="2"/><path d="M12,31 H128 M12,69 H128" stroke="#B5BCC4" stroke-width="1"/><rect x="6" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(66 66 36)"><rect x="64.4" y="27.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="36" r="2.6" fill="#4D4D4D"/><g transform="rotate(-66 66 50)"><rect x="64.4" y="41.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="50" r="2.6" fill="#4D4D4D"/><g transform="rotate(66 66 64)"><rect x="64.4" y="55.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="64" r="2.6" fill="#4D4D4D"/>
+    <rect x="63" y="21" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="48" y="1" width="36" height="21" rx="3" fill="url(#k6_gG)" stroke="#999999" stroke-width="1.6"/><rect x="53" y="7" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="75" cy="11.5" r="3.6" fill="url(#k6_gL)" stroke="#808080" stroke-width="1"/>
+    <path d="M92,50.0 H116 M109,43.0 L116,50.0 L109,57.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
 </svg>
 <text x="962.5" y="575" class="name">Volumenstromregler</text>
-<text x="962.5" y="593" class="name">rund_rechts</text>
-<text x="962.5" y="614" class="mass">140 × 80 px</text>
+<text x="962.5" y="593" class="name">eckig_oben_aus</text>
+<text x="962.5" y="614" class="mass">80 × 140 px</text>
 </g>
-<g id="Volumenstromregler_rund_unten">
+<g id="Volumenstromregler_eckig_oben_stoerung">
 <rect x="1159" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="1160" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="1295.36" y="383.5" width="94.29" height="165" viewBox="0 0 80 140" overflow="hidden">
-<g transform="translate(80,0) rotate(90)">
-    
-    <rect x="10" y="32" width="120" height="34" fill="#FFFFFF" stroke="#4B50E6" stroke-width="3"/>
-    <g stroke="#4B50E6" stroke-width="4" stroke-linecap="round"><line x1="10" y1="28" x2="10" y2="70"/><line x1="130" y1="28" x2="130" y2="70"/></g>
-    
-    <line x1="58" y1="62" x2="78" y2="36" stroke="#4B50E6" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="68" cy="49" r="3.5" fill="#4B50E6"/>
-    
-    <line x1="68" y1="26" x2="68" y2="32" stroke="#4B50E6" stroke-width="3"/>
-    <rect x="50" y="6" width="36" height="21" rx="3" fill="#4B50E6"/>
-    <rect x="55" y="11" width="13" height="8" rx="1" fill="#FFFFFF"/>
-    <circle cx="77" cy="16.5" r="4" fill="#FFFFFF"/>
-    
-    <path d="M92,49 L118,49 M111,42 L118,49 L111,56" fill="none" stroke="#4B50E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<title id="k7_title">Volumenstromregler eckig, Luftrichtung oben, Störung</title>
+  <defs>
+    <linearGradient id="k7_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k7_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k7_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#F5A3A0"/><stop offset="1" stop-color="#D7302B"/></radialGradient>
+  </defs>
+  <g transform="translate(0,140) scale(1,-1) translate(80,0) rotate(90)">
+    <rect x="10" y="27" width="120" height="46" fill="url(#k7_gG)" stroke="#999999" stroke-width="2"/><path d="M12,31 H128 M12,69 H128" stroke="#B5BCC4" stroke-width="1"/><rect x="6" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(66 66 36)"><rect x="64.4" y="27.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="36" r="2.6" fill="#4D4D4D"/><g transform="rotate(-66 66 50)"><rect x="64.4" y="41.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="50" r="2.6" fill="#4D4D4D"/><g transform="rotate(66 66 64)"><rect x="64.4" y="55.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="64" r="2.6" fill="#4D4D4D"/>
+    <rect x="63" y="21" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="48" y="1" width="36" height="21" rx="3" fill="url(#k7_gG)" stroke="#999999" stroke-width="1.6"/><rect x="53" y="7" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><circle cx="75" cy="11.5" r="3.6" fill="url(#k7_gL)" stroke="#9E1F1B" stroke-width="1"/></g>
+    <path d="M92,50.0 H116 M109,43.0 L116,50.0 L109,57.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><g transform="translate(30.0 74)"><path d="M0,-17 L19,15 L-19,15 Z" fill="#D7302B" stroke="#FFFFFF" stroke-width="2.6" stroke-linejoin="round"/><rect x="-2.5" y="-8" width="5" height="15" rx="2.5" fill="#FFFFFF"/><circle cx="0" cy="10.5" r="2.7" fill="#FFFFFF"/></g></g>
 </svg>
 <text x="1342.5" y="575" class="name">Volumenstromregler</text>
-<text x="1342.5" y="593" class="name">rund_unten</text>
+<text x="1342.5" y="593" class="name">eckig_oben_stoerung</text>
 <text x="1342.5" y="614" class="mass">80 × 140 px</text>
+</g>
+<g id="Volumenstromregler_eckig_rechts">
+<rect x="19" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="674" width="280" height="160" viewBox="0 0 140 80" overflow="hidden">
+<title id="k8_title">Volumenstromregler eckig, Luftrichtung rechts, aus</title>
+  <defs>
+    <linearGradient id="k8_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k8_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k8_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <g>
+    <rect x="10" y="27" width="120" height="46" fill="url(#k8_gG)" stroke="#999999" stroke-width="2"/><path d="M12,31 H128 M12,69 H128" stroke="#B5BCC4" stroke-width="1"/><rect x="6" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(66 66 36)"><rect x="64.4" y="27.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="36" r="2.6" fill="#4D4D4D"/><g transform="rotate(-66 66 50)"><rect x="64.4" y="41.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="50" r="2.6" fill="#4D4D4D"/><g transform="rotate(66 66 64)"><rect x="64.4" y="55.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="64" r="2.6" fill="#4D4D4D"/>
+    <rect x="63" y="21" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="48" y="1" width="36" height="21" rx="3" fill="url(#k8_gG)" stroke="#999999" stroke-width="1.6"/><rect x="53" y="7" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="75" cy="11.5" r="3.6" fill="url(#k8_gL)" stroke="#808080" stroke-width="1"/>
+    <path d="M92,50.0 H116 M109,43.0 L116,50.0 L109,57.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="202.5" y="863" class="name">Volumenstromregler</text>
+<text x="202.5" y="881" class="name">eckig_rechts</text>
+<text x="202.5" y="902" class="mass">140 × 80 px</text>
+</g>
+<g id="Volumenstromregler_eckig_rechts_an">
+<rect x="399" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="442.5" y="674" width="280" height="160" viewBox="0 0 140 80" overflow="hidden">
+<title id="k9_title">Volumenstromregler eckig, Luftrichtung rechts, Betrieb</title>
+  <defs>
+    <linearGradient id="k9_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k9_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k9_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#A8DC96"/><stop offset="1" stop-color="#3E9A3A"/></radialGradient>
+  </defs>
+  <g>
+    <rect x="10" y="27" width="120" height="46" fill="url(#k9_gG)" stroke="#999999" stroke-width="2"/><path d="M12,31 H128 M12,69 H128" stroke="#B5BCC4" stroke-width="1"/><rect x="6" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(66 66 36)"><animateTransform attributeName="transform" type="rotate" values="66 66 36;58 66 36;66 66 36" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="4s" repeatCount="indefinite"/><rect x="64.4" y="27.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="36" r="2.6" fill="#4D4D4D"/><g transform="rotate(-66 66 50)"><animateTransform attributeName="transform" type="rotate" values="-66 66 50;-58 66 50;-66 66 50" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="4s" repeatCount="indefinite"/><rect x="64.4" y="41.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="50" r="2.6" fill="#4D4D4D"/><g transform="rotate(66 66 64)"><animateTransform attributeName="transform" type="rotate" values="66 66 64;58 66 64;66 66 64" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="4s" repeatCount="indefinite"/><rect x="64.4" y="55.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="64" r="2.6" fill="#4D4D4D"/>
+    <rect x="63" y="21" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="48" y="1" width="36" height="21" rx="3" fill="url(#k9_gG)" stroke="#999999" stroke-width="1.6"/><rect x="53" y="7" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="75" cy="11.5" r="3.6" fill="url(#k9_gL)" stroke="#2F7A2C" stroke-width="1"/>
+    <path d="M92,50.0 H116 M109,43.0 L116,50.0 L109,57.0" fill="none" stroke="#4D4D4D" stroke-opacity="0.25" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 50.0;118 50.0" dur="1.2s" begin="0s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 50.0;118 50.0" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 50.0;118 50.0" dur="1.2s" begin="0.8s" repeatCount="indefinite"/></path>
+  </g>
+</svg>
+<text x="582.5" y="863" class="name">Volumenstromregler</text>
+<text x="582.5" y="881" class="name">eckig_rechts_an</text>
+<text x="582.5" y="902" class="mass">140 × 80 px</text>
+</g>
+<g id="Volumenstromregler_eckig_rechts_aus">
+<rect x="779" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="674" width="280" height="160" viewBox="0 0 140 80" overflow="hidden">
+<title id="k10_title">Volumenstromregler eckig, Luftrichtung rechts, aus</title>
+  <defs>
+    <linearGradient id="k10_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k10_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k10_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <g>
+    <rect x="10" y="27" width="120" height="46" fill="url(#k10_gG)" stroke="#999999" stroke-width="2"/><path d="M12,31 H128 M12,69 H128" stroke="#B5BCC4" stroke-width="1"/><rect x="6" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(66 66 36)"><rect x="64.4" y="27.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="36" r="2.6" fill="#4D4D4D"/><g transform="rotate(-66 66 50)"><rect x="64.4" y="41.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="50" r="2.6" fill="#4D4D4D"/><g transform="rotate(66 66 64)"><rect x="64.4" y="55.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="64" r="2.6" fill="#4D4D4D"/>
+    <rect x="63" y="21" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="48" y="1" width="36" height="21" rx="3" fill="url(#k10_gG)" stroke="#999999" stroke-width="1.6"/><rect x="53" y="7" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="75" cy="11.5" r="3.6" fill="url(#k10_gL)" stroke="#808080" stroke-width="1"/>
+    <path d="M92,50.0 H116 M109,43.0 L116,50.0 L109,57.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="962.5" y="863" class="name">Volumenstromregler</text>
+<text x="962.5" y="881" class="name">eckig_rechts_aus</text>
+<text x="962.5" y="902" class="mass">140 × 80 px</text>
+</g>
+<g id="Volumenstromregler_eckig_rechts_stoerung">
+<rect x="1159" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1202.5" y="674" width="280" height="160" viewBox="0 0 140 80" overflow="hidden">
+<title id="k11_title">Volumenstromregler eckig, Luftrichtung rechts, Störung</title>
+  <defs>
+    <linearGradient id="k11_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k11_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k11_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#F5A3A0"/><stop offset="1" stop-color="#D7302B"/></radialGradient>
+  </defs>
+  <g>
+    <rect x="10" y="27" width="120" height="46" fill="url(#k11_gG)" stroke="#999999" stroke-width="2"/><path d="M12,31 H128 M12,69 H128" stroke="#B5BCC4" stroke-width="1"/><rect x="6" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(66 66 36)"><rect x="64.4" y="27.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="36" r="2.6" fill="#4D4D4D"/><g transform="rotate(-66 66 50)"><rect x="64.4" y="41.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="50" r="2.6" fill="#4D4D4D"/><g transform="rotate(66 66 64)"><rect x="64.4" y="55.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="64" r="2.6" fill="#4D4D4D"/>
+    <rect x="63" y="21" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="48" y="1" width="36" height="21" rx="3" fill="url(#k11_gG)" stroke="#999999" stroke-width="1.6"/><rect x="53" y="7" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><circle cx="75" cy="11.5" r="3.6" fill="url(#k11_gL)" stroke="#9E1F1B" stroke-width="1"/></g>
+    <path d="M92,50.0 H116 M109,43.0 L116,50.0 L109,57.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><g transform="translate(66 50.0)"><path d="M0,-17 L19,15 L-19,15 Z" fill="#D7302B" stroke="#FFFFFF" stroke-width="2.6" stroke-linejoin="round"/><rect x="-2.5" y="-8" width="5" height="15" rx="2.5" fill="#FFFFFF"/><circle cx="0" cy="10.5" r="2.7" fill="#FFFFFF"/></g></g>
+</svg>
+<text x="1342.5" y="863" class="name">Volumenstromregler</text>
+<text x="1342.5" y="881" class="name">eckig_rechts_stoerung</text>
+<text x="1342.5" y="902" class="mass">140 × 80 px</text>
+</g>
+<g id="Volumenstromregler_eckig_unten">
+<rect x="19" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="155.36" y="959.5" width="94.29" height="165" viewBox="0 0 80 140" overflow="hidden">
+<title id="k12_title">Volumenstromregler eckig, Luftrichtung unten, aus</title>
+  <defs>
+    <linearGradient id="k12_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k12_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k12_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <g transform="translate(80,0) rotate(90)">
+    <rect x="10" y="27" width="120" height="46" fill="url(#k12_gG)" stroke="#999999" stroke-width="2"/><path d="M12,31 H128 M12,69 H128" stroke="#B5BCC4" stroke-width="1"/><rect x="6" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(66 66 36)"><rect x="64.4" y="27.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="36" r="2.6" fill="#4D4D4D"/><g transform="rotate(-66 66 50)"><rect x="64.4" y="41.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="50" r="2.6" fill="#4D4D4D"/><g transform="rotate(66 66 64)"><rect x="64.4" y="55.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="64" r="2.6" fill="#4D4D4D"/>
+    <rect x="63" y="21" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="48" y="1" width="36" height="21" rx="3" fill="url(#k12_gG)" stroke="#999999" stroke-width="1.6"/><rect x="53" y="7" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="75" cy="11.5" r="3.6" fill="url(#k12_gL)" stroke="#808080" stroke-width="1"/>
+    <path d="M92,50.0 H116 M109,43.0 L116,50.0 L109,57.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="202.5" y="1151" class="name">Volumenstromregler</text>
+<text x="202.5" y="1169" class="name">eckig_unten</text>
+<text x="202.5" y="1190" class="mass">80 × 140 px</text>
+</g>
+<g id="Volumenstromregler_eckig_unten_an">
+<rect x="399" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="535.36" y="959.5" width="94.29" height="165" viewBox="0 0 80 140" overflow="hidden">
+<title id="k13_title">Volumenstromregler eckig, Luftrichtung unten, Betrieb</title>
+  <defs>
+    <linearGradient id="k13_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k13_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k13_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#A8DC96"/><stop offset="1" stop-color="#3E9A3A"/></radialGradient>
+  </defs>
+  <g transform="translate(80,0) rotate(90)">
+    <rect x="10" y="27" width="120" height="46" fill="url(#k13_gG)" stroke="#999999" stroke-width="2"/><path d="M12,31 H128 M12,69 H128" stroke="#B5BCC4" stroke-width="1"/><rect x="6" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(66 66 36)"><animateTransform attributeName="transform" type="rotate" values="66 66 36;58 66 36;66 66 36" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="4s" repeatCount="indefinite"/><rect x="64.4" y="27.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="36" r="2.6" fill="#4D4D4D"/><g transform="rotate(-66 66 50)"><animateTransform attributeName="transform" type="rotate" values="-66 66 50;-58 66 50;-66 66 50" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="4s" repeatCount="indefinite"/><rect x="64.4" y="41.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="50" r="2.6" fill="#4D4D4D"/><g transform="rotate(66 66 64)"><animateTransform attributeName="transform" type="rotate" values="66 66 64;58 66 64;66 66 64" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="4s" repeatCount="indefinite"/><rect x="64.4" y="55.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="64" r="2.6" fill="#4D4D4D"/>
+    <rect x="63" y="21" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="48" y="1" width="36" height="21" rx="3" fill="url(#k13_gG)" stroke="#999999" stroke-width="1.6"/><rect x="53" y="7" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="75" cy="11.5" r="3.6" fill="url(#k13_gL)" stroke="#2F7A2C" stroke-width="1"/>
+    <path d="M92,50.0 H116 M109,43.0 L116,50.0 L109,57.0" fill="none" stroke="#4D4D4D" stroke-opacity="0.25" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 50.0;118 50.0" dur="1.2s" begin="0s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 50.0;118 50.0" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 50.0;118 50.0" dur="1.2s" begin="0.8s" repeatCount="indefinite"/></path>
+  </g>
+</svg>
+<text x="582.5" y="1151" class="name">Volumenstromregler</text>
+<text x="582.5" y="1169" class="name">eckig_unten_an</text>
+<text x="582.5" y="1190" class="mass">80 × 140 px</text>
+</g>
+<g id="Volumenstromregler_eckig_unten_aus">
+<rect x="779" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="915.36" y="959.5" width="94.29" height="165" viewBox="0 0 80 140" overflow="hidden">
+<title id="k14_title">Volumenstromregler eckig, Luftrichtung unten, aus</title>
+  <defs>
+    <linearGradient id="k14_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k14_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k14_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <g transform="translate(80,0) rotate(90)">
+    <rect x="10" y="27" width="120" height="46" fill="url(#k14_gG)" stroke="#999999" stroke-width="2"/><path d="M12,31 H128 M12,69 H128" stroke="#B5BCC4" stroke-width="1"/><rect x="6" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(66 66 36)"><rect x="64.4" y="27.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="36" r="2.6" fill="#4D4D4D"/><g transform="rotate(-66 66 50)"><rect x="64.4" y="41.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="50" r="2.6" fill="#4D4D4D"/><g transform="rotate(66 66 64)"><rect x="64.4" y="55.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="64" r="2.6" fill="#4D4D4D"/>
+    <rect x="63" y="21" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="48" y="1" width="36" height="21" rx="3" fill="url(#k14_gG)" stroke="#999999" stroke-width="1.6"/><rect x="53" y="7" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="75" cy="11.5" r="3.6" fill="url(#k14_gL)" stroke="#808080" stroke-width="1"/>
+    <path d="M92,50.0 H116 M109,43.0 L116,50.0 L109,57.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="962.5" y="1151" class="name">Volumenstromregler</text>
+<text x="962.5" y="1169" class="name">eckig_unten_aus</text>
+<text x="962.5" y="1190" class="mass">80 × 140 px</text>
+</g>
+<g id="Volumenstromregler_eckig_unten_stoerung">
+<rect x="1159" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1295.36" y="959.5" width="94.29" height="165" viewBox="0 0 80 140" overflow="hidden">
+<title id="k15_title">Volumenstromregler eckig, Luftrichtung unten, Störung</title>
+  <defs>
+    <linearGradient id="k15_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k15_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k15_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#F5A3A0"/><stop offset="1" stop-color="#D7302B"/></radialGradient>
+  </defs>
+  <g transform="translate(80,0) rotate(90)">
+    <rect x="10" y="27" width="120" height="46" fill="url(#k15_gG)" stroke="#999999" stroke-width="2"/><path d="M12,31 H128 M12,69 H128" stroke="#B5BCC4" stroke-width="1"/><rect x="6" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="22" width="5" height="56" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(66 66 36)"><rect x="64.4" y="27.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="36" r="2.6" fill="#4D4D4D"/><g transform="rotate(-66 66 50)"><rect x="64.4" y="41.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="50" r="2.6" fill="#4D4D4D"/><g transform="rotate(66 66 64)"><rect x="64.4" y="55.5" width="3.2" height="17.0" rx="1" fill="#808080"/></g><circle cx="66" cy="64" r="2.6" fill="#4D4D4D"/>
+    <rect x="63" y="21" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="48" y="1" width="36" height="21" rx="3" fill="url(#k15_gG)" stroke="#999999" stroke-width="1.6"/><rect x="53" y="7" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><circle cx="75" cy="11.5" r="3.6" fill="url(#k15_gL)" stroke="#9E1F1B" stroke-width="1"/></g>
+    <path d="M92,50.0 H116 M109,43.0 L116,50.0 L109,57.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><g transform="translate(30.0 66)"><path d="M0,-17 L19,15 L-19,15 Z" fill="#D7302B" stroke="#FFFFFF" stroke-width="2.6" stroke-linejoin="round"/><rect x="-2.5" y="-8" width="5" height="15" rx="2.5" fill="#FFFFFF"/><circle cx="0" cy="10.5" r="2.7" fill="#FFFFFF"/></g></g>
+</svg>
+<text x="1342.5" y="1151" class="name">Volumenstromregler</text>
+<text x="1342.5" y="1169" class="name">eckig_unten_stoerung</text>
+<text x="1342.5" y="1190" class="mass">80 × 140 px</text>
+</g>
+<g id="Volumenstromregler_rund_links">
+<rect x="19" y="1221" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="1250" width="280" height="160" viewBox="0 0 140 80" overflow="hidden">
+<title id="k16_title">Volumenstromregler rund, Luftrichtung links, aus</title>
+  <defs>
+    <linearGradient id="k16_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k16_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k16_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <g transform="translate(140,0) scale(-1,1)">
+    <rect x="10" y="32" width="120" height="34" fill="url(#k16_gR)" stroke="#999999" stroke-width="2"/><rect x="6" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(38 68 49)"><rect x="66.4" y="33.0" width="3.2" height="32.0" rx="1" fill="#808080"/></g><circle cx="68" cy="49" r="3.6" fill="#4D4D4D"/>
+    <rect x="65" y="26" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="50" y="6" width="36" height="21" rx="3" fill="url(#k16_gG)" stroke="#999999" stroke-width="1.6"/><rect x="55" y="12" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="77" cy="16.5" r="3.6" fill="url(#k16_gL)" stroke="#808080" stroke-width="1"/>
+    <path d="M92,49.0 H116 M109,42.0 L116,49.0 L109,56.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="202.5" y="1439" class="name">Volumenstromregler</text>
+<text x="202.5" y="1457" class="name">rund_links</text>
+<text x="202.5" y="1478" class="mass">140 × 80 px</text>
+</g>
+<g id="Volumenstromregler_rund_links_an">
+<rect x="399" y="1221" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="442.5" y="1250" width="280" height="160" viewBox="0 0 140 80" overflow="hidden">
+<title id="k17_title">Volumenstromregler rund, Luftrichtung links, Betrieb</title>
+  <defs>
+    <linearGradient id="k17_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k17_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k17_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#A8DC96"/><stop offset="1" stop-color="#3E9A3A"/></radialGradient>
+  </defs>
+  <g transform="translate(140,0) scale(-1,1)">
+    <rect x="10" y="32" width="120" height="34" fill="url(#k17_gR)" stroke="#999999" stroke-width="2"/><rect x="6" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(38 68 49)"><animateTransform attributeName="transform" type="rotate" values="38 68 49;30 68 49;38 68 49" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="4s" repeatCount="indefinite"/><rect x="66.4" y="33.0" width="3.2" height="32.0" rx="1" fill="#808080"/></g><circle cx="68" cy="49" r="3.6" fill="#4D4D4D"/>
+    <rect x="65" y="26" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="50" y="6" width="36" height="21" rx="3" fill="url(#k17_gG)" stroke="#999999" stroke-width="1.6"/><rect x="55" y="12" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="77" cy="16.5" r="3.6" fill="url(#k17_gL)" stroke="#2F7A2C" stroke-width="1"/>
+    <path d="M92,49.0 H116 M109,42.0 L116,49.0 L109,56.0" fill="none" stroke="#4D4D4D" stroke-opacity="0.25" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 49.0;118 49.0" dur="1.2s" begin="0s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 49.0;118 49.0" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 49.0;118 49.0" dur="1.2s" begin="0.8s" repeatCount="indefinite"/></path>
+  </g>
+</svg>
+<text x="582.5" y="1439" class="name">Volumenstromregler</text>
+<text x="582.5" y="1457" class="name">rund_links_an</text>
+<text x="582.5" y="1478" class="mass">140 × 80 px</text>
+</g>
+<g id="Volumenstromregler_rund_links_aus">
+<rect x="779" y="1221" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="1250" width="280" height="160" viewBox="0 0 140 80" overflow="hidden">
+<title id="k18_title">Volumenstromregler rund, Luftrichtung links, aus</title>
+  <defs>
+    <linearGradient id="k18_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k18_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k18_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <g transform="translate(140,0) scale(-1,1)">
+    <rect x="10" y="32" width="120" height="34" fill="url(#k18_gR)" stroke="#999999" stroke-width="2"/><rect x="6" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(38 68 49)"><rect x="66.4" y="33.0" width="3.2" height="32.0" rx="1" fill="#808080"/></g><circle cx="68" cy="49" r="3.6" fill="#4D4D4D"/>
+    <rect x="65" y="26" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="50" y="6" width="36" height="21" rx="3" fill="url(#k18_gG)" stroke="#999999" stroke-width="1.6"/><rect x="55" y="12" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="77" cy="16.5" r="3.6" fill="url(#k18_gL)" stroke="#808080" stroke-width="1"/>
+    <path d="M92,49.0 H116 M109,42.0 L116,49.0 L109,56.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="962.5" y="1439" class="name">Volumenstromregler</text>
+<text x="962.5" y="1457" class="name">rund_links_aus</text>
+<text x="962.5" y="1478" class="mass">140 × 80 px</text>
+</g>
+<g id="Volumenstromregler_rund_links_stoerung">
+<rect x="1159" y="1221" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="1222" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1202.5" y="1250" width="280" height="160" viewBox="0 0 140 80" overflow="hidden">
+<title id="k19_title">Volumenstromregler rund, Luftrichtung links, Störung</title>
+  <defs>
+    <linearGradient id="k19_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k19_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k19_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#F5A3A0"/><stop offset="1" stop-color="#D7302B"/></radialGradient>
+  </defs>
+  <g transform="translate(140,0) scale(-1,1)">
+    <rect x="10" y="32" width="120" height="34" fill="url(#k19_gR)" stroke="#999999" stroke-width="2"/><rect x="6" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(38 68 49)"><rect x="66.4" y="33.0" width="3.2" height="32.0" rx="1" fill="#808080"/></g><circle cx="68" cy="49" r="3.6" fill="#4D4D4D"/>
+    <rect x="65" y="26" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="50" y="6" width="36" height="21" rx="3" fill="url(#k19_gG)" stroke="#999999" stroke-width="1.6"/><rect x="55" y="12" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><circle cx="77" cy="16.5" r="3.6" fill="url(#k19_gL)" stroke="#9E1F1B" stroke-width="1"/></g>
+    <path d="M92,49.0 H116 M109,42.0 L116,49.0 L109,56.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><g transform="translate(72 49.0)"><path d="M0,-17 L19,15 L-19,15 Z" fill="#D7302B" stroke="#FFFFFF" stroke-width="2.6" stroke-linejoin="round"/><rect x="-2.5" y="-8" width="5" height="15" rx="2.5" fill="#FFFFFF"/><circle cx="0" cy="10.5" r="2.7" fill="#FFFFFF"/></g></g>
+</svg>
+<text x="1342.5" y="1439" class="name">Volumenstromregler</text>
+<text x="1342.5" y="1457" class="name">rund_links_stoerung</text>
+<text x="1342.5" y="1478" class="mass">140 × 80 px</text>
+</g>
+<g id="Volumenstromregler_rund_oben">
+<rect x="19" y="1509" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="1510" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="155.36" y="1535.5" width="94.29" height="165" viewBox="0 0 80 140" overflow="hidden">
+<title id="k20_title">Volumenstromregler rund, Luftrichtung oben, aus</title>
+  <defs>
+    <linearGradient id="k20_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k20_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k20_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <g transform="translate(0,140) scale(1,-1) translate(80,0) rotate(90)">
+    <rect x="10" y="32" width="120" height="34" fill="url(#k20_gR)" stroke="#999999" stroke-width="2"/><rect x="6" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(38 68 49)"><rect x="66.4" y="33.0" width="3.2" height="32.0" rx="1" fill="#808080"/></g><circle cx="68" cy="49" r="3.6" fill="#4D4D4D"/>
+    <rect x="65" y="26" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="50" y="6" width="36" height="21" rx="3" fill="url(#k20_gG)" stroke="#999999" stroke-width="1.6"/><rect x="55" y="12" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="77" cy="16.5" r="3.6" fill="url(#k20_gL)" stroke="#808080" stroke-width="1"/>
+    <path d="M92,49.0 H116 M109,42.0 L116,49.0 L109,56.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="202.5" y="1727" class="name">Volumenstromregler</text>
+<text x="202.5" y="1745" class="name">rund_oben</text>
+<text x="202.5" y="1766" class="mass">80 × 140 px</text>
+</g>
+<g id="Volumenstromregler_rund_oben_an">
+<rect x="399" y="1509" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="1510" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="535.36" y="1535.5" width="94.29" height="165" viewBox="0 0 80 140" overflow="hidden">
+<title id="k21_title">Volumenstromregler rund, Luftrichtung oben, Betrieb</title>
+  <defs>
+    <linearGradient id="k21_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k21_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k21_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#A8DC96"/><stop offset="1" stop-color="#3E9A3A"/></radialGradient>
+  </defs>
+  <g transform="translate(0,140) scale(1,-1) translate(80,0) rotate(90)">
+    <rect x="10" y="32" width="120" height="34" fill="url(#k21_gR)" stroke="#999999" stroke-width="2"/><rect x="6" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(38 68 49)"><animateTransform attributeName="transform" type="rotate" values="38 68 49;30 68 49;38 68 49" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="4s" repeatCount="indefinite"/><rect x="66.4" y="33.0" width="3.2" height="32.0" rx="1" fill="#808080"/></g><circle cx="68" cy="49" r="3.6" fill="#4D4D4D"/>
+    <rect x="65" y="26" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="50" y="6" width="36" height="21" rx="3" fill="url(#k21_gG)" stroke="#999999" stroke-width="1.6"/><rect x="55" y="12" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="77" cy="16.5" r="3.6" fill="url(#k21_gL)" stroke="#2F7A2C" stroke-width="1"/>
+    <path d="M92,49.0 H116 M109,42.0 L116,49.0 L109,56.0" fill="none" stroke="#4D4D4D" stroke-opacity="0.25" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 49.0;118 49.0" dur="1.2s" begin="0s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 49.0;118 49.0" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 49.0;118 49.0" dur="1.2s" begin="0.8s" repeatCount="indefinite"/></path>
+  </g>
+</svg>
+<text x="582.5" y="1727" class="name">Volumenstromregler</text>
+<text x="582.5" y="1745" class="name">rund_oben_an</text>
+<text x="582.5" y="1766" class="mass">80 × 140 px</text>
+</g>
+<g id="Volumenstromregler_rund_oben_aus">
+<rect x="779" y="1509" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="1510" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="915.36" y="1535.5" width="94.29" height="165" viewBox="0 0 80 140" overflow="hidden">
+<title id="k22_title">Volumenstromregler rund, Luftrichtung oben, aus</title>
+  <defs>
+    <linearGradient id="k22_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k22_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k22_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <g transform="translate(0,140) scale(1,-1) translate(80,0) rotate(90)">
+    <rect x="10" y="32" width="120" height="34" fill="url(#k22_gR)" stroke="#999999" stroke-width="2"/><rect x="6" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(38 68 49)"><rect x="66.4" y="33.0" width="3.2" height="32.0" rx="1" fill="#808080"/></g><circle cx="68" cy="49" r="3.6" fill="#4D4D4D"/>
+    <rect x="65" y="26" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="50" y="6" width="36" height="21" rx="3" fill="url(#k22_gG)" stroke="#999999" stroke-width="1.6"/><rect x="55" y="12" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="77" cy="16.5" r="3.6" fill="url(#k22_gL)" stroke="#808080" stroke-width="1"/>
+    <path d="M92,49.0 H116 M109,42.0 L116,49.0 L109,56.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="962.5" y="1727" class="name">Volumenstromregler</text>
+<text x="962.5" y="1745" class="name">rund_oben_aus</text>
+<text x="962.5" y="1766" class="mass">80 × 140 px</text>
+</g>
+<g id="Volumenstromregler_rund_oben_stoerung">
+<rect x="1159" y="1509" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="1510" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1295.36" y="1535.5" width="94.29" height="165" viewBox="0 0 80 140" overflow="hidden">
+<title id="k23_title">Volumenstromregler rund, Luftrichtung oben, Störung</title>
+  <defs>
+    <linearGradient id="k23_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k23_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k23_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#F5A3A0"/><stop offset="1" stop-color="#D7302B"/></radialGradient>
+  </defs>
+  <g transform="translate(0,140) scale(1,-1) translate(80,0) rotate(90)">
+    <rect x="10" y="32" width="120" height="34" fill="url(#k23_gR)" stroke="#999999" stroke-width="2"/><rect x="6" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(38 68 49)"><rect x="66.4" y="33.0" width="3.2" height="32.0" rx="1" fill="#808080"/></g><circle cx="68" cy="49" r="3.6" fill="#4D4D4D"/>
+    <rect x="65" y="26" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="50" y="6" width="36" height="21" rx="3" fill="url(#k23_gG)" stroke="#999999" stroke-width="1.6"/><rect x="55" y="12" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><circle cx="77" cy="16.5" r="3.6" fill="url(#k23_gL)" stroke="#9E1F1B" stroke-width="1"/></g>
+    <path d="M92,49.0 H116 M109,42.0 L116,49.0 L109,56.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><g transform="translate(31.0 72)"><path d="M0,-17 L19,15 L-19,15 Z" fill="#D7302B" stroke="#FFFFFF" stroke-width="2.6" stroke-linejoin="round"/><rect x="-2.5" y="-8" width="5" height="15" rx="2.5" fill="#FFFFFF"/><circle cx="0" cy="10.5" r="2.7" fill="#FFFFFF"/></g></g>
+</svg>
+<text x="1342.5" y="1727" class="name">Volumenstromregler</text>
+<text x="1342.5" y="1745" class="name">rund_oben_stoerung</text>
+<text x="1342.5" y="1766" class="mass">80 × 140 px</text>
+</g>
+<g id="Volumenstromregler_rund_rechts">
+<rect x="19" y="1797" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="1798" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="1826" width="280" height="160" viewBox="0 0 140 80" overflow="hidden">
+<title id="k24_title">Volumenstromregler rund, Luftrichtung rechts, aus</title>
+  <defs>
+    <linearGradient id="k24_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k24_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k24_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <g>
+    <rect x="10" y="32" width="120" height="34" fill="url(#k24_gR)" stroke="#999999" stroke-width="2"/><rect x="6" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(38 68 49)"><rect x="66.4" y="33.0" width="3.2" height="32.0" rx="1" fill="#808080"/></g><circle cx="68" cy="49" r="3.6" fill="#4D4D4D"/>
+    <rect x="65" y="26" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="50" y="6" width="36" height="21" rx="3" fill="url(#k24_gG)" stroke="#999999" stroke-width="1.6"/><rect x="55" y="12" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="77" cy="16.5" r="3.6" fill="url(#k24_gL)" stroke="#808080" stroke-width="1"/>
+    <path d="M92,49.0 H116 M109,42.0 L116,49.0 L109,56.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="202.5" y="2015" class="name">Volumenstromregler</text>
+<text x="202.5" y="2033" class="name">rund_rechts</text>
+<text x="202.5" y="2054" class="mass">140 × 80 px</text>
+</g>
+<g id="Volumenstromregler_rund_rechts_an">
+<rect x="399" y="1797" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="1798" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="442.5" y="1826" width="280" height="160" viewBox="0 0 140 80" overflow="hidden">
+<title id="k25_title">Volumenstromregler rund, Luftrichtung rechts, Betrieb</title>
+  <defs>
+    <linearGradient id="k25_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k25_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k25_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#A8DC96"/><stop offset="1" stop-color="#3E9A3A"/></radialGradient>
+  </defs>
+  <g>
+    <rect x="10" y="32" width="120" height="34" fill="url(#k25_gR)" stroke="#999999" stroke-width="2"/><rect x="6" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(38 68 49)"><animateTransform attributeName="transform" type="rotate" values="38 68 49;30 68 49;38 68 49" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="4s" repeatCount="indefinite"/><rect x="66.4" y="33.0" width="3.2" height="32.0" rx="1" fill="#808080"/></g><circle cx="68" cy="49" r="3.6" fill="#4D4D4D"/>
+    <rect x="65" y="26" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="50" y="6" width="36" height="21" rx="3" fill="url(#k25_gG)" stroke="#999999" stroke-width="1.6"/><rect x="55" y="12" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="77" cy="16.5" r="3.6" fill="url(#k25_gL)" stroke="#2F7A2C" stroke-width="1"/>
+    <path d="M92,49.0 H116 M109,42.0 L116,49.0 L109,56.0" fill="none" stroke="#4D4D4D" stroke-opacity="0.25" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 49.0;118 49.0" dur="1.2s" begin="0s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 49.0;118 49.0" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 49.0;118 49.0" dur="1.2s" begin="0.8s" repeatCount="indefinite"/></path>
+  </g>
+</svg>
+<text x="582.5" y="2015" class="name">Volumenstromregler</text>
+<text x="582.5" y="2033" class="name">rund_rechts_an</text>
+<text x="582.5" y="2054" class="mass">140 × 80 px</text>
+</g>
+<g id="Volumenstromregler_rund_rechts_aus">
+<rect x="779" y="1797" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="1798" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="1826" width="280" height="160" viewBox="0 0 140 80" overflow="hidden">
+<title id="k26_title">Volumenstromregler rund, Luftrichtung rechts, aus</title>
+  <defs>
+    <linearGradient id="k26_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k26_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k26_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <g>
+    <rect x="10" y="32" width="120" height="34" fill="url(#k26_gR)" stroke="#999999" stroke-width="2"/><rect x="6" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(38 68 49)"><rect x="66.4" y="33.0" width="3.2" height="32.0" rx="1" fill="#808080"/></g><circle cx="68" cy="49" r="3.6" fill="#4D4D4D"/>
+    <rect x="65" y="26" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="50" y="6" width="36" height="21" rx="3" fill="url(#k26_gG)" stroke="#999999" stroke-width="1.6"/><rect x="55" y="12" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="77" cy="16.5" r="3.6" fill="url(#k26_gL)" stroke="#808080" stroke-width="1"/>
+    <path d="M92,49.0 H116 M109,42.0 L116,49.0 L109,56.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="962.5" y="2015" class="name">Volumenstromregler</text>
+<text x="962.5" y="2033" class="name">rund_rechts_aus</text>
+<text x="962.5" y="2054" class="mass">140 × 80 px</text>
+</g>
+<g id="Volumenstromregler_rund_rechts_stoerung">
+<rect x="1159" y="1797" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="1798" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1202.5" y="1826" width="280" height="160" viewBox="0 0 140 80" overflow="hidden">
+<title id="k27_title">Volumenstromregler rund, Luftrichtung rechts, Störung</title>
+  <defs>
+    <linearGradient id="k27_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k27_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k27_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#F5A3A0"/><stop offset="1" stop-color="#D7302B"/></radialGradient>
+  </defs>
+  <g>
+    <rect x="10" y="32" width="120" height="34" fill="url(#k27_gR)" stroke="#999999" stroke-width="2"/><rect x="6" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(38 68 49)"><rect x="66.4" y="33.0" width="3.2" height="32.0" rx="1" fill="#808080"/></g><circle cx="68" cy="49" r="3.6" fill="#4D4D4D"/>
+    <rect x="65" y="26" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="50" y="6" width="36" height="21" rx="3" fill="url(#k27_gG)" stroke="#999999" stroke-width="1.6"/><rect x="55" y="12" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><circle cx="77" cy="16.5" r="3.6" fill="url(#k27_gL)" stroke="#9E1F1B" stroke-width="1"/></g>
+    <path d="M92,49.0 H116 M109,42.0 L116,49.0 L109,56.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><g transform="translate(68 49.0)"><path d="M0,-17 L19,15 L-19,15 Z" fill="#D7302B" stroke="#FFFFFF" stroke-width="2.6" stroke-linejoin="round"/><rect x="-2.5" y="-8" width="5" height="15" rx="2.5" fill="#FFFFFF"/><circle cx="0" cy="10.5" r="2.7" fill="#FFFFFF"/></g></g>
+</svg>
+<text x="1342.5" y="2015" class="name">Volumenstromregler</text>
+<text x="1342.5" y="2033" class="name">rund_rechts_stoerung</text>
+<text x="1342.5" y="2054" class="mass">140 × 80 px</text>
+</g>
+<g id="Volumenstromregler_rund_unten">
+<rect x="19" y="2085" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="2086" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="155.36" y="2111.5" width="94.29" height="165" viewBox="0 0 80 140" overflow="hidden">
+<title id="k28_title">Volumenstromregler rund, Luftrichtung unten, aus</title>
+  <defs>
+    <linearGradient id="k28_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k28_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k28_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <g transform="translate(80,0) rotate(90)">
+    <rect x="10" y="32" width="120" height="34" fill="url(#k28_gR)" stroke="#999999" stroke-width="2"/><rect x="6" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(38 68 49)"><rect x="66.4" y="33.0" width="3.2" height="32.0" rx="1" fill="#808080"/></g><circle cx="68" cy="49" r="3.6" fill="#4D4D4D"/>
+    <rect x="65" y="26" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="50" y="6" width="36" height="21" rx="3" fill="url(#k28_gG)" stroke="#999999" stroke-width="1.6"/><rect x="55" y="12" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="77" cy="16.5" r="3.6" fill="url(#k28_gL)" stroke="#808080" stroke-width="1"/>
+    <path d="M92,49.0 H116 M109,42.0 L116,49.0 L109,56.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="202.5" y="2303" class="name">Volumenstromregler</text>
+<text x="202.5" y="2321" class="name">rund_unten</text>
+<text x="202.5" y="2342" class="mass">80 × 140 px</text>
+</g>
+<g id="Volumenstromregler_rund_unten_an">
+<rect x="399" y="2085" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="2086" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="535.36" y="2111.5" width="94.29" height="165" viewBox="0 0 80 140" overflow="hidden">
+<title id="k29_title">Volumenstromregler rund, Luftrichtung unten, Betrieb</title>
+  <defs>
+    <linearGradient id="k29_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k29_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k29_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#A8DC96"/><stop offset="1" stop-color="#3E9A3A"/></radialGradient>
+  </defs>
+  <g transform="translate(80,0) rotate(90)">
+    <rect x="10" y="32" width="120" height="34" fill="url(#k29_gR)" stroke="#999999" stroke-width="2"/><rect x="6" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(38 68 49)"><animateTransform attributeName="transform" type="rotate" values="38 68 49;30 68 49;38 68 49" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="4s" repeatCount="indefinite"/><rect x="66.4" y="33.0" width="3.2" height="32.0" rx="1" fill="#808080"/></g><circle cx="68" cy="49" r="3.6" fill="#4D4D4D"/>
+    <rect x="65" y="26" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="50" y="6" width="36" height="21" rx="3" fill="url(#k29_gG)" stroke="#999999" stroke-width="1.6"/><rect x="55" y="12" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="77" cy="16.5" r="3.6" fill="url(#k29_gL)" stroke="#2F7A2C" stroke-width="1"/>
+    <path d="M92,49.0 H116 M109,42.0 L116,49.0 L109,56.0" fill="none" stroke="#4D4D4D" stroke-opacity="0.25" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 49.0;118 49.0" dur="1.2s" begin="0s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 49.0;118 49.0" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="92 49.0;118 49.0" dur="1.2s" begin="0.8s" repeatCount="indefinite"/></path>
+  </g>
+</svg>
+<text x="582.5" y="2303" class="name">Volumenstromregler</text>
+<text x="582.5" y="2321" class="name">rund_unten_an</text>
+<text x="582.5" y="2342" class="mass">80 × 140 px</text>
+</g>
+<g id="Volumenstromregler_rund_unten_aus">
+<rect x="779" y="2085" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="2086" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="915.36" y="2111.5" width="94.29" height="165" viewBox="0 0 80 140" overflow="hidden">
+<title id="k30_title">Volumenstromregler rund, Luftrichtung unten, aus</title>
+  <defs>
+    <linearGradient id="k30_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k30_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k30_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <g transform="translate(80,0) rotate(90)">
+    <rect x="10" y="32" width="120" height="34" fill="url(#k30_gR)" stroke="#999999" stroke-width="2"/><rect x="6" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(38 68 49)"><rect x="66.4" y="33.0" width="3.2" height="32.0" rx="1" fill="#808080"/></g><circle cx="68" cy="49" r="3.6" fill="#4D4D4D"/>
+    <rect x="65" y="26" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="50" y="6" width="36" height="21" rx="3" fill="url(#k30_gG)" stroke="#999999" stroke-width="1.6"/><rect x="55" y="12" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><circle cx="77" cy="16.5" r="3.6" fill="url(#k30_gL)" stroke="#808080" stroke-width="1"/>
+    <path d="M92,49.0 H116 M109,42.0 L116,49.0 L109,56.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
+<text x="962.5" y="2303" class="name">Volumenstromregler</text>
+<text x="962.5" y="2321" class="name">rund_unten_aus</text>
+<text x="962.5" y="2342" class="mass">80 × 140 px</text>
+</g>
+<g id="Volumenstromregler_rund_unten_stoerung">
+<rect x="1159" y="2085" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="2086" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1295.36" y="2111.5" width="94.29" height="165" viewBox="0 0 80 140" overflow="hidden">
+<title id="k31_title">Volumenstromregler rund, Luftrichtung unten, Störung</title>
+  <defs>
+    <linearGradient id="k31_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="k31_gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="k31_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#F5A3A0"/><stop offset="1" stop-color="#D7302B"/></radialGradient>
+  </defs>
+  <g transform="translate(80,0) rotate(90)">
+    <rect x="10" y="32" width="120" height="34" fill="url(#k31_gR)" stroke="#999999" stroke-width="2"/><rect x="6" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(38 68 49)"><rect x="66.4" y="33.0" width="3.2" height="32.0" rx="1" fill="#808080"/></g><circle cx="68" cy="49" r="3.6" fill="#4D4D4D"/>
+    <rect x="65" y="26" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="50" y="6" width="36" height="21" rx="3" fill="url(#k31_gG)" stroke="#999999" stroke-width="1.6"/><rect x="55" y="12" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><circle cx="77" cy="16.5" r="3.6" fill="url(#k31_gL)" stroke="#9E1F1B" stroke-width="1"/></g>
+    <path d="M92,49.0 H116 M109,42.0 L116,49.0 L109,56.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><g transform="translate(31.0 68)"><path d="M0,-17 L19,15 L-19,15 Z" fill="#D7302B" stroke="#FFFFFF" stroke-width="2.6" stroke-linejoin="round"/><rect x="-2.5" y="-8" width="5" height="15" rx="2.5" fill="#FFFFFF"/><circle cx="0" cy="10.5" r="2.7" fill="#FFFFFF"/></g></g>
+</svg>
+<text x="1342.5" y="2303" class="name">Volumenstromregler</text>
+<text x="1342.5" y="2321" class="name">rund_unten_stoerung</text>
+<text x="1342.5" y="2342" class="mass">80 × 140 px</text>
 </g>
 </svg>

@@ -91,3 +91,11 @@ if __name__ == "__main__":
             s = ziel / f"Brenner_Flamme_{richtung}_{stufe}.svg"
             s.write_text(statisch(svg(richtung, stufe)), encoding="utf-8")
             print(s)
+        # Stufe 0 = Brenner aus: leeres, transparentes Bild in derselben Größe (statisch und als _animiert,
+        # damit die Bindung in Niagara für alle Stufen dasselbe Namensschema nutzen kann)
+        breite, hoehe = re.search(r'width="([\d.]+)" height="([\d.]+)"', svg(richtung, 1)).groups()
+        leer = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{breite}" height="{hoehe}" viewBox="0 0 {breite} {hoehe}">\n'
+                f'  <!-- Brennerflamme {richtung}, Stufe 0: Brenner aus, leer (transparent) -->\n</svg>\n')
+        for name in (f"Brenner_Flamme_{richtung}_0.svg", f"Brenner_Flamme_{richtung}_0_animiert.svg"):
+            (ziel / name).write_bytes(leer.encode("utf-8"))
+            print(ziel / name)

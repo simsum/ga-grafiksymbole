@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="80" viewBox="0 0 140 80" role="img" aria-labelledby="title">
+  <title id="title">Volumenstromregler rund, Luftrichtung links, Störung</title>
+  <defs>
+    <linearGradient id="gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <linearGradient id="gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B3B3B3"/><stop offset="0.38" stop-color="#FFFFFF"/><stop offset="0.6" stop-color="#DEDEDE"/><stop offset="0.86" stop-color="#BEBEBE"/><stop offset="1" stop-color="#B3B3B3"/></linearGradient>
+    <radialGradient id="gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#F5A3A0"/><stop offset="1" stop-color="#D7302B"/></radialGradient>
+  </defs>
+  <g transform="translate(140,0) scale(-1,1)">
+    <rect x="10" y="32" width="120" height="34" fill="url(#gR)" stroke="#999999" stroke-width="2"/><rect x="6" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/><rect x="129" y="27" width="5" height="44" rx="1" fill="#B5B5B5" stroke="#6B6B6B" stroke-width="1"/>
+    <g transform="rotate(38 68 49)"><rect x="66.4" y="33.0" width="3.2" height="32.0" rx="1" fill="#808080"/></g><circle cx="68" cy="49" r="3.6" fill="#4D4D4D"/>
+    <rect x="65" y="26" width="6" height="6" fill="#8C8C8C" stroke="#6B6B6B" stroke-width="1"/><rect x="50" y="6" width="36" height="21" rx="3" fill="url(#gG)" stroke="#999999" stroke-width="1.6"/><rect x="55" y="12" width="14" height="9" rx="1.2" fill="#2B3440" stroke="#6B7480" stroke-width="0.8"/><g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><circle cx="77" cy="16.5" r="3.6" fill="url(#gL)" stroke="#9E1F1B" stroke-width="1"/></g>
+    <path d="M92,49.0 H116 M109,42.0 L116,49.0 L109,56.0" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><g transform="translate(72 49.0)"><path d="M0,-17 L19,15 L-19,15 Z" fill="#D7302B" stroke="#FFFFFF" stroke-width="2.6" stroke-linejoin="round"/><rect x="-2.5" y="-8" width="5" height="15" rx="2.5" fill="#FFFFFF"/><circle cx="0" cy="10.5" r="2.7" fill="#FFFFFF"/></g></g>
+</svg>

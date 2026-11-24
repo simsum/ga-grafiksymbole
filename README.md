@@ -42,7 +42,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
     alarm/               Brandalarm (normal, Alarm), Heizungs-Notschalter (normal, ausgelöst)
     aussenwerte/         Thermometer und Tropfen vor Außentemperatur und -feuchte (grau, flach, plastisch, zustandsabhängig)
   fun/                   Verspielte Cartoon-Symbole, animiert, Gruppen wie in der Hauptstruktur
-    anzeigen/            Außentemperatur, -feuchte, CO₂
+    anzeigen/            Außentemperatur, -feuchte, CO₂; Tageszeit, Sonnenauf-/-untergang, Wochenende, Sommer-/Winterzeit, Jahreszeit, Kalenderwoche, Erdbahn, Silvester
     hydraulik/pumpen/    Fun-Pumpen
     hydraulik/speicher/  Fun-Pufferspeicher
     hydraulik/anschluesse/  Fun-Flansche, undicht (tropfen)
@@ -89,6 +89,7 @@ tools/
   zustandsfarben.py      Einheitliche Zustandsfarben (aus, Freigabe, Betrieb, Störung) für alle Erzeuger
   fun_waermepumpe.py     Erzeugt die Fun-Wärmepumpe unter symbole/fun/hydraulik/erzeuger/ (baut auf waermepumpe.py auf)
   fun_gastherme.py       Erzeugt die Fun-Gastherme unter symbole/fun/hydraulik/erzeuger/ (baut auf gastherme.py auf)
+  fun_datum_zeit.py      Erzeugt die Fun-Symbole zu Datum, Uhrzeit und Sonnenstand unter symbole/fun/anzeigen/
   flansche.py            Erzeugt die Flanschanschlüsse unter symbole/hydraulik/anschluesse/ und die Fun-Varianten
   aufstellplatten.py     Erzeugt die Aufstellplatten unter symbole/allgemein/aufstellung/
   flusspfeile_diagonal.py  Erzeugt die diagonalen Flusspfeile (45°) unter symbole/allgemein/flusspfeile/

@@ -21,6 +21,18 @@ grauen Hintergründen funktionieren.
   Hintergrund_hell_1920x1080
       ruhiger Seitenhintergrund #EEF0F2 → #DDE1E5 (senkrecht), frei skalierbar.
 
+Bausteine für Übersichts- und Legendenseiten (ohne Text, Beschriftung als Niagara-Label):
+  Variante „Karten“: Hintergrund_hell + Titelband + je Kategorie eine Karte
+  Titelband_dunkel_1920x54
+      dunkles Band (#2B3138, wie Kopfzeile_dunkel) mit blauer Unterkante, frei skalierbar.
+  Karte_Kopfzeile_<B>x<H>
+      helle Karte mit leichtem Schatten und 30 px Kopfstreifen für die Kategorie-Überschrift, Ecken r = 10.
+  Variante „Rahmen“: dunkler Rahmen mit heller Arbeitsfläche, Kategorien als Reiter
+  Hintergrund_Rahmen_dunkel_<B>x<H>
+      dunkler Verlauf, oben 50 px Platz für den Seitentitel, darunter helle Arbeitsfläche (Rand 14 px, r = 12).
+  Reiter_<farbe>_<B>
+      Kategorie-Reiter 26 px hoch, abgerundet, Farbe 15 % Fläche / 60 % Kontur. Spaltentrenner: Trennlinie_gestrichelt_*_senkrecht.
+
 Aufruf: python tools/bereiche.py
 """
 from pathlib import Path
@@ -108,6 +120,43 @@ def hintergrund() -> str:
             '  <rect width="1920" height="1080" fill="url(#g)"/>\n</svg>\n')
 
 
+KARTEN_B = (240, 300)
+KARTEN_H = (300, 400, 500, 600, 800)
+RAHMEN = ((1920, 1080), (1280, 800), (1024, 768))
+REITER_B = (160, 200, 240)
+REITER_FARBEN = {"gruen": "#6BB33A", "blau": "#2E6BC2", "orange": "#F29A38", "rot": "#D7302B", "gelb": "#E3B200", "grau": "#808080"}
+
+
+def titelband() -> str:
+    return ('<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="54" viewBox="0 0 1920 54" preserveAspectRatio="none">\n'
+            '  <!-- Titelband dunkel (wie Kopfzeile_dunkel), frei skalierbar -->\n'
+            '  <rect width="1920" height="54" fill="#2B3138"/><rect y="51" width="1920" height="3" fill="#4A86D4"/>\n</svg>\n')
+
+
+def karte(w: int, h: int) -> str:
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">\n'
+            f'  <!-- Karte mit Kopfstreifen (30 px), {w} × {h} -->\n'
+            f'  <rect x="3" y="3" width="{w - 4}" height="{h - 4}" rx="10" fill="#000000" fill-opacity="0.07"/>'
+            f'<rect x="1" y="1" width="{w - 4}" height="{h - 4}" rx="10" fill="#FFFFFF" fill-opacity="0.88" stroke="#C8CDD2" stroke-width="1.2"/>'
+            f'<path d="M1,31 V11 a10,10 0 0 1 10,-10 H{w - 13} a10,10 0 0 1 10,10 V31 Z" fill="#E4E8EC"/>'
+            f'<line x1="1" y1="31" x2="{w - 3}" y2="31" stroke="#C8CDD2" stroke-width="1"/>\n</svg>\n')
+
+
+def rahmen(w: int, h: int) -> str:
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">\n'
+            f'  <!-- Seitenhintergrund mit dunklem Rahmen und heller Arbeitsfläche, {w} × {h}; Titel oben links (y 0–50) -->\n'
+            '  <defs><linearGradient id="gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3A3F46"/><stop offset="1" stop-color="#262A30"/></linearGradient>'
+            '<linearGradient id="gF" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFBFC"/><stop offset="1" stop-color="#E9EDF1"/></linearGradient></defs>\n'
+            f'  <rect width="{w}" height="{h}" fill="url(#gR)"/><rect y="0" width="{w}" height="2" fill="#4A86D4"/>'
+            f'<rect x="14" y="50" width="{w - 28}" height="{h - 64}" rx="12" fill="url(#gF)"/>\n</svg>\n')
+
+
+def reiter(farbe: str, w: int) -> str:
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="28" viewBox="0 0 {w} 28">\n'
+            f'  <!-- Kategorie-Reiter {w} × 28 -->\n'
+            f'  <rect x="1" y="1" width="{w - 2}" height="26" rx="13" fill="{farbe}" fill-opacity="0.15" stroke="{farbe}" stroke-opacity="0.6" stroke-width="1.2"/>\n</svg>\n')
+
+
 def schreib(name: str, inhalt: str) -> None:
     with open(ZIEL / name, "w", encoding="utf-8", newline="\n") as f:
         f.write(inhalt)
@@ -126,7 +175,22 @@ def main() -> None:
             schreib(f"Bereich_{art}_{w}x{h}.svg", bereich(art, w, h))
             n += 1
     schreib("Hintergrund_hell_1920x1080.svg", hintergrund())
-    print(f"{n + 1} Dateien in {ZIEL}")
+    n += 1
+    # Bausteine für Übersichts-/Legendenseiten
+    schreib("Titelband_dunkel_1920x54.svg", titelband())
+    n += 1
+    for w in KARTEN_B:
+        for h in KARTEN_H:
+            schreib(f"Karte_Kopfzeile_{w}x{h}.svg", karte(w, h))
+            n += 1
+    for w, h in RAHMEN:
+        schreib(f"Hintergrund_Rahmen_dunkel_{w}x{h}.svg", rahmen(w, h))
+        n += 1
+    for name, farbe in REITER_FARBEN.items():
+        for w in REITER_B:
+            schreib(f"Reiter_{name}_{w}.svg", reiter(farbe, w))
+            n += 1
+    print(f"{n} Dateien in {ZIEL}")
 
 
 if __name__ == "__main__":

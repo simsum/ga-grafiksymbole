@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="768" viewBox="0 0 1024 768">
+  <!-- Seitenhintergrund mit dunklem Rahmen und heller Arbeitsfläche, 1024 × 768; Titel oben links (y 0–50) -->
+  <defs><linearGradient id="gR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3A3F46"/><stop offset="1" stop-color="#262A30"/></linearGradient><linearGradient id="gF" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFBFC"/><stop offset="1" stop-color="#E9EDF1"/></linearGradient></defs>
+  <rect width="1024" height="768" fill="url(#gR)"/><rect y="0" width="1024" height="2" fill="#4A86D4"/><rect x="14" y="50" width="996" height="704" rx="12" fill="url(#gF)"/>
+</svg>

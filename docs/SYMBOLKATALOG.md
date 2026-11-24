@@ -75,6 +75,11 @@ Zum optischen Gliedern einer Px-Seite, z. B. Bereich Wärmepumpe | Bereich Puffe
 
 **Seitenhintergrund** `Hintergrund_hell_1920x1080`: ruhiger Verlauf `#EEF0F2` → `#DDE1E5` (senkrecht), frei skalierbar (`preserveAspectRatio="none"`). Alternativ dieselben Farben direkt als Hintergrund der Px-Seite setzen.
 
+**Übersichts- und Legendenseiten** (Bausteine ohne Text, Überschriften als Niagara-Label; erzeugt mit `tools/bereiche.py`):
+
+- Variante Karten: `Hintergrund_hell_1920x1080` + `Titelband_dunkel_1920x54` (wie `Kopfzeile_dunkel`, frei skalierbar) + je Kategorie eine `Karte_Kopfzeile_<B>x<H>` (Breite 240/300, Höhe 300/400/500/600/800; Kopfstreifen 30 px für die Überschrift, Inhalt ab y = 40). Neue Kategorie = weitere Karte daneben oder darunter.
+- Variante Rahmen: `Hintergrund_Rahmen_dunkel_<B>x<H>` (1920 × 1080, 1280 × 800, 1024 × 768; Titel oben im 50-px-Streifen, helle Arbeitsfläche ab x = 14, y = 50) + Kategorie-Reiter `Reiter_<farbe>_<B>` (28 px hoch, Breite 160/200/240; Farben gruen, blau, orange, rot, gelb, grau) + Spaltentrenner `Trennlinie_gestrichelt_<L>_senkrecht`.
+
 - Erzeugt mit `tools/bereiche.py`.
 
 ### Kopfzeilen (`symbole/allgemein/kopfzeilen/`)

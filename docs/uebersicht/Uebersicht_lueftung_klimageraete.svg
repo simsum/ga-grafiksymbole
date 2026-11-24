@@ -1,127 +1,367 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="378" viewBox="0 0 1560 378">
-<title>symbole/lueftung/klimageraete: 4 Symbole</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1242" viewBox="0 0 1560 1242">
+<title>symbole/lueftung/klimageraete: 16 Symbole</title>
 <style>text{font-family:Segoe UI, Arial, Helvetica, sans-serif}.name{font-size:15px;font-weight:700;fill:#20242A;text-anchor:middle}.mass{font-size:12px;fill:#69727A;text-anchor:middle}</style>
-<rect width="1560" height="378" fill="#F4F5F7"/>
+<rect width="1560" height="1242" fill="#F4F5F7"/>
 <text x="20" y="42" font-size="26" font-weight="700" fill="#30343A">symbole/lueftung/klimageraete</text>
-<text x="1540" y="42" font-size="16" fill="#69727A" text-anchor="end">4 Symbole</text>
+<text x="1540" y="42" font-size="16" fill="#69727A" text-anchor="end">16 Symbole</text>
 <g id="Klimakonvektor_links">
 <rect x="19" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="20" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="62.5" y="99.25" width="280" height="157.5" viewBox="0 0 160 90" overflow="hidden">
-<g transform="translate(160,90) rotate(180)">
-    
-    <g fill="#4B50E6"><rect x="2" y="25" width="10" height="7" rx="2"/><rect x="2" y="58" width="10" height="7" rx="2"/></g>
-    
-    <rect x="10" y="5" width="146" height="80" rx="4" fill="#FFFFFF" stroke="#4B50E6" stroke-width="3"/>
-    
-    <rect x="18" y="14" width="26" height="62" rx="2" fill="#EEF0FF" stroke="#4B50E6" stroke-width="2"/>
-    <g stroke="#4B50E6" stroke-width="1.2" opacity="0.5"><line x1="20" y1="16" x2="28" y2="74"/><line x1="25" y1="16" x2="33" y2="74"/><line x1="30" y1="16" x2="38" y2="74"/><line x1="35" y1="16" x2="43" y2="74"/></g>
-    
-    <g transform="translate(88,27)">
-      <circle r="15" fill="#EEF0FF" stroke="#4B50E6" stroke-width="2"/>
-      <g fill="none" stroke="#4B50E6" stroke-width="2" stroke-linecap="round"><path d="M0,-4 Q6,-7 4,-11" transform="rotate(0)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(45)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(90)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(135)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(180)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(225)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(270)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(315)"/></g>
-      <circle r="4" fill="#4B50E6"/>
-    </g><g transform="translate(88,63)">
-      <circle r="15" fill="#EEF0FF" stroke="#4B50E6" stroke-width="2"/>
-      <g fill="none" stroke="#4B50E6" stroke-width="2" stroke-linecap="round"><path d="M0,-4 Q6,-7 4,-11" transform="rotate(0)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(45)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(90)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(135)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(180)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(225)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(270)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(315)"/></g>
-      <circle r="4" fill="#4B50E6"/>
-    </g>
-    
-    <g fill="#4B50E6"><rect x="150" y="13" width="6" height="28" rx="2"/><rect x="150" y="49" width="6" height="28" rx="2"/></g>
-    
-    <path d="M114,45 L140,45 M133,38 L140,45 L133,52" fill="none" stroke="#4B50E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<title id="k0_title">Klimakonvektor (Kanalgerät), Draufsicht, Ausblas links, aus</title>
+  <defs>
+    <linearGradient id="k0_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <radialGradient id="k0_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <rect x="4" y="5" width="146" height="80" rx="3" fill="url(#k0_gG)" stroke="#999999" stroke-width="2"/>
+  <g transform="translate(160,90) rotate(180)">
+    <rect x="17" y="13" width="28" height="64" rx="2" fill="#F7F8F9" stroke="#808080" stroke-width="1.4"/><g stroke="#B5BCC4" stroke-width="0.8"><line x1="20" y1="15" x2="20" y2="75"/><line x1="23" y1="15" x2="23" y2="75"/><line x1="26" y1="15" x2="26" y2="75"/><line x1="29" y1="15" x2="29" y2="75"/><line x1="32" y1="15" x2="32" y2="75"/><line x1="35" y1="15" x2="35" y2="75"/><line x1="38" y1="15" x2="38" y2="75"/><line x1="41" y1="15" x2="41" y2="75"/></g>
+    <path d="M84,10 A16,16 0 1 0 99.49,22 H105 V10 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,26)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <path d="M84,48 A16,16 0 1 0 99.49,60 H105 V48 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,64)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <rect x="144" y="11" width="10" height="68" rx="1.5" fill="#E6E6E6" stroke="#999999" stroke-width="1.2"/><g fill="#4D4D4D"><rect x="146.5" y="15" width="5" height="2.4" rx="1"/><rect x="146.5" y="21" width="5" height="2.4" rx="1"/><rect x="146.5" y="27" width="5" height="2.4" rx="1"/><rect x="146.5" y="33" width="5" height="2.4" rx="1"/><rect x="146.5" y="39" width="5" height="2.4" rx="1"/><rect x="146.5" y="45" width="5" height="2.4" rx="1"/><rect x="146.5" y="51" width="5" height="2.4" rx="1"/><rect x="146.5" y="57" width="5" height="2.4" rx="1"/><rect x="146.5" y="63" width="5" height="2.4" rx="1"/><rect x="146.5" y="69" width="5" height="2.4" rx="1"/><rect x="146.5" y="75" width="5" height="2.4" rx="1"/></g>
+    <path d="M112,45 H136 M129,38 L136,45 L129,52" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="128" cy="14" r="3.6" fill="url(#k0_gL)" stroke="#808080" stroke-width="1"/>
+  </g>
 </svg>
 <text x="202.5" y="287" class="name">Klimakonvektor_links</text>
 <text x="202.5" y="308" class="mass">160 × 90 px</text>
 </g>
-<g id="Klimakonvektor_oben">
+<g id="Klimakonvektor_links_an">
 <rect x="399" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="400" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
-<svg x="536.09" y="95.5" width="92.81" height="165" viewBox="0 0 90 160" overflow="hidden">
-<g transform="translate(0,160) rotate(-90)">
-    
-    <g fill="#4B50E6"><rect x="2" y="25" width="10" height="7" rx="2"/><rect x="2" y="58" width="10" height="7" rx="2"/></g>
-    
-    <rect x="10" y="5" width="146" height="80" rx="4" fill="#FFFFFF" stroke="#4B50E6" stroke-width="3"/>
-    
-    <rect x="18" y="14" width="26" height="62" rx="2" fill="#EEF0FF" stroke="#4B50E6" stroke-width="2"/>
-    <g stroke="#4B50E6" stroke-width="1.2" opacity="0.5"><line x1="20" y1="16" x2="28" y2="74"/><line x1="25" y1="16" x2="33" y2="74"/><line x1="30" y1="16" x2="38" y2="74"/><line x1="35" y1="16" x2="43" y2="74"/></g>
-    
-    <g transform="translate(88,27)">
-      <circle r="15" fill="#EEF0FF" stroke="#4B50E6" stroke-width="2"/>
-      <g fill="none" stroke="#4B50E6" stroke-width="2" stroke-linecap="round"><path d="M0,-4 Q6,-7 4,-11" transform="rotate(0)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(45)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(90)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(135)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(180)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(225)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(270)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(315)"/></g>
-      <circle r="4" fill="#4B50E6"/>
-    </g><g transform="translate(88,63)">
-      <circle r="15" fill="#EEF0FF" stroke="#4B50E6" stroke-width="2"/>
-      <g fill="none" stroke="#4B50E6" stroke-width="2" stroke-linecap="round"><path d="M0,-4 Q6,-7 4,-11" transform="rotate(0)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(45)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(90)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(135)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(180)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(225)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(270)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(315)"/></g>
-      <circle r="4" fill="#4B50E6"/>
-    </g>
-    
-    <g fill="#4B50E6"><rect x="150" y="13" width="6" height="28" rx="2"/><rect x="150" y="49" width="6" height="28" rx="2"/></g>
-    
-    <path d="M114,45 L140,45 M133,38 L140,45 L133,52" fill="none" stroke="#4B50E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<svg x="442.5" y="99.25" width="280" height="157.5" viewBox="0 0 160 90" overflow="hidden">
+<title id="k1_title">Klimakonvektor (Kanalgerät), Draufsicht, Ausblas links, Betrieb</title>
+  <defs>
+    <linearGradient id="k1_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <radialGradient id="k1_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#A8DC96"/><stop offset="1" stop-color="#3E9A3A"/></radialGradient>
+  </defs>
+  <rect x="4" y="5" width="146" height="80" rx="3" fill="url(#k1_gG)" stroke="#999999" stroke-width="2"/>
+  <g transform="translate(160,90) rotate(180)">
+    <rect x="17" y="13" width="28" height="64" rx="2" fill="#F7F8F9" stroke="#808080" stroke-width="1.4"/><g stroke="#B5BCC4" stroke-width="0.8"><line x1="20" y1="15" x2="20" y2="75"/><line x1="23" y1="15" x2="23" y2="75"/><line x1="26" y1="15" x2="26" y2="75"/><line x1="29" y1="15" x2="29" y2="75"/><line x1="32" y1="15" x2="32" y2="75"/><line x1="35" y1="15" x2="35" y2="75"/><line x1="38" y1="15" x2="38" y2="75"/><line x1="41" y1="15" x2="41" y2="75"/></g>
+    <path d="M84,10 A16,16 0 1 0 99.49,22 H105 V10 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,26)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1.2s" repeatCount="indefinite"/><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <path d="M84,48 A16,16 0 1 0 99.49,60 H105 V48 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,64)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1.2s" repeatCount="indefinite"/><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <rect x="144" y="11" width="10" height="68" rx="1.5" fill="#E6E6E6" stroke="#999999" stroke-width="1.2"/><g fill="#4D4D4D"><rect x="146.5" y="15" width="5" height="2.4" rx="1"/><rect x="146.5" y="21" width="5" height="2.4" rx="1"/><rect x="146.5" y="27" width="5" height="2.4" rx="1"/><rect x="146.5" y="33" width="5" height="2.4" rx="1"/><rect x="146.5" y="39" width="5" height="2.4" rx="1"/><rect x="146.5" y="45" width="5" height="2.4" rx="1"/><rect x="146.5" y="51" width="5" height="2.4" rx="1"/><rect x="146.5" y="57" width="5" height="2.4" rx="1"/><rect x="146.5" y="63" width="5" height="2.4" rx="1"/><rect x="146.5" y="69" width="5" height="2.4" rx="1"/><rect x="146.5" y="75" width="5" height="2.4" rx="1"/></g>
+    <path d="M112,45 H136 M129,38 L136,45 L129,52" fill="none" stroke="#4D4D4D" stroke-opacity="0.25" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="112 45;138 45" dur="1.2s" begin="0s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="112 45;138 45" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="112 45;138 45" dur="1.2s" begin="0.8s" repeatCount="indefinite"/></path>
+    <circle cx="128" cy="14" r="3.6" fill="url(#k1_gL)" stroke="#2F7A2C" stroke-width="1"/>
+  </g>
 </svg>
-<text x="582.5" y="287" class="name">Klimakonvektor_oben</text>
-<text x="582.5" y="308" class="mass">90 × 160 px</text>
+<text x="582.5" y="287" class="name">Klimakonvektor_links_an</text>
+<text x="582.5" y="308" class="mass">160 × 90 px</text>
 </g>
-<g id="Klimakonvektor_rechts">
+<g id="Klimakonvektor_links_aus">
 <rect x="779" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="780" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
 <svg x="822.5" y="99.25" width="280" height="157.5" viewBox="0 0 160 90" overflow="hidden">
-<g transform="">
-    
-    <g fill="#4B50E6"><rect x="2" y="25" width="10" height="7" rx="2"/><rect x="2" y="58" width="10" height="7" rx="2"/></g>
-    
-    <rect x="10" y="5" width="146" height="80" rx="4" fill="#FFFFFF" stroke="#4B50E6" stroke-width="3"/>
-    
-    <rect x="18" y="14" width="26" height="62" rx="2" fill="#EEF0FF" stroke="#4B50E6" stroke-width="2"/>
-    <g stroke="#4B50E6" stroke-width="1.2" opacity="0.5"><line x1="20" y1="16" x2="28" y2="74"/><line x1="25" y1="16" x2="33" y2="74"/><line x1="30" y1="16" x2="38" y2="74"/><line x1="35" y1="16" x2="43" y2="74"/></g>
-    
-    <g transform="translate(88,27)">
-      <circle r="15" fill="#EEF0FF" stroke="#4B50E6" stroke-width="2"/>
-      <g fill="none" stroke="#4B50E6" stroke-width="2" stroke-linecap="round"><path d="M0,-4 Q6,-7 4,-11" transform="rotate(0)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(45)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(90)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(135)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(180)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(225)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(270)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(315)"/></g>
-      <circle r="4" fill="#4B50E6"/>
-    </g><g transform="translate(88,63)">
-      <circle r="15" fill="#EEF0FF" stroke="#4B50E6" stroke-width="2"/>
-      <g fill="none" stroke="#4B50E6" stroke-width="2" stroke-linecap="round"><path d="M0,-4 Q6,-7 4,-11" transform="rotate(0)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(45)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(90)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(135)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(180)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(225)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(270)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(315)"/></g>
-      <circle r="4" fill="#4B50E6"/>
-    </g>
-    
-    <g fill="#4B50E6"><rect x="150" y="13" width="6" height="28" rx="2"/><rect x="150" y="49" width="6" height="28" rx="2"/></g>
-    
-    <path d="M114,45 L140,45 M133,38 L140,45 L133,52" fill="none" stroke="#4B50E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<title id="k2_title">Klimakonvektor (Kanalgerät), Draufsicht, Ausblas links, aus</title>
+  <defs>
+    <linearGradient id="k2_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <radialGradient id="k2_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <rect x="4" y="5" width="146" height="80" rx="3" fill="url(#k2_gG)" stroke="#999999" stroke-width="2"/>
+  <g transform="translate(160,90) rotate(180)">
+    <rect x="17" y="13" width="28" height="64" rx="2" fill="#F7F8F9" stroke="#808080" stroke-width="1.4"/><g stroke="#B5BCC4" stroke-width="0.8"><line x1="20" y1="15" x2="20" y2="75"/><line x1="23" y1="15" x2="23" y2="75"/><line x1="26" y1="15" x2="26" y2="75"/><line x1="29" y1="15" x2="29" y2="75"/><line x1="32" y1="15" x2="32" y2="75"/><line x1="35" y1="15" x2="35" y2="75"/><line x1="38" y1="15" x2="38" y2="75"/><line x1="41" y1="15" x2="41" y2="75"/></g>
+    <path d="M84,10 A16,16 0 1 0 99.49,22 H105 V10 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,26)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <path d="M84,48 A16,16 0 1 0 99.49,60 H105 V48 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,64)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <rect x="144" y="11" width="10" height="68" rx="1.5" fill="#E6E6E6" stroke="#999999" stroke-width="1.2"/><g fill="#4D4D4D"><rect x="146.5" y="15" width="5" height="2.4" rx="1"/><rect x="146.5" y="21" width="5" height="2.4" rx="1"/><rect x="146.5" y="27" width="5" height="2.4" rx="1"/><rect x="146.5" y="33" width="5" height="2.4" rx="1"/><rect x="146.5" y="39" width="5" height="2.4" rx="1"/><rect x="146.5" y="45" width="5" height="2.4" rx="1"/><rect x="146.5" y="51" width="5" height="2.4" rx="1"/><rect x="146.5" y="57" width="5" height="2.4" rx="1"/><rect x="146.5" y="63" width="5" height="2.4" rx="1"/><rect x="146.5" y="69" width="5" height="2.4" rx="1"/><rect x="146.5" y="75" width="5" height="2.4" rx="1"/></g>
+    <path d="M112,45 H136 M129,38 L136,45 L129,52" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="128" cy="14" r="3.6" fill="url(#k2_gL)" stroke="#808080" stroke-width="1"/>
+  </g>
 </svg>
-<text x="962.5" y="287" class="name">Klimakonvektor_rechts</text>
+<text x="962.5" y="287" class="name">Klimakonvektor_links_aus</text>
 <text x="962.5" y="308" class="mass">160 × 90 px</text>
 </g>
-<g id="Klimakonvektor_unten">
+<g id="Klimakonvektor_links_stoerung">
 <rect x="1159" y="69" width="366" height="275" rx="11" fill="#D1D3D7"/>
 <rect x="1160" y="70" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
-<svg x="1296.09" y="95.5" width="92.81" height="165" viewBox="0 0 90 160" overflow="hidden">
-<g transform="translate(90,0) rotate(90)">
-    
-    <g fill="#4B50E6"><rect x="2" y="25" width="10" height="7" rx="2"/><rect x="2" y="58" width="10" height="7" rx="2"/></g>
-    
-    <rect x="10" y="5" width="146" height="80" rx="4" fill="#FFFFFF" stroke="#4B50E6" stroke-width="3"/>
-    
-    <rect x="18" y="14" width="26" height="62" rx="2" fill="#EEF0FF" stroke="#4B50E6" stroke-width="2"/>
-    <g stroke="#4B50E6" stroke-width="1.2" opacity="0.5"><line x1="20" y1="16" x2="28" y2="74"/><line x1="25" y1="16" x2="33" y2="74"/><line x1="30" y1="16" x2="38" y2="74"/><line x1="35" y1="16" x2="43" y2="74"/></g>
-    
-    <g transform="translate(88,27)">
-      <circle r="15" fill="#EEF0FF" stroke="#4B50E6" stroke-width="2"/>
-      <g fill="none" stroke="#4B50E6" stroke-width="2" stroke-linecap="round"><path d="M0,-4 Q6,-7 4,-11" transform="rotate(0)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(45)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(90)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(135)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(180)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(225)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(270)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(315)"/></g>
-      <circle r="4" fill="#4B50E6"/>
-    </g><g transform="translate(88,63)">
-      <circle r="15" fill="#EEF0FF" stroke="#4B50E6" stroke-width="2"/>
-      <g fill="none" stroke="#4B50E6" stroke-width="2" stroke-linecap="round"><path d="M0,-4 Q6,-7 4,-11" transform="rotate(0)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(45)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(90)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(135)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(180)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(225)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(270)"/><path d="M0,-4 Q6,-7 4,-11" transform="rotate(315)"/></g>
-      <circle r="4" fill="#4B50E6"/>
-    </g>
-    
-    <g fill="#4B50E6"><rect x="150" y="13" width="6" height="28" rx="2"/><rect x="150" y="49" width="6" height="28" rx="2"/></g>
-    
-    <path d="M114,45 L140,45 M133,38 L140,45 L133,52" fill="none" stroke="#4B50E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+<svg x="1202.5" y="99.25" width="280" height="157.5" viewBox="0 0 160 90" overflow="hidden">
+<title id="k3_title">Klimakonvektor (Kanalgerät), Draufsicht, Ausblas links, Störung</title>
+  <defs>
+    <linearGradient id="k3_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <radialGradient id="k3_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#F5A3A0"/><stop offset="1" stop-color="#D7302B"/></radialGradient>
+  </defs>
+  <rect x="4" y="5" width="146" height="80" rx="3" fill="url(#k3_gG)" stroke="#999999" stroke-width="2"/>
+  <g transform="translate(160,90) rotate(180)">
+    <rect x="17" y="13" width="28" height="64" rx="2" fill="#F7F8F9" stroke="#808080" stroke-width="1.4"/><g stroke="#B5BCC4" stroke-width="0.8"><line x1="20" y1="15" x2="20" y2="75"/><line x1="23" y1="15" x2="23" y2="75"/><line x1="26" y1="15" x2="26" y2="75"/><line x1="29" y1="15" x2="29" y2="75"/><line x1="32" y1="15" x2="32" y2="75"/><line x1="35" y1="15" x2="35" y2="75"/><line x1="38" y1="15" x2="38" y2="75"/><line x1="41" y1="15" x2="41" y2="75"/></g>
+    <path d="M84,10 A16,16 0 1 0 99.49,22 H105 V10 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,26)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <path d="M84,48 A16,16 0 1 0 99.49,60 H105 V48 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,64)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <rect x="144" y="11" width="10" height="68" rx="1.5" fill="#E6E6E6" stroke="#999999" stroke-width="1.2"/><g fill="#4D4D4D"><rect x="146.5" y="15" width="5" height="2.4" rx="1"/><rect x="146.5" y="21" width="5" height="2.4" rx="1"/><rect x="146.5" y="27" width="5" height="2.4" rx="1"/><rect x="146.5" y="33" width="5" height="2.4" rx="1"/><rect x="146.5" y="39" width="5" height="2.4" rx="1"/><rect x="146.5" y="45" width="5" height="2.4" rx="1"/><rect x="146.5" y="51" width="5" height="2.4" rx="1"/><rect x="146.5" y="57" width="5" height="2.4" rx="1"/><rect x="146.5" y="63" width="5" height="2.4" rx="1"/><rect x="146.5" y="69" width="5" height="2.4" rx="1"/><rect x="146.5" y="75" width="5" height="2.4" rx="1"/></g>
+    <path d="M112,45 H136 M129,38 L136,45 L129,52" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><circle cx="128" cy="14" r="3.6" fill="url(#k3_gL)" stroke="#9E1F1B" stroke-width="1"/></g>
+  </g>
+  <g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><g transform="translate(76 45)"><path d="M0,-21 L23,18 L-23,18 Z" fill="#D7302B" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/><rect x="-3" y="-10" width="6" height="18" rx="3" fill="#FFFFFF"/><circle cx="0" cy="13" r="3.2" fill="#FFFFFF"/></g></g>
 </svg>
-<text x="1342.5" y="287" class="name">Klimakonvektor_unten</text>
-<text x="1342.5" y="308" class="mass">90 × 160 px</text>
+<text x="1342.5" y="287" class="name">Klimakonvektor</text>
+<text x="1342.5" y="305" class="name">links_stoerung</text>
+<text x="1342.5" y="326" class="mass">160 × 90 px</text>
+</g>
+<g id="Klimakonvektor_oben">
+<rect x="19" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="156.09" y="383.5" width="92.81" height="165" viewBox="0 0 90 160" overflow="hidden">
+<title id="k4_title">Klimakonvektor (Kanalgerät), Draufsicht, Ausblas oben, aus</title>
+  <defs>
+    <linearGradient id="k4_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <radialGradient id="k4_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <rect x="5" y="4" width="80" height="146" rx="3" fill="url(#k4_gG)" stroke="#999999" stroke-width="2"/>
+  <g transform="translate(0,160) rotate(-90)">
+    <rect x="17" y="13" width="28" height="64" rx="2" fill="#F7F8F9" stroke="#808080" stroke-width="1.4"/><g stroke="#B5BCC4" stroke-width="0.8"><line x1="20" y1="15" x2="20" y2="75"/><line x1="23" y1="15" x2="23" y2="75"/><line x1="26" y1="15" x2="26" y2="75"/><line x1="29" y1="15" x2="29" y2="75"/><line x1="32" y1="15" x2="32" y2="75"/><line x1="35" y1="15" x2="35" y2="75"/><line x1="38" y1="15" x2="38" y2="75"/><line x1="41" y1="15" x2="41" y2="75"/></g>
+    <path d="M84,10 A16,16 0 1 0 99.49,22 H105 V10 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,26)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <path d="M84,48 A16,16 0 1 0 99.49,60 H105 V48 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,64)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <rect x="144" y="11" width="10" height="68" rx="1.5" fill="#E6E6E6" stroke="#999999" stroke-width="1.2"/><g fill="#4D4D4D"><rect x="146.5" y="15" width="5" height="2.4" rx="1"/><rect x="146.5" y="21" width="5" height="2.4" rx="1"/><rect x="146.5" y="27" width="5" height="2.4" rx="1"/><rect x="146.5" y="33" width="5" height="2.4" rx="1"/><rect x="146.5" y="39" width="5" height="2.4" rx="1"/><rect x="146.5" y="45" width="5" height="2.4" rx="1"/><rect x="146.5" y="51" width="5" height="2.4" rx="1"/><rect x="146.5" y="57" width="5" height="2.4" rx="1"/><rect x="146.5" y="63" width="5" height="2.4" rx="1"/><rect x="146.5" y="69" width="5" height="2.4" rx="1"/><rect x="146.5" y="75" width="5" height="2.4" rx="1"/></g>
+    <path d="M112,45 H136 M129,38 L136,45 L129,52" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="128" cy="14" r="3.6" fill="url(#k4_gL)" stroke="#808080" stroke-width="1"/>
+  </g>
+</svg>
+<text x="202.5" y="575" class="name">Klimakonvektor_oben</text>
+<text x="202.5" y="596" class="mass">90 × 160 px</text>
+</g>
+<g id="Klimakonvektor_oben_an">
+<rect x="399" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="536.09" y="383.5" width="92.81" height="165" viewBox="0 0 90 160" overflow="hidden">
+<title id="k5_title">Klimakonvektor (Kanalgerät), Draufsicht, Ausblas oben, Betrieb</title>
+  <defs>
+    <linearGradient id="k5_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <radialGradient id="k5_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#A8DC96"/><stop offset="1" stop-color="#3E9A3A"/></radialGradient>
+  </defs>
+  <rect x="5" y="4" width="80" height="146" rx="3" fill="url(#k5_gG)" stroke="#999999" stroke-width="2"/>
+  <g transform="translate(0,160) rotate(-90)">
+    <rect x="17" y="13" width="28" height="64" rx="2" fill="#F7F8F9" stroke="#808080" stroke-width="1.4"/><g stroke="#B5BCC4" stroke-width="0.8"><line x1="20" y1="15" x2="20" y2="75"/><line x1="23" y1="15" x2="23" y2="75"/><line x1="26" y1="15" x2="26" y2="75"/><line x1="29" y1="15" x2="29" y2="75"/><line x1="32" y1="15" x2="32" y2="75"/><line x1="35" y1="15" x2="35" y2="75"/><line x1="38" y1="15" x2="38" y2="75"/><line x1="41" y1="15" x2="41" y2="75"/></g>
+    <path d="M84,10 A16,16 0 1 0 99.49,22 H105 V10 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,26)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1.2s" repeatCount="indefinite"/><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <path d="M84,48 A16,16 0 1 0 99.49,60 H105 V48 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,64)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1.2s" repeatCount="indefinite"/><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <rect x="144" y="11" width="10" height="68" rx="1.5" fill="#E6E6E6" stroke="#999999" stroke-width="1.2"/><g fill="#4D4D4D"><rect x="146.5" y="15" width="5" height="2.4" rx="1"/><rect x="146.5" y="21" width="5" height="2.4" rx="1"/><rect x="146.5" y="27" width="5" height="2.4" rx="1"/><rect x="146.5" y="33" width="5" height="2.4" rx="1"/><rect x="146.5" y="39" width="5" height="2.4" rx="1"/><rect x="146.5" y="45" width="5" height="2.4" rx="1"/><rect x="146.5" y="51" width="5" height="2.4" rx="1"/><rect x="146.5" y="57" width="5" height="2.4" rx="1"/><rect x="146.5" y="63" width="5" height="2.4" rx="1"/><rect x="146.5" y="69" width="5" height="2.4" rx="1"/><rect x="146.5" y="75" width="5" height="2.4" rx="1"/></g>
+    <path d="M112,45 H136 M129,38 L136,45 L129,52" fill="none" stroke="#4D4D4D" stroke-opacity="0.25" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="112 45;138 45" dur="1.2s" begin="0s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="112 45;138 45" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="112 45;138 45" dur="1.2s" begin="0.8s" repeatCount="indefinite"/></path>
+    <circle cx="128" cy="14" r="3.6" fill="url(#k5_gL)" stroke="#2F7A2C" stroke-width="1"/>
+  </g>
+</svg>
+<text x="582.5" y="575" class="name">Klimakonvektor_oben_an</text>
+<text x="582.5" y="596" class="mass">90 × 160 px</text>
+</g>
+<g id="Klimakonvektor_oben_aus">
+<rect x="779" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="916.09" y="383.5" width="92.81" height="165" viewBox="0 0 90 160" overflow="hidden">
+<title id="k6_title">Klimakonvektor (Kanalgerät), Draufsicht, Ausblas oben, aus</title>
+  <defs>
+    <linearGradient id="k6_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <radialGradient id="k6_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <rect x="5" y="4" width="80" height="146" rx="3" fill="url(#k6_gG)" stroke="#999999" stroke-width="2"/>
+  <g transform="translate(0,160) rotate(-90)">
+    <rect x="17" y="13" width="28" height="64" rx="2" fill="#F7F8F9" stroke="#808080" stroke-width="1.4"/><g stroke="#B5BCC4" stroke-width="0.8"><line x1="20" y1="15" x2="20" y2="75"/><line x1="23" y1="15" x2="23" y2="75"/><line x1="26" y1="15" x2="26" y2="75"/><line x1="29" y1="15" x2="29" y2="75"/><line x1="32" y1="15" x2="32" y2="75"/><line x1="35" y1="15" x2="35" y2="75"/><line x1="38" y1="15" x2="38" y2="75"/><line x1="41" y1="15" x2="41" y2="75"/></g>
+    <path d="M84,10 A16,16 0 1 0 99.49,22 H105 V10 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,26)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <path d="M84,48 A16,16 0 1 0 99.49,60 H105 V48 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,64)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <rect x="144" y="11" width="10" height="68" rx="1.5" fill="#E6E6E6" stroke="#999999" stroke-width="1.2"/><g fill="#4D4D4D"><rect x="146.5" y="15" width="5" height="2.4" rx="1"/><rect x="146.5" y="21" width="5" height="2.4" rx="1"/><rect x="146.5" y="27" width="5" height="2.4" rx="1"/><rect x="146.5" y="33" width="5" height="2.4" rx="1"/><rect x="146.5" y="39" width="5" height="2.4" rx="1"/><rect x="146.5" y="45" width="5" height="2.4" rx="1"/><rect x="146.5" y="51" width="5" height="2.4" rx="1"/><rect x="146.5" y="57" width="5" height="2.4" rx="1"/><rect x="146.5" y="63" width="5" height="2.4" rx="1"/><rect x="146.5" y="69" width="5" height="2.4" rx="1"/><rect x="146.5" y="75" width="5" height="2.4" rx="1"/></g>
+    <path d="M112,45 H136 M129,38 L136,45 L129,52" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="128" cy="14" r="3.6" fill="url(#k6_gL)" stroke="#808080" stroke-width="1"/>
+  </g>
+</svg>
+<text x="962.5" y="575" class="name">Klimakonvektor_oben_aus</text>
+<text x="962.5" y="596" class="mass">90 × 160 px</text>
+</g>
+<g id="Klimakonvektor_oben_stoerung">
+<rect x="1159" y="357" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="358" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1296.09" y="383.5" width="92.81" height="165" viewBox="0 0 90 160" overflow="hidden">
+<title id="k7_title">Klimakonvektor (Kanalgerät), Draufsicht, Ausblas oben, Störung</title>
+  <defs>
+    <linearGradient id="k7_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <radialGradient id="k7_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#F5A3A0"/><stop offset="1" stop-color="#D7302B"/></radialGradient>
+  </defs>
+  <rect x="5" y="4" width="80" height="146" rx="3" fill="url(#k7_gG)" stroke="#999999" stroke-width="2"/>
+  <g transform="translate(0,160) rotate(-90)">
+    <rect x="17" y="13" width="28" height="64" rx="2" fill="#F7F8F9" stroke="#808080" stroke-width="1.4"/><g stroke="#B5BCC4" stroke-width="0.8"><line x1="20" y1="15" x2="20" y2="75"/><line x1="23" y1="15" x2="23" y2="75"/><line x1="26" y1="15" x2="26" y2="75"/><line x1="29" y1="15" x2="29" y2="75"/><line x1="32" y1="15" x2="32" y2="75"/><line x1="35" y1="15" x2="35" y2="75"/><line x1="38" y1="15" x2="38" y2="75"/><line x1="41" y1="15" x2="41" y2="75"/></g>
+    <path d="M84,10 A16,16 0 1 0 99.49,22 H105 V10 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,26)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <path d="M84,48 A16,16 0 1 0 99.49,60 H105 V48 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,64)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <rect x="144" y="11" width="10" height="68" rx="1.5" fill="#E6E6E6" stroke="#999999" stroke-width="1.2"/><g fill="#4D4D4D"><rect x="146.5" y="15" width="5" height="2.4" rx="1"/><rect x="146.5" y="21" width="5" height="2.4" rx="1"/><rect x="146.5" y="27" width="5" height="2.4" rx="1"/><rect x="146.5" y="33" width="5" height="2.4" rx="1"/><rect x="146.5" y="39" width="5" height="2.4" rx="1"/><rect x="146.5" y="45" width="5" height="2.4" rx="1"/><rect x="146.5" y="51" width="5" height="2.4" rx="1"/><rect x="146.5" y="57" width="5" height="2.4" rx="1"/><rect x="146.5" y="63" width="5" height="2.4" rx="1"/><rect x="146.5" y="69" width="5" height="2.4" rx="1"/><rect x="146.5" y="75" width="5" height="2.4" rx="1"/></g>
+    <path d="M112,45 H136 M129,38 L136,45 L129,52" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><circle cx="128" cy="14" r="3.6" fill="url(#k7_gL)" stroke="#9E1F1B" stroke-width="1"/></g>
+  </g>
+  <g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><g transform="translate(45 76)"><path d="M0,-21 L23,18 L-23,18 Z" fill="#D7302B" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/><rect x="-3" y="-10" width="6" height="18" rx="3" fill="#FFFFFF"/><circle cx="0" cy="13" r="3.2" fill="#FFFFFF"/></g></g>
+</svg>
+<text x="1342.5" y="575" class="name">Klimakonvektor</text>
+<text x="1342.5" y="593" class="name">oben_stoerung</text>
+<text x="1342.5" y="614" class="mass">90 × 160 px</text>
+</g>
+<g id="Klimakonvektor_rechts">
+<rect x="19" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="62.5" y="675.25" width="280" height="157.5" viewBox="0 0 160 90" overflow="hidden">
+<title id="k8_title">Klimakonvektor (Kanalgerät), Draufsicht, Ausblas rechts, aus</title>
+  <defs>
+    <linearGradient id="k8_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <radialGradient id="k8_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <rect x="10" y="5" width="146" height="80" rx="3" fill="url(#k8_gG)" stroke="#999999" stroke-width="2"/>
+  <g>
+    <rect x="17" y="13" width="28" height="64" rx="2" fill="#F7F8F9" stroke="#808080" stroke-width="1.4"/><g stroke="#B5BCC4" stroke-width="0.8"><line x1="20" y1="15" x2="20" y2="75"/><line x1="23" y1="15" x2="23" y2="75"/><line x1="26" y1="15" x2="26" y2="75"/><line x1="29" y1="15" x2="29" y2="75"/><line x1="32" y1="15" x2="32" y2="75"/><line x1="35" y1="15" x2="35" y2="75"/><line x1="38" y1="15" x2="38" y2="75"/><line x1="41" y1="15" x2="41" y2="75"/></g>
+    <path d="M84,10 A16,16 0 1 0 99.49,22 H105 V10 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,26)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <path d="M84,48 A16,16 0 1 0 99.49,60 H105 V48 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,64)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <rect x="144" y="11" width="10" height="68" rx="1.5" fill="#E6E6E6" stroke="#999999" stroke-width="1.2"/><g fill="#4D4D4D"><rect x="146.5" y="15" width="5" height="2.4" rx="1"/><rect x="146.5" y="21" width="5" height="2.4" rx="1"/><rect x="146.5" y="27" width="5" height="2.4" rx="1"/><rect x="146.5" y="33" width="5" height="2.4" rx="1"/><rect x="146.5" y="39" width="5" height="2.4" rx="1"/><rect x="146.5" y="45" width="5" height="2.4" rx="1"/><rect x="146.5" y="51" width="5" height="2.4" rx="1"/><rect x="146.5" y="57" width="5" height="2.4" rx="1"/><rect x="146.5" y="63" width="5" height="2.4" rx="1"/><rect x="146.5" y="69" width="5" height="2.4" rx="1"/><rect x="146.5" y="75" width="5" height="2.4" rx="1"/></g>
+    <path d="M112,45 H136 M129,38 L136,45 L129,52" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="128" cy="14" r="3.6" fill="url(#k8_gL)" stroke="#808080" stroke-width="1"/>
+  </g>
+</svg>
+<text x="202.5" y="863" class="name">Klimakonvektor_rechts</text>
+<text x="202.5" y="884" class="mass">160 × 90 px</text>
+</g>
+<g id="Klimakonvektor_rechts_an">
+<rect x="399" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="442.5" y="675.25" width="280" height="157.5" viewBox="0 0 160 90" overflow="hidden">
+<title id="k9_title">Klimakonvektor (Kanalgerät), Draufsicht, Ausblas rechts, Betrieb</title>
+  <defs>
+    <linearGradient id="k9_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <radialGradient id="k9_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#A8DC96"/><stop offset="1" stop-color="#3E9A3A"/></radialGradient>
+  </defs>
+  <rect x="10" y="5" width="146" height="80" rx="3" fill="url(#k9_gG)" stroke="#999999" stroke-width="2"/>
+  <g>
+    <rect x="17" y="13" width="28" height="64" rx="2" fill="#F7F8F9" stroke="#808080" stroke-width="1.4"/><g stroke="#B5BCC4" stroke-width="0.8"><line x1="20" y1="15" x2="20" y2="75"/><line x1="23" y1="15" x2="23" y2="75"/><line x1="26" y1="15" x2="26" y2="75"/><line x1="29" y1="15" x2="29" y2="75"/><line x1="32" y1="15" x2="32" y2="75"/><line x1="35" y1="15" x2="35" y2="75"/><line x1="38" y1="15" x2="38" y2="75"/><line x1="41" y1="15" x2="41" y2="75"/></g>
+    <path d="M84,10 A16,16 0 1 0 99.49,22 H105 V10 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,26)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1.2s" repeatCount="indefinite"/><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <path d="M84,48 A16,16 0 1 0 99.49,60 H105 V48 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,64)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1.2s" repeatCount="indefinite"/><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <rect x="144" y="11" width="10" height="68" rx="1.5" fill="#E6E6E6" stroke="#999999" stroke-width="1.2"/><g fill="#4D4D4D"><rect x="146.5" y="15" width="5" height="2.4" rx="1"/><rect x="146.5" y="21" width="5" height="2.4" rx="1"/><rect x="146.5" y="27" width="5" height="2.4" rx="1"/><rect x="146.5" y="33" width="5" height="2.4" rx="1"/><rect x="146.5" y="39" width="5" height="2.4" rx="1"/><rect x="146.5" y="45" width="5" height="2.4" rx="1"/><rect x="146.5" y="51" width="5" height="2.4" rx="1"/><rect x="146.5" y="57" width="5" height="2.4" rx="1"/><rect x="146.5" y="63" width="5" height="2.4" rx="1"/><rect x="146.5" y="69" width="5" height="2.4" rx="1"/><rect x="146.5" y="75" width="5" height="2.4" rx="1"/></g>
+    <path d="M112,45 H136 M129,38 L136,45 L129,52" fill="none" stroke="#4D4D4D" stroke-opacity="0.25" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="112 45;138 45" dur="1.2s" begin="0s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="112 45;138 45" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="112 45;138 45" dur="1.2s" begin="0.8s" repeatCount="indefinite"/></path>
+    <circle cx="128" cy="14" r="3.6" fill="url(#k9_gL)" stroke="#2F7A2C" stroke-width="1"/>
+  </g>
+</svg>
+<text x="582.5" y="863" class="name">Klimakonvektor_rechts_an</text>
+<text x="582.5" y="884" class="mass">160 × 90 px</text>
+</g>
+<g id="Klimakonvektor_rechts_aus">
+<rect x="779" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="822.5" y="675.25" width="280" height="157.5" viewBox="0 0 160 90" overflow="hidden">
+<title id="k10_title">Klimakonvektor (Kanalgerät), Draufsicht, Ausblas rechts, aus</title>
+  <defs>
+    <linearGradient id="k10_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <radialGradient id="k10_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <rect x="10" y="5" width="146" height="80" rx="3" fill="url(#k10_gG)" stroke="#999999" stroke-width="2"/>
+  <g>
+    <rect x="17" y="13" width="28" height="64" rx="2" fill="#F7F8F9" stroke="#808080" stroke-width="1.4"/><g stroke="#B5BCC4" stroke-width="0.8"><line x1="20" y1="15" x2="20" y2="75"/><line x1="23" y1="15" x2="23" y2="75"/><line x1="26" y1="15" x2="26" y2="75"/><line x1="29" y1="15" x2="29" y2="75"/><line x1="32" y1="15" x2="32" y2="75"/><line x1="35" y1="15" x2="35" y2="75"/><line x1="38" y1="15" x2="38" y2="75"/><line x1="41" y1="15" x2="41" y2="75"/></g>
+    <path d="M84,10 A16,16 0 1 0 99.49,22 H105 V10 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,26)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <path d="M84,48 A16,16 0 1 0 99.49,60 H105 V48 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,64)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <rect x="144" y="11" width="10" height="68" rx="1.5" fill="#E6E6E6" stroke="#999999" stroke-width="1.2"/><g fill="#4D4D4D"><rect x="146.5" y="15" width="5" height="2.4" rx="1"/><rect x="146.5" y="21" width="5" height="2.4" rx="1"/><rect x="146.5" y="27" width="5" height="2.4" rx="1"/><rect x="146.5" y="33" width="5" height="2.4" rx="1"/><rect x="146.5" y="39" width="5" height="2.4" rx="1"/><rect x="146.5" y="45" width="5" height="2.4" rx="1"/><rect x="146.5" y="51" width="5" height="2.4" rx="1"/><rect x="146.5" y="57" width="5" height="2.4" rx="1"/><rect x="146.5" y="63" width="5" height="2.4" rx="1"/><rect x="146.5" y="69" width="5" height="2.4" rx="1"/><rect x="146.5" y="75" width="5" height="2.4" rx="1"/></g>
+    <path d="M112,45 H136 M129,38 L136,45 L129,52" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="128" cy="14" r="3.6" fill="url(#k10_gL)" stroke="#808080" stroke-width="1"/>
+  </g>
+</svg>
+<text x="962.5" y="863" class="name">Klimakonvektor_rechts_aus</text>
+<text x="962.5" y="884" class="mass">160 × 90 px</text>
+</g>
+<g id="Klimakonvektor_rechts_stoerung">
+<rect x="1159" y="645" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="646" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1202.5" y="675.25" width="280" height="157.5" viewBox="0 0 160 90" overflow="hidden">
+<title id="k11_title">Klimakonvektor (Kanalgerät), Draufsicht, Ausblas rechts, Störung</title>
+  <defs>
+    <linearGradient id="k11_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <radialGradient id="k11_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#F5A3A0"/><stop offset="1" stop-color="#D7302B"/></radialGradient>
+  </defs>
+  <rect x="10" y="5" width="146" height="80" rx="3" fill="url(#k11_gG)" stroke="#999999" stroke-width="2"/>
+  <g>
+    <rect x="17" y="13" width="28" height="64" rx="2" fill="#F7F8F9" stroke="#808080" stroke-width="1.4"/><g stroke="#B5BCC4" stroke-width="0.8"><line x1="20" y1="15" x2="20" y2="75"/><line x1="23" y1="15" x2="23" y2="75"/><line x1="26" y1="15" x2="26" y2="75"/><line x1="29" y1="15" x2="29" y2="75"/><line x1="32" y1="15" x2="32" y2="75"/><line x1="35" y1="15" x2="35" y2="75"/><line x1="38" y1="15" x2="38" y2="75"/><line x1="41" y1="15" x2="41" y2="75"/></g>
+    <path d="M84,10 A16,16 0 1 0 99.49,22 H105 V10 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,26)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <path d="M84,48 A16,16 0 1 0 99.49,60 H105 V48 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,64)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <rect x="144" y="11" width="10" height="68" rx="1.5" fill="#E6E6E6" stroke="#999999" stroke-width="1.2"/><g fill="#4D4D4D"><rect x="146.5" y="15" width="5" height="2.4" rx="1"/><rect x="146.5" y="21" width="5" height="2.4" rx="1"/><rect x="146.5" y="27" width="5" height="2.4" rx="1"/><rect x="146.5" y="33" width="5" height="2.4" rx="1"/><rect x="146.5" y="39" width="5" height="2.4" rx="1"/><rect x="146.5" y="45" width="5" height="2.4" rx="1"/><rect x="146.5" y="51" width="5" height="2.4" rx="1"/><rect x="146.5" y="57" width="5" height="2.4" rx="1"/><rect x="146.5" y="63" width="5" height="2.4" rx="1"/><rect x="146.5" y="69" width="5" height="2.4" rx="1"/><rect x="146.5" y="75" width="5" height="2.4" rx="1"/></g>
+    <path d="M112,45 H136 M129,38 L136,45 L129,52" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><circle cx="128" cy="14" r="3.6" fill="url(#k11_gL)" stroke="#9E1F1B" stroke-width="1"/></g>
+  </g>
+  <g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><g transform="translate(84 45)"><path d="M0,-21 L23,18 L-23,18 Z" fill="#D7302B" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/><rect x="-3" y="-10" width="6" height="18" rx="3" fill="#FFFFFF"/><circle cx="0" cy="13" r="3.2" fill="#FFFFFF"/></g></g>
+</svg>
+<text x="1342.5" y="863" class="name">Klimakonvektor</text>
+<text x="1342.5" y="881" class="name">rechts_stoerung</text>
+<text x="1342.5" y="902" class="mass">160 × 90 px</text>
+</g>
+<g id="Klimakonvektor_unten">
+<rect x="19" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="20" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="156.09" y="959.5" width="92.81" height="165" viewBox="0 0 90 160" overflow="hidden">
+<title id="k12_title">Klimakonvektor (Kanalgerät), Draufsicht, Ausblas unten, aus</title>
+  <defs>
+    <linearGradient id="k12_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <radialGradient id="k12_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <rect x="5" y="10" width="80" height="146" rx="3" fill="url(#k12_gG)" stroke="#999999" stroke-width="2"/>
+  <g transform="translate(90,0) rotate(90)">
+    <rect x="17" y="13" width="28" height="64" rx="2" fill="#F7F8F9" stroke="#808080" stroke-width="1.4"/><g stroke="#B5BCC4" stroke-width="0.8"><line x1="20" y1="15" x2="20" y2="75"/><line x1="23" y1="15" x2="23" y2="75"/><line x1="26" y1="15" x2="26" y2="75"/><line x1="29" y1="15" x2="29" y2="75"/><line x1="32" y1="15" x2="32" y2="75"/><line x1="35" y1="15" x2="35" y2="75"/><line x1="38" y1="15" x2="38" y2="75"/><line x1="41" y1="15" x2="41" y2="75"/></g>
+    <path d="M84,10 A16,16 0 1 0 99.49,22 H105 V10 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,26)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <path d="M84,48 A16,16 0 1 0 99.49,60 H105 V48 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,64)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <rect x="144" y="11" width="10" height="68" rx="1.5" fill="#E6E6E6" stroke="#999999" stroke-width="1.2"/><g fill="#4D4D4D"><rect x="146.5" y="15" width="5" height="2.4" rx="1"/><rect x="146.5" y="21" width="5" height="2.4" rx="1"/><rect x="146.5" y="27" width="5" height="2.4" rx="1"/><rect x="146.5" y="33" width="5" height="2.4" rx="1"/><rect x="146.5" y="39" width="5" height="2.4" rx="1"/><rect x="146.5" y="45" width="5" height="2.4" rx="1"/><rect x="146.5" y="51" width="5" height="2.4" rx="1"/><rect x="146.5" y="57" width="5" height="2.4" rx="1"/><rect x="146.5" y="63" width="5" height="2.4" rx="1"/><rect x="146.5" y="69" width="5" height="2.4" rx="1"/><rect x="146.5" y="75" width="5" height="2.4" rx="1"/></g>
+    <path d="M112,45 H136 M129,38 L136,45 L129,52" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="128" cy="14" r="3.6" fill="url(#k12_gL)" stroke="#808080" stroke-width="1"/>
+  </g>
+</svg>
+<text x="202.5" y="1151" class="name">Klimakonvektor_unten</text>
+<text x="202.5" y="1172" class="mass">90 × 160 px</text>
+</g>
+<g id="Klimakonvektor_unten_an">
+<rect x="399" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="400" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="536.09" y="959.5" width="92.81" height="165" viewBox="0 0 90 160" overflow="hidden">
+<title id="k13_title">Klimakonvektor (Kanalgerät), Draufsicht, Ausblas unten, Betrieb</title>
+  <defs>
+    <linearGradient id="k13_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <radialGradient id="k13_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#A8DC96"/><stop offset="1" stop-color="#3E9A3A"/></radialGradient>
+  </defs>
+  <rect x="5" y="10" width="80" height="146" rx="3" fill="url(#k13_gG)" stroke="#999999" stroke-width="2"/>
+  <g transform="translate(90,0) rotate(90)">
+    <rect x="17" y="13" width="28" height="64" rx="2" fill="#F7F8F9" stroke="#808080" stroke-width="1.4"/><g stroke="#B5BCC4" stroke-width="0.8"><line x1="20" y1="15" x2="20" y2="75"/><line x1="23" y1="15" x2="23" y2="75"/><line x1="26" y1="15" x2="26" y2="75"/><line x1="29" y1="15" x2="29" y2="75"/><line x1="32" y1="15" x2="32" y2="75"/><line x1="35" y1="15" x2="35" y2="75"/><line x1="38" y1="15" x2="38" y2="75"/><line x1="41" y1="15" x2="41" y2="75"/></g>
+    <path d="M84,10 A16,16 0 1 0 99.49,22 H105 V10 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,26)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1.2s" repeatCount="indefinite"/><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <path d="M84,48 A16,16 0 1 0 99.49,60 H105 V48 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,64)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1.2s" repeatCount="indefinite"/><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <rect x="144" y="11" width="10" height="68" rx="1.5" fill="#E6E6E6" stroke="#999999" stroke-width="1.2"/><g fill="#4D4D4D"><rect x="146.5" y="15" width="5" height="2.4" rx="1"/><rect x="146.5" y="21" width="5" height="2.4" rx="1"/><rect x="146.5" y="27" width="5" height="2.4" rx="1"/><rect x="146.5" y="33" width="5" height="2.4" rx="1"/><rect x="146.5" y="39" width="5" height="2.4" rx="1"/><rect x="146.5" y="45" width="5" height="2.4" rx="1"/><rect x="146.5" y="51" width="5" height="2.4" rx="1"/><rect x="146.5" y="57" width="5" height="2.4" rx="1"/><rect x="146.5" y="63" width="5" height="2.4" rx="1"/><rect x="146.5" y="69" width="5" height="2.4" rx="1"/><rect x="146.5" y="75" width="5" height="2.4" rx="1"/></g>
+    <path d="M112,45 H136 M129,38 L136,45 L129,52" fill="none" stroke="#4D4D4D" stroke-opacity="0.25" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="112 45;138 45" dur="1.2s" begin="0s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.4s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="112 45;138 45" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></path><path d="M-4,-6 L2,0 L-4,6" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.75;1" dur="1.2s" begin="0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="112 45;138 45" dur="1.2s" begin="0.8s" repeatCount="indefinite"/></path>
+    <circle cx="128" cy="14" r="3.6" fill="url(#k13_gL)" stroke="#2F7A2C" stroke-width="1"/>
+  </g>
+</svg>
+<text x="582.5" y="1151" class="name">Klimakonvektor_unten_an</text>
+<text x="582.5" y="1172" class="mass">90 × 160 px</text>
+</g>
+<g id="Klimakonvektor_unten_aus">
+<rect x="779" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="780" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="916.09" y="959.5" width="92.81" height="165" viewBox="0 0 90 160" overflow="hidden">
+<title id="k14_title">Klimakonvektor (Kanalgerät), Draufsicht, Ausblas unten, aus</title>
+  <defs>
+    <linearGradient id="k14_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <radialGradient id="k14_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#EDEDED"/><stop offset="1" stop-color="#A6A6A6"/></radialGradient>
+  </defs>
+  <rect x="5" y="10" width="80" height="146" rx="3" fill="url(#k14_gG)" stroke="#999999" stroke-width="2"/>
+  <g transform="translate(90,0) rotate(90)">
+    <rect x="17" y="13" width="28" height="64" rx="2" fill="#F7F8F9" stroke="#808080" stroke-width="1.4"/><g stroke="#B5BCC4" stroke-width="0.8"><line x1="20" y1="15" x2="20" y2="75"/><line x1="23" y1="15" x2="23" y2="75"/><line x1="26" y1="15" x2="26" y2="75"/><line x1="29" y1="15" x2="29" y2="75"/><line x1="32" y1="15" x2="32" y2="75"/><line x1="35" y1="15" x2="35" y2="75"/><line x1="38" y1="15" x2="38" y2="75"/><line x1="41" y1="15" x2="41" y2="75"/></g>
+    <path d="M84,10 A16,16 0 1 0 99.49,22 H105 V10 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,26)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <path d="M84,48 A16,16 0 1 0 99.49,60 H105 V48 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,64)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <rect x="144" y="11" width="10" height="68" rx="1.5" fill="#E6E6E6" stroke="#999999" stroke-width="1.2"/><g fill="#4D4D4D"><rect x="146.5" y="15" width="5" height="2.4" rx="1"/><rect x="146.5" y="21" width="5" height="2.4" rx="1"/><rect x="146.5" y="27" width="5" height="2.4" rx="1"/><rect x="146.5" y="33" width="5" height="2.4" rx="1"/><rect x="146.5" y="39" width="5" height="2.4" rx="1"/><rect x="146.5" y="45" width="5" height="2.4" rx="1"/><rect x="146.5" y="51" width="5" height="2.4" rx="1"/><rect x="146.5" y="57" width="5" height="2.4" rx="1"/><rect x="146.5" y="63" width="5" height="2.4" rx="1"/><rect x="146.5" y="69" width="5" height="2.4" rx="1"/><rect x="146.5" y="75" width="5" height="2.4" rx="1"/></g>
+    <path d="M112,45 H136 M129,38 L136,45 L129,52" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="128" cy="14" r="3.6" fill="url(#k14_gL)" stroke="#808080" stroke-width="1"/>
+  </g>
+</svg>
+<text x="962.5" y="1151" class="name">Klimakonvektor_unten_aus</text>
+<text x="962.5" y="1172" class="mass">90 × 160 px</text>
+</g>
+<g id="Klimakonvektor_unten_stoerung">
+<rect x="1159" y="933" width="366" height="275" rx="11" fill="#D1D3D7"/>
+<rect x="1160" y="934" width="364" height="273" rx="10" fill="#C8C8C8" stroke="#BBBDC0"/>
+<svg x="1296.09" y="959.5" width="92.81" height="165" viewBox="0 0 90 160" overflow="hidden">
+<title id="k15_title">Klimakonvektor (Kanalgerät), Draufsicht, Ausblas unten, Störung</title>
+  <defs>
+    <linearGradient id="k15_gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0F1F2"/><stop offset="1" stop-color="#D2D5D8"/></linearGradient>
+    <radialGradient id="k15_gL" cx="0.4" cy="0.35" r="0.65"><stop offset="0" stop-color="#F5A3A0"/><stop offset="1" stop-color="#D7302B"/></radialGradient>
+  </defs>
+  <rect x="5" y="10" width="80" height="146" rx="3" fill="url(#k15_gG)" stroke="#999999" stroke-width="2"/>
+  <g transform="translate(90,0) rotate(90)">
+    <rect x="17" y="13" width="28" height="64" rx="2" fill="#F7F8F9" stroke="#808080" stroke-width="1.4"/><g stroke="#B5BCC4" stroke-width="0.8"><line x1="20" y1="15" x2="20" y2="75"/><line x1="23" y1="15" x2="23" y2="75"/><line x1="26" y1="15" x2="26" y2="75"/><line x1="29" y1="15" x2="29" y2="75"/><line x1="32" y1="15" x2="32" y2="75"/><line x1="35" y1="15" x2="35" y2="75"/><line x1="38" y1="15" x2="38" y2="75"/><line x1="41" y1="15" x2="41" y2="75"/></g>
+    <path d="M84,10 A16,16 0 1 0 99.49,22 H105 V10 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,26)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <path d="M84,48 A16,16 0 1 0 99.49,60 H105 V48 Z" fill="#D9DCDF" stroke="#999999" stroke-width="1.4" stroke-linejoin="round"/><g transform="translate(84,64)"><circle r="13" fill="#2B3440" stroke="#6B7480" stroke-width="1.4"/><g><g fill="none" stroke="#8A94A0" stroke-width="1.8" stroke-linecap="round"><path d="M0,-5 Q5,-8 4,-12" transform="rotate(0)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(45)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(90)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(135)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(180)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(225)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(270)"/><path d="M0,-5 Q5,-8 4,-12" transform="rotate(315)"/></g></g><circle r="4" fill="#8A94A0"/><circle r="1.6" fill="#55606D"/></g>
+    <rect x="144" y="11" width="10" height="68" rx="1.5" fill="#E6E6E6" stroke="#999999" stroke-width="1.2"/><g fill="#4D4D4D"><rect x="146.5" y="15" width="5" height="2.4" rx="1"/><rect x="146.5" y="21" width="5" height="2.4" rx="1"/><rect x="146.5" y="27" width="5" height="2.4" rx="1"/><rect x="146.5" y="33" width="5" height="2.4" rx="1"/><rect x="146.5" y="39" width="5" height="2.4" rx="1"/><rect x="146.5" y="45" width="5" height="2.4" rx="1"/><rect x="146.5" y="51" width="5" height="2.4" rx="1"/><rect x="146.5" y="57" width="5" height="2.4" rx="1"/><rect x="146.5" y="63" width="5" height="2.4" rx="1"/><rect x="146.5" y="69" width="5" height="2.4" rx="1"/><rect x="146.5" y="75" width="5" height="2.4" rx="1"/></g>
+    <path d="M112,45 H136 M129,38 L136,45 L129,52" fill="none" stroke="#4D4D4D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><circle cx="128" cy="14" r="3.6" fill="url(#k15_gL)" stroke="#9E1F1B" stroke-width="1"/></g>
+  </g>
+  <g><animate attributeName="opacity" values="1;0.15" dur="1s" calcMode="discrete" repeatCount="indefinite"/><g transform="translate(45 84)"><path d="M0,-21 L23,18 L-23,18 Z" fill="#D7302B" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/><rect x="-3" y="-10" width="6" height="18" rx="3" fill="#FFFFFF"/><circle cx="0" cy="13" r="3.2" fill="#FFFFFF"/></g></g>
+</svg>
+<text x="1342.5" y="1151" class="name">Klimakonvektor</text>
+<text x="1342.5" y="1169" class="name">unten_stoerung</text>
+<text x="1342.5" y="1190" class="mass">90 × 160 px</text>
 </g>
 </svg>

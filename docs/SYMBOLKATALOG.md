@@ -105,7 +105,7 @@ Vollständige Beispiele mit erfundener Firma und Anlage (nur zur Veranschaulichu
 
 | Symbol | Größe | Hinweise |
 |---|---|---|
-| Klimakonvektor (Kanalgerät, Draufsicht) | 160 × 90 (rechts/links), 90 × 160 (oben/unten) | Pfeil = Ausblasrichtung; zwei Radialventilatoren; Freifläche für Nummern-Label |
+| Klimakonvektor (Kanalgerät, Draufsicht) (`Klimakonvektor_{richtung}_{aus,an,stoerung}`) | 160 × 90 (rechts/links), 90 × 160 (oben/unten) | Pfeil = Ausblasrichtung; Wärmetauscher, zwei Radialventilatoren, Ausblasgitter, Status-LED; ohne Anschlüsse. `_an`: Laufräder drehen, Luftpfeile laufen; `_stoerung`: Warndreieck und LED blinken. `Klimakonvektor_{richtung}` (ohne Zustand) bleibt aus Kompatibilität und entspricht `_aus`. Erzeugt mit `tools/klimakonvektor.py` |
 | Volumenstromregler rund | 140 × 80 / 80 × 140 | Rohr mit Flanschen, Klappe, Kompaktregler; links/oben gespiegelt, damit der Regler oben bzw. rechts sitzt |
 | Volumenstromregler eckig | 140 × 80 / 80 × 140 | Rechteckkanal, drei gegenläufige Lamellen (zwei unter 40 px) |
 | Deckenluftdurchlass rund (Hallen-Lochblech) | quadratisch | Kreis füllt die Bildfläche, ohne Stellhebel |

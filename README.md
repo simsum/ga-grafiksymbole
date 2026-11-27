@@ -54,7 +54,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
     automation/          Controller, I/O-Module, GLT-Leitrechner
     netzwerk/            Ethernet-Switches
     schaltschraenke/     Schaltschränke
-    feldgeraete/         Energieventile, Energie- und Wasserzähler
+    feldgeraete/         Energieventile, Energie- und Wasserzähler, BSK-Modbus-Modul
     geraete/             Allgemeine Geräte
 docs/
   STYLEGUIDE.md          Farben, Strichstärken, Proportionen
@@ -238,7 +238,7 @@ Jede Grafik zeigt alle Symbole einer Gruppe mit Dateinamen und Größe. Die Symb
 **Allgemeine Geräte** (`geraete`)
 ![Geräte](docs/uebersicht/Uebersicht_topologie_geraete.svg)
 
-**Feldgeräte: Energieventile, Energie- und Wasserzähler** (`feldgeraete`)
+**Feldgeräte: Energieventile, Energie- und Wasserzähler, BSK-Modbus-Modul** (`feldgeraete`)
 ![Feldgeräte](docs/uebersicht/Uebersicht_topologie_feldgeraete.svg)
 
 **Schaltschränke** (`schaltschraenke`)

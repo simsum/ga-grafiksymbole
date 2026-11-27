@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="156" viewBox="0 0 160 156" role="img" aria-labelledby="title desc">
+  <title id="title">BSK-Modbus-Modul</title>
+  <desc id="desc">Vereinfachtes, frei skalierbares Topologie-Symbol ohne sichtbare Beschriftung.</desc>
+
+  <g id="device">
+    <!-- Kabelverschraubungen -->
+    <g fill="#1a1f23" stroke="#080b0e" stroke-width="1.2">
+      <rect x="35" y="6" width="20" height="26" rx="4"/>
+      <rect x="70" y="6" width="20" height="26" rx="4"/>
+      <rect x="105" y="6" width="20" height="26" rx="4"/>
+    </g>
+    <g fill="#080b0e">
+      <rect x="40" y="6" width="10" height="3" rx="1"/>
+      <rect x="75" y="6" width="10" height="3" rx="1"/>
+      <rect x="110" y="6" width="10" height="3" rx="1"/>
+    </g>
+    <path d="M35 21h20M70 21h20M105 21h20" stroke="#3a434a" stroke-width="1.2"/>
+    <path d="M40 12v7M45 12v7M50 12v7M75 12v7M80 12v7M85 12v7M110 12v7M115 12v7M120 12v7" stroke="#30383e" stroke-width="1"/>
+
+    <!-- Gehäuse -->
+    <rect x="13" y="31" width="140" height="110" rx="10" fill="#0a0e11" opacity="0.4"/>
+    <rect x="10" y="28" width="140" height="110" rx="10" fill="#22292e" stroke="#080b0e" stroke-width="1.7"/>
+    <rect x="17" y="35" width="126" height="96" rx="6" fill="#0d1114" stroke="#080b0e" stroke-width="1"/>
+    <g fill="#22292e">
+      <circle cx="22" cy="40" r="5"/>
+      <circle cx="138" cy="40" r="5"/>
+      <circle cx="22" cy="126" r="5"/>
+      <circle cx="138" cy="126" r="5"/>
+    </g>
+
+    <!-- Platine (mittig im Gehäuse) -->
+    <g transform="translate(9 0)">
+    <rect x="23" y="41" width="96" height="84" rx="3" fill="#3fae4a" stroke="#1f6b28" stroke-width="1"/>
+    <g fill="none" stroke="#d9f2db" stroke-width="0.7" stroke-dasharray="2 1.5" opacity="0.7">
+      <rect x="27" y="53" width="40" height="20" rx="2"/>
+      <rect x="27" y="92" width="44" height="29" rx="2"/>
+      <rect x="77" y="92" width="38" height="29" rx="2"/>
+    </g>
+    <g fill="#c7ced3" stroke="#6f7a82" stroke-width="0.6">
+      <circle cx="113" cy="47" r="2.4"/>
+      <circle cx="29" cy="119" r="2.4"/>
+      <circle cx="113" cy="119" r="2.4"/>
+    </g>
+
+    <!-- Netz-Klemmen IN/OUT -->
+    <g stroke="#1f6b28" stroke-width="0.8">
+      <rect x="29" y="58" width="17" height="12" rx="1.2" fill="#6fd35a"/>
+      <rect x="48" y="58" width="17" height="12" rx="1.2" fill="#6fd35a"/>
+      <rect x="96" y="58" width="17" height="12" rx="1.2" fill="#6fd35a"/>
+    </g>
+    <g fill="#1f6b28">
+      <circle cx="32.5" cy="65.5" r="1.7"/><circle cx="37.5" cy="65.5" r="1.7"/><circle cx="42.5" cy="65.5" r="1.7"/>
+      <circle cx="51.5" cy="65.5" r="1.7"/><circle cx="56.5" cy="65.5" r="1.7"/><circle cx="61.5" cy="65.5" r="1.7"/>
+      <circle cx="99.5" cy="65.5" r="1.7"/><circle cx="104.5" cy="65.5" r="1.7"/><circle cx="109.5" cy="65.5" r="1.7"/>
+    </g>
+
+    <!-- Trafo -->
+    <rect x="70" y="50" width="23" height="28" rx="1.5" fill="#f07c22" stroke="#9a4a0c" stroke-width="0.9"/>
+    <path d="M70 55h23" stroke="#f7a15e" stroke-width="1.2"/>
+
+    <!-- Relais -->
+    <g fill="#eef1f2" stroke="#8f9aa2" stroke-width="0.8">
+      <rect x="38" y="75" width="13" height="22" rx="1"/>
+      <rect x="52" y="75" width="13" height="22" rx="1"/>
+    </g>
+
+    <!-- DIP-Schalter Adresse / Parität -->
+    <rect x="96" y="76" width="19" height="8" rx="1" fill="#e52a2a" stroke="#8c1418" stroke-width="0.7"/>
+    <path d="M98.5 78v4M101 78v4M103.5 78v4M106 78v4M108.5 78v4M111 78v4M113.5 78v4" stroke="#fbe9e9" stroke-width="1.3"/>
+    <rect x="80" y="80" width="11" height="7" rx="1" fill="#e52a2a" stroke="#8c1418" stroke-width="0.7"/>
+    <path d="M82.5 82v3M85.5 82v3M88.5 82v3" stroke="#fbe9e9" stroke-width="1.3"/>
+    <circle cx="74" cy="84" r="3.2" fill="#e4312b"/>
+
+    <!-- Steckverbinder DO / DI -->
+    <g fill="#eef1f2" stroke="#8f9aa2" stroke-width="0.7">
+      <rect x="30" y="99" width="7" height="16" rx="1"/>
+      <rect x="62" y="99" width="7" height="16" rx="1"/>
+      <rect x="80" y="97" width="15" height="11" rx="1"/>
+      <rect x="98" y="97" width="15" height="11" rx="1"/>
+    </g>
+    <g fill="#b9c2c8">
+      <rect x="31.8" y="101" width="3.4" height="3" /><rect x="31.8" y="105.5" width="3.4" height="3"/><rect x="31.8" y="110" width="3.4" height="3"/>
+      <rect x="63.8" y="101" width="3.4" height="3" /><rect x="63.8" y="105.5" width="3.4" height="3"/><rect x="63.8" y="110" width="3.4" height="3"/>
+      <rect x="82" y="99" width="3" height="3"/><rect x="86" y="99" width="3" height="3"/><rect x="90" y="99" width="3" height="3"/>
+      <rect x="82" y="103" width="3" height="3"/><rect x="86" y="103" width="3" height="3"/><rect x="90" y="103" width="3" height="3"/>
+      <rect x="100" y="99" width="3" height="3"/><rect x="104" y="99" width="3" height="3"/><rect x="108" y="99" width="3" height="3"/>
+      <rect x="100" y="103" width="3" height="3"/><rect x="104" y="103" width="3" height="3"/><rect x="108" y="103" width="3" height="3"/>
+    </g>
+
+    </g>
+
+    <!-- Befestigungslaschen -->
+    <g fill="#1a1f23" stroke="#080b0e" stroke-width="1">
+      <rect x="42" y="134" width="30" height="12" rx="1.5"/>
+      <rect x="88" y="134" width="30" height="12" rx="1.5"/>
+    </g>
+    <g fill="#080b0e">
+      <circle cx="52" cy="140" r="2.2"/><circle cx="62" cy="140" r="1.6"/>
+      <circle cx="98" cy="140" r="2.2"/><circle cx="108" cy="140" r="1.6"/>
+    </g>
+  </g>
+  <g id="connection-anchors" fill="none" stroke="none">
+    <circle id="anchor-left" cx="0" cy="83" r="1"/>
+    <circle id="anchor-right" cx="160" cy="83" r="1"/>
+    <circle id="anchor-top" cx="80" cy="0" r="1"/>
+    <circle id="anchor-bottom" cx="80" cy="156" r="1"/>
+  </g>
+</svg>

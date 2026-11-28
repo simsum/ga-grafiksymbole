@@ -38,7 +38,7 @@ symbole/                 nur SVG-Dateien, immer in symbole/<Fachbereich>/<Gruppe
     schalter/            Reparaturschalter (Ein, Aus)
     punkte/              Dezent blinkende Punkte
     betriebsart/         Betriebsart Normal/Leise
-    freigabe/            Freigabe / keine Freigabe, 24 × 24, fünf Varianten
+    freigabe/            Freigabe / keine Freigabe, 24 × 24, fünf Varianten, Haken und Ein auch gedrückt
     alarm/               Brandalarm (normal, Alarm), Heizungs-Notschalter (normal, ausgelöst)
     aussenwerte/         Thermometer und Tropfen vor Außentemperatur und -feuchte (grau, flach, plastisch, zustandsabhängig)
   fun/                   Verspielte Cartoon-Symbole, animiert, Gruppen wie in der Hauptstruktur

@@ -411,6 +411,7 @@ Einzelne Flanschanschlüsse zum Anlegen an Geräte oder Leitungen, alle 24 × 24
 | `Freigabe_Ein` | Ein-Symbol | Ein-Symbol grau |
 | `Freigabe_Punkt` | Punkt mit Ring | Punkt mit Ring grau, am dezentesten |
 
+- Für `Freigabe_Haken` und `Freigabe_Ein` zusätzlich `_an_gedrueckt` und `_aus_gedrueckt`, z. B. als Taster-Rückmeldung oder für den gedrückten Zustand eines Buttons: Verlauf umgedreht (oben dunkel), Schattenbogen innen oben, Zeichen auf 90 % verkleinert und 0,7 px tiefer. Farben wie `_an` bzw. `_aus`.
 - Umschalten über Boolean-Binding auf `image`. Erzeugt mit `tools/freigabe.py`.
 
 ### Brandalarm (`symbole/anzeigen/alarm/`)
